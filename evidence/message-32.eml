@@ -1,0 +1,85 @@
+From - Sun Aug 28 22:39:58 2022
+X-Account-Key: account1
+X-UIDL: ABavTVg4BkxjYmGE7QyyACaTdpM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.9
+ by atlas318.free.mail.bf1.yahoo.com with HTTPS; Thu, 21 Apr 2022 16:24:49 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.6]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.6 as permitted sender)
+Authentication-Results: atlas318.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 21 Apr 2022 16:24:49 +0000
+X-YMailISG: DnwCxHgWLDsaQuMV7nMa1WoFkb7c8Qpcl6lGfFj7weBHLrWO
+ C9IVoQYthKInPioR_lULvvSbSF87a0IlIXIqSTLmzTtpqfDD2uePy37xxx_D
+ SRV.oLltI3D8MNtyohmxx5i_JUexw8gti0EE_0kbqE1oNPN63BmTaOwrSni3
+ iJu3RiPIt6NGSDA07BuH661tuaHFO5Z4tQDGo9VivyLx8YZ1lscWYShR3bhN
+ 5mfLyGi84DxQ2EMlfsNHZxrCdm6UbYIqEMW6W8us.O9jYanMLVl9o3l6sLQ2
+ mPsYQfqDZes4OFF3Y8jT2g9cuqCBBJkVcizYp6X4kkG_5TXZ.B.utWyUNRav
+ ya07isYY9zcZeSfGJqBsCPEG_KaT4ZlW4bOjoAZ_5Mc23ifd1.l58nW61Ymj
+ 8tH56lxYV40T8Zs3XtiP8ogU.xSKRccWxDM4m5fMNJ7Co11lAaOS1XI_h1s6
+ cOcI.vOFCUOJs9mAL47Dkxd7NIeBhBDeJbljjxKy4469OUs_Kaay4txZNn.l
+ pcuioAAIRFCUsH0fB9sFP71LQkfHWdhW3WEX8vjBsMPdT_6MO9eLTAXbubeb
+ rSBqMwAiapuIEd86mSyLcREKzW6lVJ.JnX7LXSyg1pKIoMVcmn0aFi_zUvnw
+ qqM_do9TMsbtH5LjjAtngF2nLkZmLPbNHy9Abg9nXifAdHP1OEUabm0obrcp
+ oZxYJfSVFGx69kWoQclQ7xWpgd8Y4XVlkf.X6xgLJrH01aF1v1ShK6iUoj_4
+ MRxDp7so.ZlQeXbBl6l1la.iKBp4N_pfzbg1D4AiBm7cOALJZxU8MQ3pysnm
+ O4V7cy3kIWf4bEvV2AtWzZ34e7D6XdZlJ4uzMdnVQplZ.JGHqbI37Ehd2e48
+ Hhcvn0z5b3FLi3JR0zTZVHRZailTpjMiuRANiQCeJAT43WcIayQNfppXk.XZ
+ XjKnidRBSFIGMjDCqBE0svJ4X0o0FwcdQk2MFCDYcIFdzYeXHfZ9Rta8utTE
+ 3AJ2AQFMMdrxQ7aFkK3SveSg183tCSSNqwl0C5irt4CRPqZ8DIspnK5wpECs
+ Uq_j45fwAKSeW2G6wkECHovgw804WrzEydSp3kebUVLAACQC6bFwC3683FXS
+ Aveyi4U6tPS9u8lvwYlJVw--
+Received: from 166.216.149.6 (EHLO alpemg-mtmta03.wnsnet.attws.com)
+ by 10.197.32.9 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 21 Apr 2022 16:24:49 +0000
+Received: from zatn1bmmsc01nfe001.wnsnet.atn1b.tci.att.com ([107.78.102.27])
+	by bizsmtp with ESMTP
+	id hWLcnj70VRZeqhZbtngF2h; Thu, 21 Apr 2022 12:24:49 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1650558289;
+	bh=SsrXEA7JeUrX3v3BwStEXSnbu00WARoyl6C80tX2TIw=;
+	h=In-Reply-To:To:From:Date;
+	b=Or1LjzoKRylpNiXynuU4xf1L3A6B4umpa+q939OLOGO/8bEwWHMa1ZrU0GPW8tFVy
+	 iU2CxcS2O7LV9XCG43SloQD4r75iO1uIgUoWTGfsYEaKhWIZIj329yObiMk/CNz5Ey
+	 BcH7wZ2nMJEs6Nzc6DdrxzXm9JCezymkZoA9YLo93LZ1CPOmleNy4j1azDUFEhVSUJ
+	 ojHnol0Mj6+uPDiQBT+SwZfOXw8Z6DpluKQCmv0+8MmRyIvXF37Uh7iblYPs+VsxP0
+	 Z1ate/kTrhgKt9ypdxhaHoXV9ELbVyTMpLfepA68LiijaDghSyG5De0TLCR+lsU5sF
+	 CSICNrL+RvMjg==
+Message-ID: <hWLcnj70VRZeqhZbtngF2h@txt.att.net>
+In-Reply-To: 1793308786.31097110.1650558289069.JavaMail.nems@zatn1bmmsc01nfe001
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1650558101-980
+X-Mms-MMS-Version: 1.2
+To: electronicfilings@ftc.gov, pronewsletter@dowjones.com, 
+	kerri.saperstein@morgansley.com, mstanley321@bloomberg.net, 
+	mshy15@morganstanley.com, mshy2@bloomberg.net, mshy1@bloomberg.net, 
+	ms60710444266@yahoo.com, info@ey.com, info@kpmg.com, gs@gs.com, 
+	bbrief@bloomberg.net, bofamarkets@bofa.com, bcassese19@bloomberg.net, 
+	tmc-corps@bloomberg.net, tracedataservices@finra.org, 
+	mediainquiries@point72.com, mediarelations@ap.org, media@chi.frb.org
+From: 6462563609@mms.att.net
+Date: Thu, 21 Apr 2022 16:24:49 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_31097109_37087299.1650558289069"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfEbP6gkKn3i6cvWhR+jNqBSwEqZH9LApMm36UhRIiIv8rE7mt7CkgxH+d2f+T0vQB1Bm5inw9vCJvStEXpDrDDElZfr+B/yESwb6Q0nry6WpCBK5+rxg
+ x2cKMW1ymoAi7uWY8pOaD46opPQJmPxyRN7fJ0xWBBkEtSN6QS7fwPf2+yqhkf03heUV981RUfyNFpZbSpYT1OBqTUcWSni6jBPbEEY3bpGu6//2TSNKKdag
+Content-Length: 408
+
+------=_Part_31097109_37087299.1650558289069
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9saW5rL3RyYWNrP3VyaT11cm46YWFpZDpzY2RzOlVT
+OmJmMDAzZjMwLWZhNWItM2ZhNS04NWVjLTgyYmFlOWI5ODYwNw==
+------=_Part_31097109_37087299.1650558289069--

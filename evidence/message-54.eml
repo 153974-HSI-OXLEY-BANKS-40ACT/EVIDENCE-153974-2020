@@ -1,0 +1,85 @@
+From - Sun Aug 28 22:40:15 2022
+X-Account-Key: account1
+X-UIDL: AA9YLDBI7UOsYmGHQgIDoBw1Us0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.112
+ by atlas211.free.mail.gq1.yahoo.com with HTTPS; Thu, 21 Apr 2022 16:33:05 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.4]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.4 as permitted sender)
+Authentication-Results: atlas211.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 21 Apr 2022 16:33:06 +0000
+X-YMailISG: vFQynO0WLDug.dxzdEafsZ6c6tsdt_fgi88o9cveWphTmF83
+ P8IvAsoTxBFFGUHFvWN4ouYIyn.c2ivctLWaFRwCaDeDl9cNFkpWl5Xd.kJA
+ QMYFe.HVCrzG01vnheOgXa4xLC9stitX418OnRdPmpGWY9B2gb_QIB0Ephwx
+ 4Wl6rznC.fTJqDei0ZBe1eug.WRboDse2gf0MHWBy3I9WQffkGCaww5RAjD1
+ nuzU.WzPZytB7_bwKPDXwGSzg8XuSp74j9LVb5NKOC5FKRUftURXDSuUVxUn
+ XtvuJO9pi16fXV8Zruk2LlOcfyfqxwJxeNDQj6UBe_om2QtiaoZCnILpO0bd
+ qNZVw0WM9ts.sBtyA6DksyIFdbf8A.5Bsj68EF4PGztVHW3SSRJ.EmLNefpg
+ zKSqD4Z5d9fXGgxSyZKBSu.1Qu0p__nZ6xFsX9HEStmsTWtgnJpcBy0bsyXK
+ HogewzhLZbOW0npoAcyHpj71rbEF1M0GB8O3UKGy8.pgf8Da8zhKS9yL1tnn
+ zUAnRBs6_QLZrQ7xAGs9.V1hhUQmMam2KVkL31rJB5E6vzJRRnhcTjzGFBja
+ w4fsmDedK03Sm.q8V98uStPSgJODIvWvk0ZG6vvHt5mGZefoF1OBXrvGYG0h
+ 8hDhLIAIWIQLStNiaDQpt.J3DaXR3bB10pp8ifQhU1UH7X0fr7LVjUKDVIxY
+ zTmYv.Nirkb8Dly6qu_WLygIpvhjaOeXbcvjR6sPGRubT6J1oa_6Yor4N_8N
+ U5n_8w4uhw5Xm368SM1UmQuDKqDcO.IGAKxaGwQE4JbZrhhxH4VG2bKpxcUY
+ wztebWsQdnT3qSgMvjQwGAVOA9Zi5UhRHjf2RvpbrMjMJg5SzU0ko_RTE0i9
+ U52q4g_4sG8N6JeHzrcfSk82DqcIAohF0t28AYVy1T7OA5v5x.cdSpSyV6Ga
+ QIzC7euFVZy6vGyHajsHhiQtNw9UkR8.4fmU1uAY_xkquMzgCjc851PoP3kx
+ jfNwO4B84ifURNi2TlDLc2KtwEHkwyQ.A0KJmCITg4vR3O6TBJAcdQnMe.7e
+ 6hawdrl20Bi8.1lqld5LjOE1J3zmLwdGSj2T2syGu1KcY0UVDNtQWB4LCxAF
+ _IUTS6hOCYxBCbBwhc1lqkk-
+Received: from 166.216.149.4 (EHLO alpemg-mtmta01.wnsnet.attws.com)
+ by 10.253.31.112 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 21 Apr 2022 16:33:05 +0000
+Received: from zatn1bmmsc01nfe001.wnsnet.atn1b.tci.att.com ([107.78.102.27])
+	by bizsmtp with ESMTP
+	id hVOfnvBPKuAaBhZjsnCu2G; Thu, 21 Apr 2022 12:33:04 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1650558784;
+	bh=WA6HpE4x6EAG5OQj8YqzgR84Q4eCor4IqsdwAFWuRSM=;
+	h=In-Reply-To:To:From:Date;
+	b=Az0BvteiNiqTtL7vDNHlZai/u0KwnnMaRVFGC1tHl/yvVDk6HCS9JjsTgYXaKizXY
+	 8/n74toswrdqMl6W0mgYXns+CRrcgPiJDyx7I71rFZA1BVy8aM9BILqM5/BP1gtAn9
+	 Zvtc8jvqi8bgVkKFaYCkWFVZkKFXbHm96Ynm1Hlz/bijCheLlS9e80UBYdhJwC377Y
+	 HJ1tKJ8UvOPR5lKZR6MRU5+ETPufP2i0GJpftdj9Tp66b0ln1nVR/PuzDmhhdQqd1J
+	 vkVNZTejIOY2iQ+7uyKmcIut7H2djsvy+x0yBzvCTKbsOMYzo5vj2SPwmwkk7yWPOd
+	 0roBt5RSTvyOA==
+Message-ID: <hVOfnvBPKuAaBhZjsnCu2G@txt.att.net>
+In-Reply-To: 83734704.31124659.1650558784041.JavaMail.nems@zatn1bmmsc01nfe001
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1650558641-1383
+X-Mms-MMS-Version: 1.2
+To: electronicfilings@ftc.gov, pronewsletter@dowjones.com, 
+	kerri.saperstein@morgansley.com, mstanley321@bloomberg.net, 
+	mshy15@morganstanley.com, mshy2@bloomberg.net, mshy1@bloomberg.net, 
+	ms60710444266@yahoo.com, info@ey.com, info@kpmg.com, gs@gs.com, 
+	bbrief@bloomberg.net, bofamarkets@bofa.com, bcassese19@bloomberg.net, 
+	tmc-corps@bloomberg.net, tracedataservices@finra.org, 
+	mediainquiries@point72.com, mediarelations@ap.org, media@chi.frb.org
+From: 6462563609@mms.att.net
+Date: Thu, 21 Apr 2022 16:33:04 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_31124658_2032624962.1650558784041"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfH9KFj/ApqAhb8i62uA1HvnJ1GTdSL3lmzQ2olXwFDb0LKQ+JLkYAUUTSvTeY1yGYKwnd6Yrr0VPXMWPlkPmxDRhHH1LNC3l2Rj2gT/aC3VoxteNJa/k
+ vVxsHZD41gzavM6CH8YkuknnOjgDxMrd50GmJB/5UOVbQ4eDMl4pmiaa4X8sOHpt9m/fCTe1z3lF3b3V9EHpK+aCSaaHB6xWSXT/m21qmFmS3Qv1KBlY+NQA
+Content-Length: 412
+
+------=_Part_31124658_2032624962.1650558784041
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9saW5rL3RyYWNrP3VyaT11cm46YWFpZDpzY2RzOlVT
+OmFmMDIyMWNjLWQ2NTQtMzgwZC05Yzk2LTcwYmE1YjNlMTQ5Nw==
+------=_Part_31124658_2032624962.1650558784041--

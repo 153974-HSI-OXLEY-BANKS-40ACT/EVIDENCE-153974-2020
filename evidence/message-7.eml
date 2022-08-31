@@ -1,0 +1,85 @@
+From - Sun Aug 28 22:39:59 2022
+X-Account-Key: account1
+X-UIDL: AAUJFoYKXjHnYmGE7g0TqDL+9Vg
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.247
+ by atlas319.free.mail.ne1.yahoo.com with HTTPS; Thu, 21 Apr 2022 16:23:10 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.5]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.5 as permitted sender)
+Authentication-Results: atlas319.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 21 Apr 2022 16:23:10 +0000
+X-YMailISG: VwuorwMWLDvEDtOzCZX7L1lb7aezEO3J7g4s2Gls8uC3x6xN
+ vVdvld7tDg9I3MwY1aB1QgoMvIwT6CJGPEWl6K4WIkg3tVGmjqOqt0ajgPa7
+ MO1Zp4W8l_rzLbjdmtzUtciSuGixxwpIqBWp5hFHOTSVKVLGrKihnsxdA2lg
+ z1viu.EaqmZuqVMcyAJZ87fDWvUED_u.SE4kSaaQPOmgIxJMsHcN_3h0IO_A
+ KXYeKRBnfM6zsahUKK6vwaWiBEEcdN0rPwxuZJ3oBh9eUW6Jg6BQzYo29kku
+ DwOTFdId6d0F9eLx8B6VAYHqtgW2jeoaP74DwKJ7x9Zwm0kIw6NPVvUe0VZs
+ Jjrs2kbbYmVXxJ8vlzfWyHTC7OwONjB0yoS.GQqtMNODiWR2D_Y6WQpuh.yR
+ VS.rOxS8ho48rqDJpXyoQ7.txdF3P9fCl_1Y06inugi_wbvVd5LyTaLeCWAU
+ mlgesGsprNrAw6H7zSEnbjf.CclrBHniHGLhP7NBrY8.bEmoZO13yUdhnKlX
+ BvWhq0W8_7pAq.gfBa0eESpXGCFDCnHSuCj25s5KepfL2AIIVvKLJWP.POk4
+ 0nNbrjY_tjlthoZXTXaBeYzahDldpRppT8gbYB.20V5SoEaOEthSKaoVIkUv
+ mmMEvhEn_YzYWfvLBif4NqXsDJ3suf8JhWLhhvG8fXP0zlsYFIU8xVRAFin0
+ iatuvjyeHBhtgYu6RvAo6azAFrKLlLvRQdFlVTSsL_vEtTA7.Em1yKgnnOcN
+ q0Vuw40OO8lal7HTUqsxFK0Vm4LI6nhIY4c_3RB0jC7DaMw2TteNLVegMwDp
+ s2Y9Ir1Ck8oomh9kOQdFBjDC0kTlhQsO3H2ZCRvFY5_qstqXKw.jpYxE1LrD
+ vMiFU70zBSDBp6cQe6Dh0QBplbbTUg6820Ufg9IybIcl1p.X4kuQyvNkdvy5
+ GtJ0KscD0el5y4nIUoH22EmwlNQlzrfxV33amjMHd4rO7B8xmmivDPlsH240
+ 1HILM_Qc7A_j0DOLkyFYiB55_9gjWnUU8JzBbk_38styZIFWKpsbnZB_tcb8
+ TYLu4ALR1Gk5629hbQPGkvo3DyATA.eYUgJz0JMS04qKfGRPZl1HjH4nvuUI
+ KHC0H_rbL2dnVScIYBmWdgbw
+Received: from 166.216.149.5 (EHLO alpemg-mtmta02.wnsnet.attws.com)
+ by 10.223.248.247 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 21 Apr 2022 16:23:10 +0000
+Received: from zatn1bmmsc01nfe001.wnsnet.atn1b.tci.att.com ([107.78.102.24])
+	by bizsmtp with ESMTP
+	id hUdInGqTQN7YihZaIn7BKW; Thu, 21 Apr 2022 12:23:10 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1650558190;
+	bh=F4RH8dur3/V0MZfvZkwOv055IKFJpTdjIwG7yxUajcA=;
+	h=In-Reply-To:To:From:Date;
+	b=JnRDc+W1y/MyCOhyKqykDQ6txdtu6CN5hQr2BtG4V3ba3VFTh3tcUXu4KBCb6T0S2
+	 nZL4tNnDK3dKojMv+EyvZ6+LbWA3OXBDBaBn5Vf3pKQsZYULDk5BqUQ4pupiAzESuT
+	 zzoe18zB+ryi43SPA7Q6A+QX0Lp9hY3wTrLYRL7dappGzOWMWfCLMuuFpTAEpLVL+w
+	 aVoiYcP61BtcmwJoc2/xnveWdAF7QdH2hXZTkGfMTY6bcN//kwbCavsngoZJX+dVSp
+	 8IHybhLb95siidCxkzMJvuQE8PHxLh0QOOa2cq/yRLNfV2hhHJ/QVD5U936VQ+N/O6
+	 hfCzlKhNe/2jQ==
+Message-ID: <hUdInGqTQN7YihZaIn7BKW@txt.att.net>
+In-Reply-To: 1358870410.31090558.1650558190090.JavaMail.nems@zatn1bmmsc01nfe001
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1650558095-920
+X-Mms-MMS-Version: 1.2
+To: electronicfilings@ftc.gov, pronewsletter@dowjones.com, 
+	kerri.saperstein@morgansley.com, mstanley321@bloomberg.net, 
+	mshy15@morganstanley.com, mshy2@bloomberg.net, mshy1@bloomberg.net, 
+	ms60710444266@yahoo.com, info@ey.com, info@kpmg.com, gs@gs.com, 
+	bbrief@bloomberg.net, bofamarkets@bofa.com, bcassese19@bloomberg.net, 
+	tmc-corps@bloomberg.net, tracedataservices@finra.org, 
+	mediainquiries@point72.com, mediarelations@ap.org, media@chi.frb.org
+From: 6462563609@mms.att.net
+Date: Thu, 21 Apr 2022 16:23:10 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_31090557_1777159098.1650558190090"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfGZToLgyEWgLrj88UbNULJzt4bYSEHz8f2GgGGFm0S9tQmJ8Pj13ZoHSanrlMVclxm9TFFNX/beuvH7+qbCC4QEWO9PK6Ev51/7WZfWer8LTl75xdtTK
+ bJJwSMYtT0BUPggK6shmbEdpx0XkPTFwJlDqXTHxPNVj4szV4ue0+q3juH/ywwXG3vVIZh24id3sXSPBub5sfZv+Cvo0iz2brW9e6Q3Dc2jnANkoIDTIt9ii
+Content-Length: 412
+
+------=_Part_31090557_1777159098.1650558190090
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9saW5rL3RyYWNrP3VyaT11cm46YWFpZDpzY2RzOlVT
+OjcyYjc3YWRhLWM0OTMtMzBiOC1iMmZlLWY0NzNkY2Y0OWRlNA==
+------=_Part_31090557_1777159098.1650558190090--
