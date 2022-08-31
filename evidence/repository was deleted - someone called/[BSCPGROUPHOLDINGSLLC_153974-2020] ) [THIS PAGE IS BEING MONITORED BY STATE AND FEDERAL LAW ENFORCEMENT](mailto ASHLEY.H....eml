@@ -1,0 +1,211 @@
+From - Sun Aug 28 23:00:57 2022
+X-Account-Key: account1
+X-UIDL: ALaJYJUkbYZJYvCn3wFjeFi0jzw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.150
+ by atlas315.free.mail.ne1.yahoo.com with HTTPS; Mon, 8 Aug 2022 06:06:22 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas315.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 8 Aug 2022 06:06:23 +0000
+X-YMailISG: VOLyuV0WLDuaX1LrkU0UYjBgt.AERLZbRaj9V34w56F8OjC7
+ hIE3stNKXlWDyA7_5vK9yre.hs0CCKYfMXUKSI7ixveXd7O3u5L6KGms8p9P
+ 79NcOJ2FiQzGlMTELyUOSwHEAjdPZP_SunxvpWoHitevvWvHyDx8ExNyrqCq
+ mjxW5oqyJPvtmf7UQwoCGM7nOKEPokBcTZ7MQAeXtqmSD.LTPrd8x.5vVH6T
+ Hz_eXto5IBLssFbtkSaxO3XAn6AnObfehbWIAsULDa7ly6cHuqgofmnj90mg
+ plg6P_y8IAOdkIbjWlg0TZK0MEQex0_bSY5zFksqaJu.gUHqnd1GLUVAY.Sd
+ lz5Jf2F2nnMSsgkFqpSkX1eHECpMnzra700EgyjmLfM03oSbRtTpHCz_WeoQ
+ LC7.OqZdFlv_q6eH8kGAL9amz7Al43um99P5JlVYSM1F85JqTY4UNjuN82lT
+ FbczrhfOgYSWhAGd3Q8GEIq9WZdX9J.RQnDt3aGDdBHtxEBwXVOAhr_DRcmO
+ RViaoWMJi1OER4ehMAeTB4bjCMJci9hDPzT0OTR4ZOYVzZ.UDEiKuDkZAiAP
+ gmgzrmAU0oiFEwOr.iHsPjXCtulUaFm3vOgMh1ZJkzGKOE.eVpP.4wIOgNwR
+ a.ZqwIwlla4grLdaLXDqktIXXfdJiBDut6Fd_1kyhHDKCzMNrVCvbC1plqqB
+ PJiU.cr3YHuuV8LSed8AFWn5mzPlCJL0BsG9XWWIAwtQGtqnHOLZaOGyYzvY
+ hiBjVJ5V1Ax7z3KcwNCSexPcs.dw9DuWyDsLWVxRe7Y10UAp1N7EOGT4EKHK
+ gFdqhjZEJ85bHKuwX3MIDuSRCGXMo6g1uqHAMe3JoJXeeJY8ZdZWt7U6BQNF
+ TLtMJLZQz_IE5mJ8MLWCA360ZbHxh5JGfKxuRa1.347sMnJ_N.r9RQTTbbXK
+ Q9o.jBk13l5Vfmo7_ThXRVm5gVwatjI_qadgk.NCqReJLyrKeP9HLEP9EaG3
+ WJ6gioGcY5mJ5z8NoSPkuq.0Zmriths4TyqpKLlZbAzmB6fllqOwBaApN.Mo
+ 6H4vqk1Fa1Xp20PmFxnAz2xSdwdWDX.z7kkxp6s1UHj.3dyYsE_lLLC0gxBv
+ cMfzkYVqkR3.2XZvM09XutPC.BWdubXEMwJhJcP4vNfFqZVOyw6zOlcUp3CW
+ pjpfZmMIk051rKdyav2RojwmGO_QmeFKPY3BSYidfk9iDVEW7BnuYfaAqdA7
+ YV9SQv3KC33.BVj5AzgKiwPPQlBV1HrhkbB5Lx_AlNrD5mptQ17HijmeRyNX
+ MA.4UcS9wrkUAA8jv4JT7o.g
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.222.142.150 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 08 Aug 2022 06:06:22 +0000
+Received: from github-lowworker-f510013.va3-iad.github.net (github-lowworker-f510013.va3-iad.github.net [10.48.119.102])
+	by smtp.github.com (Postfix) with ESMTP id 55181520995
+	for <ms60710444266@yahoo.com>; Sun,  7 Aug 2022 23:06:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1659938782;
+	bh=ZREvpAfcD5cF14ksU4XktjzXBUp0Nz8KFeXnA5TLmj0=;
+	h=Date:From:Reply-To:To:Cc:Subject:List-ID:List-Archive:List-Post:
+	 List-Unsubscribe:From;
+	b=PFU13FbRkn3Rwg9sgr2kgwPpIqOj35XaSX+sZVlnyIccuwL6l+YWQiNS9vrVgF5ku
+	 aSf0sIK38yLPXvSMs2IWjhX2pwczxtge8c1EkaEKMHU9WgqNkw6c8Q2EuPADr/lCmu
+	 avBUXptQnr3NXHgIilNIabQDCvujAHq6okllHNb0=
+Date: Sun, 07 Aug 2022 23:06:22 -0700
+From: 153974-HSI-OXLEY-BANKS-40ACT <notifications@github.com>
+Reply-To: BSCPGROUPHOLDINGSLLC/153974-2020 <reply+AZZRE4ZTFNWSD4VP7HKUJYGA7XNF5EVBNHHE6WZNLE@reply.github.com>
+To: BSCPGROUPHOLDINGSLLC/153974-2020 <153974-2020@noreply.github.com>
+Cc: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <ms60710444266@yahoo.com>, 
+ Mention <mention@noreply.github.com>
+Message-ID: <BSCPGROUPHOLDINGSLLC/153974-2020/issues/19@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/153974-2020] > [THIS PAGE IS BEING MONITORED BY
+ STATE AND FEDERAL LAW ENFORCEMENT](mailto: ASHLEY.HUMPHRIES@WILSONELSER.COM)
+ (Issue #19)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62f0a7de47005_256ad4bc39534f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: 153974-HSI-OXLEY-BANKS-40ACT
+X-GitHub-Recipient: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+X-GitHub-Reason: mention
+List-ID: BSCPGROUPHOLDINGSLLC/153974-2020
+ <153974-2020.BSCPGROUPHOLDINGSLLC.github.com>
+List-Archive: https://github.com/BSCPGROUPHOLDINGSLLC/153974-2020
+List-Post: <mailto:reply+AZZRE4ZTFNWSD4VP7HKUJYGA7XNF5EVBNHHE6WZNLE@reply.github.com>
+List-Unsubscribe: <mailto:unsub+AZZRE4ZTFNWSD4VP7HKUJYGA7XNF5EVBNHHE6WZNLE@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AZZRE4ZX2NZILWKRPOFK543VYCPV5ANCNFSM5533TZRQ>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com
+Content-Length: 7006
+
+
+----==_mimepart_62f0a7de47005_256ad4bc39534f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+> [THIS PAGE IS BEING MONITORED BY STATE AND FEDERAL LAW ENFORCEMENT](mailto: ASHLEY.HUMPHRIES@WILSONELSER.COM)
+> 
+> {153974_2020_SUMMONS__POST_RJI___51}
+> [153974_2020_SUMMONS__POST_RJI___51  8 JULY 2020(NOTARIZED) SUPREME COURT PROCEDURE](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/files/9174075/153974_2020_SUMMONS__POST_RJI___51.8.JULY.2020.NOTARIZED.pdf)
+> 
+> {153974_2020_AFFIRMATION_223 - UNLAWFUL FEES}
+> [SUPPORT USC TITLE 18.215 VIOLATED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/files/9174076/153974_2020_AFFIRMATION_223.-.UNLAWFUL.FEES.pdf)
+> 
+> {153974_2020_DOCKET_31 - ANNE BRANDON - LAURIE ZUCKER - NOTARIZED APRIL 11TH IN CA [00025]}(https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/files/9174077/00031.153974_2020.-.ANNE.BRANDON.-.LAURIE.ZUCKER.-.NOTARIZED.APRIL.11TH.IN.CA.00025.pdf)
+> 
+> ### THIS PAGE HAS ALREADY BEEN ARCHIVED - AS HAVE ALL THE OTHER INFORMATION
+> ['''https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5'''](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5)
+> 
+> ![image](https://user-images.githubusercontent.com/108204659/180612183-648bd2cb-973a-4ba0-9b6f-6b2b4d901891.png)
+> 
+> 
+> 
+
+@WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER 
+
+_Originally posted by @153974-HSI-OXLEY-BANKS-40ACT in https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/pull/12#issuecomment-1207704335_
+
+-- 
+Reply to this email directly or view it on GitHub:
+https://github.com/BSCPGROUPHOLDINGSLLC/153974-2020/issues/19
+You are receiving this because you were mentioned.
+
+Message ID: <BSCPGROUPHOLDINGSLLC/153974-2020/issues/19@github.com>
+----==_mimepart_62f0a7de47005_256ad4bc39534f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p></p>
+<blockquote>
+<p dir=3D"auto">[THIS PAGE IS BEING MONITORED BY STATE AND FEDERAL LAW EN=
+FORCEMENT](mailto: <a href=3D"mailto:ASHLEY.HUMPHRIES@WILSONELSER.COM">AS=
+HLEY.HUMPHRIES@WILSONELSER.COM</a>)</p>
+<p dir=3D"auto">{153974_2020_SUMMONS__POST_RJI___51}<br>
+<a href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDE=
+RAL-USE-AND-DISTRIBUTION-ONLY/files/9174075/153974_2020_SUMMONS__POST_RJI=
+___51.8.JULY.2020.NOTARIZED.pdf">153974_2020_SUMMONS__POST_RJI___51  8 JU=
+LY 2020(NOTARIZED) SUPREME COURT PROCEDURE</a></p>
+<p dir=3D"auto">{153974_2020_AFFIRMATION_223 - UNLAWFUL FEES}<br>
+<a href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDE=
+RAL-USE-AND-DISTRIBUTION-ONLY/files/9174076/153974_2020_AFFIRMATION_223.-=
+.UNLAWFUL.FEES.pdf">SUPPORT USC TITLE 18.215 VIOLATED</a></p>
+<p dir=3D"auto">{153974_2020_DOCKET_31 - ANNE BRANDON - LAURIE ZUCKER - N=
+OTARIZED APRIL 11TH IN CA [00025]}(<a href=3D"https://github.com/WILSON-E=
+LSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/files/91=
+74077/00031.153974_2020.-.ANNE.BRANDON.-.LAURIE.ZUCKER.-.NOTARIZED.APRIL.=
+11TH.IN.CA.00025.pdf">https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/files/9174077/00031.153974_2020.=
+-.ANNE.BRANDON.-.LAURIE.ZUCKER.-.NOTARIZED.APRIL.11TH.IN.CA.00025.pdf</a>=
+)</p>
+<h3 dir=3D"auto">THIS PAGE HAS ALREADY BEEN ARCHIVED - AS HAVE ALL THE OT=
+HER INFORMATION</h3>
+<p dir=3D"auto"><a href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-=
+AND-DICKER/pull/5" data-hovercard-type=3D"pull_request" data-hovercard-ur=
+l=3D"/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5/hovercard">'''https://=
+github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5'''</a></p>
+<p dir=3D"auto"><a target=3D"_blank" rel=3D"noopener noreferrer" href=3D"=
+https://user-images.githubusercontent.com/108204659/180612183-648bd2cb-97=
+3a-4ba0-9b6f-6b2b4d901891.png"><img src=3D"https://user-images.githubuser=
+content.com/108204659/180612183-648bd2cb-973a-4ba0-9b6f-6b2b4d901891.png"=
+ alt=3D"image" style=3D"max-width: 100%;"></a></p>
+</blockquote>
+<p dir=3D"auto"><a class=3D"user-mention notranslate" data-hovercard-type=
+=3D"user" data-hovercard-url=3D"/users/WILSON-ELSER-STATEFARM-SULLIVAN-ZU=
+CKER/hovercard" data-octo-click=3D"hovercard-link-click" data-octo-dimens=
+ions=3D"link_type:self" href=3D"https://github.com/WILSON-ELSER-STATEFARM=
+-SULLIVAN-ZUCKER">@WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER</a></p>
+<p dir=3D"auto"><em>Originally posted by <a class=3D"user-mention notrans=
+late" data-hovercard-type=3D"user" data-hovercard-url=3D"/users/153974-HS=
+I-OXLEY-BANKS-40ACT/hovercard" data-octo-click=3D"hovercard-link-click" d=
+ata-octo-dimensions=3D"link_type:self" href=3D"https://github.com/153974-=
+HSI-OXLEY-BANKS-40ACT">@153974-HSI-OXLEY-BANKS-40ACT</a> in <a class=3D"i=
+ssue-link js-issue-link" data-error-text=3D"Failed to load title" data-id=
+=3D"1315687838" data-permission-text=3D"Title is private" data-url=3D"htt=
+ps://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DI=
+STRIBUTION-ONLY/issues/12" data-hovercard-type=3D"pull_request" data-hove=
+rcard-url=3D"/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DIST=
+RIBUTION-ONLY/pull/12/hovercard?comment_id=3D1207704335&amp;comment_type=3D=
+issue_comment" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/pull/12#issuecomment-1207704335=
+">WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONL=
+Y#12 (comment)</a></em></p>
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br />Reply to this email directly, <a href=3D"https://github.com/BS=
+CPGROUPHOLDINGSLLC/153974-2020/issues/19">view it on GitHub</a>, or <a hr=
+ef=3D"https://github.com/notifications/unsubscribe-auth/AZZRE44SAZYB2WTLW=
+2CAAMLVYCPV5ANCNFSM5533TZRQ">unsubscribe</a>.<br />You are receiving this=
+ because you were mentioned.<img src=3D"https://github.com/notifications/=
+beacon/AZZRE4YFFZ6N7IT6F6H3BWLVYCPV5A5CNFSM5533TZR2YY3PNVWWK3TUL52HS4DFUV=
+EXG43VMWVGG33NNVSW45C7NFSM4T23FVMQ.gif" height=3D"1" width=3D"1" alt=3D""=
+ /><span style=3D"color: transparent; font-size: 0; display: none; visibi=
+lity: hidden; overflow: hidden; opacity: 0; width: 0; height: 0; max-widt=
+h: 0; max-height: 0; mso-hide: all">Message ID: <span>&lt;BSCPGROUPHOLDIN=
+GSLLC/153974-2020/issues/19</span><span>@</span><span>github</span><span>=
+.</span><span>com&gt;</span></span></p>
+<script type=3D"application/ld+json">[
+{
+"@context": "http://schema.org",
+"@type": "EmailMessage",
+"potentialAction": {
+"@type": "ViewAction",
+"target": "https://github.com/BSCPGROUPHOLDINGSLLC/153974-2020/issues/19"=
+,
+"url": "https://github.com/BSCPGROUPHOLDINGSLLC/153974-2020/issues/19",
+"name": "View Issue"
+},
+"description": "View this Issue on GitHub",
+"publisher": {
+"@type": "Organization",
+"name": "GitHub",
+"url": "https://github.com"
+}
+}
+]</script>=
+
+----==_mimepart_62f0a7de47005_256ad4bc39534f--

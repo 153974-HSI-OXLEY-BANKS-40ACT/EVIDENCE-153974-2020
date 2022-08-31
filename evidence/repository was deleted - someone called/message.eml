@@ -1,0 +1,84 @@
+From - Sun Aug 28 22:45:10 2022
+X-Account-Key: account1
+X-UIDL: ANpbJghetRidYssnswlK6GAA9+I
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.249.98
+ by atlas221.free.mail.ne1.yahoo.com with HTTPS; Sun, 10 Jul 2022 19:25:39 +0000
+Return-Path: <+19173783467@tmomail.net>
+X-Originating-Ip: [35.164.127.243]
+Received-SPF: pass (domain of tmomail.net designates 35.164.127.243 as permitted sender)
+Authentication-Results: atlas221.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@tmomail.net header.s=mes;
+ spf=pass smtp.mailfrom=tmomail.net;
+ dmarc=unknown header.from=tmomail.net;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 19:25:39 +0000
+X-YMailISG: 0UFyx84WLDtFbCDg0e.jQuc9xV9I2gMWMnd.AIDwXHDOI3RS
+ tXiw4PqYdcr8FmC3RioRqjO_L1vWIZsO7wZS7hOQ0sDHSxOHqFKDhibl7R9j
+ CM8TJNc9tNuqox4i4NitSwVlyynlSHMomjp8xUIQq9hECTgsB2JudI7cUduK
+ vjO6BoyBMtKKiM.rkHCTAgnHFZ0sVmunS_Ki7NFYeH92fcpMoEpHxYTdC9yP
+ 2wZA1ORtVFTvqn75lD0MQmoQGy4Gv9CUjwE_a57ifFJp3pXlWamvxOStj889
+ LibQm2Gr2cSOOUK_jVJE8CPpcmm0ZtjbeXlanfp4hl92Com5V6jdtQu6sKN8
+ UumB4yLYTXBBZby7soFRJ0uoFumzQe9j.MKK.s1gqMbPCTk54aUKq9p_wTBd
+ mpsksc2aFimDJcIUgV1XClbMFVRwqQMdsiljz3xhajU_lv.aeKjnBBmT16IF
+ XQHq46_aT97SWcAsM_eW776zEehbI.Sa1gJZWT24APH.MO9a1xlWyCzDhzU0
+ 6YmKO8TrU3dS7ylaPg9phWpKyFQNQ3CK4CTkIWnJrB6yNnqiVpKjiLUW3_3W
+ ZtcgP_pdvGocTFpr4ACSzYHq3hzIhD6X7xIuwL6ev19yf7AEw4rmn8yh0zQD
+ FHa7r1DOJ.HmdFzksFr.Jx229PD2kE.0vBWKDF5kMZR_x.QTzXFddOmQ727l
+ I9QZzeeJD4aWJZr.mdlrWtvUJv0VCc2WMGcKNiMzlE8zxQ0X3PHhpiRCpVDr
+ RgFoous.SgUAcreW6er4g85c1FdjsbLjmmRZ18EV3Rzk_tQDwvXLt_.p08rz
+ 8HUGDkeT4R47f.vQqks2ew0ZRKXLBpE0hWCyQMZObsMiHVMXyZYzUPfVmQoz
+ fzy.UW.wy8qxp0r8CQg_lM9LY5lPFC7Gx49hoo_szKc8OoaTF4gKEsweQHf8
+ FkLyz6NcMMeipfn8eqmP1CZjPMzPr7JGNxQKeWQjyzi_40YfkLUpFb78R1fH
+ E9rJpwTaSEDzOC5CvikAQ7sHeZ5aDOwJec8WffP5MbIkvu3JcxSYPnixq0lz
+ l7OIds_au4mfq6x.bcJlCcKvz4Bl7xyCppDsnpUVerck058TmcBcZs2mkeqD
+ _OFICHhTmRiCI.4qShE-
+Received: from 35.164.127.243 (EHLO omta020.uswest2.a.cloudfilter.net)
+ by 10.223.249.98 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 19:25:39 +0000
+Received: from CMGW ([10.0.26.132])
+	by cmsmtp with ESMTP
+	id AVgVo8fsETwU8AcYkoiKbo; Sun, 10 Jul 2022 19:25:38 +0000
+Received: from mtapol03.msg.t-mobile.com ([208.54.152.88])
+	by smc smtp with ESMTP
+	id AcYkoACmb3uwCAcYkoRYpO; Sun, 10 Jul 2022 19:25:38 +0000
+X-Authority-Analysis: v=2.4 cv=JeGvEGGV c=1 sm=1 tr=0 ts=62cb27b2
+ cx=a_e2s:c_tmo a=flaSd0wal2IFLDINEhEeww==:117 a=flaSd0wal2IFLDINEhEeww==:17
+ a=s5jvgZ67dGcA:10 a=RgO8CyIxsXoA:10 a=3j4BkbkPAAAA:8 a=bA60sUlXYrMSC7y1sOYA:9
+ a=QEXdDO2ut3YA:10 a=0p6WadWVTLQA:10 a=l2hAKWo8bAcA:10 a=m-Z_27IZkzAA:10
+ a=3crNooZf-0rloioFPiM1:22 a=lP40QHv-sKH3OE2qS8h9:22
+Received: by mtapol03.msg.t-mobile.com (Postfix, from userid 8)
+	id 8925D1000004C; Sun, 10 Jul 2022 12:25:38 -0700 (PDT)
+Received: from tmobile.net (lbnpol8182 [10.175.104.185])
+	by mtapol03.msg.t-mobile.com (Postfix) with ESMTP id 5F6B310000047
+	for <ms60710444266@yahoo.com>; Sun, 10 Jul 2022 12:25:38 -0700 (PDT)
+DKIM-Filter: OpenDKIM Filter v2.11.0 mtapol03.msg.t-mobile.com 5F6B310000047
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tmomail.net; s=mes;
+	t=1657481138; bh=nLwK6BBnng7aTAMfR8YGkvXphdbMT4HLW7PNd7zVrtA=;
+	h=To:From:Date;
+	b=gkvfwAdPuyTSGBm6XHa2qISbWmoNJEfN78zAOPqdOspuwRtuBySpg7eXhs/dsLIyG
+	 Z97A1DN6XgdWw6QZRSKcTYGXFZLwZ0WpjtA9d52EOWbiBhP/Dfs4dKl1wdKXCgDiLq
+	 tY1Sb0bfekfzuSLWLDBZXSwPwd/m7cZOerBjJTxA=
+To: ms60710444266@yahoo.com
+From: +19173783467@tmomail.net
+Content-Type: multipart/related;Type="text/html";boundary="-boundaryRMS123"
+Date: Sun, 10 Jul 2022 19:25:38 GMT
+Sender: +19173783467@tmomail.net
+Message-Id: <20220710192538.8925D1000004C@mtapol03.msg.t-mobile.com>
+X-CMAE-Envelope: MS4xfJbwB/8L6PZX9SiNR/C/A1WgI+yKpiSyFdToriQ+V3W+2BYh6rySo0MlV0De6aS3mp2MXuQATzlHUyWtmpwSl+djIGq4Yht2rXBHBER7jdVETZkkRH+J
+ nW2+BI4blZERIwU/A8CBRKN1dZWJTNoQ/2I6zXQoMOUOAMWpIcQ8KhpsTjsVdsoUw/sTDK3iJqdnSqZLSCaD2CmeIkkZ+Eb1w90=
+Content-Length: 381
+
+---boundaryRMS123
+Content-ID:<text.000000>
+Content-Type:text/plain;Name="text.000000.txt";Charset="utf-8"
+Content-Location:text.000000.txt
+Content-Transfer-Encoding:base64
+
+aHR0cHM6Ly9tLmZhY2Vib29rLmNvbS9zdG9yeS5waHA/c3RvcnlfZmJpZD1wZmJpZDAzNDZqZERL
+N0ZoZGJWMTJGR2JSM0NUdU1MckZXajVLUk1RV0NtRkd0ZDJrN1VoZmkzRXVGalUxcGF3RTN1MlBZ
+YWwmaWQ9NTA2ODIyMzc5JnNmbnNuPW1v
+---boundaryRMS123--
+

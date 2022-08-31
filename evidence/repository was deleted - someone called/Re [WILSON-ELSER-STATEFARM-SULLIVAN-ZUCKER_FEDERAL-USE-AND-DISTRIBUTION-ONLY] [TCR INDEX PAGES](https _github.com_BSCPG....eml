@@ -1,0 +1,354 @@
+From - Sun Aug 28 22:56:44 2022
+X-Account-Key: account1
+X-UIDL: AKafnyxvVosuYum3qAYx8JqVyT4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.88
+ by atlas203.free.mail.gq1.yahoo.com with HTTPS; Tue, 2 Aug 2022 23:47:51 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas203.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 2 Aug 2022 23:47:52 +0000
+X-YMailAVSC: qr8LJ.c3bBvFx6ML5PXQo5K14l8WZnRDj6iLGlEwjm.ecS8
+ F8QaxeiRbqFeREz8NHSpBzPzst8oOCeV7mBW4GWAdd.2Nzlzto9JAn296q2b
+ 0nc60O0ZE9WLt03sDu5.iEnZ0heoslPTthpA2JywS4Q9E_SoeaQeXLaY1Inr
+ L7QWYOTtwvHUzDGNb.wMkXApo6I748noEbPzr3wP_5CPiPlNeHs4mrccjMm0
+ rHRbPOFwH0l7odzNZjDZp1hYb1cD9fwxEgftLUjwJPZppvUJhKiDpNTV1yCo
+ B20eO7XM0EC8HWjgkwG_nEQdewFSy5sBAB2yDYWd3YKJbSWxoZOael763f2S
+ .8HLqQeKwwOMBhW9rWtaCu6oNV8_XgtaDetTAgoBw5vpjBJT.JuXbX4_OGzh
+ AmvJL54Eq64pir4Pz10YiNz8h0W1.UxTcaTDCqyVB__rxvJ0GjvGQk3TbnG8
+ hPm34xK81_oaHJFSChE8a4tq6iv6paoYsgjxyZC2W9Q9Tf6XnsTeXNtevBO3
+ P8S9VgjCJXkOn6QL7CDooSxnqvS3kP4NWKT6W9sPntiZPeXOEZkii9NowxyC
+ f6l61O4ATvibmU0xsRr4aGpnt6RxWSbLTHBr.ZTvOoowmnrykpDwID7Otgf1
+ hRnDq0Wy2UOWBQVVS0YITg.Tfqnto3ug2jkTofowtSS8fkop5Zi9f_2m_aiE
+ slVWfrridktMLQP6XQmXyot9boY3EWlYPktbmytL7z1nyUohTbdFWlUVfkZN
+ otH0mrEuZOHWxWN8Yf3PAJix1x4fSQQMhyXEyCIKEaWkPucA2r3h.ceBq0zs
+ zx80.PUemjj8q0.i.Cg9o8CuuRNCCjtfWGu3vrtu2P7IVa.6DAQ6IKptC2eM
+ x1CsvaU4TZiU2IfWaFE2Q.EKbBZhvfKEe8iX_EbddbbdfiYlZ1XkmtvWnssW
+ .H0TrACqeQZ56OGP3X6.iQUWnS0rutNGE1tEqBycndQZS3kpptjM8GNRijcZ
+ BEI0LElccMeaT1OUbsACfHSVJee9teBh7fbCzHWwTEJ01RwN0GkZNQER4Sif
+ _99mFGy9s5jZEap85uPgkhn21E.aZl8tqTHElH6l08I58KuYTWfV0kOs3xYc
+ InatwGlLBRxdUH41BRXNQEPoE7g0F5Ib8oLQZPoqCYP9862woQlAbHmeqW7T
+ jSLrU6vC_PPPOBFrTROz9w2IAflKfps2TqM2Qfxef157KrjX_bTeNoA--
+X-YMailISG: 2ffpGYgWLDtQVIZiP4FBUpCiJWUFVzVffPk8.OFkQEHVTCqR
+ iRzzFdrLUlbwb40NdF3GXiJGxeMTih1i6pW5V3hGwbR5TDOCHJDqT2P4T3Mf
+ I5g8SLtzM6QJQktDk.BqCNMi6oMNMOFecVQNjjpWBC2iqxmYnYCfjal1HzXA
+ mgcfEi5cSEbnPwEQuYi6RqCLWWiFjyHTOSvqY1iW6YCYYq9sgygqmACmH7zh
+ k2F6PYienqgH05UtTz0KvCqg340vILi8cFOhgk5CiqMwM58BaQzzXbiZBflm
+ eLSDKhuig5bVd8S464SwIUBI7ZGnvOGKd5CRv8BvJwZkHIdHl65DAI4IOUZD
+ lKuUDEPVXkSPx0_mrRoqW4bip6nEbKRvCQkLhPq0ywn8uEE.mWiX9Udugg4A
+ Giml3HBqPnN1wkXeuyFoMNDqeEBJzniZEWgn4MoJPGiX1TVNHPHoAtNSb2JX
+ e8ljLWUKgmPQDws4nT1fpQZeIBfK4SPMS7rlXyESx80oWMoCiVvyrOecpngi
+ 3Jleenn61MG8mi3DGIuINz1iIHCp3mGPXm9VN5Z8rgIsnRZdnE9yx16npC3U
+ U8qms6a6VTDLZGI6lM0c_lo10ibWvsAzUO1Y0a0ZEd63pY_EFVOx7cu6nbwr
+ tw_EUIgFPImJfhH7FCZ5B9LfjLZE9AvscYusl97X_vzIvMI8ZUm32Uo_FNOX
+ JHVyEhhtUhLLVWPY0eAtdxD1z0DlV4WJ2X.9jEgXHWei64r3p2uMukfqX5Eq
+ CCCvf7aYy5xviZ18wdTZ3N7JCJdbAeKtWKvJwbr9TfFfS_1wpwqViveCiPkY
+ PngmZsc2.jCUx3tTUrX9hBPIgt3R4k87XGhlJ1jEpVJ2791kiJhCiWSPb03Y
+ SLLElifNbxVx_WL.1d.fon3eGUdcz9fUaAo9L_sYrB2GtuhPSg0thHdPx6vd
+ WWUo6bvv7x17ncTExtJI6N1oXpJYONk6a15RwV5QvXPjT.CGb_j4GogioM4s
+ 9oVoZEe_1.MNTqJoGURZ5SPzZYFUiO6bcY_Ts_GZfWkD5WN1rT9wn9.22VZX
+ oEuC_RIeeoMqZSbWbamlTr7QFm4oVCyy0KOFx.MCg24abFgApZKwh4LYYsYv
+ tYxo8degaoO0LwnavOSlUs3fbJF4_gcKm4N0YcWoj3LDsluYRkgoBEqndjp6
+ U2FkwVyuo8KvOaSFGcpGMvIjgCaQQ5kRNaVGY886wUwlLKJjLSCQTB8FYeLI
+ K.ugeZnd4DS2AHJL4MZTDUhxUgMTERZ3c9exCldOxOqgkw--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.253.233.88 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 02 Aug 2022 23:47:51 +0000
+Received: from github-lowworker-3a0df0f.ac4-iad.github.net (github-lowworker-3a0df0f.ac4-iad.github.net [10.52.25.92])
+	by smtp.github.com (Postfix) with ESMTP id 47506520608
+	for <ms60710444266@yahoo.com>; Tue,  2 Aug 2022 16:47:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1659484071;
+	bh=nFH1PsUnE+r2lSR8PnI2m9LB1oQq3QxidB1l9cLi5ug=;
+	h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=jRVwTuw8XzphVJ0zyEWBWWVVSZYKU64XYZJ3+8C82Kphq4TPepmu0SyZv5cOFFPTk
+	 X5rcFxGjsOWK15xjP8NAU9xXmEmlE+AMHdGlY9vfaqhimftt9ghbtE88gU7BLwkwHE
+	 ARy25icvG2Fx4njIqUWHUOERFUk1akNI3eASJbk8=
+Date: Tue, 02 Aug 2022 16:47:51 -0700
+From: 1212-5858 <notifications@github.com>
+Reply-To: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY <reply+AZZRE425RLZL5MLELATGIVGA63VCPEVBNHHE6EIA2M@reply.github.com>
+To: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY <FEDERAL-USE-AND-DISTRIBUTION-ONLY@noreply.github.com>
+Cc: Subscribed <subscribed@noreply.github.com>
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/pull/13/c1203326369@github.com>
+In-Reply-To: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/pull/13@github.com>
+References: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/pull/13@github.com>
+Subject: =?UTF-8?Q?Re:_[WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-?=
+ =?UTF-8?Q?USE-AND-DISTRIBUTION-ONLY]_[TCR_INDEX?=
+ =?UTF-8?Q?_PAGES]=28https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974=E2=80=A6?=
+ =?UTF-8?Q?_=28PR_#13=29?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62e9b7a738ba7_3b6d73c3074b4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: BSCPGROUPHOLDINGSLLC
+X-GitHub-Recipient: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+X-GitHub-Reason: subscribed
+List-ID: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY
+ <FEDERAL-USE-AND-DISTRIBUTION-ONLY.WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER.github.com>
+List-Archive: https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY
+List-Post: <mailto:reply+AZZRE425RLZL5MLELATGIVGA63VCPEVBNHHE6EIA2M@reply.github.com>
+List-Unsubscribe: <mailto:unsub+AZZRE425RLZL5MLELATGIVGA63VCPEVBNHHE6EIA2M@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AZZRE46P7YY6HBWTNWWXQDTVXGXSPANCNFSM55M5HGWQ>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com
+Content-Length: 13809
+
+
+----==_mimepart_62e9b7a738ba7_3b6d73c3074b4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body>
+<!--StartFragment--><br><br>-------- Forwarded Message --------
+
+Subject: | 50074 90849565 HK ++
+-- | --
+Tue, 2 Aug 2022 19:40:31 -0500
+B D2022 <ms60710444266@yahoo.com>
+foiaconsultsandref@atf.gov  <foiaconsultsandref@atf.gov>, RISC@IC.FBI.GOV=
+  <RISC@IC.FBI.GOV>, BARIS xmas211 Dincer  <bdincer211@bloomberg.net>
++13478801899@tmomail.net  <+13478801899@tmomail.net>, administration@msky=
+line.com  <ADMINISTRATION@MSKYLINE.COM>, administrator@mskyline.com  <adm=
+inistrator@mskyline.com>, AREYNOSO@mskyline.com  <AREYNOSO@mskyline.com>,=
+ askLaurie@mskyline.com  <askLaurie@mskyline.com>, cbloom@mskyline.com,  =
+DZUCKER@MSKYLINE.COM <DZUCKER@MSKYLINE.COM>, EDevine@mskyline.com,  JOSEP=
+H GIAMBOI <jgiamboi@mskyline.com>,  joseph.giamboi@brooklaw.edu <joseph.g=
+iamboi@brooklaw.edu>,  LBRITTON@MSKYLINE.COM <LBRITTON@MSKYLINE.COM>,  le=
+ftbank@mskylinerentals.com <leftbank@mskylinerentals.com>, Paul  Regan <l=
+egal@mskyline.com>, ANA LOPEZ  <legalasst@mskyline.com>, LAURIE ZUCKER  <=
+lzucker@mskyline.com>, MGMTADMIN@mskyline.com  <MGMTADMIN@mskyline.com>, =
+UNKNOWN MANHATTAN SKYLINE CORP.  <MVredjian@mskyline.com>, PAUL REGAN <PR=
+EGAN@MSKYLINE.COM>,  SHARI LASKOWITZ <slaskowitz@mskyline.com>, SHIKENA M=
+ELTON  <smelton@mskyline.com>, SULLIVANMEWS@MSKYLINERENTALS.COM,  Super@s=
+ullivanmews.com <Super@sullivanmews.com>, THOMAS ESCHMANN  <TEschmann@msk=
+yline.com>, FILER 400842/2020 isaac@shermantax.com  <isaac@shermantax.com=
+>, Stephen O'Connell  <sgo2107@columbia.edu>, Amber Griffiths  <ag2943@co=
+lumbia.edu>, Marlyn Delva <mmt22@columbia.edu>,  Alan J. Morrison <ajm157=
+@columbia.edu>, wmckenzi@nycourts.gov  <wmckenzi@nycourts.gov>, Sara E. E=
+de <see2119@columbia.edu>,  LEWISOHN HALL COUNSELOR <jac2381@columbia.edu=
+>, Dean's Discipline  - SCCS <conduct-admin@columbia.edu>, dmf2189@columb=
+ia.edu  <dmf2189@columbia.edu>, FundLegalGroup@cohenandsteers.com,  ajbra=
+ndon@gmail.com <ajbrandon@gmail.com>, cweiss@ingramllp.com,  Janna.Underw=
+ood@STATEFARM.COM <Janna.Underwood@STATEFARM.COM>,  Ashley V. Humphries <=
+ashley.humphries@wilsonelser.com>, RICKI ROER  <ricki.roer@wilsonelser.co=
+m>, Amy Hanrahan  <amy.hanrahan@wilsonelser.com>, ANNE BRANDON [CALIFORNI=
+A  <anne@thehighlandpartners.com>,  travelerresolutions@expediagroup.com =
+ <travelerresolutions@expediagroup.com>, COLUMBIA STUDENT LIST  <PS-MS-ST=
+UDENTS@lists.columbia.edu>, info@ivylinecapital.com  <info@ivylinecapital=
+.com>, gs-housing@columbia.edu  <gs-housing@columbia.edu>, gsdeanofstuden=
+ts@columbia.edu  <gsdeanofstudents@columbia.edu>, gssceboard@columbia.edu=
+,  gsorientation@columbia.edu, gs-admit@columbia.edu  <gs-admit@columbia.=
+edu>, gshealthandwellness@columbia.edu,  gsscelections@columbia.edu, gsst=
+udyabroad@columbia.edu,  gsdosreception@columbia.edu, gsba@lists.columbia=
+.edu, NYSCEF ELECTRONIC  PROCESSOR <oca_hd_processor@nycourts.gov>, NYSCE=
+F Resource Center  <efile@nycourts.gov>, +15163224896@tmomail.net  <+1516=
+3224896@tmomail.net>, KINGS COUNTY TAX MATTERS  <TaxEfiled@law.nyc.gov>, =
+hidincer@aol.com  <hidincer@aol.com>, +15168841083@tmomail.net,  +1516884=
+1084@tmomail.net
+
+
+<br><br>https://www.gao.gov/assets/720/712096.mp3 &lt;https://www.gao.gov=
+/assets/720/712096.mp3&gt;<br><br>https://github.com/BSCPGROUPHOLDINGSLLC=
+/INDEX153974/files/9237684/document.index.TCR5.1.pdf<br><!--EndFragment--=
+>
+</body>
+</html>
+
+-- =
+
+Reply to this email directly or view it on GitHub:
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND=
+-DISTRIBUTION-ONLY/pull/13#issuecomment-1203326369
+You are receiving this because you are subscribed to this thread.
+
+Message ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTR=
+IBUTION-ONLY/pull/13/c1203326369@github.com>=
+
+----==_mimepart_62e9b7a738ba7_3b6d73c3074b4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p></p>
+
+<br><br>-------- Forwarded Message --------
+<table role=3D"table">
+<thead>
+<tr>
+<th>Subject:</th>
+<th>50074 90849565 HK ++</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tue, 2 Aug 2022 19:40:31 -0500</td>
+<td></td>
+</tr>
+<tr>
+<td>B D2022 <a href=3D"mailto:ms60710444266@yahoo.com">ms60710444266@yaho=
+o.com</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href=3D"mailto:foiaconsultsandref@atf.gov">foiaconsultsandref@atf.=
+gov</a>  <a href=3D"mailto:foiaconsultsandref@atf.gov">foiaconsultsandref=
+@atf.gov</a>, <a href=3D"mailto:RISC@IC.FBI.GOV">RISC@IC.FBI.GOV</a>  <a =
+href=3D"mailto:RISC@IC.FBI.GOV">RISC@IC.FBI.GOV</a>, BARIS xmas211 Dincer=
+  <a href=3D"mailto:bdincer211@bloomberg.net">bdincer211@bloomberg.net</a=
+></td>
+<td></td>
+</tr>
+<tr>
+<td><a href=3D"mailto:+13478801899@tmomail.net">+13478801899@tmomail.net<=
+/a>  <a href=3D"mailto:+13478801899@tmomail.net">+13478801899@tmomail.net=
+</a>, <a href=3D"mailto:administration@mskyline.com">administration@mskyl=
+ine.com</a>  <a href=3D"mailto:ADMINISTRATION@MSKYLINE.COM">ADMINISTRATIO=
+N@MSKYLINE.COM</a>, <a href=3D"mailto:administrator@mskyline.com">adminis=
+trator@mskyline.com</a>  <a href=3D"mailto:administrator@mskyline.com">ad=
+ministrator@mskyline.com</a>, <a href=3D"mailto:AREYNOSO@mskyline.com">AR=
+EYNOSO@mskyline.com</a>  <a href=3D"mailto:AREYNOSO@mskyline.com">AREYNOS=
+O@mskyline.com</a>, <a href=3D"mailto:askLaurie@mskyline.com">askLaurie@m=
+skyline.com</a>  <a href=3D"mailto:askLaurie@mskyline.com">askLaurie@msky=
+line.com</a>, <a href=3D"mailto:cbloom@mskyline.com">cbloom@mskyline.com<=
+/a>,  <a href=3D"mailto:DZUCKER@MSKYLINE.COM">DZUCKER@MSKYLINE.COM</a> <a=
+ href=3D"mailto:DZUCKER@MSKYLINE.COM">DZUCKER@MSKYLINE.COM</a>, <a href=3D=
+"mailto:EDevine@mskyline.com">EDevine@mskyline.com</a>,  JOSEPH GIAMBOI <=
+a href=3D"mailto:jgiamboi@mskyline.com">jgiamboi@mskyline.com</a>,  <a hr=
+ef=3D"mailto:joseph.giamboi@brooklaw.edu">joseph.giamboi@brooklaw.edu</a>=
+ <a href=3D"mailto:joseph.giamboi@brooklaw.edu">joseph.giamboi@brooklaw.e=
+du</a>,  <a href=3D"mailto:LBRITTON@MSKYLINE.COM">LBRITTON@MSKYLINE.COM</=
+a> <a href=3D"mailto:LBRITTON@MSKYLINE.COM">LBRITTON@MSKYLINE.COM</a>,  <=
+a href=3D"mailto:leftbank@mskylinerentals.com">leftbank@mskylinerentals.c=
+om</a> <a href=3D"mailto:leftbank@mskylinerentals.com">leftbank@mskyliner=
+entals.com</a>, Paul  Regan <a href=3D"mailto:legal@mskyline.com">legal@m=
+skyline.com</a>, ANA LOPEZ  <a href=3D"mailto:legalasst@mskyline.com">leg=
+alasst@mskyline.com</a>, LAURIE ZUCKER  <a href=3D"mailto:lzucker@mskylin=
+e.com">lzucker@mskyline.com</a>, <a href=3D"mailto:MGMTADMIN@mskyline.com=
+">MGMTADMIN@mskyline.com</a>  <a href=3D"mailto:MGMTADMIN@mskyline.com">M=
+GMTADMIN@mskyline.com</a>, UNKNOWN MANHATTAN SKYLINE CORP.  <a href=3D"ma=
+ilto:MVredjian@mskyline.com">MVredjian@mskyline.com</a>, PAUL REGAN <a hr=
+ef=3D"mailto:PREGAN@MSKYLINE.COM">PREGAN@MSKYLINE.COM</a>,  SHARI LASKOWI=
+TZ <a href=3D"mailto:slaskowitz@mskyline.com">slaskowitz@mskyline.com</a>=
+, SHIKENA MELTON  <a href=3D"mailto:smelton@mskyline.com">smelton@mskylin=
+e.com</a>, <a href=3D"mailto:SULLIVANMEWS@MSKYLINERENTALS.COM">SULLIVANME=
+WS@MSKYLINERENTALS.COM</a>,  <a href=3D"mailto:Super@sullivanmews.com">Su=
+per@sullivanmews.com</a> <a href=3D"mailto:Super@sullivanmews.com">Super@=
+sullivanmews.com</a>, THOMAS ESCHMANN  <a href=3D"mailto:TEschmann@mskyli=
+ne.com">TEschmann@mskyline.com</a>, FILER 400842/2020 <a href=3D"mailto:i=
+saac@shermantax.com">isaac@shermantax.com</a>  <a href=3D"mailto:isaac@sh=
+ermantax.com">isaac@shermantax.com</a>, Stephen O'Connell  <a href=3D"mai=
+lto:sgo2107@columbia.edu">sgo2107@columbia.edu</a>, Amber Griffiths  <a h=
+ref=3D"mailto:ag2943@columbia.edu">ag2943@columbia.edu</a>, Marlyn Delva =
+<a href=3D"mailto:mmt22@columbia.edu">mmt22@columbia.edu</a>,  Alan J. Mo=
+rrison <a href=3D"mailto:ajm157@columbia.edu">ajm157@columbia.edu</a>, <a=
+ href=3D"mailto:wmckenzi@nycourts.gov">wmckenzi@nycourts.gov</a>  <a href=
+=3D"mailto:wmckenzi@nycourts.gov">wmckenzi@nycourts.gov</a>, Sara E. Ede =
+<a href=3D"mailto:see2119@columbia.edu">see2119@columbia.edu</a>,  LEWISO=
+HN HALL COUNSELOR <a href=3D"mailto:jac2381@columbia.edu">jac2381@columbi=
+a.edu</a>, Dean's Discipline  - SCCS <a href=3D"mailto:conduct-admin@colu=
+mbia.edu">conduct-admin@columbia.edu</a>, <a href=3D"mailto:dmf2189@colum=
+bia.edu">dmf2189@columbia.edu</a>  <a href=3D"mailto:dmf2189@columbia.edu=
+">dmf2189@columbia.edu</a>, <a href=3D"mailto:FundLegalGroup@cohenandstee=
+rs.com">FundLegalGroup@cohenandsteers.com</a>,  <a href=3D"mailto:ajbrand=
+on@gmail.com">ajbrandon@gmail.com</a> <a href=3D"mailto:ajbrandon@gmail.c=
+om">ajbrandon@gmail.com</a>, <a href=3D"mailto:cweiss@ingramllp.com">cwei=
+ss@ingramllp.com</a>,  <a href=3D"mailto:Janna.Underwood@STATEFARM.COM">J=
+anna.Underwood@STATEFARM.COM</a> <a href=3D"mailto:Janna.Underwood@STATEF=
+ARM.COM">Janna.Underwood@STATEFARM.COM</a>,  Ashley V. Humphries <a href=3D=
+"mailto:ashley.humphries@wilsonelser.com">ashley.humphries@wilsonelser.co=
+m</a>, RICKI ROER  <a href=3D"mailto:ricki.roer@wilsonelser.com">ricki.ro=
+er@wilsonelser.com</a>, Amy Hanrahan  <a href=3D"mailto:amy.hanrahan@wils=
+onelser.com">amy.hanrahan@wilsonelser.com</a>, ANNE BRANDON [CALIFORNIA  =
+<a href=3D"mailto:anne@thehighlandpartners.com">anne@thehighlandpartners.=
+com</a>,  <a href=3D"mailto:travelerresolutions@expediagroup.com">travele=
+rresolutions@expediagroup.com</a>  <a href=3D"mailto:travelerresolutions@=
+expediagroup.com">travelerresolutions@expediagroup.com</a>, COLUMBIA STUD=
+ENT LIST  <a href=3D"mailto:PS-MS-STUDENTS@lists.columbia.edu">PS-MS-STUD=
+ENTS@lists.columbia.edu</a>, <a href=3D"mailto:info@ivylinecapital.com">i=
+nfo@ivylinecapital.com</a>  <a href=3D"mailto:info@ivylinecapital.com">in=
+fo@ivylinecapital.com</a>, <a href=3D"mailto:gs-housing@columbia.edu">gs-=
+housing@columbia.edu</a>  <a href=3D"mailto:gs-housing@columbia.edu">gs-h=
+ousing@columbia.edu</a>, <a href=3D"mailto:gsdeanofstudents@columbia.edu"=
+>gsdeanofstudents@columbia.edu</a>  <a href=3D"mailto:gsdeanofstudents@co=
+lumbia.edu">gsdeanofstudents@columbia.edu</a>, <a href=3D"mailto:gssceboa=
+rd@columbia.edu">gssceboard@columbia.edu</a>,  <a href=3D"mailto:gsorient=
+ation@columbia.edu">gsorientation@columbia.edu</a>, <a href=3D"mailto:gs-=
+admit@columbia.edu">gs-admit@columbia.edu</a>  <a href=3D"mailto:gs-admit=
+@columbia.edu">gs-admit@columbia.edu</a>, <a href=3D"mailto:gshealthandwe=
+llness@columbia.edu">gshealthandwellness@columbia.edu</a>,  <a href=3D"ma=
+ilto:gsscelections@columbia.edu">gsscelections@columbia.edu</a>, <a href=3D=
+"mailto:gsstudyabroad@columbia.edu">gsstudyabroad@columbia.edu</a>,  <a h=
+ref=3D"mailto:gsdosreception@columbia.edu">gsdosreception@columbia.edu</a=
+>, <a href=3D"mailto:gsba@lists.columbia.edu">gsba@lists.columbia.edu</a>=
+, NYSCEF ELECTRONIC  PROCESSOR <a href=3D"mailto:oca_hd_processor@nycourt=
+s.gov">oca_hd_processor@nycourts.gov</a>, NYSCEF Resource Center  <a href=
+=3D"mailto:efile@nycourts.gov">efile@nycourts.gov</a>, <a href=3D"mailto:=
++15163224896@tmomail.net">+15163224896@tmomail.net</a>  <a href=3D"mailto=
+:+15163224896@tmomail.net">+15163224896@tmomail.net</a>, KINGS COUNTY TAX=
+ MATTERS  <a href=3D"mailto:TaxEfiled@law.nyc.gov">TaxEfiled@law.nyc.gov<=
+/a>, <a href=3D"mailto:hidincer@aol.com">hidincer@aol.com</a>  <a href=3D=
+"mailto:hidincer@aol.com">hidincer@aol.com</a>, <a href=3D"mailto:+151688=
+41083@tmomail.net">+15168841083@tmomail.net</a>,  <a href=3D"mailto:+1516=
+8841084@tmomail.net">+15168841084@tmomail.net</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p dir=3D"auto"><br><br><a href=3D"https://www.gao.gov/assets/720/712096.=
+mp3" rel=3D"nofollow">https://www.gao.gov/assets/720/712096.mp3</a> &lt;<=
+a href=3D"https://www.gao.gov/assets/720/712096.mp3" rel=3D"nofollow">htt=
+ps://www.gao.gov/assets/720/712096.mp3</a>&gt;<br><br><a href=3D"https://=
+github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/files/9237684/document.index.=
+TCR5.1.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/files/923=
+7684/document.index.TCR5.1.pdf</a><br></p>
+
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br />Reply to this email directly, <a href=3D"https://github.com/WI=
+LSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/pu=
+ll/13#issuecomment-1203326369">view it on GitHub</a>, or <a href=3D"https=
+://github.com/notifications/unsubscribe-auth/AZZRE42AHTRMF4WAWQV2ZW3VXGXS=
+PANCNFSM55M5HGWQ">unsubscribe</a>.<br />You are receiving this because yo=
+u are subscribed to this thread.<img src=3D"https://github.com/notificati=
+ons/beacon/AZZRE45KSLXSJQJVLUI3QULVXGXSPA5CNFSM55M5HGW2YY3PNVWWK3TUL52HS4=
+DFVREXG43VMVBW63LNMVXHJKTDN5WW2ZLOORPWSZGOI64U3II.gif" height=3D"1" width=
+=3D"1" alt=3D"" /><span style=3D"color: transparent; font-size: 0; displa=
+y: none; visibility: hidden; overflow: hidden; opacity: 0; width: 0; heig=
+ht: 0; max-width: 0; max-height: 0; mso-hide: all">Message ID: <span>&lt;=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-ONLY/=
+pull/13/c1203326369</span><span>@</span><span>github</span><span>.</span>=
+<span>com&gt;</span></span></p>
+<script type=3D"application/ld+json">[
+{
+"@context": "http://schema.org",
+"@type": "EmailMessage",
+"potentialAction": {
+"@type": "ViewAction",
+"target": "https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDE=
+RAL-USE-AND-DISTRIBUTION-ONLY/pull/13#issuecomment-1203326369",
+"url": "https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL=
+-USE-AND-DISTRIBUTION-ONLY/pull/13#issuecomment-1203326369",
+"name": "View Pull Request"
+},
+"description": "View this Pull Request on GitHub",
+"publisher": {
+"@type": "Organization",
+"name": "GitHub",
+"url": "https://github.com"
+}
+}
+]</script>=
+
+----==_mimepart_62e9b7a738ba7_3b6d73c3074b4--
