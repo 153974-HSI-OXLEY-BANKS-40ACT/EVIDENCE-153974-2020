@@ -1,0 +1,83 @@
+From - Sun Aug 28 22:56:30 2022
+X-Account-Key: account1
+X-UIDL: APZrynkuk2NWYumR/AKIcEYmmKU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.19
+ by atlas120.free.mail.ne1.yahoo.com with HTTPS; Tue, 2 Aug 2022 21:07:07 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.4]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.4 as permitted sender)
+Authentication-Results: atlas120.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 2 Aug 2022 21:07:08 +0000
+X-YMailISG: yBjZaXMWLDv6ebDG18wPBVuzkuj7p2usNAfXLF3Ql9ev_lyI
+ WEOLAXV8tANHYxz5RODCoOoVDVc9h0GAMQ92MGn1A_wjyGo9wTNbNuFdflB.
+ uUQEvc5SiC2GbQYrN5ukEuHkzxN5jsEZjjalUNYoeFKuGjIFQNuQHLWK9p67
+ nk0EbBBzSGieJCHsvoOLJ5yCrKH25qkeiU1DAVxaeqCcYawKu2CatKfrgZvs
+ YzDIZSOx8YaPFLzzG4H4cKPImor00H9M1SRaUR9mcdmRnrQcfjP2YhGOQuNg
+ oDBh1lzpmsEPD26iPO3cJxqOkkwf.lS4ymZ_WM7jKEnY7zweTVwL5j4SW8CA
+ pkinicpoJHL_tkqbzMLtFIqN2Q8h42qCCt_.CcfgoMyaxgKzvfCmR0aSbAK2
+ _e80_wvxikWwFU0MjveVRYrz6UX2tmBCjn0m3E07EsZc5GoUbN2e.ltO.6rL
+ iKyYMa6l5mefT9PelKE4G8kfJFap5poka.yldBwGihofvgJvyAKw7lyZ7Hhh
+ Bj_B7S1PC4EOCBKA8nxZoBJ6a8NfHHfiVvMaNJ8l_38qli9g0v5QP9A3Rls4
+ FcxTHyjRzQNKDukZm1Wx1G16VEDIhE.CFW6ptkFyrnehDjIKwHMCSoDxuwSP
+ 47Gkm1ntWo6j_pjWfI9JZCZGkAiQ2ThxApwmOxPDPNb4LXobQDOEsGJcB2JB
+ __I1Vgv_ZIvpMiyHhtQSL6ggTNuTrIM33cqbMC2F1sy_sQ9fy6jQ0H9uus61
+ FtIsTwzMmmykXbNaD9gYvSxQ5gmWMRqfsY5sc7n4lmUZHeRf5VpEB8_WLLHz
+ Xc0KLYx6WGLdd4MxLz6E1zYmoEq7HhMeDizdDQKFnqFqPU6vW063L.zAQCZf
+ lgC0miXekWvvhEizyKMqhPOZCpPEwFbfpvQqxYWHJjA.07hjMohAynChcP7_
+ 917Q6jWAKaNO10OGdbeHjuxCuWVJnEfewuQ2vRN5KcRyx1MKiK4JD61rqyJw
+ n9Kfk0brKSYs6vQJEVyrn402WMQsM_rEiDPW71M1d1xrx0XqL73MzYva6s7X
+ R1FSQ0E3paxgm4JtR_JuheKMDcUaNN9V_ONOM0KEW5XaaqPCFJWDCz_MSBvW
+ 0FoL3MVfc9Lfxp_N996_Cdrm2L_kUSwgj7kb2uknZw--
+Received: from 166.216.149.4 (EHLO alpemg-mtmta01.wnsnet.attws.com)
+ by 10.217.136.19 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 02 Aug 2022 21:07:07 +0000
+Received: from zbot1bmmsc01nfe002.wnsnet.attws.com ([107.78.102.29])
+	by bizsmtp with ESMTP
+	id Is0ToDXiPxJs1Iz6ZoKpXh; Tue, 02 Aug 2022 17:07:07 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1659474427;
+	bh=DHE4fdIlbT9V2O3HGOK91rydH+km1ptQzHWp3q7hrk0=;
+	h=In-Reply-To:To:From:Date;
+	b=Hku53fkhH7o+JgkQvI06UCWh6/KB79dv+pEFZm6nWWOTq3y1+E9TS8wBRYeC/ETYP
+	 mb/1lOZRyhvYcWayGzqL0yKsWpZ+oySkdFtWs9GHEphZkS5a916hwOA4Jv07o82H6a
+	 avpDcSjjCd9AMXzMJPor1LWQR2wnnyPktxfxDEuUhzd7ffhIX/nSlQsQzJDf4MUQWH
+	 lfiM7Pn0MLho4I3MBwIvNJb2OndcBYi2z4EsQhbP71Go2D/HujMC8rf/yCqamINTT6
+	 J+Ckm/tZ/dHL4I4LJmRfJZ0tfb1N4P9N1qNC3QE308Kbx9xOU3agaPEzJr9Le1tC1z
+	 8nzS4JwQ6PNOg==
+Message-ID: <Is0ToDXiPxJs1Iz6ZoKpXh@txt.att.net>
+In-Reply-To: 569159247.6990115.1659474427008.JavaMail.nems@zbot1bmmsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1659474422-28
+X-Mms-MMS-Version: 1.2
+To: careertechhelp@jpmchase.com, ashley.humphries@wilsonelser.com, 
+	legal@mskyline.com, slaskowitz@ingramllp.com, jefrumin@legal-aid.org, 
+	info@manhattanbp.nyc.gov, atr.mep.information@usdoj.gov, 
+	connect@jackierobinson.org, ms60710444266@yahoo.com, 
+	atr.international@usdoj.gov, gsamonlinerequest@gs.com
+From: 6462563609@mms.att.net
+Date: Tue, 2 Aug 2022 21:07:07 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_6990114_1228973163.1659474427008"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfOoUZHdezNjdeDbQJOhNepD8Q0FAnH1eB6OZmZEbek+SmdBRg3VRpwzpIi2gGx7s2SxdOMcl+yacv5od7qj6Skyu/OQHIrn2emDFsdx8215vutLujMmy
+ SSjG6+NeHxEOM9PNn0wDdZwiuRhucY6HgVJK7MN3nIKEW2w/BMqmmo+YJ7dKq5m3KAl2Dpmkt/KSvfw1cWMfa9G5E4jEq3OlaPK4q/QWzH65b8Rwpz8JivR4
+Content-Length: 386
+
+------=_Part_6990114_1228973163.1659474427008
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+SGV5LCBhIFVTQyAxOC4yMjUsIHVzaW5nIDE4LjIxIHBhcGVycyBpcyBzZXJpb3VzLiBjYXJlZXJ0
+ZWNoaGVscEBqcG1jaGFzZS5jb20=
+------=_Part_6990114_1228973163.1659474427008--

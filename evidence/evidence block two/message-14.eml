@@ -1,0 +1,100 @@
+From - Sun Aug 28 22:44:43 2022
+X-Account-Key: account1
+X-UIDL: AE+5BUpXBdxGYsnBfgAAAFsih6g
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.150
+ by atlas320.free.mail.ne1.yahoo.com with HTTPS; Sat, 9 Jul 2022 17:57:17 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.152.38]
+Received-SPF: pass (domain of mms.att.net designates 166.216.152.38 as permitted sender)
+Authentication-Results: atlas320.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 17:57:17 +0000
+X-YMailISG: fjMT7bEWLDt5zqAV6cexmZsQRJDvCX0tVQ41aT2wm9T7XXEY
+ 2XTpNDnfzvHALwbj8Ii04l74wXwKwHk15qNg0XNBfeR4rekV7t3Yv4WvhYZ1
+ N8e9eS.cR1kKsI1ndHrZWYvzPh5bppYHVGY_hGRsyAVhSCwFIiYxrVHmKlhn
+ gAiyQsP1sXHBvPC9NWySUvfq0vsgMBlFFjTP5iKnlicvS5UP2LJRQdqfY182
+ mK7jxRotnmikRX6VvDsd0XwzPk0JCQWNiqB9SjI47tQRUKo73rT3w9kT2Kpv
+ D0TLp.APN3_0f1f6MT1M_XjfRME5aLkuHJrtFvBi4AmnfikYs0YvcOe1TO7B
+ qK9O6OFOuwrggsfd4oKxN8d.M_ZeJNdNr4XDwn2M9nq9Tzji_HR5Nk9oNytV
+ 4P0fLpQg6nEZ0iQr3REtAIBae_UduXUpduuxeREm35Bw4KxTfJVvTaU0rKd3
+ LT2bnLCqPCwg.ffoRDj5znU9xB5R2DBSxUwUj0jQ4YEvkcO8spRVRNpVrpZ4
+ N5uYZJKnXC3JFfBJq.1omDd8LeYuJhQWHVS5borqnKBdsRJ5azJeiXOaUObo
+ x3NxcxpyKRR16FMw0Kf.wupQwFUBEgieaRUsGbjhWXlS0BKOo.b4sNh4q6fz
+ VBX16rnKqNRG3l8iCjeamWfc5QUS.L_GIQhI2GHNrpTJ2Tun49mUyQdS4Vw9
+ lI_WZM7u1f6mvITQzxg5Hew2Ee2ipZP7k3V6nudSAsQk9hdLIeEapz3lIy6c
+ LJgb8.uY6RfqaAF1BFG0iNzhGVVpESfqOSXwCYB0jaZtC9Ra6xshncJbUzGi
+ HYgmoEbp5L1oLublPXYFAjOrP_LSEs2UaxbDqqvo.bcn7pQpxtbOFpbj85Wp
+ eNhSJlGweSNoHPrU28lU5VrihQ_1c4nS2sEOMIVPiL9Y1GHB8peOnwgUQ3Q8
+ P3gC5WDNjIxJAreMdPb.TlBL9bvIz8EYuh_6GjOgi7xH.KKdjMpPAT0W75nz
+ JZAlPy.3M0oz8.0UojtZ2VRFjs3f_B4tcEmPYM5v7bsGnDe3hskxGHa1uaT6
+ bvqNOX2.AZBXgiwnAF7bKXrkzcfowIgpSUbYGccqPK963y4UL2Zpa0_.U6Tv
+ OawCdXCkSfguD9cDHgqLKGtvk5q9IF09qSyXyjuUXK4A6mAOy.BZVj2R
+Received: from 166.216.152.38 (EHLO stcceg-mtmta02.wnsnet.attws.com)
+ by 10.222.142.150 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 17:57:17 +0000
+Received: from stcceg-mtmta04.wnsnet.attws.com ([166.216.152.40])
+	by bizsmtp with ESMTP
+	id AC79o3MTRVp32AEhhofZzU; Sat, 09 Jul 2022 12:57:17 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1657389437;
+	bh=u8cpDTKncpu9mazbo4Nx/E1sOytNBIY6ewPdomc3RL4=;
+	h=In-Reply-To:In-Reply-To:To:From:Date;
+	b=MEbVUp+35y0sjs+wNxOZOxzhpB145St1wWBgRdDt5f89Af7Xs/Mk5ErU5S1fzI6j9
+	 YdiSmBF5nG/s/u2kPVLAcBRlFfZjTRHA68lB1D0e7ba/YiSTtjIIifbwBrSkL7HnOP
+	 tTaEZr4wa2dGqxpI9Ts+E7s3OftKCF3oN2jimD/uE2CyDVkqp9hSgX4gB7UZdIB2b1
+	 Dsun3glsdVRQn7r+rMYOUjYZGrqXFXIV4AlPN9TswWTHajKM4FspYNhu7Ao+xLQjen
+	 rvZijwkIsL4id/1pdEEe6gS+kLhcK6HGY/h/I93f/ZPqcIp/JJAewCxguIkfByWLAy
+	 FqcmH+k9uhgIA==
+Message-ID: <AC79o3MTRVp32AEhhofZzU@txt.att.net>
+In-Reply-To: AEh0o34p0NSZpAEhhoRDJI@txt.att.net
+Received: from zbot1bmmsc01nfe002.wnsnet.attws.com ([107.79.70.30])
+	by bizsmtp with ESMTP
+	id AEh0o34p0NSZpAEhhoRDJI; Sat, 09 Jul 2022 12:57:17 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1657389437;
+	bh=u8cpDTKncpu9mazbo4Nx/E1sOytNBIY6ewPdomc3RL4=;
+	h=In-Reply-To:To:From:Date;
+	b=DDEzt6QlRqEiRafH1uYFBVqhn0Wb1358UDEnsZhrXuRe9wj6D3OrYqeG3ng5nPYLU
+	 uTYm+iRTv09qFgXN/44aeC7gBROy6CmQDBl4NIZvJTmaoXXd1+Uf8Ntg6WYAr71ab3
+	 rjgUVwmvV6j06C45dIoBT6Jw4aQm9WQIYMkzYoIf1nrOcKA50E+nloUSlMpO/GyKLT
+	 2EbT3SB2QHMn9GOI/t/IJPnpNeyOsFpxmp/c8za/+eiG6DsZKiSn7k0WJxbrwuyVC+
+	 1Dd1DgEthcnx3BGaLt9SMD5dS4Um/6yQI5qC6eihoe5NwIcN7EXHgbdVBqztSLqN0R
+	 nd8KJFBmkZIyQ==
+In-Reply-To: 1745582157.216317936.1657389437050.JavaMail.nems@zbot1bmmsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1657389434-195
+X-Mms-MMS-Version: 1.2
+To: ms60710444266@yahoo.com, TaxEfiled@law.nyc.gov, efile@nycourts.gov, 
+	+19173783467@tmomail.net, baris.dincer@jjay.cuny.edu, 
+	+15168841084@tmomail.net, ogis+noreply@nara.gov, ogis@nara.gov, 
+	travelerresolutions@expediagroup.com, ir@expedia.com, 
+	hiltonhonors@hilton.com, hiltonhonors@points-mail.com, 
+	honors@h1.hilton.com, bo.dincer@yahoo.com
+From: 6462563609@mms.att.net
+Date: Sat, 9 Jul 2022 17:57:17 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_216317935_899291729.1657389437050"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfMqbGgZl9LBVbotkelNe7yZ48CDLNUspDZ0MQD0wkYHTZAkFkVNQnmrsCAF2/4DfX3T1OGBw970Q3TxvgUANaDe7F32c1jOHE8TOwFRmftfTL4Y32L7w
+ 5R89CZsTxkcVlWZ9gXYyM4QJNDzvumotGvPRSI3wlC+Jq+QgjSrQn8VpIaTaRwu3BNvRjYCpNZNXt38xLdKOueM0qapohjwRUV/lz/z4RL0wX4VUg+L5VTgg
+Content-Length: 441
+
+------=_Part_216317935_899291729.1657389437050
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9naXRodWIuY29tL1dJTFNPTi1FTFNFUi1TVEFURUZBUk0tU1VMTElWQU4tWlVDS0VS
+L1JFTEFUSVZFUy9jb21taXQvOWQ1NzgxNjliNWI3MjczMTllMTQzMjZmYjZlYTNkZTVhZThjMjFk
+Mw==
+------=_Part_216317935_899291729.1657389437050--

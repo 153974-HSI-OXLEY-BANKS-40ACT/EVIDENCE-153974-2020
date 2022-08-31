@@ -1,0 +1,99 @@
+From - Sun Aug 28 22:59:56 2022
+X-Account-Key: account1
+X-UIDL: ADapS11xw9FTYupM4g2/iLPdOuc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.212
+ by atlas106.free.mail.ne1.yahoo.com with HTTPS; Wed, 3 Aug 2022 10:24:34 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.152.37]
+Received-SPF: pass (domain of mms.att.net designates 166.216.152.37 as permitted sender)
+Authentication-Results: atlas106.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 3 Aug 2022 10:24:34 +0000
+X-YMailISG: GIwhnokWLDs8LUB44pAM7419Rr7wbRXqyoR3OrbO9Xcw3rE7
+ QPHF44M8pL1IXNybiDrCW2QF5ckeFYJj9j6efHLnBlblo8WKkhqWjwCmyC.l
+ rxHlb64z3Pqyye8TO00OXSw2TH8Ag2scgHXKvwXj.sPNAn9K38ynvUgmkoYy
+ fwxxydSxPRKs7V9oq6qVqMt9.tUIE3TTUSCOzrIj6sjNXP1D2pZUCK2Q74M3
+ DbNGtIwBvKSyEL0bihf0xffjqEF8TPsAfEdD7U6WuYZMgwhIyaMW..jfyH9o
+ r90BFqKohD5QounEZcAFSvq0vSiXkvAuLhKdtWX2a1voj1uNDdwlDALo0qUr
+ 65LSFPiyLeTRJ_6fjorgK6PbguPMINwzof0CiNmBLU0CUcjgC.vO5pWet4ZD
+ 9roCR5dC0NLkylzzeWEhJXS3QQS6byIOcX4rEcRhF.dND4Fl_OP7LrTw.Adw
+ UcJA6NdiZc8beDOUWuiGOgdJ0GT4WcOzH.Ychv6dQAOWiINDdyN9qMfC7IWL
+ 4rT7_OJXt_PrOZxcKIe_OHaKgsL9mHhb7uE.kr8wXzISr1TXoMrDpLUId6Ka
+ Dt6Awj.HkFdfEgd6rTHMODRXpjdjNc0FgWFQ37PUdBHaPeOw0hnVMXp6ORFN
+ t6UDNedlX7jc.VyTljskcz.m_kvSFcz_8gMcvdAlYyGAxJDQYyRBJ.QkNZcs
+ qCFkLzxVhiBL8lViqOM9BP1baQQRkAt1aWYmz4dfE3we92FW9YYSk35kCICK
+ puOcbTqAXS_JKAPkZBU7fBzS2jjml18WIx2L.KOU2m.8hiZCgH8a1yo84o5K
+ UAYuAjJTjZqpcbVfIkhbGm5p6.Wf2kMFM32dmCca8hMiPiyvzVmr6HCw0EQQ
+ YsQJrqzgOWLcaBSTN0y0ZqL1SEj0QYu8ZZ6NgXlYPhsSWxAMdaRtxEh1V.wu
+ 0CTeTTa_kFAAQwiApt4vadpkH3RYo1E0a_x9538JSkXVjWLlL.ugIa.Wdp7B
+ ljLoCAbDJ1uKaKbOX9LzaPUj0IdJqSUa5niOyrS5CMlBNgnTQYiBq_A1Zc6R
+ JxJ.dOXWWwLpvYBNj9_kH3efukASoAE1G6_e8AzL2V_5rUarmWny8gZ3Go3M
+ b75cPyYmQkO2Be6ZN80UAt6dBlFNjo5eUwBUyF6onw5oXUk-
+Received: from 166.216.152.37 (EHLO stcceg-mtmta01.wnsnet.attws.com)
+ by 10.217.135.212 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 03 Aug 2022 10:24:34 +0000
+Received: from stcceg-mtmta04.wnsnet.attws.com ([166.216.152.40])
+	by bizsmtp with ESMTP
+	id JBXAo1madYUu3JBYIoLkyV; Wed, 03 Aug 2022 05:24:34 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1659522274;
+	bh=b+OKG7TpWaImkjpOkQ6Dw5KASKwOnZnNSv42Kfn/0gM=;
+	h=In-Reply-To:In-Reply-To:To:Subject:From:Date;
+	b=I2ZW7ML/mYKjl1aHAA3Y/X51JO3tpbKErZEjXZiLfjak6IPebLDQbv8IsVDM07l0a
+	 WUv8evrgxA0hj5KrO/j0JG1Crax5rDr8WdRuNo7Xvbxv9bJJjrw+98RjFwR173Plsg
+	 eVEPEUP870iy1KcX3/m2stemQLIhT7qYMEsYFXIJWY6uMF7iOi6bPCRbeuGJ1FYyCA
+	 /INV08iJlTf55vABCajGR3gHH5TRY4+NY4qHK2N1cEEnV4U8Ge9k+21jybJS1S5IK2
+	 XJMwdiUymLcAxsQbem1GunK2BGSLmT1NtRiRQTYo/Sbo8iFjqyhR4QSGtE3rD2+q7l
+	 QxkqcpFRwn47A==
+Message-ID: <JBXAo1madYUu3JBYIoLkyV@txt.att.net>
+In-Reply-To: JBSioGm47NSZpJBYIoUpR2@txt.att.net
+Received: from zbot2ammsc01nfe002.wnsnet.bot2a.tci.att.com ([107.79.70.24])
+	by bizsmtp with ESMTP
+	id JBSioGm47NSZpJBYIoUpR2; Wed, 03 Aug 2022 05:24:34 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1659522274;
+	bh=b+OKG7TpWaImkjpOkQ6Dw5KASKwOnZnNSv42Kfn/0gM=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=Dwnkh2T0NrnlDrvrDgJ70RLNxtfg3WQFZ/CfNpXT2u+QynrRMhKaBkG0EBx92z5Ad
+	 GPRuO93FY/mfr00eUsUVA23GNhZCYCbT8fWbu7yEw3/tcGO6xZbdmv0dhTFnljqpkU
+	 k5Cx7yPdmC0d2L7b4zjaSacjjVp6qFczsngsnvPIWchf7xAcPZ8n/aX8zhUgMp0/DN
+	 00r3qph3GjgVst7YBy+hLL4S7E6DDaU9gvuz9ODJ9U7oHlbIYnB3W3daQycV0VyRt9
+	 45YIIUJWRjvLiRQVekc97qXDSHAN7AfJxqFphHF+NeKc2o8c5x9Bceuh5c1LO5rLPn
+	 VyhxtcadF3+3Q==
+In-Reply-To: 999796588.5437888.1659522274028.JavaMail.nems@zbot2ammsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1659522271-55
+X-Mms-MMS-Version: 1.2
+To: gsamonlinerequest@gs.com, ms60710444266@yahoo.com, info@manhattanbp.nyc.gov, 
+	atr.international@usdoj.gov, atr.mep.information@usdoj.gov, 
+	connect@jackierobinson.org, ashley.humphries@wilsonelser.com, 
+	slaskowitz@ingramllp.com, careertechhelp@jpmchase.com, 
+	legal@mskyline.com, jefrumin@legal-aid.org
+Subject: CRD 8209, changed CRD WITH 1516523
+From: 6462563609@mms.att.net
+Date: Wed, 3 Aug 2022 10:24:34 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_5437887_255023311.1659522274028"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfOGJyv3f9W/+K6NXy2Dq+LdGu/BsTi8ydXPVQ7GHsCaMsopAECIYIF/sBLXeII+Gydpajh7VHsTlGiFiyxtJGXRsdvPKWOPe9oLpmUlY/yNonIbhYHaP
+ 98HDpH9oY4BuvIwRVRk+fFHv6b2kQ1qKOWvZ8XEO9Px+JSFt9ytAcW6oa9SRr13+FAC3PrnIgsTNgJ9GaG9fUJfuVI4L7S35mKLhKEwQ21sji0+66NWIYJZ5
+Content-Length: 408
+
+------=_Part_5437887_255023311.1659522274028
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9saW5rL3Jldmlldz91cmk9dXJuOmFhaWQ6c2NkczpV
+UzozYzgxOGUwMS1jYjc3LTMyZDMtODc0My02YTc3OGRkOTM5NzU=
+------=_Part_5437887_255023311.1659522274028--

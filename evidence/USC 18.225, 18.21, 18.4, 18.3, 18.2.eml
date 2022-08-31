@@ -1,0 +1,95 @@
+From - Sun Aug 28 22:44:07 2022
+X-Account-Key: account1
+X-UIDL: AGfekddeJDGSYslUBg1OQGBbSYM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.136
+ by atlas203.free.mail.ne1.yahoo.com with HTTPS; Sat, 9 Jul 2022 10:10:14 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.5]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.5 as permitted sender)
+Authentication-Results: atlas203.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 10:10:14 +0000
+X-YMailISG: d9WsMncWLDsBiyQxBP1TSvsIbfXV3EdmEcOvVBhwMyOaloEa
+ V9Z0jF5UHeqo9XE7sq4AD1SAqodV6WQhypEoyiOYqNEG8amXNDs1amkxOLKo
+ gcrj81CEjmQ0VuBaG6qK_NDvcSGXWH1kwqJEwiV1LMyKDfkimBH4akLiBGib
+ PvVTNvht4l.ajxI2yTc8hnGK2.NdyqhI8fxlaiwDU_OjjfGNfEfP.7TyZDEj
+ iXluOEZP83B_Xs5qwEpUxHfy8rU5.DYLYjkGM_zwH9cfX29yIxhlNKeWlY2_
+ n0Y8F9tPwHdsqQzvolnOtht0R6nZaqQSCkYUk7H6WxsQUXUaSMVBQcpjh7WW
+ Y4k9MPiyvdLb.u0MROXfabIQcv7FyWkpK7lpzNTxkdfCWVf7Sf1geP81be4V
+ hSkHAc3AGheN38qXqZhI9zVMkbGO5GvUFccrsTXd9PpcZX9maZnh1gyuqcCb
+ OFu5sic5oOodliFqrxtllzbcrzWptgvPPs_y5gsziAq9GySEHtTMA3Cps6Ph
+ 3nMwDG88734JUbmoLFXWNslrPyjcZQVkCd6QL_iDgYJZ_4_TkoEPm5Ydy.7e
+ Kk42rIY0_A3Z84S5l0rIoGU2yOW.HRntOnR.EtXM48DwgYbAtfwoz8FWGwY5
+ hd7nECeVythWt5ju7h_J_VBexaE23zCZZmf0P4mGYgNxYpuQ7nexnoMn2Zav
+ f.VYIh6nVLIaaPZQqe.7_UjfPGelOfgkgO7AJ0z8nZpvZlKFPqTUaPQ.qrSI
+ U9d3sykoSISGAu8hrm7E2G6r5bAvXIsYOZmJU_VNF2nAe8s_Hj7vr45eM763
+ tnaSadqapCtYT4i1UNZ4gzboMO6b5nhlDfS74VYgn.bzk_1ZLKAso6Vxx5un
+ gfF6FNqE1xGDLZOejYulCeLSruZL2Tb7EokPXoz8gIGvh.UAiU1f9XmQCfmb
+ rfs66UW1_S2u_1eueSg3FbpnQBv0YUWS2.044.7l4yRfKVJVmcU8jOBri9SU
+ 9co9EBuA7wOpO0r8cRtalDE5sDKtl_bj1EvHeAKccitzU_B45BzFQEJY4Tm4
+ DsSCZv3hSdXpXGCTN5HQHo_lMB_JRt3onp3z.Mctuc9YeXvJVNEmyNHsFIHx
+ esrdzFExR5eptK7l4StB9QosZxpR
+Received: from 166.216.149.5 (EHLO alpemg-mtmta02.wnsnet.attws.com)
+ by 10.217.137.136 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 10:10:14 +0000
+Received: from zdll2bmmsc01nfe002.wnsnet.dll2b.tci.att.com ([107.78.102.27])
+	by bizsmtp with ESMTP
+	id A7PioCGW06QjuA7PioBx4d; Sat, 09 Jul 2022 06:10:14 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1657361414;
+	bh=0UH91AWQ8ge673LysAErvw6GBWJbuRDiIAMuDgsq0yQ=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=Z0W/hKRR25aUE8EbIT8blgV1c2qzYweTME3J4yKXZFVe8q4D7Yotc5HJ5EBQyeydZ
+	 US+4YiHLs2yB2vGSz14JDbx9vGHpxnHapWpA810YkxuYM8KAm+fDoD6Y4+m5bxRb0H
+	 Y8oXXf03ytv2UGT4aLOWF3Fi6S/FV6NHVOT+l0vP+AKspvtbqS0lto/jvhEfOsigzY
+	 DvjJhGbW87DhiQU0ZVPzyWZURi8BQFg4uKH0N2LRde9Zb3ETZEZNgvpL7GEv6f3V5m
+	 pt+CVXXBvn/MbgeFM2l7eRYScBpnOAxgKkFcJ+RPCtUxGXTrbhmlfIWuHD8Pteu50g
+	 rJ6aDMFraxW1Q==
+Message-ID: <A7PioCGW06QjuA7PioBx4d@txt.att.net>
+In-Reply-To: 350299630.226062146.1657361414025.JavaMail.nems@zdll2bmmsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1657361410-14
+X-Mms-MMS-Version: 1.2
+To: edincer54@gmail.com, ogis@nara.gov, governor.hochul@exec.ny.gov, 
+	ms60710444266@yahoo.com, newyork@sec.gov, publicinfo@fdic.gov, 
+	CBPINFOCENTER@cbp.dhs.gov, ACSInspectorGeneral@doi.nyc.gov, 
+	bdincer66@icloud.com
+Subject: USC 18.225, 18.21, 18.4, 18.3, 18.2
+From: 6462563609@mms.att.net
+Date: Sat, 9 Jul 2022 10:10:14 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_226062143_1701202870.1657361414025"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfEgghkXv40lGi2dOftHaq8+nFu+4CUu05nU695FUZTxjqMxrY2oUw9cEMhNpOzEsXUMGmzCoGTcMvD0fpaiwspixJNzSy9vuECUD0yimnkG2GouNvUA6
+ d1YmKWFJ9mfZi5B5Yul1XxSh3buqbBFVkc3JAIswuIkdOTTnK5lQKMIZ+DESCt3SuI3956/lG+bAhTSJtfrMFH2ja538YR0FqSTyC6MFbxeB8l4vY0VpTltM
+Content-Length: 1286
+
+------=_Part_226062143_1701202870.1657361414025
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9naXRodWIuY29tL1dJTFNPTi1FTFNFUi1TVEFURUZBUk0tU1VMTElWQU4tWlVDS0VS
+L1JFTEFUSVZFUwoKUFJPQkFCTFkgU0NBUkVEIFRIRSBTKiogT1VUIE9GIFRIRU0gSSBET04nVCBL
+Tk9XLi4uIEZPUiBBTEwgT0YgVEhPU0UgQ09SUFMsIElORElWSURVQUxTCsKgLS0tIFRIQVQnUyBB
+TFNPIFVOQ09ORkxJQ1RFRCwgT04gTVkgUEFSVC4K4oCC4oCC4oCC4oCC4oCC4oCCVVNDIDE4LjIy
+NSwgMTguMjEsIDE4LjQsIDE4LjMsIDE4LjIKCiQyMCBNSUxMSU9OL0NPUlAKJDEwIE1JTExJT04v
+IElORElWSURVQUwKCkFORCBMT05HIFRFUk0gUFJJU09OIFNFTlRFTkNFUywgQU5EIEJFRk9SRSBJ
+IEVWRU4gQlJFQUsgT1BFTiBUSEUgT1gnIElTIENPTkNVUlJFTlQgU0VOVEVOQ0VTLCBNQUtFUyBN
+QURPRkYgTE9PSyBMSUtFIEEgTkVXQk9STi4KCi9TL8KgIMKgQk8gRElOQ0VSCsKgIMKgIE1TNjA3
+MTA0NDQyNjZAWUFIT08uQ09NLCBCRElOQ0VSNjZASUNMT1VELkNPTSwgQk8uRElOQ0VSQFlBSE9P
+LkNPTQrCoCDCoCB0ZWwuOsKgIMKgIDY0Ni0yNTYtMzYwOSwgOTE3LTM3OC0zNDY3CgpodHRwczov
+L2dpdGh1Yi5jb20vV0lMU09OLUVMU0VSLVNUQVRFRkFSTS1TVUxMSVZBTi1aVUNLRVIvV0lMU09O
+LUVMU0VSLVNUQVRFRkFSTS1TVUxMSVZBTi1aVUNLRVIvdHJlZS9tYWluCgoKaHR0cHM6Ly9naXRo
+dWIuY29tL1dJTFNPTi1FTFNFUi1TVEFURUZBUk0tU1VMTElWQU4tWlVDS0VSL1JFTEFUSVZFUw==
+
+------=_Part_226062143_1701202870.1657361414025--

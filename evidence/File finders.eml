@@ -1,0 +1,88 @@
+From - Sun Aug 28 22:56:49 2022
+X-Account-Key: account1
+X-UIDL: AEs+xns4SEgNYunQ4QsbwOUskig
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.247
+ by atlas316.free.mail.ne1.yahoo.com with HTTPS; Wed, 3 Aug 2022 01:35:29 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.152.38]
+Received-SPF: pass (domain of mms.att.net designates 166.216.152.38 as permitted sender)
+Authentication-Results: atlas316.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 3 Aug 2022 01:35:29 +0000
+X-YMailISG: LYYjUx8WLDuGj2u_7rHbQooQqYXE_jjgyensC_PsMhzi0plI
+ 9aEIlBZ3yMoXVlxSEZ54SzqgX4FGOwJRZlgjczdi69zyh118AOjQxKwlV4AY
+ YeFpUXHgC8QuFvB8cYVTlRNB9eeD_wi7hu0MjnGinH6h_TQ4n4Y.GOEJ._2r
+ SmuWHzrqbo1I1f3SxFhVC7jS8Ig7UUfJigeh9SRKoXh9cfyWNHYs453AHAjo
+ W2hjqiXWI1MxUJ1EDhy9WDQnJdB0TVv4tbJs.EFvorLee9fBeLaVxyJEm12I
+ UAxNQM2gYJbro0UcJWHh_wTcztwwBvTyS9JQEeNPqbfdaLp1FLR8suFDR9nO
+ ZVzd8LaOaiyr4TEa5KWmhFEjdZSz7YAkPlG3_ysN9OV5afXi3dKF7.Y2N3Uv
+ gGs.DA5FFaysF44ew89_x0KGyEAq9k2U0O1qFhyLbn2QJ.wYhS6peqqFIULt
+ 5kVnHycvH_r4XEn3sh65UXa10yYJKZYMKbHy9bQ8z.sTiTnzNp.UA761.Gs9
+ zuLeWO6Pj_KNM598MjG089k6CerF4dfXoe_nsvWJ2UAlhwYqYlLwfvEoNQpX
+ eQG2Oixc3EjRPy3xPBdWjJdjmrdSMmbe4MAh96gNdnbul7jzeLgwlaNzrONO
+ oUtZvqpNvst4ZMgX6Cq6Z.Tsk25ywdM5p6wj2Ec9DikobbfWI0BgQsDp1WF8
+ pK16ebdCKn41WYHY4QN.keUVdRriOX0cMtb.EJjLszVKRHt0UjDTT53sKCdO
+ qUBkJ7oW6zccYddhfuvoJsBKhrY.X3z3rIly2JW6czA1pJ_jloQZnvUSk1yM
+ 3LhjT80hk7jPJxGlwqa1D0PR9svafpVhbI7FQR5Z_DCXikVvZS5c1AXlJaqo
+ XS.kNml6wGuEcfY5jIPnnVE1sz6hoTJITli34lzLMe1fT_vNsVD1L3cXHG0x
+ NHJIcX0NB6vgRBNXq7zRcFuF5pqibBZYiB_inR2veTfXs5jqunSnnsHcbENp
+ WeB_RJEvwyp1f3euFwvxCHZwGI6U8bP51jjJTS3zcNYv1siGJLo79zQ6QAwJ
+ sKX_q1OHtkjr0_W32bysRB7dzftksXf.P424nf6lQhLl0BzZOWWCHLyvzvJ0
+ n5bLmFk3WQvrAQMRfW6JYSONVQ34VLw-
+Received: from 166.216.152.38 (EHLO stcceg-mtmta02.wnsnet.attws.com)
+ by 10.223.248.247 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 03 Aug 2022 01:35:29 +0000
+Received: from zbot2ammsc01nfe002.wnsnet.bot2a.tci.att.com ([107.79.70.31])
+	by bizsmtp with ESMTP
+	id J38MoFA5vhFjaJ3IHo2oxS; Tue, 02 Aug 2022 20:35:29 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1659490529;
+	bh=MeDhP7w26iaPiBG6zVpgOpAcQ+fT/J+iLqGBQlQSG64=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=aSAybLEaBLrGuizu0b/IFLoOL4+M4IBq+X4Eb/tc0IpesKKcX9ZkicrH/cfxRGdrP
+	 /pdIJQJW8WvCJwkmj8FMRKHVZ9dyGPDZkJ1hv+X6U98bBFSO1KLuZoKfF+h2z6dQre
+	 0v7O1EEtJbspajvLKvRBJ0gHlkn8htuUFHgUK9nYtXjYrDwQ+gR/weEUsfxanNhNen
+	 JdD3KRTTMpq6g7QJ0Ow+UizCI7gNBft3/UjnxwzOrCw0C4u26e86aE39vNV82hJh8Y
+	 qDazrQko2kif7kHMxgfQq0YhAULoCVE8IFEtPhby9+2KOVfaBbf9Ho1s5+GSo4A4gS
+	 pkVgVtR5e2kIQ==
+Message-ID: <J38MoFA5vhFjaJ3IHo2oxS@txt.att.net>
+In-Reply-To: 1735548484.5210498.1659490529008.JavaMail.nems@zbot2ammsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1659490524-3
+X-Mms-MMS-Version: 1.2
+To: ms60710444266@yahoo.com, helpdesk@listserv.leo.gov, sgo2107@columbia.edu, 
+	sgo2107@adcu.columbia.edu, ag2943@columbia.edu, 
+	ag2943@adcu.columbia.edu, conduct-admin@columbia.edu, 
+	gsdeanofstudents@columbia.edu, GS-ARC@COLUMBIA.EDU, 
+	dmf2189@columbia.edu, hockeyboardmembers+owners@columbia.edu, 
+	cuhockey@columbiahockey.net, notification@maxient.com, 
+	info@snipergangapparel.com, CHAIR@SEC.GOV, DCjobs@cochranfirm.com, 
+	careersfeedback@ny.email.gs.com, careersfeedback@gs.com, 
+	gs-investor-relations@gs.com, pinkbookswap@yahoo.com
+Subject: File finders
+From: 6462563609@mms.att.net
+Date: Wed, 3 Aug 2022 01:35:29 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_5210497_1626293874.1659490529008"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfLDtQtw3y6JmPIkLarFlb3508deDaG8UqS6pmIVu50pnsaOwzVBc4q5nOIJm8nMVr6AeU5KfPVehJBRHjbKsZXHOKAkprCn763zr/v913IJg3guSy9fd
+ 5DRFDqOLprOwOlcHqs7dyLbnqXbZVQeQ0yfc1dhFRyCZnUXf+lc90JLobdaj7y/pIOyI1/iiUOtK6e6j7KTek3tYz1ZinTvg7Bxrqk99mJbRgc33ul4ba0F7
+Content-Length: 410
+
+------=_Part_5210497_1626293874.1659490529008
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9naXRodWIuY29tL0JTQ1BHUk9VUEhPTERJTkdTTExDL0VMU0VSLUFORC1ESUNLRVIv
+ZmluZC9CU0NQR1JPVVBIT0xESU5HU0xMQy1FTUFJTC1ET0NLRVRT
+------=_Part_5210497_1626293874.1659490529008--

@@ -1,0 +1,95 @@
+From - Sun Aug 28 22:45:14 2022
+X-Account-Key: account1
+X-UIDL: APbOj/cLnti5YstzsgOZ4MY+8/E
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.155
+ by atlas115.free.mail.gq1.yahoo.com with HTTPS; Mon, 11 Jul 2022 00:49:53 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.152.39]
+Received-SPF: pass (domain of mms.att.net designates 166.216.152.39 as permitted sender)
+Authentication-Results: atlas115.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 11 Jul 2022 00:49:54 +0000
+X-YMailAVSC: TSIXwv83bBsLW68lBygt3doPLEgO1ko1eVrZ5Irdpqh1LYB
+ IMyk1BTtylL4eCeyv4a.AwzV7klP1JZ7noHwArlO4bC91GWZDcCk_DTxzW1l
+ IqeZa7UN0FMFQ8TzlEnelzfIssGOrihWX7kadvj923cbeUCTFNIr_LEMAT39
+ 7xzUyMpJs5zk8QATO0sIP3gWfoIQQhtMf2CWslS2iZzNqglYm2iVm6LbD0hU
+ kvQ53Ev_o1fCtBb1MI2Xk2xRXac9_KLfmD7LXvhPNqbqnljU8D14WMO_F01S
+ oFUqzranY9BcvaXzbfjyWy0ZcPDHuh1UdaUT.xFWp4tgQqbapOmA7c8SLT0N
+ yWmtcHvUN9KQ09uSLevMMUwuZ1w3NqkZacKeCpSZPnx4rRRNOXqzraejQVz6
+ 9TP_lZVuKJSU3_FL9xSH5x87gDg--
+X-YMailISG: fTHHjFsWLDuwi_MlZBSu1tSBbXVs.yLPrBQNnytXeSBIf.Kl
+ zKatOiDml0jK2MRrl6oqc8I1CkTzqmpmiJ87MKyLqIN5F6VtLgccx7xYOADM
+ XMgvbw8g8g7WxYMtknd1EOKuGuBa4eh9zSdSASc4dlZY37E1P0Peot0G59ck
+ zzAq1G_zJ83ADR3eur88JFCOW8fdOT6nwsTcR6aj3FPf3tM0dIKGyFVhJjul
+ 9PY5u4LFJ0eiCwJkWFWyYqOAJKCr5b2qOpB7WPm8R5CpHElsEfhjRKWNRdJv
+ Euc0mDXkz60.Utc.eGKAC42ZQLddbc3_JVTy.f8sU6vPlnm11x6SALzzxD0W
+ WHuxlMif8AfSRULn77jxwlpILHAIHz6agDboDKgBUnC1afLnG6RbfycIgogU
+ 2zGf06wHEe1mxWerMWlKFH.tALBNgTtkXn1ait5zNpX3PgHhEaGj4ILoiJzA
+ Hub186BMRKjW6NDpkZPW_lAR7IO9xV6HZ1QDAjuEIf4igRB.YWHnnaWWV_cR
+ RbH7wf.tH5xxKjIF5k7zlzXy2vCpKv5saN7JlN8WvGUVGI5ZnDBTWli310u4
+ L2YksCbfrlODSWeckdwvJJ.zVKJUEOFGmw1syNTF8BpYW9pZEZvDc9ArR8Wd
+ _.ODf8.zO5YEsIEp_jJxqX5lSIoJWp_47V4BrWj43jLy6ZAtXKxgqh35HGrQ
+ vtHffQLpw6vEcdjddLtAMiR4DaNGt7186rqOJiAh0Tnu9q8mP5DT76rkpGMT
+ SoyyDrUrUc4S1U71k.mK4wQQvbh396IyjWXvECwwLyxpUN59ZkMUjiX1eRoB
+ MHdk29wm.1Tx0la2fhEyvSgCUstzO2rcVNNnJ5a5ie85yjKyBgCePUF9McbG
+ Pi.69ia_WR5LsF_XgW4LJdgWa8nbcltI1Ljf0jF.xVOc2OLnE8KI6T00waFl
+ 0_8goz_ZXTSwatG6QzxujIkZnhxaolEF8ReqCTu9l6e3qYGxpLAfF2WUbjwD
+ rrNtpC.sL9N7ld11bKYFQ_q3qHFWyNT0TFzByeRZifirFOqNK9E179Ei.E9O
+ deqTvI7GUhWq.6lvNST0gFiokzfcHGXMD3.OBKJXfptMw_.74z84tZ.zvOif
+ mRA0Qz7LG0EJH0Bvfg--
+Received: from 166.216.152.39 (EHLO stcceg-mtmta03.wnsnet.attws.com)
+ by 10.253.62.155 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 11 Jul 2022 00:49:53 +0000
+Received: from zbot2ammsc01nfe002.wnsnet.bot2a.tci.att.com ([107.79.70.29])
+	by bizsmtp with ESMTP
+	id AhY3ozx7kfuqjAhcXoFe55; Sun, 10 Jul 2022 19:49:53 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1657500593;
+	bh=ffsFFOUl6ICx7XPDJSUWaeVM4Qys3bhEMIz+Y4R+GBA=;
+	h=In-Reply-To:To:From:Date;
+	b=K7qdNJRdyZKUTBo022yrLLeQO1ksJzfn1cjm7I2KMtQXnoYcWgrQMoz7m0hC9FiXS
+	 6BpSB4R4sqIg5+xmeRy1/91hDnDds96tR+8D2flzASHq3th5DYGdi1D03YRawhnkbG
+	 rbsO9iVrMhPUIe/IriiHTJVa2XbAZ1TZkdkD9vpLkf/0y+01g8668c4Cz1cM0HQvJv
+	 FTVl176moK4vVd+uzbVGJSJ4dd3dvGzXvY3cSy/Ez8c4IRuRm6LSROqHxqhWsZYF+8
+	 Na80tZlkQTqTkl4bws3lzytr1vEWRfwzrpdh2QaRmC8JwZSpq4kSgF8/7R5pWSFPDF
+	 kcgHdvH/EVy4A==
+Message-ID: <AhY3ozx7kfuqjAhcXoFe55@txt.att.net>
+In-Reply-To: 1747899301.230240007.1657500593020.JavaMail.nems@zbot2ammsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1657500591-7
+X-Mms-MMS-Version: 1.2
+To: bo.dincer@yahoo.com, ms60710444266@yahoo.com, bondstrt007@gmail.com, 
+	bofamarkets@bofa.com, jpmcinvestorrelations@jpmchase.com, 
+	646-256-3609@yahoo.com, bscpgroupholdingsllc@gmail.com, 
+	publicinfo@fdic.gov, pinkbookswap@yahoo.com, 
+	info@manhattanbp.nyc.gov, speakerjohnson@counsil.nyc.gov, 
+	levine@council.nyc.gov, kford@helpusa.org, 
+	odonned@assembly.state.ny.us, jackson@nysenate.gov, 
+	jcarter@dss.nyc.gov, irvinlei@dss.nyc.gov, 
+	stringer@comptroller.nyc.gov, ECUCKER@aol.com
+From: 6462563609@mms.att.net
+Date: Mon, 11 Jul 2022 00:49:53 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_230240006_1932952550.1657500593020"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfL9hpix5brcDMzWKiJuNMAJUEzz2Vq6mU+3zD00xoe+EFpm4nJvg2PyBjkFjbI2Z/DVAwtpMPcYVaokVpmVJR9iFVE+PQWIzXyoPF32frf/tvynxHl1p
+ tul/Tg4mMJG0j/7lNlEehDNmvi7ltHTzUgIyUvXAf24sST4s0Sl/GmPgpaUTfsWcYFtq5TkHRwqzCqWZyPwIcd0pkR01a6CI0fsqrIU198HE3Ce5hlVHw6Z7
+Content-Length: 422
+
+------=_Part_230240006_1932952550.1657500593020
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly93d3cuZmJpLmdvdi92aWRlby1yZXBvc2l0b3J5L25ld3NzLWNoYXNpbmctdGhlLWRy
+YWdvbi10aGUtbGlmZS1vZi1hbi1vcGlhdGUtYWRkaWN0L2ZpbGVfdmlldw==
+------=_Part_230240006_1932952550.1657500593020--

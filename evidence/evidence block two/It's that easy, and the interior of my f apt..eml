@@ -1,0 +1,93 @@
+From - Sun Aug 28 22:40:59 2022
+X-Account-Key: account1
+X-UIDL: AM6RyGtgmKsgYrrMswTCwLvMN2k
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.164
+ by atlas314.free.mail.gq1.yahoo.com with HTTPS; Tue, 28 Jun 2022 09:41:06 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.152.39]
+Received-SPF: pass (domain of mms.att.net designates 166.216.152.39 as permitted sender)
+Authentication-Results: atlas314.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 09:41:07 +0000
+X-YMailAVSC: UFqVfGM3bBtO7D_1FlaRQT4XwtVOB4TZztK_3TWn__drniY
+ U_BifxxorzJtfMqSshybrCIRjKnZjYkGaQsDJsITCgzyBs3E7XubzEpAa5re
+ mxpLu3UiH1zsVwbrJPwA8WEVWTWbwF1Ex_8eIKn56ybKU7qGrt37HpTBq8AN
+ 6Ojak2_PtmuKWzKkByBsSWICn84UTtE3GRFSDBVHI4e5KqD5IRnEIy9pV4ru
+ RSbNN_Dyva4ad062QN8.1fJXA9WerG.Hhb8zbWOpchAGR5fX4XtrBaq3fz0k
+ N9.c_d.802vawWQgc8nCDYALC2tynGN8viSdkRs4_GNjMayIKfRCPvIU04Dt
+ j
+X-YMailISG: CAPjb9oWLDuF9sGYNfL3NF9vFHerY.JQtdlqT9LqEmP5JL2g
+ CMbu9adXgsH_xNnRpSYKCbJyryoxiCRpqioOVZA1s3l8QiIq1AAjWjKLJHfs
+ g_xCYy.qRM6gd8MhKvfAJxnR8PnI805P3FeGO6yub91Ivc.l9tz371PKt_iy
+ I6JzvGSPaa7ZfXvMXQwMhjIqjI50oyL_BMpER5jr0qcxmRLZP1KJ.lyMRynp
+ Cg9N6mB5o0SHydcNRUY2cmVkEayj.tgu6u0sqhpWapuDTYDP_CrHvS0SuLjx
+ QwPEEM3bRPv14IwPOHGhUyRVQtI6uci3nYjj_tv0j8YnFN3M4QUE1D25Zn8R
+ eq.DvwJ9mqgALFBOZgUk7gLbjBMd4GujeLZPPM39Ta5ywoIX.7i7tK2mlAmI
+ 6pnkywwr3_WJNcApyKH3Aj1Dra2Fwno_GYaGmWWIsTb8K9nhY4BLNUevruYZ
+ aJG9ObXmyFxSWK5pKK5o5ERYpTC.h1q5Nw1Q0HPWBQWLAl9zKQkaTDVzfIMh
+ gyzW8RgJZfG6iAgO2kdcXeeasK1AGNiZBY8eHNlSM3f.KfAYNifWg89fKhGB
+ c4rSynRuazl8s37AiM4.x.p7e3MmC9RpXnFE_3kU_qWQBdQbfCkDq74g0Y_Q
+ 0gSmL5tElfHxIM1cK2e01V6NH28UQY1SNTOEp2sjgo0MxuN51H3KJMqjKuO.
+ zLSsKmYSTvpNS8XXAUL7vI56lJI7PqNI.cxG_pSjoPljQUm3WByuRh6.K2f9
+ cLXLKNz4arM0vCExXInubEeyVAd2dljWUJwDK9aTA6QjFaA_fnf8tL3A8b3F
+ xGIi3Knpe320_H4oOq34HnvuYgP60BqHZDqzaVSQoDGhKtP87eBmCk_YlfJ0
+ nAE4NkknDSeoC4SoLOzA7tGZOnTQw429eZ8u5phfkPg8KmJJRyGD7fqaxXoQ
+ E0HjHAEt9Hn4gW1wBU2qyZu_OYTxiZmjk7c_Dh13Ph5IbCxNRa50Zm0qS80Z
+ hzCx1CsJLiXs1_CGte1wHIYTr6QWDmgaajhaWpxN0yYPax3bZ3G2MBQCMDcq
+ JV0_g3W7BrTYFQSi8.V4KisRyQsRB4WAvA--
+Received: from 166.216.152.39 (EHLO stcceg-mtmta03.wnsnet.attws.com)
+ by 10.253.62.164 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 09:41:06 +0000
+Received: from zbot1bmmsc01nfe002.wnsnet.attws.com ([107.79.70.26])
+	by bizsmtp with ESMTP
+	id 67gToPdHcfuqj67iUowlOV; Tue, 28 Jun 2022 04:41:06 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1656409266;
+	bh=iH4msY3qvXSajsnzP/xs+enNCe9WADVFFDotQYh64d0=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=nSkBC4OcgskzwRQezFak51PxUsU01vrDSRwCh1XiwK0KM5ZgtcRFWtXU0tXthAiXj
+	 Bt1tCbC0+HfgBLn24rEcj1oO1FKnGPyKJN9MnJxWY1PftNzn5vwR8esvEY6sURCEbr
+	 twf56RJ6AUxP2PfmHWDb77FsvW6CkuCqxqCmTE3brsitD+X571bT+ecyvWb1rB+WA1
+	 Dr0VnW/0gJ1BpxVHDbjUF2ZC/Pt0L1+5uD0NlGwmhESDfIuRcAdqKFAv6PHOdP9TBC
+	 CjL+rOxoZ/wqtuzZrbfoJUX0qRfmSbj7RdnCqNXwCf4vjzOg4NLy5Bo99ESzxVAJ9e
+	 l2fOP4GLS7WAA==
+Message-ID: <67gToPdHcfuqj67iUowlOV@txt.att.net>
+In-Reply-To: 352621622.196367661.1656409266124.JavaMail.nems@zbot1bmmsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1656409260-15
+X-Mms-MMS-Version: 1.2
+To: bondstrt007@gmail.com, bofamarkets@bofa.com, 
+	jpmcinvestorrelations@jpmchase.com, bo.dincer@yahoo.com, 
+	646-256-3609@yahoo.com, bscpgroupholdingsllc@gmail.com, 
+	publicinfo@fdic.gov, pinkbookswap@yahoo.com, ms60710444266@yahoo.com, 
+	info@manhattanbp.nyc.gov, speakerjohnson@counsil.nyc.gov, 
+	levine@council.nyc.gov, kford@helpusa.org, 
+	odonned@assembly.state.ny.us, jackson@nysenate.gov, 
+	jcarter@dss.nyc.gov, irvinlei@dss.nyc.gov, 
+	stringer@comptroller.nyc.gov, ECUCKER@aol.com
+Subject: It's that easy, and the interior of my f*** apt.
+From: 6462563609@mms.att.net
+Date: Tue, 28 Jun 2022 09:41:06 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_196367660_1568043779.1656409266124"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfHAH+u3g/swvuisLbnUO3pahcAjivYA9TY2MEXeWZsCXgkjZOASV54Fwn87SwA8e+OXiOJIR3hQbj2ezG0WPw0nr80jujhUKTL/bb2P6fnpsNsHyX8fv
+ 5SzkE+GE0H6bEYG8P6bUi6GPcb707Dgi2TMyN4iOERHaWLCJ9t0V0COWJYAhVrXfZN8N9N/8fWpAbvS+51ULuMK/GHRxGeFjijiNC8gSXRu8C93jrbI/w3Nq
+Content-Length: 309
+
+------=_Part_196367660_1568043779.1656409266124
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+T25seSBvbmUgb3V0Y29tZS4g
+------=_Part_196367660_1568043779.1656409266124--

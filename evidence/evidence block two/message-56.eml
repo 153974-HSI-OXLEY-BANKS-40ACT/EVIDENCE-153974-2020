@@ -1,0 +1,86 @@
+From - Sun Aug 28 22:55:52 2022
+X-Account-Key: account1
+X-UIDL: AJYOm8cErsXcYuVxgwDqYDtPRMw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.211
+ by atlas204.free.mail.ne1.yahoo.com with HTTPS; Sat, 30 Jul 2022 17:59:30 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.5]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.5 as permitted sender)
+Authentication-Results: atlas204.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 30 Jul 2022 17:59:30 +0000
+X-YMailISG: GQ8dKjYWLDt6ug_JTMxCJQ24og3HdzBf1ZcJK0E9_Tx0YMVG
+ ckSx0JymszIF1n5jOpnnY4bhtAJ.Ro5RU7EUCf1Is1O0LLU0._.HLT.0x20v
+ FaTVebrejJgYss.vk7V029mqDEhW5w6NBE3ookxb_ItyUFy5yFsUfWS89A2l
+ N2NymmwrTghmTOG07MkoDpwWi7COoITf1xYEi1Vei6f2SI.wT_wlTTrtY6aG
+ o7LDGyTGLvfv1sWIANnHpTqeK_TpL0vAsWg4ijvvXafDt9jmCrGbCYZIz9i2
+ noo.fsNjQ_jM4zDl5zZ7_sI_J2MASGddNn.hjzU4KqiSu..mBFZBMXdDCCST
+ rCbT2oZ..xmJcA6FHK8PeoOpZDXOFN0tZpQmY1i.zZrShDpBkyB7I63zbl59
+ sdBJKXSOvIvN.cYFvhuV57VhRY_DEhk0qpFC0y7IL4zxpmbW9JLJyW3PbrjE
+ Kd1GweDTDSrADcWr9OdEXkTp0pNBm6SJA09gYkNK88CgjriFjpMrkiar6e8o
+ _VGJLzEZ7PLUxKzYyaNebscL._sEVwbCLKHQgxZ8VCFT1JurT9rlUwzX3gEd
+ m.7aBq67pjijtentFyj5ZKQeGcaNZluGc6fH4D3h.bduKVyTQGNTU7G5iPvx
+ ROGS2Ev6CTzMqFwQqML7Bem2LE.oN3hmvq0AHN1e94tYManxDmS7r22pPmmg
+ O1P.6tM0gjVzwEEFoyfWtvbTmSrLjLfNW5oKe1VUUdsjwb4YXNQmC26W1DAk
+ NNb8UOyo.OBl_Jgajs9aVVM6V4c4l.XmxmBFwHhXDT7RoZMcvQQQZVGsQEEJ
+ gJR.b3n6_p_AAkJDk8iogL_kcohURbK.rvwptheH.1ZbNOcWSltJeeV5AVFV
+ .4mOottqHFXUfnSgYLOMBGxOlJGRJbvH8JbDTWEEAG2gJ8.MdGyLZ9L1CLyt
+ 0jGfyAIcLbDRi9J3NcBJfaQlQeSo2HhQQonvRabzLTzdx8aYSBTh.KjJcXj7
+ 5TfZ5vaD5ru94UF04G_oXiCbruGOsmapgiWpqCyirZq78Md_.5kKbyomAAg1
+ yhT4HWl1c7pYNyhd2uA4au1DX.j05UnvSQ8jyjI_ek5r.vcXtzf3uh1CnP1K
+ vlUlfPhS6JCSxpYBvRTBb5cO93ToYQ--
+Received: from 166.216.149.5 (EHLO alpemg-mtmta02.wnsnet.attws.com)
+ by 10.217.135.211 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 30 Jul 2022 17:59:30 +0000
+Received: from zbot1bmmsc01nfe001.wnsnet.attws.com ([107.78.102.25])
+	by bizsmtp with ESMTP
+	id Hqjso74im6QjuHqkMoKnai; Sat, 30 Jul 2022 13:59:30 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1659203970;
+	bh=V9LhkIG0vozg5NSXTwVDnfin6hIDfiLYu3Q+5Nsx5+w=;
+	h=In-Reply-To:To:From:Date;
+	b=aqb87fU0y8u4RfgK5zssJOFiZEPbj2PQdCTFgJzdvqyzdDSwEWew5LZwUE4rf5fIH
+	 0AJCKmLueD9I2bSWMTosvgNLmsZNJOlBQ6Rk8VqTvWrBlE0awRNT8V39gdWA0AYdu8
+	 tw6M8B8sg8iQugzGv++qhzB+EDKNzhVoQvy6FszlOFJ96zt5PDZdh59ysbSyyIRdt/
+	 WSMwaodO9zxZZ4+HhqlzoAp4UJ2/rD8MxylAAbT3HjgPR59DVt336NHaKg46Bni1rd
+	 AQWGGFzKkNmw/N+qlw14/6BujP4GsL2KfEECnu/CdBajjj01msG/Zko1N74oTlmB5W
+	 gMXU/2MvZ1PMw==
+Message-ID: <Hqjso74im6QjuHqkMoKnai@txt.att.net>
+In-Reply-To: 1755541627.3616867.1659203970023.JavaMail.nems@zbot1bmmsc01nfe001
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1659203964-8
+X-Mms-MMS-Version: 1.2
+To: 9082959625@mms.att.net, +19084337463@tmomail.net, bdincer66@icloud.com, 
+	bo.dincer@yahoo.com, pinkbookswap@yahoo.com, 
+	royalty.statements@sonymusic.com, realtime@sonymusic.com, 
+	privacy@sonymusic.com, secretariat@impforum.org, 
+	dgosset@impalamusic.org, info@immf.com, press@ifpi.org, 
+	secretariat@icmp-ciem.org, office@fim-musicians.org, 
+	tom.cording@sonymusic.com, angela.barkan@sonymusic.com, 
+	karyan.diaz@sonymusic.com, allen.brown@sonymusic.com, 
+	publicity@rcarecords.com, ms60710444266@yahoo.com
+From: 6462563609@mms.att.net
+Date: Sat, 30 Jul 2022 17:59:30 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3616866_1409751097.1659203970023"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfHG+WR/h1XxgsUIEYOv/OWXJ+sPme7aVorsA025z10oyhPw/G7+1D5CVohR72QJzIg+xFSglTW9bDlbDgoLUjvD+tQN4sRA4wSRS4Fg6eaM1eAi01Xjg
+ eq5SbTNMD9rUfc7kBY5gB5uzkog0fvoN8qbITGnIjzBhJnOheiAtaZui7OBNPbPYsarElSzFSNE2Y+tuBO7RqeMRAhn85DEwdpvzDEozflt4iE5n84AhzHSO
+Content-Length: 321
+
+------=_Part_3616866_1409751097.1659203970023
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+SXQncyBjb21lcyBvbiBzbG93bHkgSSBndWVzcw==
+------=_Part_3616866_1409751097.1659203970023--

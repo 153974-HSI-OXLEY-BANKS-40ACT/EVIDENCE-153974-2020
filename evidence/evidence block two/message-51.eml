@@ -1,0 +1,84 @@
+From - Sun Aug 28 22:53:16 2022
+X-Account-Key: account1
+X-UIDL: APFXacI0QU4cYtpZZA0jSOsRB1c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.149
+ by atlas120.free.mail.ne1.yahoo.com with HTTPS; Fri, 22 Jul 2022 08:01:40 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.5]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.5 as permitted sender)
+Authentication-Results: atlas120.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 22 Jul 2022 08:01:40 +0000
+X-YMailISG: 7pWJj60WLDu8PzOTAchvsQrANGj62wjjVaSe8iVH4Mj9mzdG
+ 7_SkBThTxm5V42VfHd8Vf27LoTqTrY._z9FxfZuL2unYRfAQTdw.2fWx5Naz
+ er.96QuuT8FPT99qjJmC5QGtgT1sWp2_WsqIKAeoig6h_sxV07DxM5u.kVy7
+ RsNOLyzhM7t4G8siCQOlDJEJAZnEk6WMQLifsDGiy8ikSmkT4OZWrfrPcQpZ
+ BXGbWGzd9sCY0MAGT0qbafjrFtI6lkl4js_BdZt0MCw0Iqs.JlD0DS0DpRPd
+ isfeE18.2NO2L6R88B3FmMcD4bEbXkenHaTEx1CVx53T8o0MwTnaezu1CyCT
+ YNsGKcNJzfM7kjd2cW_YkSXfG2BVQ61JBOVPCH7Lj5cq5M_AL0sMyxUyUVlt
+ ..PUi2GCoImzThkvBA6Yc_Bha5iONfolHbAtOy.8ZO2EtYSRXyhyQyfILjnP
+ P_YCJ0yvPj4BBaBWSy5yjSGojC0Z6MHJQ68d.zreSYhQT4LSUOtKhgc17qMB
+ n5gLLHtnNlhnYfNL1cVzAWnECyYFG29lx4r7Gjy5ApJ2_dfYrGW8qcr8xtwm
+ 2ki8n5znHtfYcPhasvQmpTiLK2ZV9P.dLoOHnarlaRNdHQFSV9jVwkb.WAOT
+ QyZ949KxQw6WyENogI3I7609pWXu_IW5wBWc.c9LsUhclPR2t2C8Wh2wVlcW
+ pW0_j54k3Kkiwnuls0wKx1z22YyZiaLFU2Hddj8dJ4loyA5jpMCoSaiLuEbN
+ VzG19G9nVf9EYwO24BpQAcqz_ipdqjg1ydiAQAYEzMTRJ9KEeXQ2y6mEewCi
+ nzk.Qu9V4lTliHp9ihsjK5W8tiTbRtyXNcEAitT9T4mcsTrzQYak.siSiwuZ
+ qLOIUtzoj4u3tVOHujI3e8ZEVDVr08hYcUrotasMgfzuVbdZRaALZ1yn8she
+ oEq.VRDUZhMam2RGQ2saIQPcBQwwXOJP3Kwld4Vd5l3.tT5e7V.gyQ9eloez
+ 5LAX52sdE3eb88yh9SB1GZQUw6qIpAs5.qDFz4VzonM1oeExLOPFlErmMxZP
+ EJm6x55FdxjEUINddWIsnIHeo6ctxh0wvOnBnz1MP4lfvJryL_aNdkdvKpx_
+ iIzdGHpwTlau6huARPi1DMbx1gozfUWE
+Received: from 166.216.149.5 (EHLO alpemg-mtmta02.wnsnet.attws.com)
+ by 10.222.142.149 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 22 Jul 2022 08:01:40 +0000
+Received: from zwhp1ammsc01nfe002.wnsnet.whp1a.tci.att.com ([107.78.102.30])
+	by bizsmtp with ESMTP
+	id EnYFoUeSV6QjuEnbQouyH7; Fri, 22 Jul 2022 04:01:40 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1658476900;
+	bh=OYTX8viXKPhnbsVU9T/eHVRbBxFen1ZR1tsCo/G4A68=;
+	h=In-Reply-To:To:From:Date;
+	b=JR13qokXwJBDux1cCIbj3FB44mE/fdIOfn1cYgoqYonxzKTpkPzeW7xmYZNbSIuwO
+	 Neg8W+zUwS5SQe/w4+jgQweAmF/8Z0xbNy/oY4iEoxjCM/Tw+lGe8q430ugzJ7HS30
+	 QWrP3PpKmp5Sq0a8z6wLHscIvH2nuNwWcNftiCdRcYor1G75NVfcKPI81gXnENVk87
+	 gZDdkdcazXqFdGT9my2ukI1s++Q0p+g4AQdf2SXuqOqD87JZBoOsfpxy/Hxx3GUMds
+	 F9WTAfq82EiOy2K71O2j5Wk3W3rfU+9cijsqFl4uHH59+7dZa1En/iCA01NlBnCPon
+	 Na2wsYP+W1vPA==
+Message-ID: <EnYFoUeSV6QjuEnbQouyH7@txt.att.net>
+In-Reply-To: 1108500709.118369800.1658476900012.JavaMail.nems@zwhp1ammsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1658476895-3
+X-Mms-MMS-Version: 1.2
+To: ms60710444266@yahoo.com, bdincer66@icloud.com, mailer@tdbank.com, 
+	email@e.tdbank.com, alerts@td.com, alerts@tdbank.com, 
+	warith.abdul-mateen@td.com, bdincer66@icloud.com, 
+	bo.dincer@yahoo.com
+From: 6462563609@mms.att.net
+Date: Fri, 22 Jul 2022 08:01:40 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_118369799_655827882.1658476900012"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfGW3zOkGyzkott08CiFUnjcd/u+l532SuoUjTkk4OkJNB0q66aRRlp3WohSnF01PDgu8SGaUcc6sHar171AfhxE6c0nhT46vxGjA1+cUd/QlLEIa9r79
+ MUVKv8CZdLASnpDhJs2PzQUAL2OxlR+FXeVozm/nXMSd29efHTxtO6tM1vmXw/lu0g4lV9+yQ7aIyIKDhm9V0N4uhhETeiLNNFpYM4HDxtg9TuOGPd0ypXvM
+Content-Length: 558
+
+------=_Part_118369799_655827882.1658476900012
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+VW5iZWxpZXZhYmxlIHNlcnZpY2UgcHJvdmlkZXJzIEkgd29yayB3aXRoIGFyZW4ndCB0aGV5Pz8/
+CsKgIMKgIMKgCkkgYXNrZWQgcG9saXRlbHksIEtlcnJpLgoKaHR0cHM6Ly9naXRodWIuY29tL1dJ
+TFNPTi1FTFNFUi1TVEFURUZBUk0tU1VMTElWQU4tWlVDS0VSL0ZFREVSQUwtVVNFLUFORC1ESVNU
+UklCVVRJT04tT05MWS9ibG9iL21haW4vMTExLnhwcwo=
+------=_Part_118369799_655827882.1658476900012--

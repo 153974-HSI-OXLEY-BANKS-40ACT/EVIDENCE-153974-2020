@@ -1,0 +1,82 @@
+From - Sun Aug 28 22:59:55 2022
+X-Account-Key: account1
+X-UIDL: ALTyJpBKMQtZYupB5Q1pmJUMF+s
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.17
+ by atlas116.free.mail.ne1.yahoo.com with HTTPS; Wed, 3 Aug 2022 09:37:41 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.152.39]
+Received-SPF: pass (domain of mms.att.net designates 166.216.152.39 as permitted sender)
+Authentication-Results: atlas116.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 3 Aug 2022 09:37:41 +0000
+X-YMailISG: JEBEwQkWLDvZRVG.QexHoRgH83DMVoTqm8j4srXbTzOkw8qc
+ OacRtTRdX8zEnu50kVZUBTu_HzB8zrrIe_cJORjmW0g2IF2UefLt9XXdaydj
+ Gt9H46sd.tC7ec8x7t_cGDuDCwPhFZoVqaWfmXAjVVOhDPkPCm03_H0XH4eO
+ DqFNTPVOdqlXmJOxCpzA0aOPcTWVraCwftoq86rcjml10kGSoM78QrwGn9nN
+ hLV82rwFioAUY9xOX71APaSwzDTZjP5bKNMv78Vs_Ci8fBQ.FoJNAxD.2JPc
+ cA0X.XzLlIJCTxFKn2GoTruAdCkyymgXxnMv3TlHF7xfO.eUIAuzZjiCG4qh
+ 0Q01DTlSAsCNd5g3qqTeFzoEYiMRpWtBf5ar1cU51kRdKjkFh7.boNyyldIK
+ 26FTw8RzXdINC76kD8IWQXx10qPAYxNoWa.cdBf5xDGScRnc0mGXV7.AEVNW
+ PpCU21JG8.9ryjGWhIrIROc4eGS_0adDtbg7r6cWGoISQ0wWUpzS6viLwPdw
+ jJRUzy_NeVbX_3eKohWolNnSMgEFqBoj7gVw2ci2UvXFqoXObOQ3CHBG20xp
+ Gy2hErOk5RBocB20m2xES_58sfGt8LYc7Yy1VvPqduQ.vGawwZ0InwDVoAWv
+ 65GBM4Dorm6pKrDFE1sfcEgpAoEy4kzUCcPLadzHSsdvuGRLSdSQPBJ9JCgO
+ jG42PlF3Ot51KCFooZ6bZBTeqPpQXH_sBRR96rr1t2kQZlOdVseqNcOnjtkb
+ 5y4KQe4BsU8liIRoC5bN.wQpTSRLMmOmMK0Kx5xxhAztYSlQHPht3Oi5CUjS
+ k8uosOq581Ax37hxgiE_fDpdZVSiFGePDEliPiS0VfpFeBzkDOZNT3kWbgsa
+ oINv4eOG35X00OPP5jDy2agW6G3IsnhN_.WS_6ylYJmnxFYeReaPBNnSr7_x
+ MbcMoirm9qkI3BNjSpltwYUnH8Z5WT0T_e0B4xXZlwlYVv2Smko8T_AeGRk_
+ D3PlIS.KIH8Bf7HSE9ZK_LS1eaKA9wvuW_obvpVG4qa6avtrsOWgosqudQmd
+ gGqbObczZ40e.wADvMOrEmon.7kOLbScEkIKqkdtYgEDf8CZsS52QmgKlApd
+ Lp7PR403vnE-
+Received: from 166.216.152.39 (EHLO stcceg-mtmta03.wnsnet.attws.com)
+ by 10.217.130.17 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 03 Aug 2022 09:37:41 +0000
+Received: from ZALL1BMMSC01NFE002.wnsnet.attws.com ([107.79.70.31])
+	by bizsmtp with ESMTP
+	id JAovo2U0BfuqjJAovorv0s; Wed, 03 Aug 2022 04:37:41 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1659519461;
+	bh=usow5orWQYEQdxtEn4O4xwTBFkgzz9Ym9YS4M91Xbp0=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=KrtTvN0yiS9PoNf8Zz3VA2tn1c56TXg9XBxuGmLIqpri02KOyGLvavU+DrDmG08b6
+	 BzNfsM8IR3TkGVaAFivKEIxfmv3mGCvgQrbw5LTOqnmgX/BaNmS7SY0j7PkPiOd98A
+	 C8icFm7tfMx1G2+mindGEuooBdccWW61gyoQEzdNZlIustZ3SwFKDgneqC1pGrVQaB
+	 iJ9hqn/7lNqjjIFS/684irrC6yVqRCDfzlZeYyDuSNLfIXyttXi7ES7wevAl40gIdh
+	 J8aChRWP1t3sqV7TVw0zNsS618Fd0MPUlEgYZvS2OxMv1yPpPne0y9ZrmEHyNplBVK
+	 oe6GRe86UHMIw==
+Message-ID: <JAovo2U0BfuqjJAovorv0s@txt.att.net>
+In-Reply-To: 301115621.1246999.1659519461093.JavaMail.nems@ZALL1BMMSC01NFE002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1659519458-45
+X-Mms-MMS-Version: 1.2
+To: bo.dincer@yahoo.com, ms60710444266@yahoo.com, helpdesk@leo.gov, 
+	risc@ic.fbi.gov, helpdesk@listserv.leo.gov, 9173783467@tmomail.net, 
+	ashley.humphries@wilsonelser.com, slaskowitz@ingramllp.com
+Subject: Mac ID, FBI clearance.
+From: 6462563609@mms.att.net
+Date: Wed, 3 Aug 2022 09:37:41 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1246998_1419790098.1659519461093"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfDkiyAtLUiFRa40bSkbgf2luVh4Oz2/4UNZcKLdXByJ0VBh2S6Y65bJYnaA6WwHj7MVObVbLlr0Jf9mESUTD9eVcIQrlbaSzXRNWQf5gDDfyQbQlA/hY
+ Sp4BTczxXz0sFGpGod75efMTjWUibyRkRh+ykHMpfLiylq+AagUb1rQ9GXobc5vD7M19eKUCu8fxMaXmEYimTyR0tJxbseaLEQ/dag1q4IKe5ltHT7BiVjSS
+Content-Length: 410
+
+------=_Part_1246998_1419790098.1659519461093
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9saW5rL3Jldmlldz91cmk9dXJuOmFhaWQ6c2NkczpV
+UzozYzgxOGUwMS1jYjc3LTMyZDMtODc0My02YTc3OGRkOTM5NzU=
+------=_Part_1246998_1419790098.1659519461093--
