@@ -1,0 +1,122 @@
+From - Sun Aug 28 22:56:45 2022
+X-Account-Key: account1
+X-UIDL: AIrCTqQVoupiYum9xgR4iCPzs28
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.88
+ by atlas115.free.mail.gq1.yahoo.com with HTTPS; Wed, 3 Aug 2022 00:13:57 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.202]
+Received-SPF: pass (domain of github.com designates 192.30.252.202 as permitted sender)
+Authentication-Results: atlas115.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 3 Aug 2022 00:13:58 +0000
+X-YMailAVSC: Atuh8LU3bBuSzPycAvK7GSGAscaI049A3zZyZMk0RCLGbYG
+ .yMmve3rLyJyDuTRG4pLa88pB2USeRiUow7t1WHB9lsf62L4.crgLekQJZ7V
+ qSYmsNfl.4ruTS8gRz6LhIWsuxG1BLkWrN.T.CZd1NOmKwoDL6NaTnq5KJdK
+ 4stsixXAWpYgo51OHwHEiJrM9RHsqxORVNA8gxBn9jEv49RgbjxrNdOBiorS
+ trRQABf0MXz7o115fvAV0t_4pjTXevp3Q_PMd.o7IavjRgicSvmq6D0jFoqH
+ DhNyDNr3ok8uztPJ9UxWQF0LHz.5O8I.jcBSrc_Rq6LFJbQIE0Njcagh9rgY
+ rxsXVig45Lg4eqS2kNsattPmsATRfZ9XztS0A6zayRVoPlVQNVU3aKBlNzk4
+ z_HsY7idTMJYs8f7m1dd71Zf9HuL06ySqne1Dgkk4RiACraQVKJs.d6TrWAN
+ nyvpFuDi9F_XBT6.GRu9zRUZ6jfmXdop2HGN_qyvMVtcRsSoT5yAHJ.0hRg6
+ ou.06HHt1rMLpx423lpQR5.78gdIBL6O21Cx4P7dT5KhHBg6wea8hsIKppzv
+ eCrSFP7PWX7eBbIlLL17mUBBThjNqwuAKh9Vi0iQqkENArXh9gBXK2wUQvAo
+ dtPhN8G3hbnF6TL2JQAIraBD0VWghe7.cvtFi9o8SJE4kGF_X5OeoLKPyKXI
+ T94WyKFETWppkog2N.Y4AdUvZyQGsJ1JX7dPZJOnq2BqiFRK5thx4GvWlaGF
+ gZbAliC.UT2DrwAubQAuUDek5OVH4CETxJHN68WVHbDlqwvI3q_tDSqMCAxH
+ 5UfNQ5cgpKuDBMq1n7OkYs_xXPC7rHrcK8L8MZvd3ZF.PrHZea_TRU63J5f5
+ vW9.RcpdpPsDXcIvXHQnfhQj_lQCrL19OhfLL35VYY7uCv17sCx10TJY3j76
+ jOxTmZuC4tt.ptTRSvmsAvB5RBN5UOwtrj0GGScsw8LPfCHUUmV5hFerMYV.
+ 5zGWTHC0qxpNakeArNVwEpJYKBt3JLhDayYZZ9Gvlxtom5YJYKsY7rJMj.sW
+ YJaX3cPGdVWNoKSvAjd8zHRKmQg2UcSi7U4T89N6p_pbtr_SFSH7jKjSIxg8
+ vDMJ2mBWQBarNcHTSzlwbAMkXUs45
+X-YMailISG: QHfKCUkWLDv_IX4TWDCzjSmBnyeJ1TD.i61hwcaY4ZCwCRiJ
+ 69ESn3Cf81nj_2c8QSppOLThUiiYJrNjUQIW2DB3q8GGjTrhz0h8HyHMgH1D
+ ltcFx.mGKK1SLU8LUuOa_0KYYuNJ3Qfa8tXfG2X_eXW66_.b.5Es1xmgu5HN
+ JrTW9vmYYdqiZuKtWpRdFmNTWEzvvVNT39H5_iPV_mCaCdUaMKv5KYZybuNk
+ efJpBWcwuBEZlJhZU4qx3Is8CnTyVCRiK.SCWDn4OH2NwzbT1CmCHRJvfg50
+ K3804JHtJHjO5B2x6JAG_HrGFIxvHiY36qPFDNRWj9PhZaLPCUOqUE0OHqgj
+ Ae6MGwRVoa_gqYDtjfxbnzRUulSc.1mhlw1fYwha6mBPxzyQFPjt0_Cv.MLp
+ XeSfWA5ZRP5dR1RlyahBlIx0_4DuY_W_jPsZnDMoVgS4e8t2qk8kTZ2wCYBA
+ MHTEMiKAMxsA9JB.K5CDzAxuiG6TJVpm0PM48SFL7003ZMPH9fgiA9SfTGxB
+ y8w.tzHvuhlpTX0W6GrfRfIvBkDPGiraaF4n9raZ19XY9N8.KV97X4O_JyiJ
+ Uls30ctqdBMDVuIAyFhR91E9MO1rtanwVqiltFkH1bZh3OyYhv4KA6SMXsQM
+ lJrMJfM3So7AOJXi9Mc6GYZLpigaWeXXJQWyN1uvbeIBL8vtOri3kC1PLcdY
+ ncLw3YDYrzIqSvm32lmEjkDladglCHw6oejj7qyQY1cNuhfQbGDp9POWrv4q
+ .ryA6Pkt87FIOwcSF8rYHKLNBWMUMz9Jmi62PU2T_WY4rI5ct3s.znE43rZS
+ s1l8bHn1IH2eICv2uZQ.75hK.tXpoapOOfqZCZ4K4WglBvDR3qCfS03RA2nH
+ pHU2ChfzKQXGq4AmCiedacGhVkHDs6dKZ9u_lpXHyy9jPfgYj3xrTIGRcWAs
+ OsIOLORnc6zIH1_9v8ofTNs_cM6Xoa6HKiBn0u8L0C8q0CBF3fGc3KpB36gn
+ 7XKkwDMmN6wNqbQBXzNXHeECOiK_vaoO7kDq2QasBcDvYm1pY80lyBovIz6I
+ SK4b0mlPNXQnBkYStqLBtOZ4zXMz0EmKO5hVEp8vDD.FvaVzWU9JXS_OMtsJ
+ Bm5.TP0ANSHxgwX.LPj8XsNFmpBU65T8OrEnT2vouqmkDwX8ox9pE3j8SMOC
+ LnUGDVbR5k0ygsIB36sa
+Received: from 192.30.252.202 (EHLO out-19.smtp.github.com)
+ by 10.253.31.88 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 03 Aug 2022 00:13:57 +0000
+Received: from github.com (hubbernetes-node-1c14013.va3-iad.github.net [10.48.124.72])
+	by smtp.github.com (Postfix) with ESMTPA id 2BC25E01F5;
+	Tue,  2 Aug 2022 17:13:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1659485637;
+	bh=yP0qCQrN3aCyu+g6daGBKAQJOaLi1My0dTSWQ9u5QHE=;
+	h=Date:From:To:Subject:From;
+	b=snGykJ/hPAbsH/4fo2RfDNbOpfVxSZDaxcozMw7Iw5KtseyWi+C/QAg4VUZNiXzCY
+	 CFLR9YF7ielpFSAhS7KI/nQ/yCr9zZhuxbwiktVzvD165F5wCuh58pst+ulZg44Fj+
+	 vN/0fbVHnBm8i91LV1GI7ikWD6KaBcypSis4YS1M=
+Date: Tue, 02 Aug 2022 17:13:57 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ rule-comments@sec.gov
+Message-ID: <BSCPGROUPHOLDINGSLLC/INDEX153974/push/refs/heads/main/44d4b0-bebb94@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/INDEX153974] bebb94:
+ https://acrobat.adobe.com/link/review?uri=urn:aaid...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 16537-714-487-492, OMISSIONS, OBSTRUCTION, SFITX SFBDX STFGX FILER
+ 1516523
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,rule-comments@sec.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2071
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974
+  Commit: bebb94dd3015c84eb399a4863d1eccadc0655a4e
+      https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/commit/bebb94dd3015c84eb399a4863d1eccadc0655a4e
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-02 (Tue, 02 Aug 2022)
+
+  Changed paths:
+    A Fwd Fw 2021.12.01.NOTICE.FAX _ HSI 55TH AUG 29, 2012.-1.eml
+    A Fwd Fwd Mac IDS. Wireless networks. 9173783467, tax PAR-ID-1.eml
+    A Fwd Mac IDS. Wireless networks. 9173783467, tax PAR-ID-1.eml
+    A Re Fwd Fwd Mac IDS. Wireless networks. 9173783467, tax PAR-ID-1.eml
+    A https _acrobat.adobe.com_link_review uri=urn aaid scds US 3c818e01-cb77-32d3 -8743-6a778dd93975-1.eml
+    A https _acrobat.adobe.com_link_review uri=urn aaid scds US 3c818e01-cb77-32d3-8743-6a778dd93975-1-1.eml
+    A https _acrobat.adobe.com_link_review uri=urn aaid scds US 3c818e01-cb77-32d3-8743-6a778dd93975-2.eml
+    A https _github.com_153974-HSI-OXLEY-BANKS-40ACT_153974-HSI-OXLEY-BANKS-40ACT_files_9188080_Yahoo.Mail.Document_.Re_.This....-1.eml
+
+  Log Message:
+  -----------
+  https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:3c818e01-cb77-32d3-8743-6a778dd93975
+
+https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:3c818e01-cb77-32d3-8743-6a778dd93975
+
+No file chosenOr choose your files
+https _acrobat.adobe.com_link_review uri=urn aaid scds US 3c818e01-cb77-32d3-8743-6a778dd93975-2.eml
+https _acrobat.adobe.com_link_review uri=urn aaid scds US 3c818e01-cb77-32d3-8743-6a778dd93975-1-1.eml
+https _acrobat.adobe.com_link_review uri=urn aaid scds US 3c818e01-cb77-32d3 -8743-6a778dd93975-1.eml
+Re Fwd Fwd Mac IDS. Wireless networks. 9173783467, tax PAR-ID-1.eml
+Fwd Fw 2021.12.01.NOTICE.FAX _ HSI 55TH AUG 29, 2012.-1.eml
+https _github.com_153974-HSI-OXLEY-BANKS-40ACT_153974-HSI-OXLEY-BANKS-40ACT_files_9188080_Yahoo.Mail.Document_.Re_.This....-1.eml
+Fwd Mac IDS. Wireless networks. 9173783467, tax PAR-ID-1.eml
+Fwd Fwd Mac IDS. Wireless networks. 9173783467, tax PAR-ID-1.eml
+
+

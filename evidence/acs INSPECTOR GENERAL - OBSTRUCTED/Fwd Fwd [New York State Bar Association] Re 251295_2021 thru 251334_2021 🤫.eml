@@ -1,0 +1,256 @@
+From - Sun Aug 28 22:42:23 2022
+X-Account-Key: account1
+X-UIDL: ANh9uCBfa+K4YsSJFgmkwEen/Xc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.77
+ by atlas118.free.mail.ne1.yahoo.com with HTTPS; Tue, 5 Jul 2022 18:55:18 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.128.110]
+Received-SPF: pass (domain of yahoo.com designates 74.6.128.110 as permitted sender)
+Authentication-Results: atlas118.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 18:55:18 +0000
+X-YMailISG: C3RhX38WLDuXLN7c1lPO7J_Vs8KCNN0ScYfK0MIlGTmPFA7P
+ n97SAxDeb5s3PtMzVczvMOOsFnow1e7WtUhX_20TWdLJ38_LCF8ZDxMfJcj.
+ LLsN4qCs3SoLxPh0npqT6Qc9f7UfwErPHCZugGz6mj.tcYDbj2y1lc.OaiAN
+ Ytj._AUUnSwOfxGaZoIjj3vRAAB_3j0QcETX4FbfoiYdZ.I37wxMzUd7Ftbs
+ n8lJgFPXhlb_S3CP0klQOWlpFrES4_8VL42Ljz2I7XBfSXkSj9huA6u6VwEX
+ znQD36PA2co5GKwQfx1TMRgQ4pAx5tC.AdWSwVamK4j.lpY8k7UoCAZztoBh
+ 84fj1x2SW807_MJo4ODC1wObEThNPWNdMerV.GX.wgQuYGESRra2KHKUpq0p
+ FhEsS1oC51HrT9pLu00y7WFioNu3esXWMiZZ4gHpHEYZEaIy_co.XSxfQKPf
+ 0sBLSdXoSW83LykLhYIjP97Vx4pKIfFOHgAGQbITfs.4ZBw8G.vQnzI5LMhY
+ M0CBOvswpWp_4IzmjPRYKSMbrZ4UywU7ioJrSEULDFfGUDiISxdyP8iNpOrh
+ B7j4znKHfWcl7oYw.7nBUIvLqXZ5gIviv6Fdf1vT4New8EVUMDyZzbF3Rfoc
+ 3KTLA3V6sTPJ1a8ZSsLNS2rPphX6YFiLWsrG09tYDIqLCWMukY.oE.1GIw21
+ DwUdw_n5wym5Q57CxLwX7lS7Exe0edmiKIeyivD_1T6M7dHteRlJY3I6lHAE
+ BRHvDxQcsNJnxZUHmmEITxnZDMA02pm9aqD.2PHorY13Pp3vZlgFnpRyhC7X
+ tldw5xS7aWxCKlwm_b1377PkHarCfc6qcfLvjRj3oO0JnMrq1autBGfK1AA5
+ pLZxx5AbuOhITcYdJR_Da6_hXrPqW2OzB6OnrCr8mwJzZgtSeuY0BUz7c3lB
+ sixqVHKL4lZipdgfJ0kdsFpImdsXJLFvyuM7TlcGFWpw.FMY7J0Nr5Ki9LGB
+ wdA8UWG1o8nk9YcH5p6Ne2XvX_kcX1jGifPIkmI221U4AJLcaCBPYr2DfZQ6
+ yjhDtJregUV0bJ.BUyy.oJoyngQvxEbHU5RODuaKf3lTOue4xuqBttdRWVD7
+ kztz1Zt_l9aVb_BZTKcSXjsR_S0X7SaYnWXviVKMFiF..CDzYoJavA0HVT8-
+Received: from 74.6.128.110 (EHLO sonic312-48.consmr.mail.bf2.yahoo.com)
+ by 10.217.150.77 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 18:55:18 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657047317; bh=TFAkxVCDJ2nyhiEHwlIXwxMDs/1NCHVMb6TNqXUaR0Y=; h=Date:Subject:References:To:From:In-Reply-To:From:Subject:Reply-To; b=sENIcmiuEgW+EF1+CWtZF1f4wJoMsU169heouS6nIXwDqFqbOCvr40svJjxS2b5A3JT/ZvIaFTkZx7ottDBti50wY88HLPnGJnp7sU2SOyr64XEQ9C+YHKfrqlF622bAhsrB14CHJaeERXLc6oCBg27Loz4rgjNCHvGImvOfQrZ20l1e4RP0h5Or4jdBmxBoUl/K0dRhDT7DRpZAd05gbq4x6pNzprPhc316dUukqFjBCbuvsBIMjlBywwtr1+P3fblp4zvfauZQJkBcSV3AQGSg+jVZp2YAGL6b0953HhGYQGS2/xd7Yt3sBHib5yewxajl4UZro/nq+sg1DLMzig==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657047317; bh=Xp45JPFomVUFfJF5ybWA/nKrgbQ7IG4elIAVLlG81EH=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=nD8lAUWi7c7/rmyXngMnBAdnbQOraxp4QzSLfdHzGsIGvH4g3sCFj84LQLcBiTR8dInk069TjqilBYWuLZd29nE3B2LHLYPpVukeDoi8SGlODK4R8HGRznzLohGTi3QFtYws9cVWNsmr1gsVK037fOHj6u08FVgpJyhZeUpeSRkxThHUsGc57hBBsv9l/NKTG0kpZJlvw6QKlijrDu80sESwggmVQY9dch4L4b2LUuLMwCx5QEpHlYHyOvn+caUin2nHC2xAgHWztqUC9RW3gQvOx2fchvEzEb6g6eVFuB7PA7ts+NBH8pSvToaC6M7r9DEaDNNcERRh+sOSuXjw6A==
+X-YMail-OSG: Wfa8f1cVM1lz_oy.n.NH0y_sM5bcyXUlG.Vn0GKwJftdD2.8YcbkKdwDwRo717n
+ T35ibXYQz5HqjC__h3o3sgNL1hGwfDhV7E._dfL9q7KS1FuzF12hU24QJLZcLRLQ4EV9JX3WtLpy
+ 23ci.ArMJItHuzVJ_sX8T_w.RuEjzWLhTrULthYG0ZQ18la5TBPw3mDxGPhyxMIP.RdXY5UyZ8u5
+ No8N.Mr.BnSUi_TCOjcqp6N74MeybRx0vHMoZcEOwzrLyq8TYArakYjwdMetCbLjH4BaC2dYYflD
+ FpeDwRlDaJ0VA5XzpH_dhWVdt6sO9Za62Q2OgMjB4toHmtX98VoypQ.H5fH4TMVjUBwGoZ6VtMO3
+ btY6mvlKIs6vAb1P7w1HbLraAMQtHhU1PWl1DuRj2gaCZex1nwrbtvWyMStzeE74Cz4iOByBeUci
+ P9puWcQ2nR3x9NOabQlYIP6lc_lUpGPpvwJr38TxeYXgUw119sYuzg6kdn8JwJDEbb1kik557I_P
+ ox3C6hctjFjpiJRQVri5oo5zZYSJyf3217g9VawPHPtSbEEUVsbh.XNxNfWceaNQqtsmgulOcwsf
+ HgFQwCSW.3MpVZWtdvcI_E72rrCCQUQhB0dqGuvbAhsZxwGpK7LI95gxln8MgK59CX42MbWf7oSC
+ m0AuapuSV7iJDMVTMYO_UWzPbta2PDXt7qi7Ah3dwNkKFiezahgRzrmYGgwMgCQijrqmm.DWwX8S
+ CWaTsETuV_mlpkgFZ0yT1sHbLVeIkU9cqAWd0UA9LRUGE1L5tBvXG_.HBtNe6MDXjaDA880gZ942
+ orrrnLGD3HVDlzbMfiDR9_zxCeXrn6AHfj0tyC1QC.zEwWWdi707CH4eUKOznjHMPae3QT3JKSOt
+ g_4xTHYzmZuV3k1.xRTUYY0YHV5SfBEigl8v6mjf3g72LuoMFfZJWqslQBYhEqxgtk1MqsMXrqea
+ .Jr4gliTz7WjVkwDfrM.U8oTdWgpiVh6srMDW7EDB06PtMSmmF4GFsBNMMDGzB7d3lrGtI_3dbh8
+ BI82uEaDULHdyNB0gunHFQ0vREicrYoCfGsNtkwsZBzhjtmgy5VZgBbD45GoyFfYhX1JdKxCcwkK
+ ErQSgNwob.UwpjJIc3a0hA3w4EGR7bjRL0HdABdIG0OLeU4u.RSnNBw6RItM3jGJO1So9jERG0P7
+ s0ndcBmHUwtgGXefH0G3o5pMFJw1yEIbmTg2QFpmaMi_y.obPZ.BQ4Ro4aIbXkyJrvBwaP94Db1J
+ Gn1hlrxnHStX6f1KqfK9UinxZgwGgFRMe6Zsya4IK6ZOFc6SXo6y2HslFAwjgBbHFZlxmS2aw40z
+ 3YRdMDJeqXdaMkOhPSb.abUeCTGrsD22kO5DzngG.RDJ21kdcjr0eF.OrgYaaQwL0uGb78vPAxeS
+ 11lwiWdirfK1u8_p6MS7CTezUCh4AJWPcblE2RAbPNJtnx74SLJOTEyjzUvl5MmON.X6Ne.NDA_l
+ of1KiP_BEEIBuD.KK1xHg2fuaUUL0gvq4WAq6OD53P9oD0xTzl.HO7rKTfso4Zvg2tiXV5nlrmYq
+ k3DAeP.cRFmNgcczz2eRtx0eUBFXB5_UoAXttGEtFjQW8p.14YYq4pXC.b9Urvc.8Rj2fx2bpUzB
+ KvthEW_PZDZGxLdc4zxmsRJKNO.PGA3r13pEz4Ag7wqX7UFmVQlI076LF_PLSK0R3TkyYyvNVO4U
+ PjG9gzHu1FIZXmTtbtNm5KB26ITsYpCJGAPKx8Vz5A6tRH51uTXeAMu378n1TrwpZB2wnrnQF02P
+ BoJ9rLKKF21cT5NpbyD8Pw0xvy7arRx3m.3Zt1c_c_Ljmn3uZxter6FJMhO1pDYkNhmUtWFujYD3
+ zgkuUbqc7tq.1.DY40tDsh2Lig9RZT0khU5mgQSoIlg5fO7iErLkSjzd_NDxoxWa6_CLBMG0pRKN
+ pvFIUvkRVWYeXkqTfbpW.CeWGu.D9LeEI7URgVA3Y1q.uzyg_rxxl2tsHQIY8GPJkuXa2X3rR5R5
+ xhKKZiHWbH7Cbb0WKwG.HOJ19puyl3UtjmUBM4ckxjqoXZt.4ONBrywczKaWl5lTOyIkqYfZOKi9
+ J6Wr_ljzgS4pPOupsxLMrsIKWRATCIMrm9ofU8wgQxwyO7B07ni6xroXC07bRSEVvE0wDuGTMaFi
+ aYEdl2Zi6Rp.T07yG8cyzla97KRe_2jMe8JjRaFuxiuiExOnllxrRrtS_NPxnd7a2OgNMw6.FmDK
+ V1F_V49WXZVHVYwUcAD2JrqBZ6VGeYbfn_8hCvwgfjw--
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.bf2.yahoo.com with HTTP; Tue, 5 Jul 2022 18:55:17 +0000
+Received: by hermes--production-gq1-56bb98dbc7-vp7cv (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 0c86ca56c23b901311c35d661dfc588c;
+          Tue, 05 Jul 2022 18:53:15 +0000 (UTC)
+Message-ID: <f3a8db00-8f00-94dd-84cd-c963b72b8938@yahoo.com>
+Date: Tue, 5 Jul 2022 13:53:07 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+Subject: =?UTF-8?Q?Fwd=3a_Fwd=3a_=5bNew_York_State_Bar_Association=5d_Re=3a_?=
+ =?UTF-8?Q?251295/2021_thru_251334/2021_=f0=9f=a4=ab?=
+References: <1DCB690F-2EA3-45A6-9FF9-A1F3D2776609@icloud.com>
+Content-Language: en-US
+To: "ms60710444266@yahoo.com" <MS60710444266@YAHOO.COM>
+From: B D2022 <ms60710444266@yahoo.com>
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <1DCB690F-2EA3-45A6-9FF9-A1F3D2776609@icloud.com>
+X-Forwarded-Message-Id: <1DCB690F-2EA3-45A6-9FF9-A1F3D2776609@icloud.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Mailer: WebService/1.1.20381 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 7465
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Fwd: [New York State Bar Association] Re: 251295/2021 thru 
+251334/2021 🤫
+Date: 	Tue, 5 Jul 2022 09:29:32 -0400
+From: 	Bo Dincer <bdincer66@icloud.com>
+To: 	Therese Cox <tac2167@columbia.edu>, tigta@service.govdelivery.com, 
+cdfifund@service.govdelivery.com, usbep@service.govdelivery.com, 
+governor.hochul@exec.ny.gov, BBO 121 <ms60710444266@yahoo.com>, 
+endowmentadmin@columbia.edu, EW TV 
+<EntertainmentWeekly@mail.entertainmentweekly.com>, 
+usbep@service.govdelivery.com, bo.dincer@yahoo.com, FDIC Public 
+Information <publicinfo@fdic.gov>, Newyork <newyork@sec.gov>, K Ripp 
+<stationservices@cbs2ny.com>, Bloomberg L.P. <bbrief@bloomberg.net>, 
+Watch Abc7 <autoreply@email.watchabc.com>, Watch Abc7 
+<autoreply@email.watchabc.com>, Wade Reinthaler 
+<wreinthaler@bloomberg.net>, general.info@ny.frb.org, foia@eeoc.gov, 
+foia@eeoc.gov, foia@eeoc.gov, TaxEfiled@law.nyc.gov, 
+tigta@service.govdelivery.com, kcco-efile@nycourts.gov, Lindsay Panzica 
+<mrc@nysba.org>, inbox@livekelly.com, 
+JPMCinvestorrelations@jpmchase.com, 1pctdvo@nypd.org, 1pctyco@nypd.org, 
+iceglobalnetwork-info@ice.com, 23pctyco@nypd.org, 23pctdvo@nypd.com, 
+cbrooks7@bloomberg.net, ksaperstein2@bloomberg.net, dcaoletters@sec.gov, 
+Tennesse <sbarchenger@tennessean.com>, MSKYLINE 
+<ANNE@thehighlandpartners.com>, lzucker@mskyline.com, 
+dallas-reserve-mgmt@dal.frb.org, BD <bondstrt@protonmail.com>, 
+ricki.roer@wilsonelser.com, teschmann@mskyline.com, 
+dion.gaspard@nypd.org, edi.civil.rights.division@irs.gov, 
+10pctdvo@nypd.org, 18pctyco@nypd.org, 10pctyco@nypd.org, 
+18pctdvo@nypd.org, citimod1@bloomberg.net
+
+
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> *From:* "Lindsay Panzica (NYSBA MRC)" <mrc@nysba.org>
+> *Date:* July 5, 2022 at 9:07:47 AM EDT
+> *To:* bdincer66@icloud.com
+> *Subject:* *[New York State Bar Association] Re: 251295/2021 thru 
+> 251334/2021 🤫*
+> *Reply-To:* NYSBA MRC <mrc@nysba.org>
+>
+> ﻿
+> ##- Please type your reply above this line -##
+>
+> Your request (36716) has been updated. To add additional comments, 
+> reply to this email.
+>
+> 	
+>
+> *Lindsay Panzica* (New York State Bar Association)
+>
+> Jul 5, 2022, 10:07 ADT
+>
+> This request was closed and merged into request #36712 
+> <https://support.nysba.org/hc/requests/36712> "Re: 
+> SC-50-CIV-2021-12.pdf (FILED...".
+>
+> 	
+>
+> *bdincer66@icloud.com*
+>
+> Jul 2, 2022, 15:02 ADT
+>
+>
+> I’m not telling anyone—
+> I changed my mind, let them litigate wherever they want! It’s a free 
+> country!
+>
+>         Plus,  they have to stay paranoid —-
+>
+> the $600K TAX MOVE l, is
+> the NYC DEPARTMENT OF TAXATION…
+> … 9/23/2020—
+>
+> Hon Nancy Sunshine..  mm hmm. Got it.
+> Allllllll spandex.
+>
+> That’s the ZUCKERS Enterprises LLC
+>
+> — Another swift move commingled also….
+> — HSBC and JP Morgan carrying that interest as well?
+>
+> Great job Zucker! Enjoy winning those cases with your atturnies.
+>
+>
+> Attachment(s)
+> image0.png 
+> <https://support.nysba.org/attachments/token/AYudhpqVy5YzILECrrdqtYsDy/?name=image0.png>
+> image1.jpeg 
+> <https://support.nysba.org/attachments/token/uXmPQ38BhOoS81BORcN189epx/?name=image1.jpeg>
+> image1.jpeg 
+> <https://support.nysba.org/attachments/token/M2hlv45SVnHpSrWTNDuNYRmxl/?name=image1.jpeg>
+> image2.png 
+> <https://support.nysba.org/attachments/token/mlWG3uUj3n19hbg5MKEXJUFgp/?name=image2.png>
+> image0.png 
+> <https://support.nysba.org/attachments/token/mREddukmidsYUmBFy8jnNq4mg/?name=image0.png>
+> image2.jpeg 
+> <https://support.nysba.org/attachments/token/uwSPB9MeN0sX9yCIpaJ5LMB5q/?name=image2.jpeg>
+> image3.jpeg 
+> <https://support.nysba.org/attachments/token/8rbRQgVwJiGq3SGb6uIEsoGtK/?name=image3.jpeg>
+> image4.jpeg 
+> <https://support.nysba.org/attachments/token/bRuZFokaqoqfgjc3xm4nD7Kbl/?name=image4.jpeg>
+> 153974_2020_S__309.pdf 
+> <https://support.nysba.org/attachments/token/3sei2LBGSgTKiG8Lyeagh7HHa/?name=153974_2020_S__309.pdf>
+> NYC DEPT OF FINANCE - PUBLIC RECORD.pdf 
+> <https://support.nysba.org/attachments/token/GjhI7f9tFdLUwGPhqbSx7K8Ad/?name=NYC+DEPT+OF+FINANCE+-+PUBLIC+RECORD.pdf>
+> MOV FILES DISTRIBUTED - LVL 7.html 
+> <https://support.nysba.org/attachments/token/4AgaBSsvgKeucazIELnO8pDwy/?name=MOV+FILES+DISTRIBUTED+-+LVL+7.html>
+> image0.jpeg 
+> <https://support.nysba.org/attachments/token/MJ5xEG1bkHzqj0rY1zESVUgQb/?name=image0.jpeg>
+> 05-10-2022 - 117 sullivan street Property Assessment [ taxable ].pdf 
+> <https://support.nysba.org/attachments/token/54cKo6I0bcg6Zm3XZCRKEajWx/?name=05-10-2022+-+117+sullivan+street+Property+Assessment+%5B+taxable+%5D.pdf>
+> 1.6662-2 Accuracy-related penalty -- UNDISLOSED LOAN AND LEGAL 
+> MATTERSS.html 
+> <https://support.nysba.org/attachments/token/mzP7EuwSKQe8XpUoBxV9faHS3/?name=1.6662-2+Accuracy-related+penalty+--+UNDISLOSED+LOAN+AND+LEGAL+MATTERSS.html>
+> document index TCR5.pdf 
+> <https://support.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=document+index+TCR5.pdf>
+> Vacancy-Receipts.pdf 
+> <https://support.nysba.org/attachments/token/aTk5HhjOqD2LtxfEflB08djVk/?name=Vacancy-Receipts.pdf>
+> deed - 117 FT_1350000324035 - DEED 2.pdf 
+> <https://support.nysba.org/attachments/token/CngSPBJRgJ0NeFHZEVMZnnyru/?name=deed+-+117+FT_1350000324035+-+DEED+2.pdf>
+> 20MM over 10YRS.pdf 
+> <https://support.nysba.org/attachments/token/8ZFY4EZW6nxemJZIs4tjaiFEP/?name=20MM+over+10YRS.pdf>
+> FraudInvocation-Receipt.pdf 
+> <https://support.nysba.org/attachments/token/unEAUOR5vBsdF9oo30QxFo0sR/?name=FraudInvocation-Receipt.pdf>
+> NOTICE TO SECURITIES AND EXCHANGE - NOVEMBER 13TH 2021.png 
+> <https://support.nysba.org/attachments/token/sWoZTvp3jCzQBDpiHj8pRGrhV/?name=NOTICE+TO+SECURITIES+AND+EXCHANGE+-+NOVEMBER+13TH+2021.png>
+> MOV FILES DISTRIBUTED - LVL 8.html 
+> <https://support.nysba.org/attachments/token/giXwD6OAvfSWDEcZAlsvDynLg/?name=MOV+FILES+DISTRIBUTED+-+LVL+8.html>
+> NOTICE TO AUDITORS - ELECTRONICALLY DISTRIBUTED..html 
+> <https://support.nysba.org/attachments/token/FIcMKoTxCbgd6qF7QbC7WF4CN/?name=NOTICE+TO+AUDITORS+-+ELECTRONICALLY+DISTRIBUTED..html>
+> 1645673230096blob.jpg 
+> <https://support.nysba.org/attachments/token/8o9gRnWwvw6J4bW5mRgkEiEtq/?name=1645673230096blob.jpg>
+> 1645415397259blob.jpg 
+> <https://support.nysba.org/attachments/token/81HXMlyrUsfkmvsKohd6LQ1M4/?name=1645415397259blob.jpg>
+> 2022.02.23 bin code 1077252 ---- 111 rear --- NO CERTIFICATE OF 
+> OCCUPANCY.pdf 
+> <https://support.nysba.org/attachments/token/wBZHmueglHEgs6R2TEFAAJroV/?name=2022.02.23+bin+code+1077252+----+111+rear+---+NO+CERTIFICATE+OF+OCCUPANCY.pdf>
+> 2022.02.23 bin code 1077252 ---- 111 rear.pdf 
+> <https://support.nysba.org/attachments/token/Bgxj6gOmSqLBjdjca7F7GLN56/?name=2022.02.23+bin+code+1077252+----+111+rear.pdf>
+> 2022.02.23 NOTICE +DOB +NYPD +NYFD +FRB.pdf 
+> <https://support.nysba.org/attachments/token/qTRPChGTPdXzBaOmCiqCLOZpd/?name=2022.02.23+NOTICE+%2BDOB+%2BNYPD+%2BNYFD+%2BFRB.pdf>
+> CCF_000031.pdf 
+> <https://support.nysba.org/attachments/token/byr918DAb8DI3kBkB0lwyxeTH/?name=CCF_000031.pdf>
+> 2022.02.23 USPS_DEMAND_LETTER_PROOF_OF_DELIVERY_CONFIRM.pdf 
+> <https://support.nysba.org/attachments/token/nq18wovfJMwvK4Wk7KL4nfgqi/?name=2022.02.23+USPS_DEMAND_LETTER_PROOF_OF_DELIVERY_CONFIRM.pdf>
+>
+> This email is a service from New York State Bar Association. Delivered 
+> by Zendesk 
+> <https://www.zendesk.com/support/?utm_campaign=text&utm_content=New+York+State+Bar+Association&utm_medium=poweredbyzendesk&utm_source=email-notification> 
+>
+> [504GVM-OR394]

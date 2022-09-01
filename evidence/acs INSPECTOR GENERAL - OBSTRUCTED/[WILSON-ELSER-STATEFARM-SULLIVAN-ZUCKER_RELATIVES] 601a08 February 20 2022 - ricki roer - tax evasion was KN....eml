@@ -1,0 +1,412 @@
+From - Sun Aug 28 22:41:47 2022
+X-Account-Key: account1
+X-UIDL: AF2fXSJxvE3GYr/RIA74CF8ZDkM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.153
+ by atlas111.free.mail.gq1.yahoo.com with HTTPS; Sat, 2 Jul 2022 05:01:20 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.211]
+Received-SPF: pass (domain of github.com designates 192.30.252.211 as permitted sender)
+Authentication-Results: atlas111.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 2 Jul 2022 05:01:20 +0000
+X-YMailAVSC: JqHtRn83bBvSC24DhKl3sUzNVgTyzmwqjs4mwSe5l2rr6YI
+ E3s7quw7ANw5zBCmLe4EJT0pjBGgLxinfP2cBeYTvKuklsgbCQAxOtt3H653
+ JXIyxDl62QfO4LC37qF3YZoCjSyfVTcLGN.rYI0CnKXkyKcIEy51lqP6.2lm
+ I9kv_uveKj5uPxfh0kz5u9xCE77U8ayQkkQ1a96.9Qaq0kFBzOtA1ckQVjhD
+ grrxHg8gHyAgWRufckLVGliz1nkeif3HpRRIROoQIcUrjMAbcn4Itetgf7IP
+ TPMBArtG4oT1KOBPV3OTID1SO2nSmg6plWJ3TFdsKsm5XgMPXbVJqA5pTKOi
+ msRhCwYeUBn6t2NlbjfN1cnVqGxSYYKyDzsM-
+X-YMailISG: I8idxtoWLDsjS9Pe2kZxL8hI9EAiLORZxNM09JdIImyHOn4g
+ TgpZgtBXcd.x14F.Ow.a4V6Di6wQebXIFIQp6Tq1HlxF1PWTez5hyJlXQqab
+ F0mBesqMWPT3JvLDCS4mcUX7K15vUZHZ33mW.fXlr1rL81oqADiQLz96tE9Y
+ OnHriDlIIaBoX5P1gKdO7Wy8xhwdJTDykU8N20r7pKDNpRMNRFMpIzvUSo74
+ Po03dmiBWa7osWO5zQLjOPWv46MRgEuXCJS1e1BxA3Q_aG2oEDBGNAbAHwxn
+ zOaw_U9W3EVPbQ2IzDbM0l6phXF.p3aSmz.9u4hQuaaV1CETGNefjOusxaFj
+ 7wJC_0Ch3Tfio9XAaJp5g0j6KaDs9MBwUyfo5XU0ZIl5H7iYSxbd3f4mcyGT
+ 5zGQgJllNGe_TMRLBxJvJtM8Bd7hIpuW9Ns0jrqs1c0ltbFZYmUMVKJHgz4t
+ .6k9PBOvDr1okbDJTBEfxy.nl.Ro0zANVbQCuSeNxpUx.gseebPnImw8ojbU
+ E3Z90S0F9LxqMIh3LXV_WgEFwZ5sDFEqjb0QTGLIzlQOXaBeMlHwe8eXRs9m
+ C0XMkJJRSaJaf90GMQM.fft1rFG1NpVTbAzDWXilpNGu7PFRwla0hN6BgPI6
+ yjFrppfYcMR0y1mhNGlu6G1Q5k4ELZ4RFQ.UYxD7uYhKaAP0NCAJcAsmWyCt
+ Maf5IoCbPDYty2KTgn3j0smu3sO_VuiCOmzEC_fSHmtm.SV3dj9vKWfM9y3F
+ exN9Y.YuGCieEGIt0aMaI1yK59oizYX_7MZcOibR0ycOyb9Uc0jHSxwBS33X
+ l3slEXwnfWAPkfCXV3tHLq8TwezkNM61QO2tZKjOeMYxoYoYOp.HLDJ8eg4M
+ GN7hSKLwC2xyQKR8bYt3DSS0KazQbtNMiBKO6OO9geYXUaZAWSPVRCYkZGVQ
+ 3uexGcs2zuHoI9yvriQFAcIrW43D8F7a6WNuN2GFLTej9DKpuf3j3qZLdv72
+ ed1c27GGBi99lYBxNzfYn3nrEWYPlqyJlrUrehSJXMzC2FoHIpdUFaimkdJ_
+ Ap0ZUncVS9PBA5Jt.WdNlnauCL01rmhvPsVXqscbGRvGCve_O9ok9nQi9Q2w
+ GaVk61PZwOcAB.2a75emq8JM03xvhbCdbM3GpKO.hBwSrVeLySlxaR8SDDZy
+ NbOTr8VwGfRG9U.FbUqOnMPY_DYBDhlT5jVAlmc4Ng--
+Received: from 192.30.252.211 (EHLO out-28.smtp.github.com)
+ by 10.253.62.153 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 02 Jul 2022 05:01:20 +0000
+Received: from github.com (hubbernetes-node-93d5cf9.ash1-iad.github.net [10.56.130.55])
+	by smtp.github.com (Postfix) with ESMTPA id C03169005D1;
+	Fri,  1 Jul 2022 22:01:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656738079;
+	bh=Ydnqe6CN75YtJx8B1MllobaCVnslk2RDZYiPQXZIA+8=;
+	h=Date:From:To:Subject:From;
+	b=1uPIt7uOdoKdRP2NFvtyIUduuly3tSqwzpMiiNXoYRTtdhauJuV/i7py1e+FWAJAW
+	 l5IFRjkVfJI0sFK/a9AKJmqS2M5vJwYksvO/P6ZCRUZ44fpk4jtBNM7hTB8T0O2/wp
+	 jH7UF+bfUt0lrrcOzLUWXyyL/+O1r4Z1nSPu7Nzk=
+Date: Fri, 01 Jul 2022 22:01:19 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: NYCTLservicing@tcmfund.com, 
+ ms60710444266@yahoo.com
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES/push/refs/heads/main/58a3de-601a08@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES] 601a08: February
+ 20 2022 - ricki roer - tax evasion was KN...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: ACTIONABLE ITEMS -- 153974/2020 FOR PRECEDENT
+X-GitHub-Recipient-Address: NYCTLservicing@tcmfund.com,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 16561
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELAT=
+IVES=0D
+  Commit: 601a08e2b18a0b2f95ba4e68f63565527b1b0c9b=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES=
+/commit/601a08e2b18a0b2f95ba4e68f63565527b1b0c9b=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-07-02 (Sat, 02 Jul 2022)=0D
+=0D
+  Changed paths:=0D
+    A February 20 2022 - ricki roer=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  February 20 2022 - ricki roer - tax evasion was KNOWN way earlier=0D
+=0D
+# February 20 2022 - ricki roer - tax evasion was KNOWN way earlier=0D
+----- Forwarded Message -----=0D
+From: "Bo Dincer" <bdincer66@icloud.com>=0D
+To: "usbep@service.govdelivery.com" <usbep@service.govdelivery.com>, "tig=
+ta@service.govdelivery.com" <tigta@service.govdelivery.com>, "Constituent=
+ Services" <Constituentservices@doc.nyc.gov>, "cdfifund@service.govdelive=
+ry.com" <cdfifund@service.govdelivery.com>, "governor.hochul@exec.ny.gov"=
+ <governor.hochul@exec.ny.gov>, "inbox@livekelly.com" <inbox@livekelly.co=
+m>, "BO DINCER" <bo.dincer@yahoo.com>, "FDIC Public Information" <publici=
+nfo@fdic.gov>, "B D2022" <ms60710444266@yahoo.com>, "JPMCinvestorrelation=
+s@jpmchase.com" <JPMCinvestorrelations@jpmchase.com>, "press@barrons.com"=
+ <press@barrons.com>, "Bloomberg L.P." <bbrief@bloomberg.net>, "GSAMOnlin=
+eRequest@gs.com" <GSAMOnlineRequest@gs.com>, "governor.hochul@exec.ny.gov=
+" <governor.hochul@exec.ny.gov>, "Governor Hochul" <governor.hochul@exec.=
+nyc.com>=0D
+Cc: "EFile@nycourts.gov" <EFile@nycourts.gov>, "Shari Laskowitz" <slaskow=
+itz@ingramllp.com>, "Ricki Roer" <ricki.roer@wilsonelser.com>, "ricki.roa=
+r@wilsonelser.com" <ricki.roar@wilsonelser.com>, "Sniper Apparel" <info@s=
+nipergangapparel.com>, "Bressler Info" <INFO@bressler.com>, "ofac_feedbac=
+k@treasury.gov" <ofac_feedback@treasury.gov>, "edi.civil.rights.division@=
+irs.gov" <edi.civil.rights.division@irs.gov>, "Sara Ede" <see2119@columbi=
+a.edu>, "Sara Ede" <see2119@columbia.edu>, "Front Desk" <reception.plazan=
+ewyorktimessquare@riu.com>, "FDIC Public Information" <publicinfo@fdic.go=
+v>, "Shari Laskowitz" <legal@mskyline.com>, "legalASSt@mskyline.com" <leg=
+alASSt@mskyline.com>, "legalASSt@mskyline.com" <legalASSt@mskyline.com>, =
+"tigta@service.govdelivery.com" <tigta@service.govdelivery.com>, =0D
+Sent: Wed, Jun 29, 2022 at 10:14 PM=0D
+Subject: Fwd: 251295/2021 thru 251334/2021=0D
+Another felony, another NYSCEF 251334/2021=0D
+And an attempt to defraud again, while dealing in 153974/2020 as referenc=
+ed below to obtain some $600,000 discount or something.. =0D
+I don=E2=80=99t care, I just know it=E2=80=99s corruption and at the expe=
+nse of my unlawful restraint, you understand what that is?=0D
+This information also, is crazy felonious, definitely you can to Prison f=
+or that, look that email between laurie Zucker and Steve Donnell, what di=
+d they talk about?=0D
+>>=0D
+>> Violation of Privacy, 18.215, 18.225, 18.21, 18.4, 18.3, 18.4=0D
+>> =E2=80=94 list goes on in the other case, you family man? Me too.=0D
+> =E2=80=94 the ZUCKERS can worry about that after we clear the first and=
+ easier part, until then=E2=80=A6 those WilsonElsers are nothing but runn=
+ers [mule 1] etc. =0D
+=0D
+All of those in this series, for starters to help the ZUCKERS..=0D
+No problem, already handled that whoops.=0D
+=0D
+>> 251295/2021 thru 251334/2021=0D
+>> Hon. Milton A. Tingling, =0D
+>> New York County Clerk and Clerk of the Supreme Court=0D
+>>>=0D
+>>> And another Felony, known by the representatives of Sullivan Properti=
+es LP, notwithstanding Shari Laskowitz.=0D
+>>>=0D
+>>> As stated, =0D
+>>>=0D
+>>> >> Claim Value: $600,000.00=0D
+>>>       Block 2679, Lot 43.=0D
+>>>       840-46 Lorimer Street=0D
+>>>       Zucker Enterprises LLC.=0D
+>>>=0D
+>>> While dealing with their business in Brooklyn, New York. =0D
+>>> =E2=80=94 Kept me pre-occupied without cause to take care of their ot=
+her business without my opinion or any reveal as to what they really do f=
+or a living.=0D
+>>>=0D
+>>> For example:=0D
+>>>=0D
+>>> >> Hon. Nancy T. Sunshine, Kings County Clerk =0D
+>>>          and Clerk of the Supreme Court =0D
+>>>=0D
+<https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DHD6/w=
+XvlOxflJUlQyXqedQ=3D=3D>=0D
+>>>=0D
+>>>      case number:          400842/2020=0D
+>>>      Filed:                        09/23/2020=0D
+>>>      *** KINGS COUNTY *** =0D
+>>>=0D
+>>> Zucker Enterprises LLC =0D
+>>>              - v. - =0D
+>>> THE TAX COMMISSION OF THE CITY OF NEW YORK, AND =0D
+>>> THE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK=0D
+=0D
+> From: Bo Dincer <bdincer66@icloud.com>=0D
+> Date: June 29, 2022 at 12:01:09 PM EDT=0D
+> To: Ashley Humphries <ashley.humphries@wilsonelser.com>, goodjobs@goodj=
+obsfirst.org, "Roger R. Gottilla" <roger.gottilla@wilsonelser.com>, Amy H=
+anrahan <amy.hanrahan@wilsonelser.com>, Alan Rubin <alan.rubin@wilsonelse=
+r.com>, Alan Morrison <ajm157@columbia.edu>, Alan Rubin <alan.rubin@wilso=
+nelser.com>=0D
+> Cc: usbep@service.govdelivery.com, tigta@service.govdelivery.com, cdfif=
+und@service.govdelivery.com, American Bar Association <abanews@americanba=
+r.org>, American Bar Association <aba@em.americanbar.org>, Sniper Apparel=
+ <info@snipergangapparel.com>=0D
+> Subject: Fwd: 251295/2021 thru 251334/2021=0D
+>       =0D
+> =E2=80=94don=E2=80=99t worry nobody=E2=80=99s watching.=0D
+> /BD=0D
+> From: Bo Dincer <bdincer66@icloud.com>=0D
+>> Date: June 29, 2022 at 10:13:02 AM EDT=0D
+>> To: TaxEfiled@law.nyc.gov, stringer@comptroller.nyc.gov, governor.hoch=
+ul@exec.ny.gov, gschuller@pssb-law.com=0D
+>> Cc: gschuller@pssb-law.com, nschaier@law.nyc.gov, kcco-efile@nycourts.=
+gov, stringer@comptroller.nyc.gov, "Malia D. Chatman" <malia.d.chatman@ch=
+ase.com>=0D
+>> Subject: 251295/2021 thru 251334/2021=0D
+>>=0D
+>> Hon. Milton A. Tingling, =0D
+>> New York County Clerk and Clerk of the Supreme Court=0D
+>>=0D
+>> - make sure that Miss Hochul takes care of whatever the rent was I am =
+owed in arrears, I forgot the order number, 2395 * 13 months. You know I=E2=
+=80=99m not wasting another moment dealing with that nonsense, for REASON=
+ABLE CAUSE, so hopefully this is sufficient for notice.=0D
+>> =E2=80=94- all of it, immediately. =0D
+>>=0D
+>> you know more than you need to at this point , I=E2=80=99m not looking=
+ at the order again, plus, I forgot how to multiply as well.=0D
+>>      =0D
+>> I provided my wire instructions separately to Miss Chatman and Mr. Kil=
+kenny at JPM ( where they transferred my Security ) I also copied the rep=
+resentatives at JP Morgan as well, thank you!=0D
+>>=0D
+<https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DlpS_P=
+LUS_/xcRixuvW1/mkKheUg=3D=3D>=0D
+>> Have been avoided and obstructed by all parties who represent the plai=
+ntiff in NYSCEF 152974/2020=0D
+>> Violation of Privacy, 18.215, 18.225, 18.21, 18.4, 18.3, 18.4=0D
+>> =E2=80=94 list goes on in the other case, you family man? Me too.=0D
+>> This is what happens when you listen to criminals and don=E2=80=99t un=
+derstand the underlying risks, so take my word for it those monies owed a=
+re a blatant disregard and disrespect of my good faith dealings, so handl=
+e it. =0D
+>> Violation of Privacy, 18.215, 18.225, 18.21, 18.4, 18.3, 18.4=0D
+>> =E2=80=94 list goes on in the other case, you family man? Me too.=0D
+>>=0D
+>> Begin forwarded message:=0D
+>>=0D
+>>> From: Bo Dincer <bdincer66@icloud.com>=0D
+>>> Date: June 29, 2022 at 9:45:05 AM EDT=0D
+>>> To: nschaier@law.nyc.gov, kcco-efile@nycourts.gov, efile@nycourts.gov=
+, Help Nyscef <helpcenter@nycourts.gov>, newyork@sec.gov, stringer@comptr=
+oller.nyc.gov=0D
+>>> Cc: isaac@shermantax.com, edi.civil.rights.division@irs.gov, tigta@se=
+rvice.govdelivery.com, cdfifund@service.govdelivery.com, usbep@service.go=
+vdelivery.com=0D
+>>> Subject: Case: 400842/2020 *** block 2679, lot 43.=0D
+>>> As stated, =0D
+>>>=0D
+>>> >> Claim Value: $600,000.00=0D
+>>>       Block 2679, Lot 43.=0D
+>>>       840-46 Lorimer Street=0D
+>>>       Zucker Enterprises LLC.=0D
+>>>=0D
+>>> While dealing with their business in Brooklyn, New York. =0D
+>>> =E2=80=94 Kept me pre-occupied without cause to take care of their ot=
+her business without my opinion or any reveal as to what they really do f=
+or a living.=0D
+>>>=0D
+>>> For example:=0D
+>>>=0D
+>>> >> Hon. Nancy T. Sunshine, Kings County Clerk =0D
+>>>          and Clerk of the Supreme Court =0D
+>>>=0D
+>>> <https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DH=
+D6/wXvlOxflJUlQyXqedQ=3D=3D>=0D
+>>>=0D
+>>>      case number:          400842/2020=0D
+>>>      Filed:                        09/23/2020=0D
+>>>      *** KINGS COUNTY *** =0D
+>>>=0D
+>>> Zucker Enterprises LLC =0D
+>>>              - v. - =0D
+>>> THE TAX COMMISSION OF THE CITY OF NEW YORK, AND =0D
+>>> THE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK=0D
+>>> **** **** ***** ***** ***** ***** *****=0D
+>>> >> Please add to their dockets.=0D
+>>> >> this information is material , was not known.=0D
+>>> =E2=80=94  illegal rents collected, tax matters, outstanding debts.=0D=
+
+>>> =E2=80=94  Block 503, lot 11 =0D
+>>> =E2=80=94  BIN CODE:  1077252, 111 Sullivan Rear ( also no CO )=0D
+>>> **** Annexed in NYSCEF 153974/2020=0D
+>>>       =0D
+>>> OBO:  Zucker Enterprises LLC  =0D
+>>>               <isaac@shermantax.com> | 212-302-3600=0D
+>>>=0D
+>>> OBO:  =0D
+>>> THE TAX COMMISSION OF THE CITY OF NEW YORK, AND =0D
+>>> THE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK=0D
+>>>=0D
+>>> <kcco-efile@nycourts.gov>=0D
+>>>     Phone: 347-404-9766 or 347-404-9762=0D
+>>>     NYSCEF Resource Center =0D
+>>>     - EFile@nycourts.gov=0D
+>>>     Phone: (646) 386-3033=0D
+>>>     Fax: (212) 401-9146=0D
+>>>     =0D
+>>>     =0D
+>>>>> ----- Forwarded Message -----=0D
+>>>>> From: MILTON MCKENZIE <ms60710444266@yahoo.com>=0D
+>>>>> To: B D2022 <ms60710444266@yahoo.com>; BO FREEMAN <bscpgroupholding=
+sllc@gmail.com>; Ricki Roer <ricki.roer@wilsonelser.com>; Ashley V. Humph=
+ries <ashley.humphries@wilsonelser.com>; Nyscef <nyscef@nycourts.gov>; Je=
+nnifer M. Provost <jennifer.provost@wilsonelser.com>; Yana Siegel <yana.s=
+iegel@wilsonelser.com>; Roger R. Gottilla <roger.gottilla@wilsonelser.com=
+>; Daniel F. Flores <daniel.flores@wilsonelser.com>; William McKenzie <wm=
+ckenzi@nycourts.gov>; Corrine Shea <corrine.shea@wilsonelser.com>; lzucke=
+r@mskyline.com <lzucker@mskyline.com>; Shari Laskowitz <slaskowitz@ingram=
+llp.com>; Andrea Shiffman <andrea.shiffman@wilsonelser.com>; tips@insider=
+.com <tips@insider.com>; Debra Tama <debra.tama@wilsonelser.com>; Lois K.=
+ Ottombrino <lois.ottombrino@wilsonelser.com>; Suzanne S. Swanson <suzann=
+e.swanson@wilsonelser.com>; Urvashi Sinha <urvashi.sinha@wilsonelser.com>=
+; Angelique Sabia-Candero <angelique.sabia-candero@wilsonelser.com>; Aviv=
+a Stein <aviva.stein@wilsonelser.com>; Carole Nimaroff <carole.nimaroff@w=
+ilsonelser.com>; christopher.freda@nypd.org <christopher.freda@nypd.org>;=
+ Jennifer L. Sciales <jennifer.sciales@wilsonelser.com>; Kathleen A. Mull=
+ins <kathleen.mullins@wilsonelser.com>; Judy C. Selmeci <judy.selmeci@wil=
+sonelser.com>; Grace E. Song <grace.song@wilsonelser.com>; 60710 BD. 1539=
+74 <bo.dincer@yahoo.com>; Stacey L. Seltzer <stacey.seltzer@wilsonelser.c=
+om>; Elizabeth Scoditti <elizabeth.scoditti@wilsonelser.com>=0D
+>>>>> Cc: 60710 BD. 153974 <bdincer66@icloud.com>; 60710 BD. 153974 <bd25=
+61@columbia.edu>; VOGUE PRESS MAGZ <help@voguemagazine.com>; wmckenzie@ny=
+courts.gov <wmckenzie@nycourts.gov>; ofac_feedback@treasury.gov <ofac_fee=
+dback@treasury.gov>; edi.civil.rights.division@irs.gov <edi.civil.rights.=
+division@irs.gov>; antitrust@ftc.gov <antitrust@ftc.gov>; crcmessages@ftc=
+.gov <crcmessages@ftc.gov>; 10pctdvo@nypd.org <10pctdvo@nypd.org>=0D
+>>>>> Sent: Sunday, February 20, 2022, 11:12:55 PM GMT-5=0D
+>>>>> Subject: Fw: AUM | tax evasion | 8 AUGUST 2020 | +++ NO CONTEST....=
+look at the sneaker...IRS=0D
+>>>>>=0D
+>>>>> A Texas subsidiary of State Farm was ordered to refund $352.5 milli=
+on to residential property insurance premiums after the company's rates w=
+ere found to be unreasonable in relation to the risks they covered.=0D
+>>>>> https://violationtracker.goodjobsfirst.org/violation-tracker/tx-sta=
+te-farm-lloyds=0D
+>>>>>=0D
+>>>>> https://www.tdi.texas.gov/commissioner/disciplinary-orders/document=
+s/20153854.pdf=0D
+>>>>> ^^^ but eventually -- they have to settle. not my dept. EITHER.=0D
+>>>>>=0D
+>>>>> -- NOW WHY THE HECK WOULD YOU AID AND ABET THESE ZUCKERS?????=0D
+>>>>>=0D
+>>>>> -- Not my problem either. but you are out of your mind to let the s=
+ubservient(s) get involved with my affairs... =0D
+>>>>>=0D
+>>>>> -- I warned you for reasonable cause... but the longer you wait to =
+come clean - the dirtier you come out of the club...=0D
+>>>>> -- LIKE YOUR $2 pro on the deuce.... from the 60s though... no KYC,=
+ no conflict checks =0D
+>>>>> -- SHE WOULD process and accept payment from any of these countries=
+ as well...=0D
+>>>>>      =0D
+>>>>> .... or did they figure out I understand the price per square foot =
+in Manhattan, email me on the same day when I posted their counterparts..=
+. don't care to admit, come clean or return any of the videos of myself w=
+hich were filmed without my consent and at all times. see also: below. **=
+**=0D
+>>>>> **** see also: Bridgestone, Panasonic, and Martha Stewart.=0D
+>>>>>       =0D
+>>>>> p.s. If I have to freakin' vouchsafe this fellow of yours once more=
+, I will leave him bereft - generally.=0D
+>>>>>=0D
+>>>>>=0D
+>>>>> ----- Forwarded Message -----=0D
+>>>>> From: Bo Dincer <bdincer66@icloud.com>=0D
+>>>>> To: "ricki.roer@wilsonelser.com" <ricki.roer@wilsonelser.com>; "ash=
+ley.humphries@wilsonelser.com" <ashley.humphries@wilsonelser.com>; BBO 12=
+1 <ms60710444266@yahoo.com>; Baris Dincer <bondstrt@protonmail.com>; "tip=
+s@latimes.com" <tips@latimes.com>; "lzucker@mskyline.com" <lzucker@mskyli=
+ne.com>; "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>; "slaskowitz@ingraml=
+lp.com" <slaskowitz@ingramllp.com>; "legal@mskyline.com" <legal@mskyline.=
+com>; "help@vogue.com" <help@vogue.com>; "tips@nypost.com" <tips@nypost.c=
+om>; "tips@insider.com" <tips@insider.com>; Joseph Frumin <jefrumin@legal=
+-aid.org>; "mharvey13@bloomber.net" <mharvey13@bloomber.net>; BO Freeman =
+<bscpgroupholdingsllc@gmail.com>; "amy.hanrahan@wilsonelser.com" <amy.han=
+rahan@wilsonelser.com>; "alan.rubin@wilsonelser.com" <alan.rubin@wilsonel=
+ser.com>; "news@sec.gov" <news@sec.gov>; Chair <chair@sec.gov>; "newyork@=
+sec.gov" <newyork@sec.gov>=0D
+>>>>> Cc: FTC ANTITRUST <antitrust@ftc.gov>; CRC FTC REPORTS <crcmessages=
+@ftc.gov>; "10pctdvo@nypd.org" <10pctdvo@nypd.org>; "10pctyco@nypd.org" <=
+10pctyco@nypd.org>=0D
+>>>>> Sent: Sunday, February 20, 2022, 09:22:44 PM GMT-5=0D
+>>>>> Subject: AUM | tax evasion | 8 AUGUST 2020 | +++=0D
+>>>>>=0D
+>>>>> Moved a little quickly there didn=E2=80=99t you, but that was Augus=
+t 10TH of 2020. Check the date of execution CF00031. =0D
+>>>>>=0D
+>>>>> On August 10th 2020. My apartment was 150 SQFT.. you telling me it=E2=
+=80=99s 400$ a foot +37 *150 =3D 5550, sorry. That=E2=80=99s $65,550.00 n=
+ot the 60,000.00 below. =0D
+>>>>>      =0D
+>>>>> You selling them for $60,000? =0D
+>>>>>=0D
+>>>>> Then, it would be `3.7MM as valued and paid for in your prior 5 yea=
+rs of taxes, as reported to State Farm realty or whoever it is you needed=
+ to borrow $6 million from=E2=80=A6 =0D
+>>>>>        =0D
+>>>>> You could have just asked nicely to inspect my apartment you know=E2=
+=80=A6 but now it=E2=80=99s two years later right? And five years of tax =
+evasion later. That=E2=80=99s what happens when you unreasonably harass m=
+e, I will work extra hard to find you, no edgars right??? Ricki? You atta=
+ched to a Edgar, come over here let me go talk to them. Ah? Got em covere=
+d right? All of them?? For what though?=0D
+>>>>>=0D
+>>>>> I=E2=80=99ll get back to you =E2=80=94 and will absolutely use the =
+two dollar lawyers recommendation letter as well, the one from the 10th o=
+f August in 2020.=0D
+>>>>>=0D
+>>>>> BD. =0D
+>>>>>      =0D
+>>>>> GFY ;)=0D
+>>>>>> From: Bo Dincer <bdincer66@icloud.com>=0D
+>>>>>> Date: February 20, 2022 at 9:01:30 PM EST=0D
+>>>>>> To: ricki.roer@wilsonelser.com, ashley.humphries@wilsonelser.com, =
+Shari Laskowitz <slaskowitz@ingramllp.com>=0D
+>>>>>> Cc: blawre@bloomberg.net, "Bloomberg L.P." <bbrief@bloomberg.net>,=
+ ricki.roer@wilsonelser.com, suzanne.gamboa@nbcuni.com=0D
+>>>>>> Subject: Re: *** COURTYARD 29 JUNE 2020 -- AUM | tax evasion | 8 A=
+UGUST 2=0D
+=0D
+=0D

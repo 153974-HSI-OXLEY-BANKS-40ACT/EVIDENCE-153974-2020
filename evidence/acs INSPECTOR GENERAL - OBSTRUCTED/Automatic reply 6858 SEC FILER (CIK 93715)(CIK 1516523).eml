@@ -1,0 +1,290 @@
+From - Sun Aug 28 22:41:12 2022
+X-Account-Key: account1
+X-UIDL: APopMk8IZDg8Yry2qAV+QP/zvjE
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.81
+ by atlas124.free.mail.ne1.yahoo.com with HTTPS; Wed, 29 Jun 2022 20:31:35 +0000
+Return-Path: <>
+X-Originating-Ip: [152.180.20.29]
+Received-SPF: pass (domain of stl-mta-dmz-02-pub.dol.gov designates 152.180.20.29 as permitted sender)
+Authentication-Results: atlas124.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@dol.gov header.s=dol;
+ dkim=pass header.i=@usdol.onmicrosoft.com header.s=selector2-usdol-onmicrosoft-com;
+ spf=pass smtp.mailfrom=stl-mta-dmz-02-pub.dol.gov;
+ dmarc=pass(p=REJECT) header.from=dol.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 29 Jun 2022 20:31:36 +0000
+X-YMailAVSC: 8Yr1ymA3bBvmR4AX9PC6DVWcIMqWihDqNoWCb5KIYCuyxmZ
+ 3GANACSCWyZp8INs8sUULCs1hPLXyWgSZk99G4wDRy9xp2a.c3IrmaSOMul.
+ mrZDN0_Zc3mpT_fpAwS.Jwl6KGoXe80PMVCphPymnMYJYLMk4hXC2lCS3D.5
+ ra0YcxpvrQbCMZTyqodEPX_j_ANaSu6qLZWW5.Um2Pcg_5c5cb5Zf.5IUPqN
+ YfuoYfDWB4EOX8mFSISjAcApe5oEJXOHbUXVEjJ_OKPJ_8sN07kRXZcBOGk7
+ QyZtZN5wBpTO0FbSzsq1Msyd.FPYYxw458J4_GkNcEjHiK7uvXTKRCflez39
+ XZiTaJxjRkv681AXEX7u.Z8ckjiCqVtjRdY735Gb3
+X-YMailISG: 3V3RLLwWLDuNwbUxCuBP6tt9zpqrqLsU8XIdANIJcCYXUGcO
+ zh2GjkaU2SLkjNvCgFdP5olHPNVekl.LbIEGU2U4CrdQiMLYIHy.D8khAhVc
+ dV9K_bo5nlYU3qf86gto72rvdXTpWAe6PWBinljjvZnjuawDEeNJ_kPDeyGd
+ uz3r.5E.Ue39HwvLzEyfHrnIbw5.q9tU6CCX2IfhnA2J2zZ0s0ZnUoxt.s9R
+ sagoRJFaYv3KVykTzDJjucN4T6fgD2GBPdQZI2Y8m6OcsKuxO2YCugsIrdQo
+ 8jmpl8OPOXMd0cow6lQqncIpJcfuPi.RR3EwD4OVlVwH5ROMyAfhD1.FKEFn
+ NUAEujkzNkN8wwby1ueVXBgJd0T8Retv.6Bq_3Te5oTXpAqUMAjyotZ.wr74
+ _t.A7J_nhQ2Izcxv.JfRlYs.0viu3PYpjkP9H2VMpaS047ZuU.LPdKJLPUTT
+ 7iLIi2i4t2ll3GWx1Ei9NUmbWHTXEvqXgXFw2bJop9fw3NiCat2Q4sOwvjt0
+ hh3FQb3W2QsGRhzOdBsV_qWSxJWlOr6AkVuRumIoFgKFATmRqk6E4K62IqpN
+ LmkhGnE8v11dt_XmeMY0pXnhL0r7SJU9VtZo9KNDS6.ArNtUq1XLZIBu_UUz
+ uOL7bA6QemVrkhKfYuqaiqFOrOwYtWWur2ViZDVDPc7PKetxEvclUGGOM5F3
+ NMEWJ14A6D.fxB4IHm2SMX8qp2OD06mbHJSGj9zE8akTC4I33HqFgmoSlVTx
+ uwO2QXB5ZyR2oslXByAudfaKRW8ElY4sr_4K_vJHO5hg6GA03E8UIKGyTUUy
+ 5AxI7Ql5uhhOsrcnr_obME3Mi_.x0iHNpUGwuZkdMY2NOKv8SoVoEib2I3HY
+ RGVCkZpyfLJBnKqxoVoH0phAsHjF2vxkyNsZmdfKIyihLK7TYWOlTMNe0mal
+ vXMqTrJyALJisLWKKSz9B142KMWJ.mZpDBJFXx4c2BHp9qsTwaniGcBAnJt6
+ wauPhClBRliSecUR2hxMfPisBK_m3w70MIwGOVgRAtjLS4Iab3qtzzBDKroO
+ _QjGL.f0Ue4aA2Y6TSWHO9S8L2X6oP8CPT2flInAIg6eQvQEYSttiYg2TvYt
+ UKIEwbCU.hGbE8yH3gcuDd.52Ac6byVXUuhRi_udszc.w5_ENWBHJlM8ufPS
+ g8T7A3FwillvLBPQmZor3fkdQwxa.IlYv9.DMM8st40i3CQeN9GWmPA4z6ra
+ J49_skeYOLSJCrXYJC6QENkkS2NQWcrD1m_D5pOM.rLzZYfRx4ihYir_kq.R
+ H9iyLNr.zguRLcW5f.osqC3t.NRzGYID45PCY7pX_FEGLae7AnmCD9xYVUnB
+ rT7JbSmjIllNn5dKDjtKRfu8kyeZXo_mdWdsn1Oo6lvBbyAyc3iY.g--
+Received: from 152.180.20.29 (EHLO stl-mta-dmz-02-pub.dol.gov)
+ by 10.217.130.81 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 29 Jun 2022 20:31:35 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=dol.gov; s=dol; t=1656534695; x=1688070695;
+  h=from:to:subject:date:message-id:references:in-reply-to:
+   mime-version;
+  bh=LyyaiW6UT+kpSXC1Q7Jf43Yiivf1nEtVzL7M5XkNv8g=;
+  b=cfbnJhBPA+SC3seEcj+0agHC7fhVF9GyqGT0WNN9FhDfAb6IR1ZTQLGY
+   l2cbhhUHYg2y8cPaWuhgbd8iDAmIhkgR2KdWmAhvI4fqbNlPx2PT7fNQ6
+   +BOzF4Vo/X60qNL1Ay6FyQ3oW4E21mIGVY4ANxCXmXE4o+uKa4WvbLkiX
+   fd7U1eVWUWnPLktIfBT2ZcnVvD1YIYgVAF4gDu0gZXKVmjpTQYsCZpOoq
+   hCNicRGhJrVVjSg6+bNNqzfUi/h743Qw8R0YaPl+IQvQEuxgpQT8D9iLJ
+   AUjHpWEcMJKfpZnfJPFetQc1edvd2XyiDLX6X0yPWDa1APMcn2AK+SDTi
+   w==;
+X-SBRS: None
+X-DMZ-HAT-SENDERGROUP: SMTP-DMZ-OUT
+X-DMZ-HAT-MAIL_FLOW_POLICY: $RELAY_CES
+X-DMZ-HAT-SENDER_IP: 10.56.33.11
+X-DMZ-RCPT-TO: ms60710444266@yahoo.com
+X-DMZ-MAIL-FROM: 
+X-IronPort-AV: E=Sophos;i="5.92,231,1650945600"; 
+   d="scan'208,217";a="213117877"
+X-DMZ-OUTGOINGMAILPOLICY: Default
+Received: from stl-mta-int-01-ext.dol.gov ([10.56.33.11])
+  by stl-mta-dmz-02-int.dol.gov with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 29 Jun 2022 16:31:32 -0400
+X-INT-HAT-SENDERGROUP: SMTP-OUT
+X-INT-HAT-MAIL_FLOW_POLICY: $RELAY_CES
+X-INT-HAT-SENDER_IP: 10.56.36.137
+X-INT-RCPT-TO: ms60710444266@yahoo.com
+X-INT-MAIL-FROM: 
+X-BANNER-RECIPIENT-EXCLUDED: Yes
+X-BANNER-SENDER-EXCLUDED: Yes
+X-BANNER-SENDER-INTERNAL: Yes
+X-IPAS-Result: =?us-ascii?q?A2EiAABqUrxi/4kkOApaHAEBAQEBAQcBARIBAQQEAQFAg?=
+ =?us-ascii?q?TsHAQELAYEgWyh/AoFXAoxuhWmDAptKgSwUgREDGEcBAQENAQE3CwQBAQMEh?=
+ =?us-ascii?q?HyFTSc0CQ4BAgQBAQEBAwIDAQEBAQEBAwEBAQUBAQEBAQEGAgIBAQKBGIUvO?=
+ =?us-ascii?q?Q2CNSkSYz0QOwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBA?=
+ =?us-ascii?q?QUCQEgLEwEfBkABATgPAgEMQlcCBBuCKU2CDlIFAzASqmc1eGFSgQGCCAEBB?=
+ =?us-ascii?q?gQEhQ4YgjgDBgkLgSkBgxSENIULgiOCDESCH4IIVoEFAYFcBBiBBwoBEAIBT?=
+ =?us-ascii?q?oVsIolriASIAAc4A0cvEoEgbgEIBgYHCgUwBgIMCw0UBAIDEBJTHAISDAobD?=
+ =?us-ascii?q?lQXDA8DEgMRAQcCCRIIFSsIAwIDCAMCAysCAxYJBwoDHQgKHBIQFAIEER4LC?=
+ =?us-ascii?q?AMZHiwJAgQOA0AICwoDEQQDExgJFggQBAYDCC8NJwsDFA0BBgMGAgUFAQMgA?=
+ =?us-ascii?q?xQDBSQHAyEPJg0NBCIdAwMFJQMCAhsHAgIDAgYVBgICbi4NCAQIBDckDwUCB?=
+ =?us-ascii?q?y8FBC8CHgQFBhEIAhYCBgQFAgQEFgIQCAIIJxcHEzMZAQVZEAkhHCkQBQYWA?=
+ =?us-ascii?q?yFuBUUGCSg0NjwsHxsKgRosKxYDBAQDAgYaAwMiAhIpBjkDHAUDAR+cJBOBA?=
+ =?us-ascii?q?iRQgQ4BIyWScYlHhAyhFzCDKAMCixyUZC4Vg3WMQ5gsC5YgR40xmWgCBAIEB?=
+ =?us-ascii?q?QIOCIFhgSZwKwoYKYMyag+OIINyil51AgsuAgYLAQEDCYw7D4I3AQE?=
+IronPort-PHdr: A9a23:RDuPHh2xOefxuHl0smDOygMyDhhOgF0UFjAc5pdvsb9SaKPrp82kY
+ BaEo6wx3RSXBM3y0LFts6LuqafuWGgNs96qkUspV9hybSIDktgchAc6AcSIWgXRJf/uaDEmT
+ owZDAc2t360PlJIF8ngelbcvmO97SIIGhX4KAF5Ovn5FpTdgsip2e2+4YDfbgpMiTayYL5+M
+ Qi9oBnMuMURnYZsMLs6xAHTontPdeRWxGdoKkyWkh3h+Mq+/4Nt/jpJtf45+MFOTav1f6IjT
+ bxFFzsmKHw65NfqtRbYUwSC4GYXX3gMnRpJBwjF6wz6Xov0vyDnuOdxxDWWMMvrRr86QzSi6
+ 7pgRgHuhikJKjU19HjbhtFsgK5eph+quh5xzJPOYIyNNPRwYL7Tfc8US2RCUMZeVTBODYynY
+ oQVE+YNIfxVo5Xhq1cQqxa1GAmiBPnoyj9NnnL4xK003vo/HA/cxQAuBc8Ov2/QrNX0KKgZT
+ Oe4wrDIwzjdcf5Ywy7x5pLVch86pfGMXK5/fNHMxkkoEwPJlFqQqYv7Pz6M0OkGrmeU4fZ6W
+ +21l24ntx9+oiKpxso0lIXFmoEYx1DE+Ch5z4s4Odm1RFN0bNOrDJZcqy6XOYtyT84sQWxlp
+ Ds3x6EYtJOmfiUHypspyhDRZvGEbYSG7BTuX/ufLzd/gXJqYrO/hxCq/Eiuze38TNW730hQo
+ iVZldnMs3YA3AHQ5MifUvZx41ut1SyP2g3S8O1JL0E5mbDGJ5MvwLM8joQfvEXfEiL4nUj6k
+ bOaeV4l9+Wt6OnrfrTrq5qTOoBujwzzN7kil8+5DO8lKAYBRXKb9v651LD7+E35R6hFgeMun
+ 6nCtZDaOdwbpqmkAw9Jyooj6wiwDzOh0NkAgHYIMExJeAyJjof1P1HBPe73DPijjFSsiDdn2
+ +3KMqf/DZXLMnjPiqrufbdn60JGzAo818tQ55VOCr0bL/LzXVHxuMTZDh8/LQO03/7qBMhh2
+ o8EWW+CA7WVPa3TvFOS++4iLeuBaJcTuDnmM/cl/eLhjWclmV8BeqmkxYYbZGiiHvt6O0WZf
+ WbsgtAZHGcPpQozTfDmhV+fXTJPaHu/UK0x6i86BY+nForCRpqigLyG3Ce8BJFZemdGClXfW
+ UvvIq/Md61UMnjadsp6zGRbDOD9F9N7i0+GpQb6zL0hJe3RrH42r5Xmgf9bzMbr0Ckv/zh1B
+ IzJ9E+mZFkxpn4CQz499Kx4pQpyzUnVgvswuOBRCdEGv6ABaQw9L5OJirUiYzi6cg7Cf9LcT
+ lGgT53mBDwqVds+zpcIZFo1ANStiB3Pnk/IS78YnrCGHto4p6Tb2XWiK8N00X2T0q4nghEvS
+ ddOMmvzgKl5+kDTCofFnl/fmbytcPEQ2yqL+2CdngKz
+IronPort-Data: A9a23:Ujw0VqoC+WxTwal2zogshaDg0h9eBmKSZxIvgKrLsJaIsI4StFCzt
+ garIBmObP2NZTemKY0nPou/pkwO65XTxtUyQAVsrnxnFihDpJacVYWSI27OZB+ff5bJJK5FA
+ 2fySfGbdZxpESWMzvuJGuK8xZWp/fjQHtIQMMadZmYpA1UMpB4J0XqPocZg6mJVqYHR7z2l6
+ IuaT/L3YDdJ6xYsWo7Dw/vewP/HlK2aVAIw5jTSV9gS1LPtvyN94KYkGE2EByCQrr+4vAKNb
+ 72rILmRpgs19j9xUYn9yt4XeGVSKlLZFVHmZnZ+B/P42kAqSoXfHc/XOdJFAXq7hQllkPgg0
+ +cQvs2wGTwABYPlgcheD15xEX9haPguFL/veRBTsOSfxBfYbHDoz/h+B0EuZdRe9+BrR21P7
+ 7ocIToKdFaMgPzeLLCTE7Eq25pld5etZdhA0p1j5Wix4fIOFcarr6DiuoIBh2tp2qiiG97ET
+ fgdSmFuai3iQBkSYg4mCJweuren0yyXnzpw7Qj9SbAMy23IklQuieCxbIaPJIKiVMxVmUHer
+ WXDl1kVGTkWP4aB1jGB/n+8je/XxXq9VYQOUrG57LhuiVeU3CocDwN+uUaHnMRVQ3WWA7p3Q
+ 3H4MAJ3xUTu3CRHluXAYiA=
+IronPort-HdrOrdr: A9a23:IVWYM6/qmK+Kd5n+Sjxuk+C3I+orL9Y04lQ7vn2ZKCY0TiX2ra
+ qTdZgguCMc6wxxZJhDo7+90cC7KBu2yXcf2+cs1NmZMDXbhA==
+X-IronPort-Anti-Spam-Filtered: true
+X-INT-OUTGOINGMAILPOLICY: Default
+X-IronPort-Outbreak-Status: No, level 0, Unknown - Unknown
+Received: from dc2vwcldexchp01.ent.dir.labor.gov ([10.56.36.137])
+  by stl-mta-int-01-int.dol.gov with ESMTP; 29 Jun 2022 16:31:31 -0400
+Received: from dc2vwcldexchp01.ent.dir.labor.gov (10.56.36.137) by
+ dc2vwcldexchp01.ent.dir.labor.gov (10.56.36.137) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.986.26; Wed, 29 Jun 2022 16:31:31 -0400
+Received: from GCC02-BL0-obe.outbound.protection.outlook.com (10.57.11.9) by
+ dc2vwcldexchp01.ent.dir.labor.gov (10.56.36.137) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.986.26
+ via Frontend Transport; Wed, 29 Jun 2022 16:31:30 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=hOsAYKTnB4aZ0NAiqsf5z6lxIAHLEQqfcpKYh2t8ViF7B2P1YoVRpZy29CNYkrmWhsPxToZV3RH3CEep+i00cHFDaYzAl9AW7ePeiut10rreWlW7X195WrMQAZATi5hvrPYnuQuuChxhiyv5+RNQ198j0OV6jH8ncey8frjHFP+wu2iYQ0rTxjcqLytb/9VTwb/BuWxqHvdKjjcDIVH4RMI502ipFxeRyytYIG6/EJhB6ZL8VjLHK8EddBjMNAFM7l01/+TODbsng9gZoYFHbPmSNkibKPizgDat/1KseFBL5HGxOtF+Q9uMitfXfI854RypdTxBRPzbd68+O3OsWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=LyyaiW6UT+kpSXC1Q7Jf43Yiivf1nEtVzL7M5XkNv8g=;
+ b=j/cBSeIjyxhv2htX8w7Q0R5WSnoMDI4BnsfTV2PjUNLvjXZySFXSZz3Top/R0WiC1JfYsvjn1icKimMzs07KEtUuFT/YZt9YOCOZk6RqkmoeS2BbWQwHBs0uFqfQy65KojRLMxLpZmaZe1aE02WZVssSL/gRr9XNNt4SWKOfi6pwC9uMeWXrNrAgVUs50aiWcKGBWGo6BYmT1fhn/A4cNsE0m8YFBMGRZ6L1JnE+biPz4m+j8Um6hRxNkQwaXd6tGRXjhsGNgk4gB4ReK50UgjWV4L3Q/TZeSdLiFISR01PtWEVPLmUFSNs9L9+NARP+RZGsRPkk3mRoL4kZHqBbrg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=pass
+ action=none header.from=dol.gov; dkim=pass header.d=dol.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=usdol.onmicrosoft.com;
+ s=selector2-usdol-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=LyyaiW6UT+kpSXC1Q7Jf43Yiivf1nEtVzL7M5XkNv8g=;
+ b=fvxZrKrucnc7KpsSLXr4M29AIFOc9So8490YsLbKEcc0mDl6e7vBQf1sPyVLd1NWop4zJcJKk7+KQo66l3l9YLqHrsJCq5emPOW507xrhP7rw7lvtNTPXr6tKR319Uqy8xJYAcO2+PtAZtc32Pr+O+gIvSTYmE3BIDZlcHb6j0E=
+Received: from SA9PR09MB5997.namprd09.prod.outlook.com (2603:10b6:806:4a::18)
+ by CO6PR09MB7846.namprd09.prod.outlook.com (2603:10b6:303:ca::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.14; Wed, 29 Jun
+ 2022 20:31:21 +0000
+Received: from SA9PR09MB5997.namprd09.prod.outlook.com ([::1]) by
+ SA9PR09MB5997.namprd09.prod.outlook.com ([fe80::adc1:213d:b574:65ae%7]) with
+ Microsoft SMTP Server id 15.20.5373.022; Wed, 29 Jun 2022 20:31:21 +0000
+From: OFCCP-Public <OFCCP-Public@dol.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Automatic reply: 6858 *** SEC FILER (CIK 93715)(CIK 1516523)
+Thread-Topic: 6858 *** SEC FILER (CIK 93715)(CIK 1516523)
+Thread-Index: AQHYi/bCKhCNNnrXiUuleHMkNKewzq1m1hcAgAAAXuE=
+Date: Wed, 29 Jun 2022 20:31:21 +0000
+Message-ID: <7ca3597368094b108d4a07f314130397@SA9PR09MB5997.namprd09.prod.outlook.com>
+References: <7c9e9f60-9f6b-fe08-0e11-ea5ab80763d6@yahoo.com>
+ <cf0ed4d5-6102-e824-6649-a2454ad387f1@yahoo.com>
+In-Reply-To: <cf0ed4d5-6102-e824-6649-a2454ad387f1@yahoo.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: OFCCP-Public@dol.gov
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id: <cf0ed4d5-6102-e824-6649-a2454ad387f1@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 78443f72-a839-4f7e-cc61-08da5a0e53fc
+x-ms-traffictypediagnostic: CO6PR09MB7846:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: T1LVBq67rpPLD6UBaDlkQUemRj69xqPyavXExcjjMZyBB6T9VxMlGLP+8GMeIPaaKchtkid72ECd0vK9zvDXuf4ze2repaqNr1wgWc9iNUmoDLc4byyFe6dWEToQ+KXrM9pHVo+LnNmvR1LjDcCz7u7ctJml++qquGcxMHvLG1o44haa/8LFOso0gScULIy0nrgfle0NTMaAR7HuxeYqsDIEbpYnI973IXG3MVJsVMjpLtmniDqu0DtGG3cbImjMkobkPpwyS2MKe9LCS4vkc24RYjno1luzcHuBY3pHnJAnmlmaxaGhlJoI6YVrHth3BMt7YmQRz0q9bFimQYhcdQnAE//5HVfK9BuF/FeM5f9KuXSbr8xEBuspRj30Mqh+6D44lDIPKk0R3o3pikFbzNsyZJ9iavF+Jza8ApTfdHqAdySF2ACXLOLmNSvk/vWj5Y8YXqmIBJk0MUPFo+k4lnu1aKNbMFg58cObOTc5vACaZKd+CjzNMbmwfM775+8ucFlIgwRKIK09AiM+RNONg+TJs1faZHmrW9fJBQhjcwQvlhByqWzV7LwVvqQZxaQSP3/EDN7AbXguu/iSgeR3El+FAvWYUbvKBz8g6bWDNP6E1T+BDvPxFw3hHYOV0ZWgHoZjF4RGHKFcp663QsuC/pZwUKStCSHSMqCGNGe5bEefbqw+BXXsCbONdXtWWQ4TN5XiOyuDnMwCi5OB7u+UnfdgZKKEM5gx1RYssgd9IXMQDal0NL7Fhe8yz4N1QBSw
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SA9PR09MB5997.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(50650200002)(366004)(122000001)(166002)(8936002)(5660300002)(498600001)(2906002)(4744005)(8676002)(88996005)(66556008)(64756008)(66946007)(78352004)(66446008)(66476007)(42882007)(55016003)(83380400001)(108616005)(6506007)(7696005)(24736004)(9686003)(71200400001)(19627405001)(6916009)(111220200005)(80100003);DIR:OUT;SFP:1501;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: C3QZfR2o3ltNga4kt0b1aT9nz6Bs0nulghsv/tz3yD/FUdKtFbqyDG2WaHXqAhIGQS6uFatsInC730ooDM+NHlkRNaEkbHddpRFcYDU8+Y07EZnZYsEaCzu5cDN/rGx7IwGePkluEHc9/GyDtayfzcfFpLyWamunbx4v81JuIL/YrM7zLT5iAJA1G2BuSyhxDDs4G0pSIX5MObXRUN0MoSEfYq808QHpen4+WRl8F46fLF+gldNH8dAjnAuElQWwDkAcFma0fgMiZGMYAeeHjRpbc3CVcO9L6D4k6uF+caSdPL+YT5vJlnKpcYXuX4/X
+Content-Type: multipart/alternative;
+	boundary="_000_7ca3597368094b108d4a07f314130397SA9PR09MB5997namprd09pr_"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SA9PR09MB5997.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 78443f72-a839-4f7e-cc61-08da5a0e53fc
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Jun 2022 20:31:20.8796
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 75a63054-7204-4e0c-9126-adab971d4aca
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO6PR09MB7846
+X-OriginatorOrg: dol.gov
+Content-Length: 3930
+
+--_000_7ca3597368094b108d4a07f314130397SA9PR09MB5997namprd09pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for contacting the OFCCP Public Email Box. We are no longer respo=
+nding to emails sent to this mailbox.
+
+If you would like to search the Frequently Asked Questions (FAQs) on our we=
+bsite to find the answer to your question, please follow this link: OFCCP F=
+requently Asked Questions<https://dol.secure.force.com/DOLFAQLandingPage?ag=
+ency=3DOFCCP>.
+
+If your question is not addressed in our FAQs, please follow the link at th=
+e end of any FAQ listed to submit an inquiry, or click here: OFCCP Inquiry<=
+https://dol.secure.force.com/DOLFlowQuestions?agency=3DOFCCP>.
+
+If you would like to check the status of an existing complaint or inquiry, =
+please follow this link: Status Check<https://dol.secure.force.com/DOLCaseS=
+tatusCheck>.
+
+--_000_7ca3597368094b108d4a07f314130397SA9PR09MB5997namprd09pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt; color:#000000; ba=
+ckground-color:#FFFFFF; font-family:Calibri,Arial,Helvetica,sans-serif">
+<div name=3D"divtagdefaultwrapper" style=3D"margin:0px; font-family:Calibri=
+,Arial,Helvetica,sans-serif">
+<p><font face=3D"Times New Roman"></font><span style=3D"color:black; font-f=
+amily:&quot;Calibri&quot;,&quot;sans-serif&quot;"><span id=3D"ms-rterangepa=
+ste-start"></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">Thank you for contacting the OFCCP Public Email Box. We=
+ are no longer responding to emails sent to this mailbox.&nbsp;
+</span><span style=3D"font-family:&quot;Calibri&quot;,sans-serif"></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">If you would like to search the Frequently Asked Questi=
+ons (FAQs) on our website to find the answer to your question, please follo=
+w this link:&nbsp;<a href=3D"https://dol.secure.force.com/DOLFAQLandingPage=
+?agency=3DOFCCP" target=3D"_blank">OFCCP
+ Frequently Asked Questions</a>.</span><span style=3D"font-family:&quot;Cal=
+ibri&quot;,sans-serif"></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">If your question is not addressed in our FAQs, please f=
+ollow the link at the end of any FAQ listed to submit an inquiry, or click =
+here:&nbsp;<a href=3D"https://dol.secure.force.com/DOLFlowQuestions?agency=
+=3DOFCCP" target=3D"_blank">OFCCP
+ Inquiry</a>.</span><span style=3D"font-family:&quot;Calibri&quot;,sans-ser=
+if"></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,sans-=
+serif; color:black">If you would like to&nbsp;check&nbsp;the status of an e=
+xisting complaint or inquiry, please follow this link:&nbsp;<a href=3D"http=
+s://dol.secure.force.com/DOLCaseStatusCheck">Status Check</a>.</span><span =
+style=3D"font-family:&quot;Calibri&quot;,sans-serif"></span></p>
+</span>
+<p></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0pt"><span style=3D"color:bl=
+ack; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><span id=3D"ms=
+-rterangepaste-end"></span></span></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_7ca3597368094b108d4a07f314130397SA9PR09MB5997namprd09pr_--
