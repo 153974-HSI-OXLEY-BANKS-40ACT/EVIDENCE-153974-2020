@@ -1,0 +1,75 @@
+From - Sun Aug 28 22:44:35 2022
+X-Account-Key: account1
+X-UIDL: ACI4RSBEvXryYsmB3wHFIK+0Opk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.200
+ by atlas217.free.mail.bf1.yahoo.com with HTTPS; Sat, 9 Jul 2022 13:25:50 +0000
+Return-Path: <no-reply@mms.att.net>
+X-Originating-Ip: [166.216.149.7]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.7 as permitted sender)
+Authentication-Results: atlas217.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 13:25:51 +0000
+X-YMailAVSC: Zf6zQW03bBsw8dXzmdfmBZqoBpxGapc43GQ5mEBpO26rcYm
+ 3oQ7DZubmUpBQMewhBQIorNQiAvSdlc4jICZDXZyx1Jz59GhEe6hTmv7OPz6
+ 9_Kk9ZK.ihX2s8UcnpWpav0ulXBFcjsEDbQV7RQ1T3R.jxwgL3pcbZ0nvZXe
+ myyJ5vrbjtWlysrKU7lZtoWNSe9wI21AxtKFctTqKsO4Na7A4cLNQekiQEi6
+ CMWCelJdgGAeIm.QWb555cXMuJqrc9foDc20tuDcc2trf_Ln3OmUF4yzvZ2K
+ dbTwiLJ.9K_7VYXybsCX.vnNubUTN4yulxlY7WXRzbBcO8IEHAZ.7HQLmQ4Z
+ lXeOK88ikrWon649RqFHnceBKbSxEBJ5BwDZAWZL1hIaVh7RS_JM-
+X-YMailISG: Z_3RhAsWLDvue2I5gaU77m.uQ4tJtzK0JrN3nKNmnCiOo7FB
+ uxpOEPFYtoIHKcgqLhoPfZKEsXGkrx2MhTjPcm8uuXpAEfz3olbXkO1fJK4r
+ Hsro6GfxkgwCL4G7KP2l.0YnGiE4r0JuHrILNRtyg7Lcrp_NLtnagNJeciIP
+ BATBOuxbXARaRAvht53ZgH13mJjd7PMg6W39KAD9oyC7t2TeFsdNhUkw94gU
+ 65CiCEvPQqs52_IRezNFwrceLjvTsimi.jwU2jNhuxUyYCa.iTBSTyQ5TG.w
+ zxCP5ovG1JQ76vIE_OomzgCs3JWAh1fSKPhh0aHJxrXBQPb2kdqi.WCeyRFp
+ huf9dFEQU4BxGLms4l1d6dz.PJRXv2ppKm9pjJVsCnPkzd0d9pYUiOXbRpgB
+ Zi4dQjDMk79v0GE91RkHgdWmKe2DDOrFMmUKP57AGlfqTzbUoGZPtmMEHHm8
+ 0SUMyckTwgS1pvviv8bD5VkFJoCee4hrhQavRKu1kOMhZiNdz51.AQAAznEk
+ kWefiEYbUU9pK8nodbgjrmLDk_czabNnBLe.uimq9Xsqoe9TLhbE8U0dBAAq
+ THpL3y753bWKVfVH3.OWu.HxnDw0wELvAyHpSOUe6F_stVPCSKMTeaUoDsS0
+ XAqRhhg_TRnR7WQOvqwdzZowZelLV9AWudJ6eMypGNFfud4J0WjZq4jVqQjH
+ vSMwUbs.ywLupazoUwWFPyMxZk3ILxkuHswUkm2ktU7jPIHt6hB8dme4CLuZ
+ td93QCietvPXYVzrNbtVoseE2CPJSNUU7suWE5hou6ybufm7E1AzpBQ1LGJy
+ 9ayw.kCJL2R6EgQ.7w7oEFVQS7a5UjdGbrfetLGuY2N9oNtL3hfMLddCdfRe
+ Zvlducmd97dJ_00rsplYXEJ7dXrKjn80ktyqe2rkGGqX16IxiZECza3Z7y8f
+ Rw.6LmyKc_JEz96cTEl2S1ReHwifljyDH4HHZknm6tWhhcxNaSNHWYbwh11t
+ DC92oPJMz4gPuqnC.SonOazRp.Injp0AdTqVS_YvBT78FTZe7sFcedB8VhBf
+ t6S4kIj5jfFXBHUGiI.r1YEmZbQOSy7sq17wXt8rAh63IvYisvLy8wjRUAd6
+ 8VnPEkVAERaseeed
+Received: from 166.216.149.7 (EHLO alpemg-mtmta04.wnsnet.attws.com)
+ by 10.197.39.200 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 13:25:50 +0000
+Received: from zdll2ammsc01nfe002.wnsnet.dll2a.tci.att.com ([107.78.102.30])
+	by bizsmtp with ESMTP
+	id AA8Eo54R3ZBnvAAT0oKoye; Sat, 09 Jul 2022 09:25:50 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1657373150;
+	bh=nQZfdOaz9Z3T7NpuX44VeSKkKKRAe6yB6hZl7UJsoEo=;
+	h=In-Reply-To:From:To:Subject;
+	b=HhUhTrq6qHRZhE/boVpKMs0zjQNdaqKe45VcK/aToNbF/93hG8Tn73AH0BUl/iXJ6
+	 /MYpU6nfpvh0yrZka5TRZb4PJF9hNqQKuZu2FV7qVwy/VuqYpNs+Idh1ZhtW3gLFRh
+	 aWy3wF9/opKfvhV0qNx9zkAE5+LSekaUqv6+iAiuf0/33DmkoJKFZl4yaaJ3JTFS08
+	 qgbj8Yct1RZoyyTrmlFQBA9p9Hvcz2/ZE/SKxQo4wv5ZmOh5mcQzhUCOsKodgmkU8Z
+	 5zs4NaoGg2B0NHUQt2Uxx9ajnFW6jfN0f1XYBBjjzf/ZbhoDXV9gTNHWCVVu5hwLKa
+	 9Oveb+FBn+R8Q==
+Message-ID: <AA8Eo54R3ZBnvAAT0oKoye@txt.att.net>
+In-Reply-To: 735759700.225755793.1657373150398.JavaMail.nems@zdll2ammsc01nfe002
+From: no-reply@mms.att.net
+To: ms60710444266@yahoo.com
+Subject: Fwd: Fwd: VIOLATION OF CIVIL RIGHTS [ VERIFIED ] USC 18 TITLE 18-
+ SECTION 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEMENT OFFICER OR
+ JUDGE
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-CMAE-Envelope: MS4xfPJHJ5oFegemCta7eWRtxyWYQNq0qLt9ONkNQXlr1QSLeRxvsUIrCgRLSE/MyjKySxUz3yLX+IT5RmNBD5UPqpTu5nBk2Q1RcydUWdSkeB4izO0yuYOw
+ MaYRLgOca0DmuvRq3lnUCvcs9OqJucGyHsdr9q5OUBoNx9Ii0qjkd4KvjuLtYlpu0V/PDZPhz4MOrOMF6kBAtNiRqWLmxONkrbdvjyp7rxmMyWXxI9nGOMwR
+Content-Length: 23
+
+The email sent failed.

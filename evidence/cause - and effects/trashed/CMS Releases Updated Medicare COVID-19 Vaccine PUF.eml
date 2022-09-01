@@ -1,0 +1,355 @@
+From - Wed Aug 31 18:53:34 2022
+X-Account-Key: account1
+X-UIDL: ABDEVr1wjy4MYw+GrwUwIHY1fWI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.137
+ by atlas202.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 16:05:03 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.105]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.105 as permitted sender)
+Authentication-Results: atlas202.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 16:05:03 +0000
+X-YMailAVSC: xV3SIaI3bBvM_dxs3PtpaPx7khwbgQsVJFcSiNO.fFmJ94M
+ JC954RMC8gW7tz0CJM3eMg1BtVARxwFyDsffRuMy3CTFA6g5OQ6X0jP0d6Br
+ ZANAc9l8Zoy.zGeBdsaJ9C12rcAI16m9VcBs_gELrjww6ffTMPg5LSBy9Q8Q
+ sSZIE08OOpUVf1oT92KYQZ0dGmsXFpPDwzded7_JCE4w6WOxoaOJMlhKRM_V
+ 7twDdlNGCOwOKMeh.pDSEHCMkg9WBqIxNLnFZEdCdqAWNdFTkIT2zNqphLiC
+ Gw1ICU.sZPyJyxj8IiRqz4XSikO9TbuA.jg.IS6xF3SzKUs1doag_I_l1i3y
+ l.Y8SPIKBcQOrRAlzK_sOjHip7_mQc83h0AGr1OtuyGoQ3lK4NDBDgTb6fqq
+ XSLdG4_zpzvBgj4qYOTfGwYPDghRSnFzs0akUd8JplsPAUOL7YuEP_LY.DVC
+ ONE8Nu4RlPzMjgcz5mMU7Vm.J5Ix_hQuNKO_zD5W93HPPQ1RYucnb7DYkEon
+ NwQniTc00y5czIgFycsPKHeFR_6CqHNmL0k_3Ke0ewXJZuexGIlLCFuSxtf6
+ 0HGDWaBIFW_X5rgsWv4vdBHrDt7h9Wnv7E5fbhT0Y8XIufkSPwhrjXqtJOHE
+ UvgMyp87PikZnEbnt7vdmc0fEhEThh6tHf_ubmI7zdcYfW5sULms6ZEIIo_B
+ YlSgcXJH_9NgR2Z5rNg7YHLlMlqubsjsHL8dGgnbmkSdcGxWs3JZNQ1uijAn
+ Pt.MJRYbP7sXAJbxlU1L4Bo1Sx3ZSK.yFXeXOegUAMMopLpxy6HMGP7BltNJ
+ tjJm8dgAUyDLNRrlSw7mkdzgUYI8ZLQxP.hznXQYsMl58iT17xCMzckRmaXS
+ tFk2lAknfB_MoZaVjWgy.7TaMnxDbQ2yQJhysE3oQiYXDsQko2gx5rKd_JS9
+ MtuazxtlsweB0GH0k4r_Tp1.We4ALYKhvOTTPG544DB77KzoGAbhZBz0Hucr
+ b2llODJEC1spGAHTRGoYSjJI2F4cGT0Q_CK3bbglLs4NyRlTBW13KnysPRQ2
+ jJfl4H1K4U2FrcNaB3vzhtP1oPW2wkMGpQT0fm6ScPhDi6f6DEZnmTSARqBz
+ hikupdxqE1AQ5n5tcWZS3givhM09sYkLPFJpQR7Jbjvub8ebMU4VxDlC_1Q6
+ hfwbplgPm4SgfI1cCovztgkBhnEJKnQGy10hBI7Bea0vXjpwvBio9NXwhlG5
+ vwEOJ4OvvczTciP2mco0zYjeIKp17R0hBjO1Js1Mxs.0elrlNeBF1eX.fzkD
+ B0s1RgDuencUFE7ARIrZxqvME4zvabA_RpMh4wthdgLKnD8W8vrQToLms55U
+ mSxdlPR6wuf.MY9LP13Y3yVouM8.NkyMarXAu0SB2Ip2bGTOEbGsHzk0.7m2
+ Q8YZdvfjhcyOUZcsUCx4kGVMDqPg6FdGE.gk78pxdMd6XMA.Ic4pMoMV64gM
+ _sP9pJ60-
+X-YMailISG: SWL0OiIWLDumpj8qpFPLhKmBMHoIFwMOasi2OkfzPtNaoU.N
+ jWb5GdUfUf5s0XLE6IspUeDX1kNaJtX1RXeflKeUuc.pk0Li1gCAAN5LHZeb
+ 7O4aDMW2bXhH6aLGXpFGXJeYQ1Wp3fNPPMT7IZaqInrW1nJQ7TjPKXDKWSgX
+ iFihdNXQ2_vBdQyNbdEkkslUJPKgHQ4SOIM04zM2f7DkmKreKPnyxH8qFVAL
+ jIBx4AVL8SN2l3xGCWwLNQv6QG5gCkwLxEm7s1kwWGelSeogsj7oZSJpNxNF
+ MO_EdxsZBUUjP5ZqAYK2h1WVQOAYhXFI1PYGxEPVl0GCuOM0u5jzJdaaPdTi
+ Nzq7M6QBK062tA7DfqiSDCu8NC5dN_E.IPt_xEMPe3UUHxfCxxXEUUVIQxRo
+ jvyg_0UgAY4Uzbewatc6NwaZug7kriECaiUvOr4_yYkmvkbHAOkGBSKyHK17
+ alC_nviVZeP6BUS_d80Mjuk6.RYrcvADwo0GlKcwtpuQmJZjAupZJ0m4XIHD
+ .hfeUWjZN1isQRskG0khfXUpMpf4b1rSViPYAU6rX5Ae3.QwoK5CkrTX4fo7
+ GjHt0qLDCm1D3eHBcPSo5B_AzL5eeg_r0x539oYpg879wxSsX29l2WT9tOch
+ 6XUWIoLiOzCs21r7CKsLUvyc707.2UgmGZJIPVHqcvOqDu9mU72GKK8iyDoe
+ tE44R6OCQvRUQ6yDiXz6uV38jPW8xl7eLbOcuLMAq84opQotOhJSF0X_07xP
+ HPYlHHDsGEvDP4QUqtt1jjX6MzkecgzUhNHb23NPM.qpBamAn31X039oJnOQ
+ twWecnDYX0RKLYINOUn185f4O5MXJbFOMu.QeKyd_Rv_bk_yVD7F7s_bV5ql
+ rAKHZ3b7CEU.SJpxx622pdHVYAyHHdp_JvW5eSnb.P8jxgFvoON2ySkl9jqo
+ u23Mog33HcJSdIUvWYXE3Cph_CnsdPVuqhFc_t9FOgyRbTg8wvcK77gAkbKj
+ GewWOCdw5RrKRD.w6CdQa_d3GEMRgn97y1E_wMO0F5vYiwI.xU1UgRDUQhbU
+ mxtdgH.Eym6_SQ1AA3zdxm5BMyDGqPSMJjaFtFqX7NjLcRsZZjxAj3d._VcI
+ npsPPK4H_A5FoEDFsPhDRo2YHsZ2PBs87Ohk3hOwMKUsQGgjwTG8lnOGw360
+ nVZim6L2wuE_AmjOMkv1dz4SacHw
+Received: from 209.134.158.105 (EHLO mailer158105.service.govdelivery.com)
+ by 10.197.33.137 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 16:05:03 +0000
+Received: from gepdp-smeds1-3.systems.dc.gdi ([10.5.36.52])
+	by mailer158105.service.govdelivery.com (-); Wed, 31 Aug 2022 16:05:02 +0000
+X-VirtualServer: VSG001, mailer158105.service.govdelivery.com, 10.5.36.118
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837514::20220831.63032451::1001::MDB-PRD-BUL-20220831.63032451::ms60710444266@yahoo.com::141401_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=mtU9
+	z4x62WVpooDeQXQ84HJDoadovMLzj6j6VmsyVBY=; b=ZVCyrbJiKUaFLwIQUXEs
+	vbDzPVOBr34X/nSY/DEbUjZGux0lEIF6tLkfjVXyzdvIQ/Z9QqrQQoM4Ioo0u5Pa
+	cBjTtIqENaQNAKAG/tYX2KJu8/1gGWce3z3AlVlnwgPCO3Tu5AJGcj3p7rVwlamf
+	tznSGMWfHtSSHVYUTaAXz6F+qwiWL+NuEDIHVyyDHflhBcpy1WqaHjfITysWVBsy
+	nDao56ObQxDjrfX+c/2w/k6gbwba0ACbFGID2I1FhzgK0dC9AIfSgSPvy/TR0IGy
+	f8Tg4HDU3jRZk1OoQR6cAgzgkRRwSCrEZ21zjesFtJylBLknIBIuKjfejEzF4ld1
+	WQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_298_8306_0F9E1764.3EA07D0E"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIoXqpAP6NKqt/pGjFpK7r7ERaXIWKxaMbOqy0d66Q1Ubr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837514.141401@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8F0UJJ11BDMJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?CMS_Releases_Updated_Medicare_COVID-19_Vaccine_PUF?=
+Date: Wed, 31 Aug 2022 16:04:27 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 10288
+
+
+------=_NextPart_298_8306_0F9E1764.3EA07D0E
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+=20
+
+Today, the Centers for Medicare & Medicaid Services (CMS) released an upd=
+ated public use file (PUF) that presents a preliminary, high-level overvi=
+ew of Medicare utilization and spending information from Medicare FFS cla=
+ims related to the administration of the COVID-19 vaccine. This updated P=
+UF adds three more months of data and refreshes the previously released f=
+igures with more complete data.=A0 The PUF shows that between December 11=
+, 2020 and June 30, 2022, Medicare payments for the administration of the=
+ COVID-19 vaccine were nearly $2.7 billion.=A0 The PUF is based on Medica=
+re FFS claims CMS received by July 29, 2022.
+
+[Note: For dates of service prior to 2022, all claims for the administrat=
+ion of the COVID-19 vaccine were paid through Original Medicare for both =
+FFS and MA beneficiaries. Beginning on January 1, 2022, COVID-19 vaccine =
+administration encounters for MA beneficiaries are billed through the ben=
+eficiary=92s MA plan and are not included in this report.]
+
+To view the PUF visit: https://www.cms.gov/medicare-covid-19-vaccine-anal=
+ysis
+
+ Centers for Medicare & Medicaid Services (CMS) has sent this update. To =
+contact Centers for Medicare & Medicaid Services (CMS) go to our *contact=
+ us [ http://www.cms.gov/About-CMS/Agency-Information/ContactCMS/index.ht=
+ml ] *page. =20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_298_8306_0F9E1764.3EA07D0E
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    CMS Releases Updated Medicare COVID-19 Vaccine PUF
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://stage-public.govdelivery.com/system/images/11605/=
+original/CMSBanner_MockUp.png" alt=3D"Centers for Medicare &amp; Medicaid=
+ Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px;" valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"5">
+<tbody>
+<tr>
+<td class=3D"td1" valign=3D"top"> </td>
+</tr>
+</tbody>
+</table>
+<p>Today, the Centers for Medicare &amp; Medicaid Services (CMS) released=
+ an updated public use file (PUF) that presents a preliminary, high-level=
+ overview of Medicare utilization and spending information from Medicare =
+FFS claims related to the administration of the COVID-19 vaccine. This up=
+dated PUF adds three more months of data and refreshes the previously rel=
+eased figures with more complete data.=A0 The PUF shows that between Dece=
+mber 11, 2020 and June 30, 2022, Medicare payments for the administration=
+ of the COVID-19 vaccine were nearly $2.7 billion.=A0 <span style=3D"colo=
+r: black;">The PUF is based on Medicare FFS claims CMS received by July 2=
+9, 2022.</span></p>
+<p style=3D"text-align: justify;">[Note: For dates of service prior to 20=
+22, all claims for the administration of the COVID-19 vaccine were paid t=
+hrough Original Medicare for both FFS and MA beneficiaries. Beginning on =
+January 1, 2022, COVID-19 vaccine administration encounters for MA benefi=
+ciaries are billed through the beneficiary=92s MA plan and are not includ=
+ed in this report.]</p>
+<p>To view the PUF visit: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1Ni=
+J9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMjA4MzEuNjMwMzI0NTEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L21lZGl=
+jYXJlLWNvdmlkLTE5LXZhY2NpbmUtYW5hbHlzaXMifQ.IAcJEkqnalYIgXalh-nCPgOnhaX-r=
+tuIGl6LV7f5HrA/s/2601788358/br/143329154871-l">https://www.cms.gov/medica=
+re-covid-19-vaccine-analysis</a></p>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f; height: 75px;" align=3D"right">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this update. To contact Centers for Medicare &amp; Med=
+icaid Services (CMS) go to our </span><span style=3D"text-decoration: und=
+erline;"><span style=3D"color: #ffffff;"><strong><a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzI0NTEiLCJ1cmwiOiJodHRwOi8v=
+d3d3LmNtcy5nb3YvQWJvdXQtQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZ=
+GV4Lmh0bWwifQ.f6nsIwbNj84J8C4EfS-tM6rF_VFYeX1rdFR60GshhL4/s/2601788358/br=
+/143329154871-l" target=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"no=
+opener"><span style=3D"color: #ffffff; text-decoration: underline;">conta=
+ct us</span></a> </strong></span></span><span style=3D"color: #ffffff;">p=
+age.</span>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzI0NTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.a0aXWVF3k7gsESFGqQ_7CqZbAfrpkiZdas8OU9dOIhA/s/2601788358/br/1=
+43329154871-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzI0NTEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.m3aA_tdESXvKlxgY05MR4Y=
+3oeBrZcXgWrrBoATzgCxs/s/2601788358/br/143329154871-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMzI0NTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.08cBf2esb0xV7nnzx1kNN8NMUCDcUJUQ7O7OM-iNQ=
+2g/s/2601788358/br/143329154871-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwMzI0NTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.0m-DRWLbKApYMHvgALLc1M=
+Qv0kTlBeTCLK9YsfoYbNo/s/2601788358/br/143329154871-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjkxNTQ4NzEtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMzI0NTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDMyNDUxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NTE0JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_298_8306_0F9E1764.3EA07D0E--
+

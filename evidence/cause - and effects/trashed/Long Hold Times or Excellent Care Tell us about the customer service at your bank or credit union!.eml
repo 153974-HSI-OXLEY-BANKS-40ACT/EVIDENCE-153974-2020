@@ -1,0 +1,371 @@
+From - Sun Aug 28 22:52:55 2022
+X-Account-Key: account1
+X-UIDL: ABz1xj4K0dJgYthrRAvbKCsoDI4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Wed, 20 Jul 2022 20:53:24 +0000
+Return-Path: <donotreply@info.consumerfinance.gov>
+X-Originating-Ip: [209.134.158.128]
+Received-SPF: pass (domain of info.consumerfinance.gov designates 209.134.158.128 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@info.consumerfinance.gov header.s=18q2;
+ spf=pass smtp.mailfrom=info.consumerfinance.gov;
+ dmarc=pass(p=NONE) header.from=info.consumerfinance.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 20 Jul 2022 20:53:24 +0000
+X-YMailAVSC: mxamDUE3bBuMhVczyvAfzaszM59oISUSkOhu7W8x44xJa8l
+ q4FjzssxRNHdsVMF5nkHfyi1TvYNKHBMtYKbuiMMP8i5GU8tU8RJcCR2.LFv
+ pmBVmVdw8IWVf3Uw70xweJvL4di1BjSQnndfN4jK2_iOVwV4v2ccOVD_mIA_
+ AI92wqTG.TbNAB3p8E0JRxhCW6UvWkFndoJjDP4fQjWlM7._Kg3CpGU1buKm
+ uNjKaLdAkqdFGEi.I0w0Vlb_btmj1oVfWL.zrD68koXSXGAdclI.VNZke20i
+ OlGQt2nA1Wg254YlnzwnWemCVKYDk_F1FHDZojcwaey7Tey_3Z4IuEcGD8xX
+ Y9ys5fT3d7ZABJyK5Jx8RQVehyJdqOVXr9GKaRisTKZHVofE_Vtaoc3wNZ50
+ pZAzV1JIU2IfNfhMr4lulOqht6OoFHlf2SYWXBAguYLWlCM_0iHxYEMcA4mT
+ gRGySqbJMu1ZroxRuxf48_gI9wLa6O04ulfuA6ZlsSnqr7GgrWkbPbBVeEHu
+ GpL27GU49NBM30JHXPzCsu.07xdJu7X.lSaAHViX0qoTu7_h_Xe_G9nDgQrM
+ 5qeXxSSn2EPboB9rwKRRfpCzlrmCTQ.u.q3iDfmEAMQmta5NvkuUdQQUpMrH
+ H0TeBNc0TPXSZUQRTOM7K1QSLHevzw67vmFYHxQBycO6EF5sAW.JH3FxTEiL
+ WaDPrHqA83zkfRvdjOIOQGcxuxEXqUe60kx0tTAWMIhwzW_Dpa5mfpFyb9fp
+ v5gqSTZK_K.UduTaUpq1FGlU.quGoSSVYmwWlKFfVezn59tma2uxeor2yclD
+ p8_IBPqbgilS0NLICAzYxrbqe0V6_sb3ZDrCOQDiOhhU4MhJtK1RxP3w632c
+ M7EZUrD3vQuWFEYH2nbprrmXHJB8ROioF_iOj7.BI6a8ZOwt0jbtnjlP4Nnb
+ QSyCUvkDwkSQuFHYpEjK3pE9ag8FskbQ4J8SlT3EXFtWtiYoDkQw.K3E6xkM
+ ovnF3TfSSOfUicxD5nkVWpPjkV.0fDamoUkukJX3rIf89WtTBYsvDKpstzJN
+ HHfmrOLPZeQGkPv8U43sDNkEMeRQsSXtgzCbpmfT3LBAeLPqgEwHh4WZGX7w
+ FXPzwf3JMoZ817hwg6dY7KxVE8FlvtReN4G7kc46v4XO8ARnPw0vOl0v4Pxe
+ KEJCX9l4PuOOHNMw1wk0gom63kT.ZwlNx0yCKU0ia1z0k.red3KEs3hza9XM
+ HU2tBxefcnM85FRC8Ux3IonHtsPcPbvcAoY68CVwbGQPuPijdSoXsJH0t_1b
+ 70qOBHWzaMAm.WoUhGIebJgqzpcI6vj.qUsW3QbIUbQU-
+X-YMailISG: FB3gsEAWLDsHPDpX0_cUBfehUZpWqcKyErAQJc5i10B99m9e
+ dVSHJo0lC0d5QGMwZkuGeJPOn_4a.wvm_rYJiHEt1qIr4OzpnJ2h7L9IiBc0
+ Q.we6jbuBjXz_lLI13n5cRpr4e6S2A0Ad8dwsqYHuJyzN8NgEOUiMMseSvTl
+ X9WpjmxWvT7psZyzPNCx38X3WAo8RC8y.fHX6glhmBEA6QjvwL78uGxwkF_1
+ msDcvLguqDhR2s6ZRsGNcZCM9uPuSGw4hlu9nSjAVHp6vZNN2sQpgQYQtIsK
+ TqGEVnAhwqG9svhIPZ0jWw4Hwb_BBozdk4XosgnzI9b580Ok9QHEsPOJJ2kA
+ SIk13loHKsjNxlBC5T_ZGF7qLAJ4dmufxanNKMr8.qLUje22FnnID4OPohmY
+ FCR1n.6KGgfGzE9hLSHe7V6rJdJnstciKWRz7I_o07su.zgpi5H.VVnBOoeT
+ flYqi25dDpjz2sA4CottBWMCTb_v05qAvz_ldVD.dCenwQ0POCC0jSSZVZtS
+ mAA6rnsaLQisnx9S4kcAk6yqT81Lbx2aFM7BdfezswZxnfhImdPGNqVg9wrw
+ 9ZxANzhPM3pK65EMlw130gUgI4yNvqTJO8Kk858F0iJ_4YMlogVw2GBLjbiL
+ 5.UkAaZctM2PqoQ4z4cO6FvRKMh0NXRBpl3MXBEc2bLjdGm40Pof45PqugJ_
+ iTh7IN4pQkVqfJIbX16UKGRzLqj8DpRTYS8spMUvaDzdks68SqkVjzeD4hq4
+ MWsTu41TyN_jDKvH8V.LxMM5MQT6PtWKkk00pg1WMJZdAqc29ATsQYopZ5.e
+ RRdLo.pENKYJNGUx_JAgIDf80oKTl_f61GQeJ96hkXTcc0Y6rYWHxFq1AqE2
+ uDtoDr357Wyu.K2_ya7LmHjNryME2WXroMmAldwvBNti3oAlOrZTjRj5CsAM
+ OaDDKj7ow.zxQNxVSYDcZY3b67DMjUYP.ACGGs54amYPg6adjZGcSrqe04Uu
+ KlXpI3_K31YYbHUKGpqXO1xQ4bZIAKTuQtCoMUU02.RduzIyOiW6ROodDDTN
+ SJTxHURdof7cWm8D_2nB._Hx8W5mPyydy9L96Vn2pUWJxlE2vyHhUIcYEpB1
+ e77Q4zeXpqmbR_sypDgRCAIi9ExV0a71leay7YHcLGGuKTFKv8oHWac-
+Received: from 209.134.158.128 (EHLO mailer158128.service.govdelivery.com)
+ by 10.253.62.156 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 20 Jul 2022 20:53:24 +0000
+Received: from gepdp-smeds2-2.systems.dc.gdi ([10.5.36.25])
+	by mailer158128.service.govdelivery.com (-); Wed, 20 Jul 2022 20:53:22 +0000
+X-VirtualServer: VSG001, mailer158128.service.govdelivery.com, 10.5.36.175
+X-VirtualServerGroup: VSG001
+X-MailingID: 16819174::20220720.61055131::1001::MDB-PRD-BUL-20220720.61055131::ms60710444266@yahoo.com::134785_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=info.consumerfinance.gov; s=18q2; i=@info.consumerfinance.gov;
+	h=Content-Transfer-Encoding:Content-Type:x-subscriber:
+	X-Accountcode:Errors-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:Reply-To:From; bh=NNKfuiEBYVfsKNekZMsvtOam4PPD07
+	TI8SbFzkZmISA=; b=kUGMpJmDQ+Uyiaw5ppWe3bWzyec1pOnkuh3dcLLNUNox9d
+	g8h6u6NXxxesJg22NRRBLfP7cEfGaQHR9TIBud8w8ZGe5uyjQuRbQRtBe4Mb3QgX
+	U1fhOhQcMdrtm4mTjCv6Eem6tpXczsAW+nD7ZhnGvkHLBycJO1O/h9/oJ3NfFoRS
+	fIORxB3ajjoysj/xQlG/lzySApi4HAZnHPH9hTQKbetW409gbDrLmmYDKTSSCpTf
+	mOiXPKCBP6iG5w3d/HJfaNAMJfGYBQbmTwdR3cO9XnGHSmVGRU8+FoeXkgOgu8s0
+	MYhUxEoZ0ayxgBfWZxQbKgG4CE/ZtkZ2W0lksQOQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_C8C_70D1_736D0D70.3CD0C334"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIl10jutT4VyUP6E58zQZ80Q7MuJ2eXYk42WjqmhFiIVQBeLxgZhyUNIARomDK1VA6fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCFPB
+Errors-To: donotreply@info.consumerfinance.gov
+MIME-Version: 1.0
+Message-ID: <16819174.134785@info.consumerfinance.gov>
+X-ReportingKey: MJJJ2EWJK624PJJ10C6_JJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Long_Hold_Times_or_Excellent_Care=3F_Tell_us_about_?= =?US-ASCII?Q?the_customer_service_at_your_bank_or_credit_union!?=
+Date: Wed, 20 Jul 2022 20:53:10 +0000
+To: ms60710444266@yahoo.com
+Reply-To: donotreply@info.consumerfinance.gov
+From: "=?US-ASCII?Q?Consumer_Financial_Protection_Bureau?=" <donotreply@info.consumerfinance.gov>
+Content-Length: 12900
+
+
+------=_NextPart_C8C_70D1_736D0D70.3CD0C334
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+The Consumer Financial Protection Bureau
+=20
+
+Good afternoon,
+
+The Consumer Financial Protection Bureau (CFPB) recently launched an init=
+iative to improve the customer service experience at big banks. The CFPB =
+wants to hear from you and your clients about your experiences dealing wi=
+th customer service at your bank or credit union =96 both the good and th=
+e bad. That=92s why we=92re extending the deadline to comment on our Requ=
+est for Information [ https://www.regulations.gov/document/CFPB-2022-0040=
+-0001 ] about customer service at financial institutions until August 22,=
+ 2022.
+
+We=92re interested in hearing examples about ability to access informatio=
+n from your bank or credit union when you need it, including:=20
+
+
+  * Experiences with =93chat-bots=94 or automated responses=20
+  * Long wait times when you need to speak with a real human=20
+  * Differences in the quality of service online vs. in person=20
+  * Difficulties accessing different types of information from your bank =
+or credit union=20
+  * Any fees associated with customer service or requests for information=
+=20
+
+We want to hear from you and those you serve (so feel free to forward thi=
+s to your stakeholder list), whether it was a good interaction or bad. Pe=
+ople should not have to go through a gauntlet to get answers about their =
+bank account. By sharing stories and experiences with the CFPB, you=92ll =
+help inform future policy guidance and other initiatives about consumers=92=
+ right to access critical information about their accounts.=A0=20
+
+You can submit your comments through Regulations.gov [ https://www.regula=
+tions.gov/document/CFPB-2022-0040-0001 ] until August 22, 2022.=20
+
+=A0
+
+Thank you,
+
+Consumer Financial Protection Bureau
+
+________________________________________________________________________
+
+Consumer Financial Protection Bureau [ https://www.consumerfinance.gov/?u=
+tm_source=3Dnewsletter&utm_medium=3Demail ]=A0=B7 1700 G Street, N.W. =B7=
+ Washington, D.C. 20552
+Log in to:=A0Update Your Profile [ https://public.govdelivery.com/account=
+s/USCFPB/subscriber/edit?preferences=3Dtrue#tab1 ] =B7=A0Manage Your Emai=
+l Subscriptions [ https://public.govdelivery.com/accounts/USCFPB/subscrib=
+er/edit?preferences=3Dtrue#tab1 ] =B7=A0Unsubscribe [ https://public.govd=
+elivery.com/accounts/USCFPB/subscriber/edit?preferences=3Dtrue#tab1 ]
+Contact Us [ https://www.consumerfinance.gov/about-us/contact-us/?utm_sou=
+rce=3Dnewsletter&utm_medium=3Demail ]
+
+=A0
+
+=A0
+
+body .abe-column-block {min-height: 5px;} _______________________________=
+_________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud, on behalf of: Consumer Financial Protection Bureau =B7 1700=
+ G St. NW =B7 Washington, D.C. 20552
+=0A
+------=_NextPart_C8C_70D1_736D0D70.3CD0C334
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Long Hold Times or Excellent Care? Tell us about the customer =
+service at your bank or credit union!
+</title>
+
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <table style=3D"width: 602px; border: 1px solid #c5c3c1; border-bottom:=
+ none; margin: 1em auto 0; background-color: #fdfdfd;" cellspacing=3D"0" =
+cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0;" colspan=3D"2">
+<h1 style=3D"margin: 0; padding: 0;"><img src=3D"https://admin.govdeliver=
+y.com/system/images/17505/original/newemailheader.gif" border=3D"0" alt=3D=
+"The Consumer Financial Protection Bureau" title=3D"The Consumer Financia=
+l Protection Bureau" width=3D"600" height=3D"120"></h1>
+</td>
+</tr>
+</tbody>
+</table>
+  <p><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; c=
+olor: black;">Good afternoon,</span></p>
+<p><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; col=
+or: black;">The Consumer Financial Protection Bureau (CFPB) recently laun=
+ched an initiative to improve the customer service experience at big bank=
+s. The CFPB wants to hear from you and your clients about your experience=
+s dealing with customer service at your bank or credit union =96 both the=
+ good and the bad. That=92s why we=92re extending the deadline to comment=
+ on our </span><span style=3D"color: black;"><a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwNTUxMzEiLCJ1cmwiOiJodHRwczovL3d3=
+dy5yZWd1bGF0aW9ucy5nb3YvZG9jdW1lbnQvQ0ZQQi0yMDIyLTAwNDAtMDAwMSJ9.hEnqMInp=
+cWfU-hNXWflf4X_IIq6T1NnvZGEGZQyiPxg/s/2596074655/br/141340102127-l"><span=
+ style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;">Request fo=
+r Information</span></a></span><span style=3D"font-size: 11.0pt; font-fam=
+ily: 'Arial',sans-serif; color: black;"> about customer service at financ=
+ial institutions until August 22, 2022.</span><span style=3D"font-size: 1=
+1.0pt; font-family: 'Arial',sans-serif;"></span></p>
+<p><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; col=
+or: black;">We=92re interested in hearing examples about ability to acces=
+s information from your bank or credit union when you need it, including:=
+ </span><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif=
+;"></span></p>
+<ul>
+<li style=3D"margin-left: .5in;">
+<span style=3D"font-size: 11.0pt; font-family: Symbol;"> </span><span sty=
+le=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; color: black;">=
+Experiences with =93chat-bots=94 or automated responses</span><span style=
+=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;"></span>
+</li>
+<li style=3D"margin-left: .5in;">
+<span style=3D"font-size: 11.0pt; font-family: Symbol;"> </span><span sty=
+le=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; color: black;">=
+Long wait times when you need to speak with a real human</span><span styl=
+e=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;"></span>
+</li>
+<li style=3D"margin-left: .5in;">
+<span style=3D"font-size: 11.0pt; font-family: Symbol;"> </span><span sty=
+le=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; color: black;">=
+Differences in the quality of service online vs. in person</span><span st=
+yle=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;"></span>
+</li>
+<li style=3D"margin-left: .5in;">
+<span style=3D"font-size: 11.0pt; font-family: Symbol;"> </span><span sty=
+le=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; color: black;">=
+Difficulties accessing different types of information from your bank or c=
+redit union</span><span style=3D"font-size: 11.0pt; font-family: 'Arial',=
+sans-serif;"></span>
+</li>
+<li style=3D"margin-left: .5in;">
+<span style=3D"font-size: 11.0pt; font-family: Symbol;"> </span><span sty=
+le=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; color: black;">=
+Any fees associated with customer service or requests for information</sp=
+an><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;"></=
+span>
+</li>
+</ul>
+<p><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif; col=
+or: black;">We want to hear from you and those you serve (so feel free to=
+ forward this to your stakeholder list), whether it was a good interactio=
+n or bad. People should not have to go through a gauntlet to get answers =
+about their bank account. By sharing stories and experiences with the CFP=
+B, you=92ll help inform future policy guidance and other initiatives abou=
+t consumers=92 right to access critical information about their accounts.=
+=A0 </span><span style=3D"font-size: 11.0pt; font-family: 'Arial',sans-se=
+rif;"></span></p>
+<p style=3D"margin: 0in 0in 9.75pt 0in;"><span style=3D"font-size: 11.0pt=
+; font-family: 'Arial',sans-serif; color: black;">You can </span><span st=
+yle=3D"color: black;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIj=
+oiMjAyMjA3MjAuNjEwNTUxMzEiLCJ1cmwiOiJodHRwczovL3d3dy5yZWd1bGF0aW9ucy5nb3Y=
+vZG9jdW1lbnQvQ0ZQQi0yMDIyLTAwNDAtMDAwMSJ9.g2BOQ-zPWa-yDKIRt5ysGlpgKnIbS-A=
+MuK_QqoY5hlk/s/2596074655/br/141340102127-l"><span style=3D"font-size: 11=
+.0pt; font-family: 'Arial',sans-serif;">submit your comments through Regu=
+lations.gov</span></a></span><span style=3D"font-size: 11.0pt; font-famil=
+y: 'Arial',sans-serif; color: black;"> until August 22, 2022. </span><spa=
+n style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;"></span></=
+p>
+<p style=3D"margin: 0in 0in 9.75pt 0in;"><span style=3D"font-size: 11.0pt=
+; font-family: 'Arial',sans-serif;">=A0</span></p>
+<p style=3D"margin: 0in 0in 9.75pt 0in;"><span style=3D"font-size: 11.0pt=
+; font-family: 'Arial',sans-serif; color: black;">Thank you,</span><span =
+style=3D"font-size: 11.0pt; font-family: 'Arial',sans-serif;"></span></p>=
+
+<p style=3D"margin: 0in 0in 9.75pt 0in;"><span style=3D"font-size: 11.0pt=
+; font-family: 'Arial',sans-serif; color: black;">Consumer Financial Prot=
+ection Bureau</span><span style=3D"font-size: 11.0pt; font-family: 'Arial=
+',sans-serif;"></span></p>
+ =20
+
+
+<div id=3D"mail_footer">
+    <hr>
+<p align=3D"center"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJ=
+idWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoi=
+MjAyMjA3MjAuNjEwNTUxMzEiLCJ1cmwiOiJodHRwczovL3d3dy5jb25zdW1lcmZpbmFuY2UuZ=
+292Lz91dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCJ9.zPBH10yoREAEW=
+IHH-u-XpiD5eTCfYezFVkmLgopRlBM/s/2596074655/br/141340102127-l">Consumer F=
+inancial Protection Bureau</a>=A0=B7 1700 G Street, N.W. =B7 Washington, =
+D.C. 20552<br>Log in to:=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1N=
+iJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX=
+2lkIjoiMjAyMjA3MjAuNjEwNTUxMzEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdm=
+VyeS5jb20vYWNjb3VudHMvVVNDRlBCL3N1YnNjcmliZXIvZWRpdD9wcmVmZXJlbmNlcz10cnV=
+lI3RhYjEifQ.gRKXPYvoZr1d8OI_V237xJyzWgwiX2XrmgrIS9-6Tdo/s/2596074655/br/1=
+41340102127-l">Update Your Profile</a> =B7=A0<a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwNTUxMzEiLCJ1cmwiOiJodHRwczovL3B1=
+YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDRlBCL3N1YnNjcmliZXIvZWRpdD9wc=
+mVmZXJlbmNlcz10cnVlI3RhYjEifQ.I34doR4ZFUmzjqvBNH7Vt-PHxHiHzJZNMq5ic4sz8Eo=
+/s/2596074655/br/141340102127-l" target=3D"_blank" rel=3D"noopener">Manag=
+e Your Email Subscriptions</a> =B7=A0<a href=3D"https://lnks.gd/l/eyJhbGc=
+iOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ=
+1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwNTUxMzEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5n=
+b3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDRlBCL3N1YnNjcmliZXIvZWRpdD9wcmVmZXJlb=
+mNlcz10cnVlI3RhYjEifQ.-UJeRuu6PMrlMj0FOKra0FMGFo1vkjaZd4NPcYQ1jkE/s/25960=
+74655/br/141340102127-l" target=3D"_blank" rel=3D"noopener">Unsubscribe</=
+a><br><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNj=
+EwNTUxMzEiLCJ1cmwiOiJodHRwczovL3d3dy5jb25zdW1lcmZpbmFuY2UuZ292L2Fib3V0LXV=
+zL2NvbnRhY3QtdXMvP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsIn0.=
+196m4if6R6qJJMtOjDLy806U5W6z_JR1V9EPNmofYNs/s/2596074655/br/141340102127-=
+l">Contact Us</a></p>
+<p align=3D"center">=A0</p>
+<p align=3D"center">=A0</p>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"100%">This email was sent to ms60710444266@yahoo.com using GovDelivery C=
+ommunications Cloud, on behalf of: Consumer Financial Protection Bureau =B7=
+ 1700 G St. NW =B7 Washington, D.C. 20552</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDEzNDAxMDIxMjctbCZzdWJzY3JpYmVyaWQ9MjU5NjA3NDY1NSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjAuNjEwNTUxMzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzIwLjYxMDU1MTMxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODE5MTc0JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_C8C_70D1_736D0D70.3CD0C334--
+

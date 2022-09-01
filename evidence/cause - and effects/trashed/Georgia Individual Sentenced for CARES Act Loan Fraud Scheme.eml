@@ -1,0 +1,553 @@
+From - Sun Aug 28 22:42:27 2022
+X-Account-Key: account1
+X-UIDL: AKuRSrsLwrCOYsSLlgT5cDnag/Y
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.234
+ by atlas306.free.mail.bf1.yahoo.com with HTTPS; Tue, 5 Jul 2022 19:05:57 +0000
+Return-Path: <info99@service.govdelivery.com>
+X-Originating-Ip: [209.134.158.31]
+Received-SPF: pass (domain of service.govdelivery.com designates 209.134.158.31 as permitted sender)
+Authentication-Results: atlas306.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@updates.oig.dot.gov header.s=16q1;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=pass(p=REJECT) header.from=updates.oig.dot.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 19:05:58 +0000
+X-YMailAVSC: wLHiVVs3bBuHPSz0sYjifV86U2G4SLG6YXuTeBsOxJozXto
+ kROLx4PXl46uhOesf8lzSS_qhDK927FPjb1zVAfEc98yrTFJlDzQUmNF_oH5
+ 2Vq14bkBJjFG6RA3burDyT21nRRoupL6dQ_Sa.NsmeFyzRSoXWfUq0BCeX1o
+ 1gLZLiplgSxtEebtgIG1R1ipGlLeV65XN.NUOa.Dpk8nG1J4BaKTOaY.Nrl8
+ Hp0XML79bUDUc1ko4xLrMXDGbiBzJ1nr_VeMmpoUlQfsU1Wo6PF7NLLU25wp
+ VDvRhxljli.5TngsaGxAQFfLpfRv9yBSCRNeLHxjg44.3ImdJcRauymY_wyN
+ 6eH6fXmgWsdr9imQB2CTpScsYolkOQ76x5YEZs_ggMxh6iriZ5.gIWrmyti.
+ W_5QeKNJU_3fUWQpAhdJoeV.ufT29tNs-
+X-YMailISG: Ep8oNjEWLDt3HZ1KUjgydgyIm3rg8MbLfcE2Nh56PcvLsufM
+ Bx9mLfjUHXWs3M1W046o9NfqsSM46UbKVo1DitEOJUiveCWTtAbKej3XDWYD
+ m.fUcx29vQ2aKCeTmtYwl4oGmo5d5lnOrU6kf7X.GYAN5R0NOrSN0s7EmHuA
+ XajDkGUH09xGtny33WEpeb7V__PsKDh1Ln6w.Vc2k70O59bIrV_PCLSc4D8E
+ 9db17WG9yQZqqLdEjz.A5OMJPAZu3huLKUam49oXCQzYMDcOLa70z4R2_KIE
+ A7pCs0mRL45ZRysdfuOJYhMxTYdIBYb49OxtHfo6yPuUdOuS_zdFwL.WiCJ5
+ L1pzO4gQuXWuMr_C4hMFyVPfVMdyduy1lDqitRAk2HkyAsxQRV8DOdPuBekD
+ f91WIDl8CdaZWMQ2slENSw1SaU8h_ku6w7iOyMDgsBKFJ1tVok7b87JTWSBu
+ uu3IECXO4IGOW.fdLWJAXX4caHvaYiQWQ5MLN3AbXJi3SVmgB.cmDR2hewTU
+ Wk8AIUO2zXy2cuBMfWdRQ70WkPHUDmR3zVHBfMkP1IrDNp0NbIuaxtl2LkPu
+ _6wry_4dVKVnwxYs_7mW6E_tW3ES_K3wS9.C.JpNytQYtePsG23Ea417yXPW
+ XabCSyY12fw12cAjMdz9.VJ_VbkuZPk4vLrZjQh6P4k72aNJw7cP5z.njMzX
+ 4LmX04WrKYNqC8F_dddw.T6_9Y5quU2xsHlxQi0qKlr5kWuAsN7qSor1OKuX
+ 5cXkhFByE4YFyI0PAgWtIjjNltzIxYEBb6ZX0aGC70Kks5YUr01WUK13hEGI
+ Da.ONWwKTe5CDKL0xBgT8OWCjH4GI.FIVWlsHs.xmNWyoqMT5c4HZZ.hh1Nx
+ XbNrLyRQ1opdFXWbsPAMRdsE0oy9BqQ0KbxxyMC30.rzinzI3pyBC4aaL2VM
+ WZvhOok3.ulJrU1cYz6O3jBBnBm5i0zyXXjgxU1mrbnoiRaOltNOOCPXHwQx
+ r.0KoZT8W68bBSJoaZqYS5We0t748wuoccEROJWe9aM.6Shice0vRtdkNoRt
+ DbCYeY.LTfk6mqIVcCH09YVEDhpLjc1DVqzgylA45tYp.cued8omgqsWVNfB
+ 6Y64gosI.b0.WFkjHPUEjMUuc3YCUcBQqEtMoQHxAqHBl3Ob.7T4pyfASHqv
+ CNIrwsu1Vh.AzZDfDgo_RjnZ
+Received: from 209.134.158.31 (EHLO mailer158031.service.govdelivery.com)
+ by 10.197.39.234 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 19:05:57 +0000
+Received: from gepdp-smeds7-2.systems.dc.gdi ([10.5.36.46])
+	by mailer158031.service.govdelivery.com (-); Tue, 05 Jul 2022 19:05:57 +0000
+X-VirtualServer: VSG001, mailer158031.service.govdelivery.com, 10.5.38.117
+X-VirtualServerGroup: VSG001
+X-MailingID: 16820366::20220705.60331321::1001::MDB-PRD-BUL-20220705.60331321::MS60710444266@YAHOO.COM::10902_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=updates.oig.dot.gov; s=16q1; i=@updates.oig.dot.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=1jLLaziAd/Ch8Mb33HbB8nbvi3qbSQ8Y+N+h3/Mr7D8=;
+	b=BvQv3yVMSHO0Qn/JRX/ksaoff/eO6+rzcuFRZPvE7TZTcNVAhLJ4t4KIAFj8RW
+	yWm4OEqNkRp2uJx88FXrxVOqZeXuQ0zqoyFUkFNnNLEHsiafNNMzrRk0FQkU4Tyv
+	E2orW01kPcGUC9qHf3dWzweQjgdeFr/2yqMHlIsM1n7MB61ZLqVbqL9jR11+o26i
+	DW0/fFCCnDfPNnMTXlBJRcX+rdIFfxNMLk09BR6GdaoRdbIeVloqkZe06zltxMH7
+	sY+IWNS9Sg5cpCejuKqI0zACCvRsoyKunFzxRcsf/ehkvlwibDuwubpQxJDsQEny
+	YXTxIRJJXzdONMKHymHKztpA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_D76_E391_05A6E1DB.7350ACC8"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSreT4PKDjZ82AlbfVEvNr7OgdKTlsoeaLknFgP3GFic9zBgnn7uiC+zWvtWEcqe/J9fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOTOIG
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USDOTOIG/subscriber/one_click_unsubscribe?verification=5.1e973e32340bec3312a8c05f23adc4e6&destination=MS60710444266%40YAHOO.COM>
+Errors-To: info99@service.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16820366.10902@updates.oig.dot.gov>
+X-ReportingKey: MJJJ2EWJK65AKJJ1B3YJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?Georgia_Individual_Sentenced_for_CARES_Act_Loan_Fraud_Scheme?=
+Date: Tue, 05 Jul 2022 19:05:52 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: news@updates.oig.dot.gov
+From: "=?US-ASCII?Q?DOT_Inspector_General?=" <news@updates.oig.dot.gov>
+Content-Length: 17816
+
+
+------=_NextPart_D76_E391_05A6E1DB.7350ACC8
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+table {border-collapse: collapse;}=20
+
+=A0=20
+
+US Department of Transportation - Office of Inspector General=20
+=20
+=20
+=20
+=20
+ =A0=20
+=20
+
+Georgia Individual Sentenced for CARES Act Loan Fraud Scheme    On June 1=
+4, 2022, the U.S. District Court for the Middle District of Georgia sente=
+nced Dereen Porch to 21 months of incarceration, 3 years of supervised re=
+lease, $230,300 in restitution, and a $200 special assessment. In Novembe=
+r 2021, Porch pleaded guilty to two counts of wire fraud. The investigati=
+on revealed that Porch submitted loan applications to the Small Business =
+Administration on behalf of fictitious trucking companies in an attempt t=
+o steal approximately $364,200 in Coronavirus Aid, Relief, and Economic S=
+ecurity (CARES) Act funds. =A0 DOT-OIG conducted this investigation with =
+the Federal Bureau of Investigation (FBI), Internal Revenue Service, and =
+Treasury Inspector General for Tax Administration.=20
+
+=A0
+
+=A0
+
+=20
+Read the full article [ https://www.oig.dot.gov/node/39002?utm_medium=3De=
+mail&utm_source=3Dgovdelivery ] =20
+
+US Department of Transportation [ https://www.transportation.gov/?utm_med=
+ium=3Demail&utm_source=3Dgovdelivery ] USDOT Office of Inspector General =
+[ https://www.oig.dot.gov/?utm_medium=3Demail&utm_source=3Dgovdelivery ]=20=
+
+=20
+
+subscribe [ https://public.govdelivery.com/accounts/USDOTOIG/subscriber/n=
+ew ] twitter [ http://twitter.com/dotinspectorgen?utm_medium=3Demail&utm_=
+source=3Dgovdelivery ]=20
+=20
+=20
+=20
+=20
+
+Manage Subscriptions [ https://public.govdelivery.com/accounts/USDOTOIG/s=
+ubscriber/edit?preferences=3Dtrue#tab1 ] =A0|=A0 Unsubscribe All [ https:=
+//public.govdelivery.com/accounts/USDOTOIG/subscriber/one_click_unsubscri=
+be?verification=3D5.1e973e32340bec3312a8c05f23adc4e6&destination=3DMS6071=
+0444266%40YAHOO.COM ] =A0|=A0 Help [ https://subscriberhelp.govdelivery.c=
+om/ ]
+
+=20
+=20
+=20
+
+________________________________________________________________________
+
+ This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communi=
+cations Cloud on behalf of the U.S. Department of Transportation, Office =
+of Inspector General 1200 New Jersey Ave SE, Washington, DC 20590 GovDeli=
+very logo [ https://subscriberhelp.granicus.com/?utm_medium=3Demail&utm_s=
+ource=3Dgovdelivery ]
+=0A
+------=_NextPart_D76_E391_05A6E1DB.7350ACC8
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Georgia Individual Sentenced for CARES Act Loan Fraud Scheme
+</title>
+
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css"><!--
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and =
+other text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+--></style>
+<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" al=
+ign=3D"center">
+<tbody>
+<tr>
+<td style=3D"margin: 0; padding: 0; width: 100% !important;">
+<table style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddi=
+ng-top: 20px; padding-bottom: 0px;" border=3D"0" width=3D"100%" cellspaci=
+ng=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+<!-- centered column -->
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div>
+<table class=3D"abe-section-table" style=3D"max-width: 600px; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;" role=3D"presentation" border=3D=
+"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"background-color: #ffffff;" bgcolor=3D"#FFFFFF">
+<td style=3D"text-align: center; vertical-align: top; font-size: 0; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]--> <!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding: 0px;">
+<![endif]-->
+<div class=3D"abe-column-block" style=3D"width: 100%; box-sizing: border-=
+box; display: inline-block; font-size: 16px; vertical-align: top;">
+<div style=3D"padding: 0px;">
+<table style=3D"table-layout: fixed; overflow-wrap: break-word; word-wrap=
+: break-word; text-align: left; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;" role=3D"presentation" border=3D"0" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bord=
+er=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center"><img clas=
+s=3D"govd_template_image" src=3D"https://stage-content.govdelivery.com/at=
+tachments/fancy_images/USDOTOIGSTAGE/2021/09/37169/dotoig-2021-latest_ori=
+ginal.png" alt=3D"US Department of Transportation - Office of Inspector G=
+eneral" width=3D"600" height=3D"146" style=3D"width: 600px; height: auto;=
+ -ms-interpolation-mode: bicubic; line-height: 1; outline: none; text-dec=
+oration: none; max-width: 100%; border: none;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]--> <!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+style=3D"font-family: Arial, Helvetica, san-serif; max-width: 600px; bord=
+er-spacing: 0; margin:0 auto; width: 600px;"><tbody>
+<tr>
+<td style=3D"font-family: Arial, Helvetica, san-serif; padding-bottom: 20=
+px;">
+            <span style=3D"font-size: 1.5em; font-weight: bold; font-fami=
+ly: Arial, Helvetica, san-serif; display: block; margin-top: 16px;">Georg=
+ia Individual Sentenced for CARES Act Loan Fraud Scheme</span>
+          </td>
+        </tr>
+<tr>
+<td style=3D"font-family: Arial, Helvetica, san-serif;"></td>
+        </tr>
+<tr>
+<td></td>
+        </tr>
+<tr>
+<td style=3D"font-family: Arial, Helvetica, san-serif;">
+<div>On June 14, 2022, the U.S. District Court for the Middle District of=
+ Georgia sentenced Dereen Porch to 21 months of incarceration, 3 years of=
+ supervised release, $230,300 in restitution, and a $200 special assessme=
+nt. In November 2021, Porch pleaded guilty to two counts of wire fraud. T=
+he investigation revealed that Porch submitted loan applications to the S=
+mall Business Administration on behalf of fictitious trucking companies i=
+n an attempt to steal approximately $364,200 in Coronavirus Aid, Relief, =
+and Economic Security (CARES) Act funds.</div>
+
+<div>=A0</div>
+
+<div>DOT-OIG conducted this investigation with the Federal Bureau of Inve=
+stigation (FBI), Internal Revenue Service, and Treasury Inspector General=
+ for Tax Administration.</div>
+
+<p>=A0</p>
+
+<p>=A0</p>
+</td>
+        </tr>
+<tr>
+<td style=3D"font-family: Arial, Helvetica, san-serif;">
+            <div class=3D"node-url" style=3D"margin-bottom: 20px;">
+<br><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAz=
+MzEzMjEiLCJ1cmwiOiJodHRwczovL3d3dy5vaWcuZG90Lmdvdi9ub2RlLzM5MDAyP3V0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.QJrEt_6uoHwVtTuT2FB5lqfZS=
+fzuqq-LbWeRob9euxo/s/2585213834/br/135337809742-l">Read the full article<=
+/a>
+</div>
+          </td>
+        </tr>
+</tbody></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table id=3D"yahoo" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"center">
+<tbody>
+<tr>
+<td class=3D"mobile-padding" style=3D"padding: 0 0 20px 0;" width=3D"100%=
+">
+<!--[if mso]>
+<table class=3D"main-table" width=3D"600" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"width:600px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"margin: 0 auto; max-width: 600px; width: 100%;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"border-top: 1px solid #707070; border-bottom: 1px solid #707=
+070;" align=3D"center" width=3D"100%">
+<table style=3D"background: #FFFFFF;" width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" align=3D"center" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"center=
+">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"50%">
+<table style=3D"width: 122px;" width=3D"122" cellspacing=3D"0" cellpaddin=
+g=3D"0" align=3D"left">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 5px 10px 5px;" align=3D"left" valign=3D"top" w=
+idth=3D"50%"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZX=
+Rpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA=
+3MDUuNjAzMzEzMjEiLCJ1cmwiOiJodHRwczovL3d3dy50cmFuc3BvcnRhdGlvbi5nb3YvP3V0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.iGeL5JwuEgSzIowfBMjI=
+xFbRudIyH94ClwobA5ScySA/s/2585213834/br/135337809742-l"><img src=3D"https=
+://content.govdelivery.com/attachments/fancy_images/USDOTOIG/2021/09/4897=
+276/c1_original.png" alt=3D"US Department of Transportation" width=3D"51"=
+ style=3D"width: 51px; height: auto; max-width: 100%;"></a></td>
+<td style=3D"padding: 10px 5px 10px 5px;" align=3D"left" valign=3D"top" w=
+idth=3D"50%"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZX=
+Rpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA=
+3MDUuNjAzMzEzMjEiLCJ1cmwiOiJodHRwczovL3d3dy5vaWcuZG90Lmdvdi8_dXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.COodcDlsI7eehbka_LCuZp3gX9y_G=
+dBKXCWuJBeNFOU/s/2585213834/br/135337809742-l"><img src=3D"https://conten=
+t.govdelivery.com/attachments/fancy_images/USDOTOIG/2021/09/4897275/c2_or=
+iginal.png" alt=3D"USDOT Office of Inspector General" width=3D"51" style=3D=
+"width: 51px; height: auto; max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=3D"tablecell" align=3D"right" valign=3D"top" width=3D"50%">
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"left">=
+
+<tbody>
+<tr>
+<td style=3D"padding: 16px 0;" align=3D"right" width=3D"100%">
+<table style=3D"width: 95px;" width=3D"95" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"right">
+<tbody>
+<tr>
+<td style=3D"padding: 0px 0;" valign=3D"top" width=3D"50%"><a href=3D"htt=
+ps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMzEzMjEiLCJ1cmwiOi=
+JodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET1RPSUcvc3Vic2N=
+yaWJlci9uZXcifQ.HmskCbX1Q4yr6oV1YsMM6e7noKhorZeFEoj46hZ_4lU/s/2585213834/=
+br/135337809742-l"><img src=3D"https://content.govdelivery.com/attachment=
+s/fancy_images/USDOTOIG/2021/08/4879392/x-3_original.png" alt=3D"subscrib=
+e" width=3D"42" style=3D"width: 42px; height: auto; max-width: 100%;"></a=
+></td>
+<td style=3D"padding: 0px 0;" align=3D"right" valign=3D"top" width=3D"50%=
+"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX=
+2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMz=
+EzMjEiLCJ1cmwiOiJodHRwOi8vdHdpdHRlci5jb20vZG90aW5zcGVjdG9yZ2VuP3V0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.iOsIeLyTUWap0Q3jdvM5EsdFM5v=
+4mil0-Qdt05562f4/s/2585213834/br/135337809742-l"><img src=3D"https://cont=
+ent.govdelivery.com/attachments/fancy_images/USDOTOIG/2021/08/4879391/x-4=
+_original.png" alt=3D"twitter" width=3D"42" style=3D"width: 42px; height:=
+ auto; max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 20px;" align=3D"center" width=3D"100%">
+<p style=3D"text-align: center; line-height: 1.2; color: #21364e; font-fa=
+mily: calibri, candara, segoe, optima, arial, sans-serif; font-size: 12px=
+; margin: 0 0 0 0;" align=3D"center"><a href=3D"https://lnks.gd/l/eyJhbGc=
+iOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ=
+1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMzEzMjEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5n=
+b3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET1RPSUcvc3Vic2NyaWJlci9lZGl0P3ByZWZlc=
+mVuY2VzPXRydWUjdGFiMSJ9.DDT0xnUSUx4nioUgyD-kGaxPP-EOA8aSZGFy6RWmpWw/s/258=
+5213834/br/135337809742-l" style=3D"color: #21364e; text-decoration: unde=
+rline; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens=
+: none; -moz-hyphens: none; hyphens: none;">Manage Subscriptions</a> =A0|=
+=A0 <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDYsInF1ZXJ5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24iLCJkZXN0aW5hdGlvbiJd=
+LCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXRpbl9pZCI6IjIwMjIwNzA1LjYwMzMxMzIxIiwid=
+XJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTRE9UT0lHL3=
+N1YnNjcmliZXIvb25lX2NsaWNrX3Vuc3Vic2NyaWJlIn0.IDEUv4fbprtUgkbyhvIbRPG4WQn=
+ZGEWPxUUrzmqikbA/s/2585213834/br/135337809742-l?verification=3D5.1e973e32=
+340bec3312a8c05f23adc4e6&destination=3DMS60710444266%40YAHOO.COM" style=3D=
+"color: #21364e; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">Unsubscribe All</a> =A0|=A0 <a href=3D"https://lnks.gd/l/eyJhbGc=
+iOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ=
+1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMzEzMjEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmli=
+ZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.Su2dAtya4rbKJUMvUYFhwJb2ohiegjKCOYnCdn=
+T0GmA/s/2585213834/br/135337809742-l" style=3D"color: #21364e; text-decor=
+ation: underline; -ms-word-break: break-all; word-break: break-word; -web=
+kit-hyphens: none; -moz-hyphens: none; hyphens: none;">Help</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <table class=3D"mobile-tagline" style=3D"border-collapse: collapse; m=
+argin: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"height: 20px;" colspan=3D"2" height=3D"20"><hr></td>
+</tr>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to MS60710444266@YAHOO.COM using GovDelivery Co=
+mmunications Cloud on behalf of the U.S. Department of Transportation, Of=
+fice of Inspector General 1200 New Jersey Ave SE, Washington, DC 20590</t=
+d>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MDUuNjAzMzEzMjEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2=
+ZXJ5In0.5bpT3bVX2Esu3THNRi3RmAG34upyiwaWFjr3G2FBzsE/s/2585213834/br/13533=
+7809742-l" target=3D"_blank"><img src=3D"https://content.govdelivery.com/=
+images/govd-logo-dark.png" border=3D"0" alt=3D"GovDelivery logo" width=3D=
+"115"></a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzUzMzc4MDk3NDItbCZzdWJzY3JpYmVyaWQ9MjU4NTIxMzgzNCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MDUuNjAzMzEzMjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzA1LjYwMzMxMzIxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIwMzY2JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_D76_E391_05A6E1DB.7350ACC8--
+

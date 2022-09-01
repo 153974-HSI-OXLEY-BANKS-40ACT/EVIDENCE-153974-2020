@@ -1,0 +1,110 @@
+From - Sun Aug 28 22:40:48 2022
+X-Account-Key: account1
+X-UIDL: AE/Plp1Weu66YrYG/gfrWMLw638
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.74
+ by atlas320.free.mail.ne1.yahoo.com with HTTPS; Fri, 24 Jun 2022 18:48:30 +0000
+Return-Path: <pinkbookswap@yahoo.com>
+X-Originating-Ip: [74.6.133.41]
+Received-SPF: pass (domain of yahoo.com designates 74.6.133.41 as permitted sender)
+Authentication-Results: atlas320.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 24 Jun 2022 18:48:30 +0000
+X-YMailISG: ZfvC5goWLDuArpo9szyGQ_7sVdVDs_zzLe_tddmIFEHQEchG
+ MPAK5YAofXCarQyTqIRXZu335.yQ.dbZEBQ77R4ORF4LWa1A9QZSrEOBBB.o
+ wkz6HUB57OB7y1yVOhTTK0nGNeZvrHkR_8tPAwV8lLk2rNKOQ2wCHaN994H4
+ UGna4zp8_Oao_ZM7qUQx64wGyXOeD.GpgA8vVXFLF.uh9mbF8EuwxinECnld
+ BhTPe6a1rSO2Kda1plNtCfU2cfEF9kRH5LNOG7HXhhXKXCsbHeR2sgnxXFjE
+ An566VMkLnLLPPK1f0pQDz.ASbnvWWiZ3viFOLLna0B3E2cZaADYx67UcqId
+ t5IlTr6iHV8iMN0BL4C0gRcG916uAccALaXsfsqHPf0GkjkiiU4qJxEmpk2G
+ fcHaDh0SQEb2gbMeMwlBBeOxlWHn3OuUs3HcFJWYutRxjt.1dCRxm9ibzq3G
+ CnO2yYIhbEu7WtyMQgGgIOhZ7aLM.bnl7cv86_yuGyXRr_lhci9ANmwyDVIi
+ APP_f.o.0Zwx45P5GcqMzYeZwPPiX2oC4g4jdN4jE2WduT3lZXyeo0S1dUNz
+ xfys4ImWQ3lJFAW7_SowFdDMaKFIikUb2_k5c4uDPubGNTODFNmezXSyLN_u
+ fnXxBtxyTSmC833SaG5xSMH1H0Ev_.c2M_IAoV6hhqGgqb.Ca5ZJJClxD5Gy
+ jaB.UD7qWqXGWONkTlq2hfdSAAxFPITQjW5ki5_wEoms2v5_i9p6dHoUiYdl
+ cVe.I35n6auyYVbwJcZiZVtHQrcD.iKWQFsJWkbXzJE6RkFhaBXXLJJHmtMP
+ 21oANSxOLwX7KRDlgqb8u9.egxC188eK.Wxi3B5hLlKK4_tOkuhxedJJ8TFz
+ HZgd0n4aChnWLm8kgxEp_GpFukiJfWbayzYNkRiET4VzVySJuNthCrjXD49S
+ JTGfn0di2McasdrXqkXfh7jJosasrUPUWQGGR4N6Smgw4eaa3qvArIva3X6S
+ ZBl09qp1g3IVXqGPQHr779_tzqRzqPSS6hUEYNYrJkqPMyRpOK0loQOX8Ohm
+ zTjEtbL57wV.5Tv04b1DlUI5RyGvEVCMQTlpiPQrW03PuA2ACAdRgtCPg1_X
+ woaqVkEtIjIBO_J.iw--
+Received: from 74.6.133.41 (EHLO sonic305-2.consmr.mail.bf2.yahoo.com)
+ by 10.217.151.74 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 24 Jun 2022 18:48:30 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656096509; bh=71dbUDHZC9pWL7+pccGbQf8B01QAzNEhFjgaZUwNiS4=; h=Date:From:To:Subject:References:From:Subject:Reply-To; b=gK/5AaY7QsPigNjsFQMa+7cYxa4LI9b34/39oyrwTkTAI6CZ3b5+5Y0qZlNAZg6bYmHT8OrMNRSJo/QGtFcnjhDuMAQAt2Detho/zkzq8HD6F52KmsoKVop+2XEwpRvCgp2vUqBkbAkqpCcds76MbyRTZxsp3ExeIj4m5GnnE03iZi8wFNpGKtJ9LMKpJ0X0nWhATXLocczvQPg2zPNkMWxgN8TZ8wLFomiN7Sb6BVURWADC3c8gVjLcB5HdmnTxAKtwHuOdXSMIn67jlydbREhQDt9w3Rn92fLn1FX5BJ+XsY5dVv9grq3iNDofH+CnDe9ASVLpgQAXmPlaXV8AAA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656096509; bh=QLfbIYk3bRwvRqbbNc0vIciyCkjY17r0bATL/njt2gY=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=lCttvsiNKRsnTCpiLjBI5Jn36utFUPoW5IMH3nRZPtWB43Yf0BZCvz3hTV8+8JbjS7t6Kh9VAh2vp57yd0efFD1d9MuQVYEIYVGji8UAcUoVsu25vJYclUaK7gD5U7fGhlmLoUrfWRBfrUtKHScfI0Z6HqqA8XzMIBOQpRQ5zf9ZYRW/Qk1SwWAgLZjP2nUrZmhnrZyxPhZwrM+tQow39DPyPyhjlKyzCRp3NNT7jbNqPuTnDZf6+s0nAmgTBpEk6V/0dxX2oMFyWbCLhj/9U7CooZ9GwH9AkoxQf+CQbqvH7t8kU7botRnYpuHRMCo9i2MAtbPY94T1XlOwjO+WyA==
+X-YMail-OSG: K4JFDFIVM1n_9XOUpdSdO_jbSV.L1mQtdUpkaLFWMyVRgJ6O3R.vMxDGa11R6hc
+ ImpCABSxjTgfQl7MyYtsUF.BPI3jZ9hpOwvMQyl89TE6WgewYnKN4FeXq5gHD6nVfx.GKn_yHTdw
+ UUpi65zznL0vyARH0uqPqZuMwW3vYVrLtWLYY8zldoKXMiBGl111EU2ArEkohc0qzxWsfM4_wvnR
+ gL3QBGyns4PkpGwlYHhZfn1L0KxoRNKVqPHvke5.uC3aOKSd16zcrc_wXTMc9aXRUa53e3_h5dXL
+ 8NWsE7S6dXJPq4AjuhHbNl.cQgO41nv03SSIrY32uzo8DaCIfceTsd.CZYHmnboJfwbmdRROtR_5
+ J7xh.lqyvxsGUekJKu1RSk_bkslWUFxzcVql0VIlDJW.9d7en4RHlHqrxTP3YqzfHQjE6Rc.26vR
+ 9ow2glKSAuvplyPUf.ezp6KcN88387Ag5PPP9wRmFFZfdAbY1VWgD13P6_pOIXt1pYpFp8i4BSwP
+ rqsRbEWLZAlzGz6BJnsw9sfcrlgfzwlQEY5aW5L3a6t5zaUxzbcN_u1XaSzdG51VZIGG6TvkLyA5
+ .jIZITDmm9yEbmtNZJdoWv4UohgWihkJyLCEA4j.9Iae7ei5cpBdtHmdGKKdMYjoeM5Qis0SS9PN
+ i8vLQaWNZstmEoyyBJu2p_Xc6sIm2g2iKWDIELhDI8WCpuqS_dEP.XayL8j36bpBZtbaMMHM0DWR
+ q2x61JreNpYblg6REF07bzNloYWlkP9cjtMkOXvIJ.LGbdl4cixT2mu_X0g30oZ746YD6IWPUSoP
+ IeRY3ZSicamadB93cO2qXXvEv.uE22.K7Y5QHrmqR_9UF_jn4m266Lt75bR9wSs1_O2VwxcYcCpc
+ tHPwKJqJAlN_CBFm0GTwebVjFFEw3Eu2.Af4s53Gvd8GlMozNRTMxmuVnCzfJw0Jl8fGhKke0TVd
+ GwkmoHqLtTtEFANCwiutMwr6pI8HDUB87z7tXoZwCi5ktARVviLsv.0omaWkjRwfLIhe0UA_2L08
+ hCAqfkep1DZ6q_w_XWm2BDdGtqrS5fh3yNOlN5lH0mbIyvylaK57CSuvUwCEybgW49JrIC9cOBWy
+ NSSIVDB0X1yXnP8EgbABksAXO92W2VqKaWfNgotP7iiTAUVEO8mg3iy.4zdx7rfI5O00oG5hl3ca
+ us7JI5IVTOSoc58XunE84RDaWWyWT_HgvJCc9dzdVCXOdDYerOEJ38LugTifcycKOgI19AeuEULf
+ hAS5lXC2nicS8fmQyDeF9qrCfab0Pu5npCdIFOECmsY09Ul0teajRgrG_abghOtXUlh8FNLCFzO5
+ 8331F4KinRbQNhNeHvp1lh5vdAe_Ui3IkXThNny1Hd1pKdFl8ilO9dvfMJHZYNb46ZlO5Rpp0ILz
+ EzY810Ggk4rtWyjRSZd.E2fURaFe84PBXCBZFneiq0snxFqWrrLpBFkAq.oExlovYc8lD0KGslIc
+ Vk__Dwdlodcwlai0IIvc..fpAarnm4kwj8h5mB1.4c9VWfgvWdU9uwxUeZKJLzmvFvhCaCLDVh18
+ WMQUn4KzSGMUEHwePQdroAvXe_I2.eGthvZqQvxi9j9SwJngBJfkmOksefGjxo4AO2VTugHuJXi4
+ y5la8TvP5ue.ESpRAjAVAug11V5Q2_tH_s3NOjzhKzZnvMwOYlsQButTywC8FOmQKJtqqc2153RU
+ o_OlXnCWTTLOTkcL8D_7JmxmidQiDNdnlXdcHz_QARZujA85GAIH_lwYY68mGyW.5xSMbwePCIl9
+ oQA4V5bXzIOR2GP86nvz4FPZeNYMKJ9XUeq4ASnN3oY81eATL0k5ZKnrjNmpKYTI6p_vRi9vBw8v
+ bDnAZctv_2LYK915cUi9st9y22WlLmm4BXqpHcJA0c95Vdyus67zSOOJ_sN4Xb025OUBUEtbUlbF
+ a6Og0NYDAbq4xfuvSM_VPyrvbyDhn4SWyVXtHj7VBW1lsitknOlbcXatH5N8PHb.ABZbjMJVD2Zq
+ Z1GZ58_bc67NeKFGWfYaUPZDDxROaEnE2qZzoN3m0FwQxKPA_NLj.h04_mykuGmYtqTv6c.xyT6a
+ K3vejpgADuM7WpNFPhDuhT_3lkWIY3oolxuHzFr2sIqGwzqC3f3TDyO6UdmRIl2Etw24wBPJdlQc
+ yKIwZRigdN6lB7cZ0Vn4ejMwwVieEAre2fvYAQNRNz0mvempyYh8BHZGY.V.LpltXDUqMQQ--
+X-Sonic-MF: <pinkbookswap@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic305.consmr.mail.bf2.yahoo.com with HTTP; Fri, 24 Jun 2022 18:48:29 +0000
+Date: Fri, 24 Jun 2022 18:48:28 +0000 (UTC)
+From: "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>
+To: BBO 121 <ms60710444266@yahoo.com>
+Message-ID: <719224958.4641241.1656096508699@mail.yahoo.com>
+Subject: GHC.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4641240_623622258.1656096508698"
+References: <719224958.4641241.1656096508699.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailIosMobile
+Content-Length: 1032
+
+------=_Part_4641240_623622258.1656096508698
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+ =20
+  https://careercenter.anitab.org/resumes/
+
+
+_______________
+Tel: =C2=A0646-256-3609
+
+
+------=_Part_4641240_623622258.1656096508698
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><body>
+
+            <div>
+                <br>
+            </div>
+        <div><a href="https://careercenter.anitab.org/resumes/" rel="nofollow" target="_blank">https://careercenter.anitab.org/resumes/</a><br><br></div><div><div><br></div><div>_______________<br><div>Tel: &nbsp;646-256-3609</div><div><br><div><br></div></div></div></div>
+</body></html>
+------=_Part_4641240_623622258.1656096508698--

@@ -1,0 +1,703 @@
+From - Wed Aug 31 18:53:42 2022
+X-Account-Key: account1
+X-UIDL: APglAbMA8iZyYw+iEw8yoEoK52s
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.75
+ by atlas116.free.mail.ne1.yahoo.com with HTTPS; Wed, 31 Aug 2022 18:01:55 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [209.134.158.66]
+Received-SPF: pass (domain of public.govdelivery.com designates 209.134.158.66 as permitted sender)
+Authentication-Results: atlas116.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 18:01:55 +0000
+X-YMailISG: FRferBQWLDtXOAif.X9RJZPDTJOSYKSIMwslUKXpbGgkfr_B
+ yOMUWPOx9pIipM7hK1wJIKUHCyPJYBjL.lSsPlhA_JzkgmK0DnrNxAx5dLeQ
+ .KjWbNuv10596YwCkwrCpzGH8MPZNwxhf73Wf6Ax66ChoUokJsntRozLbVqu
+ NAZCgDOBJWbYCaAvBy8NkMJEMi_Cut6pnS2vA2DJv3fY5p1CPV5yzkae1xg6
+ _Rx7728MDOVxzNbJoRYTvAn3Xg34OEbCIgYGSw7iR7bCgdVbwy.BUvnuZTip
+ jpknnaR2kSEazzev_.q.5DgFmi.1HsIwkCXN73oD6lXpOmJVFQ2KKARVo9.w
+ 5zAYwV2NGcJyryT540LkZJYo.egOaIxfdxES5IV8rz5GKxnGR0q65E2TIEFh
+ 4GAzFktkl7sURn_kJkC52dXfrqUNGAdp2zEZiZogRd4pTh8TvhJcT6I_6Njd
+ BXtM2ME6NF.gfKX9C0l5chnIvgJvLeGA647yZDp2KWBfGDNVCO8DnF81lQxX
+ ubsohhutFOXj9hhQZgMKRHKSNEo4eFLOxOprY.p2w6txkjnTwJfXgoerTdQ7
+ KpplKRLilSTZRqZUK2hhnp8MBLiDyKia6lqH5NqfLd7jkCaXFJIxK9mkyaWn
+ 7iO5txxa4_YVQ8AerN18MWQITSp43aft9HwP5wmNhdS.nBsNQWY9gLSd10Ey
+ BT1yy3bQluXhNWnGSEyshClsDCoikUl6w1ixnRhMy__SIZzaBjjx9AUcRxyQ
+ EWNbzm_QG7asVRBM2g9ZWd5pcmhsx5nQ54NK.6IEkiu9DiQxIBD4d0eJ3tZa
+ bI.377q4IbGYt5J_ePKA58TWEfaN.a8rJjr5Yp9pMOt7JQOsamPs6ex1VbwO
+ 7MJWYiQQcS74x0cGBXux1.PC9JReCaOEN4aEGmQ4hhXCGYy7IpfzSeg3L.SI
+ CcpVQo3SM4WMtEVbV2VnWBnR762.FaVeDb23tvcEabLtpnRoShBF6f0PFjlt
+ SNe76MLpe_JAlcLyj.SvzVYIIMY.BXzvCkl2yuUwNxhkyiES.EyfY6O1LXwr
+ k2DndCdk.cV8s7zppuO1k8s7ODaWkYznkZYMHLHK3WghekHTSUMQp.oKKkge
+ an22rKCAu9QfMXeUOxSsDUzNvemNTking4rA0he9yoRy2W38NNb1LCjvRHX.
+ 4AnDx48dcg--
+Received: from 209.134.158.66 (EHLO mailer158066.service.govdelivery.com)
+ by 10.217.151.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 18:01:55 +0000
+Received: from gepdp-smeds1-5.systems.dc.gdi ([10.5.36.52])
+	by mailer158066.service.govdelivery.com (-); Wed, 31 Aug 2022 18:01:53 +0000
+X-VirtualServer: VSG001, mailer158066.service.govdelivery.com, 10.5.36.139
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837568::20220831.63041091::1001::MDB-PRD-BUL-20220831.63041091::MS60710444266@YAHOO.COM::6830_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=zYUY9OWlAhOwqMkeG6u8TTXeLW7/6xyS87Q2TFqjulQ=;
+	b=U4MajKt8950lN/fLfXUCVDSgrKjIVn++053a6o5h11Ww8C65SrEHhT2A+j/WMD
+	VsQ9QrN8d+5EUwmJ3KUUymRKxiKwhkJFImfFXksfNZCs1cLHypJFP/ve5Pck2rlw
+	oMALd0S462K23r3h89R7CugnIRsmIUnFLJyBsPaehNL6qM7Tos6qQ4YhyKJgZPn0
+	x4WizrEhXw2c6fpOsN+1Rw30g/wPj901lbFd7vPtLlYtEKTY1qGdtcsGn7OPrQR0
+	9MWFFCEFCwfCP7zThJzjmx2oSL68MzSEpV5kVwxscBOMVuBoc13ldHdtpQaHSdzU
+	YnDauXcDi2LyLdRQ5Bf0J0Fw==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_445_99F3_47D3DA6C.4C07B477"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrDmo6EnsO9DzONwyfSPNUueVDJsHLbAPD5bEJAZkAsu/a9CBtQEcZYc5lFAebvqWEfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJOJP_COMMS
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USDOJOJP_COMMS/subscriber/one_click_unsubscribe?verification=5.4a1d8d1a8fc8de97909deb9062c98b92&destination=MS60710444266%40YAHOO.COM>
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16837568.6830@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK8F3RJJIHSJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?Upcoming_In-Person_BJS_Workshop:_Analyzing_Dat?= =?US-ASCII?Q?a_from_the_National_Crime_Victimization_Survey?=
+Date: Wed, 31 Aug 2022 18:01:51 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: JUSTSTATS@public.govdelivery.com
+From: "=?US-ASCII?Q?Bureau_of_Justice_Statistics?=" <JUSTSTATS@public.govdelivery.com>
+Content-Length: 30888
+
+
+------=_NextPart_445_99F3_47D3DA6C.4C07B477
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+View on Mobile or Webpage [ https://content.govdelivery.com/accounts/USDO=
+JOJP_COMMS/bulletins/329ab42 ]
+
+New JUSTSTATS Banner [ https://bjs.ojp.gov?utm_content=3Ddefault&utm_medi=
+um=3Demail&utm_source=3Dgovdelivery ] =20
+
+BJS conference =20
+=20
+
+AUGUST 31, 2022
+
+=20
+=20
+=20
+=20
+=20
+
+*Register Now: Analyzing Data from the National Crime Victimization Surve=
+y Workshop [ https://bjs.ojp.gov/events/analyzing-data-national-crime-vic=
+timization-survey?utm_content=3Ddefault&utm_medium=3Demail&utm_source=3Dg=
+ovdelivery ]*=20
+
+Register now for BJS=92s workshop on Analyzing Data from the National Cri=
+me Victimization Survey [ https://bjs.ojp.gov/programs/ncvs?utm_content=3D=
+default&utm_medium=3Demail&utm_source=3Dgovdelivery ] (NCVS) at the Ameri=
+can Society of Criminology Annual Conference. The workshop will introduce=
+ new and potential data users to the types of information available throu=
+gh the NCVS, offer an overview of the survey structure and sample design,=
+ and provide hands-on training to assist in properly analyzing the NCVS p=
+ublic-use data. Participants will learn how to=97
+
+
+  * replicate key estimates published through the annual Criminal Victimi=
+zation [ https://bjs.ojp.gov/library/publications/list?series_filter=3DCr=
+iminal+Victimization&utm_content=3Ddefault&utm_medium=3Demail&utm_source=3D=
+govdelivery ] bulletin and available through the NCVS Dashboard (N-DASH) =
+[ https://ncvs.bjs.ojp.gov/Home?utm_content=3Ddefault&utm_medium=3Demail&=
+utm_source=3Dgovdelivery ]=20
+  * analyze the available NCVS supplement data files=20
+  * highlight different types of research questions that can be addressed=
+ with the core and supplement data.=20
+
+*Space is limited, and registration is required*. Send your name, affilia=
+tion, and preferred email address to NCVS_ASCregistration@usdoj.gov.
+
+Register for the Workshop <NCVS_ASCregistration@usdoj.gov>
+________________________________________________________________________
+
+The Bureau of Justice Statistics of the U.S. Department of Justice is the=
+ principal federal agency responsible for collecting, analyzing, and diss=
+eminating reliable statistics on crime and criminal justice in the United=
+ States. Alexis R. Piquero is the director.
+
+For more information on BJS's publications, data collections, data analys=
+is tools, and funding opportunities,=A0visit=A0BJS.gov [ https://bjs.ojp.=
+gov/?utm_content=3Ddefault&utm_medium=3Demail&utm_source=3Dgovdelivery ].=
+
+
+________________________________________________________________________
+
+ BJS email icon <AskBJS@usdoj.gov>BJS Facebook Icon Transparent [ https:/=
+/www.facebook.com/BJSgov?utm_content=3Ddefault&utm_medium=3Demail&utm_sou=
+rce=3Dgovdelivery ]BJS Twitter icon [ https://twitter.com/BJSgov?utm_cont=
+ent=3Ddefault&utm_medium=3Demail&utm_source=3Dgovdelivery ]BW Youtube ico=
+n [ https://www.youtube.com/channel/UC4sChTMpog0vHNL1HvkTKzQ?utm_content=3D=
+default&utm_medium=3Demail&utm_source=3Dgovdelivery ]  BJS horizontal log=
+o [ https://bjs.ojp.gov/?utm_content=3Ddefault&utm_medium=3Demail&utm_sou=
+rce=3Dgovdelivery ]
+
+*
+Bureau of Justice Statistics*
+Office of Justice Programs | U.S. Department of Justice
+
+810 Seventh Street NW, Washington, DC, 20531 | 800-851-3420 |=A0*Visit us=
+ online:* BJS.gov [ https://bjs.ojp.gov/?utm_content=3Ddefault&utm_medium=
+=3Demail&utm_source=3Dgovdelivery ]
+
+Department of Justice (DOJ) Privacy Policy [ https://www.justice.gov/doj/=
+privacy-policy?utm_content=3Ddefault&utm_medium=3Demail&utm_source=3Dgovd=
+elivery ]
+Click to unsubscribe [ https://public.govdelivery.com/accounts/USDOJOJP_C=
+OMMS/subscriber/new?preferences=3Dtrue#tab1 ]
+
+=20
+
+=A0
+
+=20
+=20
+=20
+=20
+
+________________________________________________________________________
+
+ This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communi=
+cations Cloud on behalf of Department of Justice =B7 Washington, DC GovDe=
+livery logo [ https://subscriberhelp.granicus.com/?utm_content=3Ddefault&=
+utm_medium=3Demail&utm_source=3Dgovdelivery ]
+=0A
+------=_NextPart_445_99F3_47D3DA6C.4C07B477
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Upcoming In-Person BJS Workshop: Analyzing Data from the Natio=
+nal Crime Victimization Survey
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+
+/* Sets the line height in everything but Outlook */
+table#yahoo body, table#yahoo p, table#yahoo .gd_p, table#yahoo p span, t=
+able#yahoo li, table#yahoo li span { line-height: 1.4; }
+
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 10=
+0% !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 auto 10p=
+x auto !important; display:block !important; float:none !important; text-=
+align:center; }
+table#yahoo table.gd_combo_table td.gd_combo_image_cell .govd_template_im=
+age { margin:0 !important; text-align:left; }
+table#yahoo #main-header .govd_template_image { max-width: 480px !importa=
+nt; width: 100% !important; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #F3F3F3; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#F3F3=
+F3"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+
+<tr>
+<td width=3D"100%" style=3D"padding: 30px 0;" class=3D"mobile-padding">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFF=
+FFF; border-collapse: collapse;">
+
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header" align=3D"center" style=3D"background-color: #F3F3F3;" =
+bgcolor=3D"#F3F3F3">
+<p style=3D"line-height: 1.4; margin-top: 0px; margin-bottom: 2px; font-f=
+amily: arial, helvetica, sans-serif; font-size: 10px;"><a href=3D"https:/=
+/lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6I=
+mJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodH=
+RwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTRE9KT0pQX0NPTU1TL2J=
+1bGxldGlucy8zMjlhYjQyIn0.nBM1v4SUM-U7NCafInnIvzBNu-VUTzuAWDZu25VlsKs/s/25=
+91266041/br/143341969375-l" target=3D"_blank" rel=3D"noopener" style=3D"c=
+olor: #0064a4; text-decoration: underline; -ms-word-break: break-all; wor=
+d-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: =
+none;">View on Mobile or Webpage</a></p>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEw=
+OTEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAuZ292P3V0bV9jb250ZW50PWRlZmF1bHQmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.QnBVyqRn3bMJWZbDrEQPQ5=
+U2EVYD9Zl6LEYqAah6m_Y/s/2591266041/br/143341969375-l" target=3D"_blank" r=
+el=3D"noopener noreferrer" style=3D"color: #0064a4; text-decoration: unde=
+rline; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens=
+: none; -moz-hyphens: none; hyphens: none;"><img class=3D"govd_template_i=
+mage" src=3D"https://content.govdelivery.com/attachments/fancy_images/USD=
+OJOJP_COMMS/2022/07/6220644/bjs-juststats-graph-email-header-600-px-origi=
+nal-44_original.png" style=3D"width: 600px; height: auto !important; max-=
+height: auto !important; border: none;" alt=3D"New JUSTSTATS Banner" widt=
+h=3D"600" height=3D"150"></a>
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%" style=3D"padding: 0 75px;" class=3D"mobile-padding">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0=
+" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFFFFF; border-collapse=
+: collapse;">
+
+<tr>
+<td width=3D"100%" style=3D"padding: 30px 20px;">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+
+<tr>
+<td width=3D"100%" style=3D"padding: 0px;" class=3D"mobile-padding">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+
+<tr>
+<td id=3D"date-bg" data-govdstyle=3D"all" data-govdtitle=3D"Date Backgrou=
+nd" style=3D"background-color: #FFFFFF; padding: 0px;" bgcolor=3D"#FFFFFF=
+">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td width=3D"66%" class=3D"tablecell" align=3D"left" valign=3D"top" id=3D=
+"left-date-bg" data-govdstyle=3D"all" data-govdtitle=3D"Left Date BG" sty=
+le=3D"background-color: #FFFFFF; padding: 0px;" bgcolor=3D"#FFFFFF">
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"left-date" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Left Date" class=3D"thin" style=3D"background-color: #FFFFFF; padding=
+: 0px;" bgcolor=3D"#FFFFFF">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USDOJOJP_COMMS/2019/12/3039331/20-email-labels-=
+conf-brown_original.jpg" style=3D"width: 135px; height: auto !important; =
+max-height: auto !important; border: none;" alt=3D"BJS conference" width=3D=
+"135" height=3D"13">
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"34%" class=3D"tablecell" align=3D"right" valign=3D"top" id=3D=
+"main-date-bg" data-govdstyle=3D"all" data-govdtitle=3D"Main Date BG" sty=
+le=3D"background-color: #FFFFFF; padding: 0px;" bgcolor=3D"#FFFFFF">
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"right-date" width=3D"100%" data-govdstyle=3D"all" data-govdtitl=
+e=3D"Main Date" class=3D"thin" style=3D"background-color: #FFFFFF; paddin=
+g: 0px;" bgcolor=3D"#FFFFFF">
+<p style=3D"line-height: 1.1; margin-top: 0; margin-bottom: 0; color: #50=
+5050; font-family: arial, helvetica, sans-serif; font-size: 12px; text-al=
+ign: right;" align=3D"right">AUGUST 31, 2022</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"padding: 0px 20px;">
+<h1 style=3D"margin-top: 0; margin-bottom: 20px; line-height: 1.1; font-w=
+eight: bold; color: #0065A5; font-family: arial, helvetica, sans-serif; f=
+ont-size: 20px; text-align: left;" align=3D"left">
+<br><strong><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXR=
+pbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4=
+MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAuZ292L2V2ZW50cy9hbmFseXppb=
+mctZGF0YS1uYXRpb25hbC1jcmltZS12aWN0aW1pemF0aW9uLXN1cnZleT91dG1fY29udGVudD=
+1kZWZhdWx0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.wWyihw=
+r2U-ZQcPO_U75d5sUVWV0hKXkT1yDWDvDfDbE/s/2591266041/br/143341969375-l" tar=
+get=3D"_blank" rel=3D"noopener" style=3D"color: #0065A5; text-decoration:=
+ none; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens=
+: none; -moz-hyphens: none; hyphens: none;">Register Now: Analyzing Data =
+from the National Crime Victimization Survey Workshop</a></strong>
+</h1>
+<p style=3D"line-height: 1.4; margin-top: 0px; margin-bottom: 20px; color=
+: #505050; font-family: arial, helvetica, sans-serif; font-size: 14px; te=
+xt-align: left;" align=3D"left">Register now for BJS=92s workshop on Anal=
+yzing Data from the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJ=
+idWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoi=
+MjAyMjA4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAuZ292L3Byb2dyYW1zL=
+25jdnM_dXRtX2NvbnRlbnQ9ZGVmYXVsdCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z2=
+92ZGVsaXZlcnkifQ.dfiVd51DuHa_U-OQKIN2w_bmqKTyg1NkJhoXlBWAWh4/s/2591266041=
+/br/143341969375-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #0=
+064a4; text-decoration: underline; -ms-word-break: break-all; word-break:=
+ break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">N=
+ational Crime Victimization Survey</a> (NCVS) at the American Society of =
+Criminology Annual Conference. The workshop will introduce new and potent=
+ial data users to the types of information available through the NCVS, of=
+fer an overview of the survey structure and sample design, and provide ha=
+nds-on training to assist in properly analyzing the NCVS public-use data.=
+ Participants will learn how to=97</p>
+<ul>
+<li style=3D"line-height: 1.4; margin-bottom: 7px; color: #505050; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; text-align: left;">=
+replicate key estimates published through the annual <a href=3D"https://l=
+nks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRw=
+czovL2Jqcy5vanAuZ292L2xpYnJhcnkvcHVibGljYXRpb25zL2xpc3Q_c2VyaWVzX2ZpbHRlc=
+j1DcmltaW5hbCtWaWN0aW1pemF0aW9uJnV0bV9jb250ZW50PWRlZmF1bHQmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.43_n_El7wPfbU0ddVGV_H0rXMNMI5fF=
+aoUuYcIyAdMc/s/2591266041/br/143341969375-l" target=3D"_blank" rel=3D"noo=
+pener" style=3D"color: #0064a4; text-decoration: underline; -ms-word-brea=
+k: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens=
+: none; hyphens: none;">Criminal Victimization</a> bulletin and available=
+ through the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZX=
+Rpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA=
+4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRwczovL25jdnMuYmpzLm9qcC5nb3YvSG9tZT91dG1f=
+Y29udGVudD1kZWZhdWx0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVye=
+SJ9.NjrZ_c3bG2Oe-QvUSIbzDaGlzsZo9QzUMeeN8WFqYTs/s/2591266041/br/143341969=
+375-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #0064a4; text-d=
+ecoration: underline; -ms-word-break: break-all; word-break: break-word; =
+-webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">NCVS Dashboard=
+ (N-DASH)</a>
+</li>
+<li style=3D"line-height: 1.4; margin-bottom: 7px; color: #505050; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; text-align: left;">=
+analyze the available NCVS supplement data files</li>
+<li style=3D"line-height: 1.4; margin-bottom: 7px; color: #505050; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; text-align: left;">=
+highlight different types of research questions that can be addressed wit=
+h the core and supplement data.</li>
+</ul>
+<p style=3D"line-height: 1.4; margin-top: 0px; margin-bottom: 20px; color=
+: #505050; font-family: arial, helvetica, sans-serif; font-size: 14px; te=
+xt-align: left;" align=3D"left"><strong>Space is limited, and registratio=
+n is required</strong>. Send your name, affiliation, and preferred email =
+address to <a href=3D"mailto:NCVS_ASCregistration@usdoj.gov" style=3D"col=
+or: #0064a4; text-decoration: underline; -ms-word-break: break-all; word-=
+break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: no=
+ne;">NCVS_ASCregistration@usdoj.gov</a>.</p>
+<h3 style=3D"text-align: center; margin-top: 20px; margin-bottom: 25px; l=
+ine-height: 1.1; font-weight: bold; color: #0065A5; font-family: arial, h=
+elvetica, sans-serif; font-size: 13px;" align=3D"center"><a href=3D"mailt=
+o:NCVS_ASCregistration@usdoj.gov" target=3D"_blank" rel=3D"noopener" styl=
+e=3D"color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; wo=
+rd-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens:=
+ none; background-color: #0E3559; border-radius: 4px; border-color: #0e35=
+59; border-style: solid; border-width: 8px 20px;">Register for the Worksh=
+op</a></h3>
+<div class=3D"govd_hr" style=3D"padding: 10px;"><div class=3D"govd_hr_inn=
+er"><hr></div></div>
+<p style=3D"line-height: 1.4; margin-top: 0px; margin-bottom: 20px; color=
+: #505050; font-family: arial, helvetica, sans-serif; font-size: 14px; te=
+xt-align: left;" align=3D"left"><br>The Bureau of Justice Statistics of t=
+he U.S. Department of Justice is the principal federal agency responsible=
+ for collecting, analyzing, and disseminating reliable statistics on crim=
+e and criminal justice in the United States. Alexis R. Piquero is the dir=
+ector.</p>
+<p style=3D"line-height: 1.4; margin-top: 0px; margin-bottom: 20px; color=
+: #505050; font-family: arial, helvetica, sans-serif; font-size: 14px; te=
+xt-align: left;" align=3D"left">For more information on BJS's publication=
+s, data collections, data analysis tools, and funding opportunities,=A0vi=
+sit=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNj=
+MwNDEwOTEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAuZ292Lz91dG1fY29udGVudD1kZWZhdWx=
+0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.gigCbmIxt_Zzc-x=
+C72pkpRGNus4DdTNePAatvHogXCA/s/2591266041/br/143341969375-l" target=3D"_b=
+lank" rel=3D"noopener" style=3D"color: #0064a4; text-decoration: underlin=
+e; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: no=
+ne; -moz-hyphens: none; hyphens: none;">BJS.gov</a>.</p>
+<div class=3D"govd_hr" style=3D"padding: 10px;"><div class=3D"govd_hr_inn=
+er"><hr></div></div>
+</td>
+</tr>
+
+<tr>
+<td id=3D"social-footer" width=3D"100%" data-govdstyle=3D"all" data-govdt=
+itle=3D"Social Footer" style=3D"padding: 0px 20px; border: none;">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USDOJOJP_COMMS/2019/07/2703296/foot-01-original=
+_original.png" style=3D"width: 122px; height: auto !important; max-height=
+: auto !important; border: none;" alt=3D"" width=3D"122" height=3D"19"><a=
+ href=3D"mailto:AskBJS@usdoj.gov" target=3D"_blank" rel=3D"noopener noref=
+errer" style=3D"color: #0064a4; text-decoration: underline; -ms-word-brea=
+k: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens=
+: none; hyphens: none;"><img class=3D"govd_template_image" src=3D"https:/=
+/content.govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/2021/03/=
+4291239/juststats-email-icon_original.jpg" style=3D"width: 25px; height: =
+auto !important; max-height: auto !important; border: none;" alt=3D"BJS e=
+mail icon" width=3D"25" height=3D"19"></a><a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRwczovL3d3dy5=
+mYWNlYm9vay5jb20vQkpTZ292P3V0bV9jb250ZW50PWRlZmF1bHQmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.Iu3aCdBYwm68IMzmSOaW4il0JzPdbwSiWf24G=
+Cn5YqM/s/2591266041/br/143341969375-l" target=3D"_blank" rel=3D"noopener =
+noreferrer" style=3D"color: #0064a4; text-decoration: underline; -ms-word=
+-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hy=
+phens: none; hyphens: none;"><img class=3D"govd_template_image" src=3D"ht=
+tps://content.govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/202=
+1/04/4318316/juststats-email-icon-transparent_original.png" style=3D"widt=
+h: 18px; height: auto !important; max-height: auto !important; border: no=
+ne;" alt=3D"BJS Facebook Icon Transparent" width=3D"18" height=3D"19"></a=
+><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2=
+lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDE=
+wOTEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0JKU2dvdj91dG1fY29udGVudD1kZWZh=
+dWx0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.xaqrjuWy1c-0=
+lWC86thTbt66sYpzmwUk22icM8xoEC4/s/2591266041/br/143341969375-l" target=3D=
+"_blank" rel=3D"noopener noreferrer" style=3D"color: #0064a4; text-decora=
+tion: underline; -ms-word-break: break-all; word-break: break-word; -webk=
+it-hyphens: none; -moz-hyphens: none; hyphens: none;"><img class=3D"govd_=
+template_image" src=3D"https://content.govdelivery.com/attachments/fancy_=
+images/USDOJOJP_COMMS/2021/03/4291230/juststats-tw-email-icon_original.jp=
+g" style=3D"width: 25px; height: auto !important; max-height: auto !impor=
+tant; border: none;" alt=3D"BJS Twitter icon" width=3D"25" height=3D"19">=
+</a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+NDEwOTEiLCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS9jaGFubmVsL1VDNHNDaFRNc=
+G9nMHZITkwxSHZrVEt6UT91dG1fY29udGVudD1kZWZhdWx0JnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.dJJcYHjwGr7o1AnXIZ9UcJ6yQsV_nb3E9m9FPg0Gki=
+c/s/2591266041/br/143341969375-l" target=3D"_blank" rel=3D"noopener noref=
+errer" style=3D"color: #0064a4; text-decoration: underline; -ms-word-brea=
+k: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens=
+: none; hyphens: none;"><img class=3D"govd_template_image" src=3D"https:/=
+/content.govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/2022/07/=
+6230733/youtube-icon_original.png" style=3D"width: 30px; height: auto !im=
+portant; max-height: auto !important; border: none;" alt=3D"BW Youtube ic=
+on" width=3D"30" height=3D"20"></a>
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-footer" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Footer" style=3D"padding: 20px;">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEw=
+OTEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAuZ292Lz91dG1fY29udGVudD1kZWZhdWx0JnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.gsqRv0soB0vy9BizxTqvM=
+gC5oxQOOhn6Gq0qOv6r_TE/s/2591266041/br/143341969375-l" target=3D"_blank" =
+rel=3D"noopener noreferrer" title=3D"BJS Homepage" style=3D"color: #0064a=
+4; text-decoration: underline; -ms-word-break: break-all; word-break: bre=
+ak-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"><img =
+class=3D"govd_template_image" src=3D"https://content.govdelivery.com/atta=
+chments/fancy_images/USDOJOJP_COMMS/2021/03/4286254/bjs-logo-full-horz-2c=
+olor-3-23-2021_original.jpg" style=3D"width: 240px; height: auto !importa=
+nt; max-height: auto !important; border: none;" alt=3D"BJS horizontal log=
+o" width=3D"240" height=3D"49"></a><table class=3D"gd_table" style=3D"hei=
+ght: 139px; border-collapse: collapse;" border=3D"0" width=3D"410">
+<tbody>
+<tr>
+<td style=3D"width: 406.042px; color: #505050; font-family: arial, helvet=
+ica, sans-serif; font-size: 10px; text-align: left;" align=3D"left">
+<p class=3D"footer fallback-font" style=3D"line-height: 1.4; margin-top: =
+0px; margin-bottom: 20px; color: #505050; font-family: arial, helvetica, =
+sans-serif; font-size: 10px; text-align: left;" align=3D"left"><strong><b=
+r>Bureau of Justice Statistics</strong><br>Office of Justice Programs | U=
+.S. Department of Justice</p>
+<p class=3D"footer fallback-font" style=3D"line-height: 1.4; margin-top: =
+0px; margin-bottom: 20px; color: #505050; font-family: arial, helvetica, =
+sans-serif; font-size: 10px; text-align: left;" align=3D"left">810 Sevent=
+h Street NW, Washington, DC, 20531 | 800-851-3420 |=A0<strong>Visit us on=
+line:</strong> <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxs=
+ZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyM=
+jA4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAuZ292Lz91dG1fY29udGVudD=
+1kZWZhdWx0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.bNmlGw=
+-3wSLpDYZ7jBs8k9M2gHC0spDxe17HqIQPMWc/s/2591266041/br/143341969375-l" tar=
+get=3D"_blank" rel=3D"noopener" style=3D"color: #0064a4; text-decoration:=
+ underline; -ms-word-break: break-all; word-break: break-word; -webkit-hy=
+phens: none; -moz-hyphens: none; hyphens: none;">BJS.gov</a></p>
+<p class=3D"footer fallback-font" style=3D"line-height: 1.4; margin-top: =
+0px; margin-bottom: 20px; color: #505050; font-family: arial, helvetica, =
+sans-serif; font-size: 10px; text-align: left;" align=3D"left"><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEwOTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5qdXN0aWNlLmdvdi9kb2ovcHJpdmFjeS1wb2xpY3k_dXRtX2NvbnR=
+lbnQ9ZGVmYXVsdCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.P=
+iMGuiEYhltalFNwVNjC46f4HGd4jy9kpjgdEzmSQY4/s/2591266041/br/143341969375-l=
+" target=3D"_blank" class=3D"footer privacy-policy" rel=3D"noopener" styl=
+e=3D"color: #0064a4; text-decoration: underline; -ms-word-break: break-al=
+l; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyp=
+hens: none;">Department of Justice (DOJ) Privacy Policy</a><br><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDEwOTEiLCJ1cm=
+wiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pPSlBfQ09=
+NTVMvc3Vic2NyaWJlci9uZXc_cHJlZmVyZW5jZXM9dHJ1ZSN0YWIxIn0.QsmRuwVgmytnC3LJ=
+obDW74AU9B3IWQHSFRysWiBOqb4/s/2591266041/br/143341969375-l" target=3D"_bl=
+ank" class=3D"footer unsubscribe" rel=3D"noopener" style=3D"color: #0064a=
+4; text-decoration: underline; -ms-word-break: break-all; word-break: bre=
+ak-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Click=
+ to unsubscribe</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"line-height: 1.4; margin-top: 0px; margin-bottom: 20px; color=
+: #505050; font-family: arial, helvetica, sans-serif; font-size: 10px; te=
+xt-align: left;" align=3D"left">=A0</p>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"border-collapse: collapse; margin: 0px auto; width: 1=
+00%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0 10px 0 10px;" valign=3D"top">
+<table class=3D"mobile-tagline" style=3D"border-collapse: collapse; margi=
+n: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"right">
+<tbody>
+<tr style=3D"height: 15px;">
+<td style=3D"padding: 10px 0px 0px; height: 15px;" colspan=3D"2" valign=3D=
+"top"><hr></td>
+</tr>
+<tr style=3D"height: 17px;">
+<td style=3D"padding: 10px 5px 10px 0px; height: 17px;" align=3D"left" va=
+lign=3D"top"><span style=3D"color: #757575; font-size: 10px; font-family:=
+ arial, helvetica, sans-serif;">This email was sent to MS60710444266@YAHO=
+O.COM using GovDelivery Communications Cloud on behalf of Department of J=
+ustice =B7 Washington, DC</span></td>
+<td style=3D"width: 95px; padding-top: 10px; height: 17px;" align=3D"righ=
+t" valign=3D"top" width=3D"95"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwNDEwOTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZW=
+xwLmdyYW5pY3VzLmNvbS8_dXRtX2NvbnRlbnQ9ZGVmYXVsdCZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.QI6NzY-kGmYlrDX3NYOaqkHqJXq5rE5X8ab_8hN4J=
+Ps/s/2591266041/br/143341969375-l" target=3D"_blank" rel=3D"noopener"><im=
+g src=3D"https://content.govdelivery.com/images/govd-logo-dark.png" borde=
+r=3D"0" alt=3D"GovDelivery logo" width=3D"95" height=3D"27" align=3D"righ=
+t"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNDE5NjkzNzUtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwNDEwOTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDQxMDkxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NTY4JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_445_99F3_47D3DA6C.4C07B477--
+

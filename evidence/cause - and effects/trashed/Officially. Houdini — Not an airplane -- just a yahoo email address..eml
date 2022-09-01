@@ -1,0 +1,364 @@
+From - Sun Aug 28 22:53:18 2022
+X-Account-Key: account1
+X-UIDL: AEVJkPcEReTMYtqWeATOeLFWSBA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.12
+ by atlas205.free.mail.ne1.yahoo.com with HTTPS; Fri, 22 Jul 2022 12:22:16 +0000
+Return-Path: <mrc@nysba.org>
+X-Originating-Ip: [192.161.149.9]
+Received-SPF: pass (domain of nysba.org designates 192.161.149.9 as permitted sender)
+Authentication-Results: atlas205.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nysba.org header.s=zendesk2;
+ spf=pass smtp.mailfrom=nysba.org;
+ dmarc=unknown header.from=nysba.org;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 22 Jul 2022 12:22:16 +0000
+X-YMailISG: eQ356EYWLDu2azhmTV.ovaowytqXFPo8VAFQy4BRWfWhZSLN
+ eGKb7Zb3WKpTtbaO.lfE3Mn6vwsY0ztfPJi4bVMo9FsDSld0TRXjhWrh1U68
+ JmQ0F42W6.XRWv9NwetmXtA5rYO66YlkxAwEozXawovJlfYE7vZ2ugWFSTHH
+ 5IjrNivtwt_kR5xRM90xj7Ukc6ZX0pXPr.75cF1R7QCslyFe5xzj6zqjgsDk
+ DWkJbKELHLqQGSGYZI1_Jvlp7Mk1mRoKv3Y084zcKsYVax2OzhDW76webRCi
+ rTwSfJnNJJoJMsi3YCGbpcntgpuRJYh9z_gBFoI.lAv8xesDXAwzwgsi0GoN
+ iky7_Gfrm9oASFdB4zAzGJGDRqk_9UjVp6xgGJW6frGPcG_YYnh.6BmSc9Cq
+ NG7E7k96u.VzfvTMKpGuFD_EBWjHvJSYytIiNgD6P.9zj5oMBxPX.ynVE.Al
+ ypPKDxi0g4lXWsO9aWUyIc6KmtR.jn53Jn5Pg6fw_b72WZaV3vffoDKug2Us
+ rEGwGLZiiKj4QrmXEs2e0Ml1zYECWXQMe8hL7Q5lGMyYLJ236_CAuhw90Oya
+ 2HsPxMS9G4r8fD24FEykY_7.Sk94E7RFqmv8zDCZg8B0xi2YcsBKGeNRIlya
+ wjLGGgRiia5R4TCMMiOAHnU93wu3s0fiELYLJoiCCkENNnSdnyyULXJ.L1NE
+ u_fPou4yE98nkU3rMfSmxJRJbnB._uK17QL3_T_hvpNMpUsZrPFHmy62gArk
+ fx4V.mGF6JaowgWQawPE8h_zNyYCxJPEr0k85WvhayIYK8u52TwvA7pQmhvq
+ KkB_ioLzuC6znT0u2GjH_OTcaM_tMT_dB1bfUz6y3aG6EAmjYf_QSRs33e99
+ 7z5wRhOwyyVZeKHKcFtf_8B3n_dF2FZ.ClqpiaDtQgbkoZERz8w.y.kYlxro
+ JsCBRp7iuetV7ouB5pJ4CF7s2k2UvONYlxksb85pWKGKLSFh92TdwH28vtru
+ anPTOB.OkTqgvX9gjCwb7VPlhAtdAIMra7SuvwlGZ0LYkUQEChX3BHZkgjk8
+ J2eQ8U5KmIqVgLQZPORTmNwl2bSKArJYZeGTlibptq.id2t3RWgaNOVQEn_l
+ .om1q2A40YgvP6.ENyCvib4Zt6JxdiXI22ZQrgYmLf18LxdG8c_RJl2URbFV
+Received: from 192.161.149.9 (EHLO outbyoip9.pod19.use1.zdsys.com)
+ by 10.217.150.12 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 22 Jul 2022 12:22:16 +0000
+Received: from zendesk.com (unknown [10.219.29.138])
+	by outbyoip9.pod19.use1.zdsys.com (Postfix) with ESMTP id 4Lq7qC0y8bz14K2j;
+	Fri, 22 Jul 2022 12:22:15 +0000 (UTC)
+Date: Fri, 22 Jul 2022 12:22:15 +0000
+From: "Lindsay Panzica (NYSBA MRC)" <mrc@nysba.org>
+Reply-To: NYSBA MRC <mrc@nysba.org>
+Cc: CBP INFO CENTER <cbpinfocenter@cbp.dhs.gov>, 
+ ANTITRUST <antitrust@ftc.gov>, 
+ Jackie Robinson Foundation <connect@jackierobinson.org>, 
+ "jackson@nysenate.gov" <jackson@nysenate.gov>, 
+ MILTON MCKENZIE <ms60710444266@yahoo.com>, 
+ "Governor.Hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>, 
+ General Law Unit <generallaw.unit@fdny.nyc.gov>, 
+ "ATR.International@usdoj.gov" <atr.international@usdoj.gov>, 
+ Atr Cpa <atr.cpa@usdoj.gov>, 
+ Atr Tea <atr.tea@usdoj.gov>, 
+ Atr Mep Information <atr.mep.information@usdoj.gov>, 
+ "antitrust.atr@usdoj.gov" <antitrust.atr@usdoj.gov>, 
+ "RISC@ic.fbi.gov" <risc@ic.fbi.gov>, 
+ "helpdesk@leo.gov" <helpdesk@leo.gov>, 
+ Fbi <fbi@subscriptions.fbi.gov>, 
+ "Dr. Patricia Leone Sent By AppointmentPlus" <noreply@appointmentplus.com>, 
+ "newyork.atr@usdoj.gov" <newyork.atr@usdoj.gov>, 
+ "sanfran.atr@usdoj.gov" <sanfran.atr@usdoj.gov>, 
+ "chicago.atr@usdoj.gov" <chicago.atr@usdoj.gov>, 
+ Outsourcing Question <outsourcing.question@fbi.gov>
+Message-ID: <ERQE796P8ER_62da9676b59e3_313fd49e0cb9642539e1_sprut@zendesk.com>
+In-Reply-To: <353561364.509261.1658447293933@mail.yahoo.com>
+References: <ERQE796P8ER@zendesk.com>
+ <353561364.509261.1658447293933.ref@mail.yahoo.com>
+ <353561364.509261.1658447293933@mail.yahoo.com>
+Subject: =?UTF-8?Q?Officially._Houdini_=E2=80=94_Not_an_airplane_--_just_a?=
+ =?UTF-8?Q?_yahoo_email_address.?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62da9677ca99_313fd49e0cb9642540c8";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: event-id-8004145427219
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 38473e9
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=nysba.org; q=dns/txt;
+ s=zendesk2; t=1658492535; bh=1id17SdLVyi5q81Pz+Y29wZ0HFtj8/5bH2OZWm/DWkE=;
+ h=date:from:reply-to:cc:message-id:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding;
+ b=hPqy2ZU9f5iSnmPT0Vq0PY0myzuq5qSDW7Rn3da7LyWt1zbVm0RsHB53eae+7Vj/7x9WWVkXcu1KL0WZhNv2knpsFg7/kI4DM+8yAh0JP1ZQgWevggUclqPhSDWb3xeZ8fhtzzQs8pfj14SH7G7lsZVgwx7ug15S3Vp92s+6E6HXCTY0uSsN3G+WnXfurv221MmFKGGwAXyryp7M/sIxpqW5NUlEuhruUERu6etGkWlBIAkL+dx506FDEdI83FiJFEx3+nItj5rD28KiE2A1DslmiTAzgrrbYlvcH4GTnoMKnwJkb0x5tgG5C3HbQBnBzZ7oXi8xSN5nyFbHp5TnsQ==
+Content-Length: 13534
+
+
+----==_mimepart_62da9677ca99_313fd49e0cb9642540c8
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+##- Please type your reply above this line -##
+
+You are registered as a CC on this request (37483). Reply to this email t=
+o add a comment to the request.
+
+----------------------------------------------
+
+Lindsay Panzica, Jul 22, 2022, 09:21 ADT
+
+This request was closed and merged into request #37484 "1-855-835-5324 co=
+nfirmed".
+
+----------------------------------------------
+
+bo.dincer@yahoo.com, Jul 21, 2022, 20:48 ADT
+
+ ![](https://support.nysba.org/attachments/token/BhAY1b7QMdOg7BaAolphaIJr=
+f/?name=3DScreenshot_20220620-231158_WhatsApp.jpg)
+
+ ![](https://support.nysba.org/attachments/token/LL8U4QH3c18uwHZ3KDpZZRvs=
+q/?name=3DScreenshot_20220719-182505_Gallery.jpg)
+
+ ![](https://support.nysba.org/attachments/token/QzlYYYMX8XJVIfHclz3VS3Ws=
+V/?name=3DScreenshot_20220611-104557_Gallery.jpg)
+
+ ![](https://support.nysba.org/attachments/token/vtjqFKLQyazVj5dWrD1TAsuv=
+n/?name=3DScreenshot_20220710-021229_Chrome.jpg)
+
+ ![](https://support.nysba.org/attachments/token/DSj6HhArq9xpdTfJlVi3mWob=
+s/?name=3DScreenshot_20220603-094108_Gallery.jpg)
+
+ ![](https://support.nysba.org/attachments/token/he1tItGnRxh4EYCg5JCVdvMk=
+x/?name=3DScreenshot_20220721-184233_Messages.jpg)
+
+ ![](https://support.nysba.org/attachments/token/W6sDN7hnkiXuS5JvS7VcpNIK=
+m/?name=3DScreenshot_20220721-170025_Messages.jpg)
+
+ ![](https://support.nysba.org/attachments/token/xkKPRhCzpzMOS9yonjvnCV2u=
+D/?name=3DScreenshot_20220715-175556_Phone.jpg)
+
+ ![](https://support.nysba.org/attachments/token/kS8KEKhUKNpyVUZgKJMai6zs=
+p/?name=3DScreenshot_20220716-202806_Gallery.jpg)
+
+ ![](https://support.nysba.org/attachments/token/qYtydISyfE65aiTvj1f9vV8d=
+P/?name=3DScreenshot_20220516-005435_Chrome.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/S/ BO DINCER
+
+Attachment(s):
+20220714_144050-1.mp4 - https://support.nysba.org/attachments/token/xAf7N=
+KgETuyKeetfkmMrgiOWv/?name=3D20220714_144050-1.mp4Screenshot_20220721-183=
+956_Adobe Acrobat.jpg - https://support.nysba.org/attachments/token/1f2Et=
+EA2bSJ2Y52bCldQWqdsz/?name=3DScreenshot_20220721-183956_Adobe+Acrobat.jpg=
+Screenshot_20220715-185612_Messages.jpg - https://support.nysba.org/attac=
+hments/token/czs6k5L1wHVLhTO10AejzVPc2/?name=3DScreenshot_20220715-185612=
+_Messages.jpgScreenshot_20220701-104842_Gallery.jpg - https://support.nys=
+ba.org/attachments/token/tgQYHpZ8uTaN5J06d7ExBVxbk/?name=3DScreenshot_202=
+20701-104842_Gallery.jpgScreenshot_20220612-080011_Gallery.jpg - https://=
+support.nysba.org/attachments/token/10YrPSRefUns2PehyDKGWO59F/?name=3DScr=
+eenshot_20220612-080011_Gallery.jpgScreenshot_20220721-183805_Yahoo Mail.=
+jpg - https://support.nysba.org/attachments/token/23J3bpyutu9EOJdeCj9J8vV=
+Mh/?name=3DScreenshot_20220721-183805_Yahoo+Mail.jpgScreenshot_20220716-2=
+02901_Gallery.jpg - https://support.nysba.org/attachments/token/KrdjQKmwJ=
+d35AGgvPKdjD8ErF/?name=3DScreenshot_20220716-202901_Gallery.jpg
+
+--------------------------------
+This email is a service from New York State Bar Association.
+
+
+
+
+
+
+
+
+
+[ERQE79-6P8ER]=
+
+----==_mimepart_62da9677ca99_313fd49e0cb9642540c8
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+
+          <style type=3D"text/css">
+            @media only screen and (max-width: 768px) {
+              .simplified-email-footer .namecard {
+                display: block;
+                min-width: 100%;
+                padding: 0 0 16px 0; }
+
+              .simplified-email-footer .content {
+                padding: 16px; }
+            }
+          </style>
+        </head>
+<body lang=3D"en-us" style=3D"width: 100%!important; margin: 0; padding: =
+0;" xml:lang=3D"en-us">
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;">##- Please type your reply above this =
+line -##</div>
+    <p dir=3D"ltr">You are registered as a CC on this request (37483). Re=
+ply to this email to add a comment to the request.</p><p dir=3D"ltr"></p>=
+<div style=3D"margin-top: 25px" data-version=3D"2"><table width=3D"100%" =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentation">  =
+<tbody><tr>    <td width=3D"100%" style=3D"padding: 15px 0; border-top: 1=
+px dotted #c5c5c5;">      <table width=3D"100%" cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" style=3D"table-layout:fixed;" role=3D"presentatio=
+n">        <tbody><tr>                      <td valign=3D"top" style=3D"p=
+adding: 0 15px 0 15px; width: 40px;">              <img width=3D"40" heig=
+ht=3D"40" alt=3D"" style=3D"height: auto; line-height: 100%; outline: non=
+e; text-decoration: none; -webkit-border-radius: 5px; -moz-border-radius:=
+ 5px; border-radius: 5px;" src=3D"https://secure.gravatar.com/avatar/ec62=
+98320bdcc27312a7876b098a59ad?size=3D40&amp;default=3Dhttps%3A%2F%2Fassets=
+.zendesk.com%2Fimages%2F2016%2Fdefault-avatar-80.png&amp;r=3Dg" />       =
+     </td>                    <td width=3D"100%" style=3D"padding: 0; mar=
+gin: 0;" valign=3D"top">            <p style=3D"font-family:'Lucida Grand=
+e','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-si=
+ze: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0;=
+ color:#1b1d1e;" dir=3D"ltr">                                            =
+    <strong>Lindsay Panzica</strong> (New York State Bar Association)    =
+                                      </p>            <p style=3D"font-fa=
+mily:'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,s=
+ans-serif; font-size: 13px; line-height: 25px; margin-bottom: 15px; margi=
+n-top: 0; padding: 0; color:#bbbbbb;" dir=3D"ltr">              Jul 22, 2=
+022, 09:21 ADT            </p>                                    <div cl=
+ass=3D"zd-comment" dir=3D"auto" style=3D"color: #2b2e2f; line-height: 22p=
+x; margin: 15px 0;"><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: =
+22px; margin: 15px 0;">This request was closed and merged into request <a=
+ href=3D"https://support.nysba.org/hc/requests/37484" target=3D"_blank" r=
+el=3D"ticket">#37484</a> "1-855-835-5324 confirmed".</p><p dir=3D"ltr"></=
+p></div>                                  </td>        </tr>      </tbody=
+></table>    </td>  </tr></tbody></table><p dir=3D"ltr"></p><table width=3D=
+"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentat=
+ion">  <tbody><tr>    <td width=3D"100%" style=3D"padding: 15px 0; border=
+-top: 1px dotted #c5c5c5;">      <table width=3D"100%" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"table-layout:fixed;" role=3D"pres=
+entation">        <tbody><tr>                      <td valign=3D"top" sty=
+le=3D"padding: 0 15px 0 15px; width: 40px;">              <img width=3D"4=
+0" height=3D"40" alt=3D"" style=3D"height: auto; line-height: 100%; outli=
+ne: none; text-decoration: none; -webkit-border-radius: 5px; -moz-border-=
+radius: 5px; border-radius: 5px;" src=3D"https://secure.gravatar.com/avat=
+ar/328e74f190f74a9c234cfc189fcd34ec?size=3D40&amp;default=3Dhttps%3A%2F%2=
+Fassets.zendesk.com%2Fimages%2F2016%2Fdefault-avatar-80.png&amp;r=3Dg" />=
+            </td>                    <td width=3D"100%" style=3D"padding:=
+ 0; margin: 0;" valign=3D"top">            <p style=3D"font-family:'Lucid=
+a Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; =
+font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padd=
+ing: 0; color:#1b1d1e;" dir=3D"ltr">                              <strong=
+>bo.dincer@yahoo.com</strong>                          </p>            <p=
+ style=3D"font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans'=
+,Verdana,Tahoma,sans-serif; font-size: 13px; line-height: 25px; margin-bo=
+ttom: 15px; margin-top: 0; padding: 0; color:#bbbbbb;" dir=3D"ltr">      =
+        Jul 21, 2022, 20:48 ADT            </p>                          =
+          <div class=3D"zd-comment zd-comment-pre-styled" dir=3D"auto"><d=
+iv><img src=3D"https://support.nysba.org/attachments/token/BhAY1b7QMdOg7B=
+aAolphaIJrf/?name=3DScreenshot_20220620-231158_WhatsApp.jpg" style=3D"max=
+-width: 800px; width: 100%;" /><br /></div><div><img src=3D"https://suppo=
+rt.nysba.org/attachments/token/LL8U4QH3c18uwHZ3KDpZZRvsq/?name=3DScreensh=
+ot_20220719-182505_Gallery.jpg" style=3D"max-width: 800px; width: 100%;" =
+/><br /></div><div><img src=3D"https://support.nysba.org/attachments/toke=
+n/QzlYYYMX8XJVIfHclz3VS3WsV/?name=3DScreenshot_20220611-104557_Gallery.jp=
+g" style=3D"max-width: 800px; width: 100%;" /><br /></div><div><img src=3D=
+"https://support.nysba.org/attachments/token/vtjqFKLQyazVj5dWrD1TAsuvn/?n=
+ame=3DScreenshot_20220710-021229_Chrome.jpg" style=3D"max-width: 800px; w=
+idth: 100%;" /><br /></div><div><img src=3D"https://support.nysba.org/att=
+achments/token/DSj6HhArq9xpdTfJlVi3mWobs/?name=3DScreenshot_20220603-0941=
+08_Gallery.jpg" style=3D"max-width: 800px; width: 100%;" /><br /></div><d=
+iv><img src=3D"https://support.nysba.org/attachments/token/he1tItGnRxh4EY=
+Cg5JCVdvMkx/?name=3DScreenshot_20220721-184233_Messages.jpg" style=3D"max=
+-width: 800px; width: 100%;" /><br /></div><div><img src=3D"https://suppo=
+rt.nysba.org/attachments/token/W6sDN7hnkiXuS5JvS7VcpNIKm/?name=3DScreensh=
+ot_20220721-170025_Messages.jpg" style=3D"max-width: 800px; width: 100%;"=
+ /><br /></div><div><img src=3D"https://support.nysba.org/attachments/tok=
+en/xkKPRhCzpzMOS9yonjvnCV2uD/?name=3DScreenshot_20220715-175556_Phone.jpg=
+" style=3D"max-width: 800px; width: 100%;" /><br /></div><div><img src=3D=
+"https://support.nysba.org/attachments/token/kS8KEKhUKNpyVUZgKJMai6zsp/?n=
+ame=3DScreenshot_20220716-202806_Gallery.jpg" style=3D"max-width: 800px; =
+width: 100%;" /><br /></div><div><img src=3D"https://support.nysba.org/at=
+tachments/token/qYtydISyfE65aiTvj1f9vV8dP/?name=3DScreenshot_20220516-005=
+435_Chrome.jpg" style=3D"max-width: 800px; width: 100%;" /><br /></div><b=
+r /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br=
+ /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br =
+/><div>/S/ BO DINCER</div></div><p dir=3D"ltr">                        </=
+p><p style=3D"line-height: 22px; font-family:'Lucida Grande','Lucida Sans=
+ Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; margin-top: 15px; marg=
+in-bottom: 15px; font-size: 14px; color:#333333;" dir=3D"ltr">           =
+   Attachment(s)<br />                              <a href=3D"https://su=
+pport.nysba.org/attachments/token/xAf7NKgETuyKeetfkmMrgiOWv/?name=3D20220=
+714_144050-1.mp4">20220714_144050-1.mp4</a><br />                        =
+      <a href=3D"https://support.nysba.org/attachments/token/1f2EtEA2bSJ2=
+Y52bCldQWqdsz/?name=3DScreenshot_20220721-183956_Adobe+Acrobat.jpg">Scree=
+nshot_20220721-183956_Adobe Acrobat.jpg</a><br />                        =
+      <a href=3D"https://support.nysba.org/attachments/token/czs6k5L1wHVL=
+hTO10AejzVPc2/?name=3DScreenshot_20220715-185612_Messages.jpg">Screenshot=
+_20220715-185612_Messages.jpg</a><br />                              <a h=
+ref=3D"https://support.nysba.org/attachments/token/tgQYHpZ8uTaN5J06d7ExBV=
+xbk/?name=3DScreenshot_20220701-104842_Gallery.jpg">Screenshot_20220701-1=
+04842_Gallery.jpg</a><br />                              <a href=3D"https=
+://support.nysba.org/attachments/token/10YrPSRefUns2PehyDKGWO59F/?name=3D=
+Screenshot_20220612-080011_Gallery.jpg">Screenshot_20220612-080011_Galler=
+y.jpg</a><br />                              <a href=3D"https://support.n=
+ysba.org/attachments/token/23J3bpyutu9EOJdeCj9J8vVMh/?name=3DScreenshot_2=
+0220721-183805_Yahoo+Mail.jpg">Screenshot_20220721-183805_Yahoo Mail.jpg<=
+/a><br />                              <a href=3D"https://support.nysba.o=
+rg/attachments/token/KrdjQKmwJd35AGgvPKdjD8ErF/?name=3DScreenshot_2022071=
+6-202901_Gallery.jpg">Screenshot_20220716-202901_Gallery.jpg</a><br />   =
+                       </p>                                  </td>       =
+ </tr>      </tbody></table>    </td>  </tr></tbody></table></div>
+  </div>
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color: #aaaaaa;&#10;   =
+ margin: 10px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeeeee;=
+">
+    This email is a service from New York State Bar Association. Delivere=
+d by <a href=3D"https://www.zendesk.com/support/?utm_campaign=3Dtext&amp;=
+utm_content=3DNew+York+State+Bar+Association&amp;utm_medium=3Dpoweredbyze=
+ndesk&amp;utm_source=3Demail-notification" style=3D"color:black;" target=3D=
+"_blank">Zendesk</a>
+  </div>
+<span style=3D"color:#FFFFFF" aria-hidden=3D"true">[ERQE79-6P8ER]</span>
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage" style=3D"=
+display:none">  <div itemprop=3D"action" itemscope=3D"" itemtype=3D"http:=
+//schema.org/ViewAction">    <link itemprop=3D"url" href=3D"https://suppo=
+rt.nysba.org/hc/requests/37483" />    <meta itemprop=3D"name" content=3D"=
+View ticket" />  </div></div></body></html>
+
+----==_mimepart_62da9677ca99_313fd49e0cb9642540c8--

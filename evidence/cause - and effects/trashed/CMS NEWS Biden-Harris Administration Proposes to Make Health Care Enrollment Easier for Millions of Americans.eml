@@ -1,0 +1,903 @@
+From - Wed Aug 31 18:53:54 2022
+X-Account-Key: account1
+X-UIDL: APdmxqRcQfVUYw/ViA7BWIyahYQ
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.201
+ by atlas216.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 21:41:28 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.69]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.69 as permitted sender)
+Authentication-Results: atlas216.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 21:41:28 +0000
+X-YMailAVSC: YdSN1W03bBuNz0C.OC6ammVvvCUrRDXNw38eR5Y8rZr7mQw
+ mfs0.oZ4VrgQoIIZP1sksyGdINFDlDcusbiIjj68JphxOGMeaBLcU5KTan3k
+ mv0S6joBsO0P4ACCunqkRcXN3ehgVPcqgZj5NCiivn4gSTrA36iP4as32Z8c
+ uyjS_7JYLfJjf086L2u2_GfyAsr2sxywPwDw_i51CB6Tt__jJ1AA3I8mshaL
+ Hkb7GrdOfJjt0N1GHXk1bcSVeddM8x03yrr6FybgH3FEZL4UbcRIPoyu.TPx
+ 5THrNGfinIGOLLcAYJWIp2YybefflHPNNRugzxg6imdkpecHyCCgReeL1Oxx
+ EAYTMeFQHPLUBmb2HC2sXa8X9BQQWo0N4_gp02jE5HGNB6MTr9ePmwzeX1rH
+ ZdnhEcaMhfOXBMyKDlO5pi0ipUlfAceAW1OzJ._gtGcgAmHmUCVRcQwll5H.
+ 7gtNJmVbicEOFexi6hSZ2CmvJBEqJ9Em7Di1u1yypqIuQyhsFz1wd9.56yaX
+ JtAfE2fZRqKPBaBjkf6CJhBTTqz3u6loCrgcIwpO8kjLaiKCad47o2eFLjXU
+ 05zqa3Mq4uAulA88c0xcevN5p2PjEBMqbNtofZVe0usxP36HwDvgSyllXvYe
+ m5cXAEWENF1SZ1cQXvmG06E95a_bbJKPWMPBBINfdUs4mrgIrZ9ut4W7FwgQ
+ fnvsXHZhAMQ61tHhD_L0YNxw2RTjAmkTgo5TYBo35_VblJseXyLi_xsfAg1m
+ _BXMSfnZcmk0hWhPh.1SZvCArxpMQB6HE_US.HQHBuWVhpPzj_V7.jCT_TL7
+ Rr_ArDm3RN.TnLlPcghwSIVocpMIuy1.axoHIvsIvWyobjAW76woQM2K_HLe
+ FLU8e4aEV7U25B8MGGAKuKRN7Jr5KNebDQIlps5qRCv6u1KD70YeyHq0W9Eh
+ ANuaJndWK.cjAFMi.JhJKP2D52GzkSt7ZzlFv0SEaygJ8BVhPhE8eS1XHrjS
+ lJgNQApjp8QLgrgU2vgx3fXrb9Qteeck3AmThlipvZIbwpv.ixnoYcvHnIQZ
+ WErodylcYIc_L2IbvJj4eX7x3LttRBcdk6Hj5WI6k1mF.YalCmZDNLSj8EYW
+ PcODNb2NQmS8cUEpkRUhbnaV_Un2fWNV94t61Y_5.Z7kwCEjhrSsWwKG75Pw
+ kLafl9ZyMblYgwHJYth4SRFjWSJPlu4HL7fNC5xS8D2bMWWy.lmo8C7icTep
+ n33LLNEoRpx5thhreDMprg0WYvkqsizToDiIYSo9l0A2dQGYZsBA.pBId0NF
+ 6CHWfBRy2nYhkoP6J5tDkeqoVpoumljAZK5Je6pp6773NxkejEWmxCIPm1GR
+ xj30aIffd1b84JRn48.jQNtZp7i.HPTZkM4_jDewApVRgTcDiAQr1pxlQIat
+ ffbkFuDFbKPY-
+X-YMailISG: n4LICtoWLDu6yl2q7Z1srkkmX3XeISU_LH4WcVZY.3acVLWz
+ n1MEzpPB7p3POWXocwVr2I.HTRFKspS6KRRUL_qcgVdUmf_UuOLt1GDdabhh
+ iXrQgS9_UU4g9p8yEzXO6ZVTvw6_.K5tgj1dgqRBzxf7vuCW4EDLDZc1r5na
+ ci._wK0bg16gsnAEuIayqqsbc_XDMeijmj2bWtVnoFTfg5rgfiV9clHUxvHD
+ YYoq.sLuG8BePLwqM_Wqgm6eE6tHoxIhVEwuQX93wllZzFdaCa4hnKrGzykL
+ fzKgxq3en3erOplb3bFI37mKNzqLvAmI2drmXGGNKZ.LTrTXfkVeVENbIld5
+ Qvd18vUqCd9T73YzB85tLRmX.8pNOIkqeHIbXi.Sbwr08Vixw9JTG_uSdCYp
+ r21_Snn7b_8MXyD7JiTtiYsBLUWh.KeGXb10HzdGjZtuENcATxRZlqw_F_oE
+ fgeSQ9RWyAsWcp0Yc1v6tHEdg_nYiCAuwBcJRle2PUnk5Ot48fgxygFVbKnB
+ UpOEPZ4teqMup3vcI3FLzmPPD4opX3AenSSi4uCYpvCQ3GDeHbNgMD_3TqI0
+ 60xPIcOGP38Mwgnq2UtrxVMDDwoTiO6sM.lxKR_mK5VFZbbWamJRe8u8ePQK
+ 1hbCdNod.khiaVpZRfjGKxF2Zi.4Uve9RmsJk9l8GQe8_ULLAfNkkx8J798v
+ zYXIT1xGWLv0aSgHXBb6F879GGDM406lLeOWX5fW8kqlSEwIrU5cuqltlSsQ
+ qb_Y.zxzd6J2Gun65gmn5AMGfee0MxX_hJsjFWtzAuHJ_DsAIe9NFSrMgQEM
+ TR.p0mWFcZBG8tzIpynLcilY_hrkX5x6Pg6MLsIu3AT5GRNrAFAkWNX.ALn7
+ NM0u6Uj5HrlMOKyonrZvDxsZESnSq7lODUlKHbtnoTkw2mmENYtB8hFWpL2_
+ cGyVQpdheRWNW2K848rBq1ME2harCMA2kYwPW3EWNQdkzRvH1v82ylWdtmh1
+ Cxy9QaZ12ity.fEL_YZP7MdcAjNK3DVd_zBzwt5bztJR98vRTAvZFJyU9ZWV
+ W_0DDLr1_0jOYBCJvPLg3zTqPSFCHaPMcaH6zOaxh92mrWdZow1OnS7YM5el
+ HiP5z6g_qRcSAHHU5Z0HdDm.L7uIEgjvD3pw6lSd.BpxLEOZE_1SN0wejmeP
+ Ns3GCI3y1VQa_PAvh6fDzzxrM56ow.sqFw--
+Received: from 209.134.158.69 (EHLO mailer158069.service.govdelivery.com)
+ by 10.197.39.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 21:41:28 +0000
+Received: from gepdp-smeds1-5.systems.dc.gdi ([10.5.36.52])
+	by mailer158069.service.govdelivery.com (-); Wed, 31 Aug 2022 21:41:27 +0000
+X-VirtualServer: VSG001, mailer158069.service.govdelivery.com, 10.5.36.141
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837671::20220831.63056361::1001::MDB-PRD-BUL-20220831.63056361::ms60710444266@yahoo.com::60643_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=vJV0
+	xisJYbBGW2Z2hTi6jF4uS0OKVpHVHJwzgDoYhaU=; b=FjjKeT3rqOdeMHTQTAk7
+	MaDKKSGT9gwmrnSyNYmO7Dr1Q1SSofHPwThgiL9xc/BX2kI0pfaia9SxyxVJJM0d
+	mx0a1oKuex0qWIS8v84XJfqCFhns2S7aiSpVy7e/bXxl/062uAvAl15oj0Bas5Ko
+	hV3euxCkNVrCEtmjpgbQn8J41LS38LdLvEYmMqu86/kl0ZeNrmKCCXl0/6cXNVdJ
+	3R0bwQOQZbHw2xQY25+ldzqcK4m3LSDssCwHf75N4FUuAC5aK6HKqAyJ1k9XTbZ2
+	Yj2sOJDJaUXbgdSsmohOX5SEwVKyXZs0sDB0wyv8YwpIliQPNYf7UCOuzfhLbptn
+	gA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_3C3_B891_0E0470AC.5D6F0455"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMItsl85eU9YKLikgiuSH39rc+2itCAGxGawJnpNExMX17r3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837671.60643@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8F8ZJJ8FIXJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?CMS_NEWS:_Biden-Harris_Administration_Proposes_to_Make_?= =?US-ASCII?Q?Health_Care_Enrollment_Easier_for_Millions_of_Americans?=
+Date: Wed, 31 Aug 2022 21:41:27 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 44742
+
+
+------=_NextPart_3C3_B891_0E0470AC.5D6F0455
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services =20
+=20
+Medicare-Medicaid Coordination Office =20
+=20
+
+CMS NEWS
+________________________________________________________________________
+
+FOR IMMEDIATE RELEASE
+
+August 31, 2022=A0
+
+Contact: CMS Media Relations
+
+CMS Media Inquiries [ https://gcc02.safelinks.protection.outlook.com/?url=
+=3Dhttp%3A%2F%2Flink.mediaoutreach.meltwater.com%2Fls%2Fclick%3Fupn%3D2Nq=
+viemW3YF4lD4W3GVIkk2yD-2BYv9nW4iZkPIOe94p-2FWkzYBL7qhpGfYnpHwKhk99Lj69x3K=
+Q7ht6-2F0eIkuH819rjMdyqSSkYx9Rvdv5hwFef-2FC-2BMp14zD0zmINczeFLQbE2Xf1XiO-=
+2BmzesjQglzBw9FW1hc06Oyn-2FyMspK3YYhDUbWPWINxGxVh-2BfJ-2FtHbbF92A-2Brgzhp=
+ms4k56b0-2BUfmf6vqDAZ9dYUKTLUwfSpslOGc4PlJp94N-2BPB4X5Tw1C6aztIKgM07Un-2B=
+isFDTN4Me3B6Z3TNAOhIA8iR3USraiReqcMt7DgIkYMoBT4LHCj8Z-2BEbgTQv1JhVrOR4ePz=
+j4r7fAixOCWj0HJPpJIhsB95YbkAvUac7EzPAkaLuKiSKmCbyF6LwOd8B1u09JuyVt-2FBR4x=
+LWs3HFUntr7MnYuywY4giLDk9kjyCu52v66MiqOoRClY4ar-2FlZ6lJNb28MvBrw7spa1uv2v=
+Rb64llYh2hmGbk-2FW3qX3o8iiZlcFPARZrZNc-2FQEPXS-2B85sTeLqni4nrjRnTRkwzxOf5=
+tMwXmYDTr6-2B1uGxOcCugPKJWL7xAQPI1prprOn1xhnxa2M4meqOch5a6eKWgsCMaBWHuVAD=
+pbNu9EWVBUqK3sAgnAMbBgiTum5sIk9F1W3dlP2EHHm9PcRSA-2BLrAXvPayD-2F-2BkYKM82=
+CiCg59marVCJYOewoGbsduS8fFqb6trI771mY5aOQ13U-2F6j-2FeoQuKbaf-2BkRd3Ajhuqb=
+3kMiEpVO0CYAdFs-2BgpWzrG4-2Fl-2BSy3ZR2YoBNkvbyHv3EE3-2BcgGvzmAEONH9LK0AIU=
+8m3aBg3zB1fpI1sWI7JUe9xn01bhuAZjF90vFlO4pEBBY1eOg2u5r79VcyTEmRnh2c5jU3vnh=
+vjtuMzbGuBfdwF4lRKyX4HfyBBU4pATCK5s0yuxDbu4q-2B29XFUbswI-2Bukjvb-2FoaURQr=
+sbGrtXXzzBaDkr5c-2B3Vbc0GuPa077bc-2FsNHptOHJR1NEmJYS7-2F16Ja3GxESXdxMb7xa=
+Kinhv0LP8UDEL0P6TfJtpaA8HuiwH-2BfG1FlzIaZ-2BPSdfdcnXbKFWJKQ6LuRdYXgvBzAQw=
+0bmcIOK1qk96Xtw-2BilLrJG2-2FNpKJHeM5slfILdjiyq5IEPk35WY45AHlbUJlpWw1o8voS=
+S60sJvncbXwhBo5gpLnu4jCOIflN6Opio434NKJbG9IkCpM8sqWGK2vEN8Du3KdOjQ23Z9SQS=
+1xtzBV38uaQBQiVV3If-2Bl2qToZNd8u1eH1dFVP6nDz5dkbeSFTR4PIKPFNSbJZNug-3D-3D=
+Rmac_bizJ3rQjIh9-2F40eorGOn5bn68yItZeSpT-2FnUxjpYtkSg6ZEsNBDtnZPLwnxVKNfb=
+aIr3OsoavlLkeWrpBzoD0j6-2FHsSLoRDosLg4-2F83UM8-2FIzWWA7Yacw7h5AN0KZrmggH7=
+fQ2aDQqP83leo-2BaQ2eWawhh-2BeSihAZyumL5xZONl1EtcNHfE4AtnVCJYvGabvuw-2Bunf=
+gI1SjpO-2BpTe9XtU4HQq8KqpM3Q5Jacy8bf-2Fa0-2BzlUeDKemyq8NNk7WH-2B0AqBW8ESC=
+DDftDPmir26xPUDg0ciPl9Z5egBZfG2LhS82ZnFEdANKQekp-2B4NkeeEYDL7GjluM0WDWsTc=
+-2BY-2FiZrqOSm4QCjDURCJTu3nzJJQfhC4VOcmr-2BW3HLR2p3ADJeoMYfQcFmE5lCBLDJMw=
+tutiQ-3D-3D&data=3D05%7C01%7CNicole.Perry%40cms.hhs.gov%7Cad9a0c62defd482=
+7fd2708da8b94a7f4%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C637 ]
+
+=A0
+
+*Biden-Harris Administration Proposes to Make Health Care Enrollment Easi=
+er for Millions of Americans*
+
+"Proposed rule would reduce red tape and streamline administrative proces=
+ses to help children, older adults, people with disabilities, and others =
+from underserved communities connect to health care coverage through Medi=
+caid and CHIP=A0"
+
+Today, in a landmark effort to improve access to health care for millions=
+ of Americans, the Biden-Harris Administration proposed a new rule to ove=
+rhaul the enrollment processes for Medicaid, the Children=92s Health Insu=
+rance Program (CHIP), and Basic Health Programs (BHPs), and eliminate arb=
+itrary coverage caps for children in CHIP. In a Notice of Proposed Rule M=
+aking (NPRM), the Department of Health and Human Services (HHS), through =
+the Centers for Medicare & Medicaid Services (CMS), is working to reduce =
+red tape and simplify application and verification processes to make it e=
+asier for children, older adults, and people with lower incomes with Medi=
+caid and CHIP coverage to enroll in and retain vital health insurance.=A0=
+This proposed rule follows President Biden=92s executive orders in April =
+2022 [ https://www.whitehouse.gov/briefing-room/presidential-actions/2022=
+/04/05/executive-order-on-continuing-to-strengthen-americans-access-to-af=
+fordable-quality-health-coverage/ ] and January 2021 [ https://www.whiteh=
+ouse.gov/briefing-room/presidential-actions/2021/01/28/executive-order-on=
+-strengthening-medicaid-and-the-affordable-care-act/ ] directing federal =
+agencies to take action to expand affordable, quality health coverage, in=
+cluding by strengthening Medicaid and the Affordable Care Act.
+
+Under the Biden-Harris Administration, thanks to the American Rescue Plan=
+ and other Administration efforts, more Americans than ever before have h=
+ealth insurance coverage. Today=92s proposed rule will build on these eff=
+orts and support President Biden=92s calls to strengthen=A0Medicaid [ htt=
+ps://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.whit=
+ehouse.gov%2Fbriefing-room%2Fpresidential-actions%2F2021%2F01%2F28%2Fexec=
+utive-order-on-strengthening-medicaid-and-the-affordable-care-act%2F&data=
+=3D05%7C01%7CElizabeth.Smalley%40hhs.gov%7C4c09476ac9014b448dcf08da892d81=
+37%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C637973125795916212%7CUnkn=
+own%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJ=
+XVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DYMr6E%2FigbeTvYyvYOWC5Rs0bKhJK9kwv9%2=
+F1N08NMScY%3D&reserved=3D0 ] and=A0access [ https://gcc02.safelinks.prote=
+ction.outlook.com/?url=3Dhttps%3A%2F%2Fwww.whitehouse.gov%2Fbriefing-room=
+%2Fpresidential-actions%2F2022%2F04%2F05%2Fexecutive-order-on-continuing-=
+to-strengthen-americans-access-to-affordable-quality-health-coverage%2F&d=
+ata=3D05%7C01%7CElizabeth.Smalley%40hhs.gov%7C4c09476ac9014b448dcf08da892=
+d8137%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C637973125796072443%7CU=
+nknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwi=
+LCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3D3EGS7tkGx3Ky3FLNQdwdpMFG0zzEJjMz%2=
+BWN3ezSx%2FP0%3D&reserved=3D0 ]=A0to affordable, high-quality health cove=
+rage.
+
+=93Medicaid and CHIP provide essential health care to millions of familie=
+s across the country, and we are making it easier to enroll children and =
+others in health insurance and to maintain coverage,=94 said HHS Secretar=
+y Xavier Becerra. =93With these steps, we=92re delivering on our promise =
+to make high-quality health care more accessible and affordable for all A=
+mericans.=94
+
+=93CMS is acting today to protect and strengthen health care coverage for=
+ the more than 88 million people enrolled in Medicaid, CHIP, and the Basi=
+c Health Program,=94 CMS Administrator Chiquita Brooks-LaSure said. =93Th=
+is proposed rule will ensure that these individuals and families, often f=
+rom underserved communities, can access the health care and coverage to w=
+hich they are entitled =96 a foundational principle of health equity. In =
+addition, this proposed rule will help more people pay their Medicare pre=
+miums by making it easier for them to enroll in the Medicare Savings Prog=
+rams.=94
+
+This rule, if finalized, would standardize commonsense eligibility and en=
+rollment policies, such as limiting renewals to once every 12 months, all=
+owing applicants 30 days to respond to information requests, requiring pr=
+epopulated renewal forms, and establishing clear, consistent renewal proc=
+esses across states.
+
+Medicaid and CHIP are critical sources of health care insurance for famil=
+ies across the country. Medicaid is the single largest health coverage pr=
+ogram in the U.S., covering nearly one in four Americans and providing ro=
+bust benefits with little to no out of pocket costs. Together, Medicaid a=
+nd CHIP provide 51% of our nation=92s children and youth =96 more than 40=
+ million children =96 access to quality, affordable health care. However,=
+ enrollment in these programs can be jeopardized because of cumbersome ap=
+plication or renewal processes and lack of uniformity in states across th=
+e country. This NPRM takes aim at those concerns, and includes a suite of=
+ proposed options to provide easier access to and retention in health car=
+e coverage.=A0
+
+In a major transformation to the programs and a historic win for American=
+ families, the Biden-Harris Administration is proposing to=A0end lifetime=
+ benefit limits in CHIP and allow children to enroll in coverage right aw=
+ay by eliminating pre-enrollment waiting periods, consistent with nearly =
+all other health coverage. The proposed rule would also permit states to =
+transfer children=92s eligibility directly from Medicaid to CHIP when a f=
+amily=92s income rises, preventing unnecessary redetermination processes =
+from causing lapses in coverage.=A0
+
+The NPRM proposes simplifications that would increase enrollment and rete=
+ntion for people age 65 and older, as well as those who have blindness or=
+ a disability. The proposed rule, if finalized, would streamline the appl=
+ication process for these programs by removing unnecessary administrative=
+ hurdles for people who do not have =96 but are eligible for =96 Medicaid=
+, CHIP, or BHP coverage. These individuals are often eligible for Medicai=
+d, but are not yet enrolled or have trouble staying enrolled because of s=
+ystemic barriers, potentially missing life-saving coverage and care becau=
+se of burdensome processes.=A0
+
+The proposed rule also includes policies that would improve access to pro=
+grams that help make health coverage more affordable for older adults and=
+ individuals with disabilities. It offers ways to simplify enrollment for=
+ Medicare Savings Programs [ https://www.cms.gov/files/document/navigatin=
+g-medicare-savings-program-msp-eligibility-experience-journey-map.pdf ], =
+which permit Medicaid to pay Medicare premiums or cost sharing for Medica=
+re beneficiaries with lower incomes. The proposed rule would also allow f=
+or automatic enrollment in Medicare Savings Programs for certain individu=
+als receiving the Social Security Administration=92s Supplemental Securit=
+y Income =96 a key goal for streamlining connections to care for those wh=
+o need them most.
+
+A=A0recent study [ https://gcc02.safelinks.protection.outlook.com/?url=3D=
+https%3A%2F%2Fwww.macpac.gov%2Fwp-content%2Fuploads%2F2017%2F08%2FMedicar=
+e-Savings-Programs-New-Estimates-Continue-to-Show-Many-Eligible-Individua=
+ls-Not-Enrolled.pdf&data=3D05%7C01%7CElizabeth.Smalley%40hhs.gov%7C4c0947=
+6ac9014b448dcf08da892d8137%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C6=
+37973125796072443%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2l=
+uMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DcZnpVuEDfj9JH=
+gXruUi4UfZRku9v8psIdBEVv4rDDQM%3D&reserved=3D0 ]=A0estimated that only ab=
+out half of eligible low-income individuals enrolled in Medicare were als=
+o enrolled in Medicare Savings Programs. This proposed rule would automat=
+ically consider older adults for Medicare Savings Programs enrollment whe=
+n they apply for low-income subsidies to help pay for Part D Medicare cov=
+erage, reducing the burdens of both time and expense by eliminating the n=
+eed to complete multiple applications.
+
+Lastly, proper documentation is critical to enabling appropriate oversigh=
+t, identifying errors in state policies and operations, and reducing inco=
+nsistent and outdated practices across states, which contribute to improp=
+er payments. This proposed rule would update and standardize recordkeepin=
+g requirements for states, which would help to address deficiencies in ou=
+tdated state recordkeeping systems and improve program integrity.=A0
+
+For more information on the NPRM, consult the fact sheet available at=A0h=
+ttps://www.cms.gov/newsroom/fact-sheets/streamlining-eligibility-enrollme=
+nt-notice-propose-rulemaking-nprm.
+
+To review or comment on the NPRM during its 60-day public comment period,=
+ visit the Federal Register [ https://www.federalregister.gov/public-insp=
+ection/current ].
+
+###
+
+Get CMS news at cms.gov/newsroom [ http://link.email.dynect.net/link.php?=
+DynEngagement=3Dtrue&H=3DWAA0HYy4enWklLGLVOCoftvRiKxkwcx7028A%2BNZlWSzSEa=
+UD3cyAX035GTwXuYTIXFDieu0AW3NISgPnFlGO8TxKNlBMRZHoDOZ%2F7FoGDJBjgSzNyRQV4=
+ZXQuHXfeyeK&G=3D0&R=3Dhttps%3A%2F%2Fwww.cms.gov%2FNewsroom%2FNewsroom-Cen=
+ter.html&I=3D20171205171347.00000283d32a%40mail6-33-usnbn1&X=3DMHwxMDQ2Nz=
+U4OjVhMjZkM2FjZGNhM2QwMGY5NmZmNjA2Mjs%3D&S=3DF4PFefpCWAIXfcE1-foA4aF3Z5qz=
+U2JMir53nncUzAk ], sign up for CMS news via email [ http://link.email.dyn=
+ect.net/link.php?DynEngagement=3Dtrue&H=3DWAA0HYy4enWklLGLVOCoftvRiKxkwcx=
+7028A%2BNZlWSzSEaUD3cyAX035GTwXuYTIXFDieu0AW3NISgPnFlGO8TxKNlBMRZHoDOZ%2F=
+7FoGDJBjgSzNyRQV4ZXQuHXfeyeK&G=3D0&R=3Dhttps%3A%2F%2Fpublic.govdelivery.c=
+om%2Faccounts%2FUSCMS%2Fsubscriber%2Fnew%3Ftopic_id%3DUSCMS_610&I=3D20171=
+205171347.00000283d32a%40mail6-33-usnbn1&X=3DMHwxMDQ2NzU4OjVhMjZkM2FjZGNh=
+M2QwMGY5NmZmNjA2Mjs%3D&S=3DyKSYEB9wWjKz90OM4j3cpWtIMUGdYgLHhDQ4a8cDXTM ] =
+and follow CMS on Twitter @CMSgov [ http://link.email.dynect.net/link.php=
+?DynEngagement=3Dtrue&H=3DWAA0HYy4enWklLGLVOCoftvRiKxkwcx7028A%2BNZlWSzSE=
+aUD3cyAX035GTwXuYTIXFDieu0AW3NISgPnFlGO8TxKNlBMRZHoDOZ%2F7FoGDJBjgSzNyRQV=
+4ZXQuHXfeyeK&G=3D0&R=3Dhttps%3A%2F%2Ftwitter.com%2FCMSGov&I=3D20171205171=
+347.00000283d32a%40mail6-33-usnbn1&X=3DMHwxMDQ2NzU4OjVhMjZkM2FjZGNhM2QwMG=
+Y5NmZmNjA2Mjs%3D&S=3DQzuR5f2SC_PCPUiFWOvDtEQwzu5IQetkxhE4vLzn2xo ]
+
+=20
+=20
+Medicare-Medicaid Coordination Office =20
+=20
+=20
+=20
+body .abe-column-block { min-height: 5px; } _____________________________=
+___________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_3C3_B891_0E0470AC.5D6F0455
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    CMS NEWS: Biden-Harris Administration Proposes to Make Health =
+Care Enrollment Easier for Millions of Americans
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 40=
+0px !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 5px 5px =
+5px !important; }
+table#yahoo #main-header .govd_template_image { max-width: 480px !importa=
+nt; width: 100% !important; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #EEEEEE; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#EEEE=
+EE"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"view-in-browser" width=3D"100%" data-govdstyle=3D"all" data-gov=
+dtitle=3D"View in Browser" class=3D"thin" style=3D"padding: 10px;">
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFF=
+; border-collapse: collapse;">
+<tr>
+<td id=3D"header-bg" data-govdstyle=3D"all" data-govdtitle=3D"Header Back=
+ground" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFFFFF">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2019/06/2630678/esrd_original.jpg" style=3D=
+"width: 600px; height: auto !important; max-height: auto !important; bord=
+er: none;" alt=3D"Centers for Medicare &amp; Medicaid Services" width=3D"=
+600" height=3D"83">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td id=3D"date-bg" data-govdstyle=3D"all" data-govdtitle=3D"Date Backgrou=
+nd" style=3D"background-color: #FFFFFF; padding: 0px; border: none;" bgco=
+lor=3D"#FFFFFF">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-date" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Date" style=3D"background-color: #dddddd; padding: 10px 15px;" b=
+gcolor=3D"#dddddd">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2020/02/3148737/medicare-medicaidcoordina=
+tionoffice_original.jpg" style=3D"width: 570px; height: auto !important; =
+max-height: auto !important; border: none;" alt=3D"Medicare-Medicaid Coor=
+dination Office" width=3D"570" height=3D"80">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"padding: 15px;">
+<h1 class=3D"govd_header" style=3D"line-height: 1.1; font-weight: bold; f=
+ont-family: arial, helvetica, sans-serif; margin: 0 0 10px;">CMS NEWS</h1=
+>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">FOR IMMED=
+IATE RELEASE</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">August 31=
+, 2022=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Contact: =
+CMS Media Relations</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left"><a href=3D=
+"https://gcc02.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Flink.=
+mediaoutreach.meltwater.com%2Fls%2Fclick%3Fupn%3D2NqviemW3YF4lD4W3GVIkk2y=
+D-2BYv9nW4iZkPIOe94p-2FWkzYBL7qhpGfYnpHwKhk99Lj69x3KQ7ht6-2F0eIkuH819rjMd=
+yqSSkYx9Rvdv5hwFef-2FC-2BMp14zD0zmINczeFLQbE2Xf1XiO-2BmzesjQglzBw9FW1hc06=
+Oyn-2FyMspK3YYhDUbWPWINxGxVh-2BfJ-2FtHbbF92A-2Brgzhpms4k56b0-2BUfmf6vqDAZ=
+9dYUKTLUwfSpslOGc4PlJp94N-2BPB4X5Tw1C6aztIKgM07Un-2BisFDTN4Me3B6Z3TNAOhIA=
+8iR3USraiReqcMt7DgIkYMoBT4LHCj8Z-2BEbgTQv1JhVrOR4ePzj4r7fAixOCWj0HJPpJIhs=
+B95YbkAvUac7EzPAkaLuKiSKmCbyF6LwOd8B1u09JuyVt-2FBR4xLWs3HFUntr7MnYuywY4gi=
+LDk9kjyCu52v66MiqOoRClY4ar-2FlZ6lJNb28MvBrw7spa1uv2vRb64llYh2hmGbk-2FW3qX=
+3o8iiZlcFPARZrZNc-2FQEPXS-2B85sTeLqni4nrjRnTRkwzxOf5tMwXmYDTr6-2B1uGxOcCu=
+gPKJWL7xAQPI1prprOn1xhnxa2M4meqOch5a6eKWgsCMaBWHuVADpbNu9EWVBUqK3sAgnAMbB=
+giTum5sIk9F1W3dlP2EHHm9PcRSA-2BLrAXvPayD-2F-2BkYKM82CiCg59marVCJYOewoGbsd=
+uS8fFqb6trI771mY5aOQ13U-2F6j-2FeoQuKbaf-2BkRd3Ajhuqb3kMiEpVO0CYAdFs-2BgpW=
+zrG4-2Fl-2BSy3ZR2YoBNkvbyHv3EE3-2BcgGvzmAEONH9LK0AIU8m3aBg3zB1fpI1sWI7JUe=
+9xn01bhuAZjF90vFlO4pEBBY1eOg2u5r79VcyTEmRnh2c5jU3vnhvjtuMzbGuBfdwF4lRKyX4=
+HfyBBU4pATCK5s0yuxDbu4q-2B29XFUbswI-2Bukjvb-2FoaURQrsbGrtXXzzBaDkr5c-2B3V=
+bc0GuPa077bc-2FsNHptOHJR1NEmJYS7-2F16Ja3GxESXdxMb7xaKinhv0LP8UDEL0P6TfJtp=
+aA8HuiwH-2BfG1FlzIaZ-2BPSdfdcnXbKFWJKQ6LuRdYXgvBzAQw0bmcIOK1qk96Xtw-2BilL=
+rJG2-2FNpKJHeM5slfILdjiyq5IEPk35WY45AHlbUJlpWw1o8voSS60sJvncbXwhBo5gpLnu4=
+jCOIflN6Opio434NKJbG9IkCpM8sqWGK2vEN8Du3KdOjQ23Z9SQS1xtzBV38uaQBQiVV3If-2=
+Bl2qToZNd8u1eH1dFVP6nDz5dkbeSFTR4PIKPFNSbJZNug-3D-3DRmac_bizJ3rQjIh9-2F40=
+eorGOn5bn68yItZeSpT-2FnUxjpYtkSg6ZEsNBDtnZPLwnxVKNfbaIr3OsoavlLkeWrpBzoD0=
+j6-2FHsSLoRDosLg4-2F83UM8-2FIzWWA7Yacw7h5AN0KZrmggH7fQ2aDQqP83leo-2BaQ2eW=
+awhh-2BeSihAZyumL5xZONl1EtcNHfE4AtnVCJYvGabvuw-2BunfgI1SjpO-2BpTe9XtU4HQq=
+8KqpM3Q5Jacy8bf-2Fa0-2BzlUeDKemyq8NNk7WH-2B0AqBW8ESCDDftDPmir26xPUDg0ciPl=
+9Z5egBZfG2LhS82ZnFEdANKQekp-2B4NkeeEYDL7GjluM0WDWsTc-2BY-2FiZrqOSm4QCjDUR=
+CJTu3nzJJQfhC4VOcmr-2BW3HLR2p3ADJeoMYfQcFmE5lCBLDJMwtutiQ-3D-3D&data=3D05=
+%7C01%7CNicole.Perry%40cms.hhs.gov%7Cad9a0c62defd4827fd2708da8b94a7f4%7Cd=
+58addea50534a808499ba4d944910df%7C0%7C0%7C637" style=3D"color: #0000EE; t=
+ext-decoration: underline; -ms-word-break: break-all; word-break: break-w=
+ord; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">CMS Media=
+ Inquiries</a></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">=A0</p>
+<p style=3D"text-align: center; line-height: 1.4; color: #000000; font-fa=
+mily: helvetica; font-size: 13px; margin: 10px 0;" align=3D"center"><stro=
+ng>Biden-Harris Administration Proposes to Make Health Care Enrollment Ea=
+sier for Millions of Americans</strong></p>
+<p style=3D"text-align: center; line-height: 1.4; color: #000000; font-fa=
+mily: helvetica; font-size: 13px; margin: 10px 0;" align=3D"center"><em>P=
+roposed rule would reduce red tape and streamline administrative processe=
+s to help children, older adults, people with disabilities, and others fr=
+om underserved communities connect to health care coverage through Medica=
+id and CHIP=A0</em></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Today, in=
+ a landmark effort to improve access to health care for millions of Ameri=
+cans, the Biden-Harris Administration proposed a new rule to overhaul the=
+ enrollment processes for Medicaid, the Children=92s Health Insurance Pro=
+gram (CHIP), and Basic Health Programs (BHPs), and eliminate arbitrary co=
+verage caps for children in CHIP. In a Notice of Proposed Rule Making (NP=
+RM), the Department of Health and Human Services (HHS), through the Cente=
+rs for Medicare &amp; Medicaid Services (CMS), is working to reduce red t=
+ape and simplify application and verification processes to make it easier=
+ for children, older adults, and people with lower incomes with Medicaid =
+and CHIP coverage to enroll in and retain vital health insurance.=A0This =
+proposed rule follows President Biden=92s executive orders in <a href=3D"=
+https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsIn=
+VyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cmw=
+iOiJodHRwczovL3d3dy53aGl0ZWhvdXNlLmdvdi9icmllZmluZy1yb29tL3ByZXNpZGVudGlh=
+bC1hY3Rpb25zLzIwMjIvMDQvMDUvZXhlY3V0aXZlLW9yZGVyLW9uLWNvbnRpbnVpbmctdG8tc=
+3RyZW5ndGhlbi1hbWVyaWNhbnMtYWNjZXNzLXRvLWFmZm9yZGFibGUtcXVhbGl0eS1oZWFsdG=
+gtY292ZXJhZ2UvIn0.HSYJCypLmhnQs08nzEBDptopsiv1E-NdD9d21v8DBTQ/s/260178835=
+8/br/143361505304-l" style=3D"color: #0000EE; text-decoration: underline;=
+ -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none=
+; -moz-hyphens: none; hyphens: none;">April 2022</a> and <a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy53aGl0ZWhvdXNlLmdvdi9icmllZmluZy1yb29tL3ByZXNpZGVudGlhbC1hY=
+3Rpb25zLzIwMjEvMDEvMjgvZXhlY3V0aXZlLW9yZGVyLW9uLXN0cmVuZ3RoZW5pbmctbWVkaW=
+NhaWQtYW5kLXRoZS1hZmZvcmRhYmxlLWNhcmUtYWN0LyJ9.jdRcWVh7t79t5BRENBEN7UJucx=
+rJlqR10nrge3hiNpU/s/2601788358/br/143361505304-l" style=3D"color: #0000EE=
+; text-decoration: underline; -ms-word-break: break-all; word-break: brea=
+k-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Januar=
+y 2021</a> directing federal agencies to take action to expand affordable=
+, quality health coverage, including by strengthening Medicaid and the Af=
+fordable Care Act.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Under the=
+ Biden-Harris Administration, thanks to the American Rescue Plan and othe=
+r Administration efforts, more Americans than ever before have health ins=
+urance coverage. Today=92s proposed rule will build on these efforts and =
+support President Biden=92s calls to strengthen=A0<a href=3D"https://lnks=
+.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMj=
+pjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cmwiOiJodHRwczo=
+vL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb2suY29tLz91cmw9aHR0cHMlM0El=
+MkYlMkZ3d3cud2hpdGVob3VzZS5nb3YlMkZicmllZmluZy1yb29tJTJGcHJlc2lkZW50aWFsL=
+WFjdGlvbnMlMkYyMDIxJTJGMDElMkYyOCUyRmV4ZWN1dGl2ZS1vcmRlci1vbi1zdHJlbmd0aG=
+VuaW5nLW1lZGljYWlkLWFuZC10aGUtYWZmb3JkYWJsZS1jYXJlLWFjdCUyRiZkYXRhPTA1JTd=
+DMDElN0NFbGl6YWJldGguU21hbGxleSU0MGhocy5nb3YlN0M0YzA5NDc2YWM5MDE0YjQ0OGRj=
+ZjA4ZGE4OTJkODEzNyU3Q2Q1OGFkZGVhNTA1MzRhODA4NDk5YmE0ZDk0NDkxMGRmJTdDMCU3Q=
+zAlN0M2Mzc5NzMxMjU3OTU5MTYyMTIlN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2=
+lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4=
+wJTNEJTdDMzAwMCU3QyU3QyU3QyZzZGF0YT1ZTXI2RSUyRmlnYmVUdll5dllPV0M1UnMwYkto=
+Sks5a3d2OSUyRjFOMDhOTVNjWSUzRCZyZXNlcnZlZD0wIn0.vhozNMjtNaLrpjw5emETpwtbo=
+Yx0G6RRk68FuOdzfWQ/s/2601788358/br/143361505304-l" style=3D"color: #0000E=
+E; text-decoration: underline; -ms-word-break: break-all; word-break: bre=
+ak-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Medic=
+aid</a> and=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMj=
+A4MzEuNjMwNTYzNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9=
+uLm91dGxvb2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZ3d3cud2hpdGVob3VzZS5nb3YlMkZi=
+cmllZmluZy1yb29tJTJGcHJlc2lkZW50aWFsLWFjdGlvbnMlMkYyMDIyJTJGMDQlMkYwNSUyR=
+mV4ZWN1dGl2ZS1vcmRlci1vbi1jb250aW51aW5nLXRvLXN0cmVuZ3RoZW4tYW1lcmljYW5zLW=
+FjY2Vzcy10by1hZmZvcmRhYmxlLXF1YWxpdHktaGVhbHRoLWNvdmVyYWdlJTJGJmRhdGE9MDU=
+lN0MwMSU3Q0VsaXphYmV0aC5TbWFsbGV5JTQwaGhzLmdvdiU3QzRjMDk0NzZhYzkwMTRiNDQ4=
+ZGNmMDhkYTg5MmQ4MTM3JTdDZDU4YWRkZWE1MDUzNGE4MDg0OTliYTRkOTQ0OTEwZGYlN0MwJ=
+TdDMCU3QzYzNzk3MzEyNTc5NjA3MjQ0MyU3Q1Vua25vd24lN0NUV0ZwYkdac2IzZDhleUpXSW=
+pvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZ=
+NbjAlM0QlN0MzMDAwJTdDJTdDJTdDJnNkYXRhPTNFR1M3dGtHeDNLeTNGTE5RZHdkcE1GRzB6=
+ekVKak16JTJCV04zZXpTeCUyRlAwJTNEJnJlc2VydmVkPTAifQ.Vu7nLpflAcnHKKEI1uuXf3=
+JOm-Vef6gRWrabczKCMJU/s/2601788358/br/143361505304-l" style=3D"color: #00=
+00EE; text-decoration: underline; -ms-word-break: break-all; word-break: =
+break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">ac=
+cess</a>=A0to affordable, high-quality health coverage.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">=93Medica=
+id and CHIP provide essential health care to millions of families across =
+the country, and we are making it easier to enroll children and others in=
+ health insurance and to maintain coverage,=94 said HHS Secretary Xavier =
+Becerra. =93With these steps, we=92re delivering on our promise to make h=
+igh-quality health care more accessible and affordable for all Americans.=
+=94</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">=93CMS is=
+ acting today to protect and strengthen health care coverage for the more=
+ than 88 million people enrolled in Medicaid, CHIP, and the Basic Health =
+Program,=94 CMS Administrator Chiquita Brooks-LaSure said. =93This propos=
+ed rule will ensure that these individuals and families, often from under=
+served communities, can access the health care and coverage to which they=
+ are entitled =96 a foundational principle of health equity. In addition,=
+ this proposed rule will help more people pay their Medicare premiums by =
+making it easier for them to enroll in the Medicare Savings Programs.=94<=
+/p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">This rule=
+, if finalized, would standardize commonsense eligibility and enrollment =
+policies, such as limiting renewals to once every 12 months, allowing app=
+licants 30 days to respond to information requests, requiring prepopulate=
+d renewal forms, and establishing clear, consistent renewal processes acr=
+oss states.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Medicaid =
+and CHIP are critical sources of health care insurance for families acros=
+s the country. Medicaid is the single largest health coverage program in =
+the U.S., covering nearly one in four Americans and providing robust bene=
+fits with little to no out of pocket costs. Together, Medicaid and CHIP p=
+rovide 51% of our nation=92s children and youth =96 more than 40 million =
+children =96 access to quality, affordable health care. However, enrollme=
+nt in these programs can be jeopardized because of cumbersome application=
+ or renewal processes and lack of uniformity in states across the country=
+. This NPRM takes aim at those concerns, and includes a suite of proposed=
+ options to provide easier access to and retention in health care coverag=
+e.=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">In a majo=
+r transformation to the programs and a historic win for American families=
+, the Biden-Harris Administration is proposing to=A0end lifetime benefit =
+limits in CHIP and allow children to enroll in coverage right away by eli=
+minating pre-enrollment waiting periods, consistent with nearly all other=
+ health coverage. The proposed rule would also permit states to transfer =
+children=92s eligibility directly from Medicaid to CHIP when a family=92s=
+ income rises, preventing unnecessary redetermination processes from caus=
+ing lapses in coverage.=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">The NPRM =
+proposes simplifications that would increase enrollment and retention for=
+ people age 65 and older, as well as those who have blindness or a disabi=
+lity. The proposed rule, if finalized, would streamline the application p=
+rocess for these programs by removing unnecessary administrative hurdles =
+for people who do not have =96 but are eligible for =96 Medicaid, CHIP, o=
+r BHP coverage. These individuals are often eligible for Medicaid, but ar=
+e not yet enrolled or have trouble staying enrolled because of systemic b=
+arriers, potentially missing life-saving coverage and care because of bur=
+densome processes.=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">The propo=
+sed rule also includes policies that would improve access to programs tha=
+t help make health coverage more affordable for older adults and individu=
+als with disabilities. It offers ways to <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cmwiOiJodHRwczovL3d3dy5j=
+bXMuZ292L2ZpbGVzL2RvY3VtZW50L25hdmlnYXRpbmctbWVkaWNhcmUtc2F2aW5ncy1wcm9nc=
+mFtLW1zcC1lbGlnaWJpbGl0eS1leHBlcmllbmNlLWpvdXJuZXktbWFwLnBkZiJ9.xKvEARNjw=
+n7SKG4J0sqAppUyePtsf-GratrkLoimaaY/s/2601788358/br/143361505304-l" style=3D=
+"color: #0000EE; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">simplify enrollment for Medicare Savings Programs</a>, which per=
+mit Medicaid to pay Medicare premiums or cost sharing for Medicare benefi=
+ciaries with lower incomes. The proposed rule would also allow for automa=
+tic enrollment in Medicare Savings Programs for certain individuals recei=
+ving the Social Security Administration=92s Supplemental Security Income =
+=96 a key goal for streamlining connections to care for those who need th=
+em most.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">A=A0<a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiL=
+CJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb2suY29tLz=
+91cmw9aHR0cHMlM0ElMkYlMkZ3d3cubWFjcGFjLmdvdiUyRndwLWNvbnRlbnQlMkZ1cGxvYWR=
+zJTJGMjAxNyUyRjA4JTJGTWVkaWNhcmUtU2F2aW5ncy1Qcm9ncmFtcy1OZXctRXN0aW1hdGVz=
+LUNvbnRpbnVlLXRvLVNob3ctTWFueS1FbGlnaWJsZS1JbmRpdmlkdWFscy1Ob3QtRW5yb2xsZ=
+WQucGRmJmRhdGE9MDUlN0MwMSU3Q0VsaXphYmV0aC5TbWFsbGV5JTQwaGhzLmdvdiU3QzRjMD=
+k0NzZhYzkwMTRiNDQ4ZGNmMDhkYTg5MmQ4MTM3JTdDZDU4YWRkZWE1MDUzNGE4MDg0OTliYTR=
+kOTQ0OTEwZGYlN0MwJTdDMCU3QzYzNzk3MzEyNTc5NjA3MjQ0MyU3Q1Vua25vd24lN0NUV0Zw=
+Ykdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrM=
+WhhV3dpTENKWFZDSTZNbjAlM0QlN0MzMDAwJTdDJTdDJTdDJnNkYXRhPWNabnBWdUVEZmo5Sk=
+hnWHJ1VWk0VWZaUmt1OXY4cHNJZEJFVnY0ckREUU0lM0QmcmVzZXJ2ZWQ9MCJ9.2XI5olxAfP=
+7WawMdcRwgt7qAvhkDrLc-QqhXRUEZGWA/s/2601788358/br/143361505304-l" style=3D=
+"color: #0000EE; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">recent study</a>=A0estimated that only about half of eligible lo=
+w-income individuals enrolled in Medicare were also enrolled in Medicare =
+Savings Programs. This proposed rule would automatically consider older a=
+dults for Medicare Savings Programs enrollment when they apply for low-in=
+come subsidies to help pay for Part D Medicare coverage, reducing the bur=
+dens of both time and expense by eliminating the need to complete multipl=
+e applications.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Lastly, p=
+roper documentation is critical to enabling appropriate oversight, identi=
+fying errors in state policies and operations, and reducing inconsistent =
+and outdated practices across states, which contribute to improper paymen=
+ts. This proposed rule would update and standardize recordkeeping require=
+ments for states, which would help to address deficiencies in outdated st=
+ate recordkeeping systems and improve program integrity.=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">For more =
+information on the NPRM, consult the fact sheet available at=A0<a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5jbXMuZ292L25ld3Nyb29tL2ZhY3Qtc2hlZXRzL3N0cmVhbWxpbml=
+uZy1lbGlnaWJpbGl0eS1lbnJvbGxtZW50LW5vdGljZS1wcm9wb3NlLXJ1bGVtYWtpbmctbnBy=
+bSJ9.JlewPDlxhH4mXknvwykjArnyFnkZ2_hw-zCq5xulAA0/s/2601788358/br/14336150=
+5304-l" style=3D"color: #0000EE; text-decoration: underline; -ms-word-bre=
+ak: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphen=
+s: none; hyphens: none;">https://www.cms.gov/newsroom/fact-sheets/streaml=
+ining-eligibility-enrollment-notice-propose-rulemaking-nprm</a>.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">To review=
+ or comment on the NPRM during its 60-day public comment period, visit th=
+e <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX=
+2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNT=
+YzNjEiLCJ1cmwiOiJodHRwczovL3d3dy5mZWRlcmFscmVnaXN0ZXIuZ292L3B1YmxpYy1pbnN=
+wZWN0aW9uL2N1cnJlbnQifQ.NDx6ml3brpQbL_nViASZ9bbyRmDq4JIH1lVP9X3U-Fo/s/260=
+1788358/br/143361505304-l" style=3D"color: #0000EE; text-decoration: unde=
+rline; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens=
+: none; -moz-hyphens: none; hyphens: none;">Federal Register</a>.</p>
+<p style=3D"text-align: center; line-height: 1.4; color: #000000; font-fa=
+mily: helvetica; font-size: 13px; margin: 10px 0;" align=3D"center">&#35;=
+&#35;#</p>
+<p style=3D"text-align: center; line-height: 1.4; color: #000000; font-fa=
+mily: helvetica; font-size: 13px; margin: 10px 0;" align=3D"center">Get C=
+MS news at <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4M=
+zEuNjMwNTYzNjEiLCJ1cmwiOiJodHRwOi8vbGluay5lbWFpbC5keW5lY3QubmV0L2xpbmsucG=
+hwP0R5bkVuZ2FnZW1lbnQ9dHJ1ZSZIPVdBQTBIWXk0ZW5Xa2xMR0xWT0NvZnR2UmlLeGt3Y3g=
+3MDI4QSUyQk5abFdTelNFYVVEM2N5QVgwMzVHVHdYdVlUSVhGRGlldTBBVzNOSVNnUG5GbEdP=
+OFR4S05sQk1SWkhvRE9aJTJGN0ZvR0RKQmpnU3pOeVJRVjRaWFF1SFhmZXllSyZHPTAmUj1od=
+HRwcyUzQSUyRiUyRnd3dy5jbXMuZ292JTJGTmV3c3Jvb20lMkZOZXdzcm9vbS1DZW50ZXIuaH=
+RtbCZJPTIwMTcxMjA1MTcxMzQ3LjAwMDAwMjgzZDMyYSU0MG1haWw2LTMzLXVzbmJuMSZYPU1=
+Id3hNRFEyTnpVNE9qVmhNalprTTJGalpHTmhNMlF3TUdZNU5tWm1OakEyTWpzJTNEJlM9RjRQ=
+RmVmcENXQUlYZmNFMS1mb0E0YUYzWjVxelUySk1pcjUzbm5jVXpBayJ9.sqD0w4v33iZzAwAp=
+jVRZfYWw7sYrEv-T9b6SL7KOVl8/s/2601788358/br/143361505304-l" style=3D"colo=
+r: #0000EE; text-decoration: underline; -ms-word-break: break-all; word-b=
+reak: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: non=
+e;">cms.gov/newsroom</a>, sign up for CMS news <a href=3D"https://lnks.gd=
+/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cmwiOiJodHRwOi8vbG=
+luay5lbWFpbC5keW5lY3QubmV0L2xpbmsucGhwP0R5bkVuZ2FnZW1lbnQ9dHJ1ZSZIPVdBQTB=
+IWXk0ZW5Xa2xMR0xWT0NvZnR2UmlLeGt3Y3g3MDI4QSUyQk5abFdTelNFYVVEM2N5QVgwMzVH=
+VHdYdVlUSVhGRGlldTBBVzNOSVNnUG5GbEdPOFR4S05sQk1SWkhvRE9aJTJGN0ZvR0RKQmpnU=
+3pOeVJRVjRaWFF1SFhmZXllSyZHPTAmUj1odHRwcyUzQSUyRiUyRnB1YmxpYy5nb3ZkZWxpdm=
+VyeS5jb20lMkZhY2NvdW50cyUyRlVTQ01TJTJGc3Vic2NyaWJlciUyRm5ldyUzRnRvcGljX2l=
+kJTNEVVNDTVNfNjEwJkk9MjAxNzEyMDUxNzEzNDcuMDAwMDAyODNkMzJhJTQwbWFpbDYtMzMt=
+dXNuYm4xJlg9TUh3eE1EUTJOelU0T2pWaE1qWmtNMkZqWkdOaE0yUXdNR1k1Tm1abU5qQTJNa=
+nMlM0QmUz15S1NZRUI5d1dqS3o5ME9NNGozY3BXdElNVUdkWWdMSGhEUTRhOGNEWFRNIn0.8B=
+5cmoqb1eztY8T_B2dqoWruImudPQtyZ8d6sLZ0w-M/s/2601788358/br/143361505304-l"=
+ style=3D"color: #0000EE; text-decoration: underline; -ms-word-break: bre=
+ak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none=
+; hyphens: none;">via email</a> and follow CMS on Twitter <a href=3D"http=
+s://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaS=
+I6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTYzNjEiLCJ1cmwiOiJ=
+odHRwOi8vbGluay5lbWFpbC5keW5lY3QubmV0L2xpbmsucGhwP0R5bkVuZ2FnZW1lbnQ9dHJ1=
+ZSZIPVdBQTBIWXk0ZW5Xa2xMR0xWT0NvZnR2UmlLeGt3Y3g3MDI4QSUyQk5abFdTelNFYVVEM=
+2N5QVgwMzVHVHdYdVlUSVhGRGlldTBBVzNOSVNnUG5GbEdPOFR4S05sQk1SWkhvRE9aJTJGN0=
+ZvR0RKQmpnU3pOeVJRVjRaWFF1SFhmZXllSyZHPTAmUj1odHRwcyUzQSUyRiUyRnR3aXR0ZXI=
+uY29tJTJGQ01TR292Jkk9MjAxNzEyMDUxNzEzNDcuMDAwMDAyODNkMzJhJTQwbWFpbDYtMzMt=
+dXNuYm4xJlg9TUh3eE1EUTJOelU0T2pWaE1qWmtNMkZqWkdOaE0yUXdNR1k1Tm1abU5qQTJNa=
+nMlM0QmUz1RenVSNWYyU0NfUENQVWlGV092RHRFUXd6dTVJUWV0a3hoRTR2THpuMnhvIn0.or=
+sbL7o3iS8ZtaK_Df34TJnDlYU2AnOtz30ld46OFVw/s/2601788358/br/143361505304-l"=
+ style=3D"color: #0000EE; text-decoration: underline; -ms-word-break: bre=
+ak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none=
+; hyphens: none;">@CMSgov</a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td id=3D"footer-bg" data-govdstyle=3D"all" data-govdtitle=3D"Footer Back=
+ground" style=3D"background-color: #CDCDCD;" bgcolor=3D"#CDCDCD">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-footer" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Footer" style=3D"padding: 0px;">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2020/02/3148739/medicare-medicaidcoordina=
+tionofficefooter_original.jpg" style=3D"width: 600px; height: auto !impor=
+tant; max-height: auto !important; border: none;" alt=3D"Medicare-Medicai=
+d Coordination Office" width=3D"600" height=3D"39">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <style type=3D"text/css">body .abe-column-block { min-height: 5px; }<=
+/style>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNjE1MDUzMDQtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwNTYzNjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDU2MzYxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NjcxJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_3C3_B891_0E0470AC.5D6F0455--
+

@@ -1,0 +1,1095 @@
+From - Wed Aug 31 18:53:28 2022
+X-Account-Key: account1
+X-UIDL: ABUZsqZ5REVIYw9gVgQ98Ds8hhI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.140
+ by atlas124.free.mail.ne1.yahoo.com with HTTPS; Wed, 31 Aug 2022 13:21:25 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.69]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.69 as permitted sender)
+Authentication-Results: atlas124.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 13:21:26 +0000
+X-YMailISG: qb68MxUWLDs9TL08xjHC.rXoSyUJ0PlO0WPgJnLDXG89ttdX
+ hqXBUgQuoFFoFLy8ImWs2rGwC4aOLxXLvS_1nIF5Pb.gcHjKhZFX_NWudQQk
+ b2iNQFumcPWNjxTaocqoDggCNsymsDXDbNiwJJXxW8qadjHpbmAU0i5VbjVm
+ bAH1T.VaEEvCnEEFUAv9wd9VmqtWtgFBr4lC2PmWfOhc.1WWhxcxkFM9J5li
+ REYo9hjDTDD1kzAGokI1N2g34hedOsd6rlvS5yLY2b9Z1EMGv6r8F3ovrSfO
+ r14k431EmzeqviJ1W5mi43_m5vtbqhyiKB_x6izKv9U.flBwUUiFCGBoaMB7
+ 2F83cACE2BM.OQH4BYOPR0nvjDXla41n_TwzRY7U_3eNen9zCbvE80VeIVqV
+ CL1sPlza92S.WO5v_OAOAvJ5pzowYasGC1.gnTk5T3.qdO6bRlpUwqvAsq89
+ H4iScNKjwO5oErRnFiSs1.DiOOPwT11bkOsew84uVLpL3FSbkGxIiPtpuxJh
+ bvmERfZugZXkWUyWjIDQSvO0fh743_4ZTNzTVwx94XZAFSXmaYDaWBj5ke2v
+ efMftncCn6n8VlaBCbatk4_u6NUq8VRIA0kNaX3GUIHHae8jN921iE_NIx_5
+ pLUo5aXRau_p4.N7wQyW1IEpjdG.nMHbCmiBSXeEWhJYl6bc47.IRivg6g8R
+ Y_u4M28w7vckSxKgGj5ATJhsfqiuGfmOhEODnmeFHOLw844aZWXINuACN4kw
+ Qm4tAkOVLj48qdU5ysLOMLAQ1fMUZ2Qtd1LjNGnOvDrT7jjc8VU7vyNhiyWl
+ Gox8fFnF80euXmLfMcQmT24pa4CJVXe309aZVDNFTC27we7AkIPpl72m82dG
+ D3_8mxlfnnxYMa0xofHPetM3IKW9VOWtrQcrpdIycWYfou9453FDvt5D.3Sr
+ 7WUrukYu5O76ajc_0.EnJriLjHYoKue8Z0NUdqM66M8QTlH1n51nGrWMxSl_
+ UYbSZSX8POPoDPMfvEDPoJPrrb2xAkDyNKBawOU9Cw4DamTEXciL3yMn3DHQ
+ ravp9RhULkuhRQjy1jaUdxl2k1eyaaFJtyaLsysU7e3hf7lz9jUfLNmS_4IU
+ Nazrgh8BhbkE0omY1hgv6OgNfFCSknDRzk68ODKxFa4HozSUnEU9hXLwvs9S
+ QXYbK9aPsPPnsD_ENGD0VCoy
+Received: from 209.134.151.69 (EHLO mailer151069.service.govdelivery.com)
+ by 10.217.150.140 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 13:21:25 +0000
+Received: from gepdp-smeds1-3.systems.dc.gdi ([10.5.36.52])
+	by mailer151069.service.govdelivery.com (-); Wed, 31 Aug 2022 13:21:24 +0000
+X-VirtualServer: VSG001, mailer151069.service.govdelivery.com, 10.5.36.124
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837390::20220831.63016811::1001::MDB-PRD-BUL-20220831.63016811::ms60710444266@yahoo.com::17102_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=6L80
+	z6e2HRf/71HCqdfCh/hkl5kYvE+lxmvYQ1zuU/Q=; b=cjnCuhtOA5sIce3DUSee
+	GKKLdeNXx7l6HRYlgCHAzMs/z4uskR5HvuJFE6QWalYyno0FYwSUYRX1u8J8KP1i
+	5oNzA+vH6QgwPwYDjxX0XzUEkirIgZhbqESTaBBWUNnGk08WIa4vtqNWzyRSjii9
+	dfmaSwo/Ydzw5uKWuuXhRdXAbCTuLFdQlhF1qfsImRRBbsEmJKOrVV0EcB3yfHr8
+	5kafZnLKXWiOyM+ErzTZ/2kMz+lVaZwMiw+o1o73TfhlpCfBNOob6s5QyHbTOUOd
+	psZT3u3VIwFaF6/Dm0YbMDEEEkwcMzGwUXlqbf34Mdt8n2R7oGiEW1NR1GYnJRRM
+	UA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_C8C_3735_5C8D1D1D.6FD8A9B3"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIUJtNccYCnNenlLQDTICoDnMVdmYzrAg8zJXsj6+HJOfr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837390.17102@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8EDKJJ297LJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Announcing_a_CMS_Virtual_Listening_Session_with_Health?= =?US-ASCII?Q?_Care_Providers_and_Suppliers_on_Emergency_Preparedness?=
+Date: Wed, 31 Aug 2022 13:21:13 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 40979
+
+
+------=_NextPart_C8C_3735_5C8D1D1D.6FD8A9B3
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+header=20
+=20
+=20
+=20
+
+*Virtual Listening Session*
+
+*WHAT:*
+
+=20
+=20
+ =A0=20
+
+Virtual listening session with health care providers and suppliers on eme=
+rgency preparedness
+
+=20
+=20
+=20
+=20
+
+*WHEN:*
+
+=20
+=20
+ =A0=20
+
+Tuesday, September 13, 2022, from 1:00-2:30 p.m. ET.
+
+=20
+=20
+=20
+=20
+
+*WHO:*
+
+=20
+=20
+ =A0=20
+
+Centers for Medicare & Medicaid Services (CMS), Center for Clinical Stand=
+ards & Quality (CCSQ), Clinical Standards Group (CSG).
+
+=20
+=20
+=20
+=20
+
+=A0
+
+=A0
+
+=A0
+
+=A0
+
+*TOPIC:*
+
+=20
+=20
+ =A0=20
+
+CMS is looking to gather information from health care providers and suppl=
+iers on their experiences providing support during public health emergenc=
+ies (PHE) outside of the COVID-19 PHE. The input and lessons-learned from=
+ this session will be used to evaluate CMS regulations regarding emergenc=
+y preparedness for certain health care providers. CMS is especially inter=
+ested=A0in hearing input on these questions:
+
+=20
+  * What have been your facility's experiences in developing and implemen=
+ting emergency preparedness plans under the CMS regulations? Do the curre=
+nt CMS emergency preparedness regulations create any unintended barriers =
+in your work? If so, what are they?=A0=20
+  * What resources does your facility use to inform emergency preparednes=
+s plans under the CMS regulations? What additional resources could you us=
+e as you update your plans?=20
+  * How does your facility "stand down" or "recover" after emergency even=
+ts? How long does this process take, and does it interrupt services for p=
+atients? Does your process include any type of "failure analysis" or othe=
+r assessment that helps to identify and correct any issues experienced du=
+ring an emergency?=20
+=20
+=20
+
+This session is the second in a multi-part series being held on emergency=
+ preparedness. While this second session is geared toward health care pro=
+viders and suppliers, other sessions seek information and feedback from S=
+tate and Local emergency response entities and individual staff members. =
+Questions will vary by session.
+
+Prior to the listening session, you are encouraged to review the followin=
+g rules as background:
+
+
+  * Medicare and Medicaid Programs; Emergency Preparedness Requirements f=
+or Medicare and Medicaid Participating Providers and Suppliers [ https://=
+gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.federalre=
+gister.gov%2Fdocuments%2F2016%2F09%2F16%2F2016-21404%2Fmedicare-and-medic=
+aid-programs-emergency-preparedness-requirements-for-medicare-and-medicai=
+d&data=3D05%7C01%7CJill.Darling%40cms.hhs.gov%7Cf00e9a9c1d524cec4be908da8=
+abac9dc%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C637974832095004492%7=
+CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haW=
+wiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DUDPo22US16xgbBcOJw6%2BU84hT%2Bxp=
+HewkvWoYV7yKK2g%3D&reserved=3D0 ]=20
+  * Medicare and Medicaid Programs; Regulatory Provisions To Promote Prog=
+ram Efficiency, Transparency, and Burden Reduction; Fire Safety Requireme=
+nts for Certain Dialysis Facilities; Hospital and Critical Access Hospita=
+l (CAH) Changes To Promote Innovation, Flexibility, and Improvement in Pa=
+tient Care  [ https://gcc02.safelinks.protection.outlook.com/?url=3Dhttps=
+%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2019%2F09%2F30%2F2019-2073=
+6%2Fmedicare-and-medicaid-programs-regulatory-provisions-to-promote-progr=
+am-efficiency-transparency-and&data=3D05%7C01%7CJill.Darling%40cms.hhs.go=
+v%7Cf00e9a9c1d524cec4be908da8abac9dc%7Cd58addea50534a808499ba4d944910df%7=
+C0%7C0%7C637974832095004492%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiL=
+CJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DGQO=
+2V9tg2B2sC0wYL8OdB8ye5z0ntwQPbTbx31KPshM%3D&reserved=3D0 ]=20
+=20
+=20
+=20
+=20
+
+*HOW TO** *JOIN:**
+
+=20
+=20
+ =A0=20
+
+Please register=A0*HERE [ https://gcc02.safelinks.protection.outlook.com/=
+?url=3Dhttps%3A%2F%2Fus06web.zoom.us%2Fwebinar%2Fregister%2FWN_zoIS8Q6US5=
+q4V1XGzFDatw&data=3D05%7C01%7CJill.Darling%40cms.hhs.gov%7Cf00e9a9c1d524c=
+ec4be908da8abac9dc%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C637974832=
+095004492%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJ=
+BTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DdUH9NnRbzvYC0JZnJk2CJ=
+EWlMoiR2rU7PC2C916NJCw%3D&reserved=3D0 ]=A0*with your name, email, zip co=
+de, state, and organization name and type. Due to time constraints, capac=
+ity will be capped at 150 registrants. We encourage registration as soon =
+as possible and ask that registrants be limited to each organization's=A0=
+leadership and/or subject matter experts=A0who are knowledgeable and will=
+ing to provide feedback on the topics to be discussed.
+
+*"Note: "*"After registering, you will receive a confirmation email conta=
+ining information about joining the session. Instructions for manually ad=
+ding an invite to your calendar will be included."
+
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+ =20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_C8C_3735_5C8D1D1D.6FD8A9B3
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Announcing a CMS Virtual Listening Session with Health Care Pr=
+oviders and Suppliers on Emergency Preparedness
+</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css">
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and =
+other text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+
+
+</head>
+<body style=3D"margin:0;padding:0;margin:0;padding:0;width:100% !importan=
+t;">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #EEEEEE; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#EEEE=
+EE">
+<table id=3D"flexible-abe-main-table" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-top: 20px; padding-bottom: 20px=
+;">
+  <tr>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+    <!-- centered column -->
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77794593">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-b84ff27d-d47d-454e-bd7d-0673defe98b4" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-d75070b4-f29c-4=
+cb8-8ec3-652994608101-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-d75070b4-f29c-4cb8-8ec3-652994608101" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77794594" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-d7507=
+0b4-f29c-4cb8-8ec3-652994608101-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 6px;"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USCMS/2019/07/2707182/=
+cmmiheader-original_original.jpg" style=3D"width: 588px; height: auto; -m=
+s-interpolation-mode: bicubic; line-height: 1; outline: none; text-decora=
+tion: none; max-width: 100%; border: none;" alt=3D"header" width=3D"588" =
+height=3D"80"></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77794596">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-49d34cb8-b6b4-4b68-84e0-5732e18cb686" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-548f1122-f39d-4=
+b73-9494-31c4637f15ce-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-548f1122-f39d-4b73-9494-31c4637f15ce" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77794617" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-548f1=
+122-f39d-4b73-9494-31c4637f15ce-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 15px;">
+<h2 style=3D"text-align: center; line-height: 1.2; font-family: helvetica=
+; font-size: 22px; margin: 0 0 18px;" align=3D"center"><strong>Virtual Li=
+stening Session</strong></h2>
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border=
+-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;"><strong>WHAT:</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; borde=
+r-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">Virtual listening session with health care providers and suppliers on=
+ emergency preparedness</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border=
+-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;"><strong>WHEN:</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; borde=
+r-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">Tuesday, September 13, 2022, from 1:00-2:30 p.m. ET.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border=
+-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;"><strong>WHO:</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; borde=
+r-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">Centers for Medicare &amp; Medicaid Services (CMS), Center for Clinic=
+al Standards &amp; Quality (CCSQ), Clinical Standards Group (CSG).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border=
+-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">=A0</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">=A0</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">=A0</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">=A0</p>
+<table style=3D"background-color: inherit; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" b=
+gcolor=3D"inherit">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;"><strong>TOPIC:</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; borde=
+r-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">CMS is looking to gather information from health care providers and s=
+uppliers on their experiences providing support during public health emer=
+gencies (PHE) outside of the COVID-19 PHE. The input and lessons-learned =
+from this session will be used to evaluate CMS regulations regarding emer=
+gency preparedness for certain health care providers. CMS is especially i=
+nterested=A0in hearing input on these questions:</p>
+</td>
+</tr>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<ol>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+line-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom:=
+ 15px;">What have been your facility's experiences in developing and impl=
+ementing emergency preparedness plans under the CMS regulations? Do the c=
+urrent CMS emergency preparedness regulations create any unintended barri=
+ers in your work? If so, what are they?=A0</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+line-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom:=
+ 15px;">What resources does your facility use to inform emergency prepare=
+dness plans under the CMS regulations? What additional resources could yo=
+u use as you update your plans?</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+line-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom:=
+ 15px;">How does your facility "stand down" or "recover" after emergency =
+events? How long does this process take, and does it interrupt services f=
+or patients? Does your process include any type of "failure analysis" or =
+other assessment that helps to identify and correct any issues experience=
+d during an emergency?</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">This session is the second in a multi-part series being held on emerg=
+ency preparedness. While this second session is geared toward health care=
+ providers and suppliers, other sessions seek information and feedback fr=
+om State and Local emergency response entities and individual staff membe=
+rs. Questions will vary by session.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">Prior to the listening session, you are encouraged to review the foll=
+owing rules as background:</p>
+<ul>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+line-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom:=
+ 15px;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwMTY4MTEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91d=
+Gxvb2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZ3d3cuZmVkZXJhbHJlZ2lzdGVyLmdvdiUyRm=
+RvY3VtZW50cyUyRjIwMTYlMkYwOSUyRjE2JTJGMjAxNi0yMTQwNCUyRm1lZGljYXJlLWFuZC1=
+tZWRpY2FpZC1wcm9ncmFtcy1lbWVyZ2VuY3ktcHJlcGFyZWRuZXNzLXJlcXVpcmVtZW50cy1m=
+b3ItbWVkaWNhcmUtYW5kLW1lZGljYWlkJmRhdGE9MDUlN0MwMSU3Q0ppbGwuRGFybGluZyU0M=
+GNtcy5oaHMuZ292JTdDZjAwZTlhOWMxZDUyNGNlYzRiZTkwOGRhOGFiYWM5ZGMlN0NkNThhZG=
+RlYTUwNTM0YTgwODQ5OWJhNGQ5NDQ5MTBkZiU3QzAlN0MwJTdDNjM3OTc0ODMyMDk1MDA0NDk=
+yJTdDVW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lW=
+Mmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3QzMwMDAlN0MlN0MlN0Mmc=
+2RhdGE9VURQbzIyVVMxNnhnYkJjT0p3NiUyQlU4NGhUJTJCeHBIZXdrdldvWVY3eUtLMmclM0=
+QmcmVzZXJ2ZWQ9MCJ9.w804M0eCo_RYiqWiyXJ3SSSYucWfUeMJq3g2F8lSlb0/s/26017883=
+58/br/143318906884-l" title=3D"https://www.federalregister.gov/documents/=
+2016/09/16/2016-21404/medicare-and-medicaid-programs-emergency-preparedne=
+ss-requirements-for-medicare-and-medicaid" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; color: #1D5782;">Medicare and Medi=
+caid Programs; Emergency Preparedness Requirements for Medicare and Medic=
+aid Participating Providers and Suppliers</a></li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+line-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom:=
+ 15px;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwMTY4MTEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91d=
+Gxvb2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZ3d3cuZmVkZXJhbHJlZ2lzdGVyLmdvdiUyRm=
+RvY3VtZW50cyUyRjIwMTklMkYwOSUyRjMwJTJGMjAxOS0yMDczNiUyRm1lZGljYXJlLWFuZC1=
+tZWRpY2FpZC1wcm9ncmFtcy1yZWd1bGF0b3J5LXByb3Zpc2lvbnMtdG8tcHJvbW90ZS1wcm9n=
+cmFtLWVmZmljaWVuY3ktdHJhbnNwYXJlbmN5LWFuZCZkYXRhPTA1JTdDMDElN0NKaWxsLkRhc=
+mxpbmclNDBjbXMuaGhzLmdvdiU3Q2YwMGU5YTljMWQ1MjRjZWM0YmU5MDhkYThhYmFjOWRjJT=
+dDZDU4YWRkZWE1MDUzNGE4MDg0OTliYTRkOTQ0OTEwZGYlN0MwJTdDMCU3QzYzNzk3NDgzMjA=
+5NTAwNDQ5MiU3Q1Vua25vd24lN0NUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxD=
+SlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjAlM0QlN0MzMDAwJTdDJ=
+TdDJTdDJnNkYXRhPUdRTzJWOXRnMkIyc0Mwd1lMOE9kQjh5ZTV6MG50d1FQYlRieDMxS1BzaE=
+0lM0QmcmVzZXJ2ZWQ9MCJ9.oxUucIIncFF0G-GpSQ5tCZC6RP-8v0W9-7HoIvoZN1M/s/2601=
+788358/br/143318906884-l" title=3D"https://www.federalregister.gov/docume=
+nts/2019/09/30/2019-20736/medicare-and-medicaid-programs-regulatory-provi=
+sions-to-promote-program-efficiency-transparency-and" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #1D5782;">Medica=
+re and Medicaid Programs; Regulatory Provisions To Promote Program Effici=
+ency, Transparency, and Burden Reduction; Fire Safety Requirements for Ce=
+rtain Dialysis Facilities; Hospital and Critical Access Hospital (CAH) Ch=
+anges To Promote Innovation, Flexibility, and Improvement in Patient Care=
+ </a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border=
+-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<div>
+<table style=3D"height: 170px; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;" border=3D"0" width=3D"64" cellspacing=3D"0" cellpadding=3D"0">=
+
+<tbody>
+<tr>
+<td style=3D"width: 60px; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;"><strong>HOW TO</strong><strong> <strong>JOIN:</strong></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=A0</td>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; borde=
+r-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<tbody>
+<tr>
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;">Please register=A0<strong><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUz=
+I1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldG=
+luX2lkIjoiMjAyMjA4MzEuNjMwMTY4MTEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5=
+rcy5wcm90ZWN0aW9uLm91dGxvb2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZ1czA2d2ViLnpv=
+b20udXMlMkZ3ZWJpbmFyJTJGcmVnaXN0ZXIlMkZXTl96b0lTOFE2VVM1cTRWMVhHekZEYXR3J=
+mRhdGE9MDUlN0MwMSU3Q0ppbGwuRGFybGluZyU0MGNtcy5oaHMuZ292JTdDZjAwZTlhOWMxZD=
+UyNGNlYzRiZTkwOGRhOGFiYWM5ZGMlN0NkNThhZGRlYTUwNTM0YTgwODQ5OWJhNGQ5NDQ5MTB=
+kZiU3QzAlN0MwJTdDNjM3OTc0ODMyMDk1MDA0NDkyJTdDVW5rbm93biU3Q1RXRnBiR1pzYjNk=
+OGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ=
+0pYVkNJNk1uMCUzRCU3QzMwMDAlN0MlN0MlN0Mmc2RhdGE9ZFVIOU5uUmJ6dllDMEpabkprMk=
+NKRVdsTW9pUjJyVTdQQzJDOTE2TkpDdyUzRCZyZXNlcnZlZD0wIn0.yBIHg3hag51R5gj3UKl=
+gKsmUHnCnr2shjgtWYmvSAv4/s/2601788358/br/143318906884-l" title=3D"https:/=
+/us06web.zoom.us/webinar/register/WN_zoIS8Q6US5q4V1XGzFDatw" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #1D5782;"=
+>HERE</a>=A0</strong>with your name, email, zip code, state, and organiza=
+tion name and type. Due to time constraints, capacity will be capped at 1=
+50 registrants. We encourage registration as soon as possible and ask tha=
+t registrants be limited to each organization's=A0leadership and/or subje=
+ct matter experts=A0who are knowledgeable and willing to provide feedback=
+ on the topics to be discussed.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15p=
+x;"><strong><em>Note: </em></strong><em>After registering, you will recei=
+ve a confirmation email containing information about joining the session.=
+ Instructions for manually adding an invite to your calendar will be incl=
+uded.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+  </tr>
+</table>
+</td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY4MTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.CoLjw6iPXTPbBS3F6m0nehZjV8P5SxQdTHHzhILCbMM/s/2601788358/br/1=
+43318906884-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY4MTEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.oo18m3qvYjOjR2JXTKO68Q=
+ps0kQRBzcpBQuXd12qJQI/s/2601788358/br/143318906884-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY4MTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.2NtD9qoTAWurPkDPv-YQ12IG6C3APoeCmUI3cyokA=
+6U/s/2601788358/br/143318906884-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwMTY4MTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.Q-NAseC8855igOH1RxL0Oc=
+BF3_u7i4q1LDW5kbI5-lQ/s/2601788358/br/143318906884-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMTg5MDY4ODQtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMTY4MTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDE2ODExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3MzkwJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_C8C_3735_5C8D1D1D.6FD8A9B3--
+

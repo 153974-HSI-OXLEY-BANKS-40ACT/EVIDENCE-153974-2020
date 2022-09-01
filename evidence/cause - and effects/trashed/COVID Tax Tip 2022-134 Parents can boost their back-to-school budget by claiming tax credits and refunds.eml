@@ -1,0 +1,845 @@
+From - Wed Aug 31 18:53:22 2022
+X-Account-Key: account1
+X-UIDL: AEDyOTZSjXF8Yw8sBQB5GGbhCaI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.210
+ by atlas124.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 09:38:12 +0000
+Return-Path: <messages@service.govdelivery.com>
+X-Originating-Ip: [69.5.86.103]
+Received-SPF: pass (domain of service.govdelivery.com designates 69.5.86.103 as permitted sender)
+Authentication-Results: atlas124.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@service.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=unknown header.from=service.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 09:38:12 +0000
+X-YMailAVSC: lbxj30s3bBsk_qZSo1YMmPblwPRsfYoksHkIo6GphITSkBW
+ hvXQhw8Glkr8S419TMyyM49Poooj9xlmIHbhXSYRVjMxO1dHDGMUiZ9bAR7Z
+ N_96hhvhD28_jPbf.oPeIE7D9rj5WdUqNRS.LXwsSJM373zMolJ4Pbg7RFwA
+ SlpxWWktEt8gdA1vl8daxzz_2gLPLXs3vSZ4cOx_IIy9qlXb.DVy2pb7po_D
+ xxnc7OHx7VezE0190HI9NXlCmTD6IzcaP.TMZXwp8mhh.XFQshI3JFmyShpJ
+ .6HMmENSHghOsK6OOGO4chgixT16f_E7nT1HPMJzBoxdsANPPE8fHv___q0n
+ 9RKX7_1Xy0KYASws4Id7GnV38Uw5BTE4IhNKzff3lgP.3gBn6CDPIpXEQiCv
+ 0zhfmwWkmHONrYwDEFywUjmUSOK2vuf4g9mRIjzotal40MGUKYJoqMtwlCfd
+ Og5l_jjfjUVfSMpgkc8s1OGor2FF9wWv.zc7ik4e4MYcX_rhtJ3EVsMOco99
+ ZIXZvO_Xzats2k0wJCzNUVsNb.mULjaS6F7YZzBf.._HvyUyvoJOXukdDo_U
+ AbvcshR8tKNlGckUmCSLLOLjeAbwHbe1TkiLGO0mFrYy4u2TJZL6qvbffiTH
+ rXUB8aZNb.TGDEkdn1Vp.4_5IQLzD6D0L23je4REv44q_nwKukbQNcm9KR62
+ .QKpR8Wl__1Dc2lHdNTR0I67IwuDV0bfL0zutTeJTTbDd9QGt8JijW5nOim0
+ .QYKXrbsVyqH2CXEZA_HVTTiR6fbbErC_KJmgOgbcbmBroSK.hoxnNzlAcJ.
+ ekW6q31YxVE9EoCu8c2Uu1IMqkqTJNG2EOfNWIwa8sn33WGYwMgZq8VFpxuI
+ 7Tb.zeyYAyRVAK6FZ.49QrjGAmWGraqjdLVy29ulbNuIJzHKyM22tLSjXKaU
+ najZLP0sX6movoM8qwtHwkfUhS6HBajJdh5xF.6oKTTf2dkJDGz3_D_Z5LS0
+ 0mAvfXU6AbD9m5_W_3jI82XrYvrKGHR1b5QZcKaS7q30DA2ASlthFUjdOCHi
+ WgX9wTsh8XZBI6c3HS.J0P_G4DOXt5Jur6n4hjzAh.eV_LaP2tMT8wzbZf_O
+ JvhTRFI.EW2xkR7WQAYBmYXyIHDB.DGG8MR.EM_TGYu77a3Fld5Eo.JgesTO
+ 3ZxZQVDkUtf8fB0KBfpneKqYEKw0I8SxwB2iq3Dpg0KAcxyf4awC0igpJRya
+ jatRq5OHp9A--
+X-YMailISG: .N4ZPTsWLDvDCRsQIJMmTbgkY8Mm9UEV67r8oNDMp_JdLa2A
+ BkDKMrC196kSz_J98qTPShOrNKy4Ile6AHKCbZwBMTCds6.5u4iboUfKKym9
+ DtuwypBEuPOLqWXwJcmDuR8gRZLzVWp8DdK7rkGyTWwoQA2sl7OmeUbjG1dc
+ 8FdvOkNL_RMuDUD4qWKHnXm.XlpmUMsX6lLl2bYPyXu8.JGanx1vY7uxX5MC
+ VZPVmTxFEiQGE8DIHzC4o5ai9PnGA3UEXMlqNMtyK4bGU.mVKxB_HoTzyKuc
+ OQ_6IDLnk2hnwDMtIxiak1dD1gJZ1UcKd0Jy2PgpfgPzNX5OLovfDqcYv0Gj
+ lP5OC0HHI9TDVWwPrseb8DruN8ZB..hxeL1oZlm3EFMrFH3ion49TY46rXAb
+ U1KIKXyWExPMKPmsDBiPxiJnTwi1b8dFMPksm7Eey9tvbhcU5U4__W16JYzZ
+ rNv4ya.8m4SgYZnjM95m3TABkAd2fW7WLRLTKlDMYyPKl8d766MWkxvWjvRF
+ vglNhIRApRQAMVkdG63l_BS2A59gwNj5_LuX2WqODOoMhdGNR8J0940hl_93
+ VpirmmKPYmbyUYBeoP6Yb7Rj0AGR0Wq1RNLYEI2eu7afK2nInPKQtKHTzFjV
+ 0ubDFSpZxSTKnczmqsHLz5qmvj3N8AKHB6FWnV_ogRsVIWQrWiXDfVnJoDXn
+ _vMehNmrZQTyH1HdWHiZGEHW_QDX7wPC3h0.y5WuaRgG_dDhk6s7fwgttXZw
+ kQBUR0ph0LzRbFgCP.p37laQJk1TViiVEU4eFfbVumxRE923OW.ijvecqM2g
+ VjYEhzebCyCd75Q4vFiCwUY8rtdYLoYVGiMmrVQkzwxqh8vq07KjAmzEYbn5
+ VgNubxNP0V6D6v7SyVL.xnOJOmeQDQttyltSBxd80J3QkPY2Xulu2yPqWgR_
+ qiZNs9YmOxiJD3yZ3meLNEreB_RmwS4kDl2FOiUBoowMmmYPMvcdmMsY_IJQ
+ nWNvUkMGeixKoHoInBX3hw9lIm.mYHTrpdc2hjSPnA41z51P10DCUOuxNkDv
+ XVlBUyr1tT7yL7aJUxc7Ow_vOnRVP0nJZBlWFeW94GVUGPJg43qqSb2EoSEc
+ R0QXFhIW8pWUS.PJd2VTn8JN.NNM0aSvZC5ZbrQMz_2W2I.kuVIIpNn9NYhG
+ rfLklHFws6DGdzPl5DLl6nYW9wdy
+Received: from 69.5.86.103 (EHLO mailer086103.service.govdelivery.com)
+ by 10.197.40.210 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 09:38:12 +0000
+Received: from gasdp-smeds3-6.systems.dc.gdi ([10.1.36.28])
+	by mailer086103.service.govdelivery.com (-); Wed, 31 Aug 2022 09:38:11 +0000
+X-VirtualServer: VSG003, mailer086103.service.govdelivery.com, 10.1.37.196
+X-VirtualServerGroup: VSG003
+X-MailingID: 16847188::20220831.63008871::1001::MDB-PRD-BUL-20220831.63008871::ms60710444266@yahoo.com::325044_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=service.govdelivery.com; s=13q2; i=@service.govdelivery.com;
+	h=Content-Transfer-Encoding:Content-Type:x-subscriber:
+	X-Accountcode:Errors-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:Reply-To:From; bh=dtT9k3N243h2wesIf4sEjIoY4UUilF
+	KfRD2JaMPovwE=; b=iT2EhpvBTyAm1SsmaRyRrsj6YtUenQbLofNsk2zFnWs+OC
+	yeH6b1pCdifGoPxUSGrsgxvOhiYMPsB/e5DgT/5RIBZ30TWQp5r8vX2n8Oad+Cwv
+	zcP1khVpd93+cgJCAd9W+oj4/fNPhcy+cKMajZHCTdjPeWmV8CIGaFEqcWblGpqf
+	Cxij6qrJiwk9D4ElLiYLmXYu6Y4Yshun1CnDfTYKSPUjv2N0kWGJFDathcNrgNmC
+	78vprQPA8J7dGVT2YcDIhXiw6/sQQUWSJBmb+eOORGVZDHX6FdpoSOY654jVxfus
+	hBSPQ+EQSbKchlupOEzgzm0kAK75G4OzgqyJM/nQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_187_F72F_3ABA6EF3.014FBCAC"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIYc0+PbX9LxG77lrM5ybLfJirNVjLwPUllHArv/Tf3k/N9MWygiVOf8wBDGgP44cFfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USIRS
+Errors-To: messages@service.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16847188.325044@service.govdelivery.com>
+X-ReportingKey: MJJJ2EWJKA3FXJJ2977UJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?COVID_Tax_Tip_2022-134:_Parents_can_boost_their_back?= =?US-ASCII?Q?-to-school_budget_by_claiming_tax_credits_and_refunds?=
+Date: Wed, 31 Aug 2022 09:38:11 +0000
+To: ms60710444266@yahoo.com
+Reply-To: irs@service.govdelivery.com
+From: "=?US-ASCII?Q?Internal_Revenue_Service_(IRS)?=" <irs@service.govdelivery.com>
+Content-Length: 38246
+
+
+------=_NextPart_187_F72F_3ABA6EF3.014FBCAC
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Bookmark and Share [ https://content.govdelivery.com/accounts/USIRS/bulle=
+tins/32a7cd0?reqfrom=3Dshare ]
+
+a { color:#0073AF !important;} a:hover { color:#004673 !important;}=20
+IRS.gov Banner=20
+IRS Tax Tips August 31, 2022=20
+=20
+Useful Links:
+
+IRS.gov [ https://www.irs.gov/ ]
+
+Help For Hurricane Victims [ https://www.irs.gov/businesses/small-busines=
+ses-self-employed/disaster-assistance-and-emergency-relief-for-individual=
+s-and-businesses-1 ]
+
+________________________________________________________________________
+
+News Essentials
+
+What's Hot [ https://www.irs.gov/newsroom/whats-hot ]
+
+News Releases [ https://www.irs.gov/newsroom/news-releases-for-current-mo=
+nth ]
+
+IRS - The Basics [ https://www.irs.gov/about-irs/irs-the-basics ]
+
+IRS Guidance [ https://www.irs.gov/newsroom/understanding-irs-guidance-a-=
+brief-primer ]
+
+Media Contacts [ https://www.irs.gov/newsroom/irs-media-relations-office-=
+contact-number ]
+
+Facts & Figures [ https://www.irs.gov/newsroom/fact-sheets ]
+
+Around The Nation [ https://www.irs.gov/newsroom/around-the-nation ]
+
+e-News Subscriptions [ https://www.irs.gov/newsroom/e-news-subscriptions =
+]
+
+________________________________________________________________________
+
+The Newsroom Topics
+
+Multimedia=A0Center [ https://www.irs.gov/newsroom/multimedia-center ]
+
+Noticias en Espa=F1ol [ https://www.irs.gov/es/spanish/noticias-en-espano=
+l ]
+
+Radio PSAs [ https://www.irs.gov/newsroom/irs-radio-psas ]
+
+Tax Scams/Consumer Alerts [ https://www.irs.gov/newsroom/tax-scams-consum=
+er-alerts ]
+
+The Tax Gap [ https://www.irs.gov/newsroom/the-tax-gap ]
+
+Fact=A0Sheets [ https://www.irs.gov/newsroom/fact-sheets ]
+
+IRS Tax Tips [ https://www.irs.gov/newsroom/irs-tax-tips ]
+
+Armed Forces [ https://www.irs.gov/newsroom/tax-information-for-members-o=
+f-the-us-armed-forces ]
+
+Latest News [ https://www.irs.gov/newsroom/news-releases-for-current-mont=
+h ]
+
+________________________________________________________________________
+
+IRS Resources
+
+Contact=A0Your Local IRS=A0Office [ https://www.irs.gov/help/contact-your=
+-local-irs-office ]
+
+Filing Your Taxes [ https://www.irs.gov/filing ]
+
+Forms & Instructions [ https://www.irs.gov/forms-instructions ]
+
+Frequently Asked Questions [ https://www.irs.gov/help/telephone-assistanc=
+e ]
+
+Taxpayer Advocate Service [ https://www.irs.gov/taxpayer-advocate ]
+
+Where to File [ https://www.irs.gov/filing/where-to-file-paper-tax-return=
+s-with-or-without-a-payment ]
+
+IRS Social Media [ https://www.irs.gov/newsroom/irs-new-media-1 ]
+
+=A0
+
+________________________________________________________________________
+
+=20
+Issue Number: COVID Tax Tip 2022-134
+________________________________________________________________________
+
+*Parents can boost their back-to-school budget by claiming tax credits an=
+d refunds*
+
+Summer is slipping away and another school year is starting. As kids head=
+ back to the classroom, parents are ticking items off the school supply l=
+ist. If they want to boost their back-to-school budgets, parents and guar=
+dians should make sure they aren=92t missing out on their 2021 refunds an=
+d tax credits.
+
+Many people don=92t get their tax refund because they didn=92t file a fed=
+eral tax return. Some people choose not to file a tax return because they=
+ didn't earn enough money to be required to file [ https://www.irs.gov/he=
+lp/ita/do-i-need-to-file-a-tax-return ]. Generally, they won't receive a =
+failure to file penalty if they are owed a refund =96 but they won=92t re=
+ceive their refund either.
+
+A refund isn=92t the only money people might be missing out on when they =
+don=92t file. If they=92re eligible for tax credits, like the child tax c=
+redit and the earned income tax credit, they=92re leaving that money on t=
+he table as well.
+
+*The child tax credit *
+The child tax credit [ https://www.irs.gov/credits-deductions/individuals=
+/child-tax-credit ] helps families with qualifying children get a tax bre=
+ak. People may be able to claim the credit even if they don't normally fi=
+le a tax return.
+
+Taxpayers qualify for the full amount of the 2021 child tax credit for ea=
+ch qualifying child if they meet all eligibility factors [ https://www.ir=
+s.gov/credits-deductions/tax-year-2021-filing-season-2022-child-tax-credi=
+t-frequently-asked-questions-topic-b-eligibility-rules-for-claiming-the-2=
+021-child-tax-credit-on-a-2021-tax-return ]=A0and their annual income isn=
+=92t more than:
+
+
+  * $150,000 if they=92re married and filing a joint return, or if they=92=
+re filing as a qualifying widow or widower.=20
+  * $112,500 if they=92re filing as a head of household.=20
+  * $75,000 if they=92re a single filer or are married and filing a separ=
+ate return.=20
+
+Parents and guardians with higher incomes may be eligible to claim a part=
+ial credit. The Interactive Tax Assistant can help people check if they q=
+ualify [ https://www.irs.gov/help/ita/does-my-childdependent-qualify-for-=
+the-child-tax-credit-or-the-credit-for-other-dependents ].
+
+*The earned income tax credit *
+The earned income tax credit [ https://www.irs.gov/credits-deductions/ind=
+ividuals/earned-income-tax-credit-eitc ] helps low- to moderate-income wo=
+rkers and families get a tax break. If someone qualifies, they can use th=
+e credit to reduce the taxes they owe =96 and maybe increase their refund=
+.
+
+Low- to moderate-income workers with qualifying children may be eligible =
+to claim the earned income tax credit if certain qualifying rules apply t=
+o them. People may qualify for the EITC even if they can=92t claim childr=
+en on their tax return. Visit IRS.gov to learn how to claim the EITC with=
+out a qualifying child [ https://www.irs.gov/credits-deductions/individua=
+ls/earned-income-tax-credit/who-qualifies-for-the-earned-income-tax-credi=
+t-eitc#without ].
+
+*People who qualify for the EITC, may also qualify for other tax credits,=
+ including:*
+
+
+  * Child tax credit and the credit for other dependents [ https://www.ir=
+s.gov/help/ita/does-my-childdependent-qualify-for-the-child-tax-credit-or=
+-the-credit-for-other-dependents ]=20
+  * Child and dependent care credit [ https://www.irs.gov/help/ita/does-m=
+y-childdependent-qualify-for-the-child-tax-credit-or-the-credit-for-other=
+-dependents ]=20
+  * Education credits [ https://www.irs.gov/credits-deductions/individual=
+s/education-credits-aotc-llc ]=20
+  * Recovery rebate credit [ https://www.irs.gov/newsroom/recovery-rebate=
+-credit ]=20
+
+*More information: *
+Don=92t Lose Your Refund by Not Filing [ https://www.irs.gov/individuals/=
+dont-lose-your-refund-by-not-filing ]=20
+Earned Income Tax Credit [ https://www.irs.gov/credits-deductions/individ=
+uals/earned-income-tax-credit-eitc ]=20
+Child Tax Credit [ https://www.irs.gov/credits-deductions/individuals/chi=
+ld-tax-credit ]
+
+Share this tip on social media -- #IRSTaxTip: : Parents can boost their b=
+ack-to-school budget by claiming tax credits and refunds. http://ow.ly/rb=
+9U50KtuqM=20
+
+Back to top [ #top ]
+
+=A0
+
+________________________________________________________________________
+
+FaceBook Logo [ https://www.facebook.com/IRS/ ]=A0=A0YouTube Logo [ https=
+://www.youtube.com/user/irsvideos ] =A0Instagram Logo [ https://www.insta=
+gram.com/irsnews ]=A0 Twitter Logo [ https://twitter.com/IRSnews ] =A0Lin=
+kedIn Logo [ https://www.linkedin.com/company/irs/ ]
+
+________________________________________________________________________
+
+Thank you for subscribing to IRS Tax Tips, an IRS e-mail service. For mor=
+e information on federal taxes please visit IRS.gov [ https://www.irs.gov=
+/ ].
+
+This message was distributed automatically from the IRS Tax Tips mailing =
+list. *Please Do Not Reply To This Message.*
+
+=20
+
+=A0
+
+________________________________________________________________________
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USIRS/subscriber/new?preferences=3Dtrue ]=
+. You will need to use your email address to log in. If you have question=
+s or problems with the subscription service, please contact subscriberhel=
+p.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by the Internal Revenue Serv=
+ice (IRS) [ https://www.irs.gov/ ].
+
+=20
+body .abe-column-block {min-height: 5px;} _______________________________=
+_________________________________________
+
+This email was sent to ms60710444266@yahoo.com by: Internal Revenue Servi=
+ce (IRS) =B7 Internal Revenue Service =B7 1111 Constitution Ave. N.W. =B7=
+ Washington DC 20535 GovDelivery logo [ https://subscriberhelp.granicus.c=
+om/ ]=20
+body .abe-column-block { min-height: 5px; } table.gd_combo_table img {mar=
+gin-left:10px; margin-right:10px;} table.gd_combo_table div.govd_image_di=
+splay img, table.gd_combo_table td.gd_combo_image_cell img {margin-left:0=
+px; margin-right:0px;}
+=0A
+------=_NextPart_187_F72F_3ABA6EF3.014FBCAC
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    COVID Tax Tip 2022-134: Parents can boost their back-to-school=
+ budget by claiming tax credits and refunds
+</title>
+
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <p style=3D"text-align: right;"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ29=
+2ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTSVJTL2J1bGxldGlucy8zMmE3Y2QwP3JlcWZyb209=
+c2hhcmUifQ.4fjlc68YenZxtQ4AGzPsq4c9T3twmuBBbqewLV4ANNg/s/2601788363/br/14=
+3309944680-l" target=3D"_blank" rel=3D"noopener noreferrer"><img width=3D=
+"83" height=3D"16" alt=3D"Bookmark and Share" style=3D"border:0" src=3D"h=
+ttps://content.govdelivery.com/assets/share_this-795413ad3d604760a450815a=
+10e46c8ea06b7315facb759ffdacbc7b7830f87b.gif"></a></p>
+  <style>
+a { color:#0073AF !important;}
+a:hover { color:#004673 !important;}
+<!--
+body { font-family: arial; }
+p { font-size: 12px; }
+li { font-size: 12px; }
+h2 { font-size: 24px;=20
+=09font-style: italic;}
+--></style>
+<table style=3D"font-size: 12pt;" border=3D"1" width=3D"675" cellspacing=3D=
+"0" cellpadding=3D"5">
+<tbody>
+<tr>
+<td style=3D"background-color: #001e59; padding: 0px; line-height: 0px; b=
+order-bottom: none;" colspan=3D"2"><img src=3D"https://content.govdeliver=
+y.com/attachments/fancy_images/USIRS/2020/04/3293891/2020-04-14-irs-commi=
+sh-approved-patrioticbanner_original.png" border=3D"0" alt=3D"IRS.gov Ban=
+ner" name=3D"logo" style=3D"width: 100%; height: auto; line-height: 0px;"=
+></td>
+</tr>
+<tr>
+<td style=3D"background-color: #002346; height: 15px;" colspan=3D"2">
+<table style=3D"margin: 0px; width: 100%; color: #ffffff; padding: 0px;">=
+
+<tbody>
+<tr>
+<td style=3D"text-align: left; width: 41.6036%;">IRS Tax Tips</td>
+<td style=3D"text-align: right; width: 57.1861%;">August 31, 2022</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #f3f3f3; padding-left: 10px; width: 30%; c=
+olor: #000000; font-size: 10pt; vertical-align: top;">
+<h3 style=3D"color: #001e5a;">Useful Links:</h3>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292LyJ9.rlGVIY--C63jRbn9KsCbfOtuj=
+JZ7K8u1MxERUVsRnos/s/2601788363/br/143309944680-l">IRS.gov</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2J1c2luZXNzZXMvc21hbGwtYnVzaW=
+5lc3Nlcy1zZWxmLWVtcGxveWVkL2Rpc2FzdGVyLWFzc2lzdGFuY2UtYW5kLWVtZXJnZW5jeS1=
+yZWxpZWYtZm9yLWluZGl2aWR1YWxzLWFuZC1idXNpbmVzc2VzLTEifQ.3sAVjlxz5_Z_beb4v=
+E8ou11YeUxmqpJCOdTX0IG2TQE/s/2601788363/br/143309944680-l">Help For Hurri=
+cane Victims</a></p>
+<hr>
+<h3 style=3D"color: #001e5a;">News Essentials</h3>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL3doYXRzLWhvdCJ9.5=
+AW0yWkUHFHT8VQS6AWr0FXOyPVD4d_sgOOwBix8rvw/s/2601788363/br/143309944680-l=
+">What's Hot</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL25ld3MtcmVsZWFzZX=
+MtZm9yLWN1cnJlbnQtbW9udGgifQ.vsh7wGATqpuXW1QK8OhK2mGXqSkTlzos-AXkrlgJbNs/=
+s/2601788363/br/143309944680-l">News Releases</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2Fib3V0LWlycy9pcnMtdGhlLWJhc2=
+ljcyJ9.7ttrGZQVeDLL23KWsEBLwGRJFNKnRvnu-YH6Sz2DjK0/s/2601788363/br/143309=
+944680-l">IRS - The Basics</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL3VuZGVyc3RhbmRpbm=
+ctaXJzLWd1aWRhbmNlLWEtYnJpZWYtcHJpbWVyIn0.DIK50BRy-Ny6MWi4Lx891zTRHICriH1=
+hvTy7UWZbHzQ/s/2601788363/br/143309944680-l">IRS Guidance</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2lycy1tZWRpYS1yZW=
+xhdGlvbnMtb2ZmaWNlLWNvbnRhY3QtbnVtYmVyIn0.IGyw7oc_Dy2w21AzzfnG7ML5RqH6Q1X=
+yiexDXbjA01E/s/2601788363/br/143309944680-l">Media Contacts</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2ZhY3Qtc2hlZXRzIn=
+0.0bOrp_4Ib-EZwoVB5Oz8wx4zNvT16Gb46O2jHmL64qY/s/2601788363/br/14330994468=
+0-l">Facts &amp; Figures</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2Fyb3VuZC10aGUtbm=
+F0aW9uIn0.x7qn0eBnC2Ris4-lQk-l4j0o0do2yB6zwRNdPhMx37s/s/2601788363/br/143=
+309944680-l">Around The Nation</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2UtbmV3cy1zdWJzY3=
+JpcHRpb25zIn0.UQZGMSlQxHyVonCum-S6Pp4MecxG8UZOwg0G6m53IJ0/s/2601788363/br=
+/143309944680-l">e-News Subscriptions</a></p>
+<hr>
+<h3 style=3D"color: #001e5a;">The Newsroom Topics</h3>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL211bHRpbWVkaWEtY2=
+VudGVyIn0.Ati24HU42RcDBqhzx3QX3EE0OnCXIyzKws7Lr9HF7Yc/s/2601788363/br/143=
+309944680-l">Multimedia=A0Center</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2VzL3NwYW5pc2gvbm90aWNpYXMtZW=
+4tZXNwYW5vbCJ9.No9Sq8nUI6V4U2q_jdsG5KY39R9LcsVWeBwtWf4Bvr0/s/2601788363/b=
+r/143309944680-l">Noticias en Espa=F1ol</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2lycy1yYWRpby1wc2=
+FzIn0.bvGrpbTXcYCgrRr3nsyYQGXHUhZJd1Mjndp4owuaRpk/s/2601788363/br/1433099=
+44680-l">Radio PSAs</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL3RheC1zY2Ftcy1jb2=
+5zdW1lci1hbGVydHMifQ.dUXt0GNqIroVgYw5_FJa4uYD3JThBcw3EPHyTAYLoBA/s/260178=
+8363/br/143309944680-l">Tax Scams/Consumer Alerts</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL3RoZS10YXgtZ2FwIn=
+0.TK_0mU0l4MZbqM_tthKcrbHsnVWvH3NYLbiz2VnCpqU/s/2601788363/br/14330994468=
+0-l">The Tax Gap</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2ZhY3Qtc2hlZXRzIn=
+0.O7Rz22guA-nlKE1s0AlmQU1_ueymJ3y_Dibb3VIUgLU/s/2601788363/br/14330994468=
+0-l">Fact=A0Sheets</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2lycy10YXgtdGlwcy=
+J9.tDGYpC5-cJQjlTXXrjNwX4tPKanYBmCxmaXn-qp-o5U/s/2601788363/br/1433099446=
+80-l">IRS Tax Tips</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL3RheC1pbmZvcm1hdG=
+lvbi1mb3ItbWVtYmVycy1vZi10aGUtdXMtYXJtZWQtZm9yY2VzIn0.sU72oOjxRcOhiO0DeAV=
+1EB52q-6-LFoMNVD9LY6qP8o/s/2601788363/br/143309944680-l">Armed Forces</a>=
+</p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMTksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL25ld3MtcmVsZWFzZX=
+MtZm9yLWN1cnJlbnQtbW9udGgifQ.j_ZfviY2mSKAL8HJbSXYzdPChY2bOAcadvLJXRBvSnE/=
+s/2601788363/br/143309944680-l" target=3D"_blank" title=3D"" rel=3D"noope=
+ner">Latest News</a></p>
+<hr>
+<h3 style=3D"color: #001e5a;">IRS Resources</h3>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2hlbHAvY29udGFjdC15b3VyLWxvY2=
+FsLWlycy1vZmZpY2UifQ.aKmaXxg5JMi9RDF2eNwK1MYjDRAPUlDpLbNPyBW4ZgM/s/260178=
+8363/br/143309944680-l">Contact=A0Your Local IRS=A0Office</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2ZpbGluZyJ9.Sf-bcdrmp2ZvBXz6I=
+4LeCks8ejrIFUdiv_Y8jw4GI3k/s/2601788363/br/143309944680-l">Filing Your Ta=
+xes</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2Zvcm1zLWluc3RydWN0aW9ucyJ9.c=
+BAkpXYnalGN4YTgR78kH2VHi_2Wuv2Tju3s5INop3I/s/2601788363/br/143309944680-l=
+">Forms &amp; Instructions</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2hlbHAvdGVsZXBob25lLWFzc2lzdG=
+FuY2UifQ.pZplGt4i-r5jSIdfMzhkkAGT-NAlELKNBqJr1bbEyw4/s/2601788363/br/1433=
+09944680-l">Frequently Asked Questions</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L3RheHBheWVyLWFkdm9jYXRlIn0.0H=
+yabkG8-5PW3QSYJgpMNkOPoxUM664t3oHEQTKMLEY/s/2601788363/br/143309944680-l"=
+>Taxpayer Advocate Service</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2ZpbGluZy93aGVyZS10by1maWxlLX=
+BhcGVyLXRheC1yZXR1cm5zLXdpdGgtb3Itd2l0aG91dC1hLXBheW1lbnQifQ.KjRcBa6GXb9O=
+ZT0YO0VVnhHkdqT0TjgxV1-0sgAOjFg/s/2601788363/br/143309944680-l">Where to =
+File</a></p>
+<p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMjYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+Dg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL2lycy1uZXctbWVkaW=
+EtMSJ9.oRf7kXcuoBBjI6WkztMQ-be01b9b8fXe7uwLTN5RmTE/s/2601788363/br/143309=
+944680-l">IRS Social Media</a></p>
+<p>=A0</p>
+<hr>
+</td>
+<td style=3D"vertical-align: top;">
+<h3>
+<a name=3D"top"></a>Issue Number: COVID Tax Tip 2022-134</h3>
+<hr>
+<p align=3D"center"><b><font face=3D"arial,helvetica,sans-serif" size=3D"=
+5">Parents can boost their back-to-school budget by claiming tax credits =
+and refunds</font></b></p>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">Summer is slippin=
+g away and another school year is starting. As kids head back to the clas=
+sroom, parents are ticking items off the school supply list. If they want=
+ to boost their back-to-school budgets, parents and guardians should make=
+ sure they aren=92t missing out on their 2021 refunds and tax credits.</f=
+ont></p>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">Many people don=92=
+t get their tax refund because they didn=92t file a federal tax return. S=
+ome people choose not to file a tax return because they didn't earn enoug=
+h money to be <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxMjcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMj=
+A4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2hlbHAvaXRhL2RvLWk=
+tbmVlZC10by1maWxlLWEtdGF4LXJldHVybiJ9.m2xfpVXSV1K2cGxnl44VReJqNlDQ2dDgpaR=
+yXeapBRk/s/2601788363/br/143309944680-l" target=3D"_blank" rel=3D"noopene=
+r">required to file</a>. Generally, they won't receive a failure to file =
+penalty if they are owed a refund =96 but they won=92t receive their refu=
+nd either.</font></p>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">A refund isn=92t =
+the only money people might be missing out on when they don=92t file. If =
+they=92re eligible for tax credits, like the child tax credit and the ear=
+ned income tax credit, they=92re leaving that money on the table as well.=
+</font></p>
+<p><b><font face=3D"arial,helvetica,sans-serif" size=3D"2">The child tax =
+credit </font></b><br><font face=3D"arial,helvetica,sans-serif" size=3D"2=
+">The <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMjgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNj=
+MwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZGVkdWN0aW9ucy9=
+pbmRpdmlkdWFscy9jaGlsZC10YXgtY3JlZGl0In0.4hc4mYuqqNX722N5-RGSekGTsKm0UjLJ=
+wpj2apvEjrw/s/2601788363/br/143309944680-l" target=3D"_blank" rel=3D"noop=
+ener">child tax credit</a> helps families with qualifying children get a =
+tax break. People may be able to claim the credit even if they don't norm=
+ally file a tax return.</font></p>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">Taxpayers qualify=
+ for the full amount of the 2021 child tax credit for each qualifying chi=
+ld if they meet all <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJ=
+idWxsZXRpbl9saW5rX2lkIjoxMjksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoi=
+MjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZ=
+GVkdWN0aW9ucy90YXgteWVhci0yMDIxLWZpbGluZy1zZWFzb24tMjAyMi1jaGlsZC10YXgtY3=
+JlZGl0LWZyZXF1ZW50bHktYXNrZWQtcXVlc3Rpb25zLXRvcGljLWItZWxpZ2liaWxpdHktcnV=
+sZXMtZm9yLWNsYWltaW5nLXRoZS0yMDIxLWNoaWxkLXRheC1jcmVkaXQtb24tYS0yMDIxLXRh=
+eC1yZXR1cm4ifQ.31pddekfozLphsSfn8cNXETBhC11tnIMi0FA8-1EDIA/s/2601788363/b=
+r/143309944680-l" target=3D"_blank" rel=3D"noopener">eligibility factors<=
+/a>=A0and their annual income isn=92t more than:</font></p>
+<ul>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2">$150,000 if they=
+=92re married and filing a joint return, or if they=92re filing as a qual=
+ifying widow or widower.</font></li>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2">$112,500 if they=
+=92re filing as a head of household.</font></li>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2">$75,000 if they=92=
+re a single filer or are married and filing a separate return.</font></li=
+>
+</ul>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">Parents and guard=
+ians with higher incomes may be eligible to claim a partial credit. The I=
+nteractive Tax Assistant can help people <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzAsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5p=
+cnMuZ292L2hlbHAvaXRhL2RvZXMtbXktY2hpbGRkZXBlbmRlbnQtcXVhbGlmeS1mb3ItdGhlL=
+WNoaWxkLXRheC1jcmVkaXQtb3ItdGhlLWNyZWRpdC1mb3Itb3RoZXItZGVwZW5kZW50cyJ9.u=
+X_-xmxkr4TwurzVS8ywbWYZwPCNzDOCBFx3Q6Q5rQY/s/2601788363/br/143309944680-l=
+" target=3D"_blank" rel=3D"noopener">check if they qualify</a>.</font></p=
+>
+<p><b><font face=3D"arial,helvetica,sans-serif" size=3D"2">The earned inc=
+ome tax credit </font></b><br><font face=3D"arial,helvetica,sans-serif" s=
+ize=3D"2">The <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxMzEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMj=
+A4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZGVkdWN=
+0aW9ucy9pbmRpdmlkdWFscy9lYXJuZWQtaW5jb21lLXRheC1jcmVkaXQtZWl0YyJ9.fMZd_eL=
+HwMJYhSJaD74Ci4lpwP22LMYd3G_Hza-pGCI/s/2601788363/br/143309944680-l" targ=
+et=3D"_blank" rel=3D"noopener">earned income tax credit</a> helps low- to=
+ moderate-income workers and families get a tax break. If someone qualifi=
+es, they can use the credit to reduce the taxes they owe =96 and maybe in=
+crease their refund.</font></p>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">Low- to moderate-=
+income workers with qualifying children may be eligible to claim the earn=
+ed income tax credit if certain qualifying rules apply to them. People ma=
+y qualify for the EITC even if they can=92t claim children on their tax r=
+eturn. Visit IRS.gov to learn how to <a href=3D"https://lnks.gd/l/eyJhbGc=
+iOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzIsInVyaSI6ImJwMjpjbGljayIsImJ=
+1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMu=
+Z292L2NyZWRpdHMtZGVkdWN0aW9ucy9pbmRpdmlkdWFscy9lYXJuZWQtaW5jb21lLXRheC1jc=
+mVkaXQvd2hvLXF1YWxpZmllcy1mb3ItdGhlLWVhcm5lZC1pbmNvbWUtdGF4LWNyZWRpdC1laX=
+RjI3dpdGhvdXQifQ.KL83TA-Qn3pwZA9zwbQyT1vcIAdpzczJ40xFkxtA1DA/s/2601788363=
+/br/143309944680-l" target=3D"_blank" rel=3D"noopener">claim the EITC wit=
+hout a qualifying child</a>.</font></p>
+<p><b><font face=3D"arial,helvetica,sans-serif" size=3D"2">People who qua=
+lify for the EITC, may also qualify for other tax credits, including:</fo=
+nt></b></p>
+<ul>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2"><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzMsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy5pcnMuZ292L2hlbHAvaXRhL2RvZXMtbXktY2hpbGRkZXBlbmRlbnQtcXVhb=
+GlmeS1mb3ItdGhlLWNoaWxkLXRheC1jcmVkaXQtb3ItdGhlLWNyZWRpdC1mb3Itb3RoZXItZG=
+VwZW5kZW50cyJ9.D7e4gjCNfK3G0fTDnD25SiHNKsfden5-UbgKtYSE_6I/s/2601788363/b=
+r/143309944680-l" target=3D"_blank" rel=3D"noopener">Child tax credit and=
+ the credit for other dependents</a></font></li>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2"><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzQsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy5pcnMuZ292L2hlbHAvaXRhL2RvZXMtbXktY2hpbGRkZXBlbmRlbnQtcXVhb=
+GlmeS1mb3ItdGhlLWNoaWxkLXRheC1jcmVkaXQtb3ItdGhlLWNyZWRpdC1mb3Itb3RoZXItZG=
+VwZW5kZW50cyJ9.bFoXnRsank_-dndwcmmBz0M_zCrL8ms_73xDfGmk3YM/s/2601788363/b=
+r/143309944680-l" target=3D"_blank" rel=3D"noopener">Child and dependent =
+care credit</a></font></li>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2"><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzUsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZGVkdWN0aW9ucy9pbmRpdmlkdWFscy9lZHVjY=
+XRpb24tY3JlZGl0cy1hb3RjLWxsYyJ9.cQHaWYfyFI5Wv3kS2CvTtsesxKkolrzZTUklVq-4n=
+Gs/s/2601788363/br/143309944680-l" target=3D"_blank" rel=3D"noopener">Edu=
+cation credits</a></font></li>
+<li><font face=3D"arial,helvetica,sans-serif" size=3D"2"><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzYsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy5pcnMuZ292L25ld3Nyb29tL3JlY292ZXJ5LXJlYmF0ZS1jcmVkaXQifQ.0c=
+BHVr45E6ZTONtAGrfJ7jfMVk0lHPZ9RYVBUFsIaos/s/2601788363/br/143309944680-l"=
+ target=3D"_blank" rel=3D"noopener">Recovery rebate credit</a></font></li=
+>
+</ul>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2"><b>More informati=
+on: </b></font><br><font face=3D"arial,helvetica,sans-serif" size=3D"2"><=
+a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lk=
+IjoxMzcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4N=
+zEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2luZGl2aWR1YWxzL2RvbnQtbG9zZS15b3=
+VyLXJlZnVuZC1ieS1ub3QtZmlsaW5nIn0.R4nekKkJY7tV9-sLEEzo0SdMdPU8JXVaF0-06JG=
+kssc/s/2601788363/br/143309944680-l" target=3D"_blank" rel=3D"noopener">D=
+on=92t Lose Your Refund by Not Filing</a> </font><br><font face=3D"arial,=
+helvetica,sans-serif" size=3D"2"><a href=3D"https://lnks.gd/l/eyJhbGciOiJ=
+IUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzgsInVyaSI6ImJwMjpjbGljayIsImJ1bGx=
+ldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292=
+L2NyZWRpdHMtZGVkdWN0aW9ucy9pbmRpdmlkdWFscy9lYXJuZWQtaW5jb21lLXRheC1jcmVka=
+XQtZWl0YyJ9.I7nab70EuaeZdKrVA0DKvDgDpTd_wMF93CkwEF9hswI/s/2601788363/br/1=
+43309944680-l" target=3D"_blank" rel=3D"noopener">Earned Income Tax Credi=
+t</a> </font><br><font face=3D"arial,helvetica,sans-serif" size=3D"2"><a =
+href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIj=
+oxMzksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzE=
+iLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292L2NyZWRpdHMtZGVkdWN0aW9ucy9pbmRpdmlk=
+dWFscy9jaGlsZC10YXgtY3JlZGl0In0.95E98Hwee2m35cDkzBq-AS1IHlwp3ogM48NGZyZDu=
+_M/s/2601788363/br/143309944680-l" target=3D"_blank" rel=3D"noopener">Chi=
+ld Tax Credit</a></font></p>
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">Share this tip on=
+ social media -- #IRSTaxTip: : Parents can boost their back-to-school bud=
+get by claiming tax credits and refunds. <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDAsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwOi8vb3cubHkv=
+cmI5VTUwS3R1cU0ifQ.TUa_zxsLbGQmDfvvq2AVzyV3PlsB0PtTOSudAqyKm_Y/s/26017883=
+63/br/143309944680-l" target=3D"_blank" rel=3D"noopener">http://ow.ly/rb9=
+U50KtuqM</a></font> </p>
+<p><a href=3D"#top">Back to top</a></p>
+<p style=3D"font-size: 10pt;">=A0</p>
+<hr>
+<p style=3D"font-size: 10pt;" align=3D"center"><a href=3D"https://lnks.gd=
+/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDEsInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3=
+d3dy5mYWNlYm9vay5jb20vSVJTLyJ9.5Lli9MWhPm2YS2iotVkBOnE54iwdYnzWgTNkGj1gk6=
+Q/s/2601788363/br/143309944680-l"><img src=3D"https://content.govdelivery=
+.com/attachments/fancy_images/USIRS/2018/06/1999322/facebook-logo_origina=
+l.png" alt=3D"FaceBook Logo" title=3D"Facebook Logo" width=3D"22" height=3D=
+"22"></a>=A0=A0<!-- x-tinymce/html --><!-- x-tinymce/html --><a href=3D"h=
+ttps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDIsInV=
+yaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwi=
+OiJodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2lyc3ZpZGVvcyJ9.39KmRJ5DgtRTJh1l=
+t5UALPQXK5Vu5BfjDFTlWGgIPuM/s/2601788363/br/143309944680-l" title=3D"You =
+Tube Videos"><img src=3D"https://content.govdelivery.com/attachments/fanc=
+y_images/USIRS/2018/06/1999334/youtube-logo_original.png" alt=3D"YouTube =
+Logo" title=3D"YouTube Logo" width=3D"22" height=3D"22"></a> =A0<a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDMsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2lyc25ld3MifQ.9fPPIYXwNeyfykKKR1I0=
+_FW_PWhAvD7I-oglDna_62s/s/2601788363/br/143309944680-l"><img src=3D"https=
+://content.govdelivery.com/attachments/fancy_images/USIRS/2018/12/2297618=
+/instagram_original.png" alt=3D"Instagram Logo" title=3D"Instagram Logo" =
+width=3D"22" height=3D"22"></a>=A0 <a href=3D"https://lnks.gd/l/eyJhbGciO=
+iJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDQsInVyaSI6ImJwMjpjbGljayIsImJ1b=
+GxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY2=
+9tL0lSU25ld3MifQ.eqt7-pSLx3XwTyDHaKeix604nVIsKpFCXjMeusyRhGo/s/2601788363=
+/br/143309944680-l"><img src=3D"https://content.govdelivery.com/attachmen=
+ts/fancy_images/USIRS/2018/06/1999328/twitter-logo_original.png" alt=3D"T=
+witter Logo" title=3D"Twitter Logo" width=3D"22" height=3D"22"></a> =A0<a=
+ href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkI=
+joxNDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4Nz=
+EiLCJ1cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9pcnMvIn0.kJ0vuCS=
+UGrlgjuvYfJ5IF6rXhyTlhPp2TiKaMkuWlD4/s/2601788363/br/143309944680-l" targ=
+et=3D"_blank" title=3D"LinkedIn Icon" rel=3D"noopener"><img src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USIRS/2018/06/1999632/=
+linkedin_original.png" alt=3D"LinkedIn Logo" title=3D"LinkedIn Logo" widt=
+h=3D"22" height=3D"22"></a></p>
+<hr>
+<div style=3D"font-size: 10pt;">
+<p>Thank you for subscribing to IRS Tax Tips, an IRS e-mail service. For =
+more information on federal taxes please visit <a href=3D"https://lnks.gd=
+/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDYsInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3=
+d3dy5pcnMuZ292LyJ9.xx-mCz26q3HFRIXNY8FV6G2VH8stY84Dywq84BXe-Ww/s/26017883=
+63/br/143309944680-l">IRS.gov</a>.</p>
+<p>This message was distributed automatically from the IRS Tax Tips maili=
+ng list. <strong>Please Do Not Reply To This Message.</strong></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+ =20
+
+
+<div id=3D"mail_footer">
+    <hr>
+<table class=3D"gd_table" style=3D"height: 111px; width: 95.6674%; border=
+-collapse: collapse;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 100%;">
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+NDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNJUlMvc3=
+Vic2NyaWJlci9uZXc_cHJlZmVyZW5jZXM9dHJ1ZSJ9.rmeJbQvI6cgtvDbKIodW0_oRR17hdC=
+mfXqB2Vr_NGqo/s/2601788363/br/143309944680-l">Subscriber Preferences Page=
+</a>. You will need to use your email address to log in. If you have ques=
+tions or problems with the subscription service, please contact <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDgsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.ycT7vvSwboBo=
+r7Ox2WlKfjgqYVxSZ2H7-ZxmjXUKNqk/s/2601788363/br/143309944680-l">subscribe=
+rhelp.govdelivery.com</a>.</p>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXR=
+pbl9saW5rX2lkIjoxNDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4=
+MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3d3dy5pcnMuZ292LyJ9.q06zlGqDnAbsBkgN=
+vuCuLIkR9nH-5sWw42z0bHB8liY/s/2601788363/br/143309944680-l">Internal Reve=
+nue Service (IRS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com by: Internal Revenue=
+ Service (IRS) =B7 Internal Revenue Service =B7 1111 Constitution Ave. N.=
+W. =B7 Washington DC 20535</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTAsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMDg4NzEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.bX5IC6Q2TQ7O2Qgya42qGI300E1IWuPtPNmp6qf0G4w/s=
+/2601788363/br/143309944680-l" target=3D"_blank" rel=3D"noopener"><img sr=
+c=3D"https://content.govdelivery.com/images/govd-logo-dark.png" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block { min-height: 5px; } tabl=
+e.gd_combo_table img {margin-left:10px; margin-right:10px;} table.gd_comb=
+o_table div.govd_image_display img, table.gd_combo_table td.gd_combo_imag=
+e_cell img {margin-left:0px; margin-right:0px;}</style>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMDk5NDQ2ODAtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM2MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMDg4NzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDA4ODcxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODQ3MTg4JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_187_F72F_3ABA6EF3.014FBCAC--
+

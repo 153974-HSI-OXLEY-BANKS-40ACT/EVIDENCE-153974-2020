@@ -1,0 +1,330 @@
+From - Sun Aug 28 23:00:59 2022
+X-Account-Key: account1
+X-UIDL: AOzQ2L4CjxlDYvEO+g2E8EmL/ug
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.12
+ by atlas319.free.mail.ne1.yahoo.com with HTTPS; Mon, 8 Aug 2022 13:26:18 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.64]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.64 as permitted sender)
+Authentication-Results: atlas319.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 8 Aug 2022 13:26:18 +0000
+X-YMailISG: z1uUDFYWLDsv3SAm0iPMtIlUnkKVPszrUsvKLOHI6Sglb0Kg
+ wAowAMF9My2EgERIznMjKD7PLROuPZqEYI12wckuwILPb2o3czGxDDBpMpNQ
+ U.UBo9FUC8cgJ86aVjzq1Ss.X2vNwTHu183rT34OE3PFWCzhTYQTYtSxFs1s
+ c0Mpdq.BG7M_Frmt0HIbqhIG_pYwTifL.1SdHe3ql69J.yLUk_aAWTzyb0ee
+ 29.9Z3nR8Alx3h0.b8WvKi1V1cfzSAG2ThQ_6wQKqlQT_DBgAsf_u4SdR_ys
+ tXKUnCr8wOOYg6hKKBbUT5NAnBV5XoXrOKXZDuEdsTUFu3mlIQ8ozjdbkxiM
+ DoWMLoMgSQOrq_wF78PVCdxfkrhQ4huj2cz6uNYWD.1n77ylpQWndS6vS3B_
+ 4laam_jwkcrUzjTvzYBhaEHhDxxqfrLy_mrWrjcTLNEv3Pq5jCKMeA25Y6gO
+ VXJZaTxk2TQ3bDNonypJ8eOilGHU62G58VO2nH7xWuZYv_P1BTuLPl5BuVl9
+ znV0GkTKZICwZam2CufYVXbFumEKjC0r7v8.zF4_15kbuNBpRZcswP9eWFj5
+ 026kiyBo3kAcr8Yu0qZiVSWXIlwaRcNWcDNPV0lIUxajvGk.GURmkiGYRXvq
+ V_ywbkwtEuOpEbBrhqyEkLCceq9Ywj6lubJ9B.7w21vZdwDdO5phO3EVX.6D
+ w_bv1GzUhJJj0RHNf2nPH4KuAdbEZAocQiK_G7YAWDDj6tuGC.f7PMK0RXJc
+ XCoZIRgm8fClq51sMsI7nGOtFHHdDnHUAZ3GWxsG2UvVOPYUQXXZ32r_SFHh
+ pNNIcbj3JoBE4pN3sFetA9GIrh9Pa7IUFQXTT3Xup1eMmnRMppMhp4J_7PFn
+ 5Me5sZVqFynevtIUidIWtJkZWaYqPgEU6I0CxPODRCmHFkNm79M8RshKPdY6
+ qA1xcgArWVHyC.AhLeqP7sqAlGP3FtwhrmjxM304NDhvlkvaOt0LTWMs1WC2
+ gIMNN0QM3lCvCD9Clk5yk52UNAgLchVF4BUoFdJYCTb1pj1t2GJKzj11LH.Q
+ izkXpPb4FJbm05x7UVQnMviSLVRWRc3HPK4PbfOAWFGGG9XA_Nc.NAMniFOx
+ Cj.GyfaL5BV3wfR0Sj667TGyxqRuBsRivuo_rxQsArp7Yw.yXOEQXG8NW5fq
+ t3yCMJm3GmGrUCJHJMhxIl9DaRw-
+Received: from 209.134.158.64 (EHLO mailer158064.service.govdelivery.com)
+ by 10.217.150.12 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 08 Aug 2022 13:26:18 +0000
+Received: from gepdp-smeds1-5.systems.dc.gdi ([10.5.36.52])
+	by mailer158064.service.govdelivery.com (-); Mon, 08 Aug 2022 13:26:17 +0000
+X-VirtualServer: VSG001, mailer158064.service.govdelivery.com, 10.5.36.137
+X-VirtualServerGroup: VSG001
+X-MailingID: 16829006::20220808.61926111::1001::MDB-PRD-BUL-20220808.61926111::ms60710444266@yahoo.com::36045_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=ah9w
+	O5kTfgLiPE7OVbdMyhkf4IO66bKBrCVxXVTWLd0=; b=aTfvyHkQT72s8k1Ja8j4
+	Q5dgwV//NwudFa26+9YHaMd5FXT3vjn7+S5PhPjRJgO42/cnE9zC12tEdBcZVBXA
+	tV2qrPxzDMJvIQVUKzRDhN8vIGqUpCNZUKGDbmSZCm/sl22y7INkqgN7OudYZ0oe
+	L9rNgyDeh8ErU1kJM7l4Klt/rOHsQcTx2Kdbh+Jk0ByuAfw6IUfbpwXnsjsVZwwx
+	FBnmJdJEjtgGDm5TPCKGA9bgR3lBAi1SouQ4uezfE+Pe/Joy95vsIddxWyH9SEcX
+	mge509iamNOiRCyGa6aySu3X/Vo0nCvgBKbA6y+Ppc9JJklrQkeUxPRiafOjVlCp
+	zA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_F71_A7FE_5CEF82A4.468937F9"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIKdekUzjFn2J7UC/H1kIFc3MVdmYzrAg8zJXsj6+HJOfr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16829006.36045@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK7A8YJJ54GLJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?LDS_Files_Are_Now_Available?=
+Date: Mon, 08 Aug 2022 13:26:17 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 9691
+
+
+------=_NextPart_F71_A7FE_5CEF82A4.468937F9
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+=20
+
+The following Limited Data Set (LDS) files are now available:=A0
+
+
+  * 2023 Inpatient Psychiatric(IPF) LDS final rule=20
+
+To request these files, please see the instructions on the CMS Data Use A=
+greement (DUA)=A0website [ https://www.cms.gov/Research-Statistics-Data-a=
+nd-Systems/Files-for-Order/Data-Disclosures-Data-Agreements/DUA_-_NewLDS =
+].=A0
+
+For more information about CMS LDS files, please see the LDS File Listing=
+=A0website [ https://www.cms.gov/Research-Statistics-Data-and-Systems/Fil=
+es-for-Order/LimitedDataSets ].
+
+*=A0*
+
+ Centers for Medicare & Medicaid Services (CMS) has sent this update. To =
+contact Centers for Medicare & Medicaid Services (CMS) go to our *contact=
+ us [ http://www.cms.gov/About-CMS/Agency-Information/ContactCMS/index.ht=
+ml ] *page. =20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_F71_A7FE_5CEF82A4.468937F9
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    LDS Files Are Now Available
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://stage-public.govdelivery.com/system/images/11605/=
+original/CMSBanner_MockUp.png" alt=3D"Centers for Medicare &amp; Medicaid=
+ Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px;" valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"5">
+<tbody>
+<tr>
+<td class=3D"td1" valign=3D"top"> </td>
+</tr>
+</tbody>
+</table>
+<p><span>The following Limited Data Set (LDS) files are now available:=A0=
+</span></p>
+<ul>
+<li style=3D"margin-left: 2.5pt;">2023 Inpatient Psychiatric(IPF) LDS<spa=
+n style=3D"color: black;"> final rule</span>
+</li>
+</ul>
+<p><span>To request these files, please see the instructions on the CMS D=
+ata Use Agreement (DUA)=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1Ni=
+J9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMjA4MDguNjE5MjYxMTEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L1Jlc2V=
+hcmNoLVN0YXRpc3RpY3MtRGF0YS1hbmQtU3lzdGVtcy9GaWxlcy1mb3ItT3JkZXIvRGF0YS1E=
+aXNjbG9zdXJlcy1EYXRhLUFncmVlbWVudHMvRFVBXy1fTmV3TERTIn0.JoCn-GKopsgdwH3kM=
+RMxUYU8lJ2qgmuS1xvnU6GfJCU/s/2601788358/br/142226365849-l" target=3D"_bla=
+nk" title=3D"" rel=3D"noopener">website</a>.</span><span>=A0</span></p>
+<p><span>For more information about CMS LDS files, please see the LDS Fil=
+e Listing=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXR=
+pbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4=
+MDguNjE5MjYxMTEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L1Jlc2VhcmNoLVN0YXRpc=
+3RpY3MtRGF0YS1hbmQtU3lzdGVtcy9GaWxlcy1mb3ItT3JkZXIvTGltaXRlZERhdGFTZXRzIn=
+0.EHuBfBd9GGxtlqBlbU5zPFVpAG7GkHRAhXvKkAZnpuI/s/2601788358/br/14222636584=
+9-l" target=3D"_blank" title=3D"" rel=3D"noopener">website</a>.</span></p=
+>
+<br>
+<p><strong><span style=3D"font-family: arial, helvetica, sans-serif; font=
+-size: small;">=A0</span></strong></p>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f; height: 75px;" align=3D"right">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this update. To contact Centers for Medicare &amp; Med=
+icaid Services (CMS) go to our </span><span style=3D"text-decoration: und=
+erline;"><span style=3D"color: #ffffff;"><strong><a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjYxMTEiLCJ1cmwiOiJodHRwOi8v=
+d3d3LmNtcy5nb3YvQWJvdXQtQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZ=
+GV4Lmh0bWwifQ.a7snJaXLwondXHn0cc6l54hD9XZgAmskGOuDy9nHgho/s/2601788358/br=
+/142226365849-l" target=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"no=
+opener"><span style=3D"color: #ffffff; text-decoration: underline;">conta=
+ct us</span></a> </strong></span></span><span style=3D"color: #ffffff;">p=
+age.</span>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjYxMTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.P3jvMaFNyBhysTTOcKSPa-A4WQuj2H-npFRUpqj1VFY/s/2601788358/br/1=
+42226365849-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjYxMTEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.5gsMgza_5DoPVHlmlBjTQz=
+mWwBMWTVwpeIVM554mqUY/s/2601788358/br/142226365849-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MDguNjE5MjYxMTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.7xaLvaqxSY8M7eHzjiGN_Zojr9p4geZ1AwCR3M10s=
+mg/s/2601788358/br/142226365849-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDgu=
+NjE5MjYxMTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.ot7Mcy6T-iyZQJs1b2uvni=
+wTYhftrPtHN0f-zilp4ww/s/2601788358/br/142226365849-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDIyMjYzNjU4NDktbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDguNjE5MjYxMTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODA4LjYxOTI2MTExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI5MDA2JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_F71_A7FE_5CEF82A4.468937F9--
+

@@ -1,0 +1,362 @@
+From - Sun Aug 28 22:42:20 2022
+X-Account-Key: account1
+X-UIDL: AHOzP3EDG6qAYsR+FwjN6EbGz0w
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-canary-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Tue, 5 Jul 2022 18:08:22 +0000
+Return-Path: <bT.pj6cxkzb30=39dtbv2u33j1=1iuup9jiwb@return.smtpcorp.com>
+X-Originating-Ip: [43.228.185.118]
+Received-SPF: pass (domain of return.smtpcorp.com designates 43.228.185.118 as permitted sender)
+Authentication-Results: atlas-canary-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@smtpcorp.com header.s=a1-4;
+ spf=pass smtp.mailfrom=return.smtpcorp.com;
+ dmarc=unknown header.from=nymail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 18:08:22 +0000
+X-YMailAVSC: kGg.Aoc3bBu1ExWanMAdtLoWoMPvz4srAZ1xEM48dw8iAtC
+ jOnbfOGsB1KsVJHEtHBEmvuSXwbqNM7HDAg_9vXHxys86uOyCbkBmEb7LLPO
+ r6JfzXlpd3Kwpfc1RQAxRpbun5.uUWNl4Gqp39v8wTRkHdjoNsWuFy7r_aKs
+ .0iplxiEaCHXEEXLeQlgAYA2X7HvkN7GAzQmzczyfKeD8O0zmMw67MeuWbWK
+ maw41nOS5xQ8vKTfeDU43c3WR7Z5I4BbYKdrtR_akri2hQ_XbYNK8B5eDjDB
+ k.Lg6buQ-
+X-YMailISG: OdHzDi0WLDuf9eJcZoB25iXdl8VBeIaBMPIBX5Qbpf9H34Ss
+ fZFGF41_MWm764BvVW3p8d95323ZSoDlwyFqbWq1k0MKbxxnwk0K5Fy3NEiM
+ SGRw8VbfPZlT84QHah8ppBUbudaA3LFqg8kkul5f9Wdnb.i1KNrL3zybPg.V
+ HqNyKohBSHkUO3TW6UPokjGqVkKQnhvaJN8nX2dJtEi2hpx.9PEWPtQ1B_H4
+ a6gWjqtUbZjFh1nt.CdWkEp8m3vpE9qTKykOQ707mFzN_idzDHbG_g8wAeOX
+ Gm8mQhRPKymddFEj3jAZF7rTRUMeGeqlZfNETwmhWrqHd.drU4GsDGztSVjZ
+ VSWiXRfcgWgkNnYGnqq3AfWRqB5Gh5XHXVDDWCvSBn07k15GQBEbnviEz6Yu
+ FVdXxdEx8_RpmmxrcvvVMtmRWo58vm9fGuNDHhqCWHg7cQP5qKIWXd2MiWAe
+ ZE97BpyGFLHs1ul4SZLIMVdK8gr0VI8fdWPqal7J.1odJLneKjQdRyJQEuEV
+ 3ltGInEmKALfRul7hhNo4UtPHQT0WScJrity3uxZaxY49Ib6hoALT9PqQ2ZV
+ VjG1.AD3RgpD1ZsQq6v0CETUpcmQjbzvQAS7Fc5aAkB2AqWfdnMalNPv59_S
+ FFmDC_tGbSC5cb7pg8VS1vNNew.UEF3jL6Xgz48e0MdRYa0QSlE9VCiksGUv
+ q9fKmBA_mNEBPdeBb6XlVmEaRSv7LMHUOh1z2fqFsQrR1T7yPxICk.p9C1ks
+ 5pT76PYNmuhqIBg8_3fVcQi6rxexVKuJtQAA0KsUdpLyuWDMnCHPNr0ZVNy5
+ YS6wlDQ5OAbfnojTsK530rjcGJKWpPQyPq7z7fX3xVT7CBEv7SMsRKby5_zi
+ amro6ejWSmEhFFNznAFzwzeAUL4rd1SHdKgZCUeR3_Q.eS4p.yhcv6uj4oWz
+ npA1UE09wrMJRzY6GVsnbCQnZwUb34wAhZNrHHMJx9iY5pfUsMry138ykbBT
+ RUK0Da.0QHR0tcAODc3nAKUrBsozykGbEEfDuuMMWOQsoz9E2vfVpS5abCGb
+ JRfES_iuER0sfkx3cxe8p3oMeziPXDhlLcikftg9lOi5tpa.Ah6ZwqDGzwCt
+ 1fj2AgmH5uGQGhpfV4GLjJ2H0f.C7P4_LYt24eLelJ9FiOXgYiYC0ci7XL31
+ vGcMabxuXadL9e0Z0xy0XT31DoO_
+Received: from 43.228.185.118 (EHLO a1i374.smtp2go.com)
+ by 10.253.62.156 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 18:08:22 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=smtpcorp.com; s=a1-4; h=Feedback-ID:X-Smtpcorp-Track:Message-ID:Subject:
+	Reply-to:From:To:Date:Sender:List-Unsubscribe;
+	bh=ap50vPyOYZjaiKMmEvLo1oiXf2m5GaI0zYRArH9TxIc=; b=tMwAJqma5ZLszGfR1al+VAgOsy
+	mt8bRW4mpdJWiBvb/n4RQpQM2fJvnVFXy68+vytynVqhOfXKte8BWPKDCK8QFp3CNzGxGZ13N/Xq3
+	N+Xd7pe7D/RwSw0iAinsjv26e/ZeNzZv5pKyHWiPQtIGPoT80WZ2mSpm44HQFMUm2w8bhhOv9GA/7
+	Gl+jMCWjYEzNDoiVn5Ak4txjsRlhbOWj8L6H14LITrnsUGFHuVLMA+y38V5ct9tPrI6AfUrnK8o2q
+	HNo5UOXsNUB4q6d+icOHjM0Mzyol33fKEiZCDkQSadCsKxMvmb2fcQS9R6Y9fEx2CsKxRblZPmurk
+	1L+YkAWw==;
+Received: from [10.45.79.114] (helo=SmtpCorp)
+ by smtpcorp.com with esmtpsa (TLS1.2:ECDHE_RSA_SECP256R1__AES_256_GCM:256)
+ (Exim 4.94.2-S2G) (envelope-from <service@nymail.com>)
+ id 1o8myD-ItkGHl-06; Tue, 05 Jul 2022 18:08:21 +0000
+Received: from [10.132.148.88] (helo=www.fifthavenueaddress.com)
+ by smtpcorp.com with esmtpsa
+ (TLS1.0:ECDHE_SECP256R1__RSA_SHA1__AES_128_CBC__SHA1:128)
+ (Exim 4.94.2-S2G) (envelope-from <service@nymail.com>)
+ id 1o8myC-g2u9go-2r; Tue, 05 Jul 2022 18:08:20 +0000
+Date: Tue, 5 Jul 2022 14:08:19 -0400
+To: ms60710444266@yahoo.com
+From: NYMAIL <service@nymail.com>
+Reply-to: NYMAIL <service@nymail.com>
+Subject: Mailbox Invoice Due - Account #139390
+Message-ID: <f6f70f79ee97268355b2f3bd7def6915@www.fifthavenueaddress.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2
+ (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b1_f6f70f79ee97268355b2f3bd7def6915"
+X-Smtpcorp-Track: 1o8XyCg2I9go2r.xE4VwVtNPlf1t
+Feedback-ID: 337241m:337241aLnubAB:337241sAMCmiMnsX
+X-Report-Abuse: Please forward a copy of this message, including all headers,
+ to <abuse-report@smtp2go.com>
+Content-Length: 16048
+
+
+--b1_f6f70f79ee97268355b2f3bd7def6915
+Content-Type: multipart/alternative;
+ boundary="b2_f6f70f79ee97268355b2f3bd7def6915"
+
+--b2_f6f70f79ee97268355b2f3bd7def6915
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+This is the body in plain text for non-HTML mail clients
+
+
+--b2_f6f70f79ee97268355b2f3bd7def6915
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title></title>
+
+    <style type="text/css">
+	.outer-tbl
+	{
+		border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    width: 600px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    background-color: rgb(255, 255, 255);}
+	
+	a{color:#000!important;}
+	p{margin:0!important;}
+    </style>
+</head>
+<body style="margin:0; padding:0; background-color:#ffffff; font-family: arial,sans-serif; color: #333333;">
+<center>
+	<div style="margin:0;padding:10px 0;" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+	<br>
+    <table  cellpadding="0" cellspacing="0" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; width: 600px;
+    -webkit-border-horizontal-spacing: 0px;  -webkit-border-vertical-spacing: 0px;   background-color: rgb(255, 255, 255);color: #333333;">
+        <tr>
+            <td align="left" valign="top" style="border: 1px solid #000;	background-color: #ffffff;	padding-left: 30px;	padding-right: 30px;	font-size: 14px;line-height: 20px; font-family: arial,sans-serif;color: #333333;" >
+			<br>
+                <table>
+                        <tr>
+                            <td><h1 style="margin:0 0 5px 0;padding:0;color: #333333;">
+                                    NYC VIRTUAL OFFICE- NYMAIL
+                                </h1>
+                            </td>
+                       
+                        </tr>
+
+                </table><br><div>Dear Baris,</div>
+<div>&nbsp;</div>
+<div><strong>We hope you and your family are staying safe during this unprecedented time.</strong></div>
+<div>&nbsp;</div>
+<div>Payment for your mailbox is due in the amount of $163.32.</div>
+<div>&nbsp;</div>
+<div>Please see the attached invoice in PDF format for the billing period 07-15-2022 to 09-15-2022.</div>
+<div>&nbsp;</div>
+<div><span style="color: #e03e2d;"><strong>Save! Pay for 11 months and get 12 months of service. Call for Details.</strong></span></div>
+<div>&nbsp;</div>
+<div>Pay with any of the options below :</div>
+<div>
+<ul>
+<li>Pay via PayPal <a href='https://www.fifthavenueaddress.com/billings/pay_now/130086'>Click here</a></li>
+<li>Pay over the phone- Call 212.679.0000</li>
+<li>To view or print older invoices- <a href='https://www.fifthavenueaddress.com/auth/login'>Click here</a></li>
+</ul>
+<div>
+<p>&nbsp;</p>
+</div>
+<div>
+<div>
+<p><strong>Thank you,</strong></p>
+</div>
+</div>
+</div>
+<div><strong>Rema</strong></div>
+<div>&nbsp;</div><br>
+<!--address>NYMail-NYC Virtual Office-Aerobeep</address>
+<address>244 5th Avenue# 2nd Floor</address>
+<address>New York, NY 10001</address>
+<address>Tel: (212)679-0000</address>
+<address>Fax: (212)591-6000</address>
+<address>Office Hours:</address>
+<address>Monday- Friday: 8:30am - 6:30pm</address>
+<address>Saturday: 10:00am - 4:00pm</address-->
+
+<p style="font-family: arial,sans-serif;color: #333333;font-size: 14px;">NYMail-NYC Virtual Office-Aerobeep<br>
+244 5th Avenue# 2nd Floor<br>
+New York, NY 10001<br>
+Tel: (212)679-0000<br>
+Fax: (212)591-6000<br>
+Office Hours:<br>
+Monday- Friday: 9:00am - 6:00pm<br>
+Saturday: 10:00am - 4:00pm</p><br><br>
+</td>
+</tr>
+</table>
+</div>
+</center>
+</body>
+</html>
+
+
+
+--b2_f6f70f79ee97268355b2f3bd7def6915--
+
+--b1_f6f70f79ee97268355b2f3bd7def6915
+Content-Type: application/octet-stream; name="Invoice-139390.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice-139390.pdf"
+
+JVBERi0xLjcKJeLjz9MKNiAwIG9iago8PCAvVHlwZSAvUGFnZSAvUGFyZW50IDEgMCBSIC9MYXN0
+TW9kaWZpZWQgKEQ6MjAyMjA3MDUxNDA4MTktMDQnMDAnKSAvUmVzb3VyY2VzIDIgMCBSIC9NZWRp
+YUJveCBbMC4wMDAwMDAgMC4wMDAwMDAgNTk1LjI3NjAwMCA4NDEuODkwMDAwXSAvQ3JvcEJveCBb
+MC4wMDAwMDAgMC4wMDAwMDAgNTk1LjI3NjAwMCA4NDEuODkwMDAwXSAvQmxlZWRCb3ggWzAuMDAw
+MDAwIDAuMDAwMDAwIDU5NS4yNzYwMDAgODQxLjg5MDAwMF0gL1RyaW1Cb3ggWzAuMDAwMDAwIDAu
+MDAwMDAwIDU5NS4yNzYwMDAgODQxLjg5MDAwMF0gL0FydEJveCBbMC4wMDAwMDAgMC4wMDAwMDAg
+NTk1LjI3NjAwMCA4NDEuODkwMDAwXSAvQ29udGVudHMgNyAwIFIgL1JvdGF0ZSAwIC9Hcm91cCA8
+PCAvVHlwZSAvR3JvdXAgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgL0RldmljZVJHQiA+PiAvQW5ub3Rz
+IFsgNSAwIFIgXSAvUFogMSA+PgplbmRvYmoKNyAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVjb2Rl
+IC9MZW5ndGggMjE5Nj4+IHN0cmVhbQp4nO1dbXPaOBf9zq+4O5tnpp1ZtJYsyXY/rSFO6y0xFEx3
+M9v9QMBJeDbBqUPL5t+vIBBkxxAMhspAZkgcW5Klc+49unqx0RAzNPEDI9Dgd/H5P/z1t/jTE5/3
+4nNdqvjw6xkGC2mTH/CvwPFL2tr5TG2aj0j5Zol688OXB01RMOKzk8mD6HrTwkuUIIYtbjJgDCOd
+UcZNoOZzmrJOdMSmtwugBRvesaQ4HHM8CGMIaxM8JDiIgQg7FDR0fkRjjkaqaejkUNGQ4DDJTDkO
+1TZkTzmikWoaR09hoGuWKPigbUPylCMapVTTOHqKgEPnyDxsFZU95YhGqmkcPUXAwemhR+aypxzR
+SDWNo6cwYCTNNjB/Pj4AOCRXOcIBJUzS4CD0UPHYL2ehqbObi/qFK8hTa16/n+royVKxC/Sy3U91
+9GRlmbdGVpac4ct4Q9Xx27Xr7pPt5ahj3NRn0xJ3IJ/XjNn5W+XxoNpzvQ3Ontg1AEshsY6RNfnJ
+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
+c3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvS2lkcyBbIDYgMCBSIF0gL0Nv
+dW50IDEgPj4KZW5kb2JqCjMgMCBvYmoKPDwvVHlwZSAvRm9udCAvU3VidHlwZSAvVHlwZTEgL0Jh
+c2VGb250IC9IZWx2ZXRpY2EgL05hbWUgL0YxIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nID4+
+CmVuZG9iago0IDAgb2JqCjw8L1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAv
+SGVsdmV0aWNhLUJvbGQgL05hbWUgL0YyIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nID4+CmVu
+ZG9iagoyIDAgb2JqCjw8IC9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1h
+Z2VJXSAvRm9udCA8PCAvRjEgMyAwIFIgL0YyIDQgMCBSID4+IC9YT2JqZWN0IDw8ID4+ID4+CmVu
+ZG9iago1IDAgb2JqCjw8L1R5cGUgL0Fubm90IC9TdWJ0eXBlIC9MaW5rIC9SZWN0IFsyLjgzNTAw
+MCAxLjAwMDAwMCAxOS4wMDUwMDAgMi4xNTYwMDBdIC9Db250ZW50cyAo/v8AaAB0AHQAcAA6AC8A
+LwB3AHcAdwAuAHQAYwBwAGQAZgAuAG8AcgBnKSAvUCA2IDAgUiAvTk0gKDAwMDEtMDAwMCkgL00g
+KEQ6MjAyMjA3MDUxNDA4MTktMDQnMDAnKSAvRiA0IC9Cb3JkZXIgWzAgMCAwXSAvQSA8PC9TIC9V
+UkkgL1VSSSAoaHR0cDovL3d3dy50Y3BkZi5vcmcpPj4gL0ggL0k+PgplbmRvYmoKOCAwIG9iago8
+PCAvVGl0bGUgKP7/AEIASQBMAEwpIC9BdXRob3IgKP7/AE4AWQBNAEEASQBMACAAQgBJAEwATCkg
+L1N1YmplY3QgKP7/AE4AWQBNAEEASQBMACAAQgBJAEwATCkgL0tleXdvcmRzICj+/wBOAFkATQBB
+AEkATAAsACAAQgBJAEwATCkgL0NyZWF0b3IgKP7/AFQAQwBQAEQARikgL1Byb2R1Y2VyICj+/wBU
+AEMAUABEAEYAIAA2AC4AMgAuADEAMwAgAFwoAGgAdAB0AHAAOgAvAC8AdwB3AHcALgB0AGMAcABk
+AGYALgBvAHIAZwBcKSkgL0NyZWF0aW9uRGF0ZSAoRDoyMDIyMDcwNTE0MDgxOS0wNCcwMCcpIC9N
+b2REYXRlIChEOjIwMjIwNzA1MTQwODE5LTA0JzAwJykgL1RyYXBwZWQgL0ZhbHNlID4+CmVuZG9i
+ago5IDAgb2JqCjw8IC9UeXBlIC9NZXRhZGF0YSAvU3VidHlwZSAvWE1MIC9MZW5ndGggNDI3OSA+
+PiBzdHJlYW0KPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtj
+OWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUg
+WE1QIENvcmUgNC4yLjEtYzA0MyA1Mi4zNzI3MjgsIDIwMDkvMDEvMTgtMTU6MDg6MDQiPgoJPHJk
+ZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgt
+bnMjIj4KCQk8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczpkYz0iaHR0cDovL3B1
+cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgoJCQk8ZGM6Zm9ybWF0PmFwcGxpY2F0aW9uL3BkZjwv
+ZGM6Zm9ybWF0PgoJCQk8ZGM6dGl0bGU+CgkJCQk8cmRmOkFsdD4KCQkJCQk8cmRmOmxpIHhtbDps
+YW5nPSJ4LWRlZmF1bHQiPkJJTEw8L3JkZjpsaT4KCQkJCTwvcmRmOkFsdD4KCQkJPC9kYzp0aXRs
+ZT4KCQkJPGRjOmNyZWF0b3I+CgkJCQk8cmRmOlNlcT4KCQkJCQk8cmRmOmxpPk5ZTUFJTCBCSUxM
+PC9yZGY6bGk+CgkJCQk8L3JkZjpTZXE+CgkJCTwvZGM6Y3JlYXRvcj4KCQkJPGRjOmRlc2NyaXB0
+aW9uPgoJCQkJPHJkZjpBbHQ+CgkJCQkJPHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5OWU1B
+SUwgQklMTDwvcmRmOmxpPgoJCQkJPC9yZGY6QWx0PgoJCQk8L2RjOmRlc2NyaXB0aW9uPgoJCQk8
+ZGM6c3ViamVjdD4KCQkJCTxyZGY6QmFnPgoJCQkJCTxyZGY6bGk+TllNQUlMLCBCSUxMPC9yZGY6
+bGk+CgkJCQk8L3JkZjpCYWc+CgkJCTwvZGM6c3ViamVjdD4KCQk8L3JkZjpEZXNjcmlwdGlvbj4K
+CQk8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9i
+ZS5jb20veGFwLzEuMC8iPgoJCQk8eG1wOkNyZWF0ZURhdGU+MjAyMi0wNy0wNVQxNDowODoxOS0w
+NDowMDwveG1wOkNyZWF0ZURhdGU+CgkJCTx4bXA6Q3JlYXRvclRvb2w+VENQREY8L3htcDpDcmVh
+dG9yVG9vbD4KCQkJPHhtcDpNb2RpZnlEYXRlPjIwMjItMDctMDVUMTQ6MDg6MTktMDQ6MDA8L3ht
+cDpNb2RpZnlEYXRlPgoJCQk8eG1wOk1ldGFkYXRhRGF0ZT4yMDIyLTA3LTA1VDE0OjA4OjE5LTA0
+OjAwPC94bXA6TWV0YWRhdGFEYXRlPgoJCTwvcmRmOkRlc2NyaXB0aW9uPgoJCTxyZGY6RGVzY3Jp
+cHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnBkZj0iaHR0cDovL25zLmFkb2JlLmNvbS9wZGYvMS4z
+LyI+CgkJCTxwZGY6S2V5d29yZHM+TllNQUlMLCBCSUxMPC9wZGY6S2V5d29yZHM+CgkJCTxwZGY6
+UHJvZHVjZXI+VENQREYgNi4yLjEzIChodHRwOi8vd3d3LnRjcGRmLm9yZyk8L3BkZjpQcm9kdWNl
+cj4KCQk8L3JkZjpEZXNjcmlwdGlvbj4KCQk8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4
+bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyI+CgkJCTx4bXBNTTpE
+b2N1bWVudElEPnV1aWQ6NGFlMGVlMjYtNmU4ZS1iNzAwLTEwNjEtYWRiZjhjM2NiYmU5PC94bXBN
+TTpEb2N1bWVudElEPgoJCQk8eG1wTU06SW5zdGFuY2VJRD51dWlkOjRhZTBlZTI2LTZlOGUtYjcw
+MC0xMDYxLWFkYmY4YzNjYmJlOTwveG1wTU06SW5zdGFuY2VJRD4KCQk8L3JkZjpEZXNjcmlwdGlv
+bj4KCQk8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczpwZGZhRXh0ZW5zaW9uPSJo
+dHRwOi8vd3d3LmFpaW0ub3JnL3BkZmEvbnMvZXh0ZW5zaW9uLyIgeG1sbnM6cGRmYVNjaGVtYT0i
+aHR0cDovL3d3dy5haWltLm9yZy9wZGZhL25zL3NjaGVtYSMiIHhtbG5zOnBkZmFQcm9wZXJ0eT0i
+aHR0cDovL3d3dy5haWltLm9yZy9wZGZhL25zL3Byb3BlcnR5IyI+CgkJCTxwZGZhRXh0ZW5zaW9u
+OnNjaGVtYXM+CgkJCQk8cmRmOkJhZz4KCQkJCQk8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291
+cmNlIj4KCQkJCQkJPHBkZmFTY2hlbWE6bmFtZXNwYWNlVVJJPmh0dHA6Ly9ucy5hZG9iZS5jb20v
+cGRmLzEuMy88L3BkZmFTY2hlbWE6bmFtZXNwYWNlVVJJPgoJCQkJCQk8cGRmYVNjaGVtYTpwcmVm
+aXg+cGRmPC9wZGZhU2NoZW1hOnByZWZpeD4KCQkJCQkJPHBkZmFTY2hlbWE6c2NoZW1hPkFkb2Jl
+IFBERiBTY2hlbWE8L3BkZmFTY2hlbWE6c2NoZW1hPgoJCQkJCTwvcmRmOmxpPgoJCQkJCTxyZGY6
+bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgoJCQkJCQk8cGRmYVNjaGVtYTpuYW1lc3BhY2VV
+Ukk+aHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLzwvcGRmYVNjaGVtYTpuYW1lc3BhY2VV
+Ukk+CgkJCQkJCTxwZGZhU2NoZW1hOnByZWZpeD54bXBNTTwvcGRmYVNjaGVtYTpwcmVmaXg+CgkJ
+CQkJCTxwZGZhU2NoZW1hOnNjaGVtYT5YTVAgTWVkaWEgTWFuYWdlbWVudCBTY2hlbWE8L3BkZmFT
+Y2hlbWE6c2NoZW1hPgoJCQkJCQk8cGRmYVNjaGVtYTpwcm9wZXJ0eT4KCQkJCQkJCTxyZGY6U2Vx
+PgoJCQkJCQkJCTxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgoJCQkJCQkJCQk8cGRm
+YVByb3BlcnR5OmNhdGVnb3J5PmludGVybmFsPC9wZGZhUHJvcGVydHk6Y2F0ZWdvcnk+CgkJCQkJ
+CQkJCTxwZGZhUHJvcGVydHk6ZGVzY3JpcHRpb24+VVVJRCBiYXNlZCBpZGVudGlmaWVyIGZvciBz
+cGVjaWZpYyBpbmNhcm5hdGlvbiBvZiBhIGRvY3VtZW50PC9wZGZhUHJvcGVydHk6ZGVzY3JpcHRp
+b24+CgkJCQkJCQkJCTxwZGZhUHJvcGVydHk6bmFtZT5JbnN0YW5jZUlEPC9wZGZhUHJvcGVydHk6
+bmFtZT4KCQkJCQkJCQkJPHBkZmFQcm9wZXJ0eTp2YWx1ZVR5cGU+VVJJPC9wZGZhUHJvcGVydHk6
+dmFsdWVUeXBlPgoJCQkJCQkJCTwvcmRmOmxpPgoJCQkJCQkJPC9yZGY6U2VxPgoJCQkJCQk8L3Bk
+ZmFTY2hlbWE6cHJvcGVydHk+CgkJCQkJPC9yZGY6bGk+CgkJCQkJPHJkZjpsaSByZGY6cGFyc2VU
+eXBlPSJSZXNvdXJjZSI+CgkJCQkJCTxwZGZhU2NoZW1hOm5hbWVzcGFjZVVSST5odHRwOi8vd3d3
+LmFpaW0ub3JnL3BkZmEvbnMvaWQvPC9wZGZhU2NoZW1hOm5hbWVzcGFjZVVSST4KCQkJCQkJPHBk
+ZmFTY2hlbWE6cHJlZml4PnBkZmFpZDwvcGRmYVNjaGVtYTpwcmVmaXg+CgkJCQkJCTxwZGZhU2No
+ZW1hOnNjaGVtYT5QREYvQSBJRCBTY2hlbWE8L3BkZmFTY2hlbWE6c2NoZW1hPgoJCQkJCQk8cGRm
+YVNjaGVtYTpwcm9wZXJ0eT4KCQkJCQkJCTxyZGY6U2VxPgoJCQkJCQkJCTxyZGY6bGkgcmRmOnBh
+cnNlVHlwZT0iUmVzb3VyY2UiPgoJCQkJCQkJCQk8cGRmYVByb3BlcnR5OmNhdGVnb3J5PmludGVy
+bmFsPC9wZGZhUHJvcGVydHk6Y2F0ZWdvcnk+CgkJCQkJCQkJCTxwZGZhUHJvcGVydHk6ZGVzY3Jp
+cHRpb24+UGFydCBvZiBQREYvQSBzdGFuZGFyZDwvcGRmYVByb3BlcnR5OmRlc2NyaXB0aW9uPgoJ
+CQkJCQkJCQk8cGRmYVByb3BlcnR5Om5hbWU+cGFydDwvcGRmYVByb3BlcnR5Om5hbWU+CgkJCQkJ
+CQkJCTxwZGZhUHJvcGVydHk6dmFsdWVUeXBlPkludGVnZXI8L3BkZmFQcm9wZXJ0eTp2YWx1ZVR5
+cGU+CgkJCQkJCQkJPC9yZGY6bGk+CgkJCQkJCQkJPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNv
+dXJjZSI+CgkJCQkJCQkJCTxwZGZhUHJvcGVydHk6Y2F0ZWdvcnk+aW50ZXJuYWw8L3BkZmFQcm9w
+ZXJ0eTpjYXRlZ29yeT4KCQkJCQkJCQkJPHBkZmFQcm9wZXJ0eTpkZXNjcmlwdGlvbj5BbWVuZG1l
+bnQgb2YgUERGL0Egc3RhbmRhcmQ8L3BkZmFQcm9wZXJ0eTpkZXNjcmlwdGlvbj4KCQkJCQkJCQkJ
+PHBkZmFQcm9wZXJ0eTpuYW1lPmFtZDwvcGRmYVByb3BlcnR5Om5hbWU+CgkJCQkJCQkJCTxwZGZh
+UHJvcGVydHk6dmFsdWVUeXBlPlRleHQ8L3BkZmFQcm9wZXJ0eTp2YWx1ZVR5cGU+CgkJCQkJCQkJ
+PC9yZGY6bGk+CgkJCQkJCQkJPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CgkJCQkJ
+CQkJCTxwZGZhUHJvcGVydHk6Y2F0ZWdvcnk+aW50ZXJuYWw8L3BkZmFQcm9wZXJ0eTpjYXRlZ29y
+eT4KCQkJCQkJCQkJPHBkZmFQcm9wZXJ0eTpkZXNjcmlwdGlvbj5Db25mb3JtYW5jZSBsZXZlbCBv
+ZiBQREYvQSBzdGFuZGFyZDwvcGRmYVByb3BlcnR5OmRlc2NyaXB0aW9uPgoJCQkJCQkJCQk8cGRm
+YVByb3BlcnR5Om5hbWU+Y29uZm9ybWFuY2U8L3BkZmFQcm9wZXJ0eTpuYW1lPgoJCQkJCQkJCQk8
+cGRmYVByb3BlcnR5OnZhbHVlVHlwZT5UZXh0PC9wZGZhUHJvcGVydHk6dmFsdWVUeXBlPgoJCQkJ
+CQkJCTwvcmRmOmxpPgoJCQkJCQkJPC9yZGY6U2VxPgoJCQkJCQk8L3BkZmFTY2hlbWE6cHJvcGVy
+dHk+CgkJCQkJPC9yZGY6bGk+CgkJCQk8L3JkZjpCYWc+CgkJCTwvcGRmYUV4dGVuc2lvbjpzY2hl
+bWFzPgoJCTwvcmRmOkRlc2NyaXB0aW9uPgoJPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFj
+a2V0IGVuZD0idyI/PgplbmRzdHJlYW0KZW5kb2JqCjEwIDAgb2JqCjw8IC9UeXBlIC9DYXRhbG9n
+IC9WZXJzaW9uIC8xLjcgL1BhZ2VzIDEgMCBSIC9OYW1lcyA8PCA+PiAvVmlld2VyUHJlZmVyZW5j
+ZXMgPDwgL0RpcmVjdGlvbiAvTDJSID4+IC9QYWdlTGF5b3V0IC9TaW5nbGVQYWdlIC9QYWdlTW9k
+ZSAvVXNlTm9uZSAvT3BlbkFjdGlvbiBbNiAwIFIgL0ZpdEggbnVsbF0gL01ldGFkYXRhIDkgMCBS
+ID4+CmVuZG9iagp4cmVmCjAgMTEKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAyNzUwIDAwMDAw
+IG4gCjAwMDAwMDMwMjYgMDAwMDAgbiAKMDAwMDAwMjgwOSAwMDAwMCBuIAowMDAwMDAyOTE1IDAw
+MDAwIG4gCjAwMDAwMDMxNDAgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAwNDgz
+IDAwMDAwIG4gCjAwMDAwMDM0MTEgMDAwMDAgbiAKMDAwMDAwMzc2NCAwMDAwMCBuIAowMDAwMDA4
+MTI1IDAwMDAwIG4gCnRyYWlsZXIKPDwgL1NpemUgMTEgL1Jvb3QgMTAgMCBSIC9JbmZvIDggMCBS
+IC9JRCBbIDw0YWUwZWUyNjZlOGViNzAwMTA2MWFkYmY4YzNjYmJlOT4gPDRhZTBlZTI2NmU4ZWI3
+MDAxMDYxYWRiZjhjM2NiYmU5PiBdID4+CnN0YXJ0eHJlZgo4MzMzCiUlRU9GCg==
+
+
+--b1_f6f70f79ee97268355b2f3bd7def6915--
+
+

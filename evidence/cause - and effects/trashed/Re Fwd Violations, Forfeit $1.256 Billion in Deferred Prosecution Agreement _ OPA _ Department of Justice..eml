@@ -1,0 +1,106 @@
+From - Sun Aug 28 22:42:24 2022
+X-Account-Key: account1
+X-UIDL: ADplHHZxUC6pYsSKMwOOKBmjqwE
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.13
+ by atlas209.free.mail.ne1.yahoo.com with HTTPS; Tue, 5 Jul 2022 19:00:02 +0000
+Return-Path: <3MorEYhcKAHU5nlmhfXkLXkobVX+ghkXiergrihlm.Vhf@listserv.bounces.google.com>
+X-Originating-Ip: [209.85.222.197]
+Received-SPF: pass (domain of listserv.bounces.google.com designates 209.85.222.197 as permitted sender)
+Authentication-Results: atlas209.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypost.com header.s=google;
+ spf=pass smtp.mailfrom=listserv.bounces.google.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=nypost.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 19:00:03 +0000
+X-YMailISG: CKRI8DAWLDuIpAW8.UzAUxF8Pze5mGWP91dkJq39hc4uEP55
+ qe4RhTe8nUw2_aa6D2zBClPSHevHM5o618WqaieqQGynaIP1MR3yt2R6bJWi
+ PEYLEszH7NRVDXlbogtp2h.L9v9MBFIKbxI4SjK9fKR5MOfgpNCN3zFeEsyb
+ HZapKpILtv4UEGnp3HpvQ0HkDpSVpKYZXr4MdVlvIhd3MBuOV6BlfI.vdlpZ
+ cCmpOztKahWBx_Vr4QDgahXus4zaWrumg2gx4np6e9dxhhyiZVhNrKMu3jFE
+ aPJ2dpVqvZH9yNxtCS4Wy78Am9T8HB8gwfnBoreAVBCpfuwTgLpxhlW2xgyR
+ FZ_A7GPRYOOpdwCXOxygvOEV6w5Xm2q63XUqcbWWW1ARrupwSYtR.yDYqKNS
+ Q_H0Obe5e6RGpV2z4LgKWSkcj_xNt1vwGRmAfz3Wgt0O3tH1Bwhu7MiH6EvH
+ hayznUcotzMwno7yHCkWra1EY3ieMcAA8S6nLV86FHljhBRJzQhZkWLE2q02
+ HuwGg.XU7dX5km9P6bSJ6EWUCvz3q6te6J1QLXi_hOGHjvzttEiBSDJZGmvd
+ FhgHjeaIVRZGerQ17obcUrLk.YjS0Q0MXm0DiipOBtcZUJg9YUsfBcHYMlAS
+ H6q4w4O6QN1rYpR7yBdFJzK7oW7_c.kXotA_4EUklPTYFbGJCehECrSSsiCR
+ 5Eo7lZlqaFtsv2UJg8EM8n6z8irDA_DACbx36pSNu6ZlF3wnCC9W_UCF_T2v
+ hENGTHnQjS0i8GJW5BTjvlhWTil7szS010CpmGLNZC4qWgmf2Iy.OgS2Hevv
+ 5AEu2i7GzXUYfAlMz_SW.WNLMopnCIEl_x3lm_05pCBwkRBTOR2W.xkw4G6p
+ oif1n.1DkPLdY0KE8xI71b6CXYhXyVnjQRwlnbTnPc5Yc6OElBXaAHPWUdUI
+ Nq0mQ8gyxVnINTb4zjcjGnFQeI_600XgLpMJ5MxfaOzBKxT9DJQHrV3DXHJf
+ 6MewOIam69LHFv8lO2xo2ax1IV2tsl2uJLPzlnpI9oHTUAxqc8y4Br2nS0AT
+ j2Oq6P1loMkwANOXePO9rOznqDZ6zdofm6HRgRGqWb5Vo9xwW6oh2nRYVF6P
+ sVGEB0JJiB_SmK4hZJVObJuTwBMXGI5Z7rE2idch8z8NM6rBEso-
+Received: from 209.85.222.197 (EHLO mail-qk1-f197.google.com)
+ by 10.217.150.13 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 19:00:02 +0000
+Received: by mail-qk1-f197.google.com with SMTP id a7-20020a37b107000000b006af3bc02282so12445292qkf.21
+        for <ms60710444266@yahoo.com>; Tue, 05 Jul 2022 12:00:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=nypost.com; s=google;
+        h=mime-version:auto-submitted:in-reply-to:references:from:to:subject
+         :message-id:date:content-transfer-encoding;
+        bh=8zRl0xDz1AVhUd7i1gLKajo+U9x8VUkKMxpLJ8iqQjM=;
+        b=d3QfDboEBVGIqjXDk0U5rjpDys3MAX7tVUfDY5sHu6IvP8qhYU4uqtbqKMpEclXIVR
+         lvpI9vTeJevkxexlchdGFlK7AUou+Mbm851IepTeJPu0VEU6fKEZbqWba/ewVQp1+b25
+         Fn9qxudbg6qPNRUyhISPOoFt+gVFdJmnqolUQ=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:auto-submitted:in-reply-to
+         :references:from:to:subject:message-id:date
+         :content-transfer-encoding;
+        bh=8zRl0xDz1AVhUd7i1gLKajo+U9x8VUkKMxpLJ8iqQjM=;
+        b=1UIpLWVB4u7McNyqE7Iu/ErZkK/oMSabwQWLxdNJZdvAFIcVByaFJf880ebKgXF5vv
+         86qBS7guUyazb6k4oip0KzReQjNwuXu26PrPvg6IPTsPpLlRi35xtGFv9t/wjEJFR5Or
+         Zt+0jlHepqVKGJXpEUBrAQcKUkzeWO7CdqVO+czIaEVgtsrbM51Tb7vMoyRtDSegqcA3
+         NF2Rm58Vlk/1z/Oh9cJF99ol7xiMozl/mxnd20c6955vf2iqIrSMKIiC0b/DyioJ5VFX
+         E5WvbX4La9WHUqdLuXoVTzMIhvGc9hqJ/ZbNxBdG2WYt4y+QK203VCTGG8kyGWaL+R8w
+         Jc3g==
+X-Gm-Message-State: AJIora8hiWGHxWy9sXdlqUzzWXFm0WphTPoaov38v7CN+4tvF9iaY0/i
+	nSpzOEhyeqRYuGrfdIfTUmVUMFydUe1yYkyX6j8BDMkFAMA=
+X-Google-Smtp-Source: AGRyM1s6CKpl7inGgGPDWrEsD4Tgpe5XBPX6m/do6BKubl4ttA946Ngm4XQMOmJiOLS3OtcBBy5BXc31tfG88h4DNH7mKGKE
+X-Received: by 2002:a05:622a:4cb:b0:31d:3fe9:77ce with SMTP id q11-20020a05622a04cb00b0031d3fe977cemr14274350qtx.665.1657047602092;
+        Tue, 05 Jul 2022 12:00:02 -0700 (PDT)
+MIME-Version: 1.0
+Auto-Submitted: auto-replied
+In-Reply-To: <7ab008de-ce88-5cf5-b847-593492b385eb@yahoo.com>
+References: <CAOHu48_nNJ1v+7ri26_ajRFuW-Pxf+SzSOkL2=DfsyKRLJexsQ@mail.gmail.com>
+ <CAOHu489Z0+5coGPGFvNGa2FynHFJHgZzNfu17+q7ptb2pmmnvg@mail.gmail.com>
+ <CAOHu48-AJ07Rm7VE4X3YHJHc-=vMVH4BEB6s6VFrOBHayRj5VA@mail.gmail.com>
+ <CAOHu489rwwGp+K=VGfVKECzsLGt4aKUHOEAxTZ0NkkaVkE2yow@mail.gmail.com>
+ <CAOHu48_Z6qWzbyg+XV+4QjEFtB=rihZK1SKt8v78wffMMUSemA@mail.gmail.com>
+ <CAOHu489USSO+gbnP5-O0qUkM8YuD5hoLptLNNJ8FxJBXtpgqFA@mail.gmail.com>
+ <CAOHu48-YEGJrpr0Uo_BzuF_Cmv5BM5DXhWfpaQhE1aC7ckvEDA@mail.gmail.com>
+ <CAOHu489sy=FCPOvZB7zcW7+NryCB62Z5t5etf17S2U8mhBGDXQ@mail.gmail.com>
+ <CAOHu488uNnZ0w+9TVK8ofqMEW2R0Yx=ftv_H5qVyMV-XfOn60Q@mail.gmail.com> <7ab008de-ce88-5cf5-b847-593492b385eb@yahoo.com>
+From: CustomerService <CustomerService+noreply@nypost.com>
+To: <ms60710444266@yahoo.com>
+Subject: Re: Re: Fwd: Violations, Forfeit $1.256 Billion in Deferred
+ Prosecution Agreement | OPA | Department of Justice.
+Message-ID: <000000000000b2d49d05e3137561@google.com>
+Date: Tue, 05 Jul 2022 19:00:02 +0000
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Length: 489
+
+Thank you for contacting the New York Post.
+
+New York Post Customer Service is in receipt of your email. Our staff is av=
+ailable to respond to messages during regular business hours, excluding hol=
+idays. Responses typically are sent within 24 hours.=20
+
+Best Regards,
+
+NYPost Customer Service
+
+ =20
+
+Website: http://www.NYPost.com
+Email: CustomerService@NYPost.com
+Phone: 1-800-552-7678
+Hours: Monday =E2=80=93 Friday 7:00 am to 4:30 pm EST; Saturday and Sunday =
+7:00 am to 2:00 pm EST

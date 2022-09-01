@@ -1,0 +1,158 @@
+From - Sun Aug 28 22:41:06 2022
+X-Account-Key: account1
+X-UIDL: AJIzu1wv/ab4YryoZQBZ2NoBUiM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.74
+ by atlas211.free.mail.ne1.yahoo.com with HTTPS; Wed, 29 Jun 2022 19:30:44 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.135.124]
+Received-SPF: pass (domain of yahoo.com designates 74.6.135.124 as permitted sender)
+Authentication-Results: atlas211.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 29 Jun 2022 19:30:44 +0000
+X-YMailISG: zdb.1R0WLDtGG7HvuPCpWeZxJIk2O9sC4HoVnVmPy.EPkiHh
+ t8_L5.ea_sHUHZ1HoT8iF4hhMv273Idzf6CAX2VPnWYx6iV8fTgKo0L1F1cz
+ oBdkHYQ_yBTfR1QZTVNd.VUz2rD2TnBCZ.Cu_fDyyhux3K95Lo1djrRGyHtK
+ VccxUiIRDxPpQKnbzWuopfIww0.1VXS5SPOXlN97emYt8Ma3izEGlQMvd0Jl
+ oypNiNCs4UFs3pz1WB6K6ip4NF8dUZB8kfEs2y5fRhIXPipTvrJl4c91Y60Q
+ PG6oQSGjGmnNvEOizI2RLC09Xrr7k5tupPQoRORh4YbYnKU0GsXEWnTqJG..
+ 68LE8jFVh2WArcMglVLUxOrLqm5OEb7igDOuHyAw_XfPMAt5fkw7Q6IcCST5
+ _iZrONg1gU25.90SQqQQklfoOut8tX2pU_R9ZcHfFnv8COo3Ao0t.XzmB9CY
+ 66ldmQszONMiHMZ2K6xt8TgxAD07JgpEvtBrsPwjWwBCHzDHU3YkSyVp26hi
+ kvFHl2GHQaB31fmnGUcR667FdoVhRivUpZ.oe8Q7GgrJ15PihNINxQe18td2
+ F98W4olFn6ycnT5c0SmT1K6FAz6jE6Flg9fa_dKr9QlktJIaeVpXznmOJJIg
+ JNrJxVm_I9Pvtkzaj6z_GjNLDyDL89ZxlC7F5iwSif_avUCwE0CjlXt26FGT
+ UD5qUUIawRI9tnuhiqfE8w54qp9PO0mhd_xmojlI6AMhzR97MEV.Tvu5292L
+ 4qPSFXQICiC_W0ObL8YYPwjuB1n1xCJHw1_Owve.vVMIieylpJS_nPeMdbqZ
+ LnYSjAV3QHswuWeKMRqk6HZf90sEyNDH6.MTzg.U7fl.gFnYpuOr8XDlkJOA
+ .N9F2vS5vs9a1S7bC2U_KR889fmiXJSN9jt9F.Dd93lQ9W4HqlStsWtPKie0
+ WCuAT6o81_jlIC8zS.N_WqgP_IXENChfvMAvoSZWzOPkh7fJN.WW.BUhloEb
+ dMLs8UcRPMPvhhrS5PXlsNIgSZCPFsr6XmUkfVJulCo8ykv4kUacj0BKlxIK
+ CKicxWXq.YsUx8YZDc2u8BZlRiqJTu8a0S0Ng2nLnxfJS8CwOd54k3Kbvtzj
+ 6cS4cgjB3Jnj6JZgbu96fMYgM8jaBiPzsN4TI9kGNm2iZK2Z17oP.40ssd1o
+Received: from 74.6.135.124 (EHLO sonic310-14.consmr.mail.bf2.yahoo.com)
+ by 10.217.151.74 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 29 Jun 2022 19:30:44 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656531043; bh=ZmBPheHPFv78PwpoQZzqYnw9s0iZI/309ZgtpDwhKDQ=; h=Date:To:From:Subject:References:From:Subject:Reply-To; b=ZJdAS37BmpfhoOsuD9BAyyahwrjFZnIx+biEDEnUSRKw1taXYky1HD5QmOsDVbZ4yt0vLvW9SXLLwQ2hhRFqW0AZnAXUhRvje6h+i5KfsitziAQyAQnlQ98SWjgkm6mw54BVqueI27qnuOhw3yLJchhtaTJOgZOx01K7ZXotvHIBsIX5byGO0C/GgXIdHhO3EozpDJ1Rs3BXJ9u+/YpY0oLAoV6bph66VnENpl42sQrR/lTv+4L85jA1kIlGORCl1NFcnfs6fnklryyw2/zwVII34W3F8vS0lqqy9HH7N9WONqBoXIldMDKvC6pQ+XcMLAV9Kl1UPWfVg2Ldy8fqRA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656531043; bh=TjlGDgqQTWCfhyn9I/CkwrXVVd4WOZnQeQwRS0sW2MG=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=TdE81cMn+fjKONfAZphpYwVfHvv3UyB8Ngd2q2CXePR/kidSluqRuDUl9soGjxEQACE8T91Vp8Oh3m5Nfa31XSKTjGf1KcOdLK12fwhzn/hWnKJrPDrQRy4mXe9Qs7JZsKYAWHmbavZ8h6Sp3J9FgJJaEsN0A0G2JKKJ+HMHoc5JPicMb3TnsaZKkEyPalyrpXc3/ckhS4S2QCEIKEedGo1QAiVU9w6XyWRssLUzxilhsjE7++LluY6gAQ3srkugoIqye+lOQSOunQ4QBWnc7T4vNtR+oFph4sJfU7WwP5BmN3LXGpWlYVpX4AGou9BHJN1v22mQ4BFWii8+hUVPPg==
+X-YMail-OSG: boOz5IAVM1m242_mEEecCOnIwMClD9jXqxmPDQU5Vy5vOwgsrXApho5XVSQ1cQC
+ _aAbO8XvKdJ_HpNTeHk2Ere4W7mKBta4grUDYX6Q03oF_gWfl.CAWdnaQq550hxn6fR3_9nMJPLk
+ SO6VHLcTwOIIMasSzwlNRUAUAEpHYWH2jutulrzbhOAKzL99sE9IHZ3_d6dWXY.92EKlfqKr15FR
+ DG_Vq6wXnwscg2JVfvp1gv.g0KDPsD48TdzdFDq1MtjmLCFvZjk1KTL0LNMe1zMS1_IBHayVjSp2
+ _OdRU.G3T8PnHp9Xp5eToUFR2XdK0QTRi2XtxkE1vk8eTwxEwpL3xW9Baw39DF9v8LCk1pS3ULql
+ Rc3LXErhJFAOJaQldZyWrpjsW35FUzQLI0Xk0BgL.F71Hzd6stRvjj8Nfct89uwR9FPvvCkOPEpI
+ 03r.rzUNhux4D3sFBbfhQ_0tjYZybieXGnt2CCondw5lcGcOvPYPiwK6YNjg6SqEbUWttNYHb.AX
+ OzSbR3BvcTFvz_oWwJKB2jbUUqsU.9iQY4N0knru2jDFPA8yWP8Jfp7DjVf9Hf4JsHQrxaGbCjsi
+ oxOdl_40Qf8FyxPEIRJlqTeJRPCXp_iisBpk5YVsuGqZ3xq7y_RtZQKHSwfFvgAKIMuQddoqc9Bc
+ buRLCzTC9UmVtqpR8kQU0I4LN4SmJwHDWEVpZ7Jqbltpy8AD_MlzoUb7hzg94FwxMtvIHhbEejDM
+ JgFB5Xs5v9eZ975PgpFDZ2QE2tEyyBCLtt6Kj9WV5_TD7W2_COQap7cWAfUnjmfaXZ6rekl24a_S
+ bfoEBW2k5NkNaQNkzK5L_eZne07b4n6ydlRonRKDqhZZHV2hEkonmFu1kElMDNmsXHKFD3a._K_F
+ oYc8f82TLMkMfYn1oFZg5KVBJEjtYWJjJRHntX9RSGsrE1vl4Czw0Q5HML_LmCf4ch0e66E0qpWr
+ fuuvaxiM5BPQbNpveyZQ3QUPEewhb7Hdol5EfC4nBMY4GnMJwGsLePX9SipFyBaMeh_OLHpKdoSY
+ ds_SnwSTNYvUXHZL917Ndr6hHbMoEO4W3bFUstOiqcbNmah6AnSeJMYipu3PRJHDqzAd5CGF3cbK
+ foHwbXkiDxWgiHFMmhNP8VQTZrfe889_3ZaE6lhBGqp3noqbFnNs9RT97xRRddIb2bD3XN3KNT2U
+ tqwaGYKIZiZjPvdAs7QEfN5VjEfpumZ_O09.ijA8N3M_haKbRMex8MC6n4f2C_p5FphFHlu6XsJ.
+ LGI12oWoDmdAsrx2qV4iY_bs8nv.x1JfCfgsfRz1ylEY1Z0sQjgmuWnkg.l2iy88kM05CdRfyu6t
+ 30gq_u.zfm76Ejw4ILOsgBeEhtHU6ykWpDHvINVOmYGhnJTVDyjR2QStgVyuiaXe5YPpqiFKgB_Z
+ KkhulrB71EEQ2EUakmQ_A5W6g6.oTYUl1v9K20IGjREBbV2iU1wDGoSQhfW.M3_Ou_GzLM5j2e_.
+ oJaHYKUaVIkgzuoHcRT8RLwYPx2ThO5GdEYcx9srLLaB196OZLGvn8YBbgaF1a9oG2R1bDS5FXP0
+ FTnHyUbuBkdisOWRD5qx4vuHjcOHmbD.qLNb9OaS63Q6wzt.AcxJO8vSTjIv9RvLI7gDD_K2_iyZ
+ m9RzYC1i2Yqf_36LOF2p5x6rSMOlHtJoOC_vmO3a3JbkyulIMv4.eyAh9rVoBj8ZDYpDEVHg8vZB
+ G2RIj7iMRj6GDOu10XbOvrs684Ivip46Y.rz4DritRP2Y5JuaRleHekOM1p0wXbgZCKmtuuIMsnA
+ 60DDphflCADXWcv3HuF7_FQqOdCyMftADocUEhOp3IaQzmbc2czOLu6QKO.pF0CYGyzFzEgLeqXy
+ NYP8xyDwweiNIHjCQtUAOmxM0hv7.ersLkWArVyO6PQXt6J1JjJ8nFptL4v42eeYL_bMoUK_xuev
+ 6xqSnxBUUFzO5B65OvQhCa0tp.Y2Tt4iQ8OrxSQI_PPAClml8R1Ij0wRpNZ43aFc8ObjLGQJQK7o
+ 0XMTsWy.SrxLjOq4pKoRSRfwNRuE8.vpZ9gFv_4WI6lFkk8RWkeOYzh21xoVJ1l3GQnDDivKXLnC
+ 3g_O3dn7PuOQkg9sMU76IFIHEuTglEFrHvjcOWIRyROSoeTgIVayYrY6oG6pcgn2spnyyjLIZMWe
+ qEL6SsLueZA_omVIT4k6P32YyRAAiRGHPOXS7LeHbLYmHuGtR71uIK2dkFp1jJacjFDzobrAra.B
+ ARwu2gZE-
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.bf2.yahoo.com with HTTP; Wed, 29 Jun 2022 19:30:43 +0000
+Received: by hermes--production-ne1-7864dcfd54-mdwhz (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID ad1fb7d21eaf7e99f71648117cd8ec63;
+          Wed, 29 Jun 2022 19:30:41 +0000 (UTC)
+Message-ID: <62927f74-0fb9-ccdd-0dcb-91b41fa19209@yahoo.com>
+Date: Wed, 29 Jun 2022 14:30:25 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+Content-Language: en-US
+To: KATHY HOCHUL <governor.hochul@exec.ny.gov>,
+ "ms60710444266@yahoo.com" <MS60710444266@YAHOO.COM>
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: UPDATED COMMUNICATIONS [ No. 01416925 ] BIN-1077252
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+References: <62927f74-0fb9-ccdd-0dcb-91b41fa19209.ref@yahoo.com>
+X-Mailer: WebService/1.1.20381 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 2994
+
+BIN-1077252 - 111 REAR SULLIVAN STREET, NEW YORK, NY, 10012
+## ADMINISTRATIVE-CLOSURE  ---311-10416012 - XX - ADMINISTRATIVE CLOSURE
+
+## THESE DOCUMENTS AND LINKS ARE BEING USED FOR INVESTIGATIVE PURPOSES
+## PLEASE DO NOT DESTROY THEM.
+
+____________________
+Category Code:      45          ILLEGAL CONVERSION
+ILLEGAL CONVERSION :          RESIDENTIAL SPACE
+
+### nov16-2021 PWC- STATE FARM
+https://saaze2311prdsra.blob.core.windows.net/clean/c31213993cd6ec11a7b5000d3a1956dd/STATE%20FARM%20-%20PWC%20-%20%20INFO%20-%20nov16-2021.pdf
+
+### tax evasionloan     50074 May 9 2022 Notice
+https://saaze2311prdsra.blob.core.windows.net/clean/847789e43cd6ec11a7b5000d3a1af965/TAX%20EVASIONLoan50075.PDF
+
+### nov17-2021-ingramzuckers
+https://saaze2311prdsra.blob.core.windows.net/clean/0d16940d3dd6ec11a7b50022483079c1/Nov17-2021-IngramZuckers.PDF
+https://saaze2311prdsra.blob.core.windows.net/clean/0f198ce646d6ec11a7b5002248307f33/2022-05-04-EstoppelDENIED.PDF
+https://saaze2311prdsra.blob.core.windows.net/clean/30ae18d746d6ec11a7b5000d3a1afadb/2022-03-18-WilsonElser%20Firm.PDF
+https://saaze2311prdsra.blob.core.windows.net/clean/0e0bc9b146d6ec11a7b5002248307b90/2020-11-30-0000093715-Properties10012.PDF
+
+### 10327679 2022-05-08      -tax evasion- insiderobstructions
+https://saaze2311prdsra.blob.core.windows.net/clean/80832e9f4ad6ec11a7b5000d3a19 
+56dd/2022-05-08-TAX%20EVASION-InsiderOBSTRUCTIONS.PDF
+
+### BMW
+https://saaze2311prdsra.blob.core.windows.net/clean/3e980ca54ad6ec11a7b5000d3a1afadb/BMW-MOTORSPORTS.png
+
+### Nov 16- Notice
+https://saaze2311prdsra.blob.core.windows.net/clean/cd7272864ad6ec11a7b5000d3a1956dd/Nov%2016%202021-10%20attachments.png
+
+### 7900
+https://saaze2311prdsra.blob.core.windows.net/clean/75106b364dd6ec11a7b50022483079c1/Omission-Obstruction-Feb%202022.PDF
+Https://saaze2311prdsra.blob.core.windows.net/clean/abef762b4dd6ec11a7b50022483079c1/GS.Zucker-Obstruction.png
+https://saaze2311prdsra.blob.core.windows.net/clean/0ffade214dd6ec11a7b5000d3a1956dd/2020-11-30-0000093715-Properties10012.PDF
+
+Overview for Complaint #:1610120 = RESOLVED
+       Complaint at:  111 REAR SULLIVAN STREET    BIN: 1077252          
+Borough: MANHATTAN          ZIP: 10012
+
+https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=4&vlcompdetlkey=0002823721
+
+
+____________________
+Category Code:      31
+CERTIFICATE OF OCCUPANCY
+- NONE/ILLEGAL/CONTRARY TO CO
+
+CERTIFICATE OF OCCUPANCY:   ILLEGAL/NONE
+Assigned To:  MANHATTAN CONSTRUCTION ENFORCEMENT
+Priority:     C
+
+Received:        05/24/2022
+Block:  503      Lot:  8
+Community Board:        102
+Owner:                    SULLIVAN PROPERTIES LP
+Last Inspection:        05/25/2022
+Disposition:              05/25/2022 - XX - ADMINISTRATIVE CLOSURE
+Comments:                  COMPLAINT STATEMENT IS NOT FOR OCCUPANCY 
+CONTRARY TO OR ILLEGAL OCCUPANCY ,
+
+Complaint Disposition History
+

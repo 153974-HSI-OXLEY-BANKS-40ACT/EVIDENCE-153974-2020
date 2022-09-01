@@ -1,0 +1,654 @@
+From - Wed Aug 31 18:53:33 2022
+X-Account-Key: account1
+X-UIDL: AHZHuh9hzzTwYw9+Ww5EWDsLiLA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.41.12
+ by atlas102.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 15:29:31 +0000
+Return-Path: <messages-stg@updates.gao.gov>
+X-Originating-Ip: [69.5.86.103]
+Received-SPF: pass (domain of updates.gao.gov designates 69.5.86.103 as permitted sender)
+Authentication-Results: atlas102.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@updates.gao.gov header.s=15q4;
+ spf=pass smtp.mailfrom=updates.gao.gov;
+ dmarc=pass(p=REJECT) header.from=updates.gao.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 15:29:31 +0000
+X-YMailAVSC: DmPmGSo3bBupKzCjz362cwkkELg8vkvRbeXVLocucPnyEk7
+ .UoQWbfAxOGH5YJhi9J7VB7hVEEpXt5JmCvUM06c6vufbWLfKZQCPYTY8RzU
+ rUcGkE6jxOYbQznGEQ4.04s32bwSB5A91eIUnyu6QpreQj_d5AFaD9vOiwAc
+ svL3C8ZiwDvbzFSNmuwMdxmDbylJBRhOzESDKa411emNXj30Ucq.AYK25HmT
+ 9BHHXTcmUYLvGpHaGHUtscGzE1OD5Ggh0KffZrTVU_2OPOOeL2MElM9ddHpw
+ 2IYOC6aAEZ52jOcI2uTj5dz6FXXrn.Kj0i6afkcPK4dvAahwP984hvCUu60R
+ PkRKL5sNlYzOeotzSTNjMB5RAfpEvU3WzsOHDjd0c3OZzLEt2w12we1RMokC
+ v9wMSNNxea6CY8SK25GKo8jZ8GbtHrIWGqgdUt0u8WsBBWpO5nO8VUp4X9ex
+ OJ2.nBJRHVD5..La4t4s7QbJFD6ZKCQq8vW6_Xnfvjx3bWIQ.HLig_LS5oez
+ _qmPr61tYX2V0_aY3ap5xS086vEwKvxWZ7_14DythR4stIDRRh0z1gSebK82
+ f2cvwOLnK0cxIG1UfI6dGGuhKSyN_hRkvftREeb.3u6Sz.az8Fk3ZHGkso2r
+ M7TBBNQqQ5eMhVmBnAh31ioKksF62V0nBM3hkSMrI457pNuEbClLQaQ79yNu
+ PMJE3h3H1qRA0KMkU5j3hkCgqG_.v9sAptw4C0Dy6R_qeyyUx.vG9G1rV0eT
+ YgSoi3NAcGxPeu6BkrSXgrxDwEH9sIMB6xrfvOqbIX9X8DBp2vn5.2D2ei_4
+ l6pcBqlmHufv6Z7s8eNL846MbOVE7wbDfXhX0SVILqo798hK.hSKEo3NSrTh
+ E0ZYKUZjL0u7fvlZlQ9GwG.ca_PI2tdwLtGAonAglmbPSHupmwhFo8xnVx6j
+ l.l2IgHrDQ4Ru71yr2sehnaQjsOD54B.1sMRxd_c9LPBM..Iq1NPT1QbPKnU
+ KzWy_KVP3vFYJzMtg3eJkXO805YZ6SUZmuERjug_Hn_MFNIory4TrOiCR5cc
+ GWHWcxkzw4J3BqrhTDBzYD8GfgPamQTzvJ1F0mK70CE5nDAaRPX8Tj30iprG
+ SIeWqevZjc6IvM8TWvqCvgrhVE_0gYnAd.lpi5zYl6YU80tP632_F6kE638a
+ PLGc67tv2dB9R41uKBGabP4D8oX68lASKhbh9t_ljpS5_C5cXLGRRmT3_W2P
+ 1HIZIESNw8vCaGxHFmO1y3ShZw8mgrulbX4Za0__8FKEzI0w-
+X-YMailISG: eLUbkBMWLDu6fgkNX363HGLivoj1MwcJ6a6HpQf8s1v33itA
+ usrYevf6WHoFoIHXZCegAPbkBNl6hg.OUCvNxnjprExa0gXa0UMwqJMji89w
+ P9UWSlyCfSNgrNMKbBpfrrEpJMwpgJ3DEWxLk66r6kneOO12NmyiKaplX_xI
+ y.PKPzITd6Q5LFVSeUcw85VAi1d.O_UfFTHA1v.5ZqKjt3nOre6ci2c3NCJi
+ ukwak343N6XMFBHHMkeimODdRUBs49ffvf.XbdDx_WCfaV5GA22msGBtzk1u
+ MvZv06fdriZxAbWkqWXb.HpWdorBWRDLfIs6jlT_EAB_tSoRvDnPUwNo2O2Q
+ SJ1IG70UvIF33Zr6Qn2RoZcE31gsxmwluZoEy1OH8plzQeS0YTwHRTw38L7x
+ .DAk4i4LGuB1NDRdzzV_q04Y8UnuAppM80H..RQcgoiO0wdB6lyAWUk8cHGy
+ QU7HY1jdiDpSGoqdvDRZdhvo0b1DAyq3qUvCj5nZ9ui5INVXYZyFoyh38wEV
+ _bt1SxuDUnFCQ_aKOaU7vyvwywu74ZqybcFaI9hM1flFSjhTPqW5yWfSvMtt
+ F58tygCb2y0FQeoACPYG5ElEl5NYyTTWlsKFhwhZ45uOoNq4XC6iwZEbyUAi
+ DPTnKGtt0tkox9PWnSCGnDSVGWGu7jgZvW9opKHdE8bVCLJnqazWXvXH17F1
+ F8Nz.U45QszW9Y8c9u_2qchMl5xa1phZBjIabzgT2c8MRBJUfxDhenBBOl14
+ DUZ14WijUNosNLpX7Q.PsHN2n7psBFudXeJvWEYmY7CafmD1dNdEj06QG3OL
+ _Y23EuINEK0ORGxY1Z3IGTKQc9niCOw0JG8muuL3myitWeCORrT6QcLYacBW
+ CxGB_.uCQFQTCMEXHAe0DH2tDGomswk5G4mGtimttf0331bHS2CsTy09A5PU
+ WHlsolZG.AW0N8RQsdgLcwrOGcnRePKiG_62o5eCUR2WGGVbYsOX1765vET9
+ wdi8DK2HySGaryRPmpvYodfx_Z_n5svf6aR7jvXFmCuK80Rr.4t.z7SPlNB4
+ WOD31jkKrv3.NaIwnL6WtBO9KhIe1kbbuz0XEDnonoLaUKfsksreTK4BWn8k
+ xnmGpq2RC5s_nC5XlPbELzDNGX2rWYQdraf38n1VER5gVXPcDv.ceDpW
+Received: from 69.5.86.103 (EHLO mailer086103.service.govdelivery.com)
+ by 10.197.41.12 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 15:29:31 +0000
+Received: from gasdp-smeds3-6.systems.dc.gdi ([10.1.36.28])
+	by mailer086103.service.govdelivery.com (-); Wed, 31 Aug 2022 15:29:31 +0000
+X-VirtualServer: VSG003, mailer086103.service.govdelivery.com, 10.1.37.196
+X-VirtualServerGroup: VSG003
+X-MailingID: 16847330::20220831.63028901::1001::MDB-PRD-BUL-20220831.63028901::MS60710444266@YAHOO.COM::2398_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=updates.gao.gov; s=15q4; i=@updates.gao.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=nYrf
+	+Myx6xH1P4QgMHqLRU/omXlqlAwiscvKyc5kYPo=; b=Ic1VFuP7awhKLulZ1m6X
+	6LLr63/u1OfJYK6dWnOTx4lRn+JPFirxRDFvcv4m6hWhVjjy5BNpMV/61T0JcQ9s
+	aHB6yhJTaFNfcdktvjsSMLf7OYqcLuDWilF8WHHmWzqKGEnqCAHkQenrGj16pBSL
+	hP+LvrEIDC5I78T7aQPwEaJk9qwTLR01JRjSQTnVIrPmFmDMGAkSxzMG9juCVYwM
+	XuMoITSaWdBA+MaOR2Rx8qBX9C3pQYidnUW69f79Qa50eNqhfzDjOWowqkM3IhaP
+	ylVMAWOyin9vpKs5jv6R8YhrxTryWgSMF82/MCLfP+Slo+rxrTbNzOk1grs4co5H
+	lQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_B61_5FFB_3D0971B6.0B37286C"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSra1F9D+kUupod9URDAMqzG8FYklC4YvvbjH8F6UVyXJOPG5ZM+t9QbGB7QvtBR+YifL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USGAO
+Errors-To: messages-stg@updates.gao.gov
+MIME-Version: 1.0
+Message-ID: <16847330.2398@updates.gao.gov>
+X-ReportingKey: MJJJ2EWJKA44NJJ6CNJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?Newly_Issued_CG_Legal_Decisions_-_August_31,_2022?=
+Date: Wed, 31 Aug 2022 15:29:31 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: GAO@updates.gao.gov
+From: "=?US-ASCII?Q?GAO_Comptroller_General_Legal_Decisions?=" <GAO@updates.gao.gov>
+Content-Length: 18888
+
+
+------=_NextPart_B61_5FFB_3D0971B6.0B37286C
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Government Accountability Office (GAO)=20
+=20
+=20
+
+August 31, 2022
+
+The Government Accountability Office (GAO) today issued the following leg=
+al decisions and opinions of the Comptroller General:
+
+*Bid Protest Decision:*
+
+B-420150.4,B-420150.5,B-420150.6, Meridian Knowledge Solutions, LLC, Augu=
+st 25, 2022
+https://www.gao.gov/products/B-420150.4,B-420150.5,B-420150.6 [ https://w=
+ww.gao.gov/products/B-420150.4,B-420150.5,B-420150.6?utm_campaign=3Dusgao=
+_email&utm_content=3Dgcdecisions&utm_medium=3Demail&utm_source=3Dgovdeliv=
+ery#mt=3De-report ]
+
+Meridian Knowledge Solutions, LLC, of Reston, Virginia, protests the canc=
+ellation of request for quotations (RFQ) No. 70RTAC20Q00000081 by the Dep=
+artment of Homeland Security (DHS) for information technology support ser=
+vices. The protester alleges that the agency's decision to cancel the sol=
+icitation and procure its requirements through an inter-agency agreement =
+(IAA) with the Office of Personnel Management (OPM) is unreasonable and c=
+ontrary to law.
+
+We deny the protest.
+
+=20
+=20
+=20
+
+The latest information from GAO is available at GAO.gov [ https://www.gao=
+.gov/index.html?utm_campaign=3Dusgao_email&utm_medium=3Demail&utm_source=3D=
+govdelivery ].
+Read the=A0WatchBlog [ https://blog.gao.gov/?utm_campaign=3Dusgao_email&u=
+tm_content=3Dwatchblog&utm_medium=3Demail&utm_source=3Dgovdelivery ].
+Follow us on=A0Twitter.
+ [ https://twitter.com/usgaolegal?utm_medium=3Demail&utm_source=3Dgovdeli=
+very ]Connect with us on LinkedIn.
+ [ https://www.linkedin.com/company/us-government?trk=3Dcp_followed_name_=
+us-government&utm_medium=3Demail&utm_source=3Dgovdelivery ]Like us on=A0F=
+acebook [ https://www.facebook.com/usgao?utm_medium=3Demail&utm_source=3D=
+govdelivery ].
+See our videos on=A0YouTube [ https://www.youtube.com/usgao?utm_medium=3D=
+email&utm_source=3Dgovdelivery ].
+See our images on flickr [ https://www.flickr.com/photos/usgao?utm_medium=
+=3Demail&utm_source=3Dgovdelivery ].
+
+=20
+
+SUBSCRIBER SERVICES:
+Manage Subscriptions [ https://public.govdelivery.com/accounts/USGAO/subs=
+criber/edit?preferences=3Dtrue#tab1 ]=A0=A0|=A0=A0Unsubscribe All [ https=
+://public.govdelivery.com/accounts/USGAO/subscriber/one_click_unsubscribe=
+?verification=3D5.412b4158634f06e6786af2bacd4d4153&destination=3DMS607104=
+44266%40YAHOO.COM ]=A0=A0|=A0=A0Help [ https://subscriberhelp.govdelivery=
+.com/ ]
+
+=20
+
+=A0
+
+________________________________________________________________________
+
+This e-mail was sent to MS60710444266@YAHOO.COM using GovDelivery on beha=
+lf of the U.S. Government Accountability Office.
+441 G Street NW =B7 Washington, DC=B7=A020548 =B7 www.gao.gov [ https://w=
+ww.gao.gov?utm_campaign=3Dusgao_email&utm_medium=3Demail&utm_source=3Dgov=
+delivery ]
+
+=20
+=20
+=20
+
+=A0
+=0A
+------=_NextPart_B61_5FFB_3D0971B6.0B37286C
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Newly Issued CG Legal Decisions - August 31, 2022
+</title>
+
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <table class=3D"container-fill" style=3D"width: 100%;" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0;" align=3D"center" valign=3D"top">
+<table id=3D"gd_ab_header" class=3D"table" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" bgcolor=3D"#ffffff">
+<tbody>
+<tr>
+<td class=3D"headerbg" style=3D"padding: 0;" align=3D"center" valign=3D"t=
+op">
+<table class=3D"table" style=3D"width: 100%;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-family: Helvetica, Arial, Sans-serif; font-size: 14px;"=
+><img src=3D"https://admin.govdelivery.com/system/images/50187/original/g=
+ao-banner700px.jpeg" alt=3D" U.S. Government Accountability Office (GAO)"=
+ width=3D"100%"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+  <style type=3D"text/css"><!--
+=09=09=09/*start reset css*/
+=09=09=09
+=09=09=09div {
+=09=09=09    line-height: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09body, table, td, p, a, li, blockquote {
+=09=09=09    -webkit-text-size-adjust: 100%;
+=09=09=09    -ms-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09    -webkit-text-size-adjust: none;
+=09=09=09    -ms-text-size-adjust: none;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09    border-spacing: 0;
+=09=09=09}
+=09=09=09
+=09=09=09table, td {
+=09=09=09    mso-table-lspace: 0pt;
+=09=09=09    mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09    -ms-interpolation-mode: bicubic;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09    margin: 0;
+=09=09=09    padding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09    border: 0 !important;
+=09=09=09    height: auto;
+=09=09=09    line-height: 100%;
+=09=09=09    outline: none;
+=09=09=09    text-decoration: none;
+=09=09=09    display: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09table td {
+=09=09=09    border-collapse: collapse !important;
+=09=09=09}
+=09=09=09
+=09=09=09body, p {
+=09=09=09    height: 100% !important;
+=09=09=09    margin: 0;
+=09=09=09    padding: 0;
+=09=09=09    width: 100% !important;
+=09=09=09}
+=09=09=09
+=09=09=09h2 {
+=09=09=09    font-weight: bold;
+=09=09=09    margin: 0 !important;
+=09=09=09    padding: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09h3 {
+=09=09=09    font-weight: bold;
+=09=09=09    margin: 0 !important;
+=09=09=09    padding: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09p {
+=09=09=09=09font-family: Arial, Helvetica, sans-serif;
+=09=09=09    margin: 0 !important;
+=09=09=09    padding: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09a {
+=09=09=09    text-decoration: none !important;
+=09=09=09}
+=09=09=09
+=09=09=09.preheader {
+=09=09=09    display: none !important;
+=09=09=09    visibility: hidden;
+=09=09=09    opacity: 0;
+=09=09=09    color: transparent;
+=09=09=09    height: 0;
+=09=09=09    width: 0;
+=09=09=09}
+=09=09=09      /*end reset css*/
+=09=09=09.gd_combo_text_cell {
+=09=09=09    padding: 10px !important;
+=09=09=09}
+=09=09=09
+=09=09=09.gd_combo_image_cell {
+=09=09=09    padding: 10px !important;
+=09=09=09}
+=09=09=09
+=09=09=09.govd_hr {
+=09=09=09
+=09=09=09}
+=09=09=09
+=09=09=09.govd_hr_inner {
+=09=09=09
+=09=09=09}
+=09=09=09
+=09=09=09hr {
+=09=09=09
+=09=09=09}
+
+=09=09=09#gd_ab_header {
+=09=09=09=09width:700px;
+=09=09=09=09text-align:left;
+=09=09=09}
+
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09    table {
+=09=09=09        position: relative;
+=09=09=09    }
+=09=09=09
+=09=09=09    *[class~=3Dhide_on_mobile] {
+=09=09=09        display: none !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    *[class~=3Dshow_on_mobile] {
+=09=09=09        display: block !important;
+=09=09=09        width: auto !important;
+=09=09=09        max-height: inherit !important;
+=09=09=09        overflow: visible !important;
+=09=09=09        float: none !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    table[class=3D'table'], td[class=3D'cell'] {
+=09=09=09        width: 320px !important;
+=09=09=09        padding-left: 10px !important;
+=09=09=09        padding-right: 10px !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    table[class=3D'hide'], img[class=3D'hide'], td[class=3D'hide=
+'] {
+=09=09=09        display: none !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    img[id=3Dheader] {
+=09=09=09        display: none !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    #right-button {
+=09=09=09        vertical-align: middle;
+=09=09=09    }
+=09=09=09
+=09=09=09    .govd_header {
+=09=09=09        max-width: 480px !important;
+=09=09=09        font-size: 16px !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    .govd_template_image {
+=09=09=09        height: auto !important;
+=09=09=09        max-width: 480px !important;
+=09=09=09        width: 100% !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    .gd_top {
+=09=09=09    }
+=09=09=09
+=09=09=09    .gd_tbl_wrap {
+=09=09=09        max-width: 480px !important;
+=09=09=09        margin:0;
+=09=09=09    }
+=09=09=09
+=09=09=09    .container-fill {
+=09=09=09        max-width: 480px !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    .gd_p {
+=09=09=09        max-width: 480px !important;
+=09=09=09        padding-top: 10px !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    .gd_combo_text_cell {
+=09=09=09        padding: 10px !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    .gd_combo_image_cell {
+=09=09=09        padding: 10px !important;
+=09=09=09    }
+=09=09=09
+=09=09=09    .govd_hr {
+=09=09=09
+=09=09=09    }
+=09=09=09   =20
+=09=09=09    #footer-table {
+=09=09=09        text-align: center !important;
+=09=09=09    }
+=09=09=09   =20
+=09=09=09    #templateColumns {
+=09=09=09        width:100% !important;
+=09=09=09    }
+=09=09=09           =20
+=09=09=09    .templateColumnContainer {
+=09=09=09        display:block !important;
+=09=09=09        width:100% !important;
+=09=09=09    }
+=09=09=09 =20
+=09=09=09    #masthead {
+=09=09=09        max-width: 480px !important;
+=09=09=09    }
+=09=09=09=09
+=09=09=09=09.mobile-footer {
+=09=09=09=09=09width:100% !important;=20
+=09=09=09=09=09max-width: 480px !important;
+=09=09=09=09}
+=09=09=09
+=09=09=09      .mobile-tagline {
+=09=09=09=09=09width:100% !important;=20
+=09=09=09=09=09max-width: 480px !important;
+=09=09=09=09}
+=09=09=09
+=09=09=09=09#gd_ab_header {
+=09=09=09=09=09width:100% !important;=20
+=09=09=09=09=09max-width: 480px !important;
+=09=09=09=09}
+=09=09=09=09
+=09=09=09   =20
+=09=09=09}
+=09=09=09--></style>
+<table class=3D"container-fill" style=3D"width: 100%;" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0;" align=3D"center" valign=3D"top">
+<table id=3D"gd_ab_header" class=3D"table" style=3D"padding: 10px 0px 10p=
+x 0px; font-size: 16px; font-family: Arial,Helvetica,sans-serif;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff">
+<tbody>
+<tr>
+<td style=3D"padding: 0;" align=3D"center" valign=3D"top">
+<table class=3D"table" style=3D"width: 100%;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-family: Helvetica, Arial, Sans-serif; font-size: 16px;"=
+>
+<p>August 31, 2022</p>
+<br>The Government Accountability Office (GAO) today issued the following=
+ legal decisions and opinions of the Comptroller General:<br><br><strong>=
+Bid Protest Decision:</strong><br><br>B-420150.4,B-420150.5,B-420150.6, M=
+eridian Knowledge Solutions, LLC, August 25, 2022<br><a href=3D"https://l=
+nks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRw=
+czovL3d3dy5nYW8uZ292L3Byb2R1Y3RzL0ItNDIwMTUwLjQsQi00MjAxNTAuNSxCLTQyMDE1M=
+C42P3V0bV9jYW1wYWlnbj11c2dhb19lbWFpbCZ1dG1fY29udGVudD1nY2RlY2lzaW9ucyZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkjbXQ9ZS1yZXBvcnQifQ.45Ox=
+w1zxTOt4XJrBWv0n6G1_NX6gpx2-OL09jyrVEDo/s/2649894784/br/143328104464-l">h=
+ttps://www.gao.gov/products/B-420150.4,B-420150.5,B-420150.6</a><br><br>M=
+eridian Knowledge Solutions, LLC, of Reston, Virginia, protests the cance=
+llation of request for quotations (RFQ) No. 70RTAC20Q00000081 by the Depa=
+rtment of Homeland Security (DHS) for information technology support serv=
+ices. The protester alleges that the agency's decision to cancel the soli=
+citation and procure its requirements through an inter-agency agreement (=
+IAA) with the Office of Personnel Management (OPM) is unreasonable and co=
+ntrary to law.<br><br>We deny the protest.<br><br><br>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"mobile-footer" width=3D"600" cellspacing=3D"0" cellpa=
+dding=3D"10" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" colspan=3D"8">
+<p><font face=3D"arial,helvetica,sans-serif" size=3D"2">The latest inform=
+ation from GAO is available at <a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3d3dy5nYW8uZ292L2=
+luZGV4Lmh0bWw_dXRtX2NhbXBhaWduPXVzZ2FvX2VtYWlsJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.N-6_V3VO7ehyC9g2OT11DqOYLsTUBgWcHnfkjczFkfk=
+/s/2649894784/br/143328104464-l">GAO.gov</a>.</font><br><font face=3D"ari=
+al,helvetica,sans-serif" size=3D"2">Read the=A0<a href=3D"https://lnks.gd=
+/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL2=
+Jsb2cuZ2FvLmdvdi8_dXRtX2NhbXBhaWduPXVzZ2FvX2VtYWlsJnV0bV9jb250ZW50PXdhdGN=
+oYmxvZyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.iw3ZV95yO=
+QsRtXe6CfvrQlKQkaVljko_XbYRmSSJGYE/s/2649894784/br/143328104464-l">WatchB=
+log</a>.<br>Follow us on=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1N=
+iJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX=
+2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzZ2=
+FvbGVnYWw_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.7vCz3Qg=
+uQw8fZv6-fSvBSJrud0ub_ynAN6CFPVUpYT8/s/2649894784/br/143328104464-l">Twit=
+ter.<br></a>Connect with us on <a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi=
+5jb20vY29tcGFueS91cy1nb3Zlcm5tZW50P3Ryaz1jcF9mb2xsb3dlZF9uYW1lX3VzLWdvdmV=
+ybm1lbnQmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.z-Lmg7np=
+vovpSQPtltLCQC5SbSbSJW5aE3eIxNnSS8w/s/2649894784/br/143328104464-l">Linke=
+dIn.<br></a></font><font face=3D"arial,helvetica,sans-serif" size=3D"2">L=
+ike us on=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXR=
+pbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4=
+MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vdXNnYW8_dXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.Y25ZHiU6KE5ksQz_S4ugB6=
+NNGgJdFc7lJjdugAjGTOQ/s/2649894784/br/143328104464-l">Facebook</a>.<br>Se=
+e our videos on=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2dhbz9=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.qotNqpaPQs5B3I9by=
+ir3OG1aCKvokdE5KLA9rY4vMyI/s/2649894784/br/143328104464-l">YouTube</a>.<b=
+r>See our images on <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJ=
+idWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoi=
+MjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3d3dy5mbGlja3IuY29tL3Bob3Rvc=
+y91c2dhbz91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.uX4m6gV=
+ZluhPXsK2AQJIZUYwT_LhoJNhNv6uAbaLY_A/s/2649894784/br/143328104464-l">flic=
+kr</a></font>.</p>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" colspan=3D"8">
+<p style=3D"text-align: center;"><font face=3D"arial,helvetica,sans-serif=
+" size=3D"2"><span style=3D"font-family: arial, helvetica, sans-serif;">S=
+UBSCRIBER SERVICES:</span></font><br><font face=3D"arial,helvetica,sans-s=
+erif" size=3D"2"><span style=3D"font-family: arial, helvetica, sans-serif=
+;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5r=
+X2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwM=
+jg5MDEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVV=
+NHQU8vc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.KuhnakpzDqUyoo=
+i7YQpPwqt4tEvkZtF90z3jI6h0Mow/s/2649894784/br/143328104464-l" title=3D"Ma=
+nage Subscriptions">Manage Subscriptions</a>=A0=A0|=A0=A0<a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInF1ZXJ=
+5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24iLCJkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xp=
+Y2siLCJidWxsZXRpbl9pZCI6IjIwMjIwODMxLjYzMDI4OTAxIiwidXJsIjoiaHR0cHM6Ly9wd=
+WJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTR0FPL3N1YnNjcmliZXIvb25lX2NsaW=
+NrX3Vuc3Vic2NyaWJlIn0.e7389We6CYa-D9Gwee8P4itlcpfReOH2UUBXQ1M5x-c/s/26498=
+94784/br/143328104464-l?verification=3D5.412b4158634f06e6786af2bacd4d4153=
+&destination=3DMS60710444266%40YAHOO.COM" title=3D"Unsubscribe from All T=
+opics">Unsubscribe All</a>=A0=A0|=A0=A0<a href=3D"https://lnks.gd/l/eyJhb=
+GciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsI=
+mJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcm=
+liZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.ivw-3R5r73ogAL5uhnMVaG9s_ABC0bLJmnTh=
+s7Q4cew/s/2649894784/br/143328104464-l">Help</a></span></font></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+<div id=3D"tagline">
+    <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"ce=
+nter">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table class=3D"mobile-tagline" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"width:600px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"margin: 0 auto; max-width: 600px; width: 100%;">
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"center=
+">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"100%">
+<hr>
+<center>
+<p>This e-mail was sent to MS60710444266@YAHOO.COM using GovDelivery on b=
+ehalf of the U.S. Government Accountability Office.<br>441 G Street NW =B7=
+ Washington, DC<span>=B7=A0</span>20548 =B7<a href=3D"https://lnks.gd/l/e=
+yJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGlja=
+yIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjg5MDEiLCJ1cmwiOiJodHRwczovL3d3dy=
+5nYW8uZ292P3V0bV9jYW1wYWlnbj11c2dhb19lbWFpbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9Z292ZGVsaXZlcnkifQ.6KtErqzEaEKgDw_j733DXKq3OpRZoHI8ND0NMWOsh7s/s=
+/2649894784/br/143328104464-l" title=3D"www.gao.gov"> www.gao.gov</a></p>=
+
+</center>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjgxMDQ0NjQtbCZzdWJzY3JpYmVyaWQ9MjY0OTg5NDc4NCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMjg5MDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDI4OTAxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODQ3MzMwJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_B61_5FFB_3D0971B6.0B37286C--
+

@@ -1,0 +1,244 @@
+From - Sun Aug 28 22:42:01 2022
+X-Account-Key: account1
+X-UIDL: AMSHxLxqehWeYsH/GARZSErd6/M
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.139
+ by atlas123.free.mail.bf1.yahoo.com with HTTPS; Sun, 3 Jul 2022 20:42:00 +0000
+Return-Path: <messages@service.govdelivery.com>
+X-Originating-Ip: [69.5.87.140]
+Received-SPF: pass (domain of service.govdelivery.com designates 69.5.87.140 as permitted sender)
+Authentication-Results: atlas123.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@service.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=unknown header.from=service.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 3 Jul 2022 20:42:00 +0000
+X-YMailAVSC: 4Er1xP43bBuu_ndzrOFGnYe.fKMDggyhpi84G9wIYtPDkaA
+ 04FJ.BFplIlIs84J2kQ7fWXB4yXircmJkCPhfzu_ngLKyvCH0yszI.DhpWs.
+ bqdpG9sAzYqxPFg4G0Lhei6wzsaO9aLEmXNhxjI7TlaMBx1bZn5JcpqjZEkD
+ bElvxAg.5JG3ORYUNXFaPSDR2LyqXgO2HyUXQ_uU5paVB1zXd438fSK1MPfm
+ OYIFnpP3qXLRNyuJyxfKjvWfe4InXyQ--
+X-YMailISG: hJ7B8mEWLDtwith3_9iWHysienE.zqGLyM0IRUB4K9zmtdzP
+ jMKBhnBLKwV2a7MCIf.TCEC7B3GQOFF.k0aks2KmLMR5b_Ks5R0__NqBT6Oj
+ DJYcNPogZPMdt43q0tovWyKwaTeZ6.pxPo5RudYJXdBaPK1rAlbenTHwIgwW
+ ENY4Fq0u_AgAGWUMa0P8ta0bcWRfxqnLRr1Ps9Yh5qloGifPX.vdSzD1revB
+ NNX8WbHdklJY6b6YHStVwnOYEzg6zAyKCfhJo6pQykmbbkgBU8vdhS2R1mem
+ BwvFDX2JrpsvYVEsamrTSf2SMAhDWYKiHarV60RkO0YelWgfEPSFGn3u4vW5
+ gZmUQwEicedR7NdHW2nbzBGfDUElwoJTL9NDOIgvN3wRAqY1HsG_4cBBK7wx
+ OiNk9bv9HQqCZtJpeeMWw_JAnKXAcTuNFOtLriCuparhwWV5BlxlnK6Nb_vq
+ s2bHu2v0QAhBhl1Kh33d6z.4wv03m4OaIrrR3QrY41JZZOE1Dx.0RhfATHKq
+ Qtn6GYEOW7xeLZHxRV2q8VkcIxfWmnP6CHtqOtGSLLP7NTiqiUXoyMkTuGSw
+ VGI6_BmUE32Ok733FvFdmoDOBQgxpkjqfNfiMWkAB2zCJrUc1uk9I1yzV.Hx
+ jxv9q2jr9qcg66I.8CBb12xtskLYpJN6bHzv.sv6ce_i0C74_ux0PR5b9SR_
+ yUNyCC97om4Rat_9BtEnzU.BU9CaPzg7Anzg63wGo2CIZOpIqtvlaS1viEbj
+ GMmmFtOAMcU2L_qBAo7KFRGaGyXMSzHz8GD3ZIbI_6Rr.e38kRIch1dUROpz
+ DRpV1FJRxBCB4lMMrpZJZ0Tp5kx1OOCS.bz5OAMn_j7gVKbaMcIsVPuCQafy
+ 1TNO.bmOoIgplAPFGPXzI2C17ThKi3aO4GGvqUZtRvgx0tascJUeec4a46iu
+ Fei1Dh2a2Ax6dYg0pWsrVyB7t032XiSfOBIf2nTE8HxnYBWrWfPfE5t.hA6m
+ hC6ISV33wMZ8RPuNHSnXSpkLrtranInnd3_tjXZc7YgQO5Ru7uYQh.5wUjPD
+ EY81HYW0NStzQwn2c0bvqo5PRthChLc7IuorIfzRFd8rT4svjGbHWXBPXrKs
+ nESUu6w88Rmm1VhYGYH6FBgGlt8tsCsbvRnVkKZwEMazIGfJfyEdCA4vBKGQ
+ ig4X4w--
+Received: from 69.5.87.140 (EHLO mailer087140.service.govdelivery.com)
+ by 10.197.32.139 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 03 Jul 2022 20:42:00 +0000
+Received: from prod-bulletinprocessor4.ep.gdi ([10.5.3.4])
+	by mailer087140.service.govdelivery.com (-); Sun, 03 Jul 2022 20:41:59 +0000
+X-VirtualServer: Default, mailer087140.service.govdelivery.com, 10.1.38.212
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+X-VirtualServerGroup: Default
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=service.govdelivery.com; s=13q2; i=@service.govdelivery.com;
+	h=Date:From:Message-ID:Subject:Mime-Version:Content-Type:
+	Content-Transfer-Encoding:X-AccountCode:message-type:Errors-To:
+	X-MailingID:X-SMHeaderMap:To; bh=uNM28C0M/OxgxHgmqNSav2glpDvR0v/
+	AluOqfjXxCos=; b=rPfNd4F9lMhl+2Db9gPPzYeF9nLa79zKhI+OESSU8ydNzsB
+	1JFU1Rw4sFPg82Tu2K6EM6lxL6s9YrPzHRnDXLyvK7Mlk1bXaYRYMx+m2Kmmx5VZ
+	ZELy2eHCehWlKo8jCuHSoGoKN1sGL99CdpUpyewrBj7uxx2ixHcFVBVWTSHlwekG
+	E0so29dEMIbxGCZQsEvEaED0dK+UHnKAgeWhbDdhBPR3Os3ZitsrnZBO6B7lSpdC
+	QnXE74DBlf5BVp/EgO30RNP1vwkwN8dONZJWbxlO0JyJn7idD21ToPJwXh6/ePeH
+	TYNExhLwM5YspuzDMMsMwkW6mvgkYF6aqb5ogUg==
+Date: Sun, 03 Jul 2022 15:41:59 -0500
+From: National Institute of Corrections <nic@service.govdelivery.com>
+Message-ID: <62c1ff1739f21_b84011cf1dc61798@prod-evo-bg7.ep.gdi.mail>
+Subject: Welcome New User
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62c1ff1737d79_b84011cf1dc6166d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-AccountCode: USDOJBOPNIC
+message-type: welcome_new_subscriber
+Errors-To: messages@service.govdelivery.com
+X-MailingID: 310714164546560::3250476328::0::PRD-ZIPMAIL-3250476328::::1
+X-SMHeaderMap: mid="X-MailingID"
+To: MS60710444266@YAHOO.COM
+Content-Length: 7017
+
+
+----==_mimepart_62c1ff1737d79_b84011cf1dc6166d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome,
+
+You have successfully created subscriber preferences for National Institu=
+te of Corrections. You are now able to take advantage of the convenient e=
+mail updates offered by National Institute of Corrections.
+
+Please write down your access information for future use:
+
+
+  * Email address: MS60710444266@YAHOO.COM =
+
+________________________________________________________________________
+
+NIC Logo [ http://nicic.gov/ ] Questions? Contact Us [ http://nicic.gov/F=
+eatures/Contact/ ]  =
+
+
+=C2=A0
+
+STAY CONNECTED: Sign up for email updates [ https://public.govdelivery.co=
+m/accounts/USDOJBOPNIC/subscribers/new ] =C2=A0 =C2=A0 =C2=A0 =
+
+
+SUBSCRIBER SERVICES: =
+
+Manage Preferences [ http://public.govdelivery.com/accounts/USDOJBOPNIC/s=
+ubscribers/new?preferences=3Dtrue ]=C2=A0=C2=A0|=C2=A0=C2=A0Unsubscribe [=
+ https://public.govdelivery.com/accounts/USDOJBOPNIC/subscriber/one_click=
+_unsubscribe?verification=3D4.bd16d32e1eee9c2d72c19bdd27b14d26&destinatio=
+n=3DMS60710444266%40YAHOO.COM ]=C2=A0=C2=A0|=C2=A0=C2=A0Help [ https://su=
+bscriberhelp.govdelivery.com/ ]
+
+This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communic=
+ations Cloud on behalf of: National Institute of Corrections, 320 First S=
+treet, NW, Washington, DC 20534
+
+----==_mimepart_62c1ff1737d79_b84011cf1dc6166d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/1=
+999/xhtml" xml:lang=3D"en" lang=3D"en" xml:lang=3D"en">
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+<title></title>
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+<p style=3D"margin-bottom: 1em;">Welcome,</p>
+<p style=3D"margin-bottom: 1em;">You have successfully created subscriber=
+ preferences for National Institute of Corrections. You are now able to t=
+ake advantage of the convenient email updates offered by National Institu=
+te of Corrections.</p>
+<p style=3D"margin-bottom: 1em;">Please write down your access informatio=
+n for future use:</p>
+<ul>
+<li>Email address: MS60710444266@YAHOO.COM</li>
+</ul>
+
+
+<div id=3D"mail_footer">
+<hr />
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"310">
+<tbody>
+<tr>
+<td width=3D"120"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOi=
+JIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxMCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZX=
+dfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTEyNjYwNDYsIm1lc3NhZ2VfaWQiOjk=
+4NjUwNDQ3MiwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJo=
+dHRwOi8vbmljaWMuZ292LyJ9.nLp0GNOFEeA67Hxmj-kchhnKlQT-G2kQBQKtSwlKvm0" tar=
+get=3D"_blank"> <img src=3D"https://service.govdelivery.com/banners/USDOJ=
+BOPNIC_logo.gif" border=3D"0" alt=3D"NIC Logo" /></a></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; color: #666666; f=
+ont-size: 12px;" width=3D"190">Questions? <a href=3D"https://lnks.gd/l/ey=
+J0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxMCwibWVzc2FnZV=
+90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTEyNjY=
+wNDYsIm1lc3NhZ2VfaWQiOjk4NjUwNDQ3MiwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1h=
+aWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vbmljaWMuZ292L0ZlYXR1cmVzL0NvbnRhY3QvIn0.5=
+-uggjB7ExI2M3gePiy3VvK4VGA4nlAlNe-xJOISJ9w" target=3D"_blank">Contact Us<=
+/a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=C2=A0</p>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"150">
+<tbody>
+<tr>
+<td style=3D"font-family: Arial, Verdana, sans-serif; color: #666666; fon=
+t-size: 12px;" colspan=3D"5">STAY CONNECTED:</td>
+</tr>
+<tr>
+<td width=3D"30" align=3D"middle"><a href=3D"https://lnks.gd/l/eyJ0eXAiOi=
+JKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxMCwibWVzc2FnZV90eXBlIj=
+oid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTEyNjYwNDYsIm1=
+lc3NhZ2VfaWQiOjk4NjUwNDQ3MiwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xp=
+Y2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET=
+0pCT1BOSUMvc3Vic2NyaWJlcnMvbmV3In0.9aARatPxqS4fn2li84nLa9fJN6WPxmhGdVzw95=
+FYVo0" target=3D"_blank"> <img src=3D"https://service.govdelivery.com/ban=
+ners/GOVDELIVERY/SOCIAL_MEDIA/envelope.gif" border=3D"0" alt=3D"Sign up f=
+or email updates" width=3D"25" height=3D"25" /></a></td>
+<td width=3D"30" align=3D"middle">=C2=A0</td>
+<td width=3D"30" align=3D"middle">=C2=A0</td>
+<td width=3D"30" align=3D"middle">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<p><span style=3D"font-family: Arial, Verdana, sans-serif; color: #666666=
+; font-size: 12px;">SUBSCRIBER SERVICES:    <br /><a href=3D"https://lnks=
+.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxMCwibW=
+Vzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI=
+1OTEyNjYwNDYsIm1lc3NhZ2VfaWQiOjk4NjUwNDQ3MiwidXJpIjoiZXZvOnRyYW5zYWN0aW9u=
+YWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vcHVibGljLmdvdmRlbGl2ZXJ5LmNvbS9hY=
+2NvdW50cy9VU0RPSkJPUE5JQy9zdWJzY3JpYmVycy9uZXc_cHJlZmVyZW5jZXM9dHJ1ZSJ9.K=
+ezqU49yHyuq9c4fHQcuwkw_XykzSxKovVPyqCSHenc">Manage Preferences</a>=C2=A0=C2=
+=A0|=C2=A0=C2=A0<a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJI=
+UzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxMCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdf=
+c3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTEyNjYwNDYsIm1lc3NhZ2VfaWQiOjk4N=
+jUwNDQ3MiwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodH=
+RwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pCT1BOSUMvc3Vic2N=
+yaWJlci9vbmVfY2xpY2tfdW5zdWJzY3JpYmU_dmVyaWZpY2F0aW9uPTQuYmQxNmQzMmUxZWVl=
+OWMyZDcyYzE5YmRkMjdiMTRkMjYmZGVzdGluYXRpb249TVM2MDcxMDQ0NDI2NiU0MFlBSE9PL=
+kNPTSJ9.hRg4fq_gMwA2bfB3iY_s8WchT6o8vqz37KPsbuz7JPg">Unsubscribe</a>=C2=A0=
+=C2=A0|=C2=A0=C2=A0<a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciO=
+iJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxMCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZ=
+Xdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTEyNjYwNDYsIm1lc3NhZ2VfaWQiOj=
+k4NjUwNDQ3MiwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJ=
+odHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.vn-0LM56VbCDay2lJ=
+g_7833-5dFuetdmRAqM88Qb3RA">Help</a></span></p>
+
+</div>
+<div id=3D"tagline">
+<p>This email was sent to MS60710444266@YAHOO.COM using GovDelivery Commu=
+nications Cloud on behalf of: National Institute of Corrections, 320 Firs=
+t Street, NW, Washington, DC 20534</p>
+
+</div>
+
+<img src=3D'https://lnks.gd/o/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2=
+NvdW50X2lkIjoxMDgxMCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciI=
+sInN1YnNjcmliZXJfaWQiOjI1OTEyNjYwNDYsIm1lc3NhZ2VfaWQiOjk4NjUwNDQ3MiwidXJp=
+IjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6b3BlbiJ9.NcPB4W0Hxhxbbk6298j5fMBmhzDS=
+cmsaEacO8_fa-RM'/></body>
+</html>
+
+----==_mimepart_62c1ff1737d79_b84011cf1dc6166d--
+

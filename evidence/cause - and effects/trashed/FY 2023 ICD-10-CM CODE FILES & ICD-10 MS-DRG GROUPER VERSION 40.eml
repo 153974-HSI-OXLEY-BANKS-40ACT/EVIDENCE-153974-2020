@@ -1,0 +1,394 @@
+From - Sun Aug 28 22:56:17 2022
+X-Account-Key: account1
+X-UIDL: AJvY6tU6gjFfYukSIgny4B+fezg
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.76
+ by atlas102.free.mail.ne1.yahoo.com with HTTPS; Tue, 2 Aug 2022 12:01:38 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.11]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.11 as permitted sender)
+Authentication-Results: atlas102.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 2 Aug 2022 12:01:38 +0000
+X-YMailISG: ocUVcj0WLDut0ZI6i18GQXhE4vGaaQg9JfDZXgDvBhJ.frdS
+ D5vhylc1Y5GXSmdlhoQxLnb5wkiEF4U0NLwtff.bBUbD.LFkqg3yM.hKc0xr
+ naOZNyTiKhioEViYauKKvgmJsJLJJGoDrrXWrJwGAbIMb1MeZ5cIAGybAgF3
+ St2vWFA4MAsy8IcovlorU5yKvtHn7Q2CiyFZ1q.9uMvR37KpqPWhGs0.Cdn9
+ znGL6Cqkt6v.GBzYzWGK7oZ6FFcVr8wRyLe9rOEKR2dZitzwwHdzwqYpCfxs
+ 03G2FMsKHAqB5R9D_WQUoG0Cc_XGJP8PdeAS0yFJPUWRv1vQI1Ak2VUrlesn
+ ZiGtixd0hcjnnGtDfN6rpmvv5lNyxU0tAIChYNK.1PUqk0NACnncgli3wEqJ
+ 5eFBwYB3YC0tWuq6Tlwig2O94HfC.RBsuybpqIN48bS3c.5gbUKIDTsOhY9r
+ EUsAFQyWwRl72HTmraUR1DYVFThXJBAPiT9fHL4uUTzFHL9UTmVdNxu6daaI
+ bGWMAykwFRsh757tJ_o9bkGzadG2cia2l_Aaaavhed5OnEmIjbcRFD2kLWKv
+ YpC.QX10k0xWjDPaOf0mzU7c40MfmtW4tL0f6THSnhbRxSnhtH8RV9X2YCEJ
+ gNAnsiFh9JqvhGzd5phZOEXXFH3KP8TgdXdb6yTa3bcXIg.4CafEi8jhkmEG
+ EP9QnLS1KyQ0uEOg2.b__lZSKhOAPqIuR54p.ZbekoSWBs_MMcsbFC4vBVa5
+ bf51uRv.e89.afUlqFyg6H2hgLDfFx04tN.ocZEo0vzvoqnQSgk6xDdxRanN
+ ZK7H2396fjjsESYp0QEY7DKg01gD_2bc8J6YBc_oiO7FKIwHqeJF0aNSXux0
+ PgBGFgU_67AdiVx0LOEmDfDWs.5tcHOFQqadJp4_XKQjAamo.j1myZ6dI9Kd
+ vaOx7_6nmY1NpYEFi30Sna7jy1YO1m3xVVitvDmJVAy391q8J0qh41Q5Jh.6
+ 4w0Rpdc9q9Tu2COFALfQDKoJwPXPgM9nltSPTnPAgxX23V01aNHB7lt9wBFW
+ lvrODBqx3jyyaQfNffeMbkJyjusjQJa1sGd7xLXMfJ15SmKGjpvYdT0OOSce
+ 0B8MPI2QMZxWAkt48K.LT65rj5QNVl6Wix1FoXtvG3WqgcdWLz_6w62cEPMI
+ ktC.BdOwxgPnnA--
+Received: from 209.134.158.11 (EHLO mailer158011.service.govdelivery.com)
+ by 10.217.150.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 02 Aug 2022 12:01:38 +0000
+Received: from gepdp-smeds1-1.systems.dc.gdi ([10.5.36.52])
+	by mailer158011.service.govdelivery.com (-); Tue, 02 Aug 2022 12:01:35 +0000
+X-VirtualServer: VSG001, mailer158011.service.govdelivery.com, 10.5.36.102
+X-VirtualServerGroup: VSG001
+X-MailingID: 16827004::20220802.61640441::1001::MDB-PRD-BUL-20220802.61640441::ms60710444266@yahoo.com::55043_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=MBrX
+	Wi9zh5m8jSvEzFxUz7mnUWsLjs1NXE0rFQ43aV4=; b=HxHI+qwXws3UZQFY+t1U
+	l03flT51C2MiD1Aa03A2qKZ0IYKXso2MCTrNqleegUPW7ULXPAV04NG2o9C3lTRn
+	FiIvKbSxngiM8F5yshta48GBDDmrM/x0AUfWGuklEQTIdklt3wh46nQHLAR04srH
+	T5LLYhESC+gvGTKxubF5yyy8lBqfP52GlDOO1DOqOauwLHD0WVrocMTSK5K6sGxP
+	WpDspn7bOC2CL18K0Oh1DEXS45elUsIJk4zVvCK00/omCUmpHSZUSk4pZ0Cza9Ba
+	tl/q9/X0BztCiMbfHETv4ynaQ6U1k4K5ohaH0TFLHU3bj5SJ3tc6Lw1DoMg3hShL
+	tg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_A77_EB76_7FC51FDF.7C5526D9"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI/oDX9d3GmNbtkI4E2ZKmCtybrZ55Wy+YlKVTTnIDNOzr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16827004.55043@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK74HRJJ809JJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?FY_2023_ICD-10-CM_CODE_FILES_&_?= =?US-ASCII?Q?ICD-10_MS-DRG_GROUPER_VERSION_40?=
+Date: Tue, 02 Aug 2022 12:01:23 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 13413
+
+
+------=_NextPart_A77_EB76_7FC51FDF.7C5526D9
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+
+=A0
+
+*UPDATE: FY 2023 ICD-10-CM CODE FILES*
+
+The FY 2023 Present on Admission (POA) Exempt Code List, FY 2023 ICD-10-C=
+M Coding Guidelines, FY 2023 Conversion Table and FY 2023 Code Tables, Ta=
+bular and Index files, which contain information on the ICD-10-CM updates=
+ for FY 2023, are available in the Downloads section at: https://www.cms.=
+gov/medicare/icd-10/2023-icd-10-cm. These FY 2023 ICD-10-CM codes are to =
+be used for discharges occurring from October 1, 2022 through September 3=
+0, 2023 and for patient encounters occurring from October 1, 2022 through=
+ September 30, 2023.
+
+All diagnosis code files are also available via the CDC/NCHS website at:=A0=
+https://www.cdc.gov/nchs/icd/icd-10-cm.htm.=20
+
+Any questions related to the content of these diagnosis code files should=
+ be directed to the CDC/NCHS at=A0nchsicd10cm@cdc.gov. =A0
+
+*ANNOUNCEMENT: ICD-10 MS-DRG GROUPER VERSION 40 *
+
+The ICD-10 MS-DRG V40 Grouper Software, ICD-10 MS-DRG Definitions Manual,=
+ and the Definitions of Medicare Code Edits V40 files, effective for disc=
+harges on or after October 1, 2022 are now publicly available at: https:/=
+/www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteInpatientPPS/=
+MS-DRG-Classifications-and-Software.html.
+
+=A0
+
+=A0
+
+=A0
+
+=A0
+
+=A0
+
+=A0
+
+=A0
+
+ Centers for Medicare & Medicaid Services (CMS) has sent this ICD-10 Coor=
+dination and Maintenance Committee Meetings Update. To contact Centers fo=
+r Medicare & Medicaid Services (CMS) go to our *contact us [ http://www.c=
+ms.gov/About-CMS/Agency-Information/ContactCMS/index.html ] *page.  =A0 =A0=
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_A77_EB76_7FC51FDF.7C5526D9
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    FY 2023 ICD-10-CM CODE FILES &amp; ICD-10 MS-DRG GROUPER VERSI=
+ON 40
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://stage-public.govdelivery.com/system/images/11605/=
+original/CMSBanner_MockUp.png" alt=3D"Centers for Medicare &amp; Medicaid=
+ Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px;" valign=3D"top">
+<p style=3D"margin: 0in 0in 8pt;">=A0</p>
+<p style=3D"margin: 0in 0in 8pt;"><strong><span style=3D"font-size: 12.0p=
+t; font-family: 'Calibri',sans-serif;">UPDATE: <span style=3D"color: blac=
+k;">FY 2023 ICD-10-CM CODE FILES</span></span></strong><span style=3D"fon=
+t-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;"></sp=
+an></p>
+<p style=3D"margin-left: .5in; text-align: start;"><span style=3D"font-si=
+ze: 13.5pt; font-family: 'Times New Roman',serif; color: black;">The FY 2=
+023 Present on Admission (POA) Exempt Code List, FY 2023 ICD-10-CM Coding=
+ Guidelines, FY 2023 Conversion Table and FY 2023 Code Tables, Tabular an=
+d Index files, which contain information on the ICD-10-CM updates for FY =
+2023, are available in the Downloads section at: </span><span style=3D"fo=
+nt-size: 13.5pt; font-family: 'Times New Roman',serif;"><a href=3D"https:=
+//lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6=
+ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiLCJ1cmwiOiJod=
+HRwczovL3d3dy5jbXMuZ292L21lZGljYXJlL2ljZC0xMC8yMDIzLWljZC0xMC1jbSJ9.N3Wnj=
+6V4A-JJ2WF-j75Q7wVIqML0U337rS7BBzwK-d8/s/2601788358/br/141916382127-l" ta=
+rget=3D"_blank" rel=3D"noopener">https://www.cms.gov/medicare/icd-10/2023=
+-icd-10-cm</a><span style=3D"color: black;">. These FY 2023 ICD-10-CM cod=
+es are to be used for discharges occurring from October 1, 2022 through S=
+eptember 30, 2023 and for patient encounters occurring from October 1, 20=
+22 through September 30, 2023.</span></span></p>
+<p style=3D"margin-left: .5in;"><span style=3D"font-size: 13.5pt; font-fa=
+mily: 'Times New Roman',serif; color: black;">All diagnosis code files ar=
+e also available via the CDC/NCHS website at:=A0<a href=3D"https://lnks.g=
+d/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiLCJ1cmwiOiJodHRwczovL=
+3d3dy5jZGMuZ292L25jaHMvaWNkL2ljZC0xMC1jbS5odG0ifQ.xUa75sGeFBZuRWkw-UQ6DXa=
+wo063k8eDkVGn4AQGjG4/s/2601788358/br/141916382127-l" target=3D"_blank" re=
+l=3D"noopener">https://www.cdc.gov/nchs/icd/icd-10-cm.htm</a></span><span=
+ style=3D"font-size: 13.5pt; font-family: 'Times New Roman',serif;">.<spa=
+n style=3D"color: black;"> </span></span></p>
+<p style=3D"margin-left: .5in; text-align: start;"><span style=3D"font-si=
+ze: 13.5pt; font-family: 'Times New Roman',serif; color: black;">Any ques=
+tions related to the content of these diagnosis code files should be dire=
+cted to the CDC/NCHS at=A0<a href=3D"mailto:nchsicd10cm@cdc.gov" target=3D=
+"_blank" rel=3D"noopener">nchsicd10cm@cdc.gov</a></span><span style=3D"fo=
+nt-size: 13.5pt; font-family: 'Times New Roman',serif;">. <span style=3D"=
+color: black;">=A0</span></span></p>
+<p style=3D"text-align: start;"><strong><span style=3D"font-size: 12.0pt;=
+ font-family: 'Calibri',sans-serif;">ANNOUNCEMENT: ICD-10 MS-DRG GROUPER =
+VERSION 40 </span></strong></p>
+<p style=3D"margin-left: .5in;"><span style=3D"font-size: 13.5pt; font-fa=
+mily: 'Times New Roman',serif; color: black;">The ICD-10 MS-DRG V40 Group=
+er Software, ICD-10 MS-DRG Definitions Manual, and the Definitions of Med=
+icare Code Edits V40 files, effective for discharges on or after October =
+1, 2022 are now publicly available at: <a href=3D"https://lnks.gd/l/eyJhb=
+GciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsI=
+mJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiLCJ1cmwiOiJodHRwczovL3d3dy5jbX=
+MuZ292L01lZGljYXJlL01lZGljYXJlLUZlZS1mb3ItU2VydmljZS1QYXltZW50L0FjdXRlSW5=
+wYXRpZW50UFBTL01TLURSRy1DbGFzc2lmaWNhdGlvbnMtYW5kLVNvZnR3YXJlLmh0bWwifQ.g=
+B0aGr3bEtDUQhheLsv4Auq3MDekfTWv2dPQ6JjqvqM/s/2601788358/br/141916382127-l=
+" target=3D"_blank" rel=3D"noopener">https://www.cms.gov/Medicare/Medicar=
+e-Fee-for-Service-Payment/AcuteInpatientPPS/MS-DRG-Classifications-and-So=
+ftware.html</a>.</span></p>
+<p>=A0</p>
+<p style=3D"margin: 0in 0in 8pt;">=A0</p>
+<p style=3D"margin: 0in 0in 8pt;">=A0</p>
+<p style=3D"margin: 0in 0in 8pt;">=A0</p>
+<p style=3D"margin: 0in 0in 8pt;">=A0</p>
+<p style=3D"margin: 0in 0in 11.25pt;">=A0</p>
+<p style=3D"margin: 0in 0in 11.25pt 0.5in;"><span style=3D"color: black; =
+font-family: 'Arial',sans-serif; font-size: 10.5pt;">=A0</span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"height: 75px; background-color: #1c4b8f;" align=3D"right">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this ICD-10 Coordination and Maintenance Committee Mee=
+tings Update. To contact Centers for Medicare &amp; Medicaid Services (CM=
+S) go to our </span><span style=3D"text-decoration: underline;"><span sty=
+le=3D"color: #ffffff;"><strong><a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YvQW=
+JvdXQtQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZGV4Lmh0bWwifQ.Bh3M=
+FCSwRGtK7kC_5hK3_1QSqBrFbSFFBvSbSqcyxAQ/s/2601788358/br/141916382127-l" t=
+arget=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"noopener"><span styl=
+e=3D"color: #ffffff; text-decoration: underline;">contact us</span></a> <=
+/strong></span></span><span style=3D"color: #ffffff;">page.</span>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f;"><span style=3D"color: #ffffff;">=
+=A0</span></td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f;"><span style=3D"color: #ffffff;">=
+=A0</span></td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.W_Bz7CLBhPXFRCful1Q7KTeXSkeWLdVO_pGNYlTbbD8/s/2601788358/br/1=
+41916382127-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.wmVIrUVzCca8XQecMXkjUh=
+trYrr9j4AUZTCpf0IfrHs/s/2601788358/br/141916382127-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MDIuNjE2NDA0NDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.G-sHHwwph-5XK61LIEVXM_hbvbG4jLBY7K3w7YbmL=
+dI/s/2601788358/br/141916382127-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIu=
+NjE2NDA0NDEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.1ui492lQ3qubmvz60TPhi-=
+VABtdV-4dPx6Uix_KELqI/s/2601788358/br/141916382127-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE5MTYzODIxMjctbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDIuNjE2NDA0NDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODAyLjYxNjQwNDQxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI3MDA0JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_A77_EB76_7FC51FDF.7C5526D9--
+

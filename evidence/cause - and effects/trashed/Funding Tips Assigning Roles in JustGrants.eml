@@ -1,0 +1,920 @@
+From - Wed Aug 31 18:53:31 2022
+X-Account-Key: account1
+X-UIDL: AOHnsGRvmDC9Yw9tLAYx8FJ/NyQ
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.75
+ by atlas204.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 14:16:12 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [209.134.151.35]
+Received-SPF: pass (domain of public.govdelivery.com designates 209.134.151.35 as permitted sender)
+Authentication-Results: atlas204.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 14:16:12 +0000
+X-YMailAVSC: 2GGFhUU3bBtNZ0ov8xDuoOUJ.hTKHu9p0ewSDlMDEQm10bT
+ kgEErROEi1BStE7MyN1JR9XgDriB8Jlk.gzzbR9wZ2RgCudfsoi8GY2NbNBm
+ Q6LW72O7ZxK6Y7hN7EWA6Rmz8wlqBXQ08IKStf.j1gknU1GLTbcDvjX_szPQ
+ GEnHvvTpXjAdM_1tUjjgpMMnmjUjJ0mxADupHzJ59F7wKvIqTakniCJRUtyv
+ gjnF4vkwiXDlPSyGKEQ67QfKplqK._43IiHnip4GH5lngqdSHCaZk0ze9sdJ
+ .gGANMQt8nfSoMrN9UPJzcmTdWXU23TkMQd5PPLKRzMT5Iont5Okf_L0gk1T
+ 8jMhyN64y2BNKf8zAGq_KpqmK2KUdE5MZhxz6oSD6xlxVCAoSK60hg3SUhHL
+ InVHY8.y2Tg0XF0iERJNKmbT5sDBD4.qAegG_hJCEnuzctyKBFa4JAZ4lFLN
+ e806oEmq8s5HH4m3mAI05vGBx3AsI_Tr1ixFFklVXJodgVVcoUxzdYJiJwwT
+ Ob_G75WlmfwiKLbbQdL08REsFYslPHGSeX9xe3F4GICDDpmTccjhyC1w54ay
+ PpPLdvfvLDyMbVJohsP2IhGDWZkXWfDJnVE91p1sCBNMt9WuXmS8kZGLa2jx
+ 0QAE6eq6prty8EsJ0gUJTHuocP48McSQo8q5u8LgtkzNg7P1vdlrVtQC97Xn
+ TH1vMM8_N37.jNPzVIResjRjxvL_guTGns1R3QcnGJkdxuvV7SnZ1OccAuw.
+ KQJkbvwWFEAyaIf3GPb8QzxMwa.7pQQt34tFde1uSe5yIUJUR33NmITjxQJP
+ gAT87gNH1pont5l4r9Bie6tXMPw7U.iwh6ZVjAhMyqS2VMopXmc2g68If4zw
+ Cyk_f1tqsMmUZXipdDQgaZkBqBPuKQLtgHkQiWIWq53fhHQmFQzEveiWGOlC
+ lpw23STdXYEqZBKi.1U.GnQ2ddtluOjVEQH2YFnhJC_AqjkVhZj4GJwwTw0w
+ Ib40fy9lOKNDIWKoMsWTERR2Gr.Xeiy6peLrFpvGJl0w3eyIsMIyHFOSUftW
+ HfmycbI6J92r_rFYmbbMejaNKyO.WemOBZCCUTEQrCQYeqgFDofcBrl2wYaB
+ fthCJHYN4PNHpP0VfZMWqO60NPLJ.N6QFJYr3Fa9Lgjm5REaXrXKrfoZkPHA
+ BK81sGw--
+X-YMailISG: nmU5eMsWLDtFRdQddwxabk.Oi5Vz.O8ZIzP7zZcy5cmbgQ4q
+ _Y2IU9VVDog42yWZ61QqKORjm9umZ3AQyPymyyn6LnA_A_rdt3dFvEHqjGLW
+ .Tn7DDu0u6H88lPbs3BNa.SQhW3qcKA7_ALnqYO2C_AaAajHAwi_s.KYiOoN
+ YPzkll5Fj61RqDsgq8e4nWbXbrqS89Qhpl_J.r3R.M0ox.hdzD4RAByxrwBo
+ IOiUm4XHfuvny4I3X1k88p5wqwkiQ5fQbjvukVrmTGn88j8aLbBCzEsSxJfA
+ nihlxS1Zgy_iD48fO8.uUU_lkKjCSJ9YteCFep9AyMoX_lvBYfvy7WHtPE.3
+ F.4uzfAb_XJd7NHCz0PcM.q2azUPtaATUa7wqgUbg4O1MplncGvyTMCu6ckt
+ YattVc.uaCGPQ4H6gdfHkvE_KzKywiumOSsxj4kPBcK_xj06N4r2K57Xu3C6
+ 6bhcf3kCiPOV836yxtaQ2kY0z8XkRzvvyaMo9Ktrl9xLnTtomCuc8WxKAjuX
+ Hvk.S_GT3I6u.ZkcK3_MeYhGZAxxMn1torFkhM9.3Bl9AZ97ghF91yr.AZik
+ xE0j80WB7dg6wkaolIvQ4nVpW7FGkkp30isXHnxvlakWPJyBFWJ4zSTIZ6nT
+ 5p1Eb1wwjmVoQ7jRnvBsZY5cqSH8X83LtQC4BdCZxe.rp80dMVLnHmehbFN8
+ g3fVeMb97hv1WNPpMg6Vx2p8fB.taxAwlzZNAhEORSuPG8N.dyN2tRCZeYaH
+ ScmyXjxUL6l5ug9zIJ1UIzM2mBSX9no17UtgUMhJIyHsTE0uOjTJrKacO00d
+ 03JCZVrIAET2YKTrVCUna62E8f468oBbd2b0IvyfF86gZjMrKxAXEi4ESegh
+ 4JXK6kSJGSi.YjJBcRGzUiZCpbCRKsmeEvC7pOFxwHxmwiqY9K1lnDUWTIf3
+ .mcF5pBm2BlGGVgIZzkfgSkmPUs1txrFVerTInD7gB3go8kCpZUfzvCQ_M1g
+ bobYU7KSigd11hVEwHIjF_xJHw9ndO00Q.4_BZ34tkJazdczh95UTTiGZfHJ
+ sGiG30W2TBM_4fSuyV.TbnkT6urETRJUPkQcQtYWJqZBrMerYPuTLRyuScHy
+ HfdHGsgeAGSUahYvz6LTqPMtqbZV.w.M_bcKhHUssk6NSS1VHYWaxQ3iglL3
+ IpkOe_AMJd3b4AnzoKX5SVOeOTUNSQ--
+Received: from 209.134.151.35 (EHLO mailer151035.service.govdelivery.com)
+ by 10.197.39.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 14:16:12 +0000
+Received: from gepdp-smeds1-6.systems.dc.gdi ([10.5.36.52])
+	by mailer151035.service.govdelivery.com (-); Wed, 31 Aug 2022 14:16:11 +0000
+X-VirtualServer: VSG001, mailer151035.service.govdelivery.com, 10.5.36.149
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837444::20220831.63022941::1001::MDB-PRD-BUL-20220831.63022941::MS60710444266@YAHOO.COM::28080_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=a+kNn8j17flEJ01uxhEMoORTQlfTgba+7jv8QsOBHl4=;
+	b=aryFORYKvEe468WVGoVH8RaaHNfX5F2kv0ExiA/xjDH2gC/EvZ4VB9W0Zu32NF
+	xz5vEz/nhBjtBE3BKEYv0Mbpuv6CWq7OJqljd292aw7/NfwDl0bOfLPr3xJKQNGi
+	IabIOjNI1VVLZ4RqzCj/Pk280C31lWtHRhS++SNF+dmkicPLA9qgYuP9rRJ4iQsm
+	oy3ARhKjwGPfbFYANnAJ+2NuDyyB2OHDZL0ZJiIrpkaUPwcDG+6D4gy7+pdJvP0V
+	xH3JhGy57vUU2QT6MzEiI1wONGwASMY30i55Ou7MlzODpn9SYplaSr4ieF2HoYpm
+	VZY0tbQzGoiFoI+AbQYkDQSg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_D5C_A949_7CABC01A.1D8E3972"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrLwccqQiN1m1lgYVn/w/GINybrZ55Wy+YlKVTTnIDNOza9CBtQEcZYc5lFAebvqWEfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJOJP_COMMS
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USDOJOJP_COMMS/subscriber/one_click_unsubscribe?verification=5.4a1d8d1a8fc8de97909deb9062c98b92&destination=MS60710444266%40YAHOO.COM>
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16837444.28080@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK8EF-JJ41E-JJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?Funding_Tips:_Assigning_Roles_in_JustGrants?=
+Date: Wed, 31 Aug 2022 14:16:11 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: fundingnews@public.govdelivery.com
+From: "=?US-ASCII?Q?OJP_Funding_News?=" <fundingnews@public.govdelivery.com>
+Content-Length: 44686
+
+
+------=_NextPart_D5C_A949_7CABC01A.1D8E3972
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Review JustGrants Roles =20
+
+=20
+
+View on Mobile or Webpage [ https://content.govdelivery.com/accounts/USDO=
+JOJP_COMMS/bulletins/3292aba ]
+
+  OJP Funding News [ https://www.ojp.gov/funding?utm_campaign=3Dfundingti=
+ps&utm_medium=3Demail&utm_source=3Dgovdelivery ] =20
+
+Learn the Responsibilities of Each JustGrants Role
+
+There are six foundational roles in JustGrants [ https://justicegrants.us=
+doj.gov/sites/g/files/xyckuh296/files/media/document/External-Roles-Infog=
+raphic.pdf?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=3Dgov=
+delivery ], each created to ensure applicants and award recipients can ef=
+ficiently carry out the requirements and tasks associated with an award. =
+Within JustGrants, users may hold multiple roles as they apply for and ma=
+nage awards.
+
+For more information about the different roles and directions on how to a=
+ssign new users to a role or update existing user roles within JustGrants=
+, access the Entity Management training resources [ https://justicegrants=
+.usdoj.gov/training/training-entity-management?utm_campaign=3Dfundingtips=
+&utm_medium=3Demail&utm_source=3Dgovdelivery ], including:
+
+
+  * eLearning Video [ https://justicegrants.usdoj.gov/training/training-e=
+ntity-management?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=
+=3Dgovdelivery#lq1efh ]=20
+  * Entity User Role Matrix [ https://justicegrants.usdoj.gov/sites/g/fil=
+es/xyckuh296/files/media/document/user-roles-matrix.pdf?utm_campaign=3Dfu=
+ndingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]=20
+  * Job Aid Reference Guide [ https://justicegrants.usdoj.gov/training/ja=
+rg-entity-management.pdf?utm_campaign=3Dfundingtips&utm_medium=3Demail&ut=
+m_source=3Dgovdelivery ]=20
+
+View Resources [ https://justicegrants.usdoj.gov/training/training-entity=
+-management?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=3Dgo=
+vdelivery ]
+________________________________________________________________________
+
+Important Resources
+
+**JustGrants* [ https://justicegrants.usdoj.gov/?utm_campaign=3Dfundingti=
+ps&utm_medium=3Demail&utm_source=3Dgovdelivery ]*: JustGrants is the Depa=
+rtment of Justice's grants management system.=A0The JustGrants Resources =
+website allows applicants and grantees to access training [ https://justi=
+cegrants.usdoj.gov/training?utm_campaign=3Dfundingtips&utm_medium=3Demail=
+&utm_source=3Dgovdelivery ], find answers to frequently asked questions [=
+ https://justicegrants.usdoj.gov/faqs?utm_campaign=3Dfundingtips&utm_medi=
+um=3Demail&utm_source=3Dgovdelivery ], and sign up for updates [ https://=
+public.govdelivery.com/accounts/USDOJOJP/subscriber/new?topic_id=3DUSDOJO=
+JP_586 ]. Get started by gaining an understanding of the application proc=
+ess in JustGrants [ https://justicegrants.usdoj.gov/training/training-app=
+lication-submission?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_sou=
+rce=3Dgovdelivery ].
+
+*OJP Grant Application Resource Guide [ https://www.ojp.gov/funding/apply=
+/ojp-grant-application-resource-guide?utm_campaign=3Dfundingtips&utm_medi=
+um=3Demail&utm_source=3Dgovdelivery ]*: This resource contains informatio=
+n to help you prepare and submit applications for OJP funding and offers =
+guidance on award administration.
+
+*OJP Funding Resource Center [ https://www.ojp.gov/funding?utm_campaign=3D=
+fundingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]*: Find current =
+opportunities, solicitation requirements, forms and worksheets, and post-=
+award instructions to help as you apply for and manage OJP awards.
+
+*DOJ Grants Financial Guide [ https://www.ojp.gov/funding/financialguided=
+oj/overview?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=3Dgo=
+vdelivery ]*: Learn about the laws, rules, and regulations that affect th=
+e financial and administrative management of an OJP award.
+
+________________________________________________________________________
+
+=20
+
+You are receiving this email because you signed up for grants and funding=
+ information from the Office of Justice Programs. If you no longer wish t=
+o receive Funding News, you may update your=A0Subscriber Preferences [ ht=
+tps://public.govdelivery.com/accounts/USDOJOJP_COMMS/subscriber/edit?pref=
+erences=3Dtrue#tab1 ]=A0to remove your subscription.
+
+=20
+=20
+=20
+=20
+
+*Learn More
+*U.S. Department of Justice [ https://www.justice.gov/?utm_campaign=3Dfun=
+dingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0|=A0Office of Ju=
+stice Programs [ https://www.ojp.gov/?utm_campaign=3Dfundingtips&utm_medi=
+um=3Demail&utm_source=3Dgovdelivery ]=A0|=A0USA.gov [ https://www.usa.gov=
+/?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=3Dgovdelivery =
+]
+
+*Connect*=A0
+OJP Social Media [ https://www.ojp.gov/news/social-media?utm_campaign=3Df=
+undingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]
+
+*Contact*
+OJP [ https://www.ojp.gov/contact?utm_campaign=3Dfundingtips&utm_medium=3D=
+email&utm_source=3Dgovdelivery ] | Unsubscribe [ https://public.govdelive=
+ry.com/accounts/USDOJOJP_COMMS/subscriber/edit?preferences=3Dtrue#tab1 ]
+
+*OJP Services*=A0
+JUSTINFO Newsletter [ https://www.ojp.gov/news/justinfo?utm_campaign=3Dfu=
+ndingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0|=A0Email Notif=
+ications [ https://public.govdelivery.com/accounts/USDOJOJP_COMMS/subscri=
+ber/topics?qsp=3Dall_listed_topics ]=A0|=A0NCJRS Virtual Library [ https:=
+//www.ojp.gov/ncjrs/virtual-library?utm_campaign=3Dfundingtips&utm_medium=
+=3Demail&utm_source=3Dgovdelivery ]=A0|=A0New Resources [ https://www.ojp=
+.gov/ncjrs/new-ojp-resources?utm_campaign=3Dfundingtips&utm_medium=3Demai=
+l&utm_source=3Dgovdelivery ]
+
+=20
+=A0
+
+Office of Justice Programs
+
+ b j a [ https://bja.ojp.gov/?utm_campaign=3Dfundingtips&utm_medium=3Dema=
+il&utm_source=3Dgovdelivery ]b j s [ https://bjs.ojp.gov/?utm_campaign=3D=
+fundingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]n i j [ https://=
+nij.ojp.gov?utm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=3Dgo=
+vdelivery ]o j j d p [ https://ojjdp.ojp.gov?utm_campaign=3Dfundingtips&u=
+tm_medium=3Demail&utm_source=3Dgovdelivery ]o v c [ https://ovc.ojp.gov?u=
+tm_campaign=3Dfundingtips&utm_medium=3Demail&utm_source=3Dgovdelivery ]sm=
+art [ https://smart.ojp.gov?utm_campaign=3Dfundingtips&utm_medium=3Demail=
+&utm_source=3Dgovdelivery ] =20
+=20
+=20
+
+=A0
+
+________________________________________________________________________
+
+ This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communi=
+cations Cloud on behalf of Department of Justice =B7 Washington, DC GovDe=
+livery logo [ https://subscriberhelp.granicus.com/?utm_campaign=3Dfunding=
+tips&utm_medium=3Demail&utm_source=3Dgovdelivery ]
+=0A
+------=_NextPart_D5C_A949_7CABC01A.1D8E3972
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Funding Tips: Assigning Roles in JustGrants
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+
+/* Sets the line height in everything but Outlook */
+table#yahoo body, table#yahoo p, table#yahoo .gd_p, table#yahoo p span, t=
+able#yahoo li, table#yahoo li span { line-height: 1.4; }
+
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+ =20
+#main-body table.gd_combo_table td.gd_combo_image_cell {vertical-align:to=
+p; padding:0; width:80px !important; width:80px;}
+#main-body table.gd_combo_table td.gd_combo_spacer {display:none;}
+#main-body table.gd_combo_table td.gd_combo_text_cell {vertical-align:top=
+; padding:0; width:430px !important; width:430px;}
+ =20
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 10=
+0% !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 auto 10p=
+x auto !important; display:block !important; float:none !important; text-=
+align:center; }
+table#yahoo table.gd_combo_table td.gd_combo_image_cell .govd_template_im=
+age { margin:0 !important; text-align:left; }
+table#yahoo #main-header .govd_template_image { max-width: 480px !importa=
+nt; width: 100% !important; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+table#yahoo #main-body table.gd_combo_table td.gd_combo_text_cell {width:=
+75% !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.3;margin:0;padding:0;width:100% !important;"=
+>
+<table bgcolor=3D'#ffffff' border=3D'0' cellpadding=3D'0' cellspacing=3D'=
+0' style=3D'width: 100%;'>
+<tbody>
+<tr bgcolor=3D'#ffffff'>
+<td align=3D'center' style=3D'background-color: #ffffff; padding: 0px; fo=
+nt-size:1px; font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans=
+-serif; color:#ffffff' valign=3D'top'>
+Review JustGrants Roles
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #F3F3F3; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#F3F3=
+F3"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+
+<tr>
+<td width=3D"100%" style=3D"padding: 10px 0 0;">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"border-collapse: collapse;">
+
+<tr>
+<td id=3D"view-in-browser" width=3D"100%" data-govdstyle=3D"all" data-gov=
+dtitle=3D"View in Browser" class=3D"thin" style=3D"background-color: #E4E=
+7EE; padding: 10px 20px;" bgcolor=3D"#E4E7EE">
+<p style=3D"line-height: 1.1; margin-top: 0; margin-bottom: 0; color: #63=
+6A76; font-family: arial, helvetica, sans-serif; font-size: 10px; text-al=
+ign: center;" align=3D"center"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZG=
+VsaXZlcnkuY29tL2FjY291bnRzL1VTRE9KT0pQX0NPTU1TL2J1bGxldGlucy8zMjkyYWJhIn0=
+.ynTsLgrTPZrnf_v2gS1dlLJgu-PeAVpAnptKD8xqKb8/s/2591266041/br/143332345340=
+-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #636A76; text-deco=
+ration: underline; -ms-word-break: break-all; word-break: break-word; -we=
+bkit-hyphens: none; -moz-hyphens: none; hyphens: none;">View on Mobile or=
+ Webpage</a></p>
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-social" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Social" align=3D"center" style=3D"background-color: #E4E7EE; p=
+adding: px;" bgcolor=3D"#E4E7EE">
+
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header" align=3D"center" style=3D"background-color: #989EAA;" =
+bgcolor=3D"#989EAA">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5=
+NDEiLCJ1cmwiOiJodHRwczovL3d3dy5vanAuZ292L2Z1bmRpbmc_dXRtX2NhbXBhaWduPWZ1b=
+mRpbmd0aXBzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.qyvCK=
+rhIvshL0U-KyXpFsFLNh4bLBPYcNCr3zCYH5cE/s/2591266041/br/143332345340-l" ta=
+rget=3D"_blank" rel=3D"noopener noreferrer" title=3D"OJP Funding News" st=
+yle=3D"color: #2F7ABC; text-decoration: underline; -ms-word-break: break-=
+all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; h=
+yphens: none;"><img class=3D"govd_template_image" src=3D"https://content.=
+govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/2021/02/4155487/f=
+unding-news-header-image-02-12-2021_original.jpg" style=3D"width: 600px; =
+height: auto !important; max-height: auto !important; border: none;" alt=3D=
+"OJP Funding News" width=3D"600" height=3D"233"></a>
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%" style=3D"background-color: #FFFFFF; padding: 20px 20px=
+ 0;" class=3D"mobile-padding" bgcolor=3D"#FFFFFF">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"border-collapse: collapse;">
+
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"background-color: #FFFFFF; padding: 30px 20px 0px=
+;" bgcolor=3D"#FFFFFF">
+<h1 style=3D"margin-top: 0px; margin-bottom: 30px; line-height: 1.1; font=
+-weight: bold; color: #0E3150; font-family: arial, helvetica, sans-serif;=
+ font-size: 25px; text-align: left;" align=3D"left">Learn the Responsibil=
+ities of Each JustGrants Role</h1>
+<p style=3D"line-height: 1.3; margin-top: 0px; margin-bottom: 20px; color=
+: #636A76; font-family: arial, helvetica, sans-serif; font-size: 15px; te=
+xt-align: left;" align=3D"left">There are <a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL2p1c3R=
+pY2VncmFudHMudXNkb2ouZ292L3NpdGVzL2cvZmlsZXMveHlja3VoMjk2L2ZpbGVzL21lZGlh=
+L2RvY3VtZW50L0V4dGVybmFsLVJvbGVzLUluZm9ncmFwaGljLnBkZj91dG1fY2FtcGFpZ249Z=
+nVuZGluZ3RpcHMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.se=
+KwNAb6JPqJhoxbwvplL1D5SUJJyXuEdw1huihTHus/s/2591266041/br/143332345340-l"=
+ style=3D"color: #2F7ABC; text-decoration: none; -ms-word-break: break-al=
+l; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyp=
+hens: none;">six foundational roles in JustGrants</a>, each created to en=
+sure applicants and award recipients can efficiently carry out the requir=
+ements and tasks associated with an award. Within JustGrants, users may h=
+old multiple roles as they apply for and manage awards.</p>
+<p style=3D"line-height: 1.3; margin-top: 0px; margin-bottom: 20px; color=
+: #636A76; font-family: arial, helvetica, sans-serif; font-size: 15px; te=
+xt-align: left;" align=3D"left">For more information about the different =
+roles and directions on how to assign new users to a role or update exist=
+ing user roles within JustGrants, access the <a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL2p1=
+c3RpY2VncmFudHMudXNkb2ouZ292L3RyYWluaW5nL3RyYWluaW5nLWVudGl0eS1tYW5hZ2VtZ=
+W50P3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9Z292ZGVsaXZlcnkifQ.jrOUoze7zgeeaEZZM5-k_UsJjF1Sw3S9pdDtI3M6Ea0/s/259126=
+6041/br/143332345340-l" style=3D"color: #2F7ABC; text-decoration: none; -=
+ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none; =
+-moz-hyphens: none; hyphens: none;">Entity Management training resources<=
+/a>, including:</p>
+<ul>
+<li style=3D"line-height: 1.3; margin-bottom: 7px; color: #636A76; font-f=
+amily: arial, helvetica, sans-serif; font-size: 15px; text-align: left;">=
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5=
+NDEiLCJ1cmwiOiJodHRwczovL2p1c3RpY2VncmFudHMudXNkb2ouZ292L3RyYWluaW5nL3RyY=
+WluaW5nLWVudGl0eS1tYW5hZ2VtZW50P3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkjbHExZWZoIn0.xqwx4-d9_SnnlHO=
+tfq794gTKo9wZR2vcmZg5cOvU_vk/s/2591266041/br/143332345340-l" style=3D"col=
+or: #2F7ABC; text-decoration: none; -ms-word-break: break-all; word-break=
+: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">=
+eLearning Video</a></li>
+<li style=3D"line-height: 1.3; margin-bottom: 7px; color: #636A76; font-f=
+amily: arial, helvetica, sans-serif; font-size: 15px; text-align: left;">=
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5=
+NDEiLCJ1cmwiOiJodHRwczovL2p1c3RpY2VncmFudHMudXNkb2ouZ292L3NpdGVzL2cvZmlsZ=
+XMveHlja3VoMjk2L2ZpbGVzL21lZGlhL2RvY3VtZW50L3VzZXItcm9sZXMtbWF0cml4LnBkZj=
+91dG1fY2FtcGFpZ249ZnVuZGluZ3RpcHMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWd=
+vdmRlbGl2ZXJ5In0.1XIcexcZ6wjbCt0pFKSvO6NUd81sofluAsF0PuKv5z0/s/2591266041=
+/br/143332345340-l" style=3D"color: #2F7ABC; text-decoration: none; -ms-w=
+ord-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz=
+-hyphens: none; hyphens: none;">Entity User Role Matrix</a></li>
+<li style=3D"line-height: 1.3; margin-bottom: 7px; color: #636A76; font-f=
+amily: arial, helvetica, sans-serif; font-size: 15px; text-align: left;">=
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5=
+NDEiLCJ1cmwiOiJodHRwczovL2p1c3RpY2VncmFudHMudXNkb2ouZ292L3RyYWluaW5nL2phc=
+mctZW50aXR5LW1hbmFnZW1lbnQucGRmP3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.8YBA8qeHI4-4A_ELgTf507wx=
+IEYJ9iEYck4CLxSLaTY/s/2591266041/br/143332345340-l" style=3D"color: #2F7A=
+BC; text-decoration: none; -ms-word-break: break-all; word-break: break-w=
+ord; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Job Aid R=
+eference Guide</a></li>
+</ul>
+<h3 style=3D"line-height: 1.1; font-weight: bold; margin-top: 40px; margi=
+n-bottom: 40px; color: #000000; font-family: arial, helvetica, sans-serif=
+; font-size: 14px; text-align: center;" align=3D"center"><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJo=
+dHRwczovL2p1c3RpY2VncmFudHMudXNkb2ouZ292L3RyYWluaW5nL3RyYWluaW5nLWVudGl0e=
+S1tYW5hZ2VtZW50P3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.Kux6RQtDd8Jg6XWc0RdeWMyyNwzKj4M_aPUQ2p0z=
+W_0/s/2591266041/br/143332345340-l" target=3D"_blank" rel=3D"noopener" st=
+yle=3D"color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; =
+word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphen=
+s: none; background-color: #2F7ABC; border-radius: 3px; border-color: #2f=
+7abc; border-style: solid; border-width: 10px 20px;">View Resources</a></=
+h3>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h1 style=3D"margin-top: 0px; margin-bottom: 30px; line-height: 1.1; font=
+-weight: bold; color: #0E3150; font-family: arial, helvetica, sans-serif;=
+ font-size: 25px; text-align: left;" align=3D"left">Important Resources</=
+h1>
+<p class=3D"link-underlined" style=3D"line-height: 1.3; margin-top: 0px; =
+margin-bottom: 20px; color: #636A76; font-family: arial, helvetica, sans-=
+serif; font-size: 15px; text-align: left;" align=3D"left"><strong><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMD=
+gsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ=
+1cmwiOiJodHRwczovL2p1c3RpY2VncmFudHMudXNkb2ouZ292Lz91dG1fY2FtcGFpZ249ZnVu=
+ZGluZ3RpcHMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.X-gTJ=
+eHnH7V4mwLKW44aJvXtEw6jgymFLxoHp-f--jI/s/2591266041/br/143332345340-l" st=
+yle=3D"color: #2F7ABC; text-decoration: none; -ms-word-break: break-all; =
+word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphen=
+s: none;"><strong>JustGrants</strong></a></strong>: JustGrants is the Dep=
+artment of Justice's grants management system.=A0The JustGrants Resources=
+ website allows applicants and grantees to access <a href=3D"https://lnks=
+.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMj=
+pjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczo=
+vL2p1c3RpY2VncmFudHMudXNkb2ouZ292L3RyYWluaW5nP3V0bV9jYW1wYWlnbj1mdW5kaW5n=
+dGlwcyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.QnO8JLD_TT=
+dTzs1b_pNPHVQk1U3REBFG-wT422FPJn4/s/2591266041/br/143332345340-l" target=3D=
+"_blank" rel=3D"noopener" style=3D"color: #2F7ABC; text-decoration: none;=
+ -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none=
+; -moz-hyphens: none; hyphens: none;">training</a>, find answers to <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiL=
+CJ1cmwiOiJodHRwczovL2p1c3RpY2VncmFudHMudXNkb2ouZ292L2ZhcXM_dXRtX2NhbXBhaW=
+duPWZ1bmRpbmd0aXBzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ=
+9.YRk2aFCKOyYOzO86KPrqPiAPp9zrBpVsrfK4Uu1PxOM/s/2591266041/br/14333234534=
+0-l" style=3D"color: #2F7ABC; text-decoration: none; -ms-word-break: brea=
+k-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none;=
+ hyphens: none;">frequently asked questions</a>, and <a href=3D"https://l=
+nks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRw=
+czovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pPSlAvc3Vic2NyaWJlc=
+i9uZXc_dG9waWNfaWQ9VVNET0pPSlBfNTg2In0.xb-0jnc5hoWR4nkDCo9gNn2bD1rDPCX89_=
+lbcRzclrI/s/2591266041/br/143332345340-l" style=3D"color: #2F7ABC; text-d=
+ecoration: none; -ms-word-break: break-all; word-break: break-word; -webk=
+it-hyphens: none; -moz-hyphens: none; hyphens: none;">sign up for updates=
+</a>. Get started by gaining an understanding of the <a href=3D"https://l=
+nks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRw=
+czovL2p1c3RpY2VncmFudHMudXNkb2ouZ292L3RyYWluaW5nL3RyYWluaW5nLWFwcGxpY2F0a=
+W9uLXN1Ym1pc3Npb24_dXRtX2NhbXBhaWduPWZ1bmRpbmd0aXBzJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.wnooRzByM5qeOEyElCHqvdk_caujofnCMbcIr8=
+Gn_bM/s/2591266041/br/143332345340-l" target=3D"_blank" rel=3D"noopener" =
+style=3D"color: #2F7ABC; text-decoration: none; -ms-word-break: break-all=
+; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyph=
+ens: none;">application process in JustGrants</a>.</p>
+<p class=3D"link-underlined" style=3D"line-height: 1.3; margin-top: 0px; =
+margin-bottom: 20px; color: #636A76; font-family: arial, helvetica, sans-=
+serif; font-size: 15px; text-align: left;" align=3D"left"><strong><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMT=
+MsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ=
+1cmwiOiJodHRwczovL3d3dy5vanAuZ292L2Z1bmRpbmcvYXBwbHkvb2pwLWdyYW50LWFwcGxp=
+Y2F0aW9uLXJlc291cmNlLWd1aWRlP3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.yF5jP6dr6KartGZQ_LOKO6NzZEn=
+JKhlhwxLuhX0QhJ0/s/2591266041/br/143332345340-l" target=3D"_blank" rel=3D=
+"noopener" style=3D"color: #2F7ABC; text-decoration: none; -ms-word-break=
+: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none;">OJP Grant Application Resource Guide</a></strong>:=
+ This resource contains information to help you prepare and submit applic=
+ations for OJP funding and offers guidance on award administration.</p>
+<p class=3D"link-underlined" style=3D"line-height: 1.3; margin-top: 0px; =
+margin-bottom: 20px; color: #636A76; font-family: arial, helvetica, sans-=
+serif; font-size: 15px; text-align: left;" align=3D"left"><strong><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMT=
+QsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ=
+1cmwiOiJodHRwczovL3d3dy5vanAuZ292L2Z1bmRpbmc_dXRtX2NhbXBhaWduPWZ1bmRpbmd0=
+aXBzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.ArgiX8eaAsQ1=
+peJVcmI3Wn4Kun8FpVEayu2hjHh-KLU/s/2591266041/br/143332345340-l" target=3D=
+"_blank" rel=3D"noopener" style=3D"color: #2F7ABC; text-decoration: none;=
+ -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none=
+; -moz-hyphens: none; hyphens: none;">OJP Funding Resource Center</a></st=
+rong>: Find current opportunities, solicitation requirements, forms and w=
+orksheets, and post-award instructions to help as you apply for and manag=
+e OJP awards.</p>
+<p class=3D"link-underlined" style=3D"line-height: 1.3; margin-top: 0px; =
+margin-bottom: 20px; color: #636A76; font-family: arial, helvetica, sans-=
+serif; font-size: 15px; text-align: left;" align=3D"left"><strong><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMT=
+UsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ=
+1cmwiOiJodHRwczovL3d3dy5vanAuZ292L2Z1bmRpbmcvZmluYW5jaWFsZ3VpZGVkb2ovb3Zl=
+cnZpZXc_dXRtX2NhbXBhaWduPWZ1bmRpbmd0aXBzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1nb3ZkZWxpdmVyeSJ9.Ez9UeyK54mbai9QKkb25Hdqs_5aQlu_9yL5jGR5-W-k/s/259=
+1266041/br/143332345340-l" target=3D"_blank" rel=3D"noopener" style=3D"co=
+lor: #2F7ABC; text-decoration: none; -ms-word-break: break-all; word-brea=
+k: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"=
+>DOJ Grants Financial Guide</a></strong>: Learn about the laws, rules, an=
+d regulations that affect the financial and administrative management of =
+an OJP award.</p>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+</td>
+</tr>
+
+<tr>
+<td id=3D"bottom-body" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Bottom Body" style=3D"padding: 5px 20px 0px;">
+<p style=3D"line-height: 1.3; margin-top: 0px; margin-bottom: 20px; color=
+: #0E3150; font-family: arial, helvetica, sans-serif; font-size: 10px; te=
+xt-align: center;" align=3D"center">You are receiving this email because =
+you signed up for grants and funding information from the Office of Justi=
+ce Programs. If you no longer wish to receive Funding News, you may updat=
+e your=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl=
+9saW5rX2lkIjoxMTYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzE=
+uNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3Vu=
+dHMvVVNET0pPSlBfQ09NTVMvc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiM=
+SJ9.iipWmJj89-rUl70w7H8LQBJJgoefCetSRC8u-uihUNc/s/2591266041/br/143332345=
+340-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #2F7ABC; text-d=
+ecoration: underline; -ms-word-break: break-all; word-break: break-word; =
+-webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Subscriber Pre=
+ferences</a>=A0to remove your subscription.</p>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_tbl_wrap" border=3D"0" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"background-color: #f3f3f3; margin: 0; padding: 0; width: 100=
+% !important;" bgcolor=3D"#f3f3f3">
+<table class=3D"mobile-footer" style=3D"width: 600px; border-collapse: co=
+llapse;" width=3D"600" cellspacing=3D"0" cellpadding=3D"0" align=3D"cente=
+r">
+<tbody>
+<tr>
+<td class=3D"mobile-padding" style=3D"padding: 0px 0px 30px; width: 600px=
+;" width=3D"100%">
+<table class=3D"main-table" style=3D"border-collapse: collapse;" width=3D=
+"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 179px;">
+<td id=3D"bottom-footer" style=3D"padding: 0px 30px 20px; height: 179px;"=
+ width=3D"100%">
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #393939; font-family: helvetica; font-size: 12px; text-align: left;" a=
+lign=3D"left"><strong>Learn More<br></strong><a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTcsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3d3=
+dy5qdXN0aWNlLmdvdi8_dXRtX2NhbXBhaWduPWZ1bmRpbmd0aXBzJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.1xenugdNxj09VLp6pb0gd8rHXzETmdXukGPKV=
+2LgtbI/s/2591266041/br/143332345340-l" target=3D"_blank" style=3D"color: =
+#393939; text-decoration: underline; -ms-word-break: break-all; word-brea=
+k: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"=
+ rel=3D"noopener">U.S. Department of Justice</a>=A0|=A0<a href=3D"https:/=
+/lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTgsInVyaSI6I=
+mJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodH=
+RwczovL3d3dy5vanAuZ292Lz91dG1fY2FtcGFpZ249ZnVuZGluZ3RpcHMmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.veDe-ecGY6vdgC8GmKvtiQwalLEMMz-M=
+VIon2BCYixc/s/2591266041/br/143332345340-l" target=3D"_blank" style=3D"co=
+lor: #393939; text-decoration: underline; -ms-word-break: break-all; word=
+-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: n=
+one;" rel=3D"noopener">Office of Justice Programs</a>=A0|=A0<a href=3D"ht=
+tps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTksInVy=
+aSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiO=
+iJodHRwczovL3d3dy51c2EuZ292Lz91dG1fY2FtcGFpZ249ZnVuZGluZ3RpcHMmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.b0cLDCQPBbEfxNETrTuPGdzKR00=
+75EfdSN8K4KUMCtU/s/2591266041/br/143332345340-l" target=3D"_blank" style=3D=
+"color: #393939; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;" rel=3D"noopener">USA.gov</a></p>
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #393939; font-family: helvetica; font-size: 12px; text-align: left;" a=
+lign=3D"left"><strong>Connect</strong>=A0<br><a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjAsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3d3=
+dy5vanAuZ292L25ld3Mvc29jaWFsLW1lZGlhP3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.NAfCY6P82RrsYDEt-aY=
+mrJCpMXu8HjgelK48dB-0YCE/s/2591266041/br/143332345340-l" target=3D"_blank=
+" style=3D"color: #393939; text-decoration: underline; -ms-word-break: br=
+eak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: non=
+e; hyphens: none;" rel=3D"noopener">OJP Social Media</a></p>
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #393939; font-family: helvetica; font-size: 12px; text-align: left;" a=
+lign=3D"left"><strong>Contact</strong><br><font color=3D"#000000"><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMj=
+EsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ=
+1cmwiOiJodHRwczovL3d3dy5vanAuZ292L2NvbnRhY3Q_dXRtX2NhbXBhaWduPWZ1bmRpbmd0=
+aXBzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.BvzeMMOfgfcc=
+YGGoulbtNOJ4ozXz-0AK-QX2EYEx4m4/s/2591266041/br/143332345340-l" target=3D=
+"_blank" style=3D"color: #393939; text-decoration: underline; -ms-word-br=
+eak: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphe=
+ns: none; hyphens: none;" rel=3D"noopener">OJP</a> | <a href=3D"https://l=
+nks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjIsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRw=
+czovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pPSlBfQ09NTVMvc3Vic=
+2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.NSTClLWKnKZR84i30Dk-ZMfay=
+TaoythG0l8yHVN_XjQ/s/2591266041/br/143332345340-l" target=3D"_blank" styl=
+e=3D"color: #393939; text-decoration: underline; -ms-word-break: break-al=
+l; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyp=
+hens: none;" rel=3D"noopener">Unsubscribe</a></font></p>
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #000; font-family: helvetica; font-size: 12px; text-align: left;" alig=
+n=3D"left"><strong>OJP Services</strong>=A0<br><a href=3D"https://lnks.gd=
+/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjMsInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3=
+d3dy5vanAuZ292L25ld3MvanVzdGluZm8_dXRtX2NhbXBhaWduPWZ1bmRpbmd0aXBzJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.CAa3OQiH4-6BeqqJfuIf1Ad=
+QjsRzTVOrZOzpE_RMcOc/s/2591266041/br/143332345340-l" target=3D"_blank" st=
+yle=3D"color: #393939; text-decoration: underline; -ms-word-break: break-=
+all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; h=
+yphens: none;" rel=3D"noopener">JUSTINFO Newsletter</a>=A0|=A0<a href=3D"=
+https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjQsIn=
+VyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmw=
+iOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pPSlBfQ09N=
+TVMvc3Vic2NyaWJlci90b3BpY3M_cXNwPWFsbF9saXN0ZWRfdG9waWNzIn0.MOVEikBep2ODr=
+B0KukqHXx9vhRgY6MTIWAZ-s1kh2SE/s/2591266041/br/143332345340-l" target=3D"=
+_blank" style=3D"color: #393939; text-decoration: underline; -ms-word-bre=
+ak: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphen=
+s: none; hyphens: none;" rel=3D"noopener">Email Notifications</a>=A0|=A0<=
+a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lk=
+IjoxMjUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5N=
+DEiLCJ1cmwiOiJodHRwczovL3d3dy5vanAuZ292L25janJzL3ZpcnR1YWwtbGlicmFyeT91dG=
+1fY2FtcGFpZ249ZnVuZGluZ3RpcHMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmR=
+lbGl2ZXJ5In0.HKQiqU-AUL94QRW6r9YDVkfNn4AKeEvnPq6IV5Hiq10/s/2591266041/br/=
+143332345340-l" target=3D"_blank" style=3D"color: #393939; text-decoratio=
+n: underline; -ms-word-break: break-all; word-break: break-word; -webkit-=
+hyphens: none; -moz-hyphens: none; hyphens: none;" rel=3D"noopener">NCJRS=
+ Virtual Library</a>=A0|=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1N=
+iJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX=
+2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3d3dy5vanAuZ292L25jan=
+JzL25ldy1vanAtcmVzb3VyY2VzP3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlwcyZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.dIVbfUkiszSZfV5XGvsju3W8WwE2Y=
+wEi49iWJeTTc9s/s/2591266041/br/143332345340-l" target=3D"_blank" style=3D=
+"color: #393939; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;" rel=3D"noopener">New Resources</a></p>
+</td>
+</tr>
+<tr style=3D"height: 10px;">
+<td id=3D"main-footer" style=3D"padding: 0px 30px 0px; background-color: =
+#005799; height: 10px;" bgcolor=3D"#005799" width=3D"100%">
+<h2 style=3D"margin-top: 0px; margin-bottom: 5px; line-height: 1.1; font-=
+weight: normal; color: #ffffff; font-family: helvetica; font-size: 14px; =
+text-align: left;" align=3D"left">=A0</h2>
+<p style=3D"line-height: 1.1; margin-top: 10px; margin: 0 0 10px; color: =
+#ffffff; font-family: helvetica; font-size: 18px; text-align: left;" alig=
+n=3D"left">Office of Justice Programs</p>
+</td>
+</tr>
+<tr style=3D"height: 10px;">
+<td id=3D"main-icons" style=3D"padding: 10px 30px 0px; background-color: =
+#005799; height: 65px;" align=3D"center" bgcolor=3D"#005799" width=3D"100=
+%">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMjcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5=
+NDEiLCJ1cmwiOiJodHRwczovL2JqYS5vanAuZ292Lz91dG1fY2FtcGFpZ249ZnVuZGluZ3Rpc=
+HMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.wVAtMiY-JnDFmC=
+ET10hkjTPNXkCCNgl9iRgIwWuttBA/s/2591266041/br/143332345340-l" target=3D"_=
+blank" style=3D"color: #393939; text-decoration: underline; -ms-word-brea=
+k: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens=
+: none; hyphens: none;" rel=3D"noopener"><img class=3D"govd_template_imag=
+e" src=3D"https://content.govdelivery.com/attachments/fancy_images/USDOJO=
+JP/2019/02/2377662/2486978/footer-01_crop.png" alt=3D"b j a" width=3D"78"=
+ height=3D"63" style=3D"width: 78px; height: auto !important; max-height:=
+ auto !important; border: none;"></a><a href=3D"https://lnks.gd/l/eyJhbGc=
+iOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjgsInVyaSI6ImJwMjpjbGljayIsImJ=
+1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL2Jqcy5vanAu=
+Z292Lz91dG1fY2FtcGFpZ249ZnVuZGluZ3RpcHMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPWdvdmRlbGl2ZXJ5In0.72-3bWR_fWn-VZ-AQ8L4sRTq7VCLWiqGuf79JHr_l2U/s/2591=
+266041/br/143332345340-l" target=3D"_blank" style=3D"color: #393939; text=
+-decoration: underline; -ms-word-break: break-all; word-break: break-word=
+; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;" rel=3D"noope=
+ner"><img class=3D"govd_template_image" src=3D"https://content.govdeliver=
+y.com/attachments/fancy_images/USDOJOJP/2019/02/2377663/2486979/footer-02=
+_crop.png" alt=3D"b j s" width=3D"90" height=3D"63" style=3D"width: 90px;=
+ height: auto !important; max-height: auto !important; border: none;"></a=
+><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2=
+lkIjoxMjksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI=
+5NDEiLCJ1cmwiOiJodHRwczovL25pai5vanAuZ292P3V0bV9jYW1wYWlnbj1mdW5kaW5ndGlw=
+cyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.gP9ks8kSTWD7kF=
+9wfkSKv19XDMDQkt7NkB5oh_kRBaw/s/2591266041/br/143332345340-l" style=3D"co=
+lor: #393939; text-decoration: underline; -ms-word-break: break-all; word=
+-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: n=
+one;"><img class=3D"govd_template_image" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USDOJOJP/2019/02/2377665/2486980/footer-0=
+3_crop.png" alt=3D"n i j" width=3D"76" height=3D"63" style=3D"width: 76px=
+; height: auto !important; max-height: auto !important; border: none;"></=
+a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX=
+2lkIjoxMzAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMj=
+I5NDEiLCJ1cmwiOiJodHRwczovL29qamRwLm9qcC5nb3Y_dXRtX2NhbXBhaWduPWZ1bmRpbmd=
+0aXBzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.9n8NJ5K35ya=
+KKH44aaX8kHJsBw9YC0Yj6IGwFrFOKT8/s/2591266041/br/143332345340-l" style=3D=
+"color: #393939; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;"><img class=3D"govd_template_image" src=3D"https://content.govdel=
+ivery.com/attachments/fancy_images/USDOJOJP/2019/02/2377666/2486981/foote=
+r-04_crop.png" alt=3D"o j j d p" width=3D"85" height=3D"63" style=3D"widt=
+h: 85px; height: auto !important; max-height: auto !important; border: no=
+ne;"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl=
+9saW5rX2lkIjoxMzEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzE=
+uNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL292Yy5vanAuZ292P3V0bV9jYW1wYWlnbj1mdW5k=
+aW5ndGlwcyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.Gc6AN4=
+72MuzTCMXOWJdorNTcMrzSLIn-HOVOYxQg1fM/s/2591266041/br/143332345340-l" tar=
+get=3D"_blank" style=3D"color: #393939; text-decoration: underline; -ms-w=
+ord-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz=
+-hyphens: none; hyphens: none;" rel=3D"noopener"><img class=3D"govd_templ=
+ate_image" src=3D"https://content.govdelivery.com/attachments/fancy_image=
+s/USDOJOJP/2019/02/2377672/2486982/footer-05_crop.png" alt=3D"o v c" widt=
+h=3D"87" height=3D"63" style=3D"width: 87px; height: auto !important; max=
+-height: auto !important; border: none;"></a><a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzIsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3Nt=
+YXJ0Lm9qcC5nb3Y_dXRtX2NhbXBhaWduPWZ1bmRpbmd0aXBzJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9._V5C4lSqojoQaf_7Lo2HwvK92itvMg2yZsvxX_F7l=
+dg/s/2591266041/br/143332345340-l" target=3D"_blank" style=3D"color: #005=
+799; text-decoration: underline; -ms-word-break: break-all; word-break: b=
+reak-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;" rel=
+=3D"noopener"><img class=3D"govd_template_image" src=3D"https://content.g=
+ovdelivery.com/attachments/fancy_images/USDOJOJP/2019/02/2377679/2486983/=
+smart-02_crop.png" alt=3D"smart" width=3D"102" height=3D"63" style=3D"wid=
+th: 102px; height: auto !important; max-height: auto !important; border: =
+none;"></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"border-collapse: collapse; margin: 0px auto; width: 1=
+00%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0 10px 0 10px;" valign=3D"top">
+<table class=3D"mobile-tagline" style=3D"border-collapse: collapse; margi=
+n: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"right">
+<tbody>
+<tr style=3D"height: 15px;">
+<td style=3D"padding: 10px 0px 0px; height: 15px;" colspan=3D"2" valign=3D=
+"top"><hr></td>
+</tr>
+<tr style=3D"height: 17px;">
+<td style=3D"padding: 10px 5px 10px 0px; height: 17px;" align=3D"left" va=
+lign=3D"top"><span style=3D"color: #757575; font-size: 10px; font-family:=
+ arial, helvetica, sans-serif;">This email was sent to MS60710444266@YAHO=
+O.COM using GovDelivery Communications Cloud on behalf of Department of J=
+ustice =B7 Washington, DC</span></td>
+<td style=3D"width: 95px; padding-top: 10px; height: 17px;" align=3D"righ=
+t" valign=3D"top" width=3D"95"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMjI5NDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZW=
+xwLmdyYW5pY3VzLmNvbS8_dXRtX2NhbXBhaWduPWZ1bmRpbmd0aXBzJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.1ptVqDihEGkJme-NcIplDkV4klJCZXbD8x7=
+eF1FnqJI/s/2591266041/br/143332345340-l" target=3D"_blank" rel=3D"noopene=
+r"><img src=3D"https://content.govdelivery.com/images/govd-logo-dark.png"=
+ border=3D"0" alt=3D"GovDelivery logo" width=3D"95" height=3D"27" align=3D=
+"right"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMzIzNDUzNDAtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMjI5NDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDIyOTQxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NDQ0JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_D5C_A949_7CABC01A.1D8E3972--
+

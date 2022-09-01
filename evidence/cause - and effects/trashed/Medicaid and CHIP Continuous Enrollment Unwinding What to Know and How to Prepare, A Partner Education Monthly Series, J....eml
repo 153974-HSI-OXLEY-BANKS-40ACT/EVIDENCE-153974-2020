@@ -1,0 +1,418 @@
+From - Sun Aug 28 22:53:06 2022
+X-Account-Key: account1
+X-UIDL: AF8o8U1iRTViYtmi+Q11UC8Qv0U
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.9
+ by atlas117.free.mail.bf1.yahoo.com with HTTPS; Thu, 21 Jul 2022 19:03:21 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.65]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.65 as permitted sender)
+Authentication-Results: atlas117.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 21 Jul 2022 19:03:21 +0000
+X-YMailAVSC: lQKbaws3bBuybaySfuKJ1zstF8Mn7qhQEK9Ddx16QOWI4NN
+ 3DlzT8OnKGd6ilHiTO5TgFacbUkI39ORDCH9strgZZyD_.uWRb8pQWyOApIV
+ z.o4iStXPIInidOBxJTZgvN0Qmgks0pBF.L1UlSTaoQPG4dnoObLVcLJ16cy
+ MVsCP5CVJi46Qg464wQuXqGZut1mIVXcNBQKPMv2tuWRIdrZ.9ioZaTpsSXe
+ F01z9IlVPSpYNPYUSlJTq3c_O7xgJoZlIQbrlLr.iQ6GXolQTcfnyhJFY0hg
+ A3SPzFe0R.f.okTQF5QCoF78rJhA8awwWXg5i08BmzKOjvnaJQmxUvTIRJDh
+ _zJtjWx.5ZCU.qZgF6EN610rT2066Oep_5uEr_PgfupKBK_wImvGNvQYXp66
+ VpsKKuITLJfxsbvw_9ifJPf36Uaj5CvxwvNG0w4YOk9dfABo1_Q_E973Uphu
+ VOB0OBp_mOiJXL0VaTh42oKcycFehd1S.jrrJavKrWlPMJo_3gAe0pX8zTsM
+ Xk2EzZU2O4N1_vfEs.NDvImyKQGAjQUn4hDEQNGh7CILzZaVRaH.QWphqVmx
+ 2RACmRxWH0wAfUxa1tSV220t0NX2iy4ic8xle_Qat5TJqJMQAG9xwDqTymMo
+ kjwFf9y.K8qGfWvhpdxF07CEo36BasVyNnc_yw50NyuBvx4nzfn3ou8VCKnS
+ Lukm_VF.azj7ajRfKZlsOhV.WJmYsXe0yJgqL2Y4X330QeCR8iPk4SzW8jLK
+ bnmdZCWuRLS4ITKWnrN0zt5dotbT0QLrsl3wPjRoWjdNKDXjLYQeL7Rb04ga
+ 8vCak2jgn_uFL.AhdMmdnq5Ix6cyd82oo_BZI2XiPJ8YzZ8W6_7TxYRYprjB
+ 7LcMSCCUfmeDldYaFe60P3Oc6JkpF_p.es_Gx3pbuOxzBsa6RyT.bCmnFzeP
+ J7hN0upFDhAAv9EZ_puLQ.kNKpIB7g_8dlULR1yZOdz1GyKkXFdj07ALucnX
+ P8ITUbWj555BD8TDofy53u4qmWHwTuPBXaR60VsdwnnvY.GlqcrcjKqbzQcl
+ EInVEOFAnLIZ6bKPycfbbPj45OxQUHEAx5rq7eyjb86gnMloWwrldOPu4f8U
+ Q23EaR5lQXnilvbL7dkuBL45DXyXCIBxzPFUJj7x4DzLxN9EOvZnQFvtW_cw
+ 9EufBpA2rwPwV5og.YJelfuBwaZ4IRUpDkl663wUURGzWc4q8pnVarA6p84u
+ VLkChFgpM1U4wFPREIuLmV3Zv.sBXEjtqbHZSGDWdK3kTFw8cHwEdBQlVAup
+ y9g9Ksyy5stjflRzIVGeXrPEXloSseg_0Vr521ElaFnbZie8cOVFDL4oXzGu
+ ZJukye_WayNHtOk.wWFdqVDUTLoTIHnMIwx3p_TjhOtkQg1P_6vt.WDp2mCS
+ wH9ucn3WRkJqyRemMmGICQlGI3xAAbA--
+X-YMailISG: pDFnehwWLDsMCl92Dv8EVteV0r1etQiu0cfFKNBBd6lpGntO
+ ora6ojlmVu0BxqFauQmANNkTkujcmOwyK9eHbeF422HPOF1vPp3XMqV2o.S7
+ PdbzaQesBMs9ECWSldXLz6ZsFDVWRykknpWES07MGh3J0EXSfqQVGAHOUMm4
+ taHmoiRyxBClKSUBwF2BBio4ZibfGy8RCeUGUtBLi9pIvNrEuQSLx.QwSZSP
+ CI.LNhqYfVPY3L7rTNS9HXDDDwvzGRrke_b4nde3v4kAIXGYFoG7UYPX7Q.C
+ gAWbB4hu3bKVD2MYRB.1V5J46yLeDRvjLSFT3xseoTfkRcgwT3jmzW5d_w9o
+ 4n9w4Slzs8ofnAbo00Uwmg_km38SQZvIFjr_P__RYX04zU_uDM_b5HK.QdLU
+ W9a54pqGa5rKbYMdCNuWGqFmTPPEkL5wQPRdHenhqcNnZDtbNu_HMGBYseMd
+ oYOGSWWIb3e1XVCscxrdiqhqJwwU2.9F6QUznWP.McMc2uoTrj307.BShZPG
+ E0DcPkUHuW47p8vt5D8ic81Ylzd.42ejywaVwjFxlH0o9kevzY8iAOLSk5ZB
+ sNvItKZ5OwyF4ggow7YFj.o.ryzTDllRnFiS8PXiQANkEqZYJ.N3GSd5mu5a
+ sJCtTd_mrDPqoEdc_Bz7hqP4WhjDrz1RYSBXaG4DIGXSi6Nmy2TlBE13kkic
+ 2OgCBZ8eRtiqOzAybx8CtFqJyx8s1lcdp9La4sIjJzT80zbE9lNiLJIbyE0A
+ qpoIgXTbc_lKsFPXeTigoZ6TPZU_SwTDm7Tsyb_Y9IME6fsaXtnSeOcyHmvC
+ e1Owqn8s.rqViUDhCZlRFYLY_dtxzkXVdYkfh6dNLjO_xf_a3nKWkssMFC6D
+ Os9fySfsv5Dw16DFXtxOXue6DnM5C79TXyqc3ETQ8dXvxRgDmpLjRawlzZ6I
+ q1WEiAgwJ3Lu9o6ACn_eeCNrIKFF_yE1iOjgr65Du3RUgEDuaHwIPOfwsl6f
+ t6twhEXIJ05OL.97.BAIjdc3VzHo8J1kLsbB2f9Uo.T9ea5UhkUvJGWKqdjB
+ 2Vk15QPk56I3YSfigiKzC2RrXJtJD5dqyM7eKmjJMXsxZcfwzdjJtn0.AfI8
+ fIj3cBn.4P6KZWhB_uik.xngUFX8aKUKI3BH0gHDQLaxB.snkwKJ9m41cx3c
+ Dy03T0EkWyGVMznoTynQMQ--
+Received: from 209.134.158.65 (EHLO mailer158065.service.govdelivery.com)
+ by 10.197.32.9 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 21 Jul 2022 19:03:21 +0000
+Received: from gepdp-smeds1-5.systems.dc.gdi ([10.5.36.52])
+	by mailer158065.service.govdelivery.com (-); Thu, 21 Jul 2022 19:03:20 +0000
+X-VirtualServer: VSG001, mailer158065.service.govdelivery.com, 10.5.36.138
+X-VirtualServerGroup: VSG001
+X-MailingID: 16823251::20220721.61107931::1001::MDB-PRD-BUL-20220721.61107931::ms60710444266@yahoo.com::39529_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=YSw7
+	KmtCpgU3PG6YGSTs2cyf5krDVo1TIsSd6ohC198=; b=b9Fa/7I5ItXIikPuGvAI
+	et0mTO1oItA3Hd5sboZ/m5IJCZaBVi/ZkKTPeYQIczLtQszUCqmd7fcOLQjCjb++
+	PJolHw69Y+4nE5lJOKUqQPbeicNum0VXGae5eJ3xsvT0Jm8cl78alBjc6nlEpA9h
+	rbPFjnXWQwk0VYpYB6N2y+gbRzwenSt+biJVXR9PPTKXUZq+Zt+JGrZGUprw4ziW
+	0CiT9A1dk7qXArPctTmmfCQLzD6TRpGHhQAAcwTLSvsLJE9/1jqvzy9uaFpgqvvu
+	KT9IaU5YvyW/u1AZycHSodpCjfnoKaidufBAGrCiWPkfkxiR1HY0QH5fIACSPgwu
+	ug==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_7E0_4CC7_2FC317B9.6FCCEC25"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIpdz6szd0DnpfWMROPIjVFA7MuJ2eXYk42WjqmhFiIVTr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16823251.39529@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK6D9-JJ5E9SJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Medicaid_and_CHIP_Continuous_Enroll?= =?US-ASCII?Q?ment_Unwinding:_What_to_Know_and_How?= =?US-ASCII?Q?_to_Prepare,_A_Partner_Education_Mo?= =?US-ASCII?Q?nthly_Series,_July_27th_@_12:00pm_ET?=
+Date: Thu, 21 Jul 2022 19:03:17 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 14130
+
+
+------=_NextPart_7E0_4CC7_2FC317B9.6FCCEC25
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Health Insurance Marketplace=20
+
+July 21, 2022
+
+=A0
+
+Medicaid and CHIP Continuous Enrollment Unwinding: What to Know and How t=
+o Prepare, A Partner Education Monthly Series, July 27th @ 12:00pm ET
+________________________________________________________________________
+
+You are invited to join the Department of Health and Human Services (HHS)=
+ and the Centers for Medicare & Medicaid Services (CMS) for the third web=
+inar in the monthly partner education series on Medicaid and CHIP Continu=
+ous Enrollment Unwinding. The recordings, transcripts, and slide decks fr=
+om the previous webinars can be found on the CMS National Stakeholders Ca=
+ll Webpage [ https://www.cms.gov/outreach-education/partner-resources/cms=
+-national-stakeholder-calls ].
+
+This month=92s webinar will focus on related outreach and engagement gear=
+ed towards children, specifically highlighting a back-to-school =93mini c=
+ampaign=94 and resources for partners to help share information with fami=
+lies during the back-to-school season. We still encourage you to encourag=
+e members in your network to update their contact information with their =
+state Medicaid agency (find contact information at Medicaid.Gov/Renewals =
+[ https://www.medicaid.gov/resources-for-states/coronavirus-disease-2019-=
+covid-19/unwinding-and-returning-regular-operations-after-covid-19/renew-=
+your-medicaid-or-chip-coverage/index.html ]).
+
+*When: *Wednesday, July 27, 2022
+
+*Time: *12:00-1:00 PM ET
+
+*Where: *Zoom link will be provided following registration.
+
+*Who should attend:* If your organization serves or interfaces with peopl=
+e that have health insurance through Medicaid or the Children=92s Health =
+Insurance Program (CHIP) then this call is for YOU!
+
+*RSVP:* https://cms.zoomgov.com/webinar/register/WN_qma5AvyBQWCTB0vbNF3lT=
+A
+
+Please send all questions to PARTNERSHIP@cms.hhs.gov.
+
+ =20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_7E0_4CC7_2FC317B9.6FCCEC25
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Medicaid and CHIP Continuous Enrollment Unwinding: What to Kno=
+w and How to Prepare, A Partner Education Monthly Series, July 27th @ 12:=
+00pm ET
+</title>
+
+
+</head>
+<body style=3D"font:13px / 1.5 Arial , Helvetica , sans-serif;margin:0;pa=
+dding:0;width:100% !important;">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"text-align: cente=
+r; background-color: #EEEEEE; margin: 0; padding: 0; width: 100% !importa=
+nt" bgcolor=3D"#EEEEEE"><table id=3D"gd_ab_main_tab" width=3D"600" align=3D=
+"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: co=
+llapse; width: 600px; text-align: left; margin: 20px auto;">
+ =20
+<tr>
+  <td id=3D"gd_ab_header" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Masthead" style=3D"border-collapse: collapse; vertical-align: top=
+; background-color: #FFFFFF; padding: 0px 0px 30px; border: none;" bgcolo=
+r=3D"#FFFFFF" valign=3D"top"><img class=3D"govd_template_image" src=3D"ht=
+tps://content.govdelivery.com/attachments/fancy_images/USCMS/2020/05/3340=
+100/3056863/cms-header1_crop.png" style=3D"width: 600px; height: auto; bo=
+rder: 0px none;" alt=3D"Health Insurance Marketplace" width=3D"600" heigh=
+t=3D"109"></td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_main_body" width=3D"600" data-govdstyle=3D"all" data-go=
+vdtitle=3D"Main body" style=3D"border-collapse: collapse; vertical-align:=
+ top; background-color: #FFFFFF; padding: 5px; border: none;" bgcolor=3D"=
+#FFFFFF" valign=3D"top">
+<p class=3D"gd_p" style=3D"text-align: right; margin-bottom: 10px; color:=
+ #232323; font: 12px/1.5 helvetica;" align=3D"right">July 21, 2022</p>
+<p class=3D"gd_p" style=3D"margin-bottom: 10px; color: #232323; text-alig=
+n: left; font: 12px/1.5 helvetica;" align=3D"left">=A0</p>
+<h1 class=3D"govd_header" style=3D"font-size: 16px; font-family: helvetic=
+a; text-align: center; margin: 0 0 15px; padding: 0;" align=3D"center">Me=
+dicaid and CHIP Continuous Enrollment Unwinding: What to Know and How to =
+Prepare, A Partner Education Monthly Series, July 27th @ 12:00pm ET</h1>
+<div class=3D"govd_hr" style=3D"padding: 5px;"><div class=3D"govd_hr_inne=
+r"><hr></div></div>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">You are invited to join the Departmen=
+t of Health and Human Services (HHS) and the Centers for Medicare &amp; M=
+edicaid Services (CMS) for the third webinar in the monthly partner educa=
+tion series on Medicaid and CHIP Continuous Enrollment Unwinding. The rec=
+ordings, transcripts, and slide decks from the previous webinars can be f=
+ound on the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXR=
+pbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3=
+MjEuNjExMDc5MzEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L291dHJlYWNoLWVkdWNhd=
+Glvbi9wYXJ0bmVyLXJlc291cmNlcy9jbXMtbmF0aW9uYWwtc3Rha2Vob2xkZXItY2FsbHMifQ=
+.QEtHlfhtNyPCSEUugtk46mRyKiqoxmspq8XcXoOaWWQ/s/2601788358/br/141397951090=
+-l" style=3D"color: #074BF8;">CMS National Stakeholders Call Webpage</a>.=
+</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">This month=92s webinar will focus on =
+related outreach and engagement geared towards children, specifically hig=
+hlighting a back-to-school =93mini campaign=94 and resources for partners=
+ to help share information with families during the back-to-school season=
+. We still encourage you to encourage members in your network to update t=
+heir contact information with their state Medicaid agency (find contact i=
+nformation at <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMj=
+A3MjEuNjExMDc5MzEiLCJ1cmwiOiJodHRwczovL3d3dy5tZWRpY2FpZC5nb3YvcmVzb3VyY2V=
+zLWZvci1zdGF0ZXMvY29yb25hdmlydXMtZGlzZWFzZS0yMDE5LWNvdmlkLTE5L3Vud2luZGlu=
+Zy1hbmQtcmV0dXJuaW5nLXJlZ3VsYXItb3BlcmF0aW9ucy1hZnRlci1jb3ZpZC0xOS9yZW5ld=
+y15b3VyLW1lZGljYWlkLW9yLWNoaXAtY292ZXJhZ2UvaW5kZXguaHRtbCJ9.Sq3nKQeKTtUHp=
+DHFpgzWBb2KdkEeGibqHDsmNuLlbPQ/s/2601788358/br/141397951090-l" style=3D"c=
+olor: #074BF8;">Medicaid.Gov/Renewals</a>).</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>When: </strong>Wednesday, Jul=
+y 27, 2022</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>Time: </strong>12:00-1:00 PM =
+ET</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>Where: </strong>Zoom link wil=
+l be provided following registration.</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>Who should attend:</strong> I=
+f your organization serves or interfaces with people that have health ins=
+urance through Medicaid or the Children=92s Health Insurance Program (CHI=
+P) then this call is for YOU!</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>RSVP:</strong> <a href=3D"htt=
+ps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjEuNjExMDc5MzEiLCJ1cmwiOi=
+JodHRwczovL2Ntcy56b29tZ292LmNvbS93ZWJpbmFyL3JlZ2lzdGVyL1dOX3FtYTVBdnlCUVd=
+DVEIwdmJORjNsVEEifQ.WvRz4LZ_tSx2NI7cDc7dvocGNPpffXmbZWHxFDZIoOY/s/2601788=
+358/br/141397951090-l" style=3D"color: #074BF8;">https://cms.zoomgov.com/=
+webinar/register/WN_qma5AvyBQWCTB0vbNF3lTA</a></p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">Please send all questions to <a href=3D=
+"mailto:PARTNERSHIP@cms.hhs.gov" style=3D"color: #074BF8;">PARTNERSHIP@cm=
+s.hhs.gov</a>.</p>
+</td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_footer" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Footer" style=3D"border-collapse: collapse; vertical-align: top; =
+background-color: #FFFFFF; padding: 0px; border: none;" bgcolor=3D"#FFFFF=
+F" valign=3D"top"><img class=3D"govd_template_image" src=3D"https://conte=
+nt.govdelivery.com/attachments/fancy_images/USCMS/2020/05/3340097/cms-foo=
+ter_original.png" style=3D"width: 600px; height: auto; border: 0px none;"=
+ alt=3D"" width=3D"600" height=3D"107"></td>
+</tr>
+=20
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MjEuNjExMDc5MzEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.4zzI9q-c0H3Mn92Rx-7fn1DiGxHoBNEgjixJj_8jOdQ/s/2601788358/br/1=
+41397951090-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjEuNjExMDc5MzEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.6uI0RJIOVEd278UsEsT7tD=
+vMhX7XNDHY2dqQ09NoC5Y/s/2601788358/br/141397951090-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjEuNjExMDc5MzEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.imlbnkAzvUBerj3gKQDwPD3koLuRgKm7TiRCmNwSA=
+qs/s/2601788358/br/141397951090-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjEu=
+NjExMDc5MzEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.uG0JSoSMw0iXsdTL2-vQ3a=
+jgDJ0Bhr6gEF6srsm-5KY/s/2601788358/br/141397951090-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDEzOTc5NTEwOTAtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjEuNjExMDc5MzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzIxLjYxMTA3OTMxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIzMjUxJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_7E0_4CC7_2FC317B9.6FCCEC25--
+

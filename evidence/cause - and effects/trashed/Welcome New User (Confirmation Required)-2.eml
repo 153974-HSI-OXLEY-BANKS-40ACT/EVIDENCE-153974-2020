@@ -1,0 +1,364 @@
+From - Sun Aug 28 22:52:35 2022
+X-Account-Key: account1
+X-UIDL: ADZOePoTrbjEYtgC2AFMCE3Z+dw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.76
+ by atlas303.free.mail.bf1.yahoo.com with HTTPS; Wed, 20 Jul 2022 13:27:51 +0000
+Return-Path: <messages@notify.gsa.gov>
+X-Originating-Ip: [208.42.137.103]
+Received-SPF: pass (domain of notify.gsa.gov designates 208.42.137.103 as permitted sender)
+Authentication-Results: atlas303.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@notify.gsa.gov header.s=14q3;
+ spf=pass smtp.mailfrom=notify.gsa.gov;
+ dmarc=pass(p=REJECT) header.from=notify.gsa.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 20 Jul 2022 13:27:51 +0000
+X-YMailAVSC: wNVQCe83bBvydMYpRwW0vzGqkrZUo5lQlQqC7yh1SkL_.Mr
+ BbzEbADiw7BCArVHibIDhfwV_TdjDiw21co9wOAajKEMbWc9GU_CZN1ZDkdh
+ qTMioT0RiD6yJqCt.hx1rEhUGwlpuertlSulrMLzkZAtAWdlxnF4swHfXopo
+ gT4tXxIf9jdKqEmnh.aoUs7Br4QF_v6ae6DDHtH04K2F9meKshHJU6qKOE4X
+ 0d4KIwIYGk2nfIWkZWyYrR_IhA1bvEMLIeBPOh8_pu_V4lGPg8XTGZGES7no
+ U00_06Idm_anRtgcURtde0XqQQKD5S7kT7Uv6b_RegKUjXDQudeWjfOU2mh1
+ DMJ4rWGZHUAl9CLtPEhiM1GSv41YQTM2qyyP7hel_Rd9D7Fsc5706MpVxYO1
+ 7v87xpy67FvwvpD7a68mSkezKaWrxx6YInjlZXSdKKQ.0iNXhY0ST1BQTg.t
+ srpiN4rZkbw71ma.bdnjE5QkbZb5gyt5ASShZvL0h29qWg97tAaTp8BW0nT7
+ tefG_qnWA0XD7TnFqBnoy4Te6DjPvLjG4onAuQivhZFnou.iiUeFo2NbGsZ3
+ uogx4keBOzed6t_9Ke1ndXJqUdkdrkRoarETSADuI2l5KtBAGj3uoOGs0kWP
+ rb0u.fQCnb3zGKWwxKknDJhTpVFHxK2ThB7XUD63sAo3FXHi_mncLWaNuf8U
+ 7c0zKFSV0SBuR353K941SGRqp4sxypdn6PYLyvGMzzA.7bDubjXX.Ls2bc7w
+ xggB9Xq6ZQ_PlBBl1XAAJlg8VpD_rid_0BesrvoVFgHcuJJ2jVqCe2vFPcFn
+ nZzrGoaZWCCk93BqyOA0afDx4K2e4u4vCiKPVjqd1TDB97oloKDSwY7L8Or4
+ K5BBW33F3nw6QltiuERhRfvGnMc2YuTOSnWehSL4Gxl7V3TEmW3InsZwhWgp
+ NmEYbPR0iy1t6p8hTLPjyaudyRaN0lVCPRHuxC1CJI6aoVB9pe8DbpYG01ST
+ i3eLklBpdLFJjFM0hm07XDQ2.Q0Vxd9DpGY8KHkaEuvuwX4Wmk1M4HnVX.4a
+ y2_TUQD2_Gjwqd63396rkAq0SPcpewWd_Q_LI_x5vfYrbt.0UoSrwJMRicXi
+ AaANe2a3VuM7GjH0dBuQyKvuKtIx9oxYeT0g9BRmabn_nzb9qZm0NGPN1itc
+ zfPSGKTclpuIm.5.1U.Fm0WfeLxVK2OsUaCmB4QI_Z__U4EdHWmPLpl8Bk5W
+ cI.0CQKsycpV8iTaPy4Ja8Ex0t86tRxnsvcPds8KL6aa5pDchv4_IkeOGSSO
+ owBHBGhMRVtLPhYWAauJVO6HlOcjDd_IYxwbMnapsCqxp6QtDRCvSmuPxt.F
+ G_Vh7kpQ63C6msDX0a8.K3zKx3zkU6Y5uUSgwKw50Z7ZzQco-
+X-YMailISG: D_PnkgMWLDt3s0oOtgrH01b.FIpgWSqLqzJ9IKn1WefXz7p4
+ JCXVwCrWogBhRQ7aiycGrR6lwbFiXtm9LylletnHTs2FulSnmVhTRwZrMwwi
+ 9f8L62NNYPr9L5shsbNI.SDbJHF.PP4q4R8.1SgDADNhvM3D0YQFyQnUV0vM
+ EJIWVAIJ7tDhNznjNw2oq_oYywTDs5YpuF355p0N81Gb4j0JtG8eiUArtBwZ
+ YIYi1GsSNJBui6NPOCNEqA.Sr9uFOeDhb.1TwkobItj_9_zKdAEw8I9vdtmI
+ QgVlXFmhK0WQwrnGVENcWn9Lq3wlyoFtIwW.1UQDSb4ltm0Y7sVoxsCb9a1s
+ gITkSmqwr4xhN_P0Nm0b8_zDLNMrL2QUEoOASoElBqXIxWY99mrhdenxSHAU
+ EGawLCpUN2JuLCqf44gO_Tm6AX_xxFG0G7HMG171nbSJDIIYeNAy9Vn12iQR
+ HdovCZgTseTdfooyTVmS2BgU9gKbbe4kVbjY_5JwJ_3OgrGQbtuILGw8zm5C
+ U4uhpzMXCiojJuddDhDd02t1.KexH4N86K5Kbp0q75w4mEpTyo87n9hb36Uw
+ YGXaEQoP_9VRoxIE3._I9EE56pmsqzqVg6x3dj9edNnO7ZAbRWzf7BRrmZD9
+ BdhZQVP56wCgI90V.dC4JC8Lv0xHZbuVAEc0FeA04D7jD9G9KygJf3V6ukdD
+ sWkXvyUOObV.hpuE14yffIiYyQUCsn_JLQbD9jMXsrBHhnHrYgKLGV4cfTRp
+ fpdzAO3jxr9CillImgnh.D6tnCXWABLBSpCoSsLTrYe5.mS2SA6fdIEVTyjd
+ JLCHewq4EbmJk89xn8Xt3krM1nMYmuCCA3gDlVS6hbUpZBPDEiWzk5v6B..t
+ uOQrKPNJ3nibIdurJqiqE_i23JPEa_kmA91QEL1bl8AqcPRX7zI6YpeEAJqJ
+ zKkxU6YGte5KAVwzk8AJ1Oh.XgDT27WI45Kg3i2qrUCbGBQOovZAm0FQO1ba
+ wAuIuSEx3TTLEBsUHC_EgfBkFsFy_mhqBr1vrfEfUaS6.S31QGtPSm2UjBTx
+ nq3JeE0Cu1xWGmQ2ahD.6rvt5n6x2hY5ALENaL.9oLNVuEQZEZVdjlXQhq8w
+ m8BuV2SkFhDFtrQ2Hn.qPz6U6EG8zVdB9uZf1KaWZyAGDfos3oJJbLG6o8qk
+ s0X283QL5cI0
+Received: from 208.42.137.103 (EHLO mailer137103.service.govdelivery.com)
+ by 10.197.36.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 20 Jul 2022 13:27:51 +0000
+Received: from prod-bulletinprocessor3.ep.gdi ([10.5.3.4])
+	by mailer137103.service.govdelivery.com (-); Wed, 20 Jul 2022 13:27:51 +0000
+X-VirtualServer: Default, mailer137103.service.govdelivery.com, 10.5.38.228
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+X-VirtualServerGroup: Default
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=notify.gsa.gov; s=14q3; i=@notify.gsa.gov; h=Date:From:
+	Message-ID:Subject:Mime-Version:Content-Type:
+	Content-Transfer-Encoding:X-AccountCode:message-type:Errors-To:
+	X-MailingID:X-SMHeaderMap:To; bh=hQjM/u6alUBxvRluZZ3p47EaCl+1rUa
+	s1atEeSDs4j8=; b=jilrKMVlu7x4Mru5M0yQZPrqyy5nNRfs6ylhCl5p31ITLF1
+	2VCd2X4727psdKQqvpvQlj9hcYkHirHr109CJqrg4uhEPNN8Qxr2KNQd3XGXlWZ3
+	9gJA22xgJ+lyNd/QQqxG9hOpjeQGmaP6+eC8GF7+3mDDj1Zb2mQobGqaU8GNTHPc
+	IicNGFfjU1MaPvJ+JfGmnbl62Yu9PLx++V8WNHNCQb98ORLfvfCr9N5yynTpC7Kw
+	AzbW39122GgFBR8jVASF8OJQRPJ6bW0vHFhMJKYe8NcD97IVsyQ1IbBmsQMhFZhC
+	+9K2ycLpZ7aHcS8CHdOK+vHYhoF/HUd4lnOMN2w==
+Date: Wed, 20 Jul 2022 08:27:51 -0500
+From: General Services Administration <gsa@notify.gsa.gov>
+Message-ID: <62d802d737d11_117b17dd1d828475@prod-evo-bg8.ep.gdi.mail>
+Subject: Welcome New User (Confirmation Required)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62d802d736063_117b17dd1d828354";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-AccountCode: USGSA
+message-type: welcome_new_subscriber
+Errors-To: messages@notify.gsa.gov
+X-MailingID: 313469789540115::3346175443::0::PRD-ZIPMAIL-3346175443::::1
+X-SMHeaderMap: mid="X-MailingID"
+To: ms60710444266@yahoo.com
+Content-Length: 12504
+
+
+----==_mimepart_62d802d736063_117b17dd1d828354
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Important:
+
+You have subscribed to updates from GSA, General Services Administration.=
+ For security reasons it is required that you confirm your request now by=
+ following this link:
+
+Confirm Sign-up to GSA, General Services Administration Updates Now. [ ht=
+tps://public.govdelivery.com/accounts/USGSA/destinations/16641945119/conf=
+irm?verify=3D4.2c69303b6d453f9f6e1fa2a9a923f459 ]
+
+If this account was created without your knowledge or you otherwise do no=
+t wish to keep it, no action is required. Unconfirmed accounts will be re=
+moved automatically.
+
+If you are concerned about preventing unauthorized use of your account, p=
+lease add a password to your GSA, General Services Administration subscri=
+ption preferences [ https://public.govdelivery.com/accounts/USGSA/subscri=
+ber/new ].
+
+________________________________________________________________________
+
+=C2=A0  =
+
+
+STAY CONNECTED:
+
+  [ https://www.gsa.gov/about-us/newsroom/social-media-at-gsa ] facebook =
+[ http://www.facebook.com/GSA ] youtube [ http://www.youtube.com/usgsa ] =
+twitter [ http://twitter.com/#!/usgsa ] instagram [ https://www.instagram=
+.com/usgsa/ ] rss feeds [ https://www.gsa.gov/about-us/newsroom/rss-feeds=
+-available-on-gsagov ] blog [ http://gsablogs.gsa.gov/gsablog/ ] Sign up =
+for email updates [ http://public.govdelivery.com/accounts/USGSA/subscrib=
+er/new ] =
+
+
+SUBSCRIBER SERVICES:
+Manage=C2=A0Subscriptions [ https://public.govdelivery.com/accounts/USGSA=
+/subscriber/edit?preferences=3Dtrue#tab1 ]=C2=A0=C2=A0|=C2=A0=C2=A0Unsubs=
+cribe All [ https://public.govdelivery.com/accounts/USGSA/subscriber/one_=
+click_unsubscribe?verification=3D4.2c69303b6d453f9f6e1fa2a9a923f459&desti=
+nation=3Dms60710444266%40yahoo.com ]=C2=A0=C2=A0|=C2=A0=C2=A0Help [ https=
+://subscriberhelp.govdelivery.com/ ]
+
+ =
+
+body .abe-column-block {min-height: 5px;} _______________________________=
+_________________________________________
+
+This email was sent to ms60710444266@yahoo.com on behalf of General Servi=
+ces Administration =C2=A0=C2=B7=C2=A01800 F St. NW =C2=B7 Washington, DC =
+20405=C2=A0=C2=A0=C2=B7 =C2=A0866-606-8220 =C2=A0 =
+
+body .abe-column-block {min-height: 5px;}
+
+----==_mimepart_62d802d736063_117b17dd1d828354
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/1=
+999/xhtml" xml:lang=3D"en" lang=3D"en" xml:lang=3D"en">
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+<title></title>
+
+<style>body .abe-column-block {
+min-height: 5px;
+}
+body .abe-column-block {
+min-height: 5px;
+}
+</style></head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+<p style=3D"margin-bottom: 1em;">Important:</p>
+<p style=3D"margin-bottom: 1em;">You have subscribed to updates from GSA,=
+ General Services Administration. For  security reasons it is required th=
+at you confirm your request now by  following this link:</p>
+<p style=3D"margin-bottom: 1em;"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJ=
+KV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjo=
+id2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1l=
+c3NhZ2VfaWQiOjk5MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY=
+2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNHU0=
+EvZGVzdGluYXRpb25zLzE2NjQxOTQ1MTE5L2NvbmZpcm0_dmVyaWZ5PTQuMmM2OTMwM2I2ZDQ=
+1M2Y5ZjZlMWZhMmE5YTkyM2Y0NTkifQ.P5GP3vOnnGA56HucC8aJiwJcPEDzYsCQFunJ0axqc=
+Ho">Confirm Sign-up to GSA, General Services Administration Updates Now.<=
+/a></p>
+<p style=3D"margin-bottom: 1em;">If this account was created without your=
+ knowledge or you  otherwise do not wish to keep it, no action is require=
+d. Unconfirmed  accounts will be removed automatically.</p>
+<p style=3D"margin-bottom: 1em;">If you are concerned about preventing un=
+authorized use of  your account, please add a password to your GSA, Gener=
+al Services Administration  <a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1Qi=
+LCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2Vs=
+Y29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ=
+2VfaWQiOjk5MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLC=
+J1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNHU0Evc3V=
+ic2NyaWJlci9uZXcifQ.F49-lsVxlMzLKEW-lQzb-8fHJ_QWXMXvusTwefpmhXM">subscrip=
+tion preferences</a>.</p>
+
+
+<div id=3D"mail_footer">
+<table class=3D"gd_table" style=3D"width: 647px; border-collapse: collaps=
+e; height: 226px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 642.444px;">
+<hr />
+<table border=3D"0" width=3D"310" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"100%">=C2=A0<img src=3D"https://content.govdelivery.com/atta=
+chments/fancy_images/USGSA/2021/11/5221060/ftr_original.png" width=3D"286=
+" height=3D"50" style=3D"width: 286px; height: 50px;" />
+</td>
+</tr>
+</tbody>
+</table>
+<table style=3D"width: 260px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td style=3D"color: #666666; font-family: Arial, sans-serif; font-size: 1=
+2px;" colspan=3D"10" valign=3D"bottom" height=3D"24">
+<p>STAY CONNECTED:</p>
+</td>
+</tr>
+<tr>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwczovL3d3dy5nc2EuZ292L2Fib3V0LXVzL25ld3Nyb29tL3NvY2lhbC1tZWRpYS1hdC1nc2=
+EifQ.I_yNsADsBfNz_DIndVbvB3PNN2_wjzIeIUxLUZd9kxA"><img src=3D"https://adm=
+in.govdelivery.com/attachments/fancy_images/USGSA/2012/02/71201/gsa-blog-=
+original_large.jpg" width=3D"25" height=3D"25" /></a></td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwOi8vd3d3LmZhY2Vib29rLmNvbS9HU0EifQ.APInjX9yGu2mYCTSawBGbgCLsRlZkEYuUj8=
+I55Ft1Oc"><img src=3D"https://service.govdelivery.com/banners/GOVDELIVERY=
+/facebook_25x25.gif" alt=3D"facebook" /></a></td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwOi8vd3d3LnlvdXR1YmUuY29tL3VzZ3NhIn0.CmDkyLPol9PS4VeqR3fjAO4Ek5gRE3kr4o=
+fMzLyHr8M"><img src=3D"https://service.govdelivery.com/banners/GOVDELIVER=
+Y/youtube.gif" alt=3D"youtube" /></a></td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwOi8vdHdpdHRlci5jb20vIyEvdXNnc2EifQ.4GBNKjd60I17BCGYLwyI4n2U6IC8JW6_hLr=
+QHN152R4"><img src=3D"https://service.govdelivery.com/banners/GOVDELIVERY=
+/twitter25x25.gif" alt=3D"twitter" /></a></td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwczovL3d3dy5pbnN0YWdyYW0uY29tL3VzZ3NhLyJ9.AYrgoekNOHdlyERQrW2uEhnd1iw9x=
+SF0yBrOcC-ChL8"><img src=3D"https://content.govdelivery.com/attachments/f=
+ancy_images/USGSA/2021/11/5221072/ig_original.png" alt=3D"instagram" /></=
+a></td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwczovL3d3dy5nc2EuZ292L2Fib3V0LXVzL25ld3Nyb29tL3Jzcy1mZWVkcy1hdmFpbGFibG=
+Utb24tZ3NhZ292In0.MSBFqZ8OZuYVpq5EFp665NOuXUpZEWbdWsSdywLJJVM"><img src=3D=
+"https://service.govdelivery.com/banners/GOVDELIVERY/rss.gif" alt=3D"rss =
+feeds" /></a></td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwOi8vZ3NhYmxvZ3MuZ3NhLmdvdi9nc2FibG9nLyJ9.rI9YaqgDdtoDwCg_9vU5TNr_sG-Uc=
+bnPYVoLGLWPsho"><img src=3D"https://admin.govdelivery.com/attachments/fan=
+cy_images/USGSA/2012/02/71202/blogger_original.jpg" alt=3D"blog" /></a></=
+td>
+<td width=3D"33"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJ=
+IUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXd=
+fc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5=
+MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJod=
+HRwOi8vcHVibGljLmdvdmRlbGl2ZXJ5LmNvbS9hY2NvdW50cy9VU0dTQS9zdWJzY3JpYmVyL2=
+5ldyJ9.kP6XzSsO_4VAoxOgL0ajnRXHOKFd_vPn0LKdMkt8JuY"><img src=3D"https://a=
+dmin.govdelivery.com/attachments/fancy_images/USGSA/2012/02/71674/gsa-gov=
+delivery25x25_large.jpg" border=3D"0" alt=3D"Sign up for email updates" w=
+idth=3D"25" height=3D"25" /></a></td>
+</tr>
+</tbody>
+</table>
+<p style=3D"color: #666666; font-family: Arial, sans-serif; font-size: 12=
+px;"> <br /><br />SUBSCRIBER SERVICES:<br /><a href=3D"https://lnks.gd/l/=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0MywibWVzc2Fn=
+ZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI2MDE3O=
+DgzNTEsIm1lc3NhZ2VfaWQiOjk5MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW=
+1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3V=
+udHMvVVNHU0Evc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.AwEvkvV=
+4IcbhpGcTm8vh__5wdr6S-phsnZx8O4eX_BI" target=3D"_blank" rel=3D"noopener">=
+Manage=C2=A0Subscriptions</a>=C2=A0=C2=A0|=C2=A0=C2=A0<a href=3D"https://=
+lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0My=
+wibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQ=
+iOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0=
+aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb=
+20vYWNjb3VudHMvVVNHU0Evc3Vic2NyaWJlci9vbmVfY2xpY2tfdW5zdWJzY3JpYmU_dmVyaW=
+ZpY2F0aW9uPTQuMmM2OTMwM2I2ZDQ1M2Y5ZjZlMWZhMmE5YTkyM2Y0NTkmZGVzdGluYXRpb24=
+9bXM2MDcxMDQ0NDI2NiU0MHlhaG9vLmNvbSJ9.OmUyG7GOeE4kBHnAOJPRNzduRLECBs5JmqR=
+RPIproVw">Unsubscribe All</a>=C2=A0=C2=A0|=C2=A0=C2=A0<a href=3D"https://=
+lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMzI0My=
+wibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQ=
+iOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5MDQ3MjE4NSwidXJpIjoiZXZvOnRyYW5zYWN0=
+aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlb=
+Gl2ZXJ5LmNvbS8ifQ.0s1DTuixKEJcjEagz9KA59-h7ppFxHKNu0WeSWwRVyE">Help</a></=
+p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+<div id=3D"tagline">
+<hr />
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com on behalf of General=
+ Services Administration =C2=A0=C2=B7=C2=A0<span>1800 F St. NW =C2=B7 Was=
+hington, DC 20405=C2=A0</span>=C2=A0=C2=B7 =C2=A0866-606-8220</td>
+<td align=3D"right" width=3D"11%">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<img src=3D'https://lnks.gd/o/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2=
+NvdW50X2lkIjoxMzI0MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciI=
+sInN1YnNjcmliZXJfaWQiOjI2MDE3ODgzNTEsIm1lc3NhZ2VfaWQiOjk5MDQ3MjE4NSwidXJp=
+IjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6b3BlbiJ9.uVi_syTHavwr1ReYeDw_jQG6eHBb=
+LMwS3MF8M_FKImU'/></body>
+</html>
+
+----==_mimepart_62d802d736063_117b17dd1d828354--
+

@@ -1,0 +1,318 @@
+From - Sun Aug 28 22:54:30 2022
+X-Account-Key: account1
+X-UIDL: AE7GIc0ZnnOdYuBgMA6iGNZfTO0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.148
+ by atlas204.free.mail.ne1.yahoo.com with HTTPS; Tue, 26 Jul 2022 21:44:16 +0000
+Return-Path: <subscriptions@subscriptions.dol.gov>
+X-Originating-Ip: [209.134.158.129]
+Received-SPF: pass (domain of subscriptions.dol.gov designates 209.134.158.129 as permitted sender)
+Authentication-Results: atlas204.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.dol.gov header.s=18q1;
+ spf=pass smtp.mailfrom=subscriptions.dol.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.dol.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 26 Jul 2022 21:44:16 +0000
+X-YMailISG: g7W3l_sWLDtzuqvHHfjU8J5LBuL4YTxwphIaj_6P_8ILL6CH
+ V6SBMUGugY4IiBMGze52ojSVh01PAMvfzjweNqaczZ4sRlnlX0bkfu_2ojyn
+ x9R1eLgO_jzOTmMmU3WjGb4aSLB2CxGZEEXLRpuNDNyti2qt5GuR24eKTzKv
+ BgQJuVBhw9RJzcguUoy0_rurdZCtYJ9AyJ9TWnVdLfBuz5tBC2MeUYbPp5f3
+ TVWivsWKqfHR0NNhwqXnyLJIclODcTLRZsbGgeAO6QVwt_B4e_oa1VlAPYT0
+ QcwIUl0qb9T23C2bhwwkSXd1SNegnWJ6P3_Tew8Uxc6I5tVKrDq8Hk_HNnin
+ N4Lb6sedU0iR9Nth9JR3alSzGwq7DTm8nNaF7YGe1tHRv_Ynf7k3qz0pkSpi
+ qGgqknn9yZ0OitRBUbLjVe0tiP687nTiZTzyu7Dn8NkBt.PGfLmiZAgA2VcV
+ mAR.2Ha_OckwknC_YRBsfligjY9i6CwnLqNVLn5G5kdliUaoG3peryon6heK
+ v4AlIxndSGSwyk9AmQMfJbECghC3UDlPqKWirdlmZyPKzAz9YjVx8QrWbCRc
+ hSZxBaoIlWqyRpaDNDYIbliLhiimYTf0G2KlPmYr147Bzvs.3W.9orjg70KB
+ T5OkOE63Ltq_LqgUEwFBapDDpRarqg_589kZbxH58nwdpablvQ0Tumkkev.e
+ 16BlqkylSq6poHJK9CkrPlIOZVuqLdH7NIg2jX05v8ho70a6mHEZWg24Wozj
+ jJWO2i4Ag3L8ftC_tDIF6ynyMqVt2OZ8f8g4B7V4xgneXhzvNme.eMlxhQrF
+ 1G_Joounh5Eux1oC2ANe.DuhzAcMSwyHN6x08JRV8NGD7Gu0JHB3vM1NV9iY
+ 2QaOclD_OZqC3ow5U3JlEzfRN3XHnWuZJysZMfF9awhq.j3_kAQQn.2y8e89
+ iwD1pvG.LwwdPn8PIF4er._MnR5JvVU1HaQ86HHk4nhIGsD.3LRMvjxsaInE
+ 8LkzL2DgVTYX4HH3Ut3DcBWC2bNoKNykr2.p5mH5kkLSKq2hmZVKFiJhSqkQ
+ dDKW1a7mC9olNuNMDkl0FWV4x53VHXLXF9GyruSI1oifgkuxh60YDkh_keVu
+ uoSKMNXCjuTaJgb5byOiudsUBkzQKDKt7t2QIOuFM938QdM9s5e8Q1BeafVp
+ Zl2ZjdGGtedteVfG
+Received: from 209.134.158.129 (EHLO mailer158129.service.govdelivery.com)
+ by 10.222.142.148 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 26 Jul 2022 21:44:16 +0000
+Received: from gepdp-smeds2-3.systems.dc.gdi ([10.5.36.25])
+	by mailer158129.service.govdelivery.com (-); Tue, 26 Jul 2022 21:44:14 +0000
+X-VirtualServer: VSG001, mailer158129.service.govdelivery.com, 10.5.36.184
+X-VirtualServerGroup: VSG001
+X-MailingID: 16820417::20220726.61334771::1001::MDB-PRD-BUL-20220726.61334771::ms60710444266@yahoo.com::222525_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.dol.gov; s=18q1; i=@subscriptions.dol.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=zsKd
+	y+YHZilgVv7vhRc91avSF2YGl37FG8hbHuni78I=; b=0DH6/yM4whokRhjdlw0h
+	3xxOclxbdNaOykvPYFTfMk32yePTgJ6NGW+ua37eYZVDksQhPBI2WPRjwMggnN7M
+	H3JJ3EOlmm6mnmkjX4scO7WZv5PTYKGLtkCiWm4GshUQXG+IgFZz4DXBRGWhTAGY
+	Ld6a0a5+mOWpjEJPU/EkwjxmXGk3F6n1odCFr0FqtM4Ig08lOpQ7x+2R0BQUPzeL
+	Is0UNLH1eDF7f/5Ch5S5GKybUl02Dr9QYVxPMLcNeOyFSsSR2mMaGZf7oKrTc56B
+	XWfPqASa8M5EwHO1NaBmWg6gUrCkjVFPOsTke8hXQLtHPjhKuDwWI/cZtEUcWDqu
+	RQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_090_5032_43D7E544.13C0BC96"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI7/fwlpzW3vlxXvFlSYr1qZirNVjLwPUllHArv/Tf3k8H+5akY5MosAzDN4sql3m9fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOL
+Errors-To: subscriptions@subscriptions.dol.gov
+MIME-Version: 1.0
+Message-ID: <16820417.222525@subscriptions.dol.gov>
+X-ReportingKey: MJJJ2EWJK65CXJJ1D87ZJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Did_you_know_you_can_find_information_on_U.?= =?US-ASCII?Q?S._Dept._of_Labor_grants_at_dol.gov/grants=3F?=
+Date: Tue, 26 Jul 2022 21:43:40 +0000
+To: ms60710444266@yahoo.com
+Reply-To: osha.news@subscriptions.dol.gov
+From: "=?US-ASCII?Q?OSHA_Newsletter?=" <osha.news@subscriptions.dol.gov>
+Content-Length: 10393
+
+
+------=_NextPart_090_5032_43D7E544.13C0BC96
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+July 26, 2022 QuickTakes DYK? =20
+
+*Did You Know?*=20
+The U.S. Department of Labor offers a variety of grants to connect, prote=
+ct, train, and empower workers and job seekers. At dol.gov/grants [ https=
+://www.dol.gov/grants ] you can find information on available funding opp=
+ortunities from all DOL agencies, including more than $11.7 million in OS=
+HA's Susan Harwood Training Grants [ https://www.osha.gov/harwoodgrants ]=
+.=20
+*=BFSab=EDas?*=20
+El Departamento del Trabajo de los Estados Unidos ofrece una variedad de =
+subvenciones para conectar, proteger, capacitar, y empoderar a los trabaj=
+adores y a las personas que buscan empleo. En dol.gov/grants [ https://ww=
+w.dol.gov/grants ] puede encontrar informaci=F3n sobre las oportunidades =
+de financiaci=F3n disponibles en todas las agencias del DOL, incluyendo m=
+=E1s de $11.7 millones en becas de capacitaci=F3n Susan Harwood [ https:/=
+/www.osha.gov/harwoodgrants#googtrans(en%7Ces) ] de OSHA. =20
+Department of Labor Grants [ https://www.dol.gov/grants ] =20
+
+________________________________________________________________________
+
+"Did You Know?" messages are issued on occasion to "QuickTakes" subscribe=
+rs.
+
+________________________________________________________________________
+
+"QuickTakes" is emailed free twice monthly to more than 370,000 subscribe=
+rs. You can receive it faster and easier by subscribing to the RSS Feed i=
+conRSS feed that delivers almost instant information. Visit OSHA's RSS Fe=
+eds [ https://www.osha.gov/rss ]=A0webpage to subscribe.
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud on behalf of: United States Department of Labor =B7 200 Cons=
+titution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL (1-866-487-2=
+365)  GovDelivery logo [ https://subscriberhelp.granicus.com/ ]=20
+body .abe-column-block { min-height: 5px; } table.gd_combo_table img {mar=
+gin-left:10px; margin-right:10px;} table.gd_combo_table div.govd_image_di=
+splay img, table.gd_combo_table td.gd_combo_image_cell img {margin-left:0=
+px; margin-right:0px;}
+=0A
+------=_NextPart_090_5032_43D7E544.13C0BC96
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Did you know you can find information on U.S. Dept. of Labor g=
+rants at dol.gov/grants?
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table border=3D"0" width=3D"700" cellspacing=3D"0" cellpadding=3D"0" a=
+lign=3D"center">
+<tbody>
+<tr bgcolor=3D"#eeeeee">
+<td style=3D"font-size: 12px;" align=3D"center" valign=3D"middle"><span s=
+tyle=3D"font-family: 'Verdana','sans-serif'; font-size: 10pt;">July 26, 2=
+022</span></td>
+</tr>
+<tr>
+<td align=3D"center">
+<div><img src=3D"https://content.govdelivery.com/attachments/fancy_images=
+/USDOL/2022/02/5506078/dyk-banner-original_original.jpg" alt=3D"QuickTake=
+s DYK?" title=3D"QuickTakes DYK?" width=3D"700" height=3D"140"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End Additional Code for HEAD tag -->
+<table style=3D"width: 700px; font-family: Verdana, sans-serif; font-weig=
+ht: normal; margin-top: 15px;" role=3D"presentation" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td>
+<table style=3D"width: 700px;" role=3D"presentation" align=3D"center">
+<tbody>
+<tr style=3D"height: 80px;">
+<td style=3D"width: 706px; height: 80px;">
+<div class=3D"webfont" style=3D"font-weight: bold; font-size: large; text=
+-align: left;"><strong>Did You Know?</strong></div>
+<br>
+<div style=3D"margin-top: 0px; font-size: 16px; text-align: left;">The U.=
+S. Department of Labor offers a variety of grants to connect, protect, tr=
+ain, and empower workers and job seekers. At <a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiOiJodHRwczovL3d3=
+dy5kb2wuZ292L2dyYW50cyJ9.HN3riZ65J5zakqzfd0CE8CEgp-CpR2M6ZfTejFIrivE/s/26=
+01788355/br/141610729456-l" title=3D"Department of Labor Grants" style=3D=
+"text-decoration: none;">dol.gov/grants</a> you can find information on a=
+vailable funding opportunities from all DOL agencies, including more than=
+ $11.7 million in OSHA's <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiOiJodHRwczovL3d3dy5vc2hhLmdvdi9oYXJ3=
+b29kZ3JhbnRzIn0.N2WWs42a6_D4O9Y0h8zGWLRYYbqFi0sg21n-IuzaRbk/s/2601788355/=
+br/141610729456-l" title=3D"Susan Harwood Training Grant Program" style=3D=
+"text-decoration: none;">Susan Harwood Training Grants</a>.</div>
+<br>
+<div class=3D"webfont" style=3D"font-weight: bold; font-size: large; text=
+-align: left;"><strong>=BFSab=EDas?</strong></div>
+<br>
+<div style=3D"margin-top: 0px; font-size: 16px; text-align: left;">El Dep=
+artamento del Trabajo de los Estados Unidos ofrece una variedad de subven=
+ciones para conectar, proteger, capacitar, y empoderar a los trabajadores=
+ y a las personas que buscan empleo. En <a href=3D"https://lnks.gd/l/eyJh=
+bGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIs=
+ImJ1bGxldGluX2lkIjoiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiOiJodHRwczovL3d3dy5kb=
+2wuZ292L2dyYW50cyJ9.JX1V3MkL6ipofqr9zsUHRMmwtvNiCFWte0_HsW29Kik/s/2601788=
+355/br/141610729456-l" title=3D"Department of Labor Grants - en ingl=E9s"=
+ style=3D"text-decoration: none;">dol.gov/grants</a> puede encontrar info=
+rmaci=F3n sobre las oportunidades de financiaci=F3n disponibles en todas =
+las agencias del DOL, incluyendo m=E1s de $11.7 millones en <a href=3D"ht=
+tps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVy=
+aSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiO=
+iJodHRwczovL3d3dy5vc2hhLmdvdi9oYXJ3b29kZ3JhbnRzI2dvb2d0cmFucyhlbiU3Q2VzKS=
+J9.QbdqJbkalglTVgyuT1qbu6pARrrUGGjFxRVoGygVt7E/s/2601788355/br/1416107294=
+56-l" title=3D"Programa de becas de capacitaci=F3n Susan Harwood" style=3D=
+"text-decoration: none;">becas de capacitaci=F3n Susan Harwood</a> de OSH=
+A.</div>
+</td>
+</tr>
+<tr>
+<td>
+<br>
+<div align=3D"center"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIj=
+oiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiOiJodHRwczovL3d3dy5kb2wuZ292L2dyYW50cyJ=
+9.A9fwf2KW0kNZ5SLkUADZehiLDSZzIll9Iy6u-xDCCBE/s/2601788355/br/14161072945=
+6-l"><img src=3D"https://content.govdelivery.com/attachments/fancy_images=
+/USDOL/2022/07/6211575/dyk-grants-banner_original.jpg" alt=3D"Department =
+of Labor Grants" title=3D"Department of Labor Grants" width=3D"700" heigh=
+t=3D"188"></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+<br><hr size=3D"1" noshade>
+<br>
+<p style=3D"margin-top: 0px; font-size: 15px; text-align: center;"><span>=
+"Did You Know?" messages are issued on occasion to <em>QuickTakes</em> su=
+bscribers.</span></p>
+<hr size=3D"1" noshade>
+<p style=3D"margin-top: 0px; font-size: 13px; text-align: justify;"><em>Q=
+uickTakes</em> is emailed free twice monthly to more than 370,000 subscri=
+bers. You can receive it faster and easier by subscribing to the <img src=
+=3D"https://www.osha.gov/sites/default/files/rss2.png" alt=3D"RSS Feed ic=
+on" hspace=3D"3" width=3D"16" height=3D"16" align=3D"middle">RSS feed tha=
+t delivers almost instant information. Visit OSHA's <a href=3D"https://ln=
+ks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJw=
+MjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiOiJodHRwc=
+zovL3d3dy5vc2hhLmdvdi9yc3MifQ.23JzdTKSpMuKw3W_N9Z4OWuszcNu6mMYBZGyPrJ5Px4=
+/s/2601788355/br/141610729456-l" title=3D"OSHA RSS Feeds">RSS Feeds</a>=A0=
+webpage to subscribe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com using GovDelivery Co=
+mmunications Cloud on behalf of: United States Department of Labor =B7 <s=
+pan>200 Constitution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL =
+(1-866-487-2365)</span>
+</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjYuNjEzMzQ3NzEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.etdgkl7wOUN-FyfAJ6-2c0kg0bZyNwuZJnZy8ciJzFY/s=
+/2601788355/br/141610729456-l" target=3D"_blank" rel=3D"noopener"><img sr=
+c=3D"https://content.govdelivery.com/images/govd-logo-dark.png" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block { min-height: 5px; } tabl=
+e.gd_combo_table img {margin-left:10px; margin-right:10px;} table.gd_comb=
+o_table div.govd_image_display img, table.gd_combo_table td.gd_combo_imag=
+e_cell img {margin-left:0px; margin-right:0px;}</style>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE2MTA3Mjk0NTYtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1NSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjYuNjEzMzQ3NzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzI2LjYxMzM0NzcxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIwNDE3JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_090_5032_43D7E544.13C0BC96--
+

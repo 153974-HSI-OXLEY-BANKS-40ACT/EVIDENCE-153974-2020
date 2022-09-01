@@ -1,0 +1,164 @@
+From - Sun Aug 28 22:55:22 2022
+X-Account-Key: account1
+X-UIDL: AJ31QiwSpHdCYuMcRw7YyLqlHL8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.81
+ by atlas213.free.mail.ne1.yahoo.com with HTTPS; Thu, 28 Jul 2022 23:31:19 +0000
+Return-Path: <>
+X-Originating-Ip: [144.211.197.16]
+Received-SPF: pass (domain of s4.gw.dpw.com designates 144.211.197.16 as permitted sender)
+Authentication-Results: atlas213.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@davispolk.com header.s=pxironport1;
+ spf=pass smtp.mailfrom=s4.gw.dpw.com;
+ dmarc=pass(p=QUARANTINE) header.from=davispolk.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 28 Jul 2022 23:31:19 +0000
+X-YMailISG: R50TXqIWLDthOK2f4Abe3tcdOQfQh5DcvP_uILUcj5mOyVEO
+ HWE50Epq1IkynazrZ6GIWZyF0C.8YDuXGO3pY1UD.KANsuiwyBDBYtrBMOm1
+ _hJA9Ug21BFuqsjJecPCzmuRjkRyRjFgr53izqulQAF0.wWhVVHRiHx_Tffz
+ v1q5US.2_AKiyrwLhxq2saESYvidxRm_.eeNUuGW3U0XUPwUu5_HZq184rJF
+ plaY9zhEho7iHD8eUD4xDkeurck.FdAXvfxKIGsUDGCQo63vK4gESsrkSilC
+ XJ51ra4xDJfUzUgpihMWi3pox1m.dCQxE8hxPB9pXg4SYGoNa9X8G4QEQdSn
+ 3f6DOmZdxxzuO8iLM4CDGhjALdnZECy.5nU.XelKTcz62LFthhRGbjG.z.HB
+ .LqmD9BNRBc3kr81Bq5jyr_11qYg6KPm99HWzw54uXpQUtxYV.oFat_mCdSW
+ UG7veeY3FEz9qu8H1mvB6po6P2dKTyzzuion4WX3rsGdVTd8uEqQkTmtwOUB
+ G6AEzUzs2wZRv1N_lEJ_t_zRT7dZIw5p6GLLGbS2ymLyyIeP7cOgt6_sdqx2
+ R4Cxytc2TFsOPoq2KxMwJICbtZS8Ii9iK96.qMqlKRHrWvKG5tJ_TUWmPslB
+ GLifFiFZkg0S.Is8ww.2cdjOiFsG0SZlfWwzRG8kPqOm_rancXlDGTi3KBcr
+ KsSuCBnbyv04S2wpNpSovCyQOU2OK3QorFFr3stiAW2vv9SxqapbqVOj8NQp
+ HiPmYghlzaEUYiwLPeximw1a1qF._k99fdcZG5oGxg6iBMPzHa644fRVvLj8
+ ZwApl8.oL7kWBSzlyuwauR.TeP4AV.5BehSn7uCJinJB2bI4Ox_b69Zez7Zs
+ .BxXsqI7n2YF5o31fM.MK7rOrHBG2qT.eYWPqCC04TjurLUNI4G_apbstugU
+ iHg00oKAbFPHR1qwNveY4.D3yAGwHiMJTZDjDYjvY_E1GpNAEQyLdnLkwJZ1
+ ToXfAEI7hHS13NuImAihR1yb.P2Zj9e7PB3PyRXFLrnGrO6N4HUvs1HrPVGU
+ K0MOo06D.Vgm_S2382IX6SYP0J7GGF6j8YSkYlaf32WHDGyGDewNY3YCi0Ve
+ gr17e4RRzMw22H2Ya90VxFCnfQOefbJQGCvWAVgbrPgnZZrVuq9DPWb.tZZu
+ HKxwSGmdp_6u_U71u5YxqoNFWyJd8fSwAjnH3zPAykQIIJ19tAezSBVkA_II
+ B2jSLhbUhUA5cageWxI3WGTttfcD0NuYWLbEUr0DSQu.AURYr4h6vpolV8vF
+ KtekwIJWslkS_zzr00.5aO8MV.J5KYQktSrak_0ceb_8VGhui0yrh2il5rXl
+Received: from 144.211.197.16 (EHLO s4.gw.dpw.com)
+ by 10.217.130.81 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 28 Jul 2022 23:31:19 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=davispolk.com; i=@davispolk.com; q=dns/txt;
+  s=pxironport1; t=1659051079; x=1690587079;
+  h=from:to:subject:date:message-id:references:in-reply-to:
+   mime-version;
+  bh=aIFOIJBvdqdd20WGZkaMk+M1kvVV0lf1429XHUciCvc=;
+  b=Yc0IdJB8qWHvnlipaHugaJEWeLCiRts89a8nMiLt91HoHqQYRz27VnBH
+   s5xcke1sUcE/lUza4jQ02mYeXsC709J0KtLsKC5Ue6hLBR5Qv25KTD5NU
+   DWpgtA3thoN3zUYJ6l6lLFzWA+jkjTCDls+CcQO3/dImuVOlpNZndKGVQ
+   gXOFpdlAForEDBijDCGXsTIBGRwmOY5AC3X+1NXeBE/ya7xvHhqtl1FsV
+   HrZfDt2mg5JmOIYZgqUHfoDP38utjn6Eki4sc5ZH1cdNenZ7FPC0BmkNB
+   2Loa+TT1MmWTU3YhzJfepE7SzqSHYSFtpEgLLLcIur4+Oqm4ThtZIt6eb
+   w==;
+X-Cloud_Email_Provider: False
+X-DPW-RU-UA-BY-DPWUsers: False
+X-DPW-RU-UA-BY-Whitelists: False
+X-DPWSPF-Check: Null
+X-IronPort-AV: E=Sophos;i="5.93,199,1654585200"; 
+   d="scan'208,217";a="153753762"
+X-ARCHIVED: TRUE
+Received: from unknown (HELO pyexch01.ad.dpw.com) ([10.204.54.71])
+  by pxironport1.gw.dpw.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 28 Jul 2022 16:31:18 -0700
+Received: from pyexchpf01.ad.dpw.com (10.204.54.79) by pyexch01.ad.dpw.com
+ (10.204.54.71) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.1118.7; Thu, 28 Jul
+ 2022 19:31:16 -0400
+Received: from pyexch04.ad.dpw.com (10.204.54.74) by pyexchpf01.ad.dpw.com
+ (10.204.54.79) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.1118.7; Thu, 28 Jul
+ 2022 19:31:15 -0400
+Received: from pyexch04.ad.dpw.com ([::1]) by pyexch04.ad.dpw.com
+ ([fe80::35d1:9247:7b1c:c1d2%15]) with Microsoft SMTP Server id
+ 15.02.1118.007; Thu, 28 Jul 2022 19:31:15 -0400
+From: "Buchanan, Douglas B.G." <douglas.buchanan@davispolk.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Subject: Automatic reply: USC Title 18 violations
+Thread-Topic: USC Title 18 violations
+Thread-Index: AQHYotogMHv2tITvl0ytW96Ryemb6a2Ubo61
+Date: Thu, 28 Jul 2022 23:31:15 +0000
+Message-ID: <f395cb4d92c340919c828e3100eebf35@pyexch04.ad.dpw.com>
+References: <488108717.2040525.1659050516064.ref@mail.yahoo.com>
+ <488108717.2040525.1659050516064@mail.yahoo.com>
+ <1103715497.2034768.1659050723650@mail.yahoo.com>,<1528581583.334.1659050945809@mail.yahoo.com>
+In-Reply-To: <1528581583.334.1659050945809@mail.yahoo.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: douglas.buchanan@davispolk.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id: <1528581583.334.1659050945809@mail.yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-tm-snts-smtp: DEB9E91831BBCB161E7E73341F6CC8B1A4D76841E45DBFD4732A34F5CFF632342000:8
+Content-Type: multipart/alternative;
+	boundary="_000_f395cb4d92c340919c828e3100eebf35pyexch04addpwcom_"
+MIME-Version: 1.0
+Content-Length: 2266
+
+--_000_f395cb4d92c340919c828e3100eebf35pyexch04addpwcom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I will be out of the office until Monday, August 1st. I will be checking em=
+ail, but my response may be delayed. If your matter requires immediate assi=
+stance, please contact the Business Development office at busdev24@davispol=
+k.com. Thank you.
+
+--_000_f395cb4d92c340919c828e3100eebf35pyexch04addpwcom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:brea=
+k-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:&quot;Arial&quot;,sans-serif">I will be out of the office until Monday=
+, August 1st. I will be checking email, but my response may be delayed. If =
+your matter requires immediate assistance, please
+ contact the Business Development office at busdev24@davispolk.com. Thank y=
+ou.</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman=
+&quot;,serif"><o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_f395cb4d92c340919c828e3100eebf35pyexch04addpwcom_--

@@ -1,0 +1,380 @@
+From - Sun Aug 28 22:55:27 2022
+X-Account-Key: account1
+X-UIDL: AJQswjkLMHzrYuPUpABZ2Gs8SOU
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.10
+ by atlas201.free.mail.ne1.yahoo.com with HTTPS; Fri, 29 Jul 2022 12:37:55 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.64]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.64 as permitted sender)
+Authentication-Results: atlas201.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 29 Jul 2022 12:37:55 +0000
+X-YMailISG: pivLOR0WLDuZeqqp2n6mks0.8VU.XpUlucpzdUGb8Pdk8TTG
+ eb5EvAZU2jSgYuw83RTZ.5tS.kQQJMG3vVH0WdsyMUZlEH.kYnA5wQ4emvgb
+ rAPUceSF4V7VXi8r4LjUhfCL67IGFxGvaMc3RniyIgOjlQ1I_t6dKMfx3VPV
+ 3eRVlpowB_tKFBmqFhG.WpctnA9jmktRnUCpFrnKbCm3GAm10No9DobxR3ZF
+ iGWioOeoKofAbXTmy3z9UwaKqmcLOIoIBrOZ_ZnzbIx2vZIsABDCI277cpBA
+ ThvjsIcpDabVSIxtaos00oz34s5NalzcnwhSmlcevygev6cwrZzOXAG4jI5O
+ Dm5alDGoAxvgK7sx6h2wxSMc.vQ9KfXOpZ4RyI6RvYrJOo9xIQKg1iFWf0eR
+ 8ACS8XmzMG2yeAfCx6qs7Sj32CUT.R.5oyxrzQVemn740CQAF4tfhU7Hummy
+ BANpijXZS9Eji2ID7DOl6eseipOhr4yQYMnH0ANeBOmQMcVfwQToFQ8cLKe.
+ vJYYg8aeCExW5Yxva06gR5YMI1phDoo5iq2byRUg0YnzPUyETqPJ3NKuWdBe
+ qhNARYcEeQMmUF5BFhIRO48kRVnY7IwQ1U8pLtUoJA3N78ET5jbuOawFl2XH
+ UV3zHirvIo_m9gsiMu9nZ9mXICHWVLk2NKpGUWZ4UUNsq9aq880KPiIolwgl
+ MnaOuxibxpWfBM26NlWin.vsDAKFabhIBFbIfqzhF4KD78Awpzxxukf9NrAE
+ rWbmtlX7xJe1GwKXR54bWs1TUghDQhVPN4CXVFZ7dc4fp7lLMQcANtltndlj
+ mCGhXH._Qacd957e8kOMczntBS4StDp6tnYUlxDbpQ3lUuR2IN606lqS69.p
+ 2D72B2Rpi7xxcfddP7tagF.4gxXoOimaBhA_.bo68rIAzqgkDzHAt995uhkk
+ Cuby2Si5XQGjGeWLWuXwUZH4XseTf6el9ynxKxZL7gcUlS.Iy3GOlst3W_c6
+ fbM2Jnh3IAX4NV1vrWEG.fbaollGFyYDy751PtHq8J6n39UkUdpFY0abVtKU
+ VuOYSM5iQpv1LNrMfVhB46PfTshm.bOzYfrpSDoPxJYwW0sGIeozkyRWAs6t
+ .x9Sl9ZLyhfrc1J6009NhVNinnqjRudHEAeUNSUXZPI9lW.WgVwpZQkYMctu
+ yfijxPZwdtDjkmQHMEJSs0aUNabeah9Y6Q--
+Received: from 209.134.158.64 (EHLO mailer158064.service.govdelivery.com)
+ by 10.217.151.10 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 29 Jul 2022 12:37:55 +0000
+Received: from gepdp-smeds1-5.systems.dc.gdi ([10.5.36.52])
+	by mailer158064.service.govdelivery.com (-); Fri, 29 Jul 2022 12:37:54 +0000
+X-VirtualServer: VSG001, mailer158064.service.govdelivery.com, 10.5.36.137
+X-VirtualServerGroup: VSG001
+X-MailingID: 16825775::20220729.61477611::1001::MDB-PRD-BUL-20220729.61477611::ms60710444266@yahoo.com::98302_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=Wbep
+	rxks1zUB3btrXFmPCnEaC1A/JqQc+UYGozT9Njw=; b=OBYyRdoUl57T3Df1tXdm
+	4u0sefGcU7k/8JBN1pyu8Z//MaVfUAkpSy67QIJsLBSjsBa6oDfIjHBHUbwpO6X9
+	ZknrI9SnaKFB3aX+G+er59Kp/Q17QdQyoZy7O6tB8IaedvR4NbRL/pFBkl2ZRtBU
+	31tJXJ6e8XfmJgvQDHtOjQbD0HT+JiftQ79tf+uc+MXRvtQ6UZO2pLyPfvsv5Fns
+	9cypSDmVzjombZ8Fo/DAyIprhCa/zLIdZ8RDDS4i7zIszGEDpRT1crxXnirH32qf
+	+ow3qMtd5WGr9Q1fkY0nPg8OORo8VDdV7t+YPOeH5mQfSTKS3n2vKSCa7B5tWzSo
+	MQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_D4F_5394_112CE686.6B6034F0"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIir97FubxCzhEFW7Nw8wPpHMVdmYzrAg8zJXsj6+HJOfr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16825775.98302@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK719XJJE65YJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?CMS_Seeks_Public_Feedback_to_Improve_Medicare_Advantage?=
+Date: Fri, 29 Jul 2022 12:37:48 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 13260
+
+
+------=_NextPart_D4F_5394_112CE686.6B6034F0
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+
+=A0
+
+CMS Seeks Public Feedback to Improve Medicare Advantage
+
+The Centers for Medicare & Medicaid Services (CMS) released a Request for=
+ Information seeking public comment on the Medicare Advantage program. CM=
+S is asking for input on ways to achieve the agency=92s vision so that al=
+l parts of Medicare are working towards a future where people with Medica=
+re receive more equitable, high quality, and person-centered care that is=
+ affordable and sustainable.
+
+=93Medicare Advantage is a critical part of CMS=92 vision to advance heal=
+th equity; expand access to affordable coverage and care; drive high qual=
+ity, person-centered care; and promote affordability and sustainability o=
+f Medicare,=94 said CMS Administrator Chiquita Brooks-LaSure. =93Medicare=
+ Advantage plans are essential partners in this work.=94
+
+=93We see a huge opportunity for partnership with as many stakeholders as=
+ possible to better understand how care innovations are changing outcomes=
+ and costs and how Medicare Advantage is working for enrollees,=94 said D=
+r. Meena Seshamani, CMS Deputy Administrator and Director of the Center f=
+or Medicare. =93It=92s important that CMS engage as many stakeholders as =
+possible to achieve our collective vision of equity, access, quality and =
+affordability.=94
+
+The CMS Strategic Pillars prioritize increased engagement with the agency=
+=92s partners and the communities we serve throughout the policy developm=
+ent and implementation process. CMS is committed to creating additional o=
+pportunities to engage the public and drive innovation in ways that best =
+serve people with Medicare.
+
+In the Medicare Advantage program =96 also known as Medicare Part C =96 M=
+edicare contracts with private insurers that must offer all Traditional M=
+edicare services to people with Medicare and may offer added supplemental=
+ benefits, such as vision or dental benefits. Most Medicare Advantage Pla=
+ns also include prescription drug coverage (Part D).
+
+CMS encourages the public to submit comments to the Request for Informati=
+on. Feedback from plans, providers, beneficiary advocates, states, employ=
+ers and unions, and other partners to this Request for Information will h=
+elp inform the Medicare Advantage policy development and implementation p=
+rocess.
+
+The Request for Information can be accessed from the Federal Register at:=
+ https://www.federalregister.gov/public-inspection/2022-16463/request-for=
+-information-medicare-program
+
+=A0
+
+=A0
+
+ Centers for Medicare & Medicaid Services (CMS) has sent this Center for =
+Medicare and Medicaid Innovation (CMMI) Update. To contact Centers for Me=
+dicare & Medicaid Services (CMS) go to our *contact us [ http://www.cms.g=
+ov/About-CMS/Agency-Information/ContactCMS/index.html ]* page. =20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_D4F_5394_112CE686.6B6034F0
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    CMS Seeks Public Feedback to Improve Medicare Advantage
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://stage-public.govdelivery.com/system/images/11605/=
+original/CMSBanner_MockUp.png" alt=3D"Centers for Medicare &amp; Medicaid=
+ Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px;" valign=3D"top">
+<p>=A0</p>
+<h2 align=3D"center">CMS Seeks Public Feedback to Improve Medicare Advant=
+age</h2>
+<p>The Centers for Medicare &amp; Medicaid Services (CMS) released a Requ=
+est for Information seeking public comment on the Medicare Advantage prog=
+ram. CMS is asking for input on ways to achieve the agency=92s vision so =
+that all parts of Medicare are working towards a future where people with=
+ Medicare receive more equitable, high quality, and person-centered care =
+that is affordable and sustainable.</p>
+<p>=93Medicare Advantage is a critical part of CMS=92 vision to advance h=
+ealth equity; expand access to affordable coverage and care; drive high q=
+uality, person-centered care; and promote affordability and sustainabilit=
+y of Medicare,=94 said CMS Administrator Chiquita Brooks-LaSure. =93Medic=
+are Advantage plans are essential partners in this work.=94</p>
+<p>=93We see a huge opportunity for partnership with as many stakeholders=
+ as possible to better understand how care innovations are changing outco=
+mes and costs and how Medicare Advantage is working for enrollees,=94 sai=
+d Dr. Meena Seshamani, CMS Deputy Administrator and Director of the Cente=
+r for Medicare. =93It=92s important that CMS engage as many stakeholders =
+as possible to achieve our collective vision of equity, access, quality a=
+nd affordability.=94</p>
+<p>The CMS Strategic Pillars prioritize increased engagement with the age=
+ncy=92s partners and the communities we serve throughout the policy devel=
+opment and implementation process. CMS is committed to creating additiona=
+l opportunities to engage the public and drive innovation in ways that be=
+st serve people with Medicare.</p>
+<p>In the Medicare Advantage program =96 also known as Medicare Part C =96=
+ Medicare contracts with private insurers that must offer all Traditional=
+ Medicare services to people with Medicare and may offer added supplement=
+al benefits, such as vision or dental benefits. Most Medicare Advantage P=
+lans also include prescription drug coverage (Part D).</p>
+<p>CMS encourages the public to submit comments to the Request for Inform=
+ation. Feedback from plans, providers, beneficiary advocates, states, emp=
+loyers and unions, and other partners to this Request for Information wil=
+l help inform the Medicare Advantage policy development and implementatio=
+n process.</p>
+<p>The Request for Information can be accessed from the Federal Register =
+at: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjkuNjE0=
+Nzc2MTEiLCJ1cmwiOiJodHRwczovL3d3dy5mZWRlcmFscmVnaXN0ZXIuZ292L3B1YmxpYy1pb=
+nNwZWN0aW9uLzIwMjItMTY0NjMvcmVxdWVzdC1mb3ItaW5mb3JtYXRpb24tbWVkaWNhcmUtcH=
+JvZ3JhbSJ9.qbVyyUja0X4t8bW-ncKhOaaPsDDtyi8IwjwBG_H9lds/s/2601788358/br/14=
+1760070002-l" target=3D"_blank" title=3D"Federal Register - Request for I=
+nformation Medicare Program" rel=3D"noopener">https://www.federalregister=
+.gov/public-inspection/2022-16463/request-for-information-medicare-progra=
+m</a></p>
+<p>=A0</p>
+<p>=A0</p>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f; height: 75px;" align=3D"left">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this Center for Medicare and Medicaid Innovation (CMMI=
+) Update. To contact Centers for Medicare &amp; Medicaid Services (CMS) g=
+o to our </span><span style=3D"text-decoration: underline;"><span style=3D=
+"color: #ffffff;"><strong><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1Ni=
+J9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMjA3MjkuNjE0Nzc2MTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YvQWJvdXQ=
+tQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZGV4Lmh0bWwifQ.ghURQRTUF=
+yAE38WJFuNXWt4VTw60wQvh-_AgtrvVhqo/s/2601788358/br/141760070002-l" target=
+=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"noopener"><span style=3D"=
+color: #ffffff; text-decoration: underline;">contact us</span></a></stron=
+g></span></span><span style=3D"color: #ffffff;"> </span><span style=3D"co=
+lor: #ffffff;">page.</span>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MjkuNjE0Nzc2MTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.ARN5k_XwEZDRmB4uDjy2-Us4bKgYS_8eb9r2AKzod8U/s/2601788358/br/1=
+41760070002-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjkuNjE0Nzc2MTEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.LQrYUoTC8vanC3K3fn7mQt=
+ceHeqdJh_gvS-b1IGVqh8/s/2601788358/br/141760070002-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjkuNjE0Nzc2MTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.8AwjqSm-BNjNrN-8ARkTrKeOaOu_psgbR-hod99bv=
+po/s/2601788358/br/141760070002-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3Mjku=
+NjE0Nzc2MTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.tT9Apvia59fvAmFs3GEZE8=
+pZY45R_HRi2TRUmDZwvBo/s/2601788358/br/141760070002-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE3NjAwNzAwMDItbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjkuNjE0Nzc2MTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzI5LjYxNDc3NjExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI1Nzc1JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_D4F_5394_112CE686.6B6034F0--
+

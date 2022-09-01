@@ -1,0 +1,466 @@
+From - Sun Aug 28 22:54:03 2022
+X-Account-Key: account1
+X-UIDL: AN21tikj8U7IYt63cQKIcCZtTmE
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.216.85
+ by atlas301.free.mail.bf1.yahoo.com with HTTPS; Mon, 25 Jul 2022 15:32:00 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.33]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.33 as permitted sender)
+Authentication-Results: atlas301.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 25 Jul 2022 15:32:00 +0000
+X-YMailAVSC: a5grXxc3bBvVvvRxllIXirtLTFsAXenEzdVkf2BvKfByjSa
+ W3v_XnLpWIgvLsmvCfsRomY03YOIdVnW24cuEOEQB_685Odrkf.ZYpWjzNqe
+ 8wyX0wWyq_CMpg3mE.rzSKxacr3BWrmcsc7p8ObprKSuI8ON0POJfFVlaYNK
+ HsFiEpvIwy3dstveEa5thBcM5BJo.T74kMYX.hP7d1MXwAOQt9rdwanDpM.B
+ EZkrGGHkRqI3NXD9uvsjQgIyST9pFDaRfNXsvS.QlXPv1N5pUBflBpQvc4_6
+ U0rSyZu7AeeCdDEmHmF1r6eN5Im4ZYE_g9hYEgfmvxUBI_a8czZAlCUqCU2L
+ oesb4pcp9WHlwV6oBMDXPm7zlRUnWgM78Zj5.VUfoEP3Y4fCao_VC.9tIl5z
+ wnBwlFgQktLDmRXqtAB39IfSrOeb.gogrc9sKt28IoehK1wSNgTsPpQUjqMt
+ EA6r5ZBjerm0hL2xOWOnt5SYbcX.cMtUsjZovPbWQKq_.mBRrl.hx8c6QPOv
+ PpZH24eVJV84WQzPK0EOpf1KVdAak.1Mg5RIlQ6sUsMq2uSboEHh1ZvgTnjF
+ 95.FNI7ktVPN4d5_2F4LDUbFzzIt0cDwnEqM3jFmacvfavGVxzjkNy204SXS
+ Vh.Hytg7VMfOu5RmJ37IeojzvMJvGLn.IP_z1c86utnGB9i7RJ1wAdG.iw3.
+ U4FSx0MdhZRJSkNGfM3dDmK57VT5XfTMYYS_p4EYTq2p7ikfvsCpNGanttf3
+ 1Vdp12gvTw6HrQtsZog.vlxr1JsfYpoIi7igtfVin0g5k55YuhiZ.yRC1EEW
+ BU5owbdEPu5Zuu6_5yq93on2TBGDHAUylZtg3PrpfB5_ByypBFryereX8yBh
+ 2n9jS6U9a.EdCNpOolapgT.gpQYsrvNYdSmrNFeRIQKDs5agS9yBBzH7EX6I
+ H9MFQxEFhJh6dUTEYMcQwaL9isKV5CwSb46jbxtJis3SyW2t45KuDI_qvLd5
+ xzgtZvBtyqil40hD8gKHb4qaPGbemJoJN6jM0qb5rKR49LcoA.GVehtm0hKk
+ REmFtvRO4eIJCVpzEDH7tTSP7eOlP4zODBjyI46HUkoFqDrzsigmlu6.FV32
+ gUFEO8XvfdzoPYiKYWS9xKNo6uUTXT2SoIHd2YDtWOar33XIm2Vht_NaPeBM
+ 5gETPp3Y8tI0HiDCN_lWkvzqD0Wdg9enRV2xoji8pXsPXDAxUZSpTsKIa9Ux
+ 2BlMDtISBlOP.rUnNlOGS3xFEXN9xq91fqtBrmYgge7ivgvIP5uNfamY4Ozm
+ GfoNUljFsXliDv5hY17CPbH.H5XrXcnFMQaUydfEp64YvQtmPGax.y0v2.6j
+ MIkf3fcLbTsE9.BX8k0ni85lAf6O5_2Nk9cUjV_AxHfXL009gwsa5dI0XOFY
+ vSgPGrA--
+X-YMailISG: L69iii4WLDvnywtA6B6Evb2SdrWfGevwSQNzUxDGx7DDihKo
+ qjxez6aFT4kpTRoSxQS7eP.kKfE.jKK2eyZcwwe1sqQSvcDCAwVsW17q0lNw
+ 5PUPOCW9anCpRbw181a4KlCYB04x0483t2GZU6tbI_zRihpNQRL.D2lSmpE.
+ A4J0Jf4KWiSwSY9uI_8c4a0oh_EL8WmLJ1_8GzmcLwNWhlN70u3cCkLI5YE2
+ W1ZviQJL9GrtqQbZOufYDxE7Bo5hlzjQ1yEmZFg7Dkw3laBg2Gkm5aUv9OK6
+ L1NfDZAGJGcDBQb2czlFAWtb_kQK7T2QWLnUW5.OLOOyxcqq04pazOguqBAW
+ c7lSHj7HbwvJ5COJ_v1iYr15q1OCy2jsgJTTok52_3x_r0jlnpNKx0KkfrdT
+ Cgy31s7Zj5LzPJZtpnIJYURyw5.HcwVeBf_9f5tBbzwoagrBeGPjKRKFTNN5
+ AqGkIItOWWrREFG.uWS2KaAKg8vLnXov_DBN_sU2m4.KKFEkA_1aebqNzAX4
+ SRmSBZuiqWTDZxKQMKpPv6lW4SZhoR8uYAuoDDoXZKTnXTczttm_5lAQ8SWq
+ MHQi2.o9fiKtH7HbCSRAJfSBRpqQb9ZV_nekLgfNY0R3nev0ITMTW4tRZLdq
+ OKz.Gbe5kpR_0By8MC.oQ9zweO0smZBehBBMBKSK1dA8LetzG4zGngnzQQjn
+ h18szFST2aAVg6azcNDR8tcsm9CWTaztH3HUoQXyloGUyvCXdsZveo16yb_D
+ DqS2x8b.yZF9FO9Qyg10nqUIbU3Lju2QBYYFaD6EMWGwgRuz2uFsg7qDVuIC
+ J3NVapImr484szypVnmc0hfF8Q7ox.RuRuGcaAg.y3d0F1ZZHEXe04n_xk6s
+ 1bgkYOY6ksp.yOEEqELoaNzXoYIu9e7apBtH39zbGzPWHh2Zt1qx73HLnXfP
+ a_fSLqolM.aFp07NRUoFwMX8Xa7tE2vCE5AwiVrGll327BmFWkpJaICPY0_C
+ 73KsVHL_lSJzbnFQYJQyHPWzakW8Ut5Lx69E1ZinYRmHaTeHQm4Bc0dH7Wqj
+ FfZOTuWndOyMR5uqcYXh2ulmkEMQL44g.YKH2.TTJrAWREFLgbZx9h5Ck3rE
+ jiLi7bC7s5azppg_S.Xr9645VFXNdZTgdajOzE1UwvWXLu9_O_l9SJWc
+Received: from 209.134.151.33 (EHLO mailer151033.service.govdelivery.com)
+ by 10.196.216.85 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 25 Jul 2022 15:32:00 +0000
+Received: from gepdp-smeds1-6.systems.dc.gdi ([10.5.36.52])
+	by mailer151033.service.govdelivery.com (-); Mon, 25 Jul 2022 15:31:59 +0000
+X-VirtualServer: VSG001, mailer151033.service.govdelivery.com, 10.5.36.147
+X-VirtualServerGroup: VSG001
+X-MailingID: 16824200::20220725.61251081::1001::MDB-PRD-BUL-20220725.61251081::ms60710444266@yahoo.com::39500_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=jYRI
+	s+ci7YAbyOIUivXKk2rrLFi1rLirAFY6MU6LcPE=; b=T3QbfkRHy1efUp8SSZ99
+	I+yAs2/FvsDv69fvpZh3e4ZZj71gn2IMyAf8iD9HLf3xrtgfSpsckW1GFs9Kt17C
+	DlQW+ncRiNN+mmcLpebS8Mx+7dIXLb4/SBwWsQKR7VB5zqyGQYvqUVECg4UiEKJ+
+	Np+Y4+GavMn9/Fs8nwkLJApcBCunJEWzmNsL6FxhGrET7kSZQ8MfcYysnGkZKGrT
+	WZmwfho1vyj9qZztKEQ6D40y1C6Aa2e7jKykGrysvF/QDNrQB57aTw3ly6KRFmbk
+	bjDuNzNjKKO5nrfB9K0bAxQtb4h4SZixapZIKawC/mxCYR75qpNYBL6HjZ/zyBso
+	3g==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_6CF_D61F_77D6507C.1FBE7020"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIYmuJwD+6O+vatUOXdn1DNs1gZV6xb4L0oT+5lW4wD9vr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16824200.39500@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK6G2ZJJ5E7_JJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Failure_to_File_and_Reconcile_(FTR)_Ope?= =?US-ASCII?Q?rations_Flexibilities_for_Plan_Year_2023?=
+Date: Mon, 25 Jul 2022 15:31:58 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 17002
+
+
+------=_NextPart_6CF_D61F_77D6507C.1FBE7020
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Health Insurance Marketplace=20
+
+July 25, 2022
+
+=A0
+
+Failure to File and Reconcile (FTR) Operations Flexibilities for Plan Yea=
+r 2023
+________________________________________________________________________
+
+The guidance referenced in this document is applicable to all Exchanges. =
+It does not replace or revise
+previously issued guidance, but extends previous guidance issued for plan=
+ years 2021 and 20221 to plan
+year 2023. The original guidance referenced current federal regulation at=
+ 45 CFR 155.305(f)(4), and
+the statute at section 1412 of the Affordable Care Act. This guidance ext=
+ends the same flexibilities for
+consumers and Exchanges regarding Failure to File and Reconcile (FTR) ope=
+rations for plan year
+2023.
+
+In plan years 2021 and 2022, CMS did not act on data from the Internal Re=
+venue Service (IRS) for
+consumers who have failed to file tax returns and reconcile a previous ye=
+ar=92s advance payments of the
+premium tax credit (APTC) and with the premium tax credit (PTC) allowed f=
+or the year. This change
+was made in response to the impact of the COVID-19 public health emergenc=
+y (PHE) on the processing
+of federal income tax returns and changes concerning the reconciliation o=
+f APTC with PTC for tax year
+2020 announced by IRS in response to the American Rescue Plan. This chang=
+e allowed APTC to
+continue for consumers not required to reconcile by attaching Form 8962, =
+Premium Tax Credit, to their
+2020 tax return due to IRS=92 announcement and consumers who reconciled b=
+ut whose tax returns have
+not yet been processed by the IRS.
+
+CMS will continue to not act on data from the IRS for consumers who have =
+failed to file tax returns and
+reconcile a previous year=92s APTC with the PTC allowed for the year, for=
+ plan year 2023. The
+continuation of this operations flexibility is due to the continued impac=
+t of the COVID-19 pandemic on
+the processing of 2021 federal income tax returns.2 This flexibility also=
+ extends to State-Based
+Exchanges. As with last year=92s announcement, today=92s announcement doe=
+s not change the general
+requirement for taxpayers for whom APTC was paid in 2021 to file their ta=
+xes and reconcile the APTC
+with the PTC allowed for the year.
+
+For more information, please refer to last year=92s FTR Operations Flexib=
+ility for Plan Years 2021 and [ https://www.cms.gov/CCIIO/Resources/Regul=
+ations-and-Guidance/FTR-flexibilities-2021-and-2022.pdf ]
+2022 =96 Frequently Asked Questions [ https://www.cms.gov/CCIIO/Resources=
+/Regulations-and-Guidance/FTR-flexibilities-2021-and-2022.pdf ].
+
+________________________________________________________________________
+
+1 https://www.cms.gov/CCIIO/Resources/Regulations-and-Guidance/FTR-flexib=
+ilities-2021-and-2022.pdf
+
+2 As of May 20, 2022, the IRS reports having 9.8 million unprocessed indi=
+vidual federal tax returns, which includes new tax=A0year 2021 returns. F=
+or more information on IRS=92 operations during COVID-19, please see http=
+s://www.irs.gov/newsroom/irsoperations-during-covid-19-mission-critical-f=
+unctions-continue
+
+ =20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_6CF_D61F_77D6507C.1FBE7020
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Failure to File and Reconcile (FTR) Operations Flexibilities f=
+or Plan Year 2023
+</title>
+
+
+</head>
+<body style=3D"font:13px / 1.5 Arial , Helvetica , sans-serif;margin:0;pa=
+dding:0;width:100% !important;">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"text-align: cente=
+r; background-color: #EEEEEE; margin: 0; padding: 0; width: 100% !importa=
+nt" bgcolor=3D"#EEEEEE"><table id=3D"gd_ab_main_tab" width=3D"600" align=3D=
+"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: co=
+llapse; width: 600px; text-align: left; margin: 20px auto;">
+ =20
+<tr>
+  <td id=3D"gd_ab_header" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Masthead" style=3D"border-collapse: collapse; vertical-align: top=
+; background-color: #FFFFFF; padding: 0px 0px 30px; border: none;" bgcolo=
+r=3D"#FFFFFF" valign=3D"top"><img class=3D"govd_template_image" src=3D"ht=
+tps://content.govdelivery.com/attachments/fancy_images/USCMS/2020/05/3340=
+100/3056863/cms-header1_crop.png" style=3D"width: 600px; height: auto; bo=
+rder: 0px none;" alt=3D"Health Insurance Marketplace" width=3D"600" heigh=
+t=3D"109"></td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_main_body" width=3D"600" data-govdstyle=3D"all" data-go=
+vdtitle=3D"Main body" style=3D"border-collapse: collapse; vertical-align:=
+ top; background-color: #FFFFFF; padding: 5px; border: none;" bgcolor=3D"=
+#FFFFFF" valign=3D"top">
+<p class=3D"gd_p" style=3D"text-align: right; margin-bottom: 10px; color:=
+ #232323; font: 12px/1.5 helvetica;" align=3D"right">July 25, 2022</p>
+<p class=3D"gd_p" style=3D"margin-bottom: 10px; color: #232323; text-alig=
+n: left; font: 12px/1.5 helvetica;" align=3D"left">=A0</p>
+<h1 class=3D"govd_header" style=3D"font-size: 16px; font-family: helvetic=
+a; text-align: center; margin: 0 0 15px; padding: 0;" align=3D"center">Fa=
+ilure to File and Reconcile (FTR) Operations Flexibilities for Plan Year =
+2023</h1>
+<div class=3D"govd_hr" style=3D"padding: 5px;"><div class=3D"govd_hr_inne=
+r"><hr></div></div>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">The guidance referenced in this docum=
+ent is applicable to all Exchanges. It does not replace or revise<br>prev=
+iously issued guidance, but extends previous guidance issued for plan yea=
+rs 2021 and 2022<sup>1</sup> to plan<br>year 2023. The original guidance =
+referenced current federal regulation at 45 CFR 155.305(f)(4), and<br>the=
+ statute at section 1412 of the Affordable Care Act. This guidance extend=
+s the same flexibilities for<br>consumers and Exchanges regarding Failure=
+ to File and Reconcile (FTR) operations for plan year<br>2023.</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><br>In plan years 2021 and 2022, CMS =
+did not act on data from the Internal Revenue Service (IRS) for<br>consum=
+ers who have failed to file tax returns and reconcile a previous year=92s=
+ advance payments of the<br>premium tax credit (APTC) and with the premiu=
+m tax credit (PTC) allowed for the year. This change<br>was made in respo=
+nse to the impact of the COVID-19 public health emergency (PHE) on the pr=
+ocessing<br>of federal income tax returns and changes concerning the reco=
+nciliation of APTC with PTC for tax year<br>2020 announced by IRS in resp=
+onse to the American Rescue Plan. This change allowed APTC to<br>continue=
+ for consumers not required to reconcile by attaching Form 8962, Premium =
+Tax Credit, to their<br>2020 tax return due to IRS=92 announcement and co=
+nsumers who reconciled but whose tax returns have<br>not yet been process=
+ed by the IRS.</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><br>CMS will continue to not act on d=
+ata from the IRS for consumers who have failed to file tax returns and<br=
+>reconcile a previous year=92s APTC with the PTC allowed for the year, fo=
+r plan year 2023. The<br>continuation of this operations flexibility is d=
+ue to the continued impact of the COVID-19 pandemic on<br>the processing =
+of 2021 federal income tax returns.<sup>2</sup> This flexibility also ext=
+ends to State-Based<br>Exchanges. As with last year=92s announcement, tod=
+ay=92s announcement does not change the general<br>requirement for taxpay=
+ers for whom APTC was paid in 2021 to file their taxes and reconcile the =
+APTC<br>with the PTC allowed for the year.</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><br>For more information, please refe=
+r to last year=92s <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJi=
+dWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiM=
+jAyMjA3MjUuNjEyNTEwODEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L0NDSUlPL1Jlc2=
+91cmNlcy9SZWd1bGF0aW9ucy1hbmQtR3VpZGFuY2UvRlRSLWZsZXhpYmlsaXRpZXMtMjAyMS1=
+hbmQtMjAyMi5wZGYifQ.rwCVI5JDzsuaPfGieNCSVe1QrYTnnBiCOK56ryt-edA/s/2601788=
+358/br/141531180506-l" target=3D"_blank" title=3D"FTR Operations Flexibil=
+ity for Play Years 2021 and 2022 - Frequently Asked Questions" rel=3D"noo=
+pener" style=3D"color: #074BF8;">FTR Operations Flexibility for Plan Year=
+s 2021 and</a><br><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA3MjUuNjEyNTEwODEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L0NDSUlPL1Jlc29=
+1cmNlcy9SZWd1bGF0aW9ucy1hbmQtR3VpZGFuY2UvRlRSLWZsZXhpYmlsaXRpZXMtMjAyMS1h=
+bmQtMjAyMi5wZGYifQ.UCQs64rJorj_Vb1qNtj_kNcHY18n41lgceK6iU9naj8/s/26017883=
+58/br/141531180506-l" target=3D"_blank" title=3D"FTR Operations Flexibili=
+ty for Play Years 2021 and 2022 - Frequently Asked Questions" rel=3D"noop=
+ener" style=3D"color: #074BF8;">2022 =96 Frequently Asked Questions</a>.<=
+/p>
+<div class=3D"govd_hr" style=3D"padding: 5px;"><div class=3D"govd_hr_inne=
+r"><hr></div></div>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><sup>1</sup> <a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjUuNjEyNTEwODEiLCJ1cmwiOiJodHRwczov=
+L3d3dy5jbXMuZ292L0NDSUlPL1Jlc291cmNlcy9SZWd1bGF0aW9ucy1hbmQtR3VpZGFuY2UvR=
+lRSLWZsZXhpYmlsaXRpZXMtMjAyMS1hbmQtMjAyMi5wZGYifQ.yC8JtextKWHgiWJS4DQTr97=
+yzPB0J0OQdLvR_5qOgEY/s/2601788358/br/141531180506-l" target=3D"_blank" re=
+l=3D"noopener" style=3D"color: #074BF8;">https://www.cms.gov/CCIIO/Resour=
+ces/Regulations-and-Guidance/FTR-flexibilities-2021-and-2022.pdf</a></p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><sup>2</sup> As of May 20, 2022, the =
+IRS reports having 9.8 million unprocessed individual federal tax returns=
+, which includes new tax=A0year 2021 returns. For more information on IRS=
+=92 operations during COVID-19, please see <a href=3D"https://lnks.gd/l/e=
+yJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGlja=
+yIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjUuNjEyNTEwODEiLCJ1cmwiOiJodHRwczovL3d3dy=
+5pcnMuZ292L25ld3Nyb29tL2lyc29wZXJhdGlvbnMtZHVyaW5nLWNvdmlkLTE5LW1pc3Npb24=
+tY3JpdGljYWwtZnVuY3Rpb25zLWNvbnRpbnVlIn0.KyVlw1203VSHTWIBwBeaLo4o95B4Hj3e=
+w5mCzdWMRiI/s/2601788358/br/141531180506-l" target=3D"_blank" rel=3D"noop=
+ener" style=3D"color: #074BF8;">https://www.irs.gov/newsroom/irsoperation=
+s-during-covid-19-mission-critical-functions-continue</a></p>
+</td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_footer" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Footer" style=3D"border-collapse: collapse; vertical-align: top; =
+background-color: #FFFFFF; padding: 0px; border: none;" bgcolor=3D"#FFFFF=
+F" valign=3D"top"><img class=3D"govd_template_image" src=3D"https://conte=
+nt.govdelivery.com/attachments/fancy_images/USCMS/2020/05/3340097/cms-foo=
+ter_original.png" style=3D"width: 600px; height: auto; border: 0px none;"=
+ alt=3D"" width=3D"600" height=3D"107"></td>
+</tr>
+=20
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MjUuNjEyNTEwODEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.-r01_KCtuOlmmcMFMha4PG9aVCRj5dSriNJQe-PwT0k/s/2601788358/br/1=
+41531180506-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjUuNjEyNTEwODEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.ty35uuwUdexE1MNKmRL0bm=
+BOfuVzIUQEewJ1f4UcZyE/s/2601788358/br/141531180506-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjUuNjEyNTEwODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.PTb8o1zUyJa2cMoF3D-aH0Xu71JLyn-tsfJqV_2sD=
+ms/s/2601788358/br/141531180506-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjUu=
+NjEyNTEwODEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.xEniFGkcC4eNcUFUgykcLS=
+ZerI5KJRaR9w8T3giBHRo/s/2601788358/br/141531180506-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE1MzExODA1MDYtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjUuNjEyNTEwODEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzI1LjYxMjUxMDgxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI0MjAwJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_6CF_D61F_77D6507C.1FBE7020--
+

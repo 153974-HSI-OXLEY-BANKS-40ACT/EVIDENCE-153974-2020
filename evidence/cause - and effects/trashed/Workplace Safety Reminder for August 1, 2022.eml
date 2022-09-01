@@ -1,0 +1,273 @@
+From - Sun Aug 28 22:55:58 2022
+X-Account-Key: account1
+X-UIDL: ANQNlkkDmNIRYufOuwtWWO8QhqM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.147.94
+ by atlas316.free.mail.ne1.yahoo.com with HTTPS; Mon, 1 Aug 2022 13:01:46 +0000
+Return-Path: <subscriptions@subscriptions.dol.gov>
+X-Originating-Ip: [209.134.158.44]
+Received-SPF: pass (domain of subscriptions.dol.gov designates 209.134.158.44 as permitted sender)
+Authentication-Results: atlas316.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.dol.gov header.s=18q1;
+ spf=pass smtp.mailfrom=subscriptions.dol.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.dol.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 1 Aug 2022 13:01:47 +0000
+X-YMailISG: ItzRRswWLDvwvyvFZXscQ9rbVKveqxAVKQwVeaFHkfAyJ0Bv
+ yyA38gZdOGrQc96GksNhUGOWsCXyAh9utGBaVGoBzz6sCnvuI4gKOl7APF4F
+ 2_LtZTOC8rsLZuV6GChfePbNkPBPf7ATU53F4CBUsbCQ6ia8bo2hJVHXi82_
+ 02fd7lLjn5hZdUjxqGjbTnvg6BUWzxHM3OzzyXayr3faQekVrlYpfC7Fjz6J
+ mAYGohJ2JD3.zs4essFDEoyih0hbJGytJn88yr42uAhjvdr1fCuoW4c.Cvcq
+ dfvlPbRe5dt41AjwCql.mkytCR2w6zW9kPFN_hqds7OnsEvUVutigoWCwsUm
+ xOVaBb6gNhsQPbIo2n5X5X6l7sRT.M5XNosG4GeC.5xcV8jr.T0fUvXOtjWr
+ 49DKnwtArM_HlZEFd_dHQZtkAHc.rhs1wiEk6.40LdP0YA1LWBehYpx822ML
+ hcdxkl2z.4UYjjbGtswmZ5vxZXnClqnyEdIxQb0gfu2ihHR_NVKKBGQVoMdF
+ g49qLMRRSrJ470AIxG13dS0aTGeUvwMZXOCeb2c.yjgloFVj5SbP0x.1VN_0
+ vaaxdZpO7MoPHmHC76iAONx2RMso4ZDrIqu6oIzOPydajl5sgwhu4dCKz3T6
+ Z2ReX.iXFy0b5SJ6d9Pq2OXXBHJVxO2iZMez3A14Y6Eemah0_d96MKj0Cjcy
+ Wf2BwlENLuk.Jl6PN8mzNRWNVx0dzPyRRE4tLETpB7KVzQDz1SGCBQBHmyJp
+ eMPtRT5nEdtfTD4EGzCJoO1WYOYOi4UPpZToYfOTc8EB1m8lPE.cIUvue8vW
+ XbYRhyUnNEFsmGBss3ynbCaSh15xRs4JQ.oEJgv1.kPCZTBLoJcQ6P7EmCCF
+ f83uNp6oX9HqNbE5XtaRd_7sD1NBA1Hsjqev5dDEeHK7liAP2qsIYcDKFS4L
+ Xga9nEBppZGqTkBV6yFoR_ar41aguaP9YszVY7wdywQTgr6sgSUZZdaOKOIL
+ QCcgfP4tvFzrNbHLOueIhbVhUQVhtqbhHLWfxg4pVm1Zx_jC9i5iZqHCKa_Y
+ sWvASSfdDVnOltgkL0s89tHcZXzHwsJS98hGj_RDd4uzavQJW0EXRYvGj1fV
+ WyUoVw.QXRFlW7hWXSYJ8ZqW7qcY4Nj.tDv8kGYZzm_bmsVEdR3zYi98I4do
+ C3210yKjOduYf7Q3mjGwGg--
+Received: from 209.134.158.44 (EHLO mailer158044.service.govdelivery.com)
+ by 10.217.147.94 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 01 Aug 2022 13:01:46 +0000
+Received: from gepdp-smeds2-2.systems.dc.gdi ([10.5.36.25])
+	by mailer158044.service.govdelivery.com (-); Mon, 01 Aug 2022 13:01:46 +0000
+X-VirtualServer: VSG001, mailer158044.service.govdelivery.com, 10.5.36.177
+X-VirtualServerGroup: VSG001
+X-MailingID: 16821495::20220801.61584171::1001::MDB-PRD-BUL-20220801.61584171::ms60710444266@yahoo.com::90390_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.dol.gov; s=18q1; i=@subscriptions.dol.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=wI5u
+	dbG9R8hQkn5vAaYY5G/VN2arkoi5Vd+wIYZa7kI=; b=sv/l3uksvnhrb+GDgt/u
+	qGWDJkYONKsKtpneImISqpZ8uT1irFZ4Sx/gr+msx5Z3+BUIGa3rT4E7mDIt98hE
+	IzrcRtnh4VL+eMs9brmQx9lCVF0HYeOLZXPOevyQtCzNkVTT6rwVRPYI4djvItVW
+	ItMUTDy2Ne5xAeKUlYMgeVHtyU524EdjCAEC56o9Vu5Q8MWseQdb2RCGTT+3VBrN
+	+iANkTAzHux/7572RBmGT72VAYKoyqI4IcEzjBaTp9K/c/N3rt+iYx6mq9S9n7Q+
+	ZN7NHaKGilekemaO7P6eNIxiurj1WCJ19poRTQHeGFiaOt1wc8W+NuGROeoRUMH7
+	LQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_6A8_624E_04D3F0DC.000195DC"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIqFr3AzbFNxanr66jFeepbZirNVjLwPUllHArv/Tf3k8H+5akY5MosAzDN4sql3m9fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOL
+Errors-To: subscriptions@subscriptions.dol.gov
+MIME-Version: 1.0
+Message-ID: <16821495.90390@subscriptions.dol.gov>
+X-ReportingKey: MJJJ2EWJK68CSJJD37QJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Workplace_Safety_Reminder_for_August_1,_2022?=
+Date: Mon, 01 Aug 2022 13:01:37 +0000
+To: ms60710444266@yahoo.com
+Reply-To: osha.news@subscriptions.dol.gov
+From: "=?US-ASCII?Q?OSHA_Workplace_Safety_Reminder?=" <osha.news@subscriptions.dol.gov>
+Content-Length: 8282
+
+
+------=_NextPart_6A8_624E_04D3F0DC.000195DC
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Workplace Safety Reminder [ https://www.osha.gov/flood/response ]=20
+
+Visit OSHA's Flood Response and Recovery webpage to keep workers safe. [ =
+https://www.osha.gov/flood/response ]
+
+ =A0=20
+
+________________________________________________________________________
+
+Visit OSHA's website [ https://www.osha.gov/ ] to see more workplace safe=
+ty reminders of the day [ https://www.osha.gov/#moreRemindersModal ].
+
+________________________________________________________________________
+
+To receive future OSHA workplace safety reminders of the day, subscribe o=
+nline [ https://www.osha.gov/#subscribeReminders ].
+To opt out of receiving future reminders by email, unsubscribe here [ htt=
+ps://public.govdelivery.com/accounts/USDOL/subscriber/unsubscribe_from_to=
+pic?verification=3D5.f742f4e65f4c63fd51f2a26c0065bcd5&destination=3Dms607=
+10444266%40yahoo.com&topic_id=3DUSDOL_1187 ].=A0
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud on behalf of: United States Department of Labor =B7 200 Cons=
+titution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL (1-866-487-2=
+365)  GovDelivery logo [ https://subscriberhelp.granicus.com/ ]=20
+body .abe-column-block { min-height: 5px; } table.gd_combo_table img {mar=
+gin-left:10px; margin-right:10px;} table.gd_combo_table div.govd_image_di=
+splay img, table.gd_combo_table td.gd_combo_image_cell img {margin-left:0=
+px; margin-right:0px;}
+=0A
+------=_NextPart_6A8_624E_04D3F0DC.000195DC
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Workplace Safety Reminder for August 1, 2022
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"width: 609px; font-family: Verdana; font-weight: normal=
+; margin-top: 15px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"center">
+<tbody>
+<tr>
+<td>
+<table style=3D"width: 608px;" align=3D"center">
+<tbody>
+<tr style=3D"height: 322px;" valign=3D"bottom">
+<td style=3D"width: 608px; height: 320px;">
+<div align=3D"center"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIj=
+oiMjAyMjA4MDEuNjE1ODQxNzEiLCJ1cmwiOiJodHRwczovL3d3dy5vc2hhLmdvdi9mbG9vZC9=
+yZXNwb25zZSJ9.Ne7H2vOjCO_QGmh6rUJ5RCp8CN9xs2fnOqT43lChTK4/s/2601788355/br=
+/141855875465-l"><img src=3D"https://content.govdelivery.com/attachments/=
+fancy_images/USDOL/2021/02/4107943/safety-reminder-cropped_original.jpg" =
+alt=3D"Workplace Safety Reminder" title=3D"Workplace Safety Reminder - Fl=
+ood Preparedness and Response Safety and Health Topics: Response/Recovery=
+" width=3D"591" height=3D"252"></a></div>
+<div>
+<p style=3D"margin-top: 0px; font-size: 30px; text-align: center;"><span>=
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDEuNjE1ODQx=
+NzEiLCJ1cmwiOiJodHRwczovL3d3dy5vc2hhLmdvdi9mbG9vZC9yZXNwb25zZSJ9.fYHTt_IH=
+1ZfbdncJ9F3tYYXrX2r2z-6GM5oOVAI0HKQ/s/2601788355/br/141855875465-l" title=
+=3D"Flood Preparedness and Response Safety and Health Topics: Response/Re=
+covery" style=3D"color: blue; text-decoration: none;">Visit OSHA's Flood =
+Response and Recovery webpage to keep workers safe.</a></span></p>
+</div>
+</td>
+</tr>
+<tr style=3D"height: 18px;">
+<td style=3D"width: 608px; height: 18px;">=A0</td>
+</tr>
+</tbody>
+</table>
+<br><hr size=3D"1" noshade>
+<br>
+<p style=3D"margin-top: 0px; font-size: 15px; text-align: center;"><span>=
+Visit <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDEuNj=
+E1ODQxNzEiLCJ1cmwiOiJodHRwczovL3d3dy5vc2hhLmdvdi8ifQ.XAAzdpj5LB1hRHLyTCZ_=
+ugCYiLVxgqjQsPdLzOnIHP0/s/2601788355/br/141855875465-l" target=3D"_blank"=
+ title=3D"OSHA homepage" rel=3D"noopener">OSHA's website</a> to see more =
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDEuNjE1ODQx=
+NzEiLCJ1cmwiOiJodHRwczovL3d3dy5vc2hhLmdvdi8jbW9yZVJlbWluZGVyc01vZGFsIn0.f=
+NlJz5KhtuQ5_HSTp84hG9F4kdLD8BDL4cyp4sL00TQ/s/2601788355/br/141855875465-l=
+" target=3D"_blank" title=3D"Workplace Safety Reminders archive" rel=3D"n=
+oopener">workplace safety reminders of the day</a>.</span></p>
+<hr size=3D"1" noshade>
+<p style=3D"margin-top: 0px; font-size: 13px; text-align: center;">To rec=
+eive future OSHA workplace safety reminders of the day, <a href=3D"https:=
+//lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6=
+ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDEuNjE1ODQxNzEiLCJ1cmwiOiJod=
+HRwczovL3d3dy5vc2hhLmdvdi8jc3Vic2NyaWJlUmVtaW5kZXJzIn0.GYQy6qEd382fwtq48-=
+DFJGA8tEBzrs9LuwBI-SPwyV0/s/2601788355/br/141855875465-l" target=3D"_blan=
+k" title=3D"subscribe online" rel=3D"noopener">subscribe online</a>.<br>T=
+o opt out of receiving future reminders by email, <a href=3D"https://lnks=
+.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInF1ZXJ5X3Bhcm=
+FtcyI6WyJ2ZXJpZmljYXRpb24iLCJkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJ=
+idWxsZXRpbl9pZCI6IjIwMjIwODAxLjYxNTg0MTcxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMu=
+Z292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTRE9ML3N1YnNjcmliZXIvdW5zdWJzY3JpYmVfZ=
+nJvbV90b3BpYz90b3BpY19pZD1VU0RPTF8xMTg3In0.rbSyBxZHQTRdqcYLfr3ZYbLvw5ISak=
+YJ95MBcLH6gK0/s/2601788355/br/141855875465-l?verification=3D5.f742f4e65f4=
+c63fd51f2a26c0065bcd5&destination=3Dms60710444266%40yahoo.com" target=3D"=
+_blank" title=3D"unsubscribe" rel=3D"noopener">unsubscribe here</a>.=A0</=
+p>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com using GovDelivery Co=
+mmunications Cloud on behalf of: United States Department of Labor =B7 <s=
+pan>200 Constitution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL =
+(1-866-487-2365)</span>
+</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MDEuNjE1ODQxNzEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.qyCfLDUZvz2OdNggOSJdlMq3B3gXxMB_knI6G0Nj8jA/s=
+/2601788355/br/141855875465-l" target=3D"_blank" rel=3D"noopener"><img sr=
+c=3D"https://content.govdelivery.com/images/govd-logo-dark.png" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block { min-height: 5px; } tabl=
+e.gd_combo_table img {margin-left:10px; margin-right:10px;} table.gd_comb=
+o_table div.govd_image_display img, table.gd_combo_table td.gd_combo_imag=
+e_cell img {margin-left:0px; margin-right:0px;}</style>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE4NTU4NzU0NjUtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1NSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDEuNjE1ODQxNzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODAxLjYxNTg0MTcxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIxNDk1JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_6A8_624E_04D3F0DC.000195DC--
+

@@ -1,0 +1,1419 @@
+From - Wed Aug 31 18:53:52 2022
+X-Account-Key: account1
+X-UIDL: ABQILDRBfwODYw/RtAyuGJpBxEI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.13
+ by atlas307.free.mail.ne1.yahoo.com with HTTPS; Wed, 31 Aug 2022 21:25:08 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.24]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.24 as permitted sender)
+Authentication-Results: atlas307.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 21:25:08 +0000
+X-YMailISG: WNKbLoEWLDulAivO4FPJrq4letqS3TyDdBh3ZBZrU02nWRVP
+ WfXjfNh7h5BlwcgXzmkk5s3CCRlPXZKiqgz32Hw5fFK8kQtH4UU3vGbeKnFx
+ yOXQH4Wmih1Y2OqEuNrIy9sWDJ0aqkJsmiuu6LzftN.7VsJc4BaQIg2KBJiI
+ AsPnT5U.YTvfnqyx1rnWrdKOwNAoJKv0BcNeLFFI5ruLBA4W2XYusN0_TKLe
+ PDoz15A1teGWEodRGQvBa.wE60XOtE8fwBg1B6PP9kugUxluNnE9gg3oTEB_
+ 1_VH3_FOIsgOARzv.S_.smt8uvJFWNiPMyGLYaD1jU0DJ20tu7h8k42lg0s5
+ G6HZWAKrWogtadsrMJk1_B8bdJHajWA30LLdphS0N5yqTWUgM_zSQZg8FuyC
+ zxGgcl2YsknrF1EQLNKDqzzdOYwPE230DCWzPcfVDHYTekzWXyij5JU8kOkZ
+ GZC0OT5s2SXVpijhoApW2XhrmoGtTRl.arH_tvsS36GnaB_qrhYMCdQLrK9F
+ FsMs1U5opKT99mZYhw3TzpUHOBQOU8cAaniKz6p3._kVT.JTq1q2gGGtDboU
+ WdwVoPRVsZlpBFI9khtLkua84iT3l_Ua2LE2UbiR6qrqf7zABewZtxJcn.us
+ EAPCmOlWEeNhOZlup.DVVwDGvm59xggY0TS_jt43pZRI0hjtpMIVqV0NN459
+ 518_SSgkNnN5yZ7QsinncXoke0FmVqK9P9sxdj.9xQ_Ei7xHXxrqfpFgR8sz
+ iHowRfRFSNEkLD4F.ePNKBvK1jhlMo1d2K.dQmRoBkzmtfcyclG8Vuyuj1aP
+ MTYP7LxI9Trl_gyMGT5Nwz6IWoFXNaDxnPCBrOIdruN3JK91h11VrbDM3FjW
+ U1.Lo_Sgk7TzQxg2yeLDNS3.gVnGU26WPpQuXIf7B7R5SXkfLSp1LRtCm6RE
+ 6WrEJP7fr21qStVkg88JUFaNO5bpBahneLtLVJDaEKAzUdPcFBOxCizkcyrF
+ IypLxRJoaxcZxF9EgBBjQxAcrXePs5Pyb29J1hca4wfS8Cc7Q8DPeDQQJpwR
+ FwxT1qiIAfnQLI7WMTAB9UIkzNL1kofgEIc2Q3z4xmmKZMrH0AewRBg5UYK3
+ FTPVOaYFLH6N0D.tDPZ7kbGSUrjz_TiDshrXeMQNZpQ1483XfZkTcIuZcA--
+Received: from 209.134.151.24 (EHLO mailer151024.service.govdelivery.com)
+ by 10.217.150.13 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 21:25:08 +0000
+Received: from gepdp-smeds1-6.systems.dc.gdi ([10.5.36.52])
+	by mailer151024.service.govdelivery.com (-); Wed, 31 Aug 2022 21:25:07 +0000
+X-VirtualServer: VSG001, mailer151024.service.govdelivery.com, 10.5.36.144
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837662::20220831.63055391::1001::MDB-PRD-BUL-20220831.63055391::ms60710444266@yahoo.com::26290_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=LSXY
+	gMA/8XeX7izeN+Qztmrk/Khvy5J7Evn72KGxTI8=; b=PRZFbR/wl50ky0JXww8h
+	YkRRoMiah0VMb8loPLCxD0ERCMtwHmhF/Cr6/3U4nTtTsn1mfugAjF/R3LFdvWBp
+	LrMI/IjeKv8wFNQ0rYu/ANxVTE47pBmg5TempMNzEAB1X5850UXBc50gILCh0Nnq
+	0Li+KGkTn/OjUtZYYGJcEKyE6JTMEYoR/hohQrXEXwuSKCwEfAHMnHSj/t3ld89G
+	uGlIyGXS8PIEEG3NV9X9xdxtxNXJteoD1MPJInlRjD1opclkU6gW+5uQenX6uamd
+	e/rmUZ+F3ljPe3NTTOH+dyt1ezkHHpL/Mo7k7Q4jhZOI/zO8U7AOhUdPenJS2vWd
+	QA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_737_AF35_1700A469.71CFD7D3"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI1i3BI+a4CBx8OR0X+5ueWuVDJsHLbAPD5bEJAZkAsu/r3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837662.26290@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8F8QJJ3FFWJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?Cp1252?Q?Correction:_Expanded_HHVBP_Model_Newsletter_=96_August_2022?=
+Date: Wed, 31 Aug 2022 21:25:07 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?CMS_HHVBP_Model?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 67326
+
+
+------=_NextPart_737_AF35_1700A469.71CFD7D3
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+CMS
+newsletter no logo=20
+=20
+=20
+
+The HHVBP Newsletter provides home health agencies (HHAs) with the latest=
+ information about the expanded HHVBP Model as well as important tools, n=
+ews, and timely insights from the Centers for Medicare & Medicaid Service=
+s (CMS) and the HHVBP Model Technical Assistance (TA) Team. Please consid=
+er sharing this newsletter within your organization.
+
+Information in this edition of the newsletter includes the following:
+
+
+  * HHVBP Model Highlights [ #modelhighlights ]=20
+  *=20
+
+Ending Soon: Calendar Year (CY) 2022 Pre-Implementation Year [ #Endingsoo=
+n ]
+
+
+  *=20
+
+Now Available: Expanded HHVBP Model Sample Reports - Interim Performance =
+Report (IPR) and Annual Performance Report (APR) [ #nowavailable ]
+
+
+  * ICYMI: In Case You Missed It [ #ICYMI ]=20
+  *=20
+
+Event Materials Now Available: Navigating Performance Feedback Reports: I=
+nterim Performance Report (IPR) and Annual Performance Report (APR) [ #li=
+veevent ]
+
+
+  * Resource Spotlight [ #resourcespotlight ]=20
+  *=20
+
+Current Resources Available to HHAs [ #currentresources ]
+
+
+  *=20
+
+Test Your Knowledge: HHVBP Model Crossword [ #test ]
+
+=20
+=20
+
+Note pad=20
+
+HHVBP Model Highlights=20
+=20
+________________________________________________________________________
+
+Ending Soon: Calendar Year (CY) 2022 Pre-Implementation Year
+
+The first performance year is CY 2023, beginning January 1st, 2023.=20
+
+The CY 2022 pre-implementation year for the expanded HHVBP Model conclude=
+s *December 31, 2022*. CMS designated this=A0pre-implementation year=A0to=
+ allow HHAs time=A0to=A0learn about the expanded HHVBP=A0Model without ri=
+sk to payments. *Figure 1 *illustrates the timeline for the rollout of th=
+e expanded Model through CY 2025.
+
+=20
+
+HHAs can leverage the remaining months of the pre-implementation year to =
+prepare for the CY 2023 performance year. Information and resources desig=
+ned to assist HHAs with preparation are available on the Expanded HHVBP M=
+odel webpage [ https://innovation.cms.gov/innovation-models/expanded-home=
+-health-value-based-purchasing-model ].
+
+Timeline for Rollout of the Expanded HHVBP Model
+
+Figure 1. Timeline for Rollout of the Expanded HHVBP Model
+
+=A0
+
+Now Available: Expanded HHVBP Model Sample Reports - Interim Performance =
+Report (IPR) and Annual Performance Report (APR)
+
+For learning purposes only, CMS published two (2) sample reports=96 one (=
+1) for the Interim Performance Report (IPR) and one (1) for the Annual Pe=
+rformance Report (APR). These two (2) reports, unique to the expanded HHV=
+BP Model, are now available to help HHAs become familiar with the perform=
+ance feedback provided through the expanded HHVBP Model. *These sample re=
+ports do not include actual HHA performance data.*
+
+The sample reports are available to each competing HHA on the Internet Qu=
+ality Improvement and Evaluation System (iQIES [ https://iqies.cms.gov/ ]=
+). The sample reports are based on the same scoring methodologies and oth=
+er policies presented in the CY 2022 Home Health Prospective Payment Syst=
+em (HH PPS) final rule [ https://www.federalregister.gov/documents/2021/1=
+1/09/2021-23993/medicare-and-medicaid-programs-cy-2022-home-health-prospe=
+ctive-payment-system-rate-update-home ]. Information in the sample report=
+s includes:
+
+
+  * An overview of the IPR and APR,=20
+  * Achievement, Improvement, Care Points, Measure Scorecard, and TNC Cha=
+nge Reference tabs,=20
+  * Annual Payment Adjustment tab in the APR,=20
+  * Formulas and notes to explain the calculations of the Total Performan=
+ce Score (TPS) in both reports and the final TPS-adjusted payment percent=
+age in the APR, and=20
+  * Sample percentile rankings reflecting the agency=92s performance rela=
+tive to the performance of other HHAs in their cohort.=20
+
+Instructions on how to access the sample reports are available on the Exp=
+anded HHVBP Model webpage [ https://innovation.cms.gov/innovation-models/=
+expanded-home-health-value-based-purchasing-model ], in the "=93Expanded =
+HHVBP Model Reports =96 Access Instructions=94" document.
+
+For questions about the sample reports, please contact the *HHVBP Help De=
+sk* at HHVBPquestions@lewin.com.
+
+ICYMI: In Case You Missed It=20
+
+ICYMI: In Case You Missed It=20
+=20
+________________________________________________________________________
+
+Event Materials Now Available: Navigating Performance Feedback Reports: I=
+nterim Performance Report (IPR) and Annual Performance Report (APR)
+
+On Thursday, August 25th, the HHVBP TA Team hosted the live event, =93"Na=
+vigating Performance Feedback Reports: Interim Performance Report (IPR) a=
+nd Annual Performance Report (APR)".=94 This live event introduced the tw=
+o (2) types of expanded HHVBP Model performance feedback reports: IPRs an=
+d APRs. A review of the purpose, availability, timing, and location of th=
+e reports was provided, followed by a walkthrough of the layout, navigati=
+on, and content on each tab.
+
+Understanding important details for each report type and navigating the r=
+eports are essential skills for an HHA to accurately and efficiently trac=
+k, trend, and identify report information to interpret their total perfor=
+mance score and potential payment adjustments, and inform quality assuran=
+ce and performance improvement (QAPI) initiatives.
+
+The audio recording, slides, and transcript are available on the Expanded=
+ HHVBP Model webpage [ https://innovation.cms.gov/innovation-models/expan=
+ded-home-health-value-based-purchasing-model ]. The HHVBP TA Team encoura=
+ges HHAs to view these on-demand resources and share with other HHA staff=
+ seeking to engage in the expanded HHVBP Model.=A0
+
+For questions, email the Expanded HHVBP Model Help Desk at HHVBPquestions=
+@lewin.com.=A0
+
+Spotlight=20
+
+Resource Spotlight=20
+=20
+________________________________________________________________________
+
+Current Resources Available to HHAs
+
+As the CY 2022 pre-implementation year for the expanded HHVBP Model comes=
+ to an end, the HHVBP TA Team encourages HHAs to utilize the resources de=
+signed to assist with implementation of the expanded Model. Resources lis=
+ted below are available on the Expanded HHVBP Model webpage [ https://inn=
+ovation.cms.gov/innovation-models/expanded-home-health-value-based-purcha=
+sing-model ]. All podcasts, instructional videos, and on-demand recording=
+s are also accessible on the Expanded HHVBP Model YouTube playlist [ http=
+s://www.youtube.com/playlist?list=3DPLaV7m2-zFKpiqtkONJtiCWEogBzzMpqi0 ].=
+ Subscribe to the CMS HHS YouTube channel [ https://www.youtube.com/user/=
+CMSHHSgov ] to receive updates when latest videos are available.
+
+Model Overview
+
+
+  * Webinar: HHVBP Model Expansion 101 - Thursday, February 10, 2022, 2:0=
+0 PM ET (audio, slides, and transcript)=20
+
+FAQs & Model Guide
+
+
+  * Expanded HHVBP Model Frequently Asked Questions=20
+  * Expanded HHVBP Model Guide - May 2022=20
+  * Making the Most of HHVBP Resources Instructional Recording=20
+
+Model Reports
+
+
+  * Expanded HHVBP Model Reports =96 Access Instructions=20
+  * *"NEW! "*Webinar: Navigating Performance Feedback Reports: Interim Pe=
+rformance Report (IPR) and Annual Performance Report (APR) - Thursday, Au=
+gust 25, 2022, 2:00 PM ET (audio, slides, and transcript)=20
+
+Newsletters
+
+
+  * HHVBP Model Newsletter August 2022=20
+  * HHVBP Model Newsletter July 2022=20
+  * HHVBP Model Newsletter June 2022=20
+  * HHVBP Model Newsletter May 2022=20
+  * HHVBP Model Newsletter April 2022=20
+  * HHVBP Model Newsletter February 2022=20
+  * HHVBP Model Newsletter December 2021=20
+
+Quality Measures
+
+
+  * CY 2023 Benchmarks and Achievement Thresholds =96 Access Instructions=
+=20
+  * An Overview: Risk Adjustment Process and Use in the Expanded HHVBP Mo=
+del=20
+  * HHVBP Model: Quality Measures Used in the Expanded Model (audio, slid=
+es, transcript)=20
+  * How to use Existing Quality Assurance and Performance Improvement (QA=
+PI) Processes to Support Improvement in Expanded Home Health Value-Based =
+Purchasing (HHVBP) Model=20
+
+Quality Improvement
+
+
+  * Leadership and Communication =97 Essential Elements for Quality Impro=
+vement Podcast=20
+  * The Patient with Declining Memory: The =93Keys=94 to Safe Mobility Po=
+dcast=20
+  * Infection Prevention and Control: Home Health Patient Care and Commun=
+ication Podcast=20
+  * Managing Chronic Illness through Home Health Care Podcast=20
+
+Total Performance Score & Payment Adjustment
+
+
+  * HHVBP Model Composite Measure Calculation Steps=20
+  * HHVBP Model Technical Specifications Composite Outcome Measures=20
+  * *"NEW! "*How Measure Performance Becomes Care Points Instructional Vi=
+deo=20
+  * *"NEW! "*How Care Points Become the Total Performance Score (TPS)=20
+  * *"NEW! "*How the Total Performance Score (TPS) Becomes the Final Paym=
+ent Adjustment=20
+
+Regulations & Notices
+
+
+  * CY 2023 Home Health Prospective Payment System (HH PPS) Proposed Rule=
+=20
+  * CY 2022 Home Health Prospective Payment System (HH PPS) Final Rule=20=
+
+  * CY 2022 Home Health Prospective Payment System (HH PPS) Final Rule Pr=
+ess Release=20
+  * CY 2022 Home Health Prospective Payment System (HH PPS) Final Rule Fa=
+ct Sheet=20
+
+=A0
+
+Test Your Knowledge: HHVBP Model Crossword
+
+With the first performance year (CY 2023) for the expanded HHVBP Model le=
+ss than six (6) months away, the HHVBP TA Team challenges HHA staff to te=
+st their knowledge of information and terms unique to the expanded Model =
+by completing the crossword below! Answers will be available in the next =
+edition of the HHVBP Newsletter.
+
+HHVBP Crossword=20
+
+_ACROSS_
+
+1. _____Threshold: The median (50th percentile) of Medicare-certified HHA=
+s=92 performance scores on each quality measure during the designated Mod=
+el baseline year.
+
+4. _____ HHA: An HHA that has a current Medicare certification and is rec=
+eiving payment for home health care services from CMS.
+
+7. The group in which an HHA competes. HHAs compete nationally in one (1)=
+ of two (2) volume-based _____, as defined by the number of unique HHCAHP=
+S survey-eligible beneficiaries for each HHA in the year prior to the per=
+formance year.
+
+9. _____Performance Report: Includes payment adjustment percentage for th=
+e following payment year and how CMS determined this adjustment relative =
+to the HHA=92s performance scores.
+
+10. _____Performance Report: Quarterly report on quality measure performa=
+nce based on the 12 most recent months of data available.
+
+12. The mean of the top decile (90th percentile) of all HHAs=92 performan=
+ce scores on the specified quality measure during the baseline year, calc=
+ulated separately for the larger- and smaller-volume cohorts.
+
+13. HHA_____ Year: The year which CMS will compare an HHA=92s performance=
+ score by measure in a performance year and calculate each HHA=92s unique=
+ improvement threshold.
+
+14. Payment_____ Percentage: The percentage by which an HHA=92s final cla=
+im payment amount under the HH PPS changes and is applied to an HHA=92s M=
+edicare fee-for-service (FFS) payments for the corresponding payment year=
+.
+
+=A0
+
+_DOWN_
+
+2. _____Threshold: An individual competing HHA=92s performance on an appl=
+icable measure during the HHA baseline year.
+
+3. _____Baseline Year: The year against which CMS calculates the achievem=
+ent threshold and benchmarks for each cohort.
+
+5. Achievement_____: A scale between the achievement threshold and the de=
+signated benchmark, along which an HHA will receive achievement points fo=
+r a given measure.
+
+6. The access site for all HHVBP performance feedback reports for the exp=
+anded HHVBP Model.
+
+8. An HHA must have _____ data to establish a baseline year for a particu=
+lar quality measure.
+
+11. _____ Points: The higher of achievement points or improvement points =
+for each measure on the IPR and APR.
+
+=A0
+
+Contact Us
+________________________________________________________________________
+
+Please *do not reply to this email *- this is an unmonitored inbox. If yo=
+u require assistance, use the following options:
+
+
+  * For program questions about the=A0HHVBP Model, contact the HHVBP Help=
+ Desk at=A0HHVBPquestions@lewin.com.=20
+  * For support with registration for the Internet Quality Improvement an=
+d Evaluation System (iQIES [ https://iqies.cms.gov/ ]_)_, please contact =
+our=A0*QIES/iQIES Service Center*=A0by phone at=A0*(800) 339-9313*=A0or b=
+y email at=A0iqies@cms.hhs.gov. You may also refer to the iQIES Onboardin=
+g Guide posted to QTSO for registration support:=A0https://qtso.cms.gov/s=
+oftware/iqies/reference-manuals=20
+  * To receive email updates about expansion, please subscribe to the=A0E=
+xpanded HHVBP Model listserv [ https://public.govdelivery.com/accounts/US=
+CMS/subscriber/new?topic_id=3DUSCMS_12825%22%3EClick%20to%20subscribe%3C/=
+a%3E ]. Enter your email address in the contact form, then select =93Home=
+ Health Value-Based Purchasing (HHVBP) Expanded Model=94 from the Innovat=
+ions list.=20
+  * Please contact the=A0*Home Health Quality Reporting Program (HH QRP) =
+Help Desk*=A0at=A0homehealthqualityquestions@cms.hhs.gov=A0for questions =
+about the following: Home Health Quality, including Care Compare (excludi=
+ng HHCAHPS), OASIS coding and OASIS documentation, quality reporting requ=
+irements & deadlines, data reported in quality reports, measure calculati=
+ons, Quality of Patient Care Star Rating (excluding suppression requests)=
+, public reporting, risk adjustment, and Quality Assessment Only (QAO)/Pa=
+y for Reporting (P4P).=20
+________________________________________________________________________
+
+*"Important Links:"*
+
+Expanded HHVBP Model webpage [ https://innovation.cms.gov/innovation-mode=
+ls/expanded-home-health-value-based-purchasing-model ]=A0|=A0CY 2022 HH P=
+PS Final Rule [ https://www.federalregister.gov/documents/2021/11/09/2021=
+-23993/medicare-and-medicaid-programs-cy-2022-home-health-prospective-pay=
+ment-system-rate-update-home ]=A0|=A0CY 2023 HH PPS Proposed Rule [ https=
+://www.federalregister.gov/documents/2022/06/23/2022-13376/medicare-progr=
+am-calendar-year-cy-2023-home-health-prospective-payment-system-rate-upda=
+te-home ]
+
+Prepared on behalf of CMS under the HHVBP Technical Assistance contract.=20=
+
+The HHVBP Technical Assistance Contractor team is led by the Lewin Group =
+and
+includes OASIS Answers, and=A0the University of Colorado Denver.
+
+=20
+=20
+
+CMS Lewin Group University of Colorado Anshultz Medical Campus OasisAnswe=
+rs=20
+=20
+=20
+=20
+=20
+body .abe-column-block { min-height: 5px; } _____________________________=
+___________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_737_AF35_1700A469.71CFD7D3
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+
+<title>    Correction: Expanded HHVBP Model Newsletter =96 August 2022
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 40=
+0px !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 5px 5px =
+5px !important; }
+table#yahoo #main-header .govd_template_image { max-width: 480px !importa=
+nt; width: 100% !important; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #EEEEEE; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#EEEE=
+EE"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"view-in-browser" width=3D"100%" data-govdstyle=3D"all" data-gov=
+dtitle=3D"View in Browser" class=3D"thin" style=3D"padding: 10px;">
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFF=
+; border-collapse: collapse;">
+<tr>
+<td id=3D"header-bg" data-govdstyle=3D"all" data-govdtitle=3D"Header Back=
+ground" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFFFFF">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2017/09/1524317/cmsheader-original_origin=
+al.jpg" style=3D"width: 600px; height: auto !important; max-height: auto =
+!important; border: none;" alt=3D"CMS" width=3D"600" height=3D"83"><table=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"border-collapse: collapse;"><tr><td align=3D"center"><img class=3D"govd_=
+template_image" src=3D"https://content.govdelivery.com/attachments/fancy_=
+images/USCMS/2021/12/5289772/newsletter-new-logo_original.png" style=3D"w=
+idth: 468px; height: auto !important; max-height: auto !important; border=
+: none;" alt=3D"newsletter no logo" width=3D"468" height=3D"89"></td></tr=
+></table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td id=3D"date-bg" data-govdstyle=3D"all" data-govdtitle=3D"Date Backgrou=
+nd" style=3D"background-color: #FFFFFF; padding: 0px; border: none;" bgco=
+lor=3D"#FFFFFF">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-date" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Date" style=3D"background-color: #dddddd; padding: 10px 15px;" b=
+gcolor=3D"#dddddd">
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;">The HHVBP Newsletter provides home health =
+agencies (HHAs) with the latest information about the expanded HHVBP Mode=
+l as well as important tools, news, and timely insights from the Centers =
+for Medicare &amp; Medicaid Services (CMS) and the HHVBP Model Technical =
+Assistance (TA) Team. Please consider sharing this newsletter within your=
+ organization.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;">Information in this edition of the newslet=
+ter includes the following:</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<a href=3D"#modelhighlights" style=3D"color: #0000EE; text-decoration: un=
+derline; -ms-word-break: break-all; word-break: break-word; -webkit-hyphe=
+ns: none; -moz-hyphens: none; hyphens: none;">HHVBP Model Highlights</a>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;"><a href=3D"#Endingsoon" style=3D"color: #0=
+000EE; text-decoration: underline; -ms-word-break: break-all; word-break:=
+ break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">E=
+nding Soon: Calendar Year (CY) 2022 Pre-Implementation Year</a></p>
+</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;"><a href=3D"#nowavailable" style=3D"color: =
+#0000EE; text-decoration: underline; -ms-word-break: break-all; word-brea=
+k: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"=
+>Now Available: Expanded HHVBP Model Sample Reports - Interim Performance=
+ Report (IPR) and Annual Performance Report (APR)</a></p>
+</li>
+</ul>
+</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<a href=3D"#ICYMI" style=3D"color: #0000EE; text-decoration: underline; -=
+ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none; =
+-moz-hyphens: none; hyphens: none;">ICYMI: In Case You Missed It</a>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;"><a href=3D"#liveevent" style=3D"color: #00=
+00EE; text-decoration: underline; -ms-word-break: break-all; word-break: =
+break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Ev=
+ent Materials Now Available: Navigating Performance Feedback Reports: Int=
+erim Performance Report (IPR) and Annual Performance Report (APR)</a></p>=
+
+</li>
+</ul>
+</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<a href=3D"#resourcespotlight" style=3D"color: #0000EE; text-decoration: =
+underline; -ms-word-break: break-all; word-break: break-word; -webkit-hyp=
+hens: none; -moz-hyphens: none; hyphens: none;">Resource Spotlight</a>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;"><a href=3D"#currentresources" style=3D"col=
+or: #0000EE; text-decoration: underline; -ms-word-break: break-all; word-=
+break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: no=
+ne;">Current Resources Available to HHAs</a></p>
+</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 12px; margin: 0 0 7px;">
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 12px; margin: 10px 0;"><a href=3D"#test" style=3D"color: #0000EE;=
+ text-decoration: underline; -ms-word-break: break-all; word-break: break=
+-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Test Yo=
+ur Knowledge: HHVBP Model Crossword</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"padding: 15px;">
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr>
+    <td>
+      <img class=3D"govd_template_image" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USCMS/2018/08/2074168/hhvbp-model-highlig=
+hts_original.png" style=3D"width: 59px; height: auto !important; float: l=
+eft; max-height: auto !important; border: none;" alt=3D"Note pad" width=3D=
+"59" height=3D"59" align=3D"left" hspace=3D"7">
+      <h2 style=3D"text-align: left; line-height: 1.1; font-weight: bold;=
+ color: #132a63; font-family: helvetica; font-size: 24px; margin: 0 0 4px=
+;" align=3D"left">
+<br>HHVBP Model Highlights<a id=3D"modelhighlights" style=3D"color: #132a=
+63; text-decoration: none; -ms-word-break: break-all; word-break: break-w=
+ord; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;" name=3D"m=
+odelhighlights"></a>
+</h2>
+    </td>
+  </tr>
+</table>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h3 style=3D"line-height: 1.1; font-weight: bold; color: #000000; font-fa=
+mily: arial, helvetica, sans-serif; margin: 10px 0;">
+<a id=3D"Endingsoon" style=3D"color: #0000EE; text-decoration: underline;=
+ -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none=
+; -moz-hyphens: none; hyphens: none;" name=3D"Endingsoon"></a>Ending Soon=
+: Calendar Year (CY) 2022 Pre-Implementation Year</h3>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr>
+    <td>
+      <img class=3D"govd_template_image" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USCMS/2022/08/6368004/4299488/aug22callou=
+t1_crop.png" style=3D"width: 238px; height: auto !important; float: right=
+; max-height: auto !important; border: none;" alt=3D"The first performanc=
+e year is CY 2023, beginning January 1st, 2023." width=3D"238" height=3D"=
+90" align=3D"right" hspace=3D"7">
+      <p style=3D"line-height: 1.4; color: #000000; font-family: helvetic=
+a; font-size: 13px; text-align: left; margin: 0 0 10px;" align=3D"left">T=
+he CY 2022 pre-implementation year for the expanded HHVBP Model concludes=
+ <strong>December 31, 2022</strong>. CMS designated this=A0pre-implementa=
+tion year=A0to allow HHAs time=A0to=A0learn about the expanded HHVBP=A0Mo=
+del without risk to payments. <strong>Figure 1 </strong>illustrates the t=
+imeline for the rollout of the expanded Model through CY 2025.</p>
+    </td>
+  </tr>
+</table>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">HHAs can =
+leverage the remaining months of the pre-implementation year to prepare f=
+or the CY 2023 performance year. Information and resources designed to as=
+sist HHAs with preparation are available on the <a href=3D"https://lnks.g=
+d/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL=
+2lubm92YXRpb24uY21zLmdvdi9pbm5vdmF0aW9uLW1vZGVscy9leHBhbmRlZC1ob21lLWhlYW=
+x0aC12YWx1ZS1iYXNlZC1wdXJjaGFzaW5nLW1vZGVsIn0.jdhhJxtDy4Wih-Qtu4eG06yF9gK=
+rLQjemLuVkanwLGA/s/2601788358/br/143360739736-l" style=3D"color: #0000EE;=
+ text-decoration: underline; -ms-word-break: break-all; word-break: break=
+-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Expande=
+d HHVBP Model webpage</a>.</p>
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2022/08/6368032/aug22timeline_original.pn=
+g" style=3D"width: 570px; height: auto !important; max-height: auto !impo=
+rtant; border: none;" alt=3D"Timeline for Rollout of the Expanded HHVBP M=
+odel" width=3D"570" height=3D"182"><p class=3D"gd_caption" style=3D"width=
+: 100%; text-align: left; font-size: 8pt; font-style: italic; line-height=
+: 1.4; color: #000000; font-family: helvetica; margin: 10px 0;" align=3D"=
+left">Figure 1. Timeline for Rollout of the Expanded HHVBP Model</p>
+<h3 style=3D"line-height: 1.1; font-weight: bold; color: #000000; font-fa=
+mily: arial, helvetica, sans-serif; margin: 10px 0;">=A0</h3>
+<h3 style=3D"line-height: 1.1; font-weight: bold; color: #000000; font-fa=
+mily: arial, helvetica, sans-serif; margin: 10px 0;">
+<a id=3D"nowavailable" style=3D"color: #0000EE; text-decoration: underlin=
+e; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: no=
+ne; -moz-hyphens: none; hyphens: none;" name=3D"nowavailable"></a>Now Ava=
+ilable: Expanded HHVBP Model Sample Reports - Interim Performance Report =
+(IPR) and Annual Performance Report (APR)</h3>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">For learn=
+ing purposes only, CMS published two (2) sample reports=96 one (1) for th=
+e Interim Performance Report (IPR) and one (1) for the Annual Performance=
+ Report (APR). These two (2) reports, unique to the expanded HHVBP Model,=
+ are now available to help HHAs become familiar with the performance feed=
+back provided through the expanded HHVBP Model. <strong>These sample repo=
+rts do not include actual HHA performance data.</strong></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">The sampl=
+e reports are available to each competing HHA on the Internet Quality Imp=
+rovement and Evaluation System (<a href=3D"https://lnks.gd/l/eyJhbGciOiJI=
+UzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxl=
+dGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL2lxaWVzLmNtcy5nb=
+3YvIn0.pkwlV5hiRUh-FaXgj9jpTtMyHBbafO3VkLX0s8Xp8eI/s/2601788358/br/143360=
+739736-l" style=3D"color: #0000EE; text-decoration: underline; -ms-word-b=
+reak: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyph=
+ens: none; hyphens: none;">iQIES</a>). The sample reports are based on th=
+e same scoring methodologies and other policies presented in the <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5mZWRlcmFscmVnaXN0ZXIuZ292L2RvY3VtZW50cy8yMDIxLzExLzA=
+5LzIwMjEtMjM5OTMvbWVkaWNhcmUtYW5kLW1lZGljYWlkLXByb2dyYW1zLWN5LTIwMjItaG9t=
+ZS1oZWFsdGgtcHJvc3BlY3RpdmUtcGF5bWVudC1zeXN0ZW0tcmF0ZS11cGRhdGUtaG9tZSJ9.=
+eCHW-eNlDvvT80HvmTj4n37z320poXpBXCLCjJ6IhP0/s/2601788358/br/143360739736-=
+l" style=3D"color: #0000EE; text-decoration: underline; -ms-word-break: b=
+reak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: no=
+ne; hyphens: none;">CY 2022 Home Health Prospective Payment System (HH PP=
+S) final rule</a>. Information in the sample reports includes:</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">An overview of the IPR=
+ and APR,</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Achievement, Improveme=
+nt, Care Points, Measure Scorecard, and TNC Change Reference tabs,</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Annual Payment Adjustm=
+ent tab in the APR,</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Formulas and notes to =
+explain the calculations of the Total Performance Score (TPS) in both rep=
+orts and the final TPS-adjusted payment percentage in the APR, and</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Sample percentile rank=
+ings reflecting the agency=92s performance relative to the performance of=
+ other HHAs in their cohort.</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Instructi=
+ons on how to access the sample reports are available on the <a href=3D"h=
+ttps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInV=
+yaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwi=
+OiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9pbm5vdmF0aW9uLW1vZGVscy9leHBhbmRlZ=
+C1ob21lLWhlYWx0aC12YWx1ZS1iYXNlZC1wdXJjaGFzaW5nLW1vZGVsIn0.3plcsNTtyrg5NT=
+K-H1oYXaFoVP4idzum9gfnImnA_wg/s/2601788358/br/143360739736-l" style=3D"co=
+lor: #0000EE; text-decoration: underline; -ms-word-break: break-all; word=
+-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: n=
+one;">Expanded HHVBP Model webpage</a>, in the <em>=93Expanded HHVBP Mode=
+l Reports =96 Access Instructions=94</em> document.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">For quest=
+ions about the sample reports, please contact the <strong>HHVBP Help Desk=
+</strong> at <a href=3D"mailto:HHVBPquestions@lewin.com" style=3D"color: =
+#0000EE; text-decoration: underline; -ms-word-break: break-all; word-brea=
+k: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"=
+>HHVBPquestions@lewin.com</a>.</p>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr>
+    <td>
+      <img class=3D"govd_template_image" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USCMS/2022/08/6368030/icymi_original.png"=
+ style=3D"width: 55px; height: auto !important; float: left; max-height: =
+auto !important; border: none;" alt=3D"ICYMI: In Case You Missed It" widt=
+h=3D"55" height=3D"55" align=3D"left" hspace=3D"7">
+      <h2 style=3D"text-align: left; line-height: 1.1; font-weight: bold;=
+ color: #132a63; font-family: helvetica; font-size: 24px; margin: 0 0 4px=
+;" align=3D"left">
+<br>ICYMI: In Case You Missed It<a id=3D"ICYMI" style=3D"color: #132a63; =
+text-decoration: none; -ms-word-break: break-all; word-break: break-word;=
+ -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;" name=3D"ICYMI=
+"></a>
+</h2>
+    </td>
+  </tr>
+</table>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h3 style=3D"line-height: 1.1; font-weight: bold; color: #000000; font-fa=
+mily: arial, helvetica, sans-serif; margin: 10px 0;">
+<a id=3D"liveevent" style=3D"color: #0000EE; text-decoration: underline; =
+-ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none;=
+ -moz-hyphens: none; hyphens: none;" name=3D"liveevent"></a>Event Materia=
+ls Now Available: Navigating Performance Feedback Reports: Interim Perfor=
+mance Report (IPR) and Annual Performance Report (APR)</h3>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">On Thursd=
+ay, August 25th, the HHVBP TA Team hosted the live event, =93<em>Navigati=
+ng Performance Feedback Reports: Interim Performance Report (IPR) and Ann=
+ual Performance Report (APR)</em>.=94 This live event introduced the two =
+(2) types of expanded HHVBP Model performance feedback reports: IPRs and =
+APRs. A review of the purpose, availability, timing, and location of the =
+reports was provided, followed by a walkthrough of the layout, navigation=
+, and content on each tab.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Understan=
+ding important details for each report type and navigating the reports ar=
+e essential skills for an HHA to accurately and efficiently track, trend,=
+ and identify report information to interpret their total performance sco=
+re and potential payment adjustments, and inform quality assurance and pe=
+rformance improvement (QAPI) initiatives.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">The audio=
+ recording, slides, and transcript are available on the <a href=3D"https:=
+//lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6=
+ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJod=
+HRwczovL2lubm92YXRpb24uY21zLmdvdi9pbm5vdmF0aW9uLW1vZGVscy9leHBhbmRlZC1ob2=
+1lLWhlYWx0aC12YWx1ZS1iYXNlZC1wdXJjaGFzaW5nLW1vZGVsIn0.q2NmWs2He70GFFSIsUi=
+KmLg_6KVJZ3gCCKbCoO3BZp4/s/2601788358/br/143360739736-l" style=3D"color: =
+#0000EE; text-decoration: underline; -ms-word-break: break-all; word-brea=
+k: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"=
+>Expanded HHVBP Model webpage</a>. The HHVBP TA Team encourages HHAs to v=
+iew these on-demand resources and share with other HHA staff seeking to e=
+ngage in the expanded HHVBP Model.=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">For quest=
+ions, email the Expanded HHVBP Model Help Desk at <a href=3D"mailto:HHVBP=
+questions@lewin.com" target=3D"_blank" rel=3D"noopener" style=3D"color: #=
+0000EE; text-decoration: underline; -ms-word-break: break-all; word-break=
+: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">=
+HHVBPquestions@lewin.com</a>.=A0</p>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr>
+    <td>
+      <img class=3D"govd_template_image" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USCMS/2017/09/1524389/spotlight_original.=
+png" style=3D"width: 55px; height: auto !important; float: left; max-heig=
+ht: auto !important; border: none;" alt=3D"Spotlight" width=3D"55" height=
+=3D"55" align=3D"left" hspace=3D"7">
+      <h2 style=3D"text-align: left; line-height: 1.1; font-weight: bold;=
+ color: #132a63; font-family: helvetica; font-size: 24px; margin: 0 0 4px=
+;" align=3D"left">
+<br>Resource Spotlight<a id=3D"resourcespotlight" style=3D"color: #132a63=
+; text-decoration: none; -ms-word-break: break-all; word-break: break-wor=
+d; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;" name=3D"res=
+ourcespotlight"></a>
+</h2>
+    </td>
+  </tr>
+</table>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h3 style=3D"line-height: 1.1; font-weight: bold; color: #000000; font-fa=
+mily: arial, helvetica, sans-serif; margin: 10px 0;">
+<a id=3D"currentresources" style=3D"color: #0000EE; text-decoration: unde=
+rline; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens=
+: none; -moz-hyphens: none; hyphens: none;" name=3D"currentresources"></a=
+>Current Resources Available to HHAs</h3>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">As the CY=
+ 2022 pre-implementation year for the expanded HHVBP Model comes to an en=
+d, the HHVBP TA Team encourages HHAs to utilize the resources designed to=
+ assist with implementation of the expanded Model. Resources listed below=
+ are available on the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIj=
+oiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9=
+pbm5vdmF0aW9uLW1vZGVscy9leHBhbmRlZC1ob21lLWhlYWx0aC12YWx1ZS1iYXNlZC1wdXJj=
+aGFzaW5nLW1vZGVsIn0.LD3PHvq7BbApPYnUJ-KuQfqZk6Vl_U2Ae7nKmGT4bhk/s/2601788=
+358/br/143360739736-l" style=3D"color: #0000EE; text-decoration: underlin=
+e; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: no=
+ne; -moz-hyphens: none; hyphens: none;">Expanded HHVBP Model webpage</a>.=
+ All podcasts, instructional videos, and on-demand recordings are also ac=
+cessible on the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWx=
+sZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAy=
+MjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS9wbGF5bGlzd=
+D9saXN0PVBMYVY3bTItekZLcGlxdGtPTkp0aUNXRW9nQnp6TXBxaTAifQ.G5a-FE5gnCaLOEw=
+6s741Xaoco2UQEut1Wyp0ICOTbCs/s/2601788358/br/143360739736-l" style=3D"col=
+or: #0000EE; text-decoration: underline; -ms-word-break: break-all; word-=
+break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: no=
+ne;">Expanded HHVBP Model YouTube playlist</a>. Subscribe to the <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL0NNU0hIU2dvdiJ9.hLPKwTCDrhJCG8=
+H-knqM49WGM-Uo4arBlE7hMUN86Xo/s/2601788358/br/143360739736-l" style=3D"co=
+lor: #0000EE; text-decoration: underline; -ms-word-break: break-all; word=
+-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: n=
+one;">CMS HHS YouTube channel</a> to receive updates when latest videos a=
+re available.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Model Ove=
+rview</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Webinar: HHVBP Model E=
+xpansion 101 - Thursday, February 10, 2022, 2:00 PM ET (audio, slides, an=
+d transcript)</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">FAQs &amp=
+; Model Guide</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Expanded HHVBP Model F=
+requently Asked Questions</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Expanded HHVBP Model G=
+uide - May 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Making the Most of HHV=
+BP Resources Instructional Recording</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Model Rep=
+orts</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Expanded HHVBP Model R=
+eports =96 Access Instructions</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">
+<strong><em>NEW! </em></strong>Webinar: Navigating Performance Feedback R=
+eports: Interim Performance Report (IPR) and Annual Performance Report (A=
+PR) - Thursday, August 25, 2022, 2:00 PM ET (audio, slides, and transcrip=
+t)</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Newslette=
+rs</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ August 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ July 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ June 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ May 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ April 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ February 2022</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Newsletter=
+ December 2021</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Quality M=
+easures</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">CY 2023 Benchmarks and=
+ Achievement Thresholds =96 Access Instructions</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">An Overview: Risk Adju=
+stment Process and Use in the Expanded HHVBP Model</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model: Quality M=
+easures Used in the Expanded Model (audio, slides, transcript)</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">How to use Existing Qu=
+ality Assurance and Performance Improvement (QAPI) Processes to Support I=
+mprovement in Expanded Home Health Value-Based Purchasing (HHVBP) Model</=
+li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Quality I=
+mprovement</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Leadership and Communi=
+cation =97 Essential Elements for Quality Improvement Podcast</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">The Patient with Decli=
+ning Memory: The =93Keys=94 to Safe Mobility Podcast</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Infection Prevention a=
+nd Control: Home Health Patient Care and Communication Podcast</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Managing Chronic Illne=
+ss through Home Health Care Podcast</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Total Per=
+formance Score &amp; Payment Adjustment</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Composite =
+Measure Calculation Steps</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">HHVBP Model Technical =
+Specifications Composite Outcome Measures</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">
+<strong><em>NEW! </em></strong>How Measure Performance Becomes Care Point=
+s Instructional Video</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">
+<strong><em>NEW! </em></strong>How Care Points Become the Total Performan=
+ce Score (TPS)</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">
+<strong><em>NEW! </em></strong>How the Total Performance Score (TPS) Beco=
+mes the Final Payment Adjustment</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">Regulatio=
+ns &amp; Notices</p>
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">CY 2023 Home Health Pr=
+ospective Payment System (HH PPS) Proposed Rule</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">CY 2022 Home Health Pr=
+ospective Payment System (HH PPS) Final Rule</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">CY 2022 Home Health Pr=
+ospective Payment System (HH PPS) Final Rule Press Release</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">CY 2022 Home Health Pr=
+ospective Payment System (HH PPS) Final Rule Fact Sheet</li>
+</ul>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">=A0</p>
+<h3 style=3D"line-height: 1.1; font-weight: bold; color: #000000; font-fa=
+mily: arial, helvetica, sans-serif; margin: 10px 0;">
+<a id=3D"test" style=3D"color: #0000EE; text-decoration: underline; -ms-w=
+ord-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz=
+-hyphens: none; hyphens: none;" name=3D"test"></a>Test Your Knowledge: HH=
+VBP Model Crossword</h3>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">With the =
+first performance year (CY 2023) for the expanded HHVBP Model less than s=
+ix (6) months away, the HHVBP TA Team challenges HHA staff to test their =
+knowledge of information and terms unique to the expanded Model by comple=
+ting the crossword below! Answers will be available in the next edition o=
+f the HHVBP Newsletter.</p>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"border-collapse: collapse;"><tr><td align=3D"center"><img class=3D=
+"govd_template_image" src=3D"https://content.govdelivery.com/attachments/=
+fancy_images/USCMS/2022/08/6368555/aug22crossword_original.png" style=3D"=
+width: 404px; height: auto !important; max-height: auto !important; borde=
+r: none;" alt=3D"HHVBP Crossword" width=3D"404" height=3D"403"></td></tr>=
+</table>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left"><u>ACROSS=
+</u></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">1. _____T=
+hreshold: The median (50<sup>th</sup> percentile) of Medicare-certified H=
+HAs=92 performance scores on each quality measure during the designated M=
+odel baseline year.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">4. _____ =
+HHA: An HHA that has a current Medicare certification and is receiving pa=
+yment for home health care services from CMS.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">7. The gr=
+oup in which an HHA competes. HHAs compete nationally in one (1) of two (=
+2) volume-based _____, as defined by the number of unique HHCAHPS survey-=
+eligible beneficiaries for each HHA in the year prior to the performance =
+year.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">9. _____P=
+erformance Report: Includes payment adjustment percentage for the followi=
+ng payment year and how CMS determined this adjustment relative to the HH=
+A=92s performance scores.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">10. _____=
+Performance Report: Quarterly report on quality measure performance based=
+ on the 12 most recent months of data available.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">12. The m=
+ean of the top decile (90<sup>th</sup> percentile) of all HHAs=92 perform=
+ance scores on the specified quality measure during the baseline year, ca=
+lculated separately for the larger- and smaller-volume cohorts.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">13. HHA__=
+___ Year: The year which CMS will compare an HHA=92s performance score by=
+ measure in a performance year and calculate each HHA=92s unique improvem=
+ent threshold.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">14. Payme=
+nt_____ Percentage: The percentage by which an HHA=92s final claim paymen=
+t amount under the HH PPS changes and is applied to an HHA=92s Medicare f=
+ee-for-service (FFS) payments for the corresponding payment year.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left"><u>DOWN</=
+u></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">2. _____T=
+hreshold: An individual competing HHA=92s performance on an applicable me=
+asure during the HHA baseline year.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">3. _____B=
+aseline Year: The year against which CMS calculates the achievement thres=
+hold and benchmarks for each cohort.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">5. Achiev=
+ement_____: A scale between the achievement threshold and the designated =
+benchmark, along which an HHA will receive achievement points for a given=
+ measure.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">6. The ac=
+cess site for all HHVBP performance feedback reports for the expanded HHV=
+BP Model.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">8. An HHA=
+ must have _____ data to establish a baseline year for a particular quali=
+ty measure.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">11. _____=
+ Points: The higher of achievement points or improvement points for each =
+measure on the IPR and APR.</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fon=
+t-size: 13px; text-align: left; margin: 10px 0;" align=3D"left">=A0</p>
+<h2 style=3D"line-height: 1.1; font-weight: bold; color: #132a63; font-fa=
+mily: helvetica; font-size: 24px; text-align: left; margin: 10px 0;" alig=
+n=3D"left">Contact Us</h2>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<p class=3D"gd_p" style=3D"text-align: left; line-height: 1.4; color: #00=
+0000; font-family: helvetica; font-size: 13px; margin: 10px 0;" align=3D"=
+left">Please <strong>do not reply to this email </strong>- this is an unm=
+onitored inbox. If you require assistance, use the following options:</p>=
+
+<ul>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">For program questions =
+about the=A0HHVBP Model, contact the HHVBP Help Desk at=A0<a href=3D"mail=
+to:HHVBPquestions@lewin.com" target=3D"_blank" rel=3D"noopener" style=3D"=
+color: #0000EE; text-decoration: underline; -ms-word-break: break-all; wo=
+rd-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens:=
+ none;">HHVBPquestions@lewin.com</a>.</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">For support with regis=
+tration for the Internet Quality Improvement and Evaluation System (<a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiL=
+CJ1cmwiOiJodHRwczovL2lxaWVzLmNtcy5nb3YvIn0.4LI8Ez2AKMgFzVgvnHB5rZxSH-djh9=
+7sZPqTkVQxivU/s/2601788358/br/143360739736-l" style=3D"color: #0000EE; te=
+xt-decoration: underline; -ms-word-break: break-all; word-break: break-wo=
+rd; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">iQIES</a><=
+u>)</u>, please contact our=A0<strong>QIES/iQIES Service Center</strong>=A0=
+by phone at=A0<strong>(800) 339-9313</strong>=A0or by email at=A0<a href=3D=
+"mailto:iqies@cms.hhs.gov" target=3D"_blank" rel=3D"noopener" style=3D"co=
+lor: #0000EE; text-decoration: underline; -ms-word-break: break-all; word=
+-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: n=
+one;">iqies@cms.hhs.gov</a>. You may also refer to the iQIES Onboarding G=
+uide posted to QTSO for registration support:=A0<a href=3D"https://lnks.g=
+d/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL=
+3F0c28uY21zLmdvdi9zb2Z0d2FyZS9pcWllcy9yZWZlcmVuY2UtbWFudWFscyJ9.fMvpquKaM=
+2D1IG0YrGdmE8h45YOgRq-3WjN88oA5RFo/s/2601788358/br/143360739736-l" style=3D=
+"color: #0000EE; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">https://qtso.cms.gov/software/iqies/reference-manuals</a>
+</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">To receive email updat=
+es about expansion, please subscribe to the=A0<a href=3D"https://lnks.gd/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbG=
+ljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL3B=
+1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3Vic2NyaWJlci9uZXc_dG9w=
+aWNfaWQ9VVNDTVNfMTI4MjUlMjIlM0VDbGljayUyMHRvJTIwc3Vic2NyaWJlJTNDL2ElM0Uif=
+Q.Pk8ymoJlIStN9XfSE2j1PRy7oGJSS0jFe52RSarXfuU/s/2601788358/br/14336073973=
+6-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #0000EE; text-dec=
+oration: underline; -ms-word-break: break-all; word-break: break-word; -w=
+ebkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Expanded HHVBP M=
+odel listserv</a>. Enter your email address in the contact form, then sel=
+ect =93Home Health Value-Based Purchasing (HHVBP) Expanded Model=94 from =
+the Innovations list.</li>
+<li style=3D"line-height: 1.4; color: #000000; font-family: helvetica; fo=
+nt-size: 13px; text-align: left; margin: 0 0 7px;">Please contact the=A0<=
+strong>Home Health Quality Reporting Program (HH QRP) Help Desk</strong>=A0=
+at=A0<a href=3D"mailto:homehealthqualityquestions@cms.hhs.gov" target=3D"=
+_blank" rel=3D"noopener" style=3D"color: #0000EE; text-decoration: underl=
+ine; -ms-word-break: break-all; word-break: break-word; -webkit-hyphens: =
+none; -moz-hyphens: none; hyphens: none;">homehealthqualityquestions@cms.=
+hhs.gov</a>=A0for questions about the following: Home Health Quality, inc=
+luding Care Compare (excluding HHCAHPS), OASIS coding and OASIS documenta=
+tion, quality reporting requirements &amp; deadlines, data reported in qu=
+ality reports, measure calculations, Quality of Patient Care Star Rating =
+(excluding suppression requests), public reporting, risk adjustment, and =
+Quality Assessment Only (QAO)/Pay for Reporting (P4P).</li>
+</ul>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<p class=3D"gd_p" style=3D"text-align: center; line-height: 1.4; color: #=
+000000; font-family: helvetica; font-size: 13px; margin: 10px 0;" align=3D=
+"center"><strong><em>Important Links:</em></strong></p>
+<p class=3D"gd_p" style=3D"text-align: center; line-height: 1.4; color: #=
+000000; font-family: helvetica; font-size: 13px; margin: 10px 0;" align=3D=
+"center"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl=
+9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzE=
+uNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9pbm5vdmF0aW9u=
+LW1vZGVscy9leHBhbmRlZC1ob21lLWhlYWx0aC12YWx1ZS1iYXNlZC1wdXJjaGFzaW5nLW1vZ=
+GVsIn0.BpYkbQBWWYxy9hGHukdlspOFPNDaz4PAKzf-A7AqkKM/s/2601788358/br/143360=
+739736-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #0000EE; tex=
+t-decoration: underline; -ms-word-break: break-all; word-break: break-wor=
+d; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Expanded HH=
+VBP Model webpage</a>=A0|=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1=
+NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGlu=
+X2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJodHRwczovL3d3dy5mZWRlcmFscmVna=
+XN0ZXIuZ292L2RvY3VtZW50cy8yMDIxLzExLzA5LzIwMjEtMjM5OTMvbWVkaWNhcmUtYW5kLW=
+1lZGljYWlkLXByb2dyYW1zLWN5LTIwMjItaG9tZS1oZWFsdGgtcHJvc3BlY3RpdmUtcGF5bWV=
+udC1zeXN0ZW0tcmF0ZS11cGRhdGUtaG9tZSJ9.VLbbNwOLUpVmHzGvA_ltJvmASyUw-Rlrdd4=
+UOgyQiIw/s/2601788358/br/143360739736-l" target=3D"_blank" rel=3D"noopene=
+r" style=3D"color: #0000EE; text-decoration: underline; -ms-word-break: b=
+reak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: no=
+ne; hyphens: none;">CY 2022 HH PPS Final Rule</a>=A0|=A0<a href=3D"https:=
+//lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI6=
+ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTUzOTEiLCJ1cmwiOiJod=
+HRwczovL3d3dy5mZWRlcmFscmVnaXN0ZXIuZ292L2RvY3VtZW50cy8yMDIyLzA2LzIzLzIwMj=
+ItMTMzNzYvbWVkaWNhcmUtcHJvZ3JhbS1jYWxlbmRhci15ZWFyLWN5LTIwMjMtaG9tZS1oZWF=
+sdGgtcHJvc3BlY3RpdmUtcGF5bWVudC1zeXN0ZW0tcmF0ZS11cGRhdGUtaG9tZSJ9.CNerlKg=
+4dRNS4ACZhPTuuG5mtZqkY4B4A5PELT1XWwE/s/2601788358/br/143360739736-l" targ=
+et=3D"_blank" rel=3D"noopener" style=3D"color: #0000EE; text-decoration: =
+underline; -ms-word-break: break-all; word-break: break-word; -webkit-hyp=
+hens: none; -moz-hyphens: none; hyphens: none;">CY 2023 HH PPS Proposed R=
+ule</a></p>
+<p class=3D"gd_p" style=3D"text-align: center; line-height: 1.4; color: #=
+000000; font-family: helvetica; font-size: 13px; margin: 10px 0;" align=3D=
+"center">Prepared on behalf of CMS under the HHVBP Technical Assistance c=
+ontract. <br class=3D"shift">The HHVBP Technical Assistance Contractor te=
+am is led by the Lewin Group and<br class=3D"shift">includes OASIS Answer=
+s, and=A0the University of Colorado Denver.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td id=3D"footer-bg" data-govdstyle=3D"all" data-govdtitle=3D"Footer Back=
+ground" style=3D"background-color: #CDCDCD;" bgcolor=3D"#CDCDCD">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-footer" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Footer" style=3D"padding: 0px;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"border-collapse: collapse;"><tr><td align=3D"center"><img class=3D=
+"govd_template_image" src=3D"https://content.govdelivery.com/attachments/=
+fancy_images/USCMS/2020/11/3835412/logos1_original.png" style=3D"width: 6=
+00px; height: auto !important; max-height: auto !important; border: none;=
+" alt=3D"CMS Lewin Group University of Colorado Anshultz Medical Campus O=
+asisAnswers" width=3D"600" height=3D"64"></td></tr></table>
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2017/09/1526053/hhvbp-footer_original.png=
+" style=3D"width: 600px; height: auto !important; max-height: auto !impor=
+tant; border: none;" alt=3D"" width=3D"600" height=3D"40">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <style type=3D"text/css">body .abe-column-block { min-height: 5px; }<=
+/style>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNjA3Mzk3MzYtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwNTUzOTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDU1MzkxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NjYyJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_737_AF35_1700A469.71CFD7D3--
+

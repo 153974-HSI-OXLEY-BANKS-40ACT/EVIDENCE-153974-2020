@@ -1,0 +1,339 @@
+From - Sun Aug 28 22:41:44 2022
+X-Account-Key: account1
+X-UIDL: AIEQt4EKEKDNYr+XSQ2MwCCsU9M
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.107
+ by atlas307.free.mail.ne1.yahoo.com with HTTPS; Sat, 2 Jul 2022 00:54:33 +0000
+Return-Path: <bounce+217b39.61decd-ms60710444266=yahoo.com@statusupdates.granicus.com>
+X-Originating-Ip: [23.253.183.146]
+Received-SPF: pass (domain of statusupdates.granicus.com designates 23.253.183.146 as permitted sender)
+Authentication-Results: atlas307.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@statusupdates.granicus.com header.s=mailo;
+ dkim=pass header.i=@mailgun.org header.s=mg2;
+ spf=pass smtp.mailfrom=statusupdates.granicus.com;
+ dmarc=pass(p=NONE,sp=NONE) header.from=statusupdates.granicus.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 2 Jul 2022 00:54:33 +0000
+X-YMailISG: q.Zdw9wWLDvyZDOTUx_a01o72CTZ3rS0sLa.RyYnalMEXybe
+ wbZux2Bme8_BTCljsnaVOq9EIhd.tCwX8oBPmLMC5.hImweBVpERS1HCORdc
+ 0DVGz14VEYUwoFxpmJGl1NaR7GyewQ17vS0V2hLG6eDjP474qR4UT7bPDO_q
+ _CZZUYBDHmbjeyACWE.eHUwk91S3nPc0B0mT9aM0e0t1xFaeMjeQuXDlMpZN
+ IdRi7Zjfxhe55l.3_hhlIUUIndaS.f4GsMNDODJ5kob05nJ5rWgX_coDK_RW
+ _8HkLiI79xceJEeIORSckXyjAgi1LIWItNBTMIb_fckV5u8brt2vQsREKiFr
+ .vfMFQ5Ebi.cep4nxocgJiKMKAPCqinbfyKoURdks91n4yiwi0xVGa6JvbOe
+ DbhSpKBOzPn0jeS6Do6QhqbgfRzAghwq9YnqQ.KwdS4ef.z8SBciuUdJDezA
+ zmRklnFgaa4QVESqfyjH8O9GQ17nxKfvsLO8BRCSTkEDgnFat.0huifb4y7H
+ 4yywnaoRRD_rHg50NnbJ9FfqyMIuZ_uk5_B6y_c2HmA5mRUO8zwAfhucQP_8
+ Zi64RtKoWiif057zly8yGB.kzi3VQjWuKv5D3VjZIoMOcIriDpTZZCoJaBZ6
+ UyqW6CEQVaims.Gbv3uYZ1wVEX1gqI7mlgWPolu.ICW75ZudPQXimLeWq_SU
+ c6sKPgbdHOxoVdrfsdgpNCw1x_dWsQ_cRTnt0ArA6Y4ysTJODr3myTRThbuY
+ Fd3bD4PP9OYkTB76cR17tzZ.JURV6DhKqfSjWy1JcG7At5W_WLrPstetspAS
+ 7qZCy3NtdPbRkYMrzUTW67wFR2ssusfOkP6etns_w1tTmqws4l2CQqD2iRjc
+ QCNAF0v1t_BXbPngd_aU.lTUvBbt27hunnlKwa5jyDXFODZRAjASgRFPPnK1
+ BdagXNBL2KIq11DEFh7bXdCbuAIqg.Kl5fvjMuCWbr8n2KaFMqOI8TO9OesY
+ 6a_5BrLUExpCKwgfS2LIiR2gkv7_7uqaRT5hjWUITigfSrTdAvnOLMaBrj9h
+ 6VeAo5ALNlQ3DOitrkG_Wmz0MCE9Zo6K9AZqoVYtZoAVumTl5I7v1.fXrEi2
+ eKaWOsKZoKqM.Sk_3dPjbirmfpBRQVaap9V29JdnX8V2Vauf3zwfN.m.XUhm
+ .5fu2JXVkSIL54QHAMwiduyPOEv6LZGYCwIAXlaEkKbBwBW1OX.c4BLoPusr
+ yQ--
+Received: from 23.253.183.146 (EHLO mg.stspg-customer.com)
+ by 10.217.135.107 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 02 Jul 2022 00:54:33 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=statusupdates.granicus.com;
+ q=dns/txt; s=mailo; t=1656723273; x=1656932073; h=Message-Id: reply-to:
+ To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date:
+ Sender: Sender; bh=55TyKDHAbKqEsb8xMDTzNjuMuI8hNCWOI7ySMo0Kkzc=; b=XwsLpP7H0uU28oVhW8ACDlZzLu0ibWAU2CAIFwPIf4u7yEiNZ6lTsl3zFRA7sqSSRF8rpiT4
+ ZaPOpDpEthR+1LCEsDgpFUl4d6kx8L+j7V18GrjULBv6E9QDXSI1Evrlry5dnBQTIUXhJGJr
+ mdEjcVyAnreYTGbrpjtk6oa+QMQ=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg2;
+ t=1656723272; x=1656932072; h=Message-Id: reply-to: To: To: From: From:
+ Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender;
+ bh=55TyKDHAbKqEsb8xMDTzNjuMuI8hNCWOI7ySMo0Kkzc=; b=BbjM4DukBP79jJoTf6Dq8NZUc+K484NQlVnFaGFdSyxoDTUlJZhXfdJ4QqjH5Pbj3AXfgLZ8
+ Uo4Wp+OpRwU0KU/y/jzsjwN5ly645zdPrZl3alAqrdQD0uz3g8pnESiiUHS+DvUP7zYnCHlF
+ GpaAPvYeUjtV6ELRGgVrLK3TQUU=
+X-Mailgun-Sending-Ip: 23.253.183.146
+X-Mailgun-Sid: WyI1YjZmMSIsICJtczYwNzEwNDQ0MjY2QHlhaG9vLmNvbSIsICI2MWRlY2QiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n11.prod.us-west-2.postgun.com with HTTP id 62bf9743d0828f149f4b5b45;
+ Sat, 02 Jul 2022 00:54:27 GMT
+Sender: noreply@statusupdates.granicus.com
+Date: Sat, 02 Jul 2022 00:54:27 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=dcc789d905d2eec266102af386ab767467935dea7b3cde4c7a610f5e79d6
+Subject: [Granicus System status] Confirm your subscription: Granicus Issue
+ Notification: Short Term Rentals
+From: Granicus Status Updates <noreply@statusupdates.granicus.com>
+To: ms60710444266@yahoo.com
+reply-to: support@granicus.com
+Message-Id: <06cffd5a-547c-42a1-9c7d-bbd4737ed9af@statusupdates.granicus.com>
+Content-Length: 15603
+
+--dcc789d905d2eec266102af386ab767467935dea7b3cde4c7a610f5e79d6
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=ascii
+
+Granicus System - Granicus Issue Notification: Short Term Rentals : Notification Subscription Confirmation
+
+Thanks for subscribing to Granicus System status updates. You're almost done - we just need to confirm your subscription.
+
+In order to activate your subscription, please go to the following URL:
+
+https://status.granicus.com/subscriptions/confirm/bWLogAUc-aoTsb4c
+
+
+--
+Granicus System Status: https://status.granicus.com
+To unsubscribe: https://status.granicus.com/?unsubscribe=28qvg0z2sp0w
+
+You received this email because you are subscribed to Granicus System's service status notifications.
+--dcc789d905d2eec266102af386ab767467935dea7b3cde4c7a610f5e79d6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=ascii
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title></title><!--[if !mso]><!-- --><meta http-equiv=3D"X-UA-Com=
+patible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-=
+Type" content=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" conten=
+t=3D"width=3Ddevice-width,initial-scale=3D1"><style type=3D"text/css">#outl=
+ook a { padding:0; }
+          .ReadMsgBody { width:100%; }
+          .ExternalClass { width:100%; }
+          .ExternalClass * { line-height:100%; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-=
+size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-de=
+coration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }</style><!--[if !mso]><!--><sty=
+le type=3D"text/css">@media only screen and (max-width:480px) {
+            @-ms-viewport { width:320px; }
+            @viewport { width:320px; }
+          }</style><!--<![endif]--><!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]--><!--[if !mso]><!--><link href=3D"https://fonts.googleap=
+is.com/css?family=3DDroid+Sans:300,400,500,700" rel=3D"stylesheet" type=3D"=
+text/css"><link href=3D"https://fonts.googleapis.com/css?family=3DRoboto:30=
+0,400,500,700" rel=3D"stylesheet" type=3D"text/css"><link href=3D"https://f=
+onts.googleapis.com/css?family=3DUbuntu:300,400,500,700" rel=3D"stylesheet"=
+ type=3D"text/css"><style type=3D"text/css">@import url(https://fonts.googl=
+eapis.com/css?family=3DDroid+Sans:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=3DRoboto:300,400,500,70=
+0);
+@import url(https://fonts.googleapis.com/css?family=3DUbuntu:300,400,500,70=
+0);</style><!--<![endif]--><style type=3D"text/css">@media only screen and =
+(min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+=2Emj-column-per-85 { width:85% !important; max-width: 85%; }
+      }</style><style type=3D"text/css"></style><style type=3D"text/css">.e=
+mail-logo-image {
+  max-width: 320px;
+  max-height: 100px;
+  width: auto !important;
+  height: auto !important;
+}
+
+@media only screen and (max-width:450px) {
+  .email-logo-image {
+    max-width: 250px;
+  }
+
+  .content-section > table > tbody > tr > td {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .incident-link > table > tbody > tr > td {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .header-spacing > table > tbody > tr > td {
+    padding-top: 45px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+/* border-radius, border, and border-collapse: collapse do not combine well=
+=2E */
+/* when we do have embedded (discrete) css, override this to put the border=
+ on the outside div, not on the table cell. */
+div.content-outer > table,
+div.content-outer > table > tbody > tr > td {
+  border: none !important;
+}
+
+div.content-outer {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  border: 1px solid #e6e7e8;
+}
+
+=2Eemail-body a, .email-body a:hover, .email-body a:visited {
+  color: #ee0009 !important;
+}
+
+      a[x-apple-data-detectors=3Dtrue] {
+       color: inherit !important;
+       text-decoration: inherit !important;
+      }</style></head><body style=3D"font-size: 16px; line-height: 24px; fo=
+nt-weight: normal; font-style: normal; background-color: #fdfdfd;"><div sty=
+le=3D"background-color:#fdfdfd;"><!--[if mso | IE]><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"header-spacing-ou=
+tlook" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0=
+px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class=3D"h=
+eader-spacing" style=3D"Margin:0px auto;max-width:600px;"><table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0p=
+x;padding:20px 0;padding-bottom:30px;padding-left:0px;padding-right:0px;pad=
+ding-top:30px;text-align:center;vertical-align:top;"><!--[if mso | IE]><tab=
+le role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><=
+tr><td class=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]--><d=
+iv class=3D"mj-column-per-100 outlook-group-fix" style=3D"font-size:13px;te=
+xt-align:left;direction:ltr;display:inline-block;vertical-align:top;width:1=
+00%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top;padding-=
+top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"><table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D=
+"100%"><tr><td align=3D"center" style=3D"font-size:0px;padding:10px 25px;pa=
+dding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-br=
+eak:break-word;"><div style=3D"font-family:-apple-system, BlinkMacSystemFon=
+t, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'He=
+lvetica Neue', sans-serif;font-size:13px;line-height:1;text-align:center;co=
+lor:#000000;">  <img class=3D"email-logo-image" src=3D"https://dka575ofm4ao=
+0.cloudfront.net/pages-email_logos/original/924/Granicus_Horizontal_OnWhite=
+=2Epng" width=3D"320">  </div></td></tr>=
+</table></td></tr></tbody></table></d=
+iv><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></tabl=
+e></div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"content-outer-outlook" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class=3D"content-=
+outer" style=3D"background:#ffffff;background-color:#ffffff;Margin:0px auto=
+;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"background:#ffffff;backgrou=
+nd-color:#ffffff;width:100%;"><tbody><tr><td style=3D"border:solid 1px #e6e=
+7e8;direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left=
+:0px;padding-right:0px;padding-top:0px;text-align:center;vertical-align:top=
+;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td class=3D"content-section-outlook" width=3D=
+"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"content-section-outlook" style=3D"width:600px;" width=3D"60=
+0" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exa=
+ctly;"><![endif]--><div class=3D"content-section" style=3D"Margin:0px auto;=
+max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td =
+style=3D"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:40px;pad=
+ding-left:40px;padding-right:40px;padding-top:40px;text-align:center;vertic=
+al-align:top;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-al=
+ign:top;width:520px;" ><![endif]--><div class=3D"mj-column-per-100 outlook-=
+group-fix" style=3D"font-size:13px;text-align:left;direction:ltr;display:in=
+line-block;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><t=
+d style=3D"vertical-align:top;padding:0px;padding-top:0px;padding-right:0px=
+;padding-bottom:0px;padding-left:0px;"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"c=
+enter" style=3D"font-size:0px;padding:10px 25px;padding-top:0px;padding-rig=
+ht:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;"><div sty=
+le=3D"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', =
+'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif=
+;font-size:13px;line-height:1;text-align:center;color:#000000;"><h2 style=
+=3D"margin: 0; font-weight: normal; font-size: 26px; margin-bottom: 30px; c=
+olor: #201b2d;">Confirm your subscription</h2></div></td></tr><tr><td align=
+=3D"center" class=3D"text" style=3D"line-height: 24px; font-weight: normal;=
+ font-style: normal; font-size: 0px; padding: 10px 25px; padding-top: 0px; =
+padding-right: 0px; padding-bottom: 0px; padding-left: 0px; word-break: bre=
+ak-word;"><div style=3D"font-family:-apple-system, BlinkMacSystemFont, 'Seg=
+oe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica=
+ Neue', sans-serif;font-size:13px;line-height:1;text-align:center;color:#20=
+1b2d;"><p style=3D"font-size: 16px; line-height: 24px; font-weight: normal;=
+ font-style: normal; margin: 0 0 35px 0; color: inherit;">Thanks for subscr=
+ibing to status updates.<br>You're almost done - we just need to confirm yo=
+ur subscription.</p><p style=3D"font-size: 16px; line-height: 24px; font-we=
+ight: normal; font-style: normal; margin: 0 0 35px 0; color: inherit;">In o=
+rder to activate your subscription, please click the following link:</p></d=
+iv></td></tr> <!--[if mso | IE]> <tr><td align=3D"center" vertical-align=3D=
+"middle" style=3D"font-size:0px;padding:10px 25px;padding-top:0px;padding-r=
+ight:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;"><table=
+ align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"border-collapse:separate;line-height:100%;"><tr><td =
+align=3D"center" bgcolor=3D"#9bca68" role=3D"presentation" style=3D"border:=
+none;border-radius:3px;cursor:auto;padding:10px 25px;" valign=3D"middle"><a=
+ href=3D"https://status.granicus.com/subscriptions/confirm/bWLogAUc-aoTsb4c=
+" style=3D"background:#9bca68;color:#FFFFFE;font-family:-apple-system, Blin=
+kMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Dro=
+id Sans', 'Helvetica Neue', sans-serif;font-size:13px;font-weight:normal;li=
+ne-height:120%;Margin:0;text-decoration:none;text-transform:none;" target=
+=3D"_blank">Confirm subscription</a></td></tr></table></td></tr> <![endif]-=
+-> <tr><td align=3D"center" style=3D"font-size:0px;padding:10px 25px;paddin=
+g-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:=
+break-word;"><div style=3D"font-family:-apple-system, BlinkMacSystemFont, '=
+Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvet=
+ica Neue', sans-serif;font-size:13px;line-height:1;text-align:center;color:=
+#000000;"> <!--[if !mso]><!--><a role=3D"button" style=3D"display: inline-b=
+lock; padding: 12px 35px; background-color: #2fcc66; color: #fffffe; text-d=
+ecoration: none; font-size: 14px; font-weight: bold; border-radius: 3px;" h=
+ref=3D"https://status.granicus.com/subscriptions/confirm/bWLogAUc-aoTsb4c">=
+Confirm subscription</a><![endif]--><!--> </div></td></tr><tr><td style=3D"=
+font-size:0px;word-break:break-word;"><!--[if mso | IE]><table role=3D"pres=
+entation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td height=
+=3D"20" style=3D"vertical-align:top;height:20px;"><![endif]--><div style=3D=
+"height:20px;">&nbsp;</div><!--[if mso | IE]></td></tr></table><![endif]-->=
+</td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td></=
+tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></=
+td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></d=
+iv><!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" widt=
+h=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-r=
+ule:exactly;"><![endif]--><div style=3D"Margin:0px auto;max-width:600px;"><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direction:=
+ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-left:0px;paddin=
+g-right:0px;padding-top:0px;text-align:center;vertical-align:top;"><!--[if =
+mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:510px;" >=
+<![endif]--><div class=3D"mj-column-per-85 outlook-group-fix" style=3D"font=
+-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-alig=
+n:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align=
+:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"><tr><td align=3D"center" style=3D"font-size:0px;padding=
+:10px 25px;padding-top:0px;padding-right:20px;padding-bottom:0px;padding-le=
+ft:20px;word-break:break-word;"><div style=3D"font-family:-apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'D=
+roid Sans', 'Helvetica Neue', sans-serif;font-size:13px;line-height:1;text-=
+align:center;color:#000000;"> <table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"25" style=3D"height:25px=
+;"></td></tr></table>
+  <a style=3D"font-size: 12px; color: #AAAAAA" href=3D"https://status.grani=
+cus.com/?unsubscribe=3D28qvg0z2sp0w">Unsubscribe</a> <table role=3D"present=
+ation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"2=
+5" style=3D"height:25px;"></td></tr></table>
+  <span class=3D"footer_powered_by" style=3D"color: #AAAAAA;font-size: 12px=
+;"><a style=3D"color: #AAAAAA;font-size: 12px;" href=3D"https://www.atlassi=
+an.com/software/statuspage?utm_source=3Demail&utm_medium=3Dpowered-by&utm_c=
+ampaign=3Dstatus.granicus.com&utm_content=3DSP-notifications">Powered by At=
+lassian Statuspage</a> </span> <table role=3D"presentation" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"60" style=3D"height:60p=
+x;"></td></tr></table>
+ </div></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]>=
+</td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso |=
+ IE]></td></tr></table><![endif]--></div></body></html>
+
+--dcc789d905d2eec266102af386ab767467935dea7b3cde4c7a610f5e79d6--

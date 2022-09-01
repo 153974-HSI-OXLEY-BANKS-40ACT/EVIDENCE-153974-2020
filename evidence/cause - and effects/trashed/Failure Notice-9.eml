@@ -1,0 +1,577 @@
+From - Wed Aug 31 19:13:13 2022
+X-Account-Key: account1
+X-UIDL: AK9EzMo/pUKkYw/4CglmQDDUREM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Thu, 1 Sep 2022 00:08:42 +0000
+Return-Path: <>
+X-Originating-Ip: [74.6.129.125]
+Received-SPF: none (domain of sonic309-15.consmr.mail.bf2.yahoo.com does not designate permitted sender hosts)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=bounce;
+ spf=none smtp.mailfrom=sonic309-15.consmr.mail.bf2.yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 1 Sep 2022 00:08:42 +0000
+X-YMailAVSC: OOGiUdY3bBs19J7YYXOfX8wo4On_zInSRuIdr9Ifeg02d5f
+ Xf4pqWDtskRNgTI3urQAZReHTbLgTA61imq_._k3PDMTXXIh4olA3NuTBK.F
+ 1Uwsnc0YYYdTvy2uULm8W_zPp3MBzLgrmWkU1hI2QGKdEb4w1YSmfdj21g5H
+ D28Y..KKE4z9CRcjI0PAZinVwquoJuonlFn7CY8YsIhQVepfxtxk5XHv65yU
+ BZ4QHvKr0sbSrybs8mH9U5Cc7i9KdHynu3qKOw76uqXhgOYI72py2N9PeBCe
+ ie4IyMo8BBJ572NpRNqlvyqlYDUSzqnLplZ2KQsan3a44NTz76hWu6_lPiSl
+ _BbiobM.OzKC98q3bleffssuhES6osdCqt6usdUcQHkJcMg0f3f9CKVfHNxl
+ ex.hriYIPhsxaagiDHytJXl52uc7Ku2RO5yFlzouUcyuTP7QACz.z1_xzHSU
+ ZczoL5_eTOMMiKf.WGHrTq.6et2V2doGm2nbPyHK0Z_g0gOm.OAsS0niblBy
+ v5gmeK2J7g328yK503NpUdXSIhMJZKZl4tpULDghPKBBwV7haL2LWvWhNscr
+ 0JaWzWn6eMajHr0HT80M6MSJQ12z7mIBZoYY797VHOIinfsEiqLF2Jl1.9br
+ Q6zFMy0u0L4JjmCnZCPXWW1M33DFl7G2y_wLQKaewtrdoLVZbEVq2opRtq1l
+ MnMQWOLsM3zTyENP_BZY.VAijrhgz9Q2NVk1_ftNSjHlk5N4JUB39ymTFEyQ
+ EI69M3sT24wIJqmSmShmMVTEv8fbrM8gCGDSmDoyuCxxfRrFbe8bzePNzFlg
+ rdgZCA4AHyft4qmQ0iIh9VW1ScOBXlsy8fEkZd_cRC5NSmnCrrFLFsSTQ0XK
+ U0_3QOIOlUz_soIP_4l0UB8_eXnz1.6SE0u6.s9P6r2eXBqWy6FsssDFVABb
+ OOu1rN5t8uI78zKgCVRcK.lTy6SFTzQZZlFhVyMm8FBlC7sY__Is.3ISJU8q
+ opOcjdMqslPUAhMwOXO4z3aGnGtos
+X-YMailISG: yx0vFdgWLDtF6CMBkkxFwU63vervZBV_9jBXSzy6VpRfS1W3
+ 3N0ENOAAVhcr2JcACh20pCNftwQajwyqU2s7EMvFnWoNRRGPouVAYr6_a_zg
+ 5nHOplLIqSz_jALux5TL1z_3NuyJOSBdMzYfMIymXB1I2OfCJxVLrBfm.YL1
+ f5YPd1eGk4K7qj..1InZ9fd4mptZTHfdvG8aAdTrX0dMDu_3xqpz1hnWvL4Q
+ FURuNr9KglND30VU2qEMycefSHibSOqSdWX9n_X0.715mvTK.TokGX4lH2_H
+ 2LernG.R5hAY1avyLhtFLpfbAEPXfAffsupgCS7eg5vUKdjN1q8NJ4sAbET.
+ MyB_rqByT4DneP1gxOkyAr2bC0nv47V_hSWczj5dZcq9TMzobd1jdiR4nLvw
+ .1_FUM_HectIPV_b9ozbDROPCbtLJJnVm50.k6m_pKESLvSQNbJCGYNm647m
+ xF0bj4mBPLfumsZYLeD40mxC7lBLk_w73ljok1byoGvsWE_5OYYUEoCrAbVR
+ 7FoUgnL9mB7FoTxVt56U2CrhOzqnoN.b.Yem3hO5oSM6Yv7X4gh6p96XIMmk
+ zcBOeP7kQxox3LiiqufU9AHwjgloazK0Hdt2ZGObVPXzOEyItMkcba2Q6BJL
+ PokGZ6VFPSLCtf_9gl.Kce2fgC_DBpfS2.N2C3GtgGM2FH6dmzTgCuBFgG_l
+ 66B8ravFsg7PgKYh.M0BNMZdzWazEuTS6H_5dM_Xkg3pvoMPIGdawCnK3fIb
+ P_4_B4x3aITBMj5gsn9X.Lo.mlxH3AwIlptzbVXcmAfgCD7hLGDkL2qCmGss
+ SC7DFqlAkoTQAgGWwWR2cvyi25GmDmP3VSjJ8e6eGK8TAQef..x9mtO21WXD
+ mN08qRqRBCshbW3lH5VLufDsQtVobh7cY..VaZPMxGJ2Tj7yqs1Wm_N9rj0h
+ 70z2WHH1Ll44.bTOYm0wOtzMBYlogdsHvjrZEJHs1GFeaHS5vKSUC.rSLiMx
+ iTTUAu0rMUQVUGbLKTx.o3DaqYkbMDHqDfyOfa0JtuRCErMwF2fptjH7limA
+ Lqn30mrruj1m1C3Ya89m2IiE09KLmGtxlxw3CeB6QoR0xNFEzBcyps5mQNv.
+ K.6.zOawhkCtpx5Ci2PAwxXXIsKf_P5LgCNH5NM_LhSip1e4_zNpOQdMv6ru
+ jzCvrMY7JdMGQyeckUFJMZVjaGX4Q6LS_GYwpQRKHTW_A_Cvj4ApS7b4eICd
+ xyR5gUpt
+Received: from 74.6.129.125 (EHLO sonic309-15.consmr.mail.bf2.yahoo.com)
+ by 10.253.62.152 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 01 Sep 2022 00:08:42 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=bounce; t=1661990921; bh=0NXZb2UffJHXTtLUyVaJ941pFsbImIKhh6kNx4TkTEA=; h=Date:From:To:Subject:From:Subject:Reply-To; b=euifyMrSEqw01v87Tp0bsKdVBeADTfcrnAjb5Tm8kTb9vKO6cmQoTYdyvnJcdKpvpXQbJkrPMbyxVCY+YLgPPbJvehLV6y9yJwGUr1PhKlTn/tcyN23+vjOFFYlTxgnZZtrYOrntAuVFAsVFePIbRALrmGmXj+VId5QgMhWtz2c=
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661990921; bh=2tLWqkIJO6zG5sWwmnScBgsAvnKR8lxOq2SzK/Jcon6=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=mejHKDLUk15HnWh1OQPrL7ms6mtGAMm1rm3yaPk7cEPfpo/dqIERB4KUb/C5EkESkB0mDNCN99kLvw1fQnUfyh8WxG5jO7k0USWD6ZGdkilnV9wxaX5BaSn8N/KGhJKNZlrQ2RE6ouEJ4Mbm1j7KhxPyJzW+jKO9JHjis4BnD+pBlEWpCHHluIn3bPlzBXunUM9zme0NNFAJUSEM9CRA4k1kQYKBp83xPhze8csIU4fMjKNr5PLoAO/A5sjGmfJujmtAxqKMMTkoFN5eQ4g6WTa5n2FJ+lGEWvLj9hN0ZsucMEebowUnpqYUYYSh3aDCVWFt3PYVt2/22IK8Bb6acw==
+Message-ID: <1564558544.4526415.1661990921479@yahoo.com>
+X-Sonic-MF: 
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic309.consmr.mail.bf2.yahoo.com with HTTP; Thu, 1 Sep 2022 00:08:41 +0000
+Date: Thu, 1 Sep 2022 00:08:41 +0000
+From: MAILER-DAEMON@yahoo.com
+To: ms60710444266@yahoo.com
+Subject: Failure Notice
+Content-Type: multipart/report; report-type=delivery-status;
+ boundary="-=Part.2dc853.52409c528efaae65.182f660e506.d76ed4c5b0265342=-"
+Content-Length: 30989
+
+---=Part.2dc853.52409c528efaae65.182f660e506.d76ed4c5b0265342=-
+Content-Type: text/plain; charset=UTF-8
+
+Sorry, we were unable to deliver your message to the following address.
+
+<queensBBCJAIL@gmail.com>:
+550: 5.1.1 The email account that you tried to reach does not exist. Please try
+5.1.1 double-checking the recipient's email address for typos or
+5.1.1 unnecessary spaces. Learn more at
+5.1.1  https://support.google.com/mail/?p=NoSuchUser d7-20020a05621421c700b0049732814407si9662261qvh.19 - gsmtp
+
+---------- Forwarded message ----------
+
+---=Part.2dc853.52409c528efaae65.182f660e506.d76ed4c5b0265342=-
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661990921; bh=QwfphwMqzMPOQkgN+tnV3mFC7Pc+8cqd4wACNsGfsQ0=; h=Date:From:Subject:To:Cc:References:From:Subject:Reply-To; b=N1M5YsOB5p+Et3xf2yVfolDSmtOjG3Nnjan5roiH7DJvQbS2l9oygBF8zz2VaYQgUGoBmZmCsUA3quog8+FU7IrkfXbwGB22rdB109Kg/dAt+W/TotmQ8XIhMflE3f1EuPpOGvMhwqAxMFio+R/e81CKCFi9MQPAYeoQliW41JxtLAfl7D5d6V1bEzvIiNFTdnAkysze762g52B5Cd5bl9gjhGiTDHw/4AcgYaq1K7b1yqTToo8skU1sHYas5wF3Lj6Vhyx1HczVBKL6GPBGq2PkqjRiD4Njo3K+BivlchRgbXSrwrbqrPDpqfq853elzEM591yFovXjR1O88VTTGg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661990921; bh=vp/qTAxL2RUbWYbbWiByW8GFyMSEHtUlCmU6VEv/bN+=; h=X-Sonic-MF:Date:From:Subject:To:From:Subject; b=YuDUBhaLN4hOAORRcbv/oIwOxKzIq2F8WSIw66zaBUL/mIJuTNCy1AX/HAmPzq9Rgx5wxCGeTmMTX79ZS3WRU2laAj8q3r/JWcocuKzDwnsRn5nPQUHx9sXgD9NGZkvI5+rE634rI2/5KKKahvkCmMtiRzjstBiRTjs5cvstJnzCO/YNySqIhyNQvBRJoJ3RwFWEVfE4HAqlZCU+SZjfsXBomi5cIAWWbLdz3X38/SiQeMDCo66zS1+iW7zeTmb4nDVzNE5DZmIHGxu/Csdz3Ov3U4D/W5GDOUgCnXvxnL/Eld7zEl7IJ4Wt7dEcn2w9BQVMRB/5UuB2TEuTnl3xCA==
+X-YMail-OSG: 25CB3vUVM1nYt.Iza.IAl9gOZ.egX0YvuDDlotHIPxNCuMiGgzQpVTgABl2jH7z
+ S9lR2N.SKUVzPbmxdhra4KiNWxtqRNeP2qHSRbVVydfYEyCjj0A20UXkLSlnSnfPvBSVrtMC.s_P
+ h7LAKpJgr0TifMA9iUwX9SmABiPde3cvfnUULmEWvv3UMySVC3mEJxq0DcO5nApdn3.2GSw4B1Fq
+ 2ITC_mAMwul5Y_8u0ybBRm1mxhHjqQwU8T8nZIekO4HoXGL1e.kE70HL1AWW7Qnp6lcxAM8XPLkj
+ J5hy_V1tDyOER_DE.Nbc1_3PzhZUs8Zhq9SjkS5SFKNjBWzDOPh6V6zSCfDGusI7e1_5J1ChbG6g
+ ftKRItQQVpJuhboWcO4KBQKaKkvI_ehjCFeWQV5jX7NeJ_jpzhyWUSk8DbO7SekE4D7QAA7LhEba
+ etvFqTBHfYzukyAoIXXSuvMoA6paNV2tAnL4QiZsC.2oYIJ9Qvh6aadXlCiyBFrP9no.l2lHSczu
+ UQRMW6EO1_x0eG05igbP1IMKbVPdckwIGQPv4n4F8auAzXtpc62ArlG.tF2AdXfaY7PZ6ETzy16_
+ QLokRpd9OsQsULW5KJMJ2Zof65krhanEr1hNojx7zoUCSOQGKzbsj.9AAS_rsaK2CKT7rD41cBBb
+ imIlPXsxD9cj8ZHi4aSZnuQb7Wxdg8ObgO4uKxpI_ZFmXOk.oM1FvCMkXkmM1XhbzLS3lFwP_xXH
+ JhW7kYCVDP4o_W4hwYEGklwt8wbn6i11PjzNmHB5CPfejZC3ztNILLmMRG82Vi71G2r.C3f6BiSm
+ PcW9ns4a5FOPLnmNJr3UdzISWdzem.sP1hLg1HPzYqQMv5CoLZLEZDwuWXEp7usKvNdYA9TPymxF
+ 1wizP_mbteKlp9ujSt4KB6KnCBgw_57o2QxUE4l0lql3sVVXnXQ2m1MnpzSMyLWuu67As2.IIM_m
+ JeTYqdSgJIt87pd.EQmZTeYA0l7SXd6XRVLF71gRm6D6toOK8ug98KKeNJag95ovFbtjglVNDXP.
+ _S3OzzienhNdMGGm.yc7ppHhHG39mylv0amm01_l.n6X79SWstJV0IzsD41_wY4rya3mYlZRGth1
+ 0_QNYY12XScxrDYHMLmD691W9krxj3nXtx.Qe7L5NqHuvmWrJton8lHx1ftviGjTrrU27USZ5Ww1
+ G8P5oEr7Sx6UJmG1c9S5ZMMakMOJkMRz37ZtQTIxrghtZSsFr6vKxf9gQ66i80p9YYjJDw04n.CC
+ FE06h02LVOcvrZBknr_WD4TvJFeigLsCjsHf2TtrQmgvZzIrpfKaRV7x50KT8T9HWELtpYvRroHQ
+ EDdyr_tBizfkNh_6cMX3x8kzG5tdqvFVdhRNJwGGqG3m0e92hpyzJKbu1Gdm5i7vFU2XAimw3tvN
+ ue.OpgsCEcUE2XT7Xlq0DMcY.6elwRG5YNYbz2nvLmEUVZBTNVvsJkyjW8iHJiddR84ku3Fn3VIl
+ uK031kuCwchyvYMew4SeTRrPCrHyHoq4NC2lTAar_spQQyNNF1OZgMjm5BF2c1kkdhcc0.kf7Vpj
+ UqCeGlcmaPdosKClHtfXRhIBJmdiN0Z2gZvof1xlZmwUV2kXIuJb8WEBHHleM4wDfQ4CYL_SCedE
+ U.lfjs33xqAm2MQyx_3M3RxMP2QCI1VmZLwUtRXhWVLYcSpdiPFe6QVI2WBt_cwfa0bDFXVfM4dJ
+ rBixd8_rw2tbUVcF.R.xjFMsfzeyCkV_zF.D.o3Ljyseh0qbwZvoTVXC0suN.N2oW_VC3IpR7MeM
+ cexPuirJeAyZt3P483CO0n3sAFTUfv_p2moOfXkjOASEfx5UUwiJMFy50ouuxdjYVdmMQGJjRA_2
+ 1925BhkdaLJL4R2BWynKRU7ENglmHU3NyLRu2yjadiH_qX3dBMkveyl7O909liCg4._xennAqMsZ
+ wIlAanLfnhw19dg.LY46KQDfZguVdAvWSgqggjx3ylD9cNM2ZQ8Q_oeVAy_JsnwXK3jo_UjPODeM
+ gBgYv6Z9B5.kpnxBMvTfM
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic309.consmr.mail.bf2.yahoo.com with HTTP; Thu, 1 Sep 2022 00:08:41 +0000
+Received: by hermes--production-gq1-8697bfdb94-kllns (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID f22c4d9c78ab2ae626987cc05cb84ca4;
+          Thu, 01 Sep 2022 00:08:34 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------FhlPkNbqpgD0RDw8fQ0kdVR2"
+Message-ID: <1e4c1179-193f-6b09-6364-bad6c75e5dfe@yahoo.com>
+Date: Wed, 31 Aug 2022 19:08:13 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: FELONS WITHOUT A RECORD
+To: "leb@fbi.gov" <leb@fbi.gov>,
+ "CFPB_Litigation@cfpb.gov" <CFPB_Litigation@cfpb.gov>,
+ "ICIGHotline@dni.gov" <ICIGHotline@dni.gov>,
+ "helpdesk@leo.gov" <helpdesk@leo.gov>,
+ "bdincer66@icloud.com" <bdincer66@icloud.com>,
+ "9173783467@tmomail.net" <9173783467@tmomail.net>,
+ 646-256-3609- 917 <6462563609@mms.att.net>,
+ "helpdesk@listserv.leo.gov" <helpdesk@listserv.leo.gov>,
+ "smcman@fbi.gov" <smcman@fbi.gov>, "smcgibbon@acus.gov"
+ <smcgibbon@acus.gov>, "fbilatenthit@leo.gov" <fbilatenthit@leo.gov>,
+ "emil.herzog@goodnewsjail.org" <emil.herzog@goodnewsjail.org>,
+ "queensBBCJAIL@gmail.com" <queensBBCJAIL@gmail.com>,
+ "DAF.privacy@us.af.mil" <DAF.privacy@us.af.mil>,
+ "ACSInspectorGeneral@doi.nyc.gov" <ACSInspectorGeneral@doi.nyc.gov>,
+ "CISA-GatewayHelpDesk@cisa.dhs.gov" <CISA-GatewayHelpDesk@cisa.dhs.gov>,
+ "carmen.zapata@cisa.dhs.gov" <carmen.zapata@cisa.dhs.gov>,
+ "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>,
+ "vehicle.policy@gsa.gov" <vehicle.policy@gsa.gov>,
+ "WoodsNYSDChambers@nysd.uscourts.gov" <WoodsNYSDChambers@nysd.uscourts.gov>,
+ "helpdesk@nysd.uscourts.gov" <helpdesk@nysd.uscourts.gov>,
+ "WoodNYSDChambers@nysd.uscourts.gov" <WoodNYSDChambers@nysd.uscourts.gov>,
+ "VyskocilNYSDChambers@nysd.uscourts.gov"
+ <VyskocilNYSDChambers@nysd.uscourts.gov>,
+ "Torres_NYSDChambers@nysd.uscourts.gov"
+ <Torres_NYSDChambers@nysd.uscourts.gov>,
+ "SwainNYSDCorresp@nysd.uscourts.gov" <SwainNYSDCorresp@nysd.uscourts.gov>,
+ "CA02_RJSChambers@ca2.uscourts.gov" <CA02_RJSChambers@ca2.uscourts.gov>,
+ "ca02_AJNchambers@ca2.uscourts.gov" <ca02_AJNchambers@ca2.uscourts.gov>,
+ "CronanNYSDChambers@nysd.uscourts.gov"
+ <CronanNYSDChambers@nysd.uscourts.gov>,
+ "failla_nysdchambers@nysd.uscourts.gov"
+ <failla_nysdchambers@nysd.uscourts.gov>,
+ "Furman_NYSDChambers@nysd.uscourts.gov"
+ <Furman_NYSDChambers@nysd.uscourts.gov>,
+ "HalpernNYSDChambers@nysd.uscourts.gov"
+ <HalpernNYSDChambers@nysd.uscourts.gov>,
+ "LimanNYSDChambers@nysd.uscourts.gov" <LimanNYSDChambers@nysd.uscourts.gov>,
+ Brian Beaton <Brian_Beaton@nysd.uscourts.gov>,
+ "Kristen_Ridgway@nysd.uscourts.gov" <Kristen_Ridgway@nysd.uscourts.gov>,
+ "disaster@leo.gov" <disaster@leo.gov>,
+ "lox-execassistant-s@bop.gov" <lox-execassistant-s@bop.gov>,
+ "nsd.public@usdoj.gov" <nsd.public@usdoj.gov>, WALESTIPS@FBI.GOV,
+ "usamie.civilrights@usdoj.gov" <usamie.civilrights@usdoj.gov>,
+ "compassionatereleasedc@washlaw.org" <compassionatereleasedc@washlaw.org>,
+ schockl@sec.gov, "Tiffany.Ford@opm.gov" <Tiffany.Ford@opm.gov>,
+ "Camille.Aponte-Rossini@opm.gov" <Camille.Aponte-Rossini@opm.gov>
+Cc: usama.victimassistance@usdoj.gov
+Content-Language: en-US
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+References: <1e4c1179-193f-6b09-6364-bad6c75e5dfe.ref@yahoo.com>
+X-Mailer: WebService/1.1.20595 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 25260
+
+This is a multi-part message in MIME format.
+--------------FhlPkNbqpgD0RDw8fQ0kdVR2
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Dear SIRS/MADAMS,
+*
+**Below, to simplify in the TO area, your local FELONS WITHOUT A 
+CRIMINAL RECORD.*
+
+
+-------- Forwarded Message --------
+Subject: 	[EVIDENCE] Bank Fraud || Securities Fraud.
+Date: 	Tue, 30 Aug 2022 21:21:39 -0500
+From: 	B D2022 <ms60710444266@yahoo.com>
+To: 	*+13478801899@tmomail.net <+13478801899@tmomail.net>, 
+administration@mskyline.com <ADMINISTRATION@MSKYLINE.COM>, 
+administrator@mskyline.com <administrator@mskyline.com>, 
+AREYNOSO@mskyline.com <AREYNOSO@mskyline.com>, askLaurie@mskyline.com 
+<askLaurie@mskyline.com>, cbloom@mskyline.com <cbloom@mskyline.com>, 
+DZUCKER@MSKYLINE.COM <DZUCKER@MSKYLINE.COM>, EDevine@mskyline.com 
+<EDevine@mskyline.com>, JOSEPH GIAMBOI <jgiamboi@mskyline.com>, 
+joseph.giamboi@brooklaw.edu <joseph.giamboi@brooklaw.edu>, 
+LBRITTON@MSKYLINE.COM <LBRITTON@MSKYLINE.COM>, 
+leftbank@mskylinerentals.com <leftbank@mskylinerentals.com>, Paul Regan 
+<legal@mskyline.com>, ANA LOPEZ <legalasst@mskyline.com>, LAURIE ZUCKER 
+<lzucker@mskyline.com>, MGMTADMIN@mskyline.com <MGMTADMIN@mskyline.com>, 
+UNKNOWN MANHATTAN SKYLINE CORP. <MVredjian@mskyline.com>, PAUL REGAN 
+<PREGAN@MSKYLINE.COM>, SHARI LASKOWITZ <slaskowitz@mskyline.com>, 
+SHIKENA MELTON <smelton@mskyline.com>, SULLIVANMEWS@MSKYLINERENTALS.COM 
+<SULLIVANMEWS@MSKYLINERENTALS.COM>, Super@sullivanmews.com 
+<Super@sullivanmews.com>, THOMAS ESCHMANN <TEschmann@mskyline.com>, 
+FILER 400842/2020 isaac@shermantax.com <isaac@shermantax.com>, Stephen 
+O'Connell <sgo2107@columbia.edu>, Amber Griffiths <ag2943@columbia.edu>, 
+Marlyn Delva <mmt22@columbia.edu>, Alan J. Morrison 
+<ajm157@columbia.edu>, wmckenzi@nycourts.gov <wmckenzi@nycourts.gov>, 
+Sara E. Ede <see2119@columbia.edu>, LEWISOHN HALL COUNSELOR 
+<jac2381@columbia.edu>, Dean's Discipline - SCCS 
+<conduct-admin@columbia.edu>, FundLegalGroup@cohenandsteers.com 
+<FundLegalGroup@cohenandsteers.com>, ajbrandon@gmail.com 
+<ajbrandon@gmail.com>, cweiss@ingramllp.com <cweiss@ingramllp.com>, 
+Janna.Underwood@STATEFARM.COM <Janna.Underwood@STATEFARM.COM>, Ashley V. 
+Humphries <ashley.humphries@wilsonelser.com>, RICKI ROER 
+<ricki.roer@wilsonelser.com>, Amy Hanrahan 
+<amy.hanrahan@wilsonelser.com>, ANNE BRANDON [CALIFORNIA 
+<anne@thehighlandpartners.com>, travelerresolutions@expediagroup.com 
+<travelerresolutions@expediagroup.com>, COLUMBIA STUDENT LIST 
+<PS-MS-STUDENTS@lists.columbia.edu>, info@ivylinecapital.com 
+<info@ivylinecapital.com>, gs-housing@columbia.edu 
+<gs-housing@columbia.edu>, gsdeanofstudents@columbia.edu 
+<gsdeanofstudents@columbia.edu>, gssceboard@columbia.edu 
+<gssceboard@columbia.edu>, gsorientation@columbia.edu 
+<gsorientation@columbia.edu>, gs-admit@columbia.edu 
+<gs-admit@columbia.edu>, gshealthandwellness@columbia.edu 
+<gshealthandwellness@columbia.edu>, gsscelections@columbia.edu 
+<gsscelections@columbia.edu>, gsstudyabroad@columbia.edu 
+<gsstudyabroad@columbia.edu>, gsdosreception@columbia.edu 
+<gsdosreception@columbia.edu>, gsba@lists.columbia.edu 
+<gsba@lists.columbia.edu>, NYSCEF ELECTRONIC PROCESSOR 
+<oca_hd_processor@nycourts.gov>, NYSCEF Resource Center 
+<efile@nycourts.gov>, KINGS COUNTY TAX MATTERS <TaxEfiled@law.nyc.gov>, 
+mhaggler@ingramllp.com <mhaggler@ingramllp.com>, 
+hockeyboardmembers+owners@columbia.edu, hockeyboardmembers@columbia.edu, 
+John Jay College Helpdesk <helpdesk@jjay.cuny.edu>*
+CC: 	publicinfo@sec.gov <publicinfo@sec.gov>, nsd.public@usdoj.gov 
+<nsd.public@usdoj.gov>, Criminal.Division@usdoj.gov 
+<Criminal.Division@usdoj.gov>, Alertas para consumidores de la FTC 
+<suscripciones@subscribe.ftc.gov>, RISC@IC.FBI.GOV <RISC@IC.FBI.GOV>, 
+akendell@miamicountyohio.gov <akendell@miamicountyohio.gov>, Miami 
+<miami@sec.gov>, helpdesk@listserv.leo.gov <helpdesk@listserv.leo.gov>, 
+Regs@fdic.gov <Regs@fdic.gov>, assessments@fdic.gov 
+<assessments@fdic.gov>, publicinfo@fdic.gov <publicinfo@fdic.gov>, 
+Victimassistance.fraud@usdoj.gov <Victimassistance.fraud@usdoj.gov>
+
+
+
+*EVIDENCE*
+
+http://ic3bbohit.pythonanywhere.com/aboutEvidence/title18-21/
+
+
+*SECURITIES FRAUD**
+*
+https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BERNIE/raw/main/2020_05_27%20-%20INDEX%20and%20PAPERS.pdf
+
+
+*BANK FRAUD**
+*
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38A==
+--------------FhlPkNbqpgD0RDw8fQ0kdVR2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html data-lt-installed="true">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <font size="2"><font face="Helvetica, Arial, sans-serif">Dear
+        SIRS/MADAMS,<br>
+        <b><br>
+        </b><b>Below, to simplify in the TO area, your local FELONS
+          WITHOUT A CRIMINAL RECORD.</b></font></font><br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>[EVIDENCE] Bank Fraud || Securities Fraud.</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Tue, 30 Aug 2022 21:21:39 -0500</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>B D2022 <a class="moz-txt-link-rfc2396E"
+                href="mailto:ms60710444266@yahoo.com">&lt;ms60710444266@yahoo.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td><b>+13478801899@tmomail.net <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:+13478801899@tmomail.net">&lt;+13478801899@tmomail.net&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:administration@mskyline.com">administration@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:ADMINISTRATION@MSKYLINE.COM">&lt;ADMINISTRATION@MSKYLINE.COM&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:administrator@mskyline.com">administrator@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:administrator@mskyline.com">&lt;administrator@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:AREYNOSO@mskyline.com">AREYNOSO@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:AREYNOSO@mskyline.com">&lt;AREYNOSO@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:askLaurie@mskyline.com">askLaurie@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:askLaurie@mskyline.com">&lt;askLaurie@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:cbloom@mskyline.com">cbloom@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:cbloom@mskyline.com">&lt;cbloom@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:DZUCKER@MSKYLINE.COM">DZUCKER@MSKYLINE.COM</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:DZUCKER@MSKYLINE.COM">&lt;DZUCKER@MSKYLINE.COM&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:EDevine@mskyline.com">EDevine@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:EDevine@mskyline.com">&lt;EDevine@mskyline.com&gt;</a>,
+                JOSEPH GIAMBOI <a class="moz-txt-link-rfc2396E"
+                  href="mailto:jgiamboi@mskyline.com">&lt;jgiamboi@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:joseph.giamboi@brooklaw.edu">joseph.giamboi@brooklaw.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:joseph.giamboi@brooklaw.edu">&lt;joseph.giamboi@brooklaw.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:LBRITTON@MSKYLINE.COM">LBRITTON@MSKYLINE.COM</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:LBRITTON@MSKYLINE.COM">&lt;LBRITTON@MSKYLINE.COM&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:leftbank@mskylinerentals.com">leftbank@mskylinerentals.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:leftbank@mskylinerentals.com">&lt;leftbank@mskylinerentals.com&gt;</a>,
+                Paul Regan <a class="moz-txt-link-rfc2396E"
+                  href="mailto:legal@mskyline.com">&lt;legal@mskyline.com&gt;</a>,
+                ANA LOPEZ <a class="moz-txt-link-rfc2396E"
+                  href="mailto:legalasst@mskyline.com">&lt;legalasst@mskyline.com&gt;</a>,
+                LAURIE ZUCKER <a class="moz-txt-link-rfc2396E"
+                  href="mailto:lzucker@mskyline.com">&lt;lzucker@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:MGMTADMIN@mskyline.com">MGMTADMIN@mskyline.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:MGMTADMIN@mskyline.com">&lt;MGMTADMIN@mskyline.com&gt;</a>,
+                UNKNOWN MANHATTAN SKYLINE CORP. <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:MVredjian@mskyline.com">&lt;MVredjian@mskyline.com&gt;</a>,
+                PAUL REGAN <a class="moz-txt-link-rfc2396E"
+                  href="mailto:PREGAN@MSKYLINE.COM">&lt;PREGAN@MSKYLINE.COM&gt;</a>,
+                SHARI LASKOWITZ <a class="moz-txt-link-rfc2396E"
+                  href="mailto:slaskowitz@mskyline.com">&lt;slaskowitz@mskyline.com&gt;</a>,
+                SHIKENA MELTON <a class="moz-txt-link-rfc2396E"
+                  href="mailto:smelton@mskyline.com">&lt;smelton@mskyline.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:SULLIVANMEWS@MSKYLINERENTALS.COM">SULLIVANMEWS@MSKYLINERENTALS.COM</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:SULLIVANMEWS@MSKYLINERENTALS.COM">&lt;SULLIVANMEWS@MSKYLINERENTALS.COM&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:Super@sullivanmews.com">Super@sullivanmews.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:Super@sullivanmews.com">&lt;Super@sullivanmews.com&gt;</a>,
+                THOMAS ESCHMANN <a class="moz-txt-link-rfc2396E"
+                  href="mailto:TEschmann@mskyline.com">&lt;TEschmann@mskyline.com&gt;</a>,
+                FILER 400842/2020 <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:isaac@shermantax.com">isaac@shermantax.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:isaac@shermantax.com">&lt;isaac@shermantax.com&gt;</a>,
+                Stephen O'Connell <a class="moz-txt-link-rfc2396E"
+                  href="mailto:sgo2107@columbia.edu">&lt;sgo2107@columbia.edu&gt;</a>,
+                Amber Griffiths <a class="moz-txt-link-rfc2396E"
+                  href="mailto:ag2943@columbia.edu">&lt;ag2943@columbia.edu&gt;</a>,
+                Marlyn Delva <a class="moz-txt-link-rfc2396E"
+                  href="mailto:mmt22@columbia.edu">&lt;mmt22@columbia.edu&gt;</a>,
+                Alan J. Morrison <a class="moz-txt-link-rfc2396E"
+                  href="mailto:ajm157@columbia.edu">&lt;ajm157@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:wmckenzi@nycourts.gov">wmckenzi@nycourts.gov</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:wmckenzi@nycourts.gov">&lt;wmckenzi@nycourts.gov&gt;</a>,
+                Sara E. Ede <a class="moz-txt-link-rfc2396E"
+                  href="mailto:see2119@columbia.edu">&lt;see2119@columbia.edu&gt;</a>,
+                LEWISOHN HALL COUNSELOR <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:jac2381@columbia.edu">&lt;jac2381@columbia.edu&gt;</a>,
+                Dean's Discipline - SCCS <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:conduct-admin@columbia.edu">&lt;conduct-admin@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:FundLegalGroup@cohenandsteers.com">FundLegalGroup@cohenandsteers.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:FundLegalGroup@cohenandsteers.com">&lt;FundLegalGroup@cohenandsteers.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:ajbrandon@gmail.com">ajbrandon@gmail.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:ajbrandon@gmail.com">&lt;ajbrandon@gmail.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:cweiss@ingramllp.com">cweiss@ingramllp.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:cweiss@ingramllp.com">&lt;cweiss@ingramllp.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:Janna.Underwood@STATEFARM.COM">Janna.Underwood@STATEFARM.COM</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:Janna.Underwood@STATEFARM.COM">&lt;Janna.Underwood@STATEFARM.COM&gt;</a>,
+                Ashley V. Humphries <a class="moz-txt-link-rfc2396E"
+                  href="mailto:ashley.humphries@wilsonelser.com">&lt;ashley.humphries@wilsonelser.com&gt;</a>,
+                RICKI ROER <a class="moz-txt-link-rfc2396E"
+                  href="mailto:ricki.roer@wilsonelser.com">&lt;ricki.roer@wilsonelser.com&gt;</a>,
+                Amy Hanrahan <a class="moz-txt-link-rfc2396E"
+                  href="mailto:amy.hanrahan@wilsonelser.com">&lt;amy.hanrahan@wilsonelser.com&gt;</a>,
+                ANNE BRANDON [CALIFORNIA <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:anne@thehighlandpartners.com">&lt;anne@thehighlandpartners.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:travelerresolutions@expediagroup.com">travelerresolutions@expediagroup.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:travelerresolutions@expediagroup.com">&lt;travelerresolutions@expediagroup.com&gt;</a>,
+                COLUMBIA STUDENT LIST <a class="moz-txt-link-rfc2396E"
+                  href="mailto:PS-MS-STUDENTS@lists.columbia.edu">&lt;PS-MS-STUDENTS@lists.columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:info@ivylinecapital.com">info@ivylinecapital.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:info@ivylinecapital.com">&lt;info@ivylinecapital.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gs-housing@columbia.edu">gs-housing@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gs-housing@columbia.edu">&lt;gs-housing@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gsdeanofstudents@columbia.edu">gsdeanofstudents@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gsdeanofstudents@columbia.edu">&lt;gsdeanofstudents@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gssceboard@columbia.edu">gssceboard@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gssceboard@columbia.edu">&lt;gssceboard@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gsorientation@columbia.edu">gsorientation@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gsorientation@columbia.edu">&lt;gsorientation@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gs-admit@columbia.edu">gs-admit@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gs-admit@columbia.edu">&lt;gs-admit@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gshealthandwellness@columbia.edu">gshealthandwellness@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gshealthandwellness@columbia.edu">&lt;gshealthandwellness@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gsscelections@columbia.edu">gsscelections@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gsscelections@columbia.edu">&lt;gsscelections@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gsstudyabroad@columbia.edu">gsstudyabroad@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gsstudyabroad@columbia.edu">&lt;gsstudyabroad@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gsdosreception@columbia.edu">gsdosreception@columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gsdosreception@columbia.edu">&lt;gsdosreception@columbia.edu&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:gsba@lists.columbia.edu">gsba@lists.columbia.edu</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:gsba@lists.columbia.edu">&lt;gsba@lists.columbia.edu&gt;</a>,
+                NYSCEF ELECTRONIC PROCESSOR <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:oca_hd_processor@nycourts.gov">&lt;oca_hd_processor@nycourts.gov&gt;</a>,
+                NYSCEF Resource Center <a class="moz-txt-link-rfc2396E"
+                  href="mailto:efile@nycourts.gov">&lt;efile@nycourts.gov&gt;</a>,
+                KINGS COUNTY TAX MATTERS <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:TaxEfiled@law.nyc.gov">&lt;TaxEfiled@law.nyc.gov&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:mhaggler@ingramllp.com">mhaggler@ingramllp.com</a>
+                <a class="moz-txt-link-rfc2396E"
+                  href="mailto:mhaggler@ingramllp.com">&lt;mhaggler@ingramllp.com&gt;</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:hockeyboardmembers+owners@columbia.edu">hockeyboardmembers+owners@columbia.edu</a>,
+                <a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext"
+                  href="mailto:hockeyboardmembers@columbia.edu">hockeyboardmembers@columbia.edu</a>,
+                John Jay College Helpdesk <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:helpdesk@jjay.cuny.edu">&lt;helpdesk@jjay.cuny.edu&gt;</a></b></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">CC: </th>
+            <td><a class="moz-txt-link-abbreviated
+                moz-txt-link-freetext" href="mailto:publicinfo@sec.gov">publicinfo@sec.gov</a>
+              <a class="moz-txt-link-rfc2396E"
+                href="mailto:publicinfo@sec.gov">&lt;publicinfo@sec.gov&gt;</a>,
+              <a class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                href="mailto:nsd.public@usdoj.gov">nsd.public@usdoj.gov</a>
+              <a class="moz-txt-link-rfc2396E"
+                href="mailto:nsd.public@usdoj.gov">&lt;nsd.public@usdoj.gov&gt;</a>,
+              <a class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                href="mailto:Criminal.Division@usdoj.gov">Criminal.Division@usdoj.gov</a>
+              <a class="moz-txt-link-rfc2396E"
+                href="mailto:Criminal.Division@usdoj.gov">&lt;Criminal.Division@usdoj.gov&gt;</a>,
+              Alertas para consumidores de la FTC <a
+                class="moz-txt-link-rfc2396E"
+                href="mailto:suscripciones@subscribe.ftc.gov">&lt;suscripciones@subscribe.ftc.gov&gt;</a>,
+              <a class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                href="mailto:RISC@IC.FBI.GOV">RISC@IC.FBI.GOV</a> <a
+                class="moz-txt-link-rfc2396E"
+                href="mailto:RISC@IC.FBI.GOV">&lt;RISC@IC.FBI.GOV&gt;</a>,
+              <a class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                href="mailto:akendell@miamicountyohio.gov">akendell@miamicountyohio.gov</a>
+              <a class="moz-txt-link-rfc2396E"
+                href="mailto:akendell@miamicountyohio.gov">&lt;akendell@miamicountyohio.gov&gt;</a>,
+              Miami <a class="moz-txt-link-rfc2396E"
+                href="mailto:miami@sec.gov">&lt;miami@sec.gov&gt;</a>, <a
+                class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                href="mailto:helpdesk@listserv.leo.gov">helpdesk@listserv.leo.gov</a>
+              <a class="moz-txt-link-rfc2396E"
+                href="mailto:helpdesk@listserv.leo.gov">&lt;helpdesk@listserv.leo.gov&gt;</a>,
+              <a class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                href="mailto:Regs@fdic.gov">Regs@fdic.gov</a> <a
+                class="moz-txt-link-rfc2396E"
+                href="mailto:Regs@fdic.gov">&lt;Regs@fdic.gov&gt;</a>, <a
+                class="moz-txt-link-abbreviated moz-txt-link-freetext"
+                
+[remainder of message body omitted; too large]
+
+---=Part.2dc853.52409c528efaae65.182f660e506.d76ed4c5b0265342=---

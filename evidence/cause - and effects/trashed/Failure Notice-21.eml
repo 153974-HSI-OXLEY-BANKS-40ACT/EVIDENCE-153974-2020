@@ -1,0 +1,298 @@
+From - Wed Aug 31 19:23:04 2022
+X-Account-Key: account1
+X-UIDL: AJHt8vB/b4h3Yw/7NAajOHmsHQE
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Thu, 1 Sep 2022 00:22:11 +0000
+Return-Path: <>
+X-Originating-Ip: [74.6.133.204]
+Received-SPF: none (domain of sonic313-30.consmr.mail.bf2.yahoo.com does not designate permitted sender hosts)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=bounce;
+ spf=none smtp.mailfrom=sonic313-30.consmr.mail.bf2.yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 1 Sep 2022 00:22:12 +0000
+X-YMailAVSC: p2Yy19I3bBsZZIPjYcld2Joxui66NFjJiyfM0xdsYJKW2G7
+ WJ7JCJ6brdyWMSprWEmmDd9a8YAAGCMB0L.F.VlhQerSfC0wp_4euWTIp6Gb
+ HjlfQsxzOyoJvyPDwZmGcQHZtrQ104Npia4ZpMDjr5Y5KhsYJeqZUMCtfSHn
+ rzbMSYZHiJgAIBJTWPQ7IrW44WAUVNj1At2QjbtUaHm.IDka.va45ZmU62ih
+ CB3W5gvpKTfxtgzTjReiGWuF1dB8Z9PErNHlXjf8hRTs.ueZ__miF_eJd7yx
+ U2C5BPP8iVIN8VZf8Qjn6R8BZElBDHNx5gnXE0iyO18pMpC1k3xlCmzziW7l
+ yIEDOxegKWJ8tYmYsjdzfCGu88F6jQXiL2hNilTkyDs5knEw6SrY5pl36.Fk
+ mVrZiiC4815qf84OkeRR2xNQiuqJpnofodAa6vXKKIJ2f02ro29UyOe5QuX6
+ vfGFiZ4o.WQY9MRqYkdS1vmKpAgpnzJ7qKYnElcWK2iE23691xzx0bg__AOM
+ RI_lDMpyAphcG7TBbYaX3XOof7TrtlYprWUFp3Y91ZvQyqiMGLJmlyadDXdj
+ TAZzPLIoEI.cUB27g58SFKoXSHa2L1EZi5X7reHj5gX5e2bN_kN62NAn.pm4
+ 2NnSyUuxecTZaeiGc_AzJTNW6vXv5Ti5Lrr8FVTfdu201F7_fG.oYqd_Y_OU
+ PytiJ7rhgACkhS1E7WBRS1Ahh00e6.cY9WXqypYM87LMTVJbnsvmHwpy6UsI
+ 4R27Zj.7ynt2Lv.wGtakv5V4s8PRdT.f41QvlWukFtbHDX7OJLyx9gIxEvx7
+ pUf.BYILdFbWxS7VLEcTL8BRYds14AUpMpMwzunGQAvE7PGiIOwSacbmCd1d
+ z84cTkLqLOjbqeDjPAWegNjILZEP_.AFIoldTVsyhDN9FYHle4niMxzyT3wl
+ 5lXURI85v0iGrpcwRRfbdzQVZdlXDD6LXnbJmew--
+X-YMailISG: 8hfhIMMWLDt_9ocMKnbemG3M5tdg8iTJpn536R2fzDi98S0C
+ f_GOQXltea4I7h5Is3AzSaeDhpp3LaTgEl_wgJYYzrkH9gOTRJSjcfeVFn0T
+ cmUVeChSxTxXB9HKOKencFDq2ytQh8MPo2cdjT5UngXa9gjw6lKOSfpDHG0X
+ 3tT2OfhIOfQ5njHakR69I_XaCdRF4wdELzrFrlP3BhTtmSdtmDnMlOOHjVXK
+ 9gdgYH9ssNd.NuvZEjXQYql4rKPP2I909aAozTRPi1hV7RWAiCRy4aC7bsyG
+ m8wyXbMJ5dgX2zCTkGiSxJFTvs5VeJzbmWXTOm1NHyZSoNCZ2ID_rf7aJeXy
+ jmj9ZoQfnHWFRjeRq0ohxbX_RXiZTSBUDDtsDd6rHfVEFRX1lJA8dYkd.YNx
+ lDdXHDTd.YgDp4Fxxe4f8enGvm17ulPsYDkeNxWI_ME_vm4P_o08c6IdDZ77
+ 7qB_FhmdHEaoRuqnYnjpWHE6OhWXMmyT_iet.ENywN5csmAABj3aBcnqNfQF
+ FzJPjxNO1WLow8oDZyuffSSipuPUA0wZ0xRzM5sTnqiGFPSDemAEBzPVlOQF
+ 6JQb0L2bS7QyDFbseSoFo6HlNjlpvndtq3PBCWYoNROzyLV1xUUYd870HzsD
+ DUn.eeMhSq50j7Y5u55SCLiT2ifCVRYQj.BdZMdfSm3wdhwgQOikaWBy2051
+ yuSMkiAylhfo799Jr242eaObbZ_ujQ36rTks9fPopfj0ThYBfuMohufDrYzK
+ a9wH9heEs5m5IlpoaiJs3Qz8kuCbGk3P7CTyTFV1QvpIDRhV7t_jZwkeJvgy
+ 24c6vRgdqZ0w2aii7F5fG5wvrg.oUO6BSIDtj6o8HT6v5XE82OFFtvEjMien
+ LRSKAxN5f7Ug6OHlCjaj2ALmlf.glHjivpwORnTZvKiK6qzuh0uAq3DOF40O
+ t5XAPCc6sFIMpZXC5hkPafpfZcnXeiisMVAngs3q7JqBQzzi4tBFpg8EPsNO
+ .zZvwKrhnmwJrBHF21zYWlIm3TxGWDWb8fzfXXC4GJGFqPDqfnnHxF0_vc0M
+ INyD6_1kVgwlNMdb5hMrkZSBYkUgHOS2WBUVZsR4WZdIH3pHvgis9Twp7inU
+ E1uyAT293bNmzk0lQzlUOySaAIks8DNZqEGCOLpk4DHRod.unvtOwl791XaE
+ jB96svkXhfoLdZTnjPXL
+Received: from 74.6.133.204 (EHLO sonic313-30.consmr.mail.bf2.yahoo.com)
+ by 10.213.145.27 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 01 Sep 2022 00:22:11 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=bounce; t=1661991731; bh=I25NFTzMUgC3rs4Nrx/iXyMp0PEnrUHdz83GCdMMl0k=; h=Date:From:To:Subject:From:Subject:Reply-To; b=STQYlZDQOBvSvu8+aZ057tjmm+0aBtAIYIkja+sL2V7oHJ4U4TesaekR+j1ec+6WZsTuCRjg0NkPP3XOJXpleggtFeyJWgfioy5LOEZYIjG9oEHrF2FGDHQWfhWpoaZ60/JEcrGspGAh+90nDkiJeQz1z4mqeNZfPS9L34A7yTA=
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661991731; bh=YRSprSZNJgysxy8jNIcMLkojxINeqaKt2m/ZoifEIVD=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=RILrww8tCImGBqOgUdx0lDXZgMWfjyrkoDRPsBVuAc7oZvSmB0FOA3VnoGP2eOqT4fyB4pDusDdVr5afiOkzSG954Us+/0LAY1HC0tyJuhaIIgdVQpqQrbyudfwI0AMCbwzXRe2ml1VxRwk+HdB1MhU1kT+6MDBMFLgiPE3Yde4dHAVx59ntfuh97ncdRf8ITYqm4KJuz2Wq8Ez2nlVsPp5B0ruLBnlDJbmDg0eGSNl3KQa++tcMT93c3cSBsgd3S4ABtmfWZnAkpNLD1jAIXT2jPzNnSz5EZ9qMDvao4vaaA+UOPMguwZeFTgx1KvsC4wMzZ/eA+4llxptWodrURQ==
+Message-ID: <625474905.2719097.1661991731436@yahoo.com>
+X-Sonic-MF: 
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic313.consmr.mail.bf2.yahoo.com with HTTP; Thu, 1 Sep 2022 00:22:11 +0000
+Date: Thu, 1 Sep 2022 00:22:11 +0000
+From: MAILER-DAEMON@yahoo.com
+To: ms60710444266@yahoo.com
+Subject: Failure Notice
+Content-Type: multipart/report; report-type=delivery-status;
+ boundary="-=Part.1040cc.b0c59ca29689b4b9.182f66d40ec.e1bcde7251331d2=-"
+Content-Length: 12192
+
+---=Part.1040cc.b0c59ca29689b4b9.182f66d40ec.e1bcde7251331d2=-
+Content-Type: text/plain; charset=UTF-8
+
+Sorry, we were unable to deliver your message to the following address.
+
+<Janna.Underwood@STATEFARM.COM>:
+550: 5.1.1 User Unknown
+
+---------- Forwarded message ----------
+
+---=Part.1040cc.b0c59ca29689b4b9.182f66d40ec.e1bcde7251331d2=-
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661991730; bh=H/k+k8xVL2GiWo51wyUg73ZsBcG684pO77szKOU3L7M=; h=Date:Subject:References:To:From:In-Reply-To:From:Subject:Reply-To; b=kBAeFkPm2ASUW9eoqHx2rbr/0TX4EaEEKyyS1XJ87AzXijr3wEJZTOPXVhufZ6kJY2dbqbNHkMpvau5ad/lHyckTDaubygofEnHROXiZOi7Qk7f/3Ff8Bxe2kyTPofl69AArJogzMbJ5VaLv+COjB/yUisvHfXYPVCmXEJlQB7wkzC89seMalrvvLSBENG3nxgWV1k8+t3kH/CcyjByMO9hXG9xwex2xmsEw/QkJQA4Cl9hACTEp7FkXw70Lz3RapJi4c88YpWmMLiKdu/g7DcR8ZpA0FAqilaC0iwCReN+auCXE7CgYoytouf40SVwFbrrIw/CBkDV3r/XuAeMGBw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661991730; bh=eDeMyRgCG6gHzBcFP1RR2Z/HmIGWMT/215gxAn+YBqJ=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=cnv38Sb4D4admJV1Q6epjKlt8hMF2YflLa7KCHcSKsRMMqajzPIM4AHW+YoGfsZk1X+gIJRpdH6tzGmAzNOa1kwPHK6nBABnf7SfYBAXaAFQM+HsZAac9PtyAkt0vVV94HfXjav1VtSNGZbGMP0LehUMUKnO19QpG1gbBS16TM7OlLeD6S3k2qMj5hGYUYvepspeSty2GonFFnFdV+YF5DJCRr7K5bepCb852F6ITUhjLqiKwffLdV8nEodPjugmk8mzBPr3U/0KpOcrgLrt8JR3lm9ZF87ZQ5G2N8Oke0PHy73cYMinJMaWHEJZQZPYTbWqA+C9HdYbuAVlBmjSnA==
+X-YMail-OSG: AZ674ZsVM1mWsQyyzfIbwGawXQLop9HTd.ZpfJruxXT_uE3EPavSGO1ffe7luyo
+ u6j0txxsc8.YcjHyKVdyaZrdllCB12_ryNGVIv.eAv8yF4uNLTp7XXYHs6ztCRdWjjMVanB5gv8c
+ Px8Ncx4JYu2QUbGf7xsXfodMwOA3icUqkOuv5nD.xPCAJmFPCT7TmEZ09_12ltwjparBVjsPWQLq
+ LEtxvKkqxcTk2r1iKpq2WN1sqji.KVFclh8sS6K33kOrO.FOS5xv_j7VW27IQlwMo4f9GohLxFaE
+ _w1wNCnz7kPCuBwLRw1vrqF4tyhAJb085ggurgJ4nI5vHlqk3KGs0cJIxziQnqdwP03g3QFg48Iz
+ CnzjjcD0WRIF1nR2ITp5MmM329FLovUwFuyQND7nWlcnaaWYL1_rD8sD2_7c1mmtuB0cTUsYb5j.
+ cW.QRTEiuCp4GhkJe5tmdbF7GBlXL89JeoQL3fa.1hhyw6NRoft981AM0sBIhfDWQW4c0ilwgJ8c
+ IUihMmI6C4nq06lQF4edSOxx3hJhzuh9z6CmXQaOBwBHICfkwHIo.lVdZzbQnkKLDKwpePVr6D3X
+ Tn.8P4L3edf3If0dryKsD1Ue5.GZ1CeXrwk8hH_RtJ1und2NY4X1UBvwdZObspQRF828LEipWGCu
+ Z9UD45BVPUHbKIbEABOC0Xb8tCDT04Hv.sRNKb_InU3kxpbCZY8IUusMJFtQdRopUrtJeUcNjnRV
+ G2vslyO3OPoUwcu80DhxT6VtgsQplaajgGicVbV9DWSZI89zif8rhOiJfGZhgAlCdWItlS0qBUCC
+ QRsZBdD0DtmCfXK9E.G5RpZJcZcnkX5OJJQPtWLEcKWuIggEAyJ2BgYfyBL4pB4q2N26FjGHq8Nz
+ JDUbpUHVrx2nRK0V8KQSYHLb9c1RTuLhVvamkDnABA37ylv1C6sjEklstfukcnMeu.VCxcHvgoDu
+ YQF11ZzNvZlaZpF7sUdU6vM00CRXOdbhn_tZtmTNrjiei3tbOpX5hX59id_xx9vi9zM7qnZIywWV
+ FoqKCU9vBeFeYE6h2NK4g1DeXPVpvar3KbdWoLaxVawa3WHS25FNSUE3ZR1j0N34._LBQM3qw5Av
+ L4Uy0_LZYLZn7aIb.JXQi5cDYx0mfLMDJ8i.1kqiv.pUUDCDwk_fpAZWZL9TlpHXXwQIYjD3oqNG
+ m2ZwV9QEtL8Ihzzi5Egw_L0eVS.OujXRICdPXy60ZbIdtWqxmKp7hssDRgbV52jUR_E.AiNcpstR
+ O7kTKUYBOneDIq3SQJ9HkUQ1QRaZx.03wiHy7LX_22z3ibmdV7H6r1YyzHCh17uj6.lxGIjaIgmt
+ 39IS5MustpZncgGA1gSYwv5CWv5cNgRNy_2EPemcZC7m24e6DcO8U6whnCspCaBWUJyMgWgSRiKc
+ zQ5pu16lPo0iYycXNEDoofuRL2_F.Gw2dQvvzpqyVbdIODlthAW6zRM7Cqi87SsB7ZkrXb3fN9Lz
+ dt_g4vyPOoFMXLIsFhhfBtbS.TjvA9UMUZGTrve2gJQocyktPHC1V0nTPsZH5X8Q4g.WQoFgALYt
+ uwGDJBWkxg3p1x1muqq0nnaFUTJX33xX_MDlBw.XhFRAuODNw_zjAvzphg613ATKc6Sa.2J978RI
+ QQ6u9niuZpthoJwsre5k9HhLtXhD8YZv9SLHlswLRgLPXE.J722uXJcrzc2_ZiJOUjaD8MHOrMKF
+ WmT.PSHFu_e1O659bw86cswpGJhiWPFxEBkDOUp.utk50xoHElbRNkm3TCqq_NHNjJwA8D4.AAwx
+ F5_pLx3Rm.X2WZ2oJa.Nk6X6xAn6skVjkEw4K3Xgvg22l448PTqUTQQiJzUySN.GRXeFcdHaAIgP
+ n.vJ2RlX_gbpwg4u6KcDKpc2Hhwjvd7sAS1VJTQPbGrD3HEv8Dwbzu.wwcdoWmeg6rwJTtDj11AN
+ _jwhMVRvv2TPPR6sGIR1BtsScI3lqiTaVzkqvx7Vcq_6q3svhFghgS.uwCUeg8SxkSV39ma1wk2D
+ 37fzJ6fHKn5gzNt.xeeI5OxocPRXAAC1.ugeWU8prItVhxp1GLwXkik0LWnJlpW6KdaQalT_2HyN
+ 40WWPr.wo3BKjuFkpKNILX9OVtdAl_RO51kPS_99HfjKIo9iDXU17BTNHF4ZpwYz8JH2YKp3V.Sb
+ apAka6oBz.WS_7YroHVBVz7tZ9MCHcNqUIF4frD3wxmyEVAY1wDlI8HhzCRhDiGJuupIi2Ftqp6x
+ iJwtpG468JobKKa9QJXOWIMEoz2wK_ARAqKzIFMwT
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic313.consmr.mail.bf2.yahoo.com with HTTP; Thu, 1 Sep 2022 00:22:10 +0000
+Received: by hermes--production-gq1-8697bfdb94-794pl (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID e3915627d3a5df1e56c35e6a23acf647;
+          Thu, 01 Sep 2022 00:22:07 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------M0wQ1CsVJw0FxKE70Id6Htd7"
+Message-ID: <ae529e8a-c23e-f755-7d67-ff87b4a1832b@yahoo.com>
+Date: Wed, 31 Aug 2022 19:21:39 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+Subject: If you are having trouble with taking or evaluating an interview or
+ assessment, or have questions about HireVue, please send your email to
+ support@hirevue.com. Support is available to you 24 hours a day, 7 days a
+ week.
+References: <000000000000bbad1905e27d40a1@google.com>
+Content-Language: en-US
+To: "+13478801899@tmomail.net" <+13478801899@tmomail.net>,
+ "administration@mskyline.com" <ADMINISTRATION@MSKYLINE.COM>,
+ "administrator@mskyline.com" <administrator@mskyline.com>,
+ "AREYNOSO@mskyline.com" <AREYNOSO@mskyline.com>,
+ "askLaurie@mskyline.com" <askLaurie@mskyline.com>,
+ "cbloom@mskyline.com" <cbloom@mskyline.com>,
+ "DZUCKER@MSKYLINE.COM" <DZUCKER@MSKYLINE.COM>,
+ "EDevine@mskyline.com" <EDevine@mskyline.com>,
+ JOSEPH GIAMBOI <jgiamboi@mskyline.com>,
+ "joseph.giamboi@brooklaw.edu" <joseph.giamboi@brooklaw.edu>,
+ "LBRITTON@MSKYLINE.COM" <LBRITTON@MSKYLINE.COM>,
+ "leftbank@mskylinerentals.com" <leftbank@mskylinerentals.com>,
+ Paul Regan <legal@mskyline.com>, ANA LOPEZ <legalasst@mskyline.com>,
+ LAURIE ZUCKER <lzucker@mskyline.com>,
+ "MGMTADMIN@mskyline.com" <MGMTADMIN@mskyline.com>,
+ "UNKNOWN MANHATTAN SKYLINE CORP." <MVredjian@mskyline.com>,
+ PAUL REGAN <PREGAN@MSKYLINE.COM>, SHARI LASKOWITZ <slaskowitz@mskyline.com>,
+ SHIKENA MELTON <smelton@mskyline.com>,
+ "SULLIVANMEWS@MSKYLINERENTALS.COM" <SULLIVANMEWS@MSKYLINERENTALS.COM>,
+ "Super@sullivanmews.com" <Super@sullivanmews.com>,
+ THOMAS ESCHMANN <TEschmann@mskyline.com>,
+ "FILER 400842/2020 isaac@shermantax.com" <isaac@shermantax.com>,
+ Stephen O'Connell <sgo2107@columbia.edu>,
+ Amber Griffiths <ag2943@columbia.edu>, Marlyn Delva <mmt22@columbia.edu>,
+ "Alan J. Morrison" <ajm157@columbia.edu>,
+ "wmckenzi@nycourts.gov" <wmckenzi@nycourts.gov>,
+ "Sara E. Ede" <see2119@columbia.edu>,
+ LEWISOHN HALL COUNSELOR <jac2381@columbia.edu>,
+ Dean's Discipline - SCCS <conduct-admin@columbia.edu>,
+ "FundLegalGroup@cohenandsteers.com" <FundLegalGroup@cohenandsteers.com>,
+ "ajbrandon@gmail.com" <ajbrandon@gmail.com>,
+ "cweiss@ingramllp.com" <cweiss@ingramllp.com>,
+ "Janna.Underwood@STATEFARM.COM" <Janna.Underwood@STATEFARM.COM>,
+ "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>,
+ RICKI ROER <ricki.roer@wilsonelser.com>,
+ Amy Hanrahan <amy.hanrahan@wilsonelser.com>,
+ "ANNE BRANDON [CALIFORNIA" <anne@thehighlandpartners.com>,
+ "travelerresolutions@expediagroup.com"
+ <travelerresolutions@expediagroup.com>,
+ COLUMBIA STUDENT LIST <PS-MS-STUDENTS@lists.columbia.edu>,
+ "info@ivylinecapital.com" <info@ivylinecapital.com>,
+ "gs-housing@columbia.edu" <gs-housing@columbia.edu>,
+ "gsdeanofstudents@columbia.edu" <gsdeanofstudents@columbia.edu>,
+ "gssceboard@columbia.edu" <gssceboard@columbia.edu>,
+ "gsorientation@columbia.edu" <gsorientation@columbia.edu>,
+ "gs-admit@columbia.edu" <gs-admit@columbia.edu>,
+ "gshealthandwellness@columbia.edu" <gshealthandwellness@columbia.edu>,
+ "gsscelections@columbia.edu" <gsscelections@columbia.edu>,
+ "gsstudyabroad@columbia.edu" <gsstudyabroad@columbia.edu>,
+ "gsdosreception@columbia.edu" <gsdosreception@columbia.edu>,
+ "gsba@lists.columbia.edu" <gsba@lists.columbia.edu>,
+ NYSCEF ELECTRONIC PROCESSOR <oca_hd_processor@nycourts.gov>,
+ NYSCEF Resource Center <efile@nycourts.gov>,
+ KINGS COUNTY TAX MATTERS <TaxEfiled@law.nyc.gov>,
+ "mhaggler@ingramllp.com" <mhaggler@ingramllp.com>,
+ hockeyboardmembers+owners@columbia.edu, hockeyboardmembers@columbia.edu,
+ John Jay College Helpdesk <helpdesk@jjay.cuny.edu>
+From: B D2022 <ms60710444266@yahoo.com>
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <000000000000bbad1905e27d40a1@google.com>
+X-Forwarded-Message-Id: <000000000000bbad1905e27d40a1@google.com>
+X-Mailer: WebService/1.1.20595 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 3850
+
+This is a multi-part message in MIME format.
+--------------M0wQ1CsVJw0FxKE70Id6Htd7
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+*If you are having trouble with taking or evaluating an interview or 
+assessment, or have questions about HireVue, please send your email to 
+support@hirevue.com. Support is available to you 24 hours a day, 7 days 
+a week.*
+
+-------- Forwarded Message --------
+Subject: 	Re: Fwd: ***** GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN 
+LOSSES -- EX-POST MERGERS <EARL>
+Date: 	Tue, 28 Jun 2022 07:47:48 +0000
+From: 	Hirevue Interviews <interviews+noreply@hirevue.com>
+To: 	ms60710444266@yahoo.com
+
+
+
+**This email address is unmonitored.**
+
+If you are having trouble with taking or evaluating an interview or 
+assessment, or have questions about HireVue, please send your email to 
+support@hirevue.com. Support is available to you 24 hours a day, 7 days 
+a week.
+
+Fast, helpful answers can also be found in our Candidate Help Center - 
+http://hirevue.force.com/E2Candidate
+
+Otherwise, please forward your email directly to the individual or 
+organization that invited you to participate.
+
+Thank you!
+--------------M0wQ1CsVJw0FxKE70Id6Htd7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <br>
+    <div class="moz-forward-container"><b>If you are having trouble with
+        taking or evaluating an interview or assessment, or have
+        questions about HireVue, please send your email to
+        <a class="moz-txt-link-abbreviated" href="mailto:support@hirevue.com">support@hirevue.com</a>. Support is available to you 24 hours a day,
+        7 days a week.</b><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>Re: Fwd: ***** GOOD LUCK EXPLAINING THAT TO HIDE 1
+              BILLION IN LOSSES -- EX-POST MERGERS &lt;EARL&gt;</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Tue, 28 Jun 2022 07:47:48 +0000</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>Hirevue Interviews
+              <a class="moz-txt-link-rfc2396E" href="mailto:interviews+noreply@hirevue.com">&lt;interviews+noreply@hirevue.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:ms60710444266@yahoo.com">ms60710444266@yahoo.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      **This email address is unmonitored.**<br>
+      <br>
+      If you are having trouble with taking or evaluating an interview
+      or assessment, or have questions about HireVue, please send your
+      email to <a class="moz-txt-link-abbreviated" href="mailto:support@hirevue.com">support@hirevue.com</a>. Support is available to you 24 hours
+      a day, 7 days a week.<br>
+      <br>
+      Fast, helpful answers can also be found in our Candidate Help
+      Center - <a class="moz-txt-link-freetext" href="http://hirevue.force.com/E2Candidate">http://hirevue.force.com/E2Candidate</a><br>
+      <br>
+      Otherwise, please forward your email directly to the individual or
+      organization that invited you to participate.<br>
+      <br>
+      Thank you!<br>
+    </div>
+  </body>
+  <lt-container></lt-container>
+</html>
+
+--------------M0wQ1CsVJw0FxKE70Id6Htd7--
+
+---=Part.1040cc.b0c59ca29689b4b9.182f66d40ec.e1bcde7251331d2=---

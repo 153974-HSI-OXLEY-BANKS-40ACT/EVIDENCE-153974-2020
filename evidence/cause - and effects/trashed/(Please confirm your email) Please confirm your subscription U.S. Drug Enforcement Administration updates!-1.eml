@@ -1,0 +1,401 @@
+From - Sun Aug 28 22:43:13 2022
+X-Account-Key: account1
+X-UIDL: AER6cVZfJd09YsdAaw2BCMWAb5g
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.34.76
+ by atlas209.free.mail.bf1.yahoo.com with HTTPS; Thu, 7 Jul 2022 20:22:03 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [208.42.137.103]
+Received-SPF: pass (domain of public.govdelivery.com designates 208.42.137.103 as permitted sender)
+Authentication-Results: atlas209.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 7 Jul 2022 20:22:03 +0000
+X-YMailAVSC: 3oI2UiI3bBuDRs1E76sKHAVTkFf2KQfWLEslqubaqVGF9kH
+ 9e.fnU8UMbKo_v_POWaPN4MR6jDWf2JU_fMk4RgZ3CM8vYvcNS1nupmkcbMY
+ _8jlPB4577OkhfdhnWGZhl5rJVnYqwtBfbritnoGUr6TwsnhBlMlZ8B3y1bz
+ 0Txgh6olZPZ5pILHRXbfBnmqAU0ZH_7YvAAYBTV64DicaqpwTkd4pPSaMcVL
+ EcFPEMxTbxMqUwgdnuQMSztvJCWv2DiKCyE5h1xge4kqvS4ouO.dB9QAF9nC
+ im_eq
+X-YMailISG: bfshi_cWLDvJVgfUqdQfKaL4g7Mw9m0mxPUmQEbYhnVhQIME
+ FMl6FEPKOvt8_fipnh1NZo2dW01uiO1.tm6Is7UmKLV6_04SVAvOUyh.WfBc
+ SczE3V2qfyqWdqWRPvAQ_IhTp3H01kMaGOjyY.P8tieG.pDQYsDejCiYlXmq
+ i6t1ajixw3mFdJuCio.YHha2RVCo.DCeRi_25KdWEYTGoGaqh9_55g1jvtqn
+ 5bKQenDpa1kgBux6U7Gz2p6jiWkqgradLut6kLYArI36QtkccICNCJGsnsku
+ g7RQ9hUL3HrweCR3jBsXjUqMJUbmNZ0liJpA.g1htVyXGsAwQ9mE9YaeJ42z
+ VHLDOjtIX03.atOOiZS7g3tKEf4cyXg8pzmxvNnINZ3L9N4mjhR029tmKP10
+ XMbm1Qt2bbS5Tzt8dOluBqkwhXknOLgQ47JHcbZHhICnxusXoEXOhGAeJ3Uh
+ DIuo88roxkBpu4lWAFDsa_OPKQ4XhRp28n1Kk19Tz9gpnn1mLYtt5DB2Mizg
+ rUGQPKNNklZH7iWc3KmY6SrSQ.xwgfSiwEZx.PHAS9.I4h.p7LyZPdbw_g1r
+ xacwNb7yZZ3oFqlsA4JgVtq7WC0lBqhLXUG5Nu4FaHhEZE0Mt_5sRs281Wyv
+ GEAUXyKHOukWdgadL1CimuOZ5iLHlDqrYqK5HAnUt.hERNH7lSP4pWOm0e6b
+ _6jsOEVebGtLAG5r9Sm5R7zMwetW_kUfKDfQ.qCcNVjz8KKQELyY1OdAFnUt
+ uvfbMMuZQC3DwTAo99HeJP3p31YyaeBqR55RKiLWIgv2gOSvCRY63f8eLxG3
+ TetQx3boNqF9W1pZnjFWDCH5g4BF0wuWCTZpAOcufWBCWv23PbjB_krqMw6n
+ bh2PQYRnuPFy3bodT4qH2yN8P2QXOJLQ.jz2ch.BhKEHuTwO0DIuXXjRsPLw
+ LJJPkt15PKGAKIfqhKVM43oeTBVRcUJhH5E2PtSgYIUIiWwbYeo2W1ox83br
+ w0poQpK2vT5j_XCnFth4hrR1058Wj7hSOsOU8BRaWaFXbjdO0heeUUPYQhKQ
+ BMn0VN0Pb_Wr9rog3jHMAekszC.3rut_Ju8KBaLjrYfXxElX1Lfw7z9CWkd9
+ bvy281w3np7r85g98cA0wSwl20Jkc42QDW6n4sgTsG5JQfs-
+Received: from 208.42.137.103 (EHLO mailer137103.service.govdelivery.com)
+ by 10.197.34.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 07 Jul 2022 20:22:03 +0000
+Received: from prod-bulletinprocessor2.ep.gdi ([10.5.3.4])
+	by mailer137103.service.govdelivery.com (-); Thu, 07 Jul 2022 20:22:03 +0000
+X-VirtualServer: Default, mailer137103.service.govdelivery.com, 10.5.38.228
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+X-VirtualServerGroup: Default
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Date:
+	From:Message-ID:Subject:Mime-Version:Content-Type:
+	Content-Transfer-Encoding:X-AccountCode:message-type:Errors-To:
+	X-MailingID:X-SMHeaderMap:To; bh=b76CbQ4Ct75lLovUkth9fBo5WiHKYua
+	tECFWfsPfU3w=; b=J1Zj/fQWXo/leG6IBLyaxvf81ivV//HIS4YP3p4cnUWI/0t
+	QoGi7V+X/aDXux+wpdHPi06aEvo/AQbFIl58zkUfLVq7FbU4agVqNADQNUWAJymN
+	MUZkusN/uTfCF55GvXrttBX755Og0768Y5gSQSA6WpGGEuO7uFz76BRDEFEPu/V0
+	cjnm2KTp4zTqKQPRnJQzUb6jf6bwSp50u8QPx7onpxpTcroFKURiQUbjnn5zbMpk
+	bLoEHDoiqQCP+mCdVW7KT6mM1P2XHvsqD2E8iW19SfD9qzh5Y/8JOQ34nu4wyxty
+	+nQ0twojaF27HjKKDiSaGKK5BD4ZthZSkCrz7yQ==
+Date: Thu, 07 Jul 2022 15:22:01 -0500
+From: "U.S. Drug Enforcement Administration" <dea@public.govdelivery.com>
+Message-ID: <62c74069ef8b6_17b0710331d49887c@prod-evo-bg6.ep.gdi.mail>
+Subject: (Please confirm your email) Please confirm your subscription U.S.
+ Drug Enforcement Administration updates!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62c74069e17e0_17b0710331d4987f5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-AccountCode: USDOJDEA
+message-type: welcome_new_subscriber
+Errors-To: messages@public.govdelivery.com
+X-MailingID: 310873002335141::3271333545::0::PRD-ZIPMAIL-3271333545::::1
+X-SMHeaderMap: mid="X-MailingID"
+To: MS60710444266@YAHOO.COM
+Content-Length: 14817
+
+
+----==_mimepart_62c74069e17e0_17b0710331d4987f5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+US Department of Justice - Drug Enforcement Administration  [ https://www=
+.justice.gov/dea/index.shtml ]  =
+
+
+Please confirm your email address to receive future messages from U.S. Dr=
+ug Enforcement Administration.
+Unconfirmed accounts will be deleted automatically. =
+
+
+Confirm your email address [ https://public.govdelivery.com/accounts/USDO=
+JDEA/destinations/16626627978/confirm?verify=3D4.dd572a79ea8cb8ae7044a765=
+d0a1fcd4 ] =
+
+
+Thank you for signing-up for email updates from the U.S. Drug Enforcement=
+ Administration. For security reasons, you=E2=80=99ll need to confirm you=
+r subscription in order to receive these updates.
+
+=C2=A0
+
+If this account was created without your knowledge or you otherwise do no=
+t wish to keep it, no action is required. Unconfirmed accounts will be re=
+moved automatically. If you are concerned about preventing unauthorized u=
+se of your account, please add a password to your DEA subscription prefer=
+ences.
+
+ =
+
+ =
+
+
+________________________________________________________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the U.S. Department of Justice Web site.=C2=A0 Update your subsc=
+ription to this service, modify your password or e-mail address, or stop =
+subscriptions at any time on your Subscriber Preferences Page [ https://p=
+ublic.govdelivery.com/accounts/USDOJDEA/subscriber/edit?preferences=3Dtru=
+e#tab1 ].=C2=A0 You will need to use your e-mail address to log in.=C2=A0=
+ If you have questions or problems with the subscription service, please =
+contact subscriberhelp.govdelivery.com [ https://subscriberhelp.govdelive=
+ry.com/ ].=C2=A0 If you have questions about the Department of Justice We=
+b site, please contact webmaster@usdoj.gov.=C2=A0=C2=A0 =
+
+
+GovDelivery is providing this service on behalf of the Department of Just=
+ice and may not use your subscription information for any other purposes.=
+=C2=A0 =
+
+
+Department of Justice Privacy Policy [ http://www.usdoj.gov/privacy-file.=
+htm ] =
+
+GovDelivery Privacy Policy [ http://www.govdelivery.com/privacy/ ]
+
+----==_mimepart_62c74069e17e0_17b0710331d4987f5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type">=
+
+<meta content=3D"width=3Ddevice-width" name=3D"viewport">
+
+<!--[if gte mso 9]>
+<style type=3D'text/css'>
+  /*<![CDATA[*/
+    #table-container, #footer-container {
+      width: 600px;
+    }
+  /*]]>*/
+</style>
+<![endif]-->
+<style>body {
+width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; margin: 0; padding: 0; background: #f9f9f9;
+}
+img {
+outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; wi=
+dth: auto; max-width: 100%; float: left; clear: both; display: block;
+}
+body {
+color: #666; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font=
+-weight: normal; padding: 0; margin: 0; text-align: left; line-height: 1.=
+3;
+}
+body {
+font-size: 16px; line-height: 23px;
+}
+a:hover {
+color: #2795b6; text-decoration: underline;
+}
+a:active {
+color: #2795b6;
+}
+a:visited {
+color: #2ba6cb;
+}
+.subscribe:visited {
+color: #fff;
+}
+.wc-confirm-email-btn:visited {
+color: #fff;
+}
+.subscribe:hover {
+background: #2d83bb; border-top: 10px solid #2d83bb; border-bottom: 10px =
+solid #2d83bb; border-left: 20px solid #2d83bb; border-right: 20px solid =
+#2d83bb; color: #fff; text-decoration: none;
+}
+.wc-confirm-email-btn:hover {
+background: #2d83bb; border-top: 10px solid #2d83bb; border-bottom: 10px =
+solid #2d83bb; border-left: 20px solid #2d83bb; border-right: 20px solid =
+#2d83bb; color: #fff; text-decoration: none;
+}
+body.outlook p {
+display: inline !important;
+}
+@media only screen and (min-width: 480px) {
+  #table-container {
+    margin: 30px auto 0 auto;
+  }
+}
+</style>
+</head>
+<body style=3D"width: 100% !important; min-width: 100%; -webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #f9f9f9; col=
+or: #666; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 23px; font-size: 16px; margi=
+n: 0; padding: 0;" bgcolor=3D"#f9f9f9">
+<a id=3D"gd_top" name=3D"gd_top" style=3D"color: #207b96;"></a>
+<table align=3D"center" id=3D"table-container" style=3D"border-spacing: 0=
+; border-collapse: collapse; vertical-align: top; text-align: left; line-=
+height: 100% !important; background-color: #fff; max-width: 600px; table-=
+layout: fixed; -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.1); -moz-box-sh=
+adow: 0 0 8px 0 rgba(0,0,0,0.1); box-shadow: 0 0 8px 0 rgba(0,0,0,0.1); m=
+argin: 0 auto; padding: 0;" bgcolor=3D"#fff">
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D=
+"left">
+<td style=3D"word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none; border-collapse: collapse !important; vertical-alig=
+n: top; text-align: left; color: #666; font-family: 'Open Sans', Helvetic=
+a, Arial, sans-serif; font-weight: normal; line-height: 23px; font-size: =
+16px; margin: 0; padding: 0;" align=3D"left" valign=3D"top">
+<table id=3D"logo" style=3D"border-spacing: 0; border-collapse: collapse;=
+ vertical-align: top; text-align: left; padding: 0;">
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D=
+"left">
+<td style=3D"word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none; border-collapse: collapse !important; vertical-alig=
+n: top; text-align: left; color: #666; font-family: 'Open Sans', Helvetic=
+a, Arial, sans-serif; font-weight: normal; line-height: 23px; font-size: =
+16px; margin: 0; padding: 0;" align=3D"left" valign=3D"top">
+<a target=3D"_blank" rel=3D"noopener noreferrer" href=3D"https://lnks.gd/=
+l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2=
+FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTI=
+3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6=
+ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdvdi9kZWEvaW5kZXguc=
+2h0bWwifQ.tZldeT3GyaFoSlW8HjwxfcyPGV2L8Osv9y6jO5mL850" style=3D"color: #2=
+07b96;"><img alt=3D"US Department of Justice - Drug Enforcement Administr=
+ation" src=3D"https://content.govdelivery.com/system/images/90589/origina=
+l/DEA_II.png?1651687246" style=3D"outline: none; text-decoration: none; -=
+ms-interpolation-mode: bicubic; width: 100%; max-width: 100%; float: left=
+; clear: both; display: block; border: none;" align=3D"left">
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"container" id=3D"email-body" style=3D"border-spacing: 0; =
+border-collapse: collapse; vertical-align: top; text-align: inherit; max-=
+width: 600px; table-layout: fixed; border-bottom-width: 1px; border-botto=
+m-color: #eee; border-bottom-style: solid; width: 100%; padding: 0;">
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D=
+"left">
+<td style=3D"word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none; border-collapse: collapse !important; vertical-alig=
+n: top; text-align: left; color: #666; font-family: 'Open Sans', Helvetic=
+a, Arial, sans-serif; font-weight: normal; line-height: 23px; font-size: =
+16px; margin: 0; padding: 40px 40px 30px;" align=3D"left" valign=3D"top">=
+
+<div class=3D"double-opt-in" style=3D"background-color: #f9f9f9; border-r=
+adius: 2px; margin: 5px 0 35px; padding: 20px; border: 1px solid #eee;">
+Please confirm your email address to receive future messages from U.S. Dr=
+ug Enforcement Administration.<br>Unconfirmed accounts will be deleted au=
+tomatically.
+<br>
+<br>
+<a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2N=
+vdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIs=
+InN1YnNjcmliZXJfaWQiOjI1OTI3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCwidXJpI=
+joiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy=
+5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pERUEvZGVzdGluYXRpb25zLzE2NjI2NjI=
+3OTc4L2NvbmZpcm0_dmVyaWZ5PTQuZGQ1NzJhNzllYThjYjhhZTcwNDRhNzY1ZDBhMWZjZDQi=
+fQ.gH90Qidq0ZtONHGFt3yonjqPIp3MQitpYc3QZBxfq7w" class=3D"sr-button revers=
+e wc-confirm-email-btn" style=3D"color: #fff; background-color: #2176ae; =
+display: inline-block; border-radius: 4px; text-decoration: none; border-=
+color: #2176ae; border-style: solid; border-width: 10px 20px;">Confirm yo=
+ur email address</a>
+</div>
+<p style=3D"color: #666; font-family: 'Open Sans', Helvetica, Arial, sans=
+-serif; font-weight: normal; text-align: left; line-height: 23px; font-si=
+ze: 16px; margin: 0; padding: 0;" align=3D"left">Thank you for signing-up=
+ for email updates from the U.S. Drug Enforcement Administration. For sec=
+urity reasons, you=E2=80=99ll need to confirm your subscription in order =
+to receive these updates.</p>
+<p style=3D"color: #666; font-family: 'Open Sans', Helvetica, Arial, sans=
+-serif; font-weight: normal; text-align: left; line-height: 23px; font-si=
+ze: 16px; margin: 0; padding: 0;" align=3D"left">=C2=A0</p>
+<p style=3D"color: #666; font-family: 'Open Sans', Helvetica, Arial, sans=
+-serif; font-weight: normal; text-align: left; line-height: 23px; font-si=
+ze: 16px; margin: 0; padding: 0;" align=3D"left">If this account was crea=
+ted without your knowledge or you otherwise do not wish to keep it, no ac=
+tion is required. Unconfirmed accounts will be removed automatically. If =
+you are concerned about preventing unauthorized use of your account, plea=
+se add a password to your DEA subscription preferences.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table align=3D"center" id=3D"footer-container" style=3D"border-spacing: =
+0; border-collapse: collapse; vertical-align: top; text-align: left; max-=
+width: 600px; margin: 0 auto 30px; padding: 0;">
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D=
+"left">
+<td style=3D"word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none; border-collapse: collapse !important; vertical-alig=
+n: top; text-align: left; color: #666; font-family: 'Open Sans', Helvetic=
+a, Arial, sans-serif; font-weight: normal; line-height: 23px; font-size: =
+16px; margin: 0; padding: 0;" align=3D"left" valign=3D"top">
+<table class=3D"container" id=3D"footer" style=3D"border-spacing: 0; bord=
+er-collapse: collapse; vertical-align: top; text-align: inherit; max-widt=
+h: 600px; table-layout: fixed; padding: 0;">
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D=
+"left">
+<td style=3D"word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none; border-collapse: collapse !important; vertical-alig=
+n: top; text-align: left; color: #888; font-family: 'Open Sans', Helvetic=
+a, Arial, sans-serif; font-weight: normal; line-height: 23px; font-size: =
+16px; margin: 0; padding: 40px;" align=3D"left" valign=3D"top">
+<hr style=3D"color: #d9d9d9; background-color: #d9d9d9; height: 1px; bord=
+er: none;"> You have received this e-mail because you have asked to be no=
+tified of changes to the U.S. Department of Justice Web site.=C2=A0 Updat=
+e your subscription to this service, modify your password or e-mail addre=
+ss, or stop subscriptions at any time on your <a href=3D"https://lnks.gd/=
+l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2=
+FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1OTI=
+3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6=
+ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb=
+3VudHMvVVNET0pERUEvc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.l=
+462Bp5uIWhJN8O4qEa-RaymKMAtUDqfZL62GwLO-lI" title=3D"" target=3D"" style=3D=
+"color: #207b96;">Subscriber Preferences Page</a>.=C2=A0 You will need to=
+ use your e-mail address to log in.=C2=A0 If you have questions or proble=
+ms with the subscription service, please contact <a href=3D"https://lnks.=
+gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWV=
+zc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1=
+OTI3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCwidXJpIjoiZXZvOnRyYW5zYWN0aW9uY=
+Ww6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZX=
+J5LmNvbS8ifQ.osN8dJaGjvqeBKy8HUbHYGE39YDVi-rz5OLZNcbjcPQ" style=3D"color:=
+ #207b96;">subscriberhelp.govdelivery.com</a>.=C2=A0 If you have question=
+s about the Department of Justice Web site, please contact <a href=3D"mai=
+lto:webmaster@usdoj.gov" style=3D"color: #207b96;">webmaster@usdoj.gov</a=
+>.=C2=A0=C2=A0 =
+
+<p style=3D"color: #666; font-family: 'Open Sans', Helvetica, Arial, sans=
+-serif; font-weight: normal; text-align: left; line-height: 23px; font-si=
+ze: 16px; margin: 0; padding: 0;" align=3D"left">
+</p> =
+
+<p style=3D"color: #666; font-family: 'Open Sans', Helvetica, Arial, sans=
+-serif; font-weight: normal; text-align: left; line-height: 23px; font-si=
+ze: 16px; margin: 0; padding: 0;" align=3D"left">GovDelivery is providing=
+ this service on behalf of the Department of Justice and may not use your=
+ subscription information for any other purposes.=C2=A0 =
+
+</p> =
+
+<p style=3D"color: #666; font-family: 'Open Sans', Helvetica, Arial, sans=
+-serif; font-weight: normal; text-align: left; line-height: 23px; font-si=
+ze: 16px; margin: 0; padding: 0;" align=3D"left"><a href=3D"https://lnks.=
+gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWV=
+zc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1=
+OTI3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCwidXJpIjoiZXZvOnRyYW5zYWN0aW9uY=
+Ww6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vd3d3LnVzZG9qLmdvdi9wcml2YWN5LWZpbG=
+UuaHRtIn0.n9tQDfkfsFxka62N0h90PHUGb_EfLjm9s6KQB2bxXqs" title=3D"" target=3D=
+"" style=3D"color: #207b96;">Department of Justice Privacy Policy</a> =
+
+  <br><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.e=
+yJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaW=
+JlciIsInN1YnNjcmliZXJfaWQiOjI1OTI3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCw=
+idXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vd3d3=
+LmdvdmRlbGl2ZXJ5LmNvbS9wcml2YWN5LyJ9.lMsNiIlLRcbXDSIh-r-GdNcpx0PtklnZSbXT=
+OurYmU4" title=3D"" target=3D"" style=3D"color: #207b96;">GovDelivery Pri=
+vacy Policy</a> =
+
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<img src=3D'https://lnks.gd/o/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2=
+NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciI=
+sInN1YnNjcmliZXJfaWQiOjI1OTI3MDMyMTcsIm1lc3NhZ2VfaWQiOjk4NzQ1ODg5MCwidXJp=
+IjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6b3BlbiJ9.sQ6SVMC8aD3evEMQebqy0ivtkzhF=
+ZW3YALj3lJ0PDPc'/></body>
+</html>
+
+----==_mimepart_62c74069e17e0_17b0710331d4987f5--
+

@@ -1,0 +1,406 @@
+From - Sun Aug 28 22:54:42 2022
+X-Account-Key: account1
+X-UIDL: AGBe57cxB7o9YuFejgLDCF0DvR4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.214.173.215
+ by atlas311.free.mail.gq1.yahoo.com with HTTPS; Wed, 27 Jul 2022 15:49:33 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.68]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.68 as permitted sender)
+Authentication-Results: atlas311.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 27 Jul 2022 15:49:34 +0000
+X-YMailAVSC: 6PsTLvA3bBsscWzQAooeiDqV.DXTTUzJkzkTMTFXxbWaL8h
+ edjvYV8Cks0_uW2mVqX17BsXyLanIfQMdzQC07a3txQeBJFHbZ78pONq8qDl
+ kvaapzUxglGkvKxrZMzdAVOYn8P3py0BZyXu3MIfS2yG9PU2GVKpbWXbIMhf
+ SOduXt6tvvyTEMfYIEqq6faTZClL_FeJd9IUcwXfVRiGcHb6Qxbl66EUWq07
+ wV2p.bSRQmRiZtItBW3nU35k31Bwyao9utYkXnKynnhoMCtqmmcX3jAsRBU5
+ n6amh8BCiZ00GfphR6DpnS9JtWiQALyoOfTei7T9Fn2i0f0Mb6lXfKbxEr8M
+ XoVmxK1mENDmjrip9IcUdP033D7D7nrhZgFLALWpnFSzk4sOsulbf6xjG.bH
+ AlDN7e7qse4RKl3xzoBxF4pxnDaTwOQ7NcGTljmH24TKj5cL9L6gtxLlE6xP
+ dpYNK8A7Q0C2Cww7bxmqWj6ooy6bJVHVxoXC6Tv.E2MPOZsrJYLhrMu3_10b
+ TVURJ2EHsQfrE..e83l9WgQG66Glqpdbog5WxU0hNYIw5oc0lT3p5FXJ27am
+ OkD03yt9LUeJmi3qNuwF9f4hRD0Zud0A7Pl3VGtsZV7kW8B5oXjy3Kx2Jna_
+ 56EvuCXzLZAqFa_N0RX7zxfyJBWkehVMEZa5MyOkE_YskdD4802xJM5BTuzZ
+ XzpCZmDRTbWK7ZR7eEKSu92fc0Qv88ZM8Bjo7n0RHmTErJZ9cjPz5PjYlpDr
+ A1o_mMSZmfdrErqchl.IJBLfBXlCJXkxfzlSZZzNL2qde0kTHrjEKPt6NgmP
+ zTk.WmShlcMTBUwwzobaQ2YwytuWT4lqFHATkdaJh7Sk.KTmLz73eLaUz6lx
+ JFrYElGJRvWQN9uS1lwUAFzncSOTABv4PC0tcBCMSZIi4ERBLoBxlSp2pV7Z
+ 86e5Cvw0gGD8N4Qy4FK3MWr1z6BzrO5K84UoHOWUJBy47O9eFnW5CteROLFL
+ 1GSoxPPlX23B5e91qFRBBqn1S5ebY82ZGUgj6vgr5MY99KDUH83e47WUtNyP
+ P6XdqHDw1.Lw9npl7pAXHBGFROtNsQsNE3S4x7U3ZYPPbrQcY06Z08q2E8rk
+ 1lg8zm2Mxuty5XkN212P8Szm9Qt7oRCdOc5T2iPvPsTmH0725jHdnovJeORG
+ rUGvG48KWaElmtfqU7FdZR6Uqgf8T.sg_d8hQ4C5nIYCI_C1A2KMckL22N7v
+ 3SRyX7eh6k5N2IK3QVjUjz6dTrwI._fAdeexFHLGB8iqBg_8iWLZCf_17NQZ
+ 2b3LA0fKm6c8T4vUnwUoSTTtwqYkAKnDKPbk5elnMVDBFynzevrslmhKxY0Q
+ oZXfDxfAR5imhtK7Sj8skuDHIIfDo9JXIk6X1bcK3WxQPRgz6BggdmSxZNtu
+ mqc5CP8GTXgX54GgGCuqFcj4AJOpVSDjMM2cIdbSWU_gooBql.xo-
+X-YMailISG: 7h6F2OYWLDtj.HZN.W1wa8owWUOLOJNrz3pY.aueCeehTHkM
+ IU1v_PdCOy8gh88zo72XkxciPzN6vER4bFN7NuH8xg8h8URSrJPCC_qbNyx8
+ d_ypfv7on8Pjxqr29vqjXJUAQ9ehBL3YyBz9ZuQN7_4EAVT7to55FfS1UQis
+ z1P9FB1ZX2fnRJ7ID.zdHiXVAELjHs5qu2mgm_ta15SRqQ88tRQKK9.CbLBi
+ UgsADB4mNNPTalYVVwaWdvhqfVyAehTk4b9jazw_2YqHKJv28BvV710xiaIY
+ J8ccCZvwjSoL6_Pg2K4xfWpYxSWVi_dp4xRir8.fmiCwZD.wDnBoLkgNGDFP
+ 9X0wmqavIaEy1IgoIDBgWLpqgzklgCK8MadPaCiwrNgRsydYBagL3eEowDdR
+ 2bOXGoWsZkqiN7YwoCj.XwHUf0sS.0hocdaIo1USq423IW_6mdLRWZIxyssS
+ odCHyYxETnXanOcMzadyeybqvZwPGvWH5QMtvRqURtWGkIOVAw5vSGfp3lZO
+ yC6q4IsP5M5NWYbu1heow9LRen8Vzx_XcDoaxjvK_jFzihoh_E4YCZZPwHVZ
+ KMgVarE9gCCBwsupL55uq8pnyelMY8lUZK7Aq3Uz9mpg6VVBzvTFyEODr_6.
+ Tu0E8W5eQMs49dFG5wcS5Kx_uAswGs2v.rPd43LuoslBXJFlyuBspvwFAmiR
+ XIed.r3Yzr0.mxLaNFkQ6jPGFLKbToLEQxn8F2XgKC8KJG0l_B6w7Ok09hL4
+ XGd37.kVpE7_DZBLMCZJnRO_TaYK7m1oIX74LEzuc.bJAjHrE_twMeuJf8Sd
+ s74.qFhOQ.anIkA6T_ME5I7I4u9hYxyY2u4Y2LGkgtU789rCTUZeOjvxfYzk
+ 38uUcAVtnBGbcn1elBTHU7_n1wGRERtlrDLJtCU8GOtSZ0ZwMGzgoucx3MsK
+ CHMzJhNm1S_oM1vPF5nmnMAd7BBEiXPIkdsGmclZ4f05W.8PvBArQqzeD3Pj
+ _JD.O66JwyWLI_3WZptUSzpEbOjBwLpHOAgFoaqFFgvbQH3g8YyZJUd2AR02
+ l7ElqunFS1gwJx4MPlqaGPZfm_qeQ3QlVWPo2YSFIsuK2ZQIoZMQg0Td84oR
+ RIKtfaOAW65Nmq15SYTsOH9KwOd8YPGxnOE8Bo5h1sBMFfqQninP7DQ.77RX
+ Yw--
+Received: from 209.134.158.68 (EHLO mailer158068.service.govdelivery.com)
+ by 10.214.173.215 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 27 Jul 2022 15:49:33 +0000
+Received: from gepdp-smeds1-5.systems.dc.gdi ([10.5.36.52])
+	by mailer158068.service.govdelivery.com (-); Wed, 27 Jul 2022 15:49:32 +0000
+X-VirtualServer: VSG001, mailer158068.service.govdelivery.com, 10.5.36.140
+X-VirtualServerGroup: VSG001
+X-MailingID: 16825011::20220727.61367591::1001::MDB-PRD-BUL-20220727.61367591::ms60710444266@yahoo.com::47556_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=lUOg
+	iOwdbNnciXorNL+pQUWoF2y3xtWyGNucEC+Agzk=; b=YOk1dy8w74UkGqnoW2Rs
+	qyFnaihr7ZITGTX5KFjPBSzlY13YvPHv1ps45OIxN3nbOlfDGLkCgZc7Ux+PGvtQ
+	KoFQa8QVyZVomi63jzPgJxuM94bUy9LU9zLAqPdqS22SZ4jjud4TjoJRApPf/yKA
+	XTjv8YGtoMk5LDLTpReCNPEeJlTMgxesk6To27Q+eF4moHaUdAMAVomskDRgwf8J
+	JG+0jTKqnYuRIZ+SlIkiDoKd6n1n7vsnXrZigtoVvABa8xf/ZdddPj4wyodCD+7J
+	DExLiSdim7hJKFC3J8TdEry5TAMtRewOc9qTm3xr591l34f2HqZJpz9Q0sSNz3oF
+	Fg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_FB2_7B18_291225B0.2B7A84C1"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIetl2CAm1mzfqQNk7lyhvaOVDJsHLbAPD5bEJAZkAsu/r3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16825011.47556@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK6I7TJJ6HD_JJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?Cp1252?Q?July_19_CMS_Administrator=92s_National_Stakehold?= =?Cp1252?Q?er_Call_Recording_and_Transcript_Now_Available?=
+Date: Wed, 27 Jul 2022 15:49:20 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 14176
+
+
+------=_NextPart_FB2_7B18_291225B0.2B7A84C1
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+CMS Regional Office______________________________________________________=
+__________________
+
+=20
+July 19 CMS Administrator=92s National Stakeholder Call Recording and Tra=
+nscript Now Available
+
+Thanks again to all those who attended the National Stakeholder Call with=
+ the CMS Administrator on July 19.=A0=A0In case you missed it, here=92s t=
+he link to the call recording and transcript: CMS National Stakeholder Ca=
+lls [ https://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2=
+Fclick.icptrack.com%2Ficp%2Frelay.php%3Fr%3D66181237%26msgid%3D552225%26a=
+ct%3D2B73%26c%3D1185304%26pid%3D2077263%26destination%3Dhttps%253A%252F%2=
+52Fwww.cms.gov%252Foutreach-education%252Fpartner-resources%252Fcms-natio=
+nal-stakeholder-calls%26cf%3D6316%26v%3D89f89796da514e8d8d6c186dc72d09343=
+05c156d1ce7920ba708d09444615004&data=3D05%7C01%7CWalter.Gutowski%40cms.hh=
+s.gov%7Cdcd510efbaf14b7327a108da6fd38d00%7Cd58addea50534a808499ba4d944910=
+df%7C0%7C0%7C637945251628970830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwM=
+DAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3D=
+UZKSgpLC6cdB44jWfscXanJhVzuFM1qaRFpJbaK74%2FU%3D&reserved=3D0 ].
+
+The call featured CMS Administrator Chiquita Brooks-LaSure and her leader=
+ship team, who provided updates on=A0CMS=92 recent actions and how CMS cr=
+oss-cutting initiatives (CMS Strategic Plan [ https://gcc02.safelinks.pro=
+tection.outlook.com/?url=3Dhttps%3A%2F%2Fclick.icptrack.com%2Ficp%2Frelay=
+.php%3Fr%3D66181237%26msgid%3D552225%26act%3D2B73%26c%3D1185304%26pid%3D2=
+077263%26destination%3Dhttps%253A%252F%252Fwww.cms.gov%252Fcms-strategic-=
+plan%26cf%3D6316%26v%3De89d582f574e13ab35e0ec13cb7608ec883121d31298fdf8e9=
+597b067122c409&data=3D05%7C01%7CWalter.Gutowski%40cms.hhs.gov%7Cdcd510efb=
+af14b7327a108da6fd38d00%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C6379=
+45251628970830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMz=
+IiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DUJwVUclLjHUgTiGy=
+kOW6Uio8R%2F7aWna7Hd64Ao3VSxE%3D&reserved=3D0 ]) are improving quality of=
+ care and=A0expanding access to health coverage. Guest speaker Tom Coderr=
+e, Deputy Assistant Secretary from the Substance=A0Abuse and Mental Healt=
+h Services Administration (SAMHSA), reviewed SAMHSA=92s Suicide & Crisis =
+Lifeline and the=A0new 988 dialing code. CMS serves the public as a trust=
+ed partner and steward dedicated to advancing health equity,=A0expanding =
+coverage, and improving health outcomes as we engage the communities we s=
+erve throughout the=A0policymaking and implementation process.
+
+We hope you can join us for the next National Stakeholder Call in the Fal=
+l.
+
+ CMS Regional Office=20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_FB2_7B18_291225B0.2B7A84C1
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    July 19 CMS Administrator=92s National Stakeholder Call Record=
+ing and Transcript Now Available
+</title>
+
+
+</head>
+<body style=3D"font:13px / 1.5 Arial , Helvetica , sans-serif;margin:0;pa=
+dding:0;width:100% !important;">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"text-align: cente=
+r; background-color: #FFFFFF; margin: 0; padding: 0; width: 100% !importa=
+nt" bgcolor=3D"#FFFFFF"><table id=3D"gd_ab_main_tab" width=3D"600" align=3D=
+"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: co=
+llapse; width: 600px; text-align: left; margin: 20px auto;">
+ =20
+<tr>
+  <td id=3D"gd_ab_header" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Masthead" style=3D"border-collapse: collapse; vertical-align: top=
+; background-color: #FFFFFF; padding: 4px 9px;" bgcolor=3D"#FFFFFF" valig=
+n=3D"top">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2016/01/729038/regionalofficeheader_origi=
+nal.jpg" style=3D"width: 600px; height: auto; border: 0px none;" alt=3D"C=
+MS Regional Office" width=3D"600" height=3D"116"><div class=3D"govd_hr" s=
+tyle=3D"padding: 30px;"><div class=3D"govd_hr_inner"><hr></div></div>
+</td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_main_body" width=3D"600" data-govdstyle=3D"all" data-go=
+vdtitle=3D"Main body" style=3D"border-collapse: collapse; vertical-align:=
+ top; background-color: #FFFFFF; padding: 5px; border: none;" bgcolor=3D"=
+#FFFFFF" valign=3D"top">
+<h1 class=3D"govd_header" style=3D"font-size: 22px; font-family: arial, h=
+elvetica, sans-serif; color: #000000; text-align: left; margin: 0 0 4px; =
+padding: 0;" align=3D"left">July 19 CMS Administrator=92s National Stakeh=
+older Call Recording and Transcript Now Available</h1>
+<p class=3D"paragraph-spacing-none" style=3D"margin-bottom: 2px; color: #=
+000000; text-align: left; font: 16px/1.5 arial, helvetica, sans-serif;" a=
+lign=3D"left">Thanks again to all those who attended the National Stakeho=
+lder Call with the CMS Administrator on July 19.=A0=A0In case you missed =
+it, here=92s the link to the call recording and transcript: <a href=3D"ht=
+tps://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fclick.i=
+cptrack.com%2Ficp%2Frelay.php%3Fr%3D66181237%26msgid%3D552225%26act%3D2B7=
+3%26c%3D1185304%26pid%3D2077263%26destination%3Dhttps%253A%252F%252Fwww.c=
+ms.gov%252Foutreach-education%252Fpartner-resources%252Fcms-national-stak=
+eholder-calls%26cf%3D6316%26v%3D89f89796da514e8d8d6c186dc72d0934305c156d1=
+ce7920ba708d09444615004&data=3D05%7C01%7CWalter.Gutowski%40cms.hhs.gov%7C=
+dcd510efbaf14b7327a108da6fd38d00%7Cd58addea50534a808499ba4d944910df%7C0%7=
+C0%7C637945251628970830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQI=
+joiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DUZKSgpL=
+C6cdB44jWfscXanJhVzuFM1qaRFpJbaK74%2FU%3D&reserved=3D0" target=3D"_blank"=
+ rel=3D"noopener" style=3D"color: #0000FF;">CMS National Stakeholder Call=
+s</a>.</p>
+<p class=3D"paragraph-spacing-none" style=3D"margin-bottom: 2px; color: #=
+000000; text-align: left; font: 16px/1.5 arial, helvetica, sans-serif;" a=
+lign=3D"left">The call featured CMS Administrator Chiquita Brooks-LaSure =
+and her leadership team, who provided updates on=A0CMS=92 recent actions =
+and how CMS cross-cutting initiatives (<a href=3D"https://gcc02.safelinks=
+.protection.outlook.com/?url=3Dhttps%3A%2F%2Fclick.icptrack.com%2Ficp%2Fr=
+elay.php%3Fr%3D66181237%26msgid%3D552225%26act%3D2B73%26c%3D1185304%26pid=
+%3D2077263%26destination%3Dhttps%253A%252F%252Fwww.cms.gov%252Fcms-strate=
+gic-plan%26cf%3D6316%26v%3De89d582f574e13ab35e0ec13cb7608ec883121d31298fd=
+f8e9597b067122c409&data=3D05%7C01%7CWalter.Gutowski%40cms.hhs.gov%7Cdcd51=
+0efbaf14b7327a108da6fd38d00%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C=
+637945251628970830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2=
+luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DUJwVUclLjHUg=
+TiGykOW6Uio8R%2F7aWna7Hd64Ao3VSxE%3D&reserved=3D0" target=3D"_blank" rel=3D=
+"noopener" style=3D"color: #0000FF;">CMS Strategic Plan</a>) are improvin=
+g quality of care and=A0expanding access to health coverage. Guest speake=
+r Tom Coderre, Deputy Assistant Secretary from the Substance=A0Abuse and =
+Mental Health Services Administration (SAMHSA), reviewed SAMHSA=92s Suici=
+de &amp; Crisis Lifeline and the=A0new 988 dialing code. CMS serves the p=
+ublic as a trusted partner and steward dedicated to advancing health equi=
+ty,=A0expanding coverage, and improving health outcomes as we engage the =
+communities we serve throughout the=A0policymaking and implementation pro=
+cess.</p>
+<p class=3D"paragraph-spacing-none" style=3D"margin-bottom: 2px; color: #=
+000000; text-align: left; font: 16px/1.5 arial, helvetica, sans-serif;" a=
+lign=3D"left">We hope you can join us for the next National Stakeholder C=
+all in the Fall.</p>
+</td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_footer" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Footer" style=3D"border-collapse: collapse; vertical-align: top; =
+background: #FFFFFF url(https://content.govdelivery.com/attachments/fancy=
+_images/USCMS/2014/06/309405/cms-footer_original.jpg) no-repeat; padding:=
+ 5px 0px 0px 5px; border: none;" bgcolor=3D"#FFFFFF" valign=3D"top"><img =
+class=3D"govd_template_image" src=3D"https://content.govdelivery.com/atta=
+chments/fancy_images/USCMS/2016/01/728987/regionalofficefooter_original.j=
+pg" style=3D"width: 600px; height: auto; border: 0px none;" alt=3D"CMS Re=
+gional Office" width=3D"600" height=3D"40"></td>
+</tr>
+=20
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MjcuNjEzNjc1OTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.155ehgJTi6G6UgJb9l3xaxnzHCy4VxQBQhjWS90tmhk/s/2601788358/br/1=
+41647882520-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjcuNjEzNjc1OTEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.cPWkB1c776Uy8RIWZHiy0w=
+PuTu9HMp9oU0UbPEqKG5U/s/2601788358/br/141647882520-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjcuNjEzNjc1OTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.VyOP3FpNCr-KSGMznmTUrcdKm3s9cZQMc8p_3c0M9=
+OA/s/2601788358/br/141647882520-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3Mjcu=
+NjEzNjc1OTEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.v0a-4GPc5MhqUC0vLJoxnL=
+X5Xcsp7eo_r4cp3KhMuJc/s/2601788358/br/141647882520-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE2NDc4ODI1MjAtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjcuNjEzNjc1OTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzI3LjYxMzY3NTkxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI1MDExJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_FB2_7B18_291225B0.2B7A84C1--
+

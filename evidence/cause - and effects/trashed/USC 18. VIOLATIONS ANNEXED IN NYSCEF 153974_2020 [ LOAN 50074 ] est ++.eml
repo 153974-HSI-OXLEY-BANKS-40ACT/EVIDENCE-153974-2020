@@ -1,0 +1,238 @@
+From - Sun Aug 28 22:40:56 2022
+X-Account-Key: account1
+X-UIDL: ADheO5MkNRRCYro9WQH/uMHvs98
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.76
+ by atlas204.free.mail.bf1.yahoo.com with HTTPS; Mon, 27 Jun 2022 23:29:40 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.131.230]
+Received-SPF: pass (domain of yahoo.com designates 74.6.131.230 as permitted sender)
+Authentication-Results: atlas204.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 23:29:40 +0000
+X-YMailAVSC: sjWcdN03bBs2bNPT6idgmeij6K8oeRKmKdciCT7OHOy3Ylx
+ qbcFeX4YkFLQ3IWmyUonHWGz7wUrTRtVIB_ljeTpnwB3x9WVEC8HiFtXidI4
+ oazQ2J4hd8uNihxKeXJvaQ7P5hM4HtrwyEoOr7TBdnrfYSIel0zNLZBvU5nj
+ rAtz81m6.i0iTjrUwTOJ91LXf4_oCTaZmAVmVQt.5DELlVqKeRlUPT9JC93P
+ OeR.XO6f31Yr7CGHEnfGeDw7z918qIJKWY41xNNy.f8u2jL.iA1Dr14cDuF2
+ Ci90Pb0v9BtIh6ptIHxzNVjmMsF2wEi7FrdMkrt2E0PSJAmQa.J.Fi_YQRIi
+ Yi6pDcb47gPHR0KfNYKWvXSWcXwRd7q3D.2FTZ_bgO9J7UxbSVJ5KyzIYkGt
+ DuOYsIC5dw0XYJvK1SqQ7E__62XVn0wUuRGaQIr6KBLMuHxAsiA--
+X-YMailISG: 23duC8kWLDvsiW6.ODajLQCtHjZzp2vwSS52DSk.JysFrHXK
+ ZrWIHrot4BmZTN2IhHSuvNlLT_5sYHGHm3ZqUQVylPp4QpXpv47rAiNPBlSA
+ s.C1_7zrZ9BI2PFRjwq4_ehxHjSfiH4jTF7eqr44j8XKXKYQTMmWrAD3sOg7
+ yZ70bUebhkx3Qi4hFr0i3qSmHkoFsLv_hfkyD7yCVgtxqulZYUwEBBtzUgkR
+ YdnpHdEwMsgxWnnK_nErBNJpPceFcVt8EaDpnmy.ervVAevW_Po43_xuFQXc
+ OorEVeFkKA2htwpPIFQ9JRHq6p9Hp2ki3GigKGm.twUknHPWPg54CLb1C3pB
+ hd6e0Eup2QpWLvqR9xfEzWKdDiFvaLe50kAkI6fnMz97q9kZ5GKDy.V_P44E
+ f6tDBoNpS_WYcIxy4DSQWHXdg9yb8SKX3n8RexU_yyoouEIcKZddHhuI2dXd
+ tY012BpOubpC624dv..8Au9u81DB01aAwFHYhSRX4l21s2hbTe7FyrmhtsbC
+ UPOv7sOiu2Jw9k9c_JgqFqAHYUQRurHsoA1cvxCOOxyL40W6ylTqKzT4VWbn
+ os9qUlbilO_CFnpReE.nj7wWMa3bzFq7Q8Z8kB_3rb1dSesIewviIwkplGvQ
+ RGpH3rSpltA4YrBmVvQHqKG57pNcTBlLbwuGFZ.1SL4pcfGcUgtjZXiSB75Z
+ FHPt6GVWjj7c4tpWsxHJVleEo7SJ9Kgw9ZKzm.GJmLuvFZ56Ehi955qgCJwl
+ kXd1lzQ0.7pQGZq9SMS.4tjdrgYjVuuZmXljxwdHby_OJkVuXlagBaYXrGqM
+ HVKScpV2H7NMl4iK_HTzem.L0wzC_3ElGLY.xRdq7VpfgenIHDyRgDUZ3Eb0
+ _bi.OGOsgog3oLVGd7s4I6WmnbqQJxK2oEjnDIG0hq2iPNONJOjXlNr.opj3
+ 7miT_OKVqrRXoKY.g9bWb1o17gg70S5PK5JSDz.ivr5lZ8tD9JcQzBJb0dcE
+ a7TC6pEpdqVVYI6rJ2OZmQv5L7_A7jOPkioiP.WgvraongS05BymVCoF0lB3
+ zgseNCfJFLES4jKYeEuzv4epJY86CC1i11Cy2jAnsTxxihVFlZvvhizVJyi_
+ 6b8kF9JXHdI0z_9fREtV5ZcG2wFNFhhEpMSj6C_T8u_DhocOdeshcEdqay9_
+ KoXgJ9g7UjuQjowf6U3H7bZL
+Received: from 74.6.131.230 (EHLO sonic303-31.consmr.mail.bf2.yahoo.com)
+ by 10.197.39.76 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 23:29:40 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656372580; bh=vccgIVMA7h6poq+SauVFe30ddF9tna+OSJVcpGdBCKM=; h=Date:To:From:Subject:Cc:References:From:Subject:Reply-To; b=HcFIBhyKg7H9Ejqd3nXGZ8CC7qKUWBNBN2wzsQBz18swvJZwmu4prxG/rbHkJJ+VG6TWTyFhJmNeAzMpYA/PIgWD8rN7ajKVaX+iVM7ClCiTGZIQI4GGvYGc35UHqq/Lbt+qvyBpHGKxU/Ut8AdRAifGhCCFRmzk3QB0VXWJzxgs/2K0lAYMYo/kW2Br0I4RH0szGGAzWTWhWZz2LkE9Vaf68xLpOoB0oz3METzJMHuetNM2EgWO622vvaOxz/hwxZDg4Bhc4iJKy7wA26EDBpMif8JmjP6mxcn1P7efW2cnzwURpcFJl9sDLARu53N2QAkPk2vXI6wZY9CK2SmO+g==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656372580; bh=lbWKRLBZuTgSYIHAxzwDs1Rh7t26R7MdynItNGuRqVn=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=swaJptVgZqIUR/dnOqjTJBfdkf8bXIebQuJPxet8iavlOW96v/LTDJGxG5ENgMwOIRvxoTR7ZdT2/Lv5zYKNAfZEePXaUcoDCAkemMFf+uZQo0qsA/odnjnz0nWVROqRoKju/m48H3X1U5GtGpu7mP3I3tbWyrIA+u3Na7aA0gG3+g2Asbm8eHuNS9jXlMe8MGTmLDMbY15G3IkB/utQCuknfRrFRJMw5c0uaaiOmk17zLpq3XCp9GP7owngGvXgEBp0lUJ1WLu+E+1gJB/zAba72h3W9/eP41j9cnkLalpxo07TBc4otGP7f+GkjiDbXakYuwYaXe2tIvTzZKIaow==
+X-YMail-OSG: TiUYICUVM1lktpEBEkj4K6zZC.a_acEjSaOB7gkzjQTtGkvYRAf8UaYIBYYWRaE
+ .KZg5P2lEfhxt0sLF1SX1NOGSyGTcJoOJBjy.aIQk1Y36aJcPd7BNldtxLm_JBMw8okYKybi4hcJ
+ j0sKcmj7jNvmp5hmwydEzB2CpUshVPcjpTscCMwsIlThhdB.Yqa3x4ZhJc_FUCDDiTjOB2KMItOw
+ 7WTRaUZKrWwIrmSpcLF9hlJsbDMm1WVCli0nEoO6LyV4wK2TYxPkhVGoe337gMxR3D3G_2YPCav2
+ xxwFi4umIUN9yXs0oc91.YNfN0Ys8WEk1427UEl6Lqp_YitqkAwRSi7di2r0w4tJHmN8PDKp27my
+ mjKdbo3CZRPQN84hUTpEf2fqGZFxrYpK07OlT93aIH6X8yLVy3.EH_OVQlhlp.lDBUg7wOYuJuAl
+ wA2QSWuyXf18zrdPKCb4FgWRGmUmbAC.Tqi0cF6fdn1DpmN3.QpmR3QPl1WUWD_7vHYRLq5g3o9v
+ HbuOXQbuiHDfDTMZIcfgUckT9Zn8syAurZnzIRmG2rrvw9FtuIoqs9iZ4hzrFTm2lnu4j0laNqk3
+ tnrjfdQ00CRWwONR.3uw2_NaKuW2vNtQnbOWFlCLDqBcMkCeWTzUSeRDQRtj8Y4bZIMw4mBWQWlw
+ v0XMzuHRCwFTEFpYh60Pz2HZocg8VWWldjsibxZJo3BBi3QBvqRGp2UvxjtJdLOqVa6pUfxIzBnN
+ zNQ0HYZZO9pJ26z.PV2mRqviX7jG_mScHlUP0Nh1WC37wVfjkX6s7MKFn2adLmRmDZQx6nFrWAUt
+ Dw1OHWndH6_7W58H.qLK5q6NaaJ7T.qfkH4dr7XSuWHtJDVOcEGFJESOUoVMpdUcZQa3C0WEym1y
+ mM6hDRMPZDNBmZ967tQG5YZi3qVEQB9Amkl4n.LmrLc0ryig7cSyfB4JcB6k0HfiFqnMq3xpix7S
+ Znki337oaJ2Dg_k5LVR0WAnJ_rnl7yCp4JdbMGfmhvjnZxMhzc5Hhm_QOHrVU2KO9BqcVWL5RL_2
+ fx8RkA6SOQBX8y.s3W9O6IVbCTj5X.9elKG7VMHKCN2mP86_FDUTY626p8OEMQrXC_7jyrQdI_cm
+ XFpK_j4UgCcqjOBroIk.pPzLIOO6T7VJpwi5P6Fu9l0wqVY0OmSWBVhTk6YXARo.vWMk2I8_dD7M
+ yPsze700D2Bqjc6VGI9JoWIYENhiLG.BnpNbvrbUtXYgSs6PGoSx6Hs3y3iG3JVIbN3oEO5qsyrs
+ KcX6Af1JnKxPMvT9HoyKTr3omtlP8WhaKF45WBkkhh1skBZy.FFFHN7P1skE2GY2oQ3_oAhzW4a_
+ ICW213B36TJiPkHwPZxf.r22oX6NG12UNuUBw2nY4ELie.y197.dQzVti1E5lD8D2OSeoElnDSGb
+ hnEcBYlskH6veXgr1m4Nwn1nLeY7KI9ISisysnQxpSV77wOR6KXp1XNw6lpIcC41ObDpWEAaVoTc
+ diQuJWi0b2Rawhl8wx6w.pzQ7qbH94BYSyX94dFOt6yBslw_l7ogsZjvtFzckYTkT85yvwa.V2k1
+ xRGDbMSmwnShsiax.qhsZ_bDk6X3kFmk6GubxbL9ar4nUaOYwRVVfYbSR9akpoS9c.314ABpfev6
+ GzO5.6H5b_PUyxy3YzOrvElpBh.H7lPsZwYnT0IOMa0Z7Q1WQ1YDbO.77LelnQWPA5XF8IIR9j3K
+ f9KK8wuAxX.xd6jndyuiYAIIM77k02wI2EKODM6iH8MaB3aHojkDjiFokwl4Nb6aOAMSv7GJnbIV
+ jbUz7W2eLCbOTd4Z3icpSTu5G.tiooEhCkJ99004x1P_hvB7FfAB34vSsSVEjuk23Ghq26gxGECM
+ IzNjsFr8V.3F0zFFUtyVDUImZjUPTCv_07EhP9TqwuQXX3LzOY2sFR0.nDKz2YVKcUxxEXRHaW9O
+ 0a1QTdIuBAbUuLRJs4JHLxYEcSQew28AD_GuQ1n1K75PnPjqxI9kpKoN.a8leP9Lxx3ai.srpjNa
+ nxKj104Q456mY8i8jH7pAgvIRET9Os1HJocwBOXiyjbSDHTaSCCT0wxXvdf_5J7Dfytb.GzedrvN
+ EgJt2rmMesFuaYVYoFQG9Xay5Gi2msbv2piaRTSVQ_DM2X9SwgAsYh9.Buh1cRKDfNiLegX8rlWF
+ Cck4G27n0_I4dV0Qnlmc0_MXRsn8exy0oh38OgsM69FbGBRLRvbuqanURtZh5eYobDsUIiEIKss8
+ W77FjvfWvI33vdHR2yRDSltwgYIOjs_LWRGgMZ8linPB4WyK8kteI.0Jr2vdHW0WgE_DN.qqf3iK
+ KTg--
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.bf2.yahoo.com with HTTP; Mon, 27 Jun 2022 23:29:40 +0000
+Received: by hermes--canary-production-gq1-677bd878b7-9m45c (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 8fed168c997452cf92a34636fce62be5;
+          Mon, 27 Jun 2022 23:27:38 +0000 (UTC)
+Message-ID: <5fed7975-7a06-7807-37b0-1462efe0fec1@yahoo.com>
+Date: Mon, 27 Jun 2022 18:27:25 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+To: "irs@service.govdelivery.com" <irs@service.govdelivery.com>,
+ "ms60710444266@yahoo.com" <MS60710444266@YAHOO.COM>,
+ Stephen O'Connell <sgo2107@columbia.edu>,
+ "usdoj@public.govdelivery.com" <usdoj@public.govdelivery.com>,
+ "usttb@public.govdelivery.com" <usttb@public.govdelivery.com>,
+ "financialeducation@info.consumerfinance.gov"
+ <financialeducation@info.consumerfinance.gov>,
+ "DHSOIG@public.govdelivery.com" <DHSOIG@public.govdelivery.com>,
+ "vaoig@messages.va.gov" <vaoig@messages.va.gov>,
+ "pbgc@subscriptions.pbgc.gov" <pbgc@subscriptions.pbgc.gov>,
+ "USPSOIG@public.govdelivery.com" <USPSOIG@public.govdelivery.com>,
+ "cdfifund@service.govdelivery.com" <cdfifund@service.govdelivery.com>,
+ "subscribe@subscribe.ftc.gov" <subscribe@subscribe.ftc.gov>,
+ "vatax@public.govdelivery.com" <vatax@public.govdelivery.com>,
+ "tigta@service.govdelivery.com" <tigta@service.govdelivery.com>,
+ "news@updates.sba.gov" <news@updates.sba.gov>,
+ "news@updates.oig.dot.gov" <news@updates.oig.dot.gov>,
+ "slaskowitz@ingramllp.com" <slaskowitz@ingramllp.com>,
+ "lzucker@mskyline.com" <lzucker@mskyline.com>,
+ "administrator@mskyline.com" <administrator@mskyline.com>,
+ "administration@mskyline.com" <ADMINISTRATION@MSKYLINE.COM>
+Content-Language: en-US
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ] est
+ ++
+X-Priority: 1 (Highest)
+Cc: ANGELA 00043govtIdx STUBBS <astubbs@feddirect.com>,
+ anthony.lincoln@va.gov, "asbpolicy@fdic.gov" <asbpolicy@fdic.gov>,
+ "assessments@fdic.gov" <assessments@fdic.gov>,
+ "Assetmarketing@fdic.gov" <assetmarketing@fdic.gov>,
+ Depositorservices@fdic.gov, "efoia@fdic.gov" <efoia@fdic.gov>,
+ "judcraig@fdic.gov" <judcraig@fdic.gov>,
+ Legal Services and Special Contracts Group <LSSCG@FDIC.gov>,
+ "Williams-Young, LaJuan" <LWilliams-Young@FDIC.gov>,
+ "MediaRequests@fdic.gov" <MediaRequests@fdic.gov>,
+ "mgrinnell@fdic.gov" <mgrinnell@fdic.gov>, MATT LOWE <mlowe@fdic.gov>,
+ "OCMgmtGrp@fdic.gov" <OCMgmtGrp@fdic.gov>,
+ "oighotline@fdicoig.gov" <oighotline@fdicoig.gov>,
+ "publicinfo@fdic.gov" <publicinfo@fdic.gov>, realestateforsale@fdic.gov,
+ "Regs@fdic.gov" <Regs@fdic.gov>, FDIC NoReply <shr_fdicsfnoreply@fdic.gov>,
+ "supervision@fdic.gov" <supervision@fdic.gov>,
+ CongressionalLiaison@occ.treas.gov,
+ "CommunityAffairs@occ.treas.gov" <CommunityAffairs@occ.treas.gov>,
+ eoma@occ.treas.gov, IMOCC@sec.gov, Allison Siegel
+ <asiegel@mtagservices.com>, support@MTAGServices.com,
+ Anthony.bucci@cbp.dhs.gov,
+ "CBPINFOCENTER@cbp.dhs.gov" <CBPINFOCENTER@cbp.dhs.gov>,
+ CBPMEDIARELATIONS@cbp.dhs.gov,
+ "BARREDA, CECILIA M" <CECILIA.M.BARREDA@cbp.dhs.gov>,
+ GREGORY.L.DAVIS@cbp.dhs.gov, "BURNS, JAMES E." <JAMES.E.BURNS@cbp.dhs.gov>,
+ "JASON.A.GIVENS@cbp.dhs.gov" <JASON.A.GIVENS@cbp.dhs.gov>,
+ "QUINONES, JEFFREY H" <JEFFREY.H.QUINONES@cbp.dhs.gov>,
+ "MENNELL, JOHN B" <JOHN.B.MENNELL@cbp.dhs.gov>,
+ "JONATHAN.D.ISETT@CBP.DHS.gov" <JONATHAN.D.ISETT@CBP.DHS.gov>,
+ "JUSTIN.B.LONG@cbp.dhs.gov" <JUSTIN.B.LONG@cbp.dhs.gov>,
+ "KRISTOFFER.N.GROGAN@cbp.dhs.gov" <KRISTOFFER.N.GROGAN@cbp.dhs.gov>,
+ "LAWRENCE.R.PAYNE@cbp.dhs.gov" <LAWRENCE.R.PAYNE@cbp.dhs.gov>,
+ "michael.niezgoda@cbp.dhs.gov" <michael.niezgoda@cbp.dhs.gov>,
+ PETER.CARR@cbp.dhs.gov, "PAUZA, RICHARD J" <RICHARD.J.PAUZA@CBP.DHS.GOV>,
+ "roderick.kise@cbp.dhs.gov" <roderick.kise@cbp.dhs.gov>,
+ "THOMAS.GRESBACK@cbp.dhs.gov" <THOMAS.GRESBACK@cbp.dhs.gov>,
+ "lcb50@columbia.edu" <LCB50@COLUMBIA.EDU>
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+References: <5fed7975-7a06-7807-37b0-1462efe0fec1.ref@yahoo.com>
+X-Mailer: WebService/1.1.20280 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 4132
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=GJXKWsHY/rHvmCiDo3VILA==
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38A==
+
+
+USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ]
+§2. - Principals (a) Whoever commits an offense against the United 
+States or aids, abets, counsels, commands, induces or procures its 
+commission, is punishable as a principal. (b) Whoever willfully causes 
+an act to be done which if directly performed by him or another would be 
+an offense against the United States, is punishable as a principal.
+
+§3. - Accessory after the fact Whoever, knowing that an offense against 
+the United States has been committed, receives, relieves, comforts or 
+assists the offender in order to hinder or prevent his apprehension, 
+trial or punishment, is an accessory after the fact. Except as otherwise 
+expressly provided by any Act of Congress, an accessory after the fact 
+shall be imprisoned not more than one-half the maximum term of 
+imprisonment or (notwithstanding section 3571) fined not more than 
+one-half the maximum fine prescribed for the punishment of the 
+principal, or both; or if the principal is punishable by life 
+imprisonment or death, the accessory shall be imprisoned not more than 
+15 years.
+
+§4. Misprision of felony Whoever, having knowledge of the actual 
+commission of a felony cognizable by a court of the United States, 
+conceals and does not as soon as possible make known the same to some 
+judge or other person in civil or military authority under the United 
+States, shall be fined under this title or imprisoned not more than 
+three years, or both.
+
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600
+
+150 East 42nd Street 19th Floor, New York, NY 10017 Filed: 07/21/2020
+https://iapps.courts.state.ny.us/nyscef
+
+*****     [USC 18, §225]+[USC 18, §21]+[USC 18, §215]+[USC 18, 
+§241]+[USC 18, §373]   <**voicemail attached>*<br>
+*****     [USC 18, §241]+[USC 18, §216][USC 18, §218]+[USC 18, §229B]<br>
+*****     [USC 18, §1962]+[USC 18, §1963]<br>
+*****     [USC 18, §2]+[USC 18, §3]+[USC 18, §4]<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=c3iexOlBwsgc1lnMJ2_PLUS_AqQ==<br>
+*****    under  [USC 18, §225]+[USC 18, §21]+[USC 18, §1962]+[USC 18, 
+§1963]+[USC 18, §241]+[USC 18, §4]+the desperation of [USC 18, §3] = 
+priceless<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=COy_PLUS_fGGrxcNqhj5mZodapA==<br>
+*****    GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID 
+PROSECUTION IN A VIOLATION OF PRIVACY CASE<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==<br>
+*****    ABUSE OF THE NY SUPREME COURT, CIVIL PART IN 2020 <br>
+*****    DURING THE COVID-19 PANDEMIC - SEE ALSO LOSSES SUFFERED IN ONE 
+UPON DISCOVERY OF THE MATERIAL FACTS<br>
+*****    TICKERS: STFGX, SFITX, SFBDX, STFBX<br>
+*****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR 
+EFFECTIVELY, AN "ESTOPPEL"<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=cve65PXNBCtdxjJFkfwUnw==<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==<br>
+*****    UNLAWFUL ASSETS IN CUSTODY AT JP MORGAN CHASE BANK, NA<br>
+***** 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38A==<br>
+          &nbsp;&nbsp;&nbsp;*****     ***** *****     *****     
+*****     *****     *****     ***** *****     *****     *****     
+*****     *****     ***** *****     *****     *****     *****     
+*****     ***** *****     *****     *****     *****     *****     *****
+

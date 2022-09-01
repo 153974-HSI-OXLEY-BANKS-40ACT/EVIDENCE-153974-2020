@@ -1,0 +1,918 @@
+From - Wed Aug 31 18:53:54 2022
+X-Account-Key: account1
+X-UIDL: APbfRMIAC/msYw/TOgWZmMNPcDA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.76
+ by atlas112.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 21:31:38 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.36]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.36 as permitted sender)
+Authentication-Results: atlas112.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 21:31:38 +0000
+X-YMailAVSC: kYAWJW83bBvRQAtLNUEFNS6qYEVFhpoMzvFPEzY0i5h87xX
+ Olck8p8dcwWQCZn.DdfsH5cVJ3UVJXzDqokyPI6C_hN5hOWmb3nM1hWxGkDP
+ h9j2cXN1RTzazsLCLomhP6GQ9q17YUdX3u.uqVvXrEhtuBojeX.iRHYq8iSl
+ 5pnelfYO6OahXktVGGfnkit6knidCdi_l5v7LjSUzLN6CRsGz8F82EJgBsAD
+ 7oYPR.oMPujRYmXN18JK6zPWMMag.UDWxJFMLF0wEDohrzGsjIhgRvjsdS2x
+ AtkWlAd27R9wbHMmtR6wbzOsiss3f37n.hfaS_MkCWLukxw81PRZdAp4aR8z
+ zKPNewJ9Y1jR7c9IJnjajSMceOpyefb8pCusjKdxJhKxebQ88Sz7UHadyzhi
+ uQwOEP5h7ujmMabKHHaTWZYOSKEcRAoSMiSz3aTMg6YQKNOBEty5xtRktpCM
+ 9SJF00lOa44TPtSk5vBlpgRPdHyv2JCCiUeyG0X4_Bp97cT1.2duP_LahgKO
+ Bmjxh.nfYJ76UjxptsJUbUJGLsoi14_ts7DdLhv_g4FBCE5CMtlpZ4oYQTwM
+ Q_G.eITZle9MxLF41b08pRUrLkP4xb_5WRR.M1Yxp_u.ChqLQHKqXIuSbci1
+ ef3aED5lmgZ8wwgI9DyTHdNHEkrlN92rZjK_iwiZfGvpr73KgHzXjCfJ8xNT
+ cYtgbnot5RFmrfXcb4f3jbQnDMxExPT4wqT5QZu4V6rGLRqzCD0DQScIvxtP
+ FXJlAWhcgG2LbMCL.C6bvIkGBDG2JZ_4.YlG_Xkczlrwy9TzYS6CUlFzlVp8
+ NN8Q0ghBTB6DvnT07CbyvX2hTN2UBoy7mitOKRATMQE3xJVrBTFreQYEf1Gs
+ ubKSIbokoDMZCdRS33LgdgEnSyp6HhQ1_lFpCEWTDrWB4djnkjx3lCtYAmr.
+ FCe674samJLLancgaRhhhqHVmEVeh2TaJToWlWU_w6l55tvmuYFyWe.EiVRX
+ ksuPDdonqlnyxwtltLBg0eZ8ZpC_2Xc9cqBZyNw6dl2jh770bdjSC_fmCF1b
+ WZAKN.Rf2ZatA6Msk4Vlsp9KqIcIBXi4JT9BKJSB8IWuS7a.ZCyNeW1ivXgo
+ NcOinj3FSlgq5dJfKpzAOELE.Nc1L7iXC07SnejeA_gOi_rim7PDU6HdYesr
+ KvqGwy3i2AcUCWdRu5z6IGTMvwWlKatQywoCnagJwsGkt9cBSLPjYzQTD5rx
+ awaNdAgYrsZScTgIijLyszyTcrpPhNSEo6q5t4q2AKLRB59ZHqQRhjr1AWDl
+ DMiY7JFkZFBh7ty5itvTisieI0zw3WqA2CCKK0ui0HIfpffsD4w3uCQfJGll
+ s7i9w.RnbAajkjhoX2n9QSYaHKg--
+X-YMailISG: ozfR6JgWLDsYNW4NB2xvXf9NZqjLSgiIUBeCzaaSnm6MozGw
+ xZppilxpPjYv3uvIiJvOt2BISZxSFVF4GWhxlAT.p16tbQvUYwk5R7X5AnZl
+ Hz.bfU9u.hFclL.g5EctkzgxFCRL2ARlp4nIKWQIzsd9_elkAQTX38H3Oufm
+ 5XlKKyhHG2N0c7WVG3ZPORWLmCaBEVfzyPPn1NATuZIzD_c_vTqX93oAQ9Sh
+ ltY0B3sgCORT1_t8bIRkzH6Whe4hcr263dmsMaRTMcbdrXnE6FlwbsM5EhDT
+ WJLfbeCqG_T2q4NakLyPuKRo06YUiqol0mFkJMs3xlbmDGApra9qMcOBYOdJ
+ TadNxn8nU39Ez5EUFvPo9r7WbrmAcOe1pzLTN_AKW.LTQcUYO3f9Bb.TNE8I
+ wHG9101USPOTTHcG1o5QTnrpdWN_6QxJ2dGZlUyiIlhPharC0x8oRZv_TqLG
+ SaT9Lo9mVGtHIVGmEC3vc2Cr0wbwBMy4f0h8nfYke0.knq9ABmeRdx2CO9YS
+ WNxb30GdB3JnUd5L3zPmOsUAbM_UneMssp8fIXYijyBaUpZN1tZZcFl20eSH
+ d9QBAQAljvs.33HURaLjxufeZqN4tz5dRfupRhZ4Y.DBSPklKKNG3XCFFcmZ
+ vNL9Av4iwjXwGPG6ZruFjmzoEXmN.Xzy3MIDaWgjrP49euUi0yy21rUapKN7
+ 8XeWZiC8POlqPllbFoukFVL_i6lj2VbyECXBjD0YOQNWQxw9aIiclmQ3JFhO
+ mqooOAxY5laVZ..W.I9teaqbh5ChJyAbbmvv3MDYHwfZJ8uYg7IDJAq9yoFf
+ gHzKS8FGKf1T.iQuVdb0wKcFGAAgnxrCedi9e1w273uLWNAPaLalLrr06i7R
+ cPAOMnNWLDly49HHM4H5sbZGkLE41wu42G.r1KmGXrAjZXhV0Hxjo1HMjGT2
+ raj3WufTicpe09pHqTCU1GS6Tzvvc4idziGaereFhOibWGmmtqtZW0Gqsz7a
+ WFAnxxV3ZRoKakkjsr0lyJFNVo6WTwRMncDcNLbuXAdw9t7Zv1cXfu48YEfw
+ CxhEzNCFnrduy54uu83jv6pVTECAL1a_9ft_xIQKqlbi2FeCBVrlZNiCgTZQ
+ NZlujUw86hmFCGMdeAcs.gFhp6gGIGvjf4Nz9GbTKxUZI906C0zsV2TWF_.F
+ MDT4IMslliqZRmVPEu5xJ4.pmQyYfyNL3nk-
+Received: from 209.134.151.36 (EHLO mailer151036.service.govdelivery.com)
+ by 10.197.33.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 21:31:38 +0000
+Received: from gepdp-smeds1-8.systems.dc.gdi ([10.5.36.52])
+	by mailer151036.service.govdelivery.com (-); Wed, 31 Aug 2022 21:31:35 +0000
+X-VirtualServer: VSG001, mailer151036.service.govdelivery.com, 10.5.36.160
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837666::20220831.63055831::1001::MDB-PRD-BUL-20220831.63055831::ms60710444266@yahoo.com::14275_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=7ZrG
+	tM05F5rcbhVrAO/MAoKwv64NFV4rvJkMsaXzdf4=; b=hvkMNHC48e8KNlP0rnGk
+	OQfSHbfF9X+RakWTWC9fWRcGdtvPHhSgBEX3Q0Yx5nFoZYO85P5ohugFvVJMw9N2
+	6xcKoiAsW3dHYbdJVhD0ETZdnwSpUVL1BORyv2MDUbRe94mLEMbziSCG/n3hXd7W
+	WUI2t/bxlvpoXeAxogWJaGxSNOmA1SDQIl4xNBVundCokxmIysDTwAC64xGu+482
+	IlO2xGlqlrMDAjQpz7xCGub7HuPJVhO7Ey5SnlqMaPFHmmLIzqJMnZfpSsZ4IoNi
+	VR8RykTYHgc/VhbZX/40xCHV/yRpnR7u7hM/YjuSFvLufyLZWLu7emQyUJbN1n6A
+	ew==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_E7A_342E_74687503.7E3F29D7"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMICLC/TgswIhlxCyEf7UZ3NA7MuJ2eXYk42WjqmhFiIVTr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837666.14275@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8F8UJJ21APJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?PECOS_Weekend_Availability_(9/2/22_-_9/18/22)?=
+Date: Wed, 31 Aug 2022 21:31:35 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 32187
+
+
+------=_NextPart_E7A_342E_74687503.7E3F29D7
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+
+=A0
+
+=20
+
+=A0
+
+*Production PECOS Availability* *Date(s)* *PECOS AI Available?* *PECOS PI=
+ Available?* *PECOS Extracts Available?* *PECOS Database Available?* *PEC=
+OS Data Services (used by HITECH)* *Data Mart Available?* *Additional Inf=
+ormation* 9/2/22 (Friday)=A0=A0=20
+
+=A0
+
+Yes
+
+=A0
+
+ Yes Yes Yes Yes Yes =A0 9/3/22 (Saturday)=A0=A0 Yes Yes Yes Yes Yes Yes =
+=A0 9/4/22 (Sunday) Partial Partial Partial Partial Partial Partial=20
+
+PECOS Maintenance: PECOS Applications and Databases will be unavailable f=
+rom 6AM-2PM EST and 5-10PM EST.
+
+ 9/9/22 (Friday)=A0=A0=20
+
+=A0
+
+Yes
+
+=A0
+
+ Yes Yes Yes Yes Yes =A0 9/10/22 (Saturday)=A0=A0 Yes Yes Yes Yes Yes Yes=
+=20
+
+=A0
+
+ 9/11/22 (Sunday) Partial Partial Partial Partial Partial Partial=20
+
+PECOS Maintenance: PECOS Applications and Databases will be unavailable f=
+rom 6-10AM EST and 5-10PM EST.
+
+=20
+
+9/16/22 (Friday)=A0=A0
+
+ Partial Yes Yes Yes Yes Partial=20
+
+CMS Maintenance: Portal login will be unavailable from 8PM-12AM EST.
+
+=20
+
+9/17/22 (Saturday)
+
+ Yes Yes Yes Yes Yes Yes=20
+
+=A0
+
+ 9/18/22 (Sunday) Partial
+
+=A0
+
+ Partial
+
+=A0
+
+ Partial
+
+=A0
+
+ Partial
+
+=A0
+
+ Partial
+
+=A0
+
+ Partial
+
+=A0
+
+=20
+
+PECOS Maintenance: PECOS Applications and Databases will be unavailable f=
+rom 6-10AM EST and 5-10PM EST.
+
+=20
+
+=A0
+
+*Validation PECOS Availability* *Date(s)* *PECOS AI Available?* *PECOS PI=
+ Available?* *PECOS Extracts Available?* *PECOS Database Available?* *PEC=
+OS Data Services (used by HITECH)* *Data Mart Available?* *Additional Inf=
+ormation* 9/2/22 (Friday)=A0=A0 Partial Partial=20
+
+Partial
+
+ Partial Partial Partial PECOS 7.50 wave 2 Deployment: PECOS Applications=
+ and Databases will be unavailable=A0 from=A05PM-9PM EST 9/3/22 (Saturday=
+)=A0=A0 Yes Yes Yes Yes Yes Yes =A0 9/4/22 (Sunday) Yes Yes Yes Yes Yes Y=
+es=20
+
+=A0
+
+ 9/9/22 (Friday)=A0=A0 Partial Partial Partial Partial Partial Partial PE=
+COS 7.50 wave 3 Deployment: PECOS Applications and Databases will be unav=
+ailable=A0 from=A05PM-9PM EST 9/10/22 (Saturday)=20
+
+=A0
+
+Yes
+
+=A0
+
+ Yes Yes Yes Yes Yes =A0 9/11/22 (Sunday)=20
+
+=A0
+
+Yes
+
+=A0
+
+ Yes Yes Yes Yes Yes =A0 9/16/22 (Friday)=A0=A0 Partial Partial=20
+
+=A0
+
+Partial
+
+=A0
+
+ Partial Partial Partial PECOS 7.50 wave 4 Deployment: PECOS Applications=
+ and Databases will be unavailable=A0 from=A05PM-9PM EST 9/17/22 (Saturda=
+y) Yes Yes=20
+
+=A0
+
+Yes
+
+=A0
+
+ Yes Yes Yes =A0 9/18/22 (Sunday)=20
+
+=A0
+
+Yes=A0
+
+=A0
+
+ Yes Yes Yes Yes Yes =A0=20
+ Centers for Medicare & Medicaid Services (CMS) has sent this update. To =
+contact Centers for Medicare & Medicaid Services (CMS) go to our *contact=
+ us [ http://www.cms.gov/About-CMS/Agency-Information/ContactCMS/index.ht=
+ml ] *page. =20
+
+=A0
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/new?preferences=3Dtrue ]=
+. You will need to use your email address to log in. If you have question=
+s or problems with the subscription service, please contact subscriberhel=
+p.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_E7A_342E_74687503.7E3F29D7
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    PECOS Weekend Availability (9/2/22 - 9/18/22)
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 702px;"><img src=3D"https://stage-public.govdelivery.=
+com/system/images/11605/original/CMSBanner_MockUp.png" alt=3D"Centers for=
+ Medicare &amp; Medicaid Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px; width: 702px;" valign=3D"top">
+<table cellspacing=3D"0" cellpadding=3D"5">
+<tbody>
+<tr>
+<td class=3D"td1" valign=3D"top">=20
+<p>=A0</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+<table class=3D"gd_table" style=3D"border-collapse: collapse; width: 100%=
+;" border=3D"0">
+<tbody>
+<tr style=3D"height: 18px;">
+<td style=3D"width: 100.143%; border-style: solid; border-color: black; b=
+ackground-color: grey; height: 18px;" colspan=3D"8"><strong>Production PE=
+COS Availability</strong></td>
+</tr>
+<tr style=3D"height: 108px;">
+<td style=3D"width: 15.5715%; background-color: yellow; border-style: sol=
+id; border-color: black; height: 107px;"><strong>Date(s)</strong></td>
+<td style=3D"width: 11.8571%; background-color: yellow; border-style: sol=
+id; border-color: black; height: 107px;"><strong>PECOS AI Available?</str=
+ong></td>
+<td style=3D"width: 12.2857%; background-color: yellow; border-style: sol=
+id; border-color: black; height: 107px;"><strong>PECOS PI Available?</str=
+ong></td>
+<td style=3D"width: 12%; background-color: yellow; border-style: solid; b=
+order-color: black; height: 107px;"><strong>PECOS Extracts Available?</st=
+rong></td>
+<td style=3D"width: 12%; background-color: yellow; border-style: solid; b=
+order-color: black; height: 107px;"><strong>PECOS Database Available?</st=
+rong></td>
+<td style=3D"width: 10%; background-color: yellow; border-style: solid; b=
+order-color: black; height: 107px;"><strong>PECOS Data Services (used by =
+HITECH)</strong></td>
+<td style=3D"width: 13.4229%; background-color: yellow; border-style: sol=
+id; border-color: black; height: 107px;"><strong>Data Mart Available?</st=
+rong></td>
+<td style=3D"width: 13.0057%; background-color: yellow; border-style: sol=
+id; border-color: black; height: 107px;"><strong>Additional Information</=
+strong></td>
+</tr>
+<tr style=3D"height: 72px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 10px;">9/2/22 (Friday)=A0=A0</td>
+<td style=3D"width: 11.8571%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 10px;">
+<p>=A0</p>
+<p>Yes</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 12.2857%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 10px;">Yes</td>
+<td style=3D"width: 12%; border-style: solid; border-color: black; backgr=
+ound-color: green; height: 10px;">Yes</td>
+<td style=3D"width: 12%; border-style: solid; border-color: black; backgr=
+ound-color: green; height: 10px;">Yes</td>
+<td style=3D"width: 10%; border-style: solid; border-color: black; backgr=
+ound-color: green; height: 10px;">Yes</td>
+<td style=3D"width: 13.4229%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 10px;">Yes</td>
+<td style=3D"width: 13.0057%; height: 10px; border-style: solid; border-c=
+olor: black;">=A0</td>
+</tr>
+<tr style=3D"height: 42px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 87px;">9/3/22 (Saturday)=A0=A0</td>
+<td style=3D"width: 11.8571%; background-color: green; border-style: soli=
+d; border-color: black; height: 87px;">Yes</td>
+<td style=3D"width: 12.2857%; background-color: green; border-style: soli=
+d; border-color: black; height: 87px;">Yes</td>
+<td style=3D"width: 12%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 87px;">Yes</td>
+<td style=3D"width: 12%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 87px;">Yes</td>
+<td style=3D"width: 10%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 87px;">Yes</td>
+<td style=3D"width: 13.4229%; background-color: green; border-style: soli=
+d; border-color: black; height: 87px;">Yes</td>
+<td style=3D"width: 13.0057%; border-style: solid; border-color: black; h=
+eight: 87px;">=A0</td>
+</tr>
+<tr style=3D"height: 190px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 15px;">9/4/22 (Sunday)</td>
+<td style=3D"width: 11.8571%; background-color: orange; border-style: sol=
+id; border-color: black; height: 15px;">Partial</td>
+<td style=3D"width: 12.2857%; background-color: orange; border-style: sol=
+id; border-color: black; height: 15px;">Partial</td>
+<td style=3D"width: 12%; background-color: orange; border-style: solid; b=
+order-color: black; height: 15px;">Partial</td>
+<td style=3D"width: 12%; background-color: orange; border-style: solid; b=
+order-color: black; height: 15px;">Partial</td>
+<td style=3D"width: 10%; background-color: orange; border-style: solid; b=
+order-color: black; height: 15px;">Partial</td>
+<td style=3D"width: 13.4229%; background-color: orange; border-style: sol=
+id; border-color: black; height: 15px;">Partial</td>
+<td style=3D"width: 13.0057%; height: 15px; border-style: solid; border-c=
+olor: black;">
+<p>PECOS Maintenance: PECOS Applications and Databases will be unavailabl=
+e from 6AM-2PM EST and 5-10PM EST.</p>
+</td>
+</tr>
+<tr style=3D"height: 45px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 10px;">9/9/22 (Friday)=A0=A0</td>
+<td style=3D"width: 11.8571%; background-color: green; border-style: soli=
+d; border-color: black; height: 10px;">
+<p>=A0</p>
+<p>Yes</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 12.2857%; background-color: green; border-style: soli=
+d; border-color: black; height: 10px;">Yes</td>
+<td style=3D"width: 12%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 10px;">Yes</td>
+<td style=3D"width: 12%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 10px;">Yes</td>
+<td style=3D"width: 10%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 10px;">Yes</td>
+<td style=3D"width: 13.4229%; background-color: green; border-style: soli=
+d; border-color: black; height: 10px;">Yes</td>
+<td style=3D"width: 13.0057%; border-color: black; border-style: solid; h=
+eight: 10px;">=A0</td>
+</tr>
+<tr style=3D"height: 72px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 27px;">9/10/22 (Saturday)=A0=A0</td>
+<td style=3D"width: 11.8571%; border-style: solid; border-color: black; h=
+eight: 27px; background-color: green;">Yes</td>
+<td style=3D"width: 12.2857%; background-color: green; border-style: soli=
+d; border-color: black; height: 27px;">Yes</td>
+<td style=3D"width: 12%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 27px;">Yes</td>
+<td style=3D"width: 12%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 27px;">Yes</td>
+<td style=3D"width: 10%; background-color: green; border-style: solid; bo=
+rder-color: black; height: 27px;">Yes</td>
+<td style=3D"width: 13.4229%; background-color: green; border-style: soli=
+d; border-color: black; height: 27px;">Yes</td>
+<td style=3D"width: 13.0057%; border-color: black; border-style: solid; h=
+eight: 27px;">
+<p>=A0</p>
+</td>
+</tr>
+<tr style=3D"height: 162px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 149px;">9/11/22 (Sunday)</td>
+<td style=3D"width: 11.8571%; background-color: orange; border-style: sol=
+id; border-color: black; height: 149px;">Partial</td>
+<td style=3D"width: 12.2857%; background-color: orange; border-style: sol=
+id; border-color: black; height: 149px;">Partial</td>
+<td style=3D"width: 12%; background-color: orange; border-style: solid; b=
+order-color: black; height: 149px;">Partial</td>
+<td style=3D"width: 12%; background-color: orange; border-style: solid; b=
+order-color: black; height: 149px;">Partial</td>
+<td style=3D"width: 10%; background-color: orange; border-style: solid; b=
+order-color: black; height: 149px;">Partial</td>
+<td style=3D"width: 13.4229%; background-color: orange; border-style: sol=
+id; border-color: black; height: 149px;">Partial</td>
+<td style=3D"width: 13.0057%; height: 149px; border-color: black; border-=
+style: solid;">
+<p>PECOS Maintenance: PECOS Applications and Databases will be unavailabl=
+e from 6-10AM EST and 5-10PM EST.</p>
+</td>
+</tr>
+<tr style=3D"height: 45px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 45px;">
+<p>9/16/22 (Friday)=A0=A0</p>
+</td>
+<td style=3D"width: 11.8571%; border-color: black; background-color: oran=
+ge; border-style: solid; height: 45px;">Partial</td>
+<td style=3D"width: 12.2857%; border-color: black; background-color: gree=
+n; border-style: solid; height: 45px;">Yes</td>
+<td style=3D"width: 12%; border-color: black; background-color: green; bo=
+rder-style: solid; height: 45px;">Yes</td>
+<td style=3D"width: 12%; border-color: black; background-color: green; bo=
+rder-style: solid; height: 45px;">Yes</td>
+<td style=3D"width: 10%; border-color: black; background-color: green; bo=
+rder-style: solid; height: 45px;">Yes</td>
+<td style=3D"width: 13.4229%; border-color: black; background-color: oran=
+ge; border-style: solid; height: 45px;">Partial</td>
+<td style=3D"width: 13.0057%; border-style: solid; border-color: black; h=
+eight: 45px;">
+<p>CMS Maintenance: Portal login will be unavailable from 8PM-12AM EST.</=
+p>
+</td>
+</tr>
+<tr style=3D"height: 72px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 74px;">
+<p>9/17/22 (Saturday)</p>
+</td>
+<td style=3D"width: 11.8571%; height: 74px; border-color: black; backgrou=
+nd-color: green; border-style: solid;">Yes</td>
+<td style=3D"width: 12.2857%; height: 74px; border-color: black; backgrou=
+nd-color: green; border-style: solid;">Yes</td>
+<td style=3D"width: 12%; height: 74px; border-color: black; background-co=
+lor: green; border-style: solid;">Yes</td>
+<td style=3D"width: 12%; height: 74px; border-color: black; background-co=
+lor: green; border-style: solid;">Yes</td>
+<td style=3D"width: 10%; height: 74px; border-color: black; background-co=
+lor: green; border-style: solid;">Yes</td>
+<td style=3D"width: 13.4229%; height: 74px; border-color: black; backgrou=
+nd-color: green; border-style: solid;" align=3D"left">Yes</td>
+<td style=3D"width: 13.0057%; border-style: solid; border-color: black; h=
+eight: 74px;">
+<p>=A0</p>
+</td>
+</tr>
+<tr style=3D"height: 162px;">
+<td style=3D"width: 15.5715%; border-style: solid; border-color: black; h=
+eight: 162px;">9/18/22 (Sunday)</td>
+<td style=3D"width: 11.8571%; background-color: orange; border-style: sol=
+id; border-color: black; height: 162px;">Partial<br>
+<p>=A0</p>
+</td>
+<td style=3D"width: 12.2857%; background-color: orange; border-style: sol=
+id; border-color: black; height: 162px;">Partial<br>
+<p>=A0</p>
+</td>
+<td style=3D"width: 12%; background-color: orange; border-style: solid; b=
+order-color: black; height: 162px;">Partial<br>
+<p>=A0</p>
+</td>
+<td style=3D"width: 12%; background-color: orange; border-style: solid; b=
+order-color: black; height: 162px;">Partial<br>
+<p>=A0</p>
+</td>
+<td style=3D"width: 10%; background-color: orange; border-style: solid; b=
+order-color: black; height: 162px;">Partial<br>
+<p>=A0</p>
+</td>
+<td style=3D"width: 13.4229%; background-color: orange; border-style: sol=
+id; border-color: black; height: 162px;">Partial<br>
+<p>=A0</p>
+</td>
+<td style=3D"width: 13.0057%; border-style: solid; border-color: black; h=
+eight: 162px;">
+<p>PECOS Maintenance: PECOS Applications and Databases will be unavailabl=
+e from 6-10AM EST and 5-10PM EST.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+<table class=3D"gd_table" style=3D"border-collapse: collapse; width: 100%=
+;" border=3D"0">
+<tbody>
+<tr style=3D"height: 18px;">
+<td style=3D"width: 105.714%; border-style: solid; border-color: black; h=
+eight: 18px; background-color: grey;" colspan=3D"8"><strong>Validation PE=
+COS Availability</strong></td>
+</tr>
+<tr style=3D"height: 90px;">
+<td style=3D"width: 24.3898%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>Date(s)</strong></td>
+<td style=3D"width: 6.0387%; height: 90px; border-style: solid; border-co=
+lor: black; background-color: yellow;"><strong>PECOS AI Available?</stron=
+g></td>
+<td style=3D"width: 11.4285%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>PECOS PI Available?</stro=
+ng></td>
+<td style=3D"width: 10.8572%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>PECOS Extracts Available?=
+</strong></td>
+<td style=3D"width: 11.4286%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>PECOS Database Available?=
+</strong></td>
+<td style=3D"width: 9.71429%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>PECOS Data Services (used=
+ by HITECH)</strong></td>
+<td style=3D"width: 10.1428%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>Data Mart Available?</str=
+ong></td>
+<td style=3D"width: 21.7143%; height: 90px; border-style: solid; border-c=
+olor: black; background-color: yellow;"><strong>Additional Information</s=
+trong></td>
+</tr>
+<tr style=3D"height: 72px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 67px;">9/2/22 (Friday)=A0=A0</td>
+<td style=3D"width: 6.0387%; height: 67px; border-style: solid; border-co=
+lor: black; background-color: orange;">Partial</td>
+<td style=3D"width: 11.4285%; height: 67px; border-style: solid; border-c=
+olor: black; background-color: orange;">Partial</td>
+<td style=3D"width: 10.8572%; height: 67px; border-style: solid; border-c=
+olor: black; background-color: orange;">
+<p>Partial</p>
+</td>
+<td style=3D"width: 11.4286%; height: 67px; border-style: solid; border-c=
+olor: black; background-color: orange;">Partial</td>
+<td style=3D"width: 9.71429%; height: 67px; border-style: solid; border-c=
+olor: black; background-color: orange;">Partial</td>
+<td style=3D"width: 10.1428%; height: 67px; border-style: solid; border-c=
+olor: black; background-color: orange;">Partial</td>
+<td style=3D"width: 21.7143%; height: 67px; border-color: black; border-s=
+tyle: solid;">PECOS 7.50 wave 2 Deployment: PECOS Applications and Databa=
+ses will be unavailable=A0 from=A05PM-9PM EST</td>
+</tr>
+<tr style=3D"height: 45px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 53px;">9/3/22 (Saturday)=A0=A0</td>
+<td style=3D"width: 6.0387%; border-style: solid; border-color: black; ba=
+ckground-color: green; height: 53px;">Yes</td>
+<td style=3D"width: 11.4285%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 53px;">Yes</td>
+<td style=3D"width: 10.8572%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 53px;">Yes</td>
+<td style=3D"width: 11.4286%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 53px;">Yes</td>
+<td style=3D"width: 9.71429%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 53px;">Yes</td>
+<td style=3D"width: 10.1428%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 53px;">Yes</td>
+<td style=3D"width: 21.7143%; border-color: black; border-style: solid; h=
+eight: 53px;">=A0</td>
+</tr>
+<tr style=3D"height: 72px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 79px;">9/4/22 (Sunday)</td>
+<td style=3D"width: 6.0387%; height: 79px; border-style: solid; border-co=
+lor: black; background-color: green;">Yes</td>
+<td style=3D"width: 11.4285%; height: 79px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.8572%; height: 79px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 11.4286%; height: 79px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 9.71429%; height: 79px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.1428%; height: 79px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 21.7143%; height: 79px; border-color: black; border-s=
+tyle: solid;">
+<p>=A0</p>
+</td>
+</tr>
+<tr style=3D"height: 17px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 83px;">9/9/22 (Friday)=A0=A0</td>
+<td style=3D"width: 6.0387%; border-style: solid; border-color: black; ba=
+ckground-color: orange; height: 83px;">Partial</td>
+<td style=3D"width: 11.4285%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 83px;">Partial</td>
+<td style=3D"width: 10.8572%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 83px;">Partial</td>
+<td style=3D"width: 11.4286%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 83px;">Partial</td>
+<td style=3D"width: 9.71429%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 83px;">Partial</td>
+<td style=3D"width: 10.1428%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 83px;">Partial</td>
+<td style=3D"width: 21.7143%; border-style: solid; border-color: black; h=
+eight: 83px;">PECOS 7.50 wave 3 Deployment: PECOS Applications and Databa=
+ses will be unavailable=A0 from=A05PM-9PM EST</td>
+</tr>
+<tr style=3D"height: 72px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 13px;">9/10/22 (Saturday)</td>
+<td style=3D"width: 6.0387%; height: 13px; border-style: solid; border-co=
+lor: black; background-color: green;">
+<p>=A0</p>
+<p>Yes</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 11.4285%; height: 13px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.8572%; height: 13px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 11.4286%; height: 13px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 9.71429%; height: 13px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.1428%; height: 13px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 21.7143%; border-style: solid; border-color: black; h=
+eight: 13px;">=A0</td>
+</tr>
+<tr style=3D"height: 36px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 68px;">9/11/22 (Sunday)</td>
+<td style=3D"width: 6.0387%; height: 68px; border-style: solid; border-co=
+lor: black; background-color: green;">
+<p>=A0</p>
+<p>Yes</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 11.4285%; height: 68px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.8572%; height: 68px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 11.4286%; height: 68px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 9.71429%; height: 68px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.1428%; height: 68px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 21.7143%; border-style: solid; border-color: black; h=
+eight: 68px;">=A0</td>
+</tr>
+<tr style=3D"height: 15px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 10px;">9/16/22 (Friday)=A0=A0</td>
+<td style=3D"width: 6.0387%; border-style: solid; border-color: black; ba=
+ckground-color: orange; height: 10px;">Partial</td>
+<td style=3D"width: 11.4285%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 10px;">Partial</td>
+<td style=3D"width: 10.8572%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 10px;">
+<p>=A0</p>
+<p>Partial</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 11.4286%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 10px;">Partial</td>
+<td style=3D"width: 9.71429%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 10px;">Partial</td>
+<td style=3D"width: 10.1428%; border-style: solid; border-color: black; b=
+ackground-color: orange; height: 10px;">Partial</td>
+<td style=3D"width: 21.7143%; border-style: solid; border-color: black; h=
+eight: 10px;">PECOS 7.50 wave 4 Deployment: PECOS Applications and Databa=
+ses will be unavailable=A0 from=A05PM-9PM EST</td>
+</tr>
+<tr style=3D"height: 36px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 11px;">9/17/22 (Saturday)</td>
+<td style=3D"width: 6.0387%; height: 11px; border-style: solid; border-co=
+lor: black; background-color: green;">Yes</td>
+<td style=3D"width: 11.4285%; height: 11px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.8572%; height: 11px; border-style: solid; border-c=
+olor: black; background-color: green;">
+<p>=A0</p>
+<p>Yes</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 11.4286%; height: 11px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 9.71429%; height: 11px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 10.1428%; height: 11px; border-style: solid; border-c=
+olor: black; background-color: green;">Yes</td>
+<td style=3D"width: 21.7143%; border-style: solid; border-color: black; h=
+eight: 11px;">=A0</td>
+</tr>
+<tr style=3D"height: 17px;">
+<td style=3D"width: 24.3898%; border-style: solid; border-color: black; h=
+eight: 17px;">9/18/22 (Sunday)</td>
+<td style=3D"width: 6.0387%; border-style: solid; border-color: black; ba=
+ckground-color: green; height: 17px;">
+<p>=A0</p>
+<p>Yes=A0</p>
+<p>=A0</p>
+</td>
+<td style=3D"width: 11.4285%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 17px;">Yes</td>
+<td style=3D"width: 10.8572%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 17px;">Yes</td>
+<td style=3D"width: 11.4286%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 17px;">Yes</td>
+<td style=3D"width: 9.71429%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 17px;">Yes</td>
+<td style=3D"width: 10.1428%; border-style: solid; border-color: black; b=
+ackground-color: green; height: 17px;">Yes</td>
+<td style=3D"width: 21.7143%; border-style: solid; border-color: black; h=
+eight: 17px;">=A0</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f; height: 75px; width: 702px;" alig=
+n=3D"right">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this update. To contact Centers for Medicare &amp; Med=
+icaid Services (CMS) go to our </span><span style=3D"text-decoration: und=
+erline;"><span style=3D"color: #ffffff;"><strong><a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTU4MzEiLCJ1cmwiOiJodHRwOi8v=
+d3d3LmNtcy5nb3YvQWJvdXQtQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZ=
+GV4Lmh0bWwifQ.rBQlmi8KQFqhfLboYpZgh0vcn_fDi0nfZv2Oc1J4Iag/s/2601788358/br=
+/143348080124-l" target=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"no=
+opener"><span style=3D"color: #ffffff; text-decoration: underline;">conta=
+ct us</span></a> </strong></span></span><span style=3D"color: #ffffff;">p=
+age.</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+ =20
+
+
+<div id=3D"mail_footer">
+    <hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTU4MzEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.pCax6IlfxHsuUjQJM2J_WZWNwKlyCrgOFHxmedmZ1B8/s/2601788358/br/1=
+43348080124-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTU4MzEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9uZXc_cHJlZmVyZW5jZXM9dHJ1ZSJ9.rtDJN7sozgX7cFWM4wB6zAGWKNWnj3=
+ImgZD733GIx_E/s/2601788358/br/143348080124-l">Subscriber Preferences Page=
+</a>. You will need to use your email address to log in. If you have ques=
+tions or problems with the subscription service, please contact <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTU4MzEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.sO6DTj9G1pTz=
+VOypMsvQ3cdXxZIku7b0UnAdf19kjT4/s/2601788358/br/143348080124-l">subscribe=
+rhelp.govdelivery.com</a>.</p>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwNTU4MzEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.-l21sm-xNxp47-eUOAuIDR=
+0hj8shBIbfk3P5h_5w7o8/s/2601788358/br/143348080124-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNDgwODAxMjQtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwNTU4MzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDU1ODMxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NjY2JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_E7A_342E_74687503.7E3F29D7--
+

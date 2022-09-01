@@ -1,0 +1,413 @@
+From - Sun Aug 28 23:00:35 2022
+X-Account-Key: account1
+X-UIDL: ACMEL7xf9dv1Yu0BGAOCcI+KUW8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.166
+ by atlas313.free.mail.ne1.yahoo.com with HTTPS; Fri, 5 Aug 2022 11:37:59 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.26]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.26 as permitted sender)
+Authentication-Results: atlas313.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 5 Aug 2022 11:37:59 +0000
+X-YMailISG: 3mx3dzsWLDtlQ8T3IyI_CPzVqRSUGjGuZbHJIRSal_RE_MdG
+ yg7UdPbcEpXV5EPvXJozsRRLHziXL8Yq8BwGnLaLHQlPYHYNj.2Kg6wJUr86
+ 6tC9yKp4784MILvF8izFNu.4lg9iwP84FwCj9XMiyh53kwbCY0UBqUR9CcPH
+ wyV8HbR_SqlDBfaulo3ianqMIMDjFVpwYAyz6zGMnjDCjVlD4pbqPTBqMAK6
+ Nq8QVNb_Rma9sjH_nJ4iuw1nDxRGBRnGBrSfDBoqub6xgimvgFJQfYXHSuT0
+ ggzxJX3LXO2RTlKqdUTKV8Aq3l.vejYKkOaJNCO_GR2JyP2HTF9qDqgH5Ogo
+ Mms7HfEG26G1wVl8PvYIrd_98DG_a9Ws4opi_DnI4mGjJOAHw9zmFHHmZUmL
+ wpIQFLzJ8uUvRi1CjHhW9YjkIs9uiFO1rI3pLYK4a1kKnRclEbxXyQlg0Xsb
+ ok7tXKLLa0lJYRiUXf6MdYCvDwThOhBuNktNiP8lrFAV82y7oL4S6OZQ5ZbJ
+ .5DM1eauf7SNehGlFA2y7QXxOyrcty4fNAKUV6940Bk9fs6wKShDUZU3xobA
+ X.6EcqnliQNihwG7Vh59RexjN0MPz9fZFDMj8RJ6aDt0cnIhcb28yMrHwwx6
+ _WcKZB8ccRqiNjbFl1jEIc.9vbKTIoskTxUaNjkjqavKVBPN8uQf4VyDY9Pa
+ kYVL5KL.tA21h9_dwKWr0wa9KwfsgGV99AAWwvy9o3MY_VSnrqAXesW5mMOR
+ 6u2iF4oXaqv29z_3jpfRY9SRAv7g6kR1q4pKILY6THfW.5x56UaTe6tvkS7N
+ BWjZf2_.1c.JX0CYnReGkdrFzqlmbJNG3.3Eswg9V5VNxSxP.VCp3_OFQzYL
+ AN1IbloKcpJTHHD4L2PW3Ph7S5zyGR6wII6mzlOCFZofB8lCEzHhni_Fq8Wo
+ ty.UqkQwopEu3jyG8EQ2pVWTZzTQ0TvmqPTRNIA_2EDm1JocpUepCP5UX_ux
+ LYMeKR1iIeO9Ehb48ksNHk9j7Nru9xvUJd3U7BXdq1dYkhxlz5gEMursnbaf
+ b_PoBdAUkqYrQzLUVdiE2.hImSH9TBbZGrC3HXAJ26xARJhkgPKy3jgsXDr5
+ LYuu1OimqOXAVazCZ_mJDIISrHOFokxPa7QbZp9si5xqHx2vnlLK._DJy5hf
+ qr7VcM9UAmnpj4HQFV8-
+Received: from 209.134.151.26 (EHLO mailer151026.service.govdelivery.com)
+ by 10.217.135.166 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 05 Aug 2022 11:37:59 +0000
+Received: from gepdp-smeds1-7.systems.dc.gdi ([10.5.36.52])
+	by mailer151026.service.govdelivery.com (-); Fri, 05 Aug 2022 11:37:59 +0000
+X-VirtualServer: VSG001, mailer151026.service.govdelivery.com, 10.5.36.152
+X-VirtualServerGroup: VSG001
+X-MailingID: 16828255::20220805.61817861::1001::MDB-PRD-BUL-20220805.61817861::ms60710444266@yahoo.com::40042_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=uB5f
+	4ZC+EyUj3BBwso9xcp+2CU/ig6P1YByK7tkFGgA=; b=FFWC9w46rzCvkyQCam0t
+	JUa/8JnUA7UBiSqVzidzTKftMnlfJiVwMf6Mq/g3KG1zJz9JDvPeeJWTC2Y6KeP7
+	5Xahh4G0SlmWqfOz/93W0DcNDYZaJ0l/M4HzUOIt7UIvYFjo6iZeonvxJcl3/Zzz
+	pDzDeFThQIkGqiqzky+3F2obixyy7VKiutxBU1ywjVa7FByRH67h8mEMnyJMtLHX
+	UoNhqOIBxB0e3QM4M9/Vk/8v4dRtll7H8gGH10wSvCb2y5RufZJzF1DHscT+nfHI
+	g0h3ne+r94aeyLjDPHKfXl8r1gldehJO/YQLXW3FhOI7hthTaPS6+ovI4MxdTdu7
+	+A==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_D35_4BF1_019FB87B.34B2B8FE"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI0KSY9VWGObhHiJPg/GMuEs+2itCAGxGawJnpNExMX17r3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16828255.40042@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK787OJJ5FHSJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?Cp1252?Q?Marketplace_Webinar_Invitation_=96_Wednesday,_?= =?Cp1252?Q?August_10,_2022_from_2:00_PM_ET_to_3:00_PM_ET?=
+Date: Fri, 05 Aug 2022 11:37:59 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 14104
+
+
+------=_NextPart_D35_4BF1_019FB87B.34B2B8FE
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Health Insurance Marketplace=20
+
+August 5, 2022
+
+=A0
+
+*Marketplace Webinar Invitation=A0*
+
+*Wednesday, August 10 from 2:00 PM ET to 3:00 PM ET*
+
+=A0
+
+________________________________________________________________________
+
+=A0
+
+Please join us for Marketplace updates and one webinar presentation on We=
+dnesday, August 10, at 2:00 PM ET.
+
+Our presentation will be on *Assisting American Indian and Alaska Native =
+Consumers*. This presentation will provide an overview of the Indian Heal=
+th Service (IHS) and describe in detail Marketplace protections for Ameri=
+can Indians and Alaska Natives (AI/AN) under the Affordable Care Act (ACA=
+).=A0 It will also provide tips on assisting AI/AN consumers applying for=
+ Marketplace coverage.
+
+*Who Should Attend:*
+
+Navigators and Certified Application Counselors (CACs), and Agents and Br=
+okers
+
+*When: *
+
+Wednesday, August 10 from 2:00 PM to 3:00 PM ET
+
+*RSVP: *
+
+To facilitate a quicker registration process on the day of the event, ple=
+ase register for the session by visiting the following link:
+
+*Assister Webinar August 10, 2022* [ https://goto.webcasts.com/starthere.=
+jsp?ei=3D1534303&tp_key=3D8c924cf509 ]
+
+=A0
+
+The audio portion of the webinar will be delivered via your computer. Ple=
+ase check your computer settings in advance to ensure that your speaker v=
+olume is adjusted appropriately. Using Google Chrome as your internet bro=
+wser seems to provide the best audio experience.=A0 Please be sure to pus=
+h the blue =93play=94 icon on the left side near the Alternate Audio tab,=
+ and make sure the volume is engaged there as well.=A0 If you cannot hear=
+ audio through your computer speakers, please refer to the Alternate Audi=
+o tab on the left side of the webinar screen for more tips.
+
+Please try to log in 5 minutes in advance so that audio links can be made=
+.
+
+________________________________________________________________________
+
+ =20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_D35_4BF1_019FB87B.34B2B8FE
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Marketplace Webinar Invitation =96 Wednesday, August 10, 2022 =
+from 2:00 PM ET to 3:00 PM ET
+</title>
+
+
+</head>
+<body style=3D"font:13px / 1.5 Arial , Helvetica , sans-serif;margin:0;pa=
+dding:0;width:100% !important;">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"text-align: cente=
+r; background-color: #EEEEEE; margin: 0; padding: 0; width: 100% !importa=
+nt" bgcolor=3D"#EEEEEE"><table id=3D"gd_ab_main_tab" width=3D"600" align=3D=
+"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: co=
+llapse; width: 600px; text-align: left; margin: 20px auto;">
+ =20
+<tr>
+  <td id=3D"gd_ab_header" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Masthead" style=3D"border-collapse: collapse; vertical-align: top=
+; background-color: #FFFFFF; padding: 0px 0px 30px; border: none;" bgcolo=
+r=3D"#FFFFFF" valign=3D"top"><img class=3D"govd_template_image" src=3D"ht=
+tps://content.govdelivery.com/attachments/fancy_images/USCMS/2020/05/3340=
+100/3056863/cms-header1_crop.png" style=3D"width: 600px; height: auto; bo=
+rder: 0px none;" alt=3D"Health Insurance Marketplace" width=3D"600" heigh=
+t=3D"109"></td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_main_body" width=3D"600" data-govdstyle=3D"all" data-go=
+vdtitle=3D"Main body" style=3D"border-collapse: collapse; vertical-align:=
+ top; background-color: #FFFFFF; padding: 5px; border: none;" bgcolor=3D"=
+#FFFFFF" valign=3D"top">
+<p style=3D"text-align: right; margin-bottom: 10px; color: #232323; font:=
+ 12px/1.5 helvetica;" align=3D"right">August 5, 2022</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">=A0</p>
+<h1 style=3D"text-align: center; font-size: 16px; font-family: helvetica;=
+ margin: 0 0 15px; padding: 0;" align=3D"center"><strong>Marketplace Webi=
+nar Invitation=A0</strong></h1>
+<h3 style=3D"text-align: center; font-size: 15px; font-family: helvetica;=
+ margin: 3px 0 4px; padding: 0;" align=3D"center"><strong>Wednesday, Augu=
+st 10 from 2:00 PM ET to 3:00 PM ET</strong></h3>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">=A0</p>
+<hr>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">=A0</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">Please join us for Marketplace update=
+s and one webinar presentation on Wednesday, August 10, at 2:00 PM ET.</p=
+>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">Our presentation will be on <strong>A=
+ssisting American Indian and Alaska Native Consumers</strong>. This prese=
+ntation will provide an overview of the Indian Health Service (IHS) and d=
+escribe in detail Marketplace protections for American Indians and Alaska=
+ Natives (AI/AN) under the Affordable Care Act (ACA).=A0 It will also pro=
+vide tips on assisting AI/AN consumers applying for Marketplace coverage.=
+</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>Who Should Attend:</strong></=
+p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">Navigators and Certified Application =
+Counselors (CACs), and Agents and Brokers</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>When: </strong></p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">Wednesday, August 10 from 2:00 PM to =
+3:00 PM ET</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><strong>RSVP: </strong></p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">To facilitate a quicker registration =
+process on the day of the event, please register for the session by visit=
+ing the following link:</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left"><a href=3D"https://lnks.gd/l/eyJhbGci=
+OiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1=
+bGxldGluX2lkIjoiMjAyMjA4MDUuNjE4MTc4NjEiLCJ1cmwiOiJodHRwczovL2dvdG8ud2ViY=
+2FzdHMuY29tL3N0YXJ0aGVyZS5qc3A_ZWk9MTUzNDMwMyZ0cF9rZXk9OGM5MjRjZjUwOSJ9.H=
+eH5oyS9BqMLvxkVIXxV83Qqm6lNv-hoaqVC-cW3y4g/s/2601788358/br/142119568747-l=
+" style=3D"color: #074BF8;"><strong>Assister Webinar August 10, 2022</str=
+ong></a></p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">=A0</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">The audio portion of the webinar will=
+ be delivered via your computer. Please check your computer settings in a=
+dvance to ensure that your speaker volume is adjusted appropriately. Usin=
+g Google Chrome as your internet browser seems to provide the best audio =
+experience.=A0 Please be sure to push the blue =93play=94 icon on the lef=
+t side near the Alternate Audio tab, and make sure the volume is engaged =
+there as well.=A0 If you cannot hear audio through your computer speakers=
+, please refer to the Alternate Audio tab on the left side of the webinar=
+ screen for more tips.</p>
+<p style=3D"margin-bottom: 10px; color: #232323; text-align: left; font: =
+12px/1.5 helvetica;" align=3D"left">Please try to log in 5 minutes in adv=
+ance so that audio links can be made.</p>
+<div class=3D"govd_hr" style=3D"padding: 5px;"><div class=3D"govd_hr_inne=
+r"><hr></div></div>
+</td>
+</tr>
+
+<tr>
+  <td id=3D"gd_ab_footer" width=3D"600" data-govdstyle=3D"all" data-govdt=
+itle=3D"Footer" style=3D"border-collapse: collapse; vertical-align: top; =
+background-color: #FFFFFF; padding: 0px; border: none;" bgcolor=3D"#FFFFF=
+F" valign=3D"top"><img class=3D"govd_template_image" src=3D"https://conte=
+nt.govdelivery.com/attachments/fancy_images/USCMS/2020/05/3340097/cms-foo=
+ter_original.png" style=3D"width: 600px; height: auto; border: 0px none;"=
+ alt=3D"" width=3D"600" height=3D"107"></td>
+</tr>
+=20
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MDUuNjE4MTc4NjEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.w4BklJeZxQdBMpyqbQd83B-T_0n3IBhUKP9ZviymRFo/s/2601788358/br/1=
+42119568747-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDUuNjE4MTc4NjEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.MOVJp1zGG9y7UBv_6MbbO7=
+xAKyZ-cYfTLoxLQXC2gg8/s/2601788358/br/142119568747-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MDUuNjE4MTc4NjEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.6AYRctDFpWZuEiWau_RJoPvIhqp-t_0pHS5KQj4oF=
+HU/s/2601788358/br/142119568747-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDUu=
+NjE4MTc4NjEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.JnVdz3Twmj1P4JT2EG3dP1=
+p_nvHq9t9se5x-6JZlA00/s/2601788358/br/142119568747-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDIxMTk1Njg3NDctbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDUuNjE4MTc4NjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODA1LjYxODE3ODYxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI4MjU1JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_D35_4BF1_019FB87B.34B2B8FE--
+

@@ -1,0 +1,242 @@
+From - Sun Aug 28 22:41:49 2022
+X-Account-Key: account1
+X-UIDL: AP+VCpQRiaCOYr/cIwC3mC7fSkg
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.216.85
+ by atlas122.free.mail.bf1.yahoo.com with HTTPS; Sat, 2 Jul 2022 05:48:18 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.210]
+Received-SPF: pass (domain of github.com designates 192.30.252.210 as permitted sender)
+Authentication-Results: atlas122.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 2 Jul 2022 05:48:18 +0000
+X-YMailAVSC: 4lsY2Z83bBuJFjJtG5rN2W1lsCL6bfYfJ1w5OaTgn2HDfdG
+ IalPeTEITTh4T8zsWnq.CDvlwvyDfF2HZKAiOsWstgsfJsR6gJy1IjRhkfDY
+ .si5H5mIrnx54.6gK09NYhLq0hKN7NcAQbRwpBIETjoTcgQgXamfVal8DMXK
+ hZ7RqrSAz9.bfipqxb92szrylHmM3D1koFQ.FwXieJM0OzMHpLPKbWpAIMrY
+ gKcAnct1FbuTQjdtVsTTesZUdImV9sZJIeN6Rt0EQjxsGfSOjUaw67FoSCiv
+ DXtM01OKsWRzj3XzvUss0JWcVbXwLbSsMIBZNcyI1Xa2J.34kW8D7JlhgDN_
+ SaLOhgGldcTNWZ9S.4pEvedpW8JqSwCrK1u4WWw--
+X-YMailISG: rIo4FRwWLDtKR33_SHC.O1.3XaLgtkJ9GEkbnOZVDD6c.vlO
+ JrO.6CJ2z4SqIWc_IvlC7W.FKBWNOMbJjFYJD5DLyvCnW0DM5lM9XeQ9DBEs
+ XkmUontFkMIloViPTeMOQmEEFkLViN2VkXzaX_WMrQMlQMIaWSmRsL2zF31Q
+ LfKShytvMPI5SDeZiMWq1JzEyCukCkXFJ0MRyRF.isRHN1k9FumC4SWhMFVj
+ XoVcorLtqFbo51aa3essXv3W4q0p5QlXzKORdaFo.iI35gEn7aO33Ds3tq68
+ KgtEGwQV1fJFC_aHv3vBGP7l__zJERfoegT22A9i10VSOzj0qKhVvIovVhlm
+ izY0LqwdGFIwostWIMz.rgw6yS9SVD2dpCvtbMcIB_VUR1Mopxl4d1wWt9dT
+ vr7Q0LCQIjeW0FMmHzv.2.6c3mLWtC1rst.wBePOj1qyxo1l0c91W88RYSh8
+ l99EYIfeAkQT1wc_oWjtrl1LoZmxmt_rzZRQrY7Ptt6SYbRkifJkuz_Vbh8E
+ GnE5.VWvFs7XiF90C70I4CmPNF0eHpYXU5iob1prgNkG1s.3X.otmqZdZNGN
+ mHBxqf643mE2eMarjPjCbXPaDX.mH_uWItqkzPElSVqIFQVXZmbj5aROPhuT
+ MvJFgs8FSFVIWv51q4GPzDPKJZNBJGNFQyHuJteQXUIOQFGkqSaivuja2CqP
+ WHAXlEdpubir5w16Yxv.1U29h3KacR_eT9LQpLH8djIymLi4E2Ip7Gyd3Pkx
+ GkGkBTL2piWAQ.gdvETLVPx.Jewp.9OzfSEeEkctjGgC_gOMWz7FOn9du09A
+ i6Nc7tgDUzhR.kGbNzPZaVfd7zTchu5TkoD8ul3BrQx8IEDKdTrPEdfGUq_O
+ FYCjSWCpw_67.gQgaJlrb26hP3ReZfYllzJswcoLiRh6gG_w.RUhApT9Bw8T
+ mJ3DDGB6Q57ODVUjHUZ1_LArcKrQ9UskoHOmr_Mj.W.hVwQRxghW3WGK1Lty
+ tM5xF36mANwYRN0qz0z14Or6.5xHQpwzS8Ng.8kaJLs2OOM3in0DgqYXZ1.F
+ zXNplv73wFdH3Deo48Cm9hiZ95Ckn.yxkjN5hNFkIEao4ObwYJMx1i1LImlI
+ JkFbr_AzJ_FKZWm3XA1jFg2JPXy0Dzzc.Rz3i9h1b8B94qRNXNqe8uhV958M
+ C1yBGSmllV3SuJAfUhikdFUvxawFUQggEzX05Xo-
+Received: from 192.30.252.210 (EHLO out-27.smtp.github.com)
+ by 10.196.216.85 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 02 Jul 2022 05:48:18 +0000
+Received: from github.com (hubbernetes-node-3e673d5.ash1-iad.github.net [10.56.14.18])
+	by smtp.github.com (Postfix) with ESMTPA id 9AA9590038F;
+	Fri,  1 Jul 2022 22:48:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656740898;
+	bh=KGnbFXT1rDPL1Bp5PlFALHFRntFIxFPJIn5SdSiuQTk=;
+	h=Date:From:To:Subject:From;
+	b=jftxLPFTPcSHxZFKGnMjiL2Q8r3T9NNcQVCvP31WlSB/xDCcCs2nZnwOlaqkdguaY
+	 2PMBtU5n2hPuvCp4N5m3G7Gj9SE3Se+ItG0ozikZPEgcK+y+U88ELefAHB5IwOF5KI
+	 mDg2JBw9M4NDv4r6klhim/Jz/Bw30EV/49R88JeA=
+Date: Fri, 01 Jul 2022 22:48:18 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: NYCTLservicing@tcmfund.com, 
+ ms60710444266@yahoo.com
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES/push/refs/heads/main/723119-d4eeed@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES] d4eeed:  deposited
+ into an interest bearing account in ESC...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: ACTIONABLE ITEMS -- 153974/2020 FOR PRECEDENT
+X-GitHub-Recipient-Address: NYCTLservicing@tcmfund.com,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 7594
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELAT=
+IVES=0D
+  Commit: d4eeeda6d1225697004e4dfc24ea0a9a8b72cb23=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES=
+/commit/d4eeeda6d1225697004e4dfc24ea0a9a8b72cb23=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-07-02 (Sat, 02 Jul 2022)=0D
+=0D
+  Changed paths:=0D
+    A 153974-2020-STFGX-JPMORGANESCROWACCOUNT=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+   deposited into an interest bearing account in ESCROW, where do they li=
+st that on the left or the right side as a credit or a liability? =0D
+=0D
+THEY ARE NOT GOING TO LIKE YOU IN THOSE COURT ROOMS EITHER, IF YOU EVER W=
+ALK IN...=0D
+=0D
+- JSUT KNOW, YOU WILL NEVER KNOW IF THE GUY SITTING ACROSS FROM YOU HAS T=
+HESE PAPERS.=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Fw: 153974=0D
+Date: 	Sat, 2 Jul 2022 00:46:13 +0000 (UTC)=0D
+From: 	Bo Dincer <bo.dincer@yahoo.com>=0D
+Reply-To: 	bo.dincer@yahoo.com <bo.dincer@yahoo.com>=0D
+To: 	JCARTER@dhs.nyc.gov <JCARTER@dhs.nyc.gov>, 7 11 Webmaster <webmaster=
+@7-11.com>=0D
+CC: 	James Comey <jbc2167@columbia.edu>, Avril Haines <ah3774@columbia.ed=
+u>, SonyMusic Royalties <royalty.statements@sonymusic.com>, wmprivacy@war=
+nermediagroup.com <wmprivacy@warnermediagroup.com>=0D
+=0D
+=0D
+Fw: 153974/2020 50074 CIK 93715 [1516523] - Wilson Elser Zucker=0D
+=0D
+/S/ BO DINCER =0D
+=0D
+    ----- Forwarded Message -----=0D
+    From: "Bo Dincer" <bo.dincer@yahoo.com>=0D
+    To: "James Comey" <jbc2167@columbia.edu>, "Avril Haines" <ah3774@colu=
+mbia.edu>, "Andrew T. Mount" <amount@bressler.com>, "amasters@boc.nyc.gov=
+" <amasters@boc.nyc.gov>, "Bressler Info" <info@bressler.com>, "Frank Cuc=
+cio" <fcuccio@bressler.com>, "BD (NYSBA MRC)" <mrc@nysba.org>, "Paul Jone=
+s" <paul.jones@tudor.com>, "Ir-operations-team" <ir-operations-team@tudor=
+.com>, "Irene Zola" <irene@zola.email>, "Irene Zola" <irenezola@l-i-l-y.o=
+rg>, "assessments@fdic.gov" <assessments@fdic.gov>, "assetmarketing@fdic.=
+gov" <assetmarketing@fdic.gov>, "QUEUED" <askcuit@columbia.edu>, "CUIT Co=
+mmunications" <cuit-communications@columbia.edu>, "sgo2107@adcu.columbia.=
+edu" <sgo2107@adcu.columbia.edu>, "Paul S. Blaer" <pblaer@cs.columbia.edu=
+>, "DR Paul S. BLAER" <pbr@columbia.edu>, "Kids Privacy" <kidsprivacy@via=
+comcbs.com>, "MSKYLINE BROKER" <leftbank@mskylinerentals.com>, "Skys the =
+Limit Concierge" <skysthelimit@theconcierge.info>, "Kathleen A. Mullins" =
+<kathleen.mullins@wilsonelser.com>, "Governor Hochul" <governor.hochul@ex=
+ec.ny.com>, "Lois K. Ottombrino" <lois.ottombrino@wilsonelser.com>, "LLC.=
+ MANHATTAN SKYLINE" <administrator@mskyline.com>, "Treasury Inspector Gen=
+eral for Tax Administration" <tigta@service.govdelivery.com>, "The Bureau=
+ of Engraving and Printing" <usbep@service.govdelivery.com>, "engineering=
+@spglobal.com" <engineering@spglobal.com>=0D
+    Cc: "Marlyn Delva" <mmt22@cumc.columbia.edu>, "Marlyn Delva" <mmt22@c=
+olumbia.edu>, "Stephen O'Connell" <sgo2107@columbia.edu>, "Stephen O'Conn=
+ell" <sgo2107@adcu.columbia.edu>, "Lee Bollinger" <officeofthepresident@c=
+olumbia.edu>, "Lee Bollinger" <bollinger@columbia.edu>, "Lee Bollinger" <=
+lcb50@columbia.edu>, "jpmcinvestorrelations@jpmchase.com" <jpmcinvestorre=
+lations@jpmchase.com>, "Governor Hochul" <governor.hochul@exec.ny.gov>, "=
+Shari Laskowitz" <slaskowitz@ingramllp.com>, "Jpetit Petit" <jpetit@mccar=
+ter.com>, "Thermanson" <thermanson@northmarq.com>, "Amber Griffiths" <ag2=
+943@adcu.columbia.edu>, "Ashley V. Humphries" <ashley.humphries@wilsonels=
+er.com>, "Amy Hanrahan" <amy.hanrahan@wilsonelser.com>, "Alan Rubin" <ala=
+n.rubin@wilsonelser.com>, "Alan Morrison" <ajm157@columbia.edu>, "Dean's =
+Discipline - SCCS" <conduct-admin@columbia.edu>, "Lisa Rosen-Metsch" <lm2=
+892@columbia.edu>, "Lena Mei" <lm3440@columbia.edu>, "Judy C. Selmeci" <j=
+udy.selmeci@wilsonelser.com>, "Jennifer M. Provost" <jennifer.provost@wil=
+sonelser.com>, "Joseph Giamboi" <joseph.giamboi@brooklaw.edu>, "slaskowit=
+z@mskyline.com" <slaskowitz@mskyline.com>, "MANHATTAN SKYLINE MANAGEMENT =
+CORP." <super@sullivanmews.com>, "JAMES GORMAN [MORGAN STANLEY]" <james.g=
+orman@morganstanley.com>, "FDIC Public Information" <publicinfo@fdic.gov>=
+, "BRIAN HODGSON" <brian.hodgson.nyz6@statefarm.com>, "david.moore.ct95@s=
+tatefarm.com" <david.moore.ct95@statefarm.com>, "legalasst@mskyline.com" =
+<legalasst@mskyline.com>=0D
+    Sent: Fri, Jul 1, 2022 at 8:44 PM=0D
+    Subject: 153974/2020 50074 CIK 93715 [1516523] - Wilson Elser Zucker=0D=
+
+    do not open these emails until you feel like it.=0D
+=0D
+    Also, just keep this in case the Zuckers don't want to have this info=
+rmation to hold against them in court later.=0D
+=0D
+    -- even thought inalready filed it without action from the judge, so =
+let me know where did that $6,000,000 come from.=0D
+=0D
+    They change their emails constantly, keyword search: AIMA.=0D
+=0D
+    Redundsnt email required in colocation, dont know who does that at on=
+e state farm... =0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+    Do those deposits match up with the gross incomes reported for the 6 =
+properties in question, YoY and every year as reported to the NY dept of =
+Finance, and purport double digit return which over lunch, is a great mar=
+keting document to raise money for their Limited Paprtnership -- =0D
+=0D
+    How would they see something likenthat everyday? =0D
+    By different people?=0D
+    Play-by-play also......=0D
+=0D
+=0D
+    Those checks, known by the Entities and counselors:=0D
+     --- deposited into an interest bearing account in ESCROW, where do t=
+hey list that on the left or the right side as a credit or a liability? =0D=
+
+=0D
+    To satisfy their reserve reequirements with the Treasury, or we are y=
+ou planning on hiding those charges as well, aided and abetted by the cou=
+nselors of the Zucker compound of entities, directors, and lawyers, and c=
+ounselors.=0D
+=0D
+    /S/ BO DINCER.=0D
+=0D
+        ----- Forwarded Message -----=0D
+        From: "BO DINCER" <bondstrt007@gmail.com>=0D
+        To: "espnfrontrow@espn.com" <espnfrontrow@espn.com>, "BBO 121" <m=
+s60710444266@yahoo.com>, "Bo Dincer" <bdincer66@icloud.com>, "Bo Dincer" =
+<BO.DINCER@yahoo.com>=0D
+        Cc: "customerservice@nypost.com" <customerservice@nypost.com>, "C=
+ustomerService@seahawks.com" <CustomerService@seahawks.com>, "SOHO HOUSE"=
+ <membership@sohohouse.com>, "Marc Lavigne" <tessier3@stanford.edu>, "dai=
+lydigest@stanford.edu" <dailydigest@stanford.edu>, "inbox@livekelly.com" =
+<inbox@livekelly.com>, "tips@vibe.com" <tips@vibe.com>, "Frank Cuccio" <f=
+cuccio@bressler.com>=0D
+        Sent: Thu, Jun 30, 2022 at 9:05 PM=0D
+        Subject: if you're an adversary to the wilson elser firm. Or anyo=
+ne.=0D
+        Just flash this deck right here in court. But dont look at it fir=
+st. Forward it to their counselors then bring it in a air sealed bag and =
+ask them: you read this pack?=0D
+=0D
+        Then give it to the judge, like I did -- thing is, my files got p=
+rocessed and were also evaluated by the judge, clerk, and all of the Plai=
+ntiff=E2=80=99s counselors.=0D
+=0D
+        Index 153974/2020 50074 CIK 93715 [1516523]=0D
+=0D
+        - covered for violations under USC Title 18, namely under continu=
+ing financial crimes, 18.215, 18.21, 18.225, 18.4, 18.3, 18.2.=0D
+=0D
+        One love. =0D
+=0D
+153974-2020-STFGX-JPMORGANESCROWACCOUNT=0D
+=0D
+#WATCH FOR CONTACT ON THIS PLEASE - THANK YOU=0D
+=0D
+=0D

@@ -1,0 +1,965 @@
+From - Wed Aug 31 18:53:41 2022
+X-Account-Key: account1
+X-UIDL: AO1vUy9yQO3dYw+f7g5jmGqIOvY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.105
+ by atlas220.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 17:52:46 +0000
+Return-Path: <messages@updates.nida.nih.gov>
+X-Originating-Ip: [209.134.151.48]
+Received-SPF: pass (domain of updates.nida.nih.gov designates 209.134.151.48 as permitted sender)
+Authentication-Results: atlas220.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@updates.nida.nih.gov header.s=21q4;
+ spf=pass smtp.mailfrom=updates.nida.nih.gov;
+ dmarc=pass(p=REJECT) header.from=updates.nida.nih.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 17:52:46 +0000
+X-YMailAVSC: .TjCvOo3bBsYMujTSlxa_E.RCiBBkxjfX9PX6p5P.m5Uahr
+ iuqDtcyOrg72LG1zLYHNv3aN1KzW0u9OC8VJUOzpp2.y8deDiF1IpsaX5fHs
+ BRH0RTnVKo9IT6frXsUViMJl25kMqzO4QdwiWPBvzLzAcUgjv2RSu_3qnECX
+ hRAgq6PS10JR3N65WjWi72FQUh.fu4kJ8kZa5.OX2YndkthkXzPsIAWToWLI
+ 4rD_A91KrfXk3QRN6J_.lxtfPtlr7h6kDVwbM.G6TOX_fHTdU7XSnB7TbRVb
+ 6nx0tRO0LoT0stfqtOB18DNcoaN2iGX1H7dumEAV0RG327Mds9scvTK2ATot
+ d4c3hgokojxF5uU6n9wHJbG4SVC59s5Fr8OtCKIocciqEBkib7cDHd9gw_aF
+ m9PWSlrLLgNAQxeNFx7wewuaA09_xhZPStK3rZVXiCLfCCBcGoVJ_2eWs6Pl
+ En.a0MUvqxdQoAN1SAE1MBXPRTg74zzpuoUR41qWdf6rCpO_V4OSreOxTvCY
+ KK9dmFg34jsiMKHziC183DuS1O_6xgi_qTwLaUERNLB5RfUS7bCMe4VLQbEb
+ Xu8ZEiBwpQ9PP7HbpqXmiFriFCoRUCEPxdvbsRpf6pSiUtp9SBy2sGfTrb1E
+ cJqdqBAYwpQP7AFxs9coMaCeCIT8XU2iFckLukMBH77sd5VflScbbXCCR36U
+ GsXClkw6_aUYJct.W.PeZKi0eprThbrak3RZR8cjCVGyWusU13o2QtvX12X5
+ NXdlq7SXlwtsrA7483Ojy4Wxv4xjNyRx3ibXG9C8rbhBNgOd3zen7akB6ic6
+ L0qAICCnGXWKVJ2qumQvrOJ3izgZtgVIQBxVqjtuqm65ukvo174kgplyj31M
+ MWMNHM5Lmhx3IBg637_hWNNig_l6a1g55yuZVNMPsaNpKkcgGbf2bUv91Yxg
+ CpuHgdSG9H_UYShsGEPbiMQc1J9RjN3qb4ONEe9LqynZNGSfocSdlx2Rab0y
+ nZXzzYTJOIwFgWqLa3XG8ixitC8DhtXFU1J4KxohmMGPAj2SiXs9KuwtcN3.
+ LUnXIKGKB_WIjr_O2bYnfovvFbfkgAs0ZSw.EJAOfvjxnumueNV2A9ecgeTT
+ FcQx0C5YzD4FPHoe.yVE9I5KIKU7n7elgjTJ67DszqAnxiqBMkXZND70kxAW
+ jfBRmp4dEQ17mOUNINA4ywOAKITd4rtxpVl3VUp9POQGsRXN3lHXavZY5TVV
+ ewNoAPExARZBT0Dzt.KQUS8Ct8E1x37UOWhphJkjBcHrw4SV_gPxbPJVKQBK
+ BtQA2g7Z_y8jDtRJZvMUTt2NXJxw-
+X-YMailISG: zyL45g8WLDvZJVODV0TQ1qrtN33EGzAx9scq62rdZTTuIOIz
+ hRwsXVyr1kdkmVsF2gC0dQ.2GnbYbqB82PEHGyKQsbtIfWPIXCSWQDzZ.6_N
+ hjzn1l_GCvzTH82WXgyzIOtW.QbEJDbkDT61sLEtbZ9.8PzCwNMdLKdVVzFh
+ lzneDvo.DGcqec.cpDl5IKwKVENgHn62tPqnD4Hl2eoyU6lNV5p5vyGAvSY_
+ sHUtP9Mz9Y1UkR2CBc1sQS7hnW9BF_0i1dxjL2qiC_kQFa.9QOxamaoGaubi
+ NG9FKmQWrYLNlmi414v6g.ApaDlHhdXdFxKPf0vBpCXBVhf_vpL1dwg6kwfi
+ AKSk6gPPDdpS1HFbSOhRpRwFmSxVKsFasRdQmoVgb2xe_BI3uNmpoFNZTYTG
+ _vJzDx5iybvwN.kc2DJyQ9wt5bj4F5LWMu9kZVCZxPFAKGOBwaFnGdGwJZTb
+ JKjMD8nQ.FQ2nZUyJBoq7SS_YqDOFvbwur2m3hBIBiSVQH6knfFS9PKRC8gc
+ qPxV7v68yNNLIR4cHdRDf1Pu8_5WNzoJ9UhyXYEW46Q3OtIEQT2iche1poA0
+ .awvoj9G7Tnx0omnlWa3RsceaqhCYjEPOJcbfQeLaQxZW5gvLKvqJXC_dH47
+ sTZUiBjAL0aPSSxhESZy3TdGmM9t6Gjz7BaFtGPtcj8C38OLjl5w3nhP9qBl
+ FGGRN1yaPHPMnB7Gh1_ONrrxOOre0lkAFgY0Yx_iIBNfcJkSqzuZYPoBgad8
+ lknXfmrz7Ts8rQF7wF9hXO5A83evoQiNDtpbE_sVocIyGoAtukrNYv6r1jKF
+ vRJjSBNyQXTn0I4Y5h_D6Eegjk6evBVSpvpJ1DK87TJ0XkuVrrL6WVunKlew
+ SD_2eatnhPyIlu9hwAqdZ30v4Z4JtN8l.IFJDwCX2nEGhq4IHN5159zKMazk
+ t9d3_VBv9lZiwS_P8VuiOjZLlxTaTO_VwGPLiPHWzj4NS7DAAxnXG68iF.Ph
+ FLUdAbNn3FcvhRKsfveQYr180FZJjdMctOrnaKMcjbwNHgvf1rUXbJqbz9YH
+ LjN8I7ygx_EE6KRZ29rCE2FtfIfY2sSkITJWUiCG6Z6TqvM_b63r4KaeLc2H
+ .tjoOi7SysO_MFuKO0oL4zpfon5D9rR9lkPt9MiNDDr4_Qq27_hndw--
+Received: from 209.134.151.48 (EHLO mailer151048.service.govdelivery.com)
+ by 10.197.40.105 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 17:52:46 +0000
+Received: from gepdp-smeds2-3.systems.dc.gdi ([10.5.36.25])
+	by mailer151048.service.govdelivery.com (-); Wed, 31 Aug 2022 17:52:46 +0000
+X-VirtualServer: VSG001, mailer151048.service.govdelivery.com, 10.5.36.188
+X-VirtualServerGroup: VSG001
+X-MailingID: 16828689::20220831.63040341::1001::MDB-PRD-BUL-20220831.63040341::ms60710444266@yahoo.com::16745_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=updates.nida.nih.gov; s=21q4; i=@updates.nida.nih.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=PhV5isFzgof0E/lEyhQnkE2zTearW0A6PIW4HJjkDk4=;
+	b=kuR5uzFkh0OGb9y5Ry+ERSJKDXbTanaebhn/3ZALsn4R4WHc4hg1YBUaxSL6F7
+	NrHTO3DIE0m8dK0SlY20yUrb14dqpp4pQ68vDZ2PM8vff8u1b+OZlO4xSOVBk7Sy
+	hzHWZjiTx56oEa4Y01sNboKGf6cWq4SZ7NklryzccgAysYujyuwhbdgLxh6JdROt
+	s6Wcqby2KkQHDezsldj73Xvqu4lb5+gOeghJ0Q/g8eQn9nobypw3A3VU/uZmW4hN
+	aiXp4YIBx6J574o6wLar2HgrB2nosyJrvuN39YHOVctlN1r3w2O80YePTE1uK9nW
+	dgPiWQ4rQKXbU994sK+BQYbQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_0EB_8CA3_24C3749A.0C57FF2A"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI24tpEiJyve/tCXuKCXF+GtybrZ55Wy+YlKVTTnIDNOwqbU8rZ8RVux1dXBsrruJgfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USNIHNIDA
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USNIHNIDA/subscriber/one_click_unsubscribe?verification=5.fd71c6044d22a15400ca67ae64bc722b&destination=ms60710444266%40yahoo.com>
+Errors-To: messages@updates.nida.nih.gov
+MIME-Version: 1.0
+Message-ID: <16828689.16745@updates.nida.nih.gov>
+X-ReportingKey: MJJJ2EWJK79BLJJ287PJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?Cp1252?Q?Five_Areas_Where_=93More_Research=94_Isn?= =?Cp1252?Q?=92t_Needed_to_Curb_the_Overdose_Crisis?=
+Date: Wed, 31 Aug 2022 17:52:45 +0000
+To: ms60710444266@yahoo.com
+Reply-To: NIDA@updates.nida.nih.gov
+From: "=?US-ASCII?Q?National_Institute_on_Drug_Abuse?=" <NIDA@updates.nida.nih.gov>
+Content-Length: 39340
+
+
+------=_NextPart_0EB_8CA3_24C3749A.0C57FF2A
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+By Dr. Nora Volkow =20
+
+=20
+
+=20
+
+=20
+=20
+
+=A0View as webpage / Share [ https://content.govdelivery.com/accounts/USN=
+IHNIDA/bulletins/32a8b26 ]
+
+=20
+=20
+=20
+=20
+
+NIH National Institute on Drug Abuse=20
+=20
+
+NEWS
+=20
+=20
+=20
+=20
+
+White woman and black man giving a high five. [ https://nida.nih.gov/abou=
+t-nida/noras-blog/2022/08/five-areas-where-more-research-isnt-needed-to-c=
+urb-overdose-crisis ]=20
+
+Five Areas Where =93More Research=94 Isn=92t Needed to Curb the Overdose =
+Crisis
+
+"=93=85but more research is needed.=94=A0"That=92s often the refrain in s=
+cience, and it includes addiction research. As the addiction and overdose=
+ crises continue to claim an unprecedented number of lives and fray commu=
+nities, science is an essential part of the solution.
+
+*View Nora's Blog* [ https://nida.nih.gov/about-nida/noras-blog/2022/08/f=
+ive-areas-where-more-research-isnt-needed-to-curb-overdose-crisis ]=20
+=20
+=20
+=20
+=20
+=20
+
+Nora Volkow [ https://twitter.com/NIDAnews/status/1564982965121294338?s=3D=
+20&t=3Dq4dz0pRE2vBX4xIxoLXNOA ]=20
+=20
+
+Video:=A0What Radical Change Means
+
+NIDA Director Nora Volkow shares what radical change to save lives means =
+during Overdose Awareness Week.
+
+*View Video* [ https://twitter.com/NIDAnews/status/1564982965121294338?s=3D=
+20&t=3Dq4dz0pRE2vBX4xIxoLXNOA ]=20
+=20
+=20
+=20
+=20
+=20
+
+*Stay Connected*
+
+*facebook [ https://www.facebook.com/NIDANIH ]twitter [ https://twitter.c=
+om/NIDAnews ]linkedin [ https://www.linkedin.com/company/the-national-ins=
+titute-on-drug-abuse-nida ]youtube [ https://www.youtube.com/user/NIDANIH=
+ ]*
+
+=20
+=20
+=20
+=20
+ =20
+=20
+________________________________________________________________________
+
+View topics of interest, update your subscriptions, modify your password =
+or email address, alter frequency of bulletins,=A0or stop subscriptions a=
+t any time on your Subscriber Preferences Page [ https://public.govdelive=
+ry.com/accounts/USNIHNIDA/subscriber/new?preferences=3Dtrue ]. You will n=
+eed to use your email address to log in. If you have questions or problem=
+s with the subscription service, please visit subscriberhelp.govdelivery.=
+com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by National Institute on Dru=
+g Abuse [ https://nida.nih.gov/ ].
+
+________________________________________________________________________
+
+ This email was sent to ms60710444266@yahoo.com using govDelivery Communi=
+cations Cloud on behalf of: National Institute on Drug Abuse =B7 3WFN MSC=
+ 6024 =B7 16071 Industrial Dr =B7 Gaithersburg, MD 20877 GovDelivery logo=
+  [ https://subscriberhelp.granicus.com/ ]=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_0EB_8CA3_24C3749A.0C57FF2A
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Five Areas Where =93More Research=94 Isn=92t Needed to Curb th=
+e Overdose Crisis
+</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css">
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and =
+other text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+
+
+</head>
+<body style=3D"margin:0;padding:0;margin:0;padding:0;width:100% !importan=
+t;">
+<table bgcolor=3D'#ffffff' border=3D'0' cellpadding=3D'0' cellspacing=3D'=
+0' style=3D'width: 100%;'>
+<tbody>
+<tr bgcolor=3D'#ffffff'>
+<td align=3D'center' style=3D'background-color: #ffffff; padding: 0px; fo=
+nt-size:1px; font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans=
+-serif; color:#ffffff' valign=3D'top'>
+By Dr. Nora Volkow
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #FFFFFF; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#FFFF=
+FF">
+<table id=3D"flexible-abe-main-table" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-top: 20px; padding-bottom: 20px=
+;">
+  <tr>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+    <!-- centered column -->
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77809705">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-ab5b774f-d115-47e8-a011-c83f15422f8b" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"300" valign=3D"top" id=3D"abe-column-block-8b28b502-d3f5-4=
+eb9-94b8-341270a15816-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-8b28b502-d3f5-4eb9-94b8-341270a15816" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809706" style=3D"width: 300px; box-sizing: border-box; display: inline-=
+block; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-8b28b=
+502-d3f5-4eb9-94b8-341270a15816-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 0px 15px 10px;"></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"300" valign=3D"top" id=3D"abe-column-block-f445297b-6bb7-4=
+91e-badf-c0bf9bbc08ef-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-f445297b-6bb7-491e-badf-c0bf9bbc08ef" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809708" style=3D"width: 300px; box-sizing: border-box; display: inline-=
+block; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-f4452=
+97b-6bb7-491e-badf-c0bf9bbc08ef-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 0px 15px 10px;"><p style=3D"text-align: right; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; line-height: 1.4; co=
+lor: #666666; font-size: 11px; font-family: helvetica; margin: 0 0 0px;" =
+align=3D"right">=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJi=
+dWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiM=
+jAyMjA4MzEuNjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY2=
+9tL2FjY291bnRzL1VTTklITklEQS9idWxsZXRpbnMvMzJhOGIyNiJ9.HqtztFpNtCY6qdmeL_=
+qlcyd7BGUKlAp6GsGVAX8iEvY/s/2601788374/br/143340900066-l" target=3D"_blan=
+k" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; color: #666666;">View as webpage / Share</a></p></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77809710">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-8218068b-3ff2-4f0a-9ae8-471847e96e8d" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"300" valign=3D"top" id=3D"abe-column-block-0aff5106-8ec6-4=
+4e1-90b1-72a7d3a5e757-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-0aff5106-8ec6-44e1-90b1-72a7d3a5e757" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809711" style=3D"width: 300px; box-sizing: border-box; display: inline-=
+block; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-0aff5=
+106-8ec6-44e1-90b1-72a7d3a5e757-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 10px 15px 15px;"><img class=3D"govd_template_image" sr=
+c=3D"https://content.govdelivery.com/attachments/fancy_images/USNIHNIDA/2=
+021/11/5168104/bnr-200_original.png" style=3D"width: 200px; height: auto;=
+ -ms-interpolation-mode: bicubic; line-height: 1; outline: none; text-dec=
+oration: none; max-width: 100%; border: none;" alt=3D"NIH National Instit=
+ute on Drug Abuse" width=3D"200" height=3D"53"></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"300" valign=3D"top" id=3D"abe-column-block-baf1206a-097c-4=
+27e-ae99-e9b0776df546-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-baf1206a-097c-427e-ae99-e9b0776df546" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809713" style=3D"width: 300px; box-sizing: border-box; display: inline-=
+block; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-baf12=
+06a-097c-427e-ae99-e9b0776df546-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 5px 15px 15px;"><h1 style=3D"text-align: right; line-h=
+eight: 1.2; color: #15385A; font-family: helvetica; font-size: 50px; marg=
+in: 0 0 20px;" align=3D"right">NEWS</h1></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77809715">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-2aa2f20b-2295-437d-a75b-ede73e59f155" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-2e0c3b8b-1462-4=
+c31-a3f6-a2aad96f4ed7-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-2e0c3b8b-1462-4c31-a3f6-a2aad96f4ed7" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809716" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-2e0c3=
+b8b-1462-4c31-a3f6-a2aad96f4ed7-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 30px 15px 10px;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border=
+-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td align=
+=3D"center" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><a href=3D"https:/=
+/lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6I=
+mJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDAzNDEiLCJ1cmwiOiJodH=
+RwczovL25pZGEubmloLmdvdi9hYm91dC1uaWRhL25vcmFzLWJsb2cvMjAyMi8wOC9maXZlLWF=
+yZWFzLXdoZXJlLW1vcmUtcmVzZWFyY2gtaXNudC1uZWVkZWQtdG8tY3VyYi1vdmVyZG9zZS1j=
+cmlzaXMifQ.hqbBcx516Xjw9a4CaEIMvMAEZgEb5tKG57rvG-UexB4/s/2601788374/br/14=
+3340900066-l" target=3D"_blank" rel=3D"noopener noreferrer" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"><img class=3D"go=
+vd_template_image" src=3D"https://content.govdelivery.com/attachments/fan=
+cy_images/USNIHNIDA/2022/08/6374490/4302066/gettyimages-1178997509-optimi=
+zed_crop.jpg" style=3D"width: 570px; height: auto; -ms-interpolation-mode=
+: bicubic; line-height: 1; outline: none; text-decoration: none; max-widt=
+h: 100%; border: none;" alt=3D"White woman and black man giving a high fi=
+ve." width=3D"570" height=3D"380"></a></td></tr></table>
+<div class=3D"above-content relative">
+<div>
+<div id=3D"block-nidapagetitle">
+<div class=3D"page-banner page-banner--branded">
+<div class=3D"page-banner--title">
+<h1 class=3D"h1 text-reverse" style=3D"line-height: 1.2; font-family: geo=
+rgia, palatino; font-size: 24px; color: #000000; text-align: left; margin=
+: 0 0 20px;" align=3D"left">Five Areas Where =93More Research=94 Isn=92t =
+Needed to Curb the Overdose Crisis</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"main-wrapper">
+<div class=3D"layout-center-content ">
+<div>
+<div class=3D"content-river">
+<div id=3D"block-nida-vic-adaptive-system-main">
+<article role=3D"article" data-history-node-id=3D"49919">
+<div></div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; color: #000000;=
+ text-align: left; margin: 0 0 15px;" align=3D"left"><em>=93=85but more r=
+esearch is needed.=94=A0</em>That=92s often the refrain in science, and i=
+t includes addiction research. As the addiction and overdose crises conti=
+nue to claim an unprecedented number of lives and fray communities, scien=
+ce is an essential part of the solution.</p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-bottom: 15px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; borde=
+r-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 aut=
+o;" align=3D"center"><tbody><tr><td class=3D"govd_button" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background-color: #153759; border-radius: 5px;=
+ text-align: center; display: inline-block; overflow-wrap: break-word; wo=
+rd-wrap: break-word; -ms-word-break: break-all; word-break: break-word; p=
+adding: 10px 20px; border: none;" align=3D"center" bgcolor=3D"#153759"><a=
+ href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkI=
+joxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDAzND=
+EiLCJ1cmwiOiJodHRwczovL25pZGEubmloLmdvdi9hYm91dC1uaWRhL25vcmFzLWJsb2cvMjA=
+yMi8wOC9maXZlLWFyZWFzLXdoZXJlLW1vcmUtcmVzZWFyY2gtaXNudC1uZWVkZWQtdG8tY3Vy=
+Yi1vdmVyZG9zZS1jcmlzaXMifQ.rE9ckMdrOqdkgbkYAL1MnSmwhpwPT_p0CHiQ40Mk0nc/s/=
+2601788374/br/143340900066-l" target=3D"_blank" rel=3D"noopener noreferre=
+r" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; t=
+ext-decoration: none !important;"><strong style=3D"font-family: helvetica=
+; font-size: 15px; color: #FFFFFF; text-decoration: none;">View Nora's Bl=
+og</strong></a></td></tr></tbody></table></td></tr></tbody></table>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77809721">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-5be2ce4b-85b7-4694-8e92-9ee37a4b4dda" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"300" valign=3D"top" id=3D"abe-column-block-db2f5ffb-26a6-4=
+5cc-97a7-cfc79b18c607-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-db2f5ffb-26a6-45cc-97a7-cfc79b18c607" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809722" style=3D"width: 300px; box-sizing: border-box; display: inline-=
+block; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-db2f5=
+ffb-26a6-45cc-97a7-cfc79b18c607-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 30px 15px 10px;"><a href=3D"https://lnks.gd/l/eyJhbGci=
+OiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1=
+bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY=
+29tL05JREFuZXdzL3N0YXR1cy8xNTY0OTgyOTY1MTIxMjk0MzM4P3M9MjAmdD1xNGR6MHBSRT=
+J2Qlg0eEl4b0xYTk9BIn0.CrMeOVGRmQHzXLXL7RwwnSTMHWp88C0yplLliU34BBc/s/26017=
+88374/br/143340900066-l" target=3D"_blank" rel=3D"noopener noreferrer" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"><img =
+class=3D"govd_template_image" src=3D"https://content.govdelivery.com/atta=
+chments/fancy_images/USNIHNIDA/2022/08/6374964/4302067/screen-shot-2022-0=
+8-29-at-10-22-00-am_crop.png" style=3D"width: 270px; height: auto; -ms-in=
+terpolation-mode: bicubic; line-height: 1; outline: none; text-decoration=
+: none; max-width: 100%; border: none;" alt=3D"Nora Volkow" width=3D"270"=
+ height=3D"150"></a></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"300" valign=3D"top" id=3D"abe-column-block-6950755d-efc3-4=
+ac8-950a-c533d726e61c-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-6950755d-efc3-4ac8-950a-c533d726e61c" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809724" style=3D"width: 300px; box-sizing: border-box; display: inline-=
+block; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-69507=
+55d-efc3-4ac8-950a-c533d726e61c-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 30px 15px 10px;">
+<h3 style=3D"line-height: 1.2; font-family: helvetica; font-size: 17px; c=
+olor: #000000; text-align: left; margin: 0 0 17px;" align=3D"left">Video:=
+=A0What Radical Change Means</h3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; color: #000000;=
+ text-align: left; margin: 0 0 15px;" align=3D"left"><span class=3D"style=
+-scope yt-formatted-string" dir=3D"auto" style=3D"line-height: 1.4;">NIDA=
+ Director Nora Volkow shares what radical change to save lives means duri=
+ng Overdose Awareness Week.</span></p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-bottom: 15px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"float: left; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+ align=3D"left"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; background-color: #153759; border-radius: 5px; text=
+-align: center; display: inline-block; overflow-wrap: break-word; word-wr=
+ap: break-word; -ms-word-break: break-all; word-break: break-word; paddin=
+g: 10px 20px; border: none;" align=3D"center" bgcolor=3D"#153759"><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMD=
+QsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDAzNDEiLCJ=
+1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL05JREFuZXdzL3N0YXR1cy8xNTY0OTgyOTY1MTIx=
+Mjk0MzM4P3M9MjAmdD1xNGR6MHBSRTJ2Qlg0eEl4b0xYTk9BIn0.eH9k2ORDgceaMowqcA2S6=
+5sTEws94-WAreXXDgeehmA/s/2601788374/br/143340900066-l" target=3D"_blank" =
+rel=3D"noopener noreferrer" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; text-decoration: none !important;"><strong style=3D=
+"font-family: helvetica; font-size: 15px; color: #FFFFFF; text-decoration=
+: none;">View Video</strong></a></td></tr></tbody></table></td></tr></tbo=
+dy></table>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77809749">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-13d61dc8-1f0f-41ee-992e-63990ccd5895" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-38053e0b-1bc1-4=
+dce-90b9-bd22ced57e5e-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-38053e0b-1bc1-4dce-90b9-bd22ced57e5e" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77809750" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-38053=
+e0b-1bc1-4dce-90b9-bd22ced57e5e-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 30px 15px 10px;">
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; text-align: center; font-family: helvetica; font-size: 1=
+5px; color: #000000; margin: 0 0 15px;" align=3D"center"><strong>Stay Con=
+nected</strong></p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; text-align: center; font-family: helvetica; font-size: 1=
+5px; color: #000000; margin: 0 0 15px;" align=3D"center"><strong><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNDAzNDEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vTklEQU5JSCJ9.9UpMprswJcnvZRu456tq7S=
+9WVOZ2zKoopWblzoCjRac/s/2601788374/br/143340900066-l" target=3D"_blank" r=
+el=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; color: #2869ab;"><img class=3D"govd_template_image" src=3D"ht=
+tps://content.govdelivery.com/attachments/fancy_images/USNIHNIDA/2021/11/=
+5168286/color-facebook-96_original.png" alt=3D"facebook" width=3D"44" hei=
+ght=3D"34" style=3D"-ms-interpolation-mode: bicubic; height: auto; line-h=
+eight: 1; outline: none; text-decoration: none; max-width: 100%; border: =
+none;"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4M=
+zEuNjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL05JREFuZXdzIn0.5c5hAr=
+I3sEa7JTxVyLxdGSvpb0AHI9qkiaBN_50bqH8/s/2601788374/br/143340900066-l" tar=
+get=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; color: #2869ab;"><img class=3D"govd_template_=
+image" src=3D"https://content.govdelivery.com/attachments/fancy_images/US=
+NIHNIDA/2021/11/5168300/color-twitter-96_original.png" alt=3D"twitter" wi=
+dth=3D"44" height=3D"34" style=3D"-ms-interpolation-mode: bicubic; height=
+: auto; line-height: 1; outline: none; text-decoration: none; max-width: =
+100%; border: none;"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA4MzEuNjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20v=
+Y29tcGFueS90aGUtbmF0aW9uYWwtaW5zdGl0dXRlLW9uLWRydWctYWJ1c2UtbmlkYSJ9.Kq5C=
+C_BWUt6C59ycXi0c6aam42Xs5_YYA3TXHC3D5L4/s/2601788374/br/143340900066-l" t=
+arget=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; color: #2869ab;"><img class=3D"govd_templat=
+e_image" src=3D"https://content.govdelivery.com/attachments/fancy_images/=
+USNIHNIDA/2021/11/5168289/color-linkedin-96_original.png" alt=3D"linkedin=
+" width=3D"44" height=3D"34" style=3D"-ms-interpolation-mode: bicubic; he=
+ight: auto; line-height: 1; outline: none; text-decoration: none; max-wid=
+th: 100%; border: none;"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNv=
+bS91c2VyL05JREFOSUgifQ.HTsyh5zNC__-okbBjiUCQhPSYF8Ex3ItX0te6OVs4ts/s/2601=
+788374/br/143340900066-l" target=3D"_blank" rel=3D"noopener" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #2869ab;"=
+><img class=3D"govd_template_image" src=3D"https://content.govdelivery.co=
+m/attachments/fancy_images/USNIHNIDA/2021/11/5168291/color-youtube-96_ori=
+ginal.png" alt=3D"youtube" width=3D"44" height=3D"34" style=3D"-ms-interp=
+olation-mode: bicubic; height: auto; line-height: 1; outline: none; text-=
+decoration: none; max-width: 100%; border: none;"></a></strong></p>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+  </tr>
+</table>
+</td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <hr>
+<p style=3D"margin-bottom: 1em;"><span>View topics of interest, u</span>p=
+date your subscriptions, modify your password or email address, <span>alt=
+er frequency of bulletins,=A0</span>or stop subscriptions at any time on =
+your <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW=
+5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjM=
+wNDAzNDEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMv=
+VVNOSUhOSURBL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzPXRydWUifQ.eQGAIa59P91NFy=
+5S-i8u4w1spl8mKKBxrHIMKXcukuk/s/2601788374/br/143340900066-l">Subscriber =
+Preferences Page</a>. You will need to use your email address to log in. =
+If you have questions or problems with the subscription service, please v=
+isit <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW=
+5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjM=
+wNDAzNDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8i=
+fQ.rQPvKUH0mj69PYxRHQqbDt3qmrp4QQcVJxT-5llykak/s/2601788374/br/1433409000=
+66-l">subscriberhelp.govdelivery.com</a>.</p>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL25pZGEubmloLmdvdi8ifQ.RoSl5uvabBKFwUeKD7=
+7tB5huW_FAA1etVgnuXlCa9MI/s/2601788374/br/143340900066-l" target=3D"_blan=
+k" rel=3D"noopener">National Institute on Drug Abuse</a>.</p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"border-collapse: collapse; margin: 0px auto; width: 1=
+00%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0 10px 0 10px;" valign=3D"top">
+<table class=3D"mobile-tagline" style=3D"border-collapse: collapse; margi=
+n: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"right">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 0 0 0;" colspan=3D"2" valign=3D"top"><hr></td>=
+
+</tr>
+<tr>
+<td style=3D"padding: 10px 5px 10px 0;" align=3D"left" valign=3D"top"><sp=
+an style=3D"color: #757575; font-size: 10px; font-family: arial, helvetic=
+a, sans-serif;"><span style=3D"color: #757575; font-size: 10px; font-fami=
+ly: arial, helvetica, sans-serif;">This email was sent to ms60710444266@y=
+ahoo.com using govDelivery Communications Cloud on behalf of: National In=
+stitute on Drug Abuse =B7 <span>3WFN MSC 6024 =B7 16071 Industrial Dr =B7=
+ Gaithersburg, MD 20877</span></span></span></td>
+<td style=3D"width: 95px; padding-top: 10px;" align=3D"right" valign=3D"t=
+op" width=3D"95"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA4MzEuNjMwNDAzNDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdyYW5pY3Vz=
+LmNvbS8ifQ.EV_EZzEO8--cuGKPd4j0vhuL1_UEdn06doo8SY_GDVM/s/2601788374/br/14=
+3340900066-l" target=3D"_blank" rel=3D"noopener"> <img src=3D"https://con=
+tent.govdelivery.com/images/govd-logo-dark.png" border=3D"0" alt=3D"GovDe=
+livery logo" width=3D"95" height=3D"27" align=3D"right"> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNDA5MDAwNjYtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM3NCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwNDAzNDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDQwMzQxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI4Njg5JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_0EB_8CA3_24C3749A.0C57FF2A--
+

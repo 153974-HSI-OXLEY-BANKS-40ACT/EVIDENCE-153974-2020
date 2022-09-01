@@ -1,0 +1,493 @@
+From - Wed Aug 31 18:53:32 2022
+X-Account-Key: account1
+X-UIDL: AH+Fu+5ob6U0Yw94xwhQ6DjFD5w
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.141
+ by atlas315.free.mail.ne1.yahoo.com with HTTPS; Wed, 31 Aug 2022 15:05:42 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.47]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.47 as permitted sender)
+Authentication-Results: atlas315.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 15:05:43 +0000
+X-YMailISG: OZsene8WLDsuuNAJy5cN0sRL2VMKatjfd1_FqFXFNDq7u7.y
+ hpGeWMBg_q7ocXZ6ojC35ukDdClYb5akSpNqb4AL1lLLi7VqlXUyWmUdGH4R
+ uToc_14_zkXIfl9ew1IkLUnP.1hYwTy5H4wyP_r_ryoHQa8psaLADQ4LAXwk
+ LznnX2FEtzMOQrw.vW2.3xJv7_7ya2eRUynMJ5eYIVHW2bgKYjZ27tFPl1ty
+ mJQ_5uwvAKEFjxGPA1m.Rz5f_1QEhogv3cggiIMof_Pxrgw5uhIbOnRzUwr4
+ AFgR3UW7DqZaa1N4jabLZbqvZNJBhBpXXJlsm_nVUFfUpUCDhozTNUSu753j
+ 4lWbcN.u9vwTgvE.wYQ.n9I7G0YMTbTQJnAucD5qTH.j9UTLT0nu7OJ36qN1
+ UM4pHH_OpFcCGo2cjDklDg1VOW1f__2YLnV7rdFLp8d8gAVVWQgx_g.G12V4
+ Ll7oo0xRmvWkGkYoIuP3Z.eQCM7W7qV1DW3jDTFX0g9b019aAXnoBiMv7mU1
+ ppXAJeTgvB9ZfSPpuWX7TixZxiJ4oC7VA.Inziz_k47EoSl3kH.J5pUdfaNb
+ Q2Wv7nYRFw8XqNTJqQVGpXyk_9pyOgAaSQ6IDhFKh.LgRv8YN4MPQ6InfXm8
+ 0vrWXIxeNutx8LP8E3ngH_j_NkJqYCm2DI49oSKzX0Izlp4yqOZogKbk3RDn
+ E88if82qp7bl71NcFVp11d5ohdwmkyGSEF8VZ4zXSwBCvlEQdkWto1zjlnzO
+ TTiSRctD7EShUUdhminYKazzJCsclvbCnBqTgMCMPKALpctpopD9dtZstlWY
+ VYwl3UYDX2ODIgtGMfZNh31LSgk1uWQLDH8OL72aPbQc28pc3PX_evsRBoXN
+ L883Ztfss5OuPAPJT8082VuBP1YhmoAUzdYmIWG8QzGxU26CdUc5tp9H2lHI
+ mxTrWaW0f4k.B7CGvoeKw6AKlrKC7OEPNRupkjpmLCuDkz3pClmqsEnw3Eg4
+ XispitCgMnMfaMtaKSkBkdXZMwDhj_4ObuaS9G690Yed8uNi5_xGxmh3s148
+ d3FYB4MJ7fdHJBW_jO.iXGit7oN10gVaV1ozX9g0eDRrJTYNOGDrrvWrmLBQ
+ _V4yxAAfbwrjCudLmRhoTHf32HsOdfxY7a3Ld9QUXzwfTQeZ1FffH9SzHMVO
+ 2XvNCGbS6XnkxoGY6dJyiNsSxVJ1tw--
+Received: from 209.134.158.47 (EHLO mailer158047.service.govdelivery.com)
+ by 10.217.150.141 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 15:05:42 +0000
+Received: from gepdp-smeds1-2.systems.dc.gdi ([10.5.36.52])
+	by mailer158047.service.govdelivery.com (-); Wed, 31 Aug 2022 15:05:38 +0000
+X-VirtualServer: VSG001, mailer158047.service.govdelivery.com, 10.5.36.113
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837474::20220831.63027361::1001::MDB-PRD-BUL-20220831.63027361::ms60710444266@yahoo.com::111997_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=wM3v
+	6+hQp4+2whw6OLiQC0E3BzE0yQ737WpvhUwgKos=; b=Ug91VdL6onK8cJw6hbHw
+	bk0Fp6GmtyUrFjzoIzsC12CsCK1TD44zVSfQZBnRcmelANdOThHapPQS7wIPwfOD
+	2V1A+p1pI8Rg3msbCPMdRnCC/6ypUxu7AAWzuCSM4l+swlCnXykKoKx6n+zkMpkc
+	teGQEREX4kiKvwZFitL2VjfEuDRHPNy5dxfbUhIVwJ3aBakRyoSfCAZtJiO693sD
+	G1ZB9SEkCMJc9Pz5vYVSWaCSEoi+Hvnm1Ucjf+5pTmTVlJfu+mcKkLxFFd/jT6kj
+	SBOjTHk8US7gBOukVHVXJQH1v3b6V9AsRL154vJlsBLfxPDS5D2IMFmaOmWPsB6T
+	jA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_194_C7D2_5CA68001.675B29A4"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI+aSpgeYUop1dt6PQ00DQxs+2itCAGxGawJnpNExMX17r3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837474.111997@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8EHSJJG64UJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?ICYMI:_CMMI_Model_Data_Sharing_(CMDS)_Initiative_Mak?= =?US-ASCII?Q?es_Model_Participation_Data_Available_to_Researchers?=
+Date: Wed, 31 Aug 2022 15:05:30 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 21885
+
+
+------=_NextPart_194_C7D2_5CA68001.675B29A4
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+CMMI Model Data Sharing (CMDS) Initiative Makes Model Participation Data =
+Available to Researchers
+
+CMS was pleased to announce last week the availability of new Research Id=
+entifiable Files (RIFs) for six CMS Innovation Center models.
+
+CMS has released participation data for the following models:
+
+
+  * Global and Professional Direct Contracting (GPDC) Model [ https://gcc=
+02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Finnovation.cms.g=
+ov%2Finnovation-models%2Fgpdc-model&data=3D05%7C01%7CAlison.Rigby%40cms.h=
+hs.gov%7C33b495f750c644c066e108da845e7536%7Cd58addea50534a808499ba4d94491=
+0df%7C0%7C0%7C637967838461854301%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAw=
+MDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3D=
+GXQxWHMAk6MNhBCXG6WFCr2iyVGV8mMpia7WBkzKadw%3D&reserved=3D0 ]=20
+  * Oncology Care Model (OCM) [ https://gcc02.safelinks.protection.outloo=
+k.com/?url=3Dhttps%3A%2F%2Finnovation.cms.gov%2Finnovation-models%2Foncol=
+ogy-care&data=3D05%7C01%7CAlison.Rigby%40cms.hhs.gov%7C33b495f750c644c066=
+e108da845e7536%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C6379678384618=
+54301%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI=
+6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DyAE%2Fv5n7Mi9DG5RpM232ail=
+ZT1CnPltAXshkuY2iDn4%3D&reserved=3D0 ]=20
+  * Bundled Payments for Care Improvement Advanced (BPCI Advanced) Model =
+[ https://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Finn=
+ovation.cms.gov%2Finnovation-models%2Fbpci-advanced&data=3D05%7C01%7CAlis=
+on.Rigby%40cms.hhs.gov%7C33b495f750c644c066e108da845e7536%7Cd58addea50534=
+a808499ba4d944910df%7C0%7C0%7C637967838461854301%7CUnknown%7CTWFpbGZsb3d8=
+eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000=
+%7C%7C%7C&sdata=3DGxLWJj2dzqu9Dzqqpii8U6HqP%2B3GJzxUNpZnz8VLMN4%3D&reserv=
+ed=3D0 ]=20
+  * Comprehensive Primary Care Plus (CPC+) Model [ https://gcc02.safelink=
+s.protection.outlook.com/?url=3Dhttps%3A%2F%2Finnovation.cms.gov%2Finnova=
+tion-models%2Fcomprehensive-primary-care-plus&data=3D05%7C01%7CAlison.Rig=
+by%40cms.hhs.gov%7C33b495f750c644c066e108da845e7536%7Cd58addea50534a80849=
+9ba4d944910df%7C0%7C0%7C637967838461854301%7CUnknown%7CTWFpbGZsb3d8eyJWIj=
+oiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C=
+%7C&sdata=3DNgOJekwO1khfYwqG0HARA6Mnu2XeP3HsN9AVjG22%2Bx0%3D&reserved=3D0=
+ ]=20
+  * Kidney Care Choices (KCC) Model [ https://gcc02.safelinks.protection.=
+outlook.com/?url=3Dhttps%3A%2F%2Finnovation.cms.gov%2Finnovation-models%2=
+Fkidney-care-choices-kcc-model&data=3D05%7C01%7CAlison.Rigby%40cms.hhs.go=
+v%7C33b495f750c644c066e108da845e7536%7Cd58addea50534a808499ba4d944910df%7=
+C0%7C0%7C637967838461854301%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiL=
+CJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DhWw=
+tET%2B%2BG%2F%2FkQim%2B651Cja2ldBrsP%2F5ReIFpOT7KSiE%3D&reserved=3D0 ]=20=
+
+  * Primary Care First (PCF) Model [ https://gcc02.safelinks.protection.o=
+utlook.com/?url=3Dhttps%3A%2F%2Finnovation.cms.gov%2Finnovation-models%2F=
+primary-care-first-model-options&data=3D05%7C01%7CAlison.Rigby%40cms.hhs.=
+gov%7C33b495f750c644c066e108da845e7536%7Cd58addea50534a808499ba4d944910df=
+%7C0%7C0%7C637967838461854301%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDA=
+iLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3D5=
+ZTZiCfdIMhqNnc%2BCrXI4thI4x4sPJRQRdfkwPpxXv4%3D&reserved=3D0 ]=20
+
+Each model in the release will have a set of three files (one each for mo=
+del participants, participating providers, and attributed beneficiaries),=
+ that includes data since the inception of the model and was captured as =
+of a point in time. This file set will be updated on a quarterly basis, r=
+eflecting changes captured for the prior quarter. The files will be =93fu=
+ll replacement files=94 and will contain data from the launch of each mod=
+el to the current quarter, and each model=92s data will change from quart=
+er to quarter as participation data is updated. The group of models for w=
+hich files are available will expand over time to include additional mode=
+ls.
+
+Note that the GPDC model is transitioning to the ACO REACH model as of Ja=
+nuary 1, 2023. The model ID number (identifying variable in these files) =
+for ACO REACH will remain the same as the model ID for GPDC (ID 63). Howe=
+ver, please note that ACO REACH data will not appear in these research fi=
+les until the 2023 Q2 posting in April, 2023. The January 2023 files will=
+ still contain the GPDC participation data as of December 2022.
+
+To get information about the participating models and data files, please =
+visit the=A0CMMI Model Data Sharing (CMDS) Model Participation Data Initi=
+ative page [ https://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%=
+3A%2F%2Fresdac.org%2Fcms-data%2Ffiles%2Fcmmi-model-data-sharing-cmds-mode=
+l-participation-data-initiative&data=3D05%7C01%7CAlison.Rigby%40cms.hhs.g=
+ov%7C33b495f750c644c066e108da845e7536%7Cd58addea50534a808499ba4d944910df%=
+7C0%7C0%7C637967838461854301%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAi=
+LCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3D1j=
+291E6oq%2BrSvGBWvla4%2BXP%2FLFFz0AxIxwFZtFyR3EY%3D&reserved=3D0 ].
+
+Follow us on=A0Twitter [ https://twitter.com/CMSinnovates ]=A0| Visit the=
+=A0CMS Innovation Center website [ https://innovation.cms.gov/ ]
+
+ Centers for Medicare & Medicaid Services (CMS) has sent this update. To =
+contact Centers for Medicare & Medicaid Services (CMS) go to our *contact=
+ us [ http://www.cms.gov/About-CMS/Agency-Information/ContactCMS/index.ht=
+ml ] *page. =20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_194_C7D2_5CA68001.675B29A4
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    ICYMI: CMMI Model Data Sharing (CMDS) Initiative Makes Model P=
+articipation Data Available to Researchers
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"10" align=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://stage-public.govdelivery.com/system/images/11605/=
+original/CMSBanner_MockUp.png" alt=3D"Centers for Medicare &amp; Medicaid=
+ Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px;" valign=3D"top">
+<h2 align=3D"center">CMMI Model Data Sharing (CMDS) Initiative Makes Mode=
+l Participation Data Available to Researchers</h2>
+<p>CMS was pleased to announce last week the availability of new Research=
+ Identifiable Files (RIFs) for six CMS Innovation Center models.</p>
+<p>CMS has released participation data for the following models:</p>
+<ul>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb=
+2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZpbm5vdmF0aW9uLmNtcy5nb3YlMkZpbm5vdmF0aW=
+9uLW1vZGVscyUyRmdwZGMtbW9kZWwmZGF0YT0wNSU3QzAxJTdDQWxpc29uLlJpZ2J5JTQwY21=
+zLmhocy5nb3YlN0MzM2I0OTVmNzUwYzY0NGMwNjZlMTA4ZGE4NDVlNzUzNiU3Q2Q1OGFkZGVh=
+NTA1MzRhODA4NDk5YmE0ZDk0NDkxMGRmJTdDMCU3QzAlN0M2Mzc5Njc4Mzg0NjE4NTQzMDElN=
+0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybH=
+VNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4wJTNEJTdDMzAwMCU3QyU3QyU3QyZzZGF=
+0YT1HWFF4V0hNQWs2TU5oQkNYRzZXRkNyMml5VkdWOG1NcGlhN1dCa3pLYWR3JTNEJnJlc2Vy=
+dmVkPTAifQ.2yzsttIr3GApPEqKpK76eFwL9RbM6Mn-cA2JPUcJ2GM/s/2601788358/br/14=
+3327706240-l">Global and Professional Direct Contracting (GPDC) Model</a>=
+</li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb=
+2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZpbm5vdmF0aW9uLmNtcy5nb3YlMkZpbm5vdmF0aW=
+9uLW1vZGVscyUyRm9uY29sb2d5LWNhcmUmZGF0YT0wNSU3QzAxJTdDQWxpc29uLlJpZ2J5JTQ=
+wY21zLmhocy5nb3YlN0MzM2I0OTVmNzUwYzY0NGMwNjZlMTA4ZGE4NDVlNzUzNiU3Q2Q1OGFk=
+ZGVhNTA1MzRhODA4NDk5YmE0ZDk0NDkxMGRmJTdDMCU3QzAlN0M2Mzc5Njc4Mzg0NjE4NTQzM=
+DElN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaV=
+YybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4wJTNEJTdDMzAwMCU3QyU3QyU3QyZ=
+zZGF0YT15QUUlMkZ2NW43TWk5REc1UnBNMjMyYWlsWlQxQ25QbHRBWHNoa3VZMmlEbjQlM0Qm=
+cmVzZXJ2ZWQ9MCJ9.e-tSSRANTNHbHj8Ifqu343hbG8kmYRcjWuNNpAMLXhI/s/2601788358=
+/br/143327706240-l">Oncology Care Model (OCM)</a></li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb=
+2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZpbm5vdmF0aW9uLmNtcy5nb3YlMkZpbm5vdmF0aW=
+9uLW1vZGVscyUyRmJwY2ktYWR2YW5jZWQmZGF0YT0wNSU3QzAxJTdDQWxpc29uLlJpZ2J5JTQ=
+wY21zLmhocy5nb3YlN0MzM2I0OTVmNzUwYzY0NGMwNjZlMTA4ZGE4NDVlNzUzNiU3Q2Q1OGFk=
+ZGVhNTA1MzRhODA4NDk5YmE0ZDk0NDkxMGRmJTdDMCU3QzAlN0M2Mzc5Njc4Mzg0NjE4NTQzM=
+DElN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaV=
+YybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4wJTNEJTdDMzAwMCU3QyU3QyU3QyZ=
+zZGF0YT1HeExXSmoyZHpxdTlEenFxcGlpOFU2SHFQJTJCM0dKenhVTnBabno4VkxNTjQlM0Qm=
+cmVzZXJ2ZWQ9MCJ9.IJ1xQkQwnoVP6sz_WCyRrOnVexY9lU3KR-7BWsOVvUg/s/2601788358=
+/br/143327706240-l">Bundled Payments for Care Improvement Advanced (BPCI =
+Advanced) Model</a></li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb=
+2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZpbm5vdmF0aW9uLmNtcy5nb3YlMkZpbm5vdmF0aW=
+9uLW1vZGVscyUyRmNvbXByZWhlbnNpdmUtcHJpbWFyeS1jYXJlLXBsdXMmZGF0YT0wNSU3QzA=
+xJTdDQWxpc29uLlJpZ2J5JTQwY21zLmhocy5nb3YlN0MzM2I0OTVmNzUwYzY0NGMwNjZlMTA4=
+ZGE4NDVlNzUzNiU3Q2Q1OGFkZGVhNTA1MzRhODA4NDk5YmE0ZDk0NDkxMGRmJTdDMCU3QzAlN=
+0M2Mzc5Njc4Mzg0NjE4NTQzMDElN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQz=
+R3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4wJTN=
+EJTdDMzAwMCU3QyU3QyU3QyZzZGF0YT1OZ09KZWt3TzFraGZZd3FHMEhBUkE2TW51MlhlUDNI=
+c045QVZqRzIyJTJCeDAlM0QmcmVzZXJ2ZWQ9MCJ9.l8qQb-1v20jUipi-nGVZ8xRpH45oRsfv=
+-9Mm7BIeQPo/s/2601788358/br/143327706240-l">Comprehensive Primary Care Pl=
+us (CPC+) Model</a></li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb=
+2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZpbm5vdmF0aW9uLmNtcy5nb3YlMkZpbm5vdmF0aW=
+9uLW1vZGVscyUyRmtpZG5leS1jYXJlLWNob2ljZXMta2NjLW1vZGVsJmRhdGE9MDUlN0MwMSU=
+3Q0FsaXNvbi5SaWdieSU0MGNtcy5oaHMuZ292JTdDMzNiNDk1Zjc1MGM2NDRjMDY2ZTEwOGRh=
+ODQ1ZTc1MzYlN0NkNThhZGRlYTUwNTM0YTgwODQ5OWJhNGQ5NDQ5MTBkZiU3QzAlN0MwJTdDN=
+jM3OTY3ODM4NDYxODU0MzAxJTdDVW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTUM0d0=
+xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU=
+3QzMwMDAlN0MlN0MlN0Mmc2RhdGE9aFd3dEVUJTJCJTJCRyUyRiUyRmtRaW0lMkI2NTFDamEy=
+bGRCcnNQJTJGNVJlSUZwT1Q3S1NpRSUzRCZyZXNlcnZlZD0wIn0.YTzaCSiqUQ4DMsffhUV93=
+JqMxCGwemMaBZ9PLV5qUA4/s/2601788358/br/143327706240-l">Kidney Care Choice=
+s (KCC) Model</a></li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb=
+2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZpbm5vdmF0aW9uLmNtcy5nb3YlMkZpbm5vdmF0aW=
+9uLW1vZGVscyUyRnByaW1hcnktY2FyZS1maXJzdC1tb2RlbC1vcHRpb25zJmRhdGE9MDUlN0M=
+wMSU3Q0FsaXNvbi5SaWdieSU0MGNtcy5oaHMuZ292JTdDMzNiNDk1Zjc1MGM2NDRjMDY2ZTEw=
+OGRhODQ1ZTc1MzYlN0NkNThhZGRlYTUwNTM0YTgwODQ5OWJhNGQ5NDQ5MTBkZiU3QzAlN0MwJ=
+TdDNjM3OTY3ODM4NDYxODU0MzAxJTdDVW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTU=
+M0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1uMCU=
+zRCU3QzMwMDAlN0MlN0MlN0Mmc2RhdGE9NVpUWmlDZmRJTWhxTm5jJTJCQ3JYSTR0aEk0eDRz=
+UEpSUVJkZmt3UHB4WHY0JTNEJnJlc2VydmVkPTAifQ.xCI6Gt9F78hqy6XHgeKkEF8srVhGYG=
+yfvcd-jhKAqZo/s/2601788358/br/143327706240-l">Primary Care First (PCF) Mo=
+del</a></li>
+</ul>
+<p>Each model in the release will have a set of three files (one each for=
+ model participants, participating providers, and attributed beneficiarie=
+s), that includes data since the inception of the model and was captured =
+as of a point in time. This file set will be updated on a quarterly basis=
+, reflecting changes captured for the prior quarter. The files will be =93=
+full replacement files=94 and will contain data from the launch of each m=
+odel to the current quarter, and each model=92s data will change from qua=
+rter to quarter as participation data is updated. The group of models for=
+ which files are available will expand over time to include additional mo=
+dels.</p>
+<p>Note that the GPDC model is transitioning to the ACO REACH model as of=
+ January 1, 2023. The model ID number (identifying variable in these file=
+s) for ACO REACH will remain the same as the model ID for GPDC (ID 63). H=
+owever, please note that ACO REACH data will not appear in these research=
+ files until the 2023 Q2 posting in April, 2023. The January 2023 files w=
+ill still contain the GPDC participation data as of December 2022.</p>
+<p>To get information about the participating models and data files, plea=
+se visit the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1=
+NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGlu=
+X2lkIjoiMjAyMjA4MzEuNjMwMjczNjEiLCJ1cmwiOiJodHRwczovL2djYzAyLnNhZmVsaW5rc=
+y5wcm90ZWN0aW9uLm91dGxvb2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZyZXNkYWMub3JnJT=
+JGY21zLWRhdGElMkZmaWxlcyUyRmNtbWktbW9kZWwtZGF0YS1zaGFyaW5nLWNtZHMtbW9kZWw=
+tcGFydGljaXBhdGlvbi1kYXRhLWluaXRpYXRpdmUmZGF0YT0wNSU3QzAxJTdDQWxpc29uLlJp=
+Z2J5JTQwY21zLmhocy5nb3YlN0MzM2I0OTVmNzUwYzY0NGMwNjZlMTA4ZGE4NDVlNzUzNiU3Q=
+2Q1OGFkZGVhNTA1MzRhODA4NDk5YmE0ZDk0NDkxMGRmJTdDMCU3QzAlN0M2Mzc5Njc4Mzg0Nj=
+E4NTQzMDElN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0p=
+RSWpvaVYybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4wJTNEJTdDMzAwMCU3QyU3=
+QyU3QyZzZGF0YT0xajI5MUU2b3ElMkJyU3ZHQld2bGE0JTJCWFAlMkZMRkZ6MEF4SXh3Rlp0R=
+nlSM0VZJTNEJnJlc2VydmVkPTAifQ.iApE4bFSI-gAVxQ1vM_sR0UjjV8SDqHp081hOOpPzKE=
+/s/2601788358/br/143327706240-l">CMMI Model Data Sharing (CMDS) Model Par=
+ticipation Data Initiative page</a>.<br><br></p>
+<p>Follow us on<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMjczNjEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0=
+NNU2lubm92YXRlcyJ9.5hBOe62i27WNM9TOAZh1r-me_21nADWd1_BuMfA8Msg/s/26017883=
+58/br/143327706240-l" target=3D"_blank" title=3D"CMS Innovation Center Tw=
+itter" rel=3D"noopener">Twitter</a><span>=A0</span>| Visit the<span>=A0</=
+span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW=
+5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjM=
+wMjczNjEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi8ifQ.ez4bKWvSIhW_1=
+_YMpAuYFucgt2zmTybCZ3X7XLLyH2Q/s/2601788358/br/143327706240-l" target=3D"=
+_blank" title=3D"CMS Innovation Center website" rel=3D"noopener">CMS Inno=
+vation Center website</a></p>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f; height: 75px;" align=3D"left">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this update. To contact Centers for Medicare &amp; Med=
+icaid Services (CMS) go to our </span><span style=3D"text-decoration: und=
+erline;"><span style=3D"color: #ffffff;"><strong><a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjczNjEiLCJ1cmwiOiJodHRwOi8v=
+d3d3LmNtcy5nb3YvQWJvdXQtQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZ=
+GV4Lmh0bWwifQ.Q9M4c_CBMqHqBDmVDQ0A8yqNH8FImgXwf9l6UvH_uFk/s/2601788358/br=
+/143327706240-l" target=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"no=
+opener"><span style=3D"color: #ffffff; text-decoration: underline;">conta=
+ct us</span></a> </strong></span></span><span style=3D"color: #ffffff;">p=
+age.</span>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjczNjEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.MOJhWT67K48r0t3esDW1hT9hxqZARigmy9A0wUWst4g/s/2601788358/br/1=
+43327706240-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjczNjEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.6YDnbQN_5AgLFd1YAO6Gyk=
+9XkOyU-R_uJfjsV-hJL0k/s/2601788358/br/143327706240-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMjczNjEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.pfVWgNP5sS-tNXUWXXtU5mW16w-ZUPffF0eqpntjr=
+SM/s/2601788358/br/143327706240-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMTMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwMjczNjEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.rS6X7igiIg5g2ggI-8QBa6=
+W3P7ikSqTP5sgbRhPDdRQ/s/2601788358/br/143327706240-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjc3MDYyNDAtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMjczNjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDI3MzYxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NDc0JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_194_C7D2_5CA68001.675B29A4--
+

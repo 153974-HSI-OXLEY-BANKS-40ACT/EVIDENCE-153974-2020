@@ -1,0 +1,74 @@
+From - Sun Aug 28 22:44:36 2022
+X-Account-Key: account1
+X-UIDL: AE7IECZsSd4lYsmDPQ5zOJM94lI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.213.145.27
+ by atlas216.free.mail.gq1.yahoo.com with HTTPS; Sat, 9 Jul 2022 13:31:41 +0000
+Return-Path: <no-reply@mms.att.net>
+X-Originating-Ip: [166.216.149.5]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.5 as permitted sender)
+Authentication-Results: atlas216.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 13:31:41 +0000
+X-YMailAVSC: Rc8oc7Y3bBt.LdxsyAoqhoRshKr7IuGIuQjVW7Tg16flczd
+ N1CioDbIqM0kH0ZOPP2QtixC.Q.JZ7GOQFgYKub7e15h8jo9dgDvi1bPIzR2
+ c9GmySbCQcXipyf2cVLjXeFKb5llFRfyNBWuvTH65hHWfO_k6d_lfk0.NCni
+ _C1pwwC8wuQuXi5N79pLx3yd9.j.B9U70ROfgZrFHkb5Sq.g99jaO0PJhO6L
+ Mbx0g2hjTXawa.9Z6CON26kgpjigSVWwgHcz7Mk7id9r6a4VOCMlsqFSAo2p
+ YVLxNVkYJF0RcaPStD06RY0MPoe0kR9QfEfvjnpmcbkYRumywg8W64Ebi7O7
+ eUHuXHT052aBHPinPOxkF0OXutENOzMtGc0JOXRwDQ8ZDF8kjZNk-
+X-YMailISG: Leqm_AQWLDugrEUPUtG0idsoSvEti9Wgg_f0scbA1fJBnexi
+ dwx2uLCVsb09smEIxOlL_rBxMsMGF9P9E0Z09EIuUjooCDMcCNLJHjZI1DGg
+ xoy_skpMNhep_kZBjBuKIpziS_WRg1O0qWzsIfiqNGtmbq2XJwKnxAYm8ZoF
+ kgATkAfm1Gc0BdHSTWjbTKzoZ2IdIfbD2QbuL6KNsrL4qiaDYESenlZk2AHo
+ EgpVD_BqrtO6bTdZk6L8kAuQBzddjGcEV2SiZzo6gezxnRA8qIt61jzJy5HA
+ ZFHDYeOsigT_nUAqptFVVNfQBqzqJg6HPP0RzLs._o0jaHGbDOiDOvY8kv5v
+ a.t.GyzmbhL8M04GL_TjqVQkXI7JpU_m4wAgMj85ebBzzHTLpxIUoxoISQ7e
+ cERd3XgrLG36KSZqzUDuwzX022Xga_Be0sy8DKXvoJEEDECsZSpBupxhFjHb
+ t3OhqDiY8r8u3veIqG3H.GanbrZk.dq.mrJtSGBIs1MyApdWt2E1iOPDIH1p
+ 8MS5KMYRUEQhx9X7T4HdzD6Ds23xuMCfVlHgk4dGvsEi.EKqOAJ8CzceTWK2
+ aWx_taokngCaRvqtQHhF_1XQ3zl9kPRVT4Fj2uq4kl6.BTuETwSr6fVFbio1
+ .6a8GU0PRAUx68xF1WLO3Q3Tlx64AUvSKRm045b4gI0KMb4B5oOwuSqedSsE
+ coN3GccsHIKwKrcF_8myCSC4gOsla9rDx6107H7T.3HIzXE5CW9tCFJKygZx
+ z8D0U4OxlbJ1qI1Ls70PswIRf3vd6grGgktXwzIxF5s.fsUOPIUeSQFFylsp
+ 5JrmcNa.2x9GKRfJBM1SLwtlmoDH93U3XGoO_.B5VaYxXBevyKWAdwJxerFJ
+ dORvVUKud3GRcsOr5DIUWyQhx2YmRtSj2lGUKt4bEaRet3iv4mkJK20yjOyb
+ o5hjClXBXY_kb_jbio1E72YZtmsgGidUrD1LeUROOKUbTWOzQWG8pkh0HLYK
+ 5VO6Gr2YjhZIz.LBqRaECeF0iBFjz6VixcmqklgKPr5u.uc2DiuPP5NlIITr
+ bzlsg_X7Ur2dAeHUxoCZeu4D3WhCrRBT4HhQfHKlAdKg19A1LlayrgaH5EaP
+ TAJQqLjltF.9BQ--
+Received: from 166.216.149.5 (EHLO alpemg-mtmta02.wnsnet.attws.com)
+ by 10.213.145.27 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 13:31:41 +0000
+Received: from zdll2ammsc01nfe001.wnsnet.dll2a.tci.att.com ([107.78.102.31])
+	by bizsmtp with ESMTP
+	id A9ocoDRbI6QjuAAYeoF99P; Sat, 09 Jul 2022 09:31:40 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1657373500;
+	bh=nQZfdOaz9Z3T7NpuX44VeSKkKKRAe6yB6hZl7UJsoEo=;
+	h=In-Reply-To:From:To:Subject;
+	b=lAYdBdxCBWXe8owGAsGRkOT/Aiad2me1S9BOc2+lMqOsct81/sfrArZxMhTg0H3mt
+	 dpxT8zJYJpWq/Tl3ekkFKnUuh+8+QWFhJCCmTZIacH/Oq02GStMfpYmp1jtIl0zonJ
+	 QawfmZ9dQ2hXBD/GZ/HXb1UoGh48ZjC7FY9rnHH6KXHSvNqBLG8D+5GVmvC3BC0KV9
+	 cLQwohbAYJHn/xDWtnWdKe9hxUuZlmUJpzgfVFyu0m/xWA0cQWte0Fjl63IBjCgyEG
+	 rvt0SxzBBilQSaoh6H5FcwSR19p7Qr/OmqGYfl/pGEi4yzzADLRsPV1HlRmUYJ1riT
+	 coMmCuRisaG4g==
+Message-ID: <A9ocoDRbI6QjuAAYeoF99P@txt.att.net>
+In-Reply-To: 490587896.227572397.1657373500729.JavaMail.nems@zdll2ammsc01nfe001
+From: no-reply@mms.att.net
+To: ms60710444266@yahoo.com
+Subject: USC 18 TITLE 18- SECTION 1512 - PREVENTING COMMUNICATION TO A LAW
+ ENFORCEMENT OFFICER OR JUDGE
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-CMAE-Envelope: MS4xfC7c/CGzHaVE33PuJIAP494JoPQqdBb/mIDGmubzsMbOb3m0O4q68DEqyr+6y078TuYVIsKdHDc0vlDf9pmXbjnWOhImHgfQmkgyUe/Ros4XsjjduCL5
+ Zo8pYvz+NG2vVRXNnAS0BTg9mp6L7mMMws3gcW6BIJsZ8drVEOCmRv92BWGv8zZxDE3E+X1gAoiOpvnlMVXFJgf/YvrZTYZHd2IJyTJL+1v/cBziO0k878go
+Content-Length: 23
+
+The email sent failed.

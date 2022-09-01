@@ -1,0 +1,840 @@
+From - Wed Aug 31 18:53:28 2022
+X-Account-Key: account1
+X-UIDL: AIWp6eBYsFWwYw9gcwxvmF86b0Y
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.136
+ by atlas312.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 13:21:55 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [209.134.151.64]
+Received-SPF: pass (domain of public.govdelivery.com designates 209.134.151.64 as permitted sender)
+Authentication-Results: atlas312.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 13:21:55 +0000
+X-YMailAVSC: FhNbyN43bBv511NlR3AhdKpCvIGGIYaezRDSpumfJkREvG1
+ .1Mgc9P9CsA3oPsdDPWWRmq7rpOkOWbqT6aedrHy0d1K8u2gsAdPbGaH1dbW
+ GIPok7FKxhJP6MaC3d_OCxiz0Ly57wxvAG9zNLUtMwYlbamWgiinCIRrdAXV
+ jCMXRPjMAJZcavlfRruwx3UZ7CP_EKd9xfkRII3BGzLuSX8szf66SH7tY2BB
+ IkYYIrgT4e5dvmAtcKBXebcDB.imO5A9PwsBOagHO713nzhYAGWFKfYVqfcO
+ D0A3aH0axFv7bMISiWWgdNIEUne90hZ9SZAXRage30VVditH_j_xeGIjflwx
+ 3HFBxKbqVsF7xVSGQdnGDy3fFmIlY5Enxe.GEbhN_9z0oExyGyKjxVN9TKDz
+ W7c1Z.J_KMEHLqKN82.gpqbx1eEDzmFxkOlrNU.MMh.D8lpg9AO83NEaubzh
+ XRE6f72A1RandERiAMah_h1qAnGq.34BTUoMzl9DTf7rzBnRs_VF8jgkswjQ
+ hIk2rQT6Xc6oAlHPs0.ksZ4QqWs_ilUq1ViQvwjfGC.o2M2W1Afctt9u91AI
+ H11KCnzLiZEeDU4cmXCoumJtqqy_GQ3gkiWfC0HFpUy25AeWQFb02m7gd8wx
+ szA_3Uy8j9iKQgdBDMmj6iLz8kHDgVFPWJUyKTQzJKIBtC47RDkWEdXXuvRO
+ KYuMG7aZebS5eEDMc_fW80L.bikgo1ha67yXZGTsl72SiimxR.Exj33kxoa3
+ wzTxXmaHGBNs6_0CRX5dIPxo1__.7_gy5pnKqTI_Vzr4gcE8lUXkrRdgDayj
+ u_kuX2pTn_mmd1mw4slBgG__Bzz3DKomS0_HEiWnva5m8HuZuHjcIcOk0axp
+ w4Eii4f0aUeM_Gt3ell_8FYAi6leom6qQfyLZhejFWb6vHqoSpLcS7oFyHb1
+ hK9bXF8EOunrj2WCEGTwIi.4ykKD7IbqxMWS9BOaOk0UHggy8NwAxvrUf3G.
+ MwuVH70mwCftz9jteFutyTxbHO2XyWknlmDJ9.eLRbFBYSpw2HXbt4UYqgaa
+ KuXz.XC5DXRKbIOmRrfeh6ZuxVtmVVuI9iBsiEVd6Z7s0lqTfLq5DlrwtbfU
+ HEK9.4mL5zQRTDowNo72snYisenP4WGORcWD3ar0.NJ8vn1dakKXKH9GntMi
+ 4BhENHNc.RLUtmQ--
+X-YMailISG: o6pUAdkWLDsi2CMcuNoxjxFpdGMG2esNzg8QDMFo59.f.qme
+ DRPXMYnbb0Hey95UQSTUgI6SYCYjJUHV1GESG2hd1_zH5YPcJXh8xkMZWSvK
+ kQKZunbWBwWXMw2I_FDEniB8x5MQYvowzJDxkp5t6ynnyimIvl25kojaGZz3
+ 5RuT6jGYBUNVR18vXvl6rkIFfFQU22zF_78kgh8Vo55Xyj6WNCVE1LL3LbZA
+ 5Ffxs10vj_XxnReLuhRFMDLCe.olmn_g623RLZ8dpp0B_bZDfYya7Y6BAjK8
+ ..SlnAdGy_GWsuZRQHfnUvxvm1YX6xkpQL2.ONQ5ETy2gRKsxCZsxr7sqdeV
+ KzmJh9lMJaEI_AzoWZdaqBL1lNGtL40cSC0y9jvmfxQQ8xhEJZzrKQAt59yl
+ P_19JvmjxuigvUzHavCwWBl6FJWdHfJoYcRaVzrQOJkki.BXSp27P4Lkdzy5
+ Xl0swWQxeIXJLxXtR8kzs4quvZOfVMO9n_c5bluy6ai7Zhg6XXCfdOWm0i_2
+ ANlq6UG5n8.oHM6AQ7u292wqpiiJHx0EJbueKRCjeMXqjuIEtbLGDIsHk5dL
+ 2k5JynvyQu0vMLbjXnB17HYUcpdYE.YrAm05Y8RrOraF76LQdbzXpheSi9Sd
+ vFZr.LL7OEIhi0N31L09Jp1.Yz2br60P5wTiRLfGrjp8E5AhBbptavDWfmEv
+ zL9BQzvOBNKLlVTyq3AW8I.aypdGeHAHBIFR867dxERRQNc.4IlGr501QneJ
+ 5yefadWcix1JA5Ma3iAecnHQANxfmHV30a.0YutiYRvDbvPG4TttohEi9xv_
+ S_4H.5GRcN1HaB1VQjksEGVXzOh3jscAzkPKu.BIXyKY_8x7ts1mDRyMVkwR
+ vOoGmK2hIvdSl8pINkkeW9sSgfVmOxq7OO7yMWnOf3celILNCf.G9bKCkuxK
+ qT2H9rhIAt1JvfY.88fFC8_jC2a1wxM.pIzSn4AXFXblh8bvfq1LQOF_ZhYj
+ uGzfTXqi5GCk2i830XAcXd4_VVUYfkZHTrzxsGrAsZcETNEJta.d.U63W.zL
+ NJLjcSUTVaOVERnhz6Qt4hrTEqv_thzLuGeIBT87Qp7.fsVPw_BMGWSLHKXn
+ NySokzTlsSYy_TgJCDZKp4lGaCCLDTPHKGni3Ynu0Fb8YsdNYnFQ26M-
+Received: from 209.134.151.64 (EHLO mailer151064.service.govdelivery.com)
+ by 10.197.40.136 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 13:21:55 +0000
+Received: from gepdp-smeds1-2.systems.dc.gdi ([10.5.36.52])
+	by mailer151064.service.govdelivery.com (-); Wed, 31 Aug 2022 13:21:54 +0000
+X-VirtualServer: VSG001, mailer151064.service.govdelivery.com, 10.5.36.114
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837393::20220831.63016911::1001::MDB-PRD-BUL-20220831.63016911::MS60710444266@YAHOO.COM::30098_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=QtlwG388F1pZQNYA4iH2n70O7X5hkIpN89T1gXCBoQs=;
+	b=hq3KGnPHTBGLARsDetOZNqifT5AEcykq51XywQv5o9Wtrg2BYKVe440oMFz2A8
+	cuvDNTo+rrOfJfgrs6UnIQGZmEwG6A2MwJSCndTvRO2HGcm5WkZfPMSzgzOSQv9E
+	AE3QS92Itx4ARxm17N0jRPWPZbn3mZ5+yi8E7b3dF/GxrHdi4FoVYsT+UbdUIOsZ
+	FCyohRY3xLpmX5uH1G0Aa9hG+EfXIO+8oAoROT1BXYafz7vhyo8t3cQsAtz4pk8x
+	VDceOcUy4Yubsx8XBQceCqs/nujZgz1klmYTcwWKIXLuE7LP0NCDIHji/ggag9zB
+	O2AFArtrnMirm52tifoIeUQA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_BBC_884F_79267A26.0278A9E6"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrwmWMfkkKW3ITz4VNkVGXfHMVdmYzrAg8zJXsj6+HJOfa9CBtQEcZYc5lFAebvqWEfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJOJP_COMMS
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USDOJOJP_COMMS/subscriber/one_click_unsubscribe?verification=5.4a1d8d1a8fc8de97909deb9062c98b92&destination=MS60710444266%40YAHOO.COM>
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16837393.30098@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK8EDNJJ477LJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?Cp1252?Q?From_the_Director=92s_Desk:_Hear_?= =?Cp1252?Q?from_OVC_Director_Kristina_Rose?=
+Date: Wed, 31 Aug 2022 13:21:52 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: OVC@public.govdelivery.com
+From: "=?US-ASCII?Q?Office_for_Victims_of_Crime?=" <OVC@public.govdelivery.com>
+Content-Length: 36189
+
+
+------=_NextPart_BBC_884F_79267A26.0278A9E6
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Having trouble viewing this email?=A0View it as a Web page [ https://cont=
+ent.govdelivery.com/accounts/USDOJOJP_COMMS/bulletins/32a619e ].
+
+ OVC From the Director's Desk [ https://ovc.ojp.gov/news/announcement/joi=
+n-ovc-inaugural-from-the-directors-desk-briefing?utm_campaign=3Dfromthedi=
+rectorsdesk&utm_content=3Dinaugural_call&utm_medium=3Demail ] =20
+=20
+=20
+
+OVC=92s New Monthly Briefing with Director Kristina Rose [ https://ovc.oj=
+p.gov/news/announcement/join-ovc-inaugural-from-the-directors-desk-briefi=
+ng?utm_campaign=3Dfromthedirectorsdesk&utm_content=3Dinaugural_call&utm_m=
+edium=3Demail ]
+
+OVC is excited to announce the launch of =93From the Director=92s Desk,=94=
+ a monthly call during which Director Kristina Rose will brief the field =
+about OVC programs and initiatives to improve options, access, and inform=
+ation for all crime victims and survivors.
+
+The inaugural call [ https://ovc.ojp.gov/news/announcement/join-ovc-inaug=
+ural-from-the-directors-desk-briefing?utm_campaign=3Dfromthedirectorsdesk=
+&utm_content=3Dinaugural_call&utm_medium=3Demail ] is scheduled for Thurs=
+day, September 8, 2022, at 3:00 p.m., eastern time. Registration is not r=
+equired. To join the call:
+
+
+  * *Dial:* 415-655-0003=20
+  * *Access Code:* 161 381 0700 #=20
+  * *Attendee ID:* Press #=20
+
+Each briefing is scheduled to last approximately 5 minutes and each subse=
+quent call will take place the second Thursday of each month at 3:00 p.m.=
+, eastern time. While participants will not be able to ask questions duri=
+ng the call, the field may email any questions to askovc@ncjrs.gov.
+
+Learn More [ https://ovc.ojp.gov/news/announcement/join-ovc-inaugural-fro=
+m-the-directors-desk-briefing?utm_campaign=3Dfromthedirectorsdesk&utm_con=
+tent=3Dinaugural_call&utm_medium=3Demail ]
+=20
+
+*Your feedback makes us better!*
+Let us know how we might improve our communications to better serve you.=A0=
+Take a quick survey. [ https://survey.foreseeresults.com/survey/display?c=
+id=3Dd0FFchJxMJNB99s0MZpIsw%3D%3D&cpp%5BCampaign%5D=3Dhousing_assistance_=
+ht_fy20_webinar_12.3.2019&sid=3Denews-link&utm_campaign=3Dfromthedirector=
+sdesk&utm_content=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdel=
+ivery ]
+
+ facebook [ https://www.facebook.com/OJPOVC/?utm_campaign=3Dfromthedirect=
+orsdesk&utm_content=3Dinaugural_call&utm_medium=3Demail ]twitter [ https:=
+//twitter.com/OJPOVC?utm_campaign=3Dfromthedirectorsdesk&utm_content=3Din=
+augural_call&utm_medium=3Demail ]youtube [ https://www.youtube.com/OJPOVC=
+?utm_campaign=3Dfromthedirectorsdesk&utm_content=3Dinaugural_call&utm_med=
+ium=3Demail ] =20
+=20
+=20
+
+*OVC shares your mission and has a wide range of resources to help you ac=
+complish it. Visit the=A0National Criminal Justice Reference Service (NCJ=
+RS) [ http://www.ncjrs.gov/?utm_campaign=3Dfromthedirectorsdesk&utm_conte=
+nt=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0onlin=
+e to register for services or to find out more.*
+
+*If you no longer want to receive periodic e-mail notifications from News=
+FromOVC,=A0please unsubscribe [ https://public.govdelivery.com/accounts/U=
+SDOJOJP/subscriber/edit?preferences=3Dtrue#tab1 ].*
+
+Department of Justice OVC [ https://www.ovc.gov/?utm_campaign=3Dfromthedi=
+rectorsdesk&utm_content=3Dinaugural_call&utm_medium=3Demail ]  __________=
+______________________________________________________________
+
+*OVC Home [ http://www.ovc.gov/?utm_campaign=3Dfromthedirectorsdesk&utm_c=
+ontent=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0|=
+=A0OJP Home [ http://ojp.gov/?utm_campaign=3Dfromthedirectorsdesk&utm_con=
+tent=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0|=A0=
+DOJ Home [ http://www.justice.gov/?utm_campaign=3Dfromthedirectorsdesk&ut=
+m_content=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0=
+|=A0Ask OVC [ http://ovc.ncjrs.gov/askovc?utm_campaign=3Dfromthedirectors=
+desk&utm_content=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdeli=
+very ]=A0|=A0USA.gov [ http://usa.gov/?utm_campaign=3Dfromthedirectorsdes=
+k&utm_content=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdeliver=
+y ]=A0|=A0Privacy Statement [ http://www.justice.gov/doj/privacy-policy?u=
+tm_campaign=3Dfromthedirectorsdesk&utm_content=3Dinaugural_call&utm_mediu=
+m=3Demail&utm_source=3Dgovdelivery ]=A0|=A0FOIA [ http://ojp.gov/about/fo=
+ia/foia.htm?utm_campaign=3Dfromthedirectorsdesk&utm_content=3Dinaugural_c=
+all&utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0|=A0Site Map [ http:/=
+/www.ovc.gov/sitemap.html?utm_campaign=3Dfromthedirectorsdesk&utm_content=
+=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdelivery ]*
+*The Office for Victims of Crime [ http://www.ovc.gov/?utm_campaign=3Dfro=
+mthedirectorsdesk&utm_content=3Dinaugural_call&utm_medium=3Demail&utm_sou=
+rce=3Dgovdelivery ]=A0is a component of the=A0Office of Justice Programs =
+[ http://ojp.gov/?utm_campaign=3Dfromthedirectorsdesk&utm_content=3Dinaug=
+ural_call&utm_medium=3Demail&utm_source=3Dgovdelivery ],=A0U.S. Departmen=
+t of Justice [ http://www.justice.gov/?utm_campaign=3Dfromthedirectorsdes=
+k&utm_content=3Dinaugural_call&utm_medium=3Demail&utm_source=3Dgovdeliver=
+y ].*
+
+=20
+=20
+=20
+=20
+=20
+=20
+
+________________________________________________________________________
+
+ This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communi=
+cations Cloud on behalf of Department of Justice =B7 Washington, DC GovDe=
+livery logo [ https://subscriberhelp.granicus.com/?utm_campaign=3Dfromthe=
+directorsdesk&utm_content=3Dinaugural_call&utm_medium=3Demail ]
+=0A
+------=_NextPart_BBC_884F_79267A26.0278A9E6
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    From the Director=92s Desk: Hear from OVC Director Kristina Ro=
+se
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+
+/* Sets the line height in everything but Outlook */
+table#yahoo body, table#yahoo p, table#yahoo .gd_p, table#yahoo p span, t=
+able#yahoo li, table#yahoo li span { line-height: 1.4; }
+
+
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+ =20
+  #main-header .govd_template_image, #main-header img {width:100% !import=
+ant;}
+
+table#yahoo .govd_template_image { max-width: 100% !important; max-width:=
+100%; }
+table#yahoo .govd_template_image, table#yahoo .govd_template_image img { =
+height:auto !important; height:auto; }
+
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 100% !important; width: auto !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 10=
+0% !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 auto 10p=
+x auto !important; display:block !important; float:none !important; text-=
+align:center; }
+table#yahoo table.gd_combo_table td.gd_combo_image_cell .govd_template_im=
+age { margin:0 !important; text-align:left; }
+table#yahoo #main-header .govd_template_image { max-width: 480px !importa=
+nt; width: 100% !important; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; max-width:100% !important; min-width: 100% !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"margin: 0; paddin=
+g: 0; width: 100% !important"><table class=3D"main-table" width=3D"100%" =
+align=3D"center" cellpadding=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D=
+"border-collapse: collapse;">
+
+<tr>
+<td width=3D"100%">=20
+
+<!--[if mso]>
+<table class=3D"main-table" width=3D"700" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+
+<table width=3D"100%" align=3D"center" style=3D"border-collapse: collapse=
+;" cellpadding=3D"0" cellspacing=3D"0">
+
+<tr>
+<td id=3D"view-in-browser" width=3D"100%" data-govdstyle=3D"all" data-gov=
+dtitle=3D"View in Browser" class=3D"thin" style=3D"padding: 10px;">
+<p style=3D"line-height: 1.1; margin-top: 0; margin-bottom: 0; color: #58=
+5858; font-family: arial, helvetica, sans-serif; font-size: 11px; text-al=
+ign: center;" align=3D"center">Having trouble viewing this email?=A0<a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiL=
+CJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTRE9KT0=
+pQX0NPTU1TL2J1bGxldGlucy8zMmE2MTllIn0.DJVMehLyalSYd125ITqHA138VdXWml66sYw=
+o4fEMfy0/s/2591266041/br/143323776041-l" target=3D"_blank" title=3D"" rel=
+=3D"noopener" style=3D"color: #00488f; text-decoration: underline; -ms-wo=
+rd-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-=
+hyphens: none; hyphens: none;">View it as a Web page</a>.</p>
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header" align=3D"center">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5=
+MTEiLCJ1cmwiOiJodHRwczovL292Yy5vanAuZ292L25ld3MvYW5ub3VuY2VtZW50L2pvaW4tb=
+3ZjLWluYXVndXJhbC1mcm9tLXRoZS1kaXJlY3RvcnMtZGVzay1icmllZmluZz91dG1fY2FtcG=
+FpZ249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXR=
+tX21lZGl1bT1lbWFpbCJ9.aJ3jQm5Hy1QyGg3XmyA682QQ2Y1lYUCW_SoQLSGpaoA/s/25912=
+66041/br/143323776041-l" target=3D"_blank" rel=3D"noopener noreferrer" st=
+yle=3D"color: #00488f; text-decoration: underline; -ms-word-break: break-=
+all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; h=
+yphens: none;"><img class=3D"govd_template_image" src=3D"https://content.=
+govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/2022/08/6369549/f=
+rom-the-directors-desk-629-229_original.jpg" style=3D"width: 100% !import=
+ant; height: auto !important; max-height: auto !important; border: none;"=
+ alt=3D"OVC From the Director's Desk" width=3D"629" height=3D"229"></a>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%">=20
+
+<!--[if mso]>
+<table class=3D"main-table" width=3D"630" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"width:630px;">
+<tr>
+<td>
+<![endif]-->
+
+<div style=3D"max-width: 630px; width: 100%; margin: 0 auto;">
+
+<table width=3D"100%" align=3D"center" style=3D"border-collapse: collapse=
+;" cellpadding=3D"0" cellspacing=3D"0">
+
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"padding: 20px 10px;">
+<h2 style=3D"text-align: center; margin-top: 20px; margin-bottom: 20px; l=
+ine-height: 1.1; font-weight: bold; color: #000000; font-family: arial, h=
+elvetica, sans-serif; font-size: 18px;" align=3D"center"><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJo=
+dHRwczovL292Yy5vanAuZ292L25ld3MvYW5ub3VuY2VtZW50L2pvaW4tb3ZjLWluYXVndXJhb=
+C1mcm9tLXRoZS1kaXJlY3RvcnMtZGVzay1icmllZmluZz91dG1fY2FtcGFpZ249ZnJvbXRoZW=
+RpcmVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXRtX21lZGl1bT1lbWF=
+pbCJ9.ZhA3Z5rq5Ni3gVs8qdvkMqgMED8Zw6DhaI39OVU8xwI/s/2591266041/br/1433237=
+76041-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #00488f; text=
+-decoration: none; -ms-word-break: break-all; word-break: break-word; -we=
+bkit-hyphens: none; -moz-hyphens: none; hyphens: none;">OVC=92s New Month=
+ly Briefing with Director Kristina Rose</a></h2>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px; t=
+ext-align: left;" align=3D"left">OVC is excited to announce the launch of=
+ =93From the Director=92s Desk,=94 a monthly call during which Director K=
+ristina Rose will brief the field about OVC programs and initiatives to i=
+mprove options, access, and information for all crime victims and survivo=
+rs.</p>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px; t=
+ext-align: left;" align=3D"left"><a href=3D"https://lnks.gd/l/eyJhbGciOiJ=
+IUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGx=
+ldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwczovL292Yy5vanAuZ292=
+L25ld3MvYW5ub3VuY2VtZW50L2pvaW4tb3ZjLWluYXVndXJhbC1mcm9tLXRoZS1kaXJlY3Rvc=
+nMtZGVzay1icmllZmluZz91dG1fY2FtcGFpZ249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX2=
+NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXRtX21lZGl1bT1lbWFpbCJ9.SJ1JEnfHLtTM04YkIw=
+hcnwhEe6GSVNIGcK3yMDYXjVM/s/2591266041/br/143323776041-l" target=3D"_blan=
+k" rel=3D"noopener" style=3D"color: #00488f; text-decoration: underline; =
+-ms-word-break: break-all; word-break: break-word; -webkit-hyphens: none;=
+ -moz-hyphens: none; hyphens: none;">The inaugural call</a> is scheduled =
+for Thursday, September 8, 2022, at 3:00 p.m., eastern time. Registration=
+ is not required. To join the call:</p>
+<ul>
+<li style=3D"line-height: 1.4; margin-bottom: 7px; color: #000000; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; text-align: left;">=
+
+<strong>Dial:</strong> 415-655-0003</li>
+<li style=3D"line-height: 1.4; margin-bottom: 7px; color: #000000; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; text-align: left;">=
+
+<strong>Access Code:</strong> 161 381 0700 #</li>
+<li style=3D"line-height: 1.4; margin-bottom: 7px; color: #000000; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; text-align: left;">=
+
+<strong>Attendee ID:</strong> Press #</li>
+</ul>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px; t=
+ext-align: left;" align=3D"left">Each briefing is scheduled to last appro=
+ximately 5 minutes and each subsequent call will take place the second Th=
+ursday of each month at 3:00 p.m., eastern time. While participants will =
+not be able to ask questions during the call, the field may email any que=
+stions to <a href=3D"mailto:askovc@ncjrs.gov" style=3D"color: #00488f; te=
+xt-decoration: underline; -ms-word-break: break-all; word-break: break-wo=
+rd; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">askovc@ncj=
+rs.gov</a>.<br><br></p>
+<h3 style=3D"text-align: center; line-height: 1.1; font-weight: bold; col=
+or: #000000; font-family: arial, helvetica, sans-serif; font-size: 16px; =
+margin: 20px 0;" align=3D"center"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwczovL292Yy5vanAuZ29=
+2L25ld3MvYW5ub3VuY2VtZW50L2pvaW4tb3ZjLWluYXVndXJhbC1mcm9tLXRoZS1kaXJlY3Rv=
+cnMtZGVzay1icmllZmluZz91dG1fY2FtcGFpZ249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX=
+2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXRtX21lZGl1bT1lbWFpbCJ9.4xGPwVLOdHYDfca4i=
+c6LmQ8ctNG7P9pITf5ZEVkWXvs/s/2591266041/br/143323776041-l" target=3D"_bla=
+nk" rel=3D"noopener" style=3D"color: #FFFFFF; text-decoration: none; -ms-=
+word-break: break-all; word-break: break-word; -webkit-hyphens: none; -mo=
+z-hyphens: none; hyphens: none; background-color: #2199e8; border-radius:=
+ 5px; border-color: #2199e8; border-style: solid; border-width: 12px 25px=
+;">Learn More</a></h3>
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-callout" width=3D"100%" data-govdstyle=3D"all" data-govdti=
+tle=3D"Main Callout" style=3D"background-color: #eeeeee; padding: 15px;" =
+bgcolor=3D"#eeeeee">
+<p style=3D"line-height: 1.4; margin-top: 0; margin-bottom: 0; color: #00=
+0000; font-family: arial, helvetica, sans-serif; font-size: 14px; text-al=
+ign: left;" align=3D"left"><strong>Your feedback makes us better!</strong=
+><br>Let us know how we might improve our communications to better serve =
+you.=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuN=
+jMwMTY5MTEiLCJ1cmwiOiJodHRwczovL3N1cnZleS5mb3Jlc2VlcmVzdWx0cy5jb20vc3Vydm=
+V5L2Rpc3BsYXk_Y2lkPWQwRkZjaEp4TUpOQjk5czBNWnBJc3clM0QlM0QmY3BwJTVCQ2FtcGF=
+pZ24lNUQ9aG91c2luZ19hc3Npc3RhbmNlX2h0X2Z5MjBfd2ViaW5hcl8xMi4zLjIwMTkmc2lk=
+PWVuZXdzLWxpbmsmdXRtX2NhbXBhaWduPWZyb210aGVkaXJlY3RvcnNkZXNrJnV0bV9jb250Z=
+W50PWluYXVndXJhbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdm=
+VyeSJ9.jjNAZbO7cNxmOsJ3KEvsYlE7wEXLd83VAreaj8XS-Zo/s/2591266041/br/143323=
+776041-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #00488f; tex=
+t-decoration: underline; -ms-word-break: break-all; word-break: break-wor=
+d; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Take a quic=
+k survey.</a></p>
+</td>
+</tr>
+
+<tr>
+<td id=3D"social" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=3D=
+"Social" align=3D"center" style=3D"padding: 20px 10px;">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5=
+MTEiLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vT0pQT1ZDLz91dG1fY2FtcGFpZ=
+249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXRtX2=
+1lZGl1bT1lbWFpbCJ9.f0Gj3-xhi26fRI2cNchsDjURYMd7-BhmQNkxsmmgPWs/s/25912660=
+41/br/143323776041-l" target=3D"_blank" rel=3D"noopener noreferrer" style=
+=3D"color: #00488f; text-decoration: underline; -ms-word-break: break-all=
+; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyph=
+ens: none;"><img class=3D"govd_template_image" src=3D"https://content.gov=
+delivery.com/attachments/fancy_images/USDOJOJP_COMMS/2020/01/3081870/soci=
+alz-02_original.png" style=3D"width: 31px; height: auto !important; max-h=
+eight: auto !important; border: none;" alt=3D"facebook" width=3D"31" heig=
+ht=3D"20"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMj=
+A4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL09KUE9WQz91dG1fY2F=
+tcGFpZ249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwm=
+dXRtX21lZGl1bT1lbWFpbCJ9.wzM-NqmMmkAuc0yEwzVn7NQJRZKtIApZ1AiWb7u1oT4/s/25=
+91266041/br/143323776041-l" target=3D"_blank" rel=3D"noopener noreferrer"=
+ style=3D"color: #00488f; text-decoration: underline; -ms-word-break: bre=
+ak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none=
+; hyphens: none;"><img class=3D"govd_template_image" src=3D"https://conte=
+nt.govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/2020/01/308187=
+2/socialz-03_original.png" style=3D"width: 31px; height: auto !important;=
+ max-height: auto !important; border: none;" alt=3D"twitter" width=3D"31"=
+ height=3D"20"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJi=
+dWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiM=
+jAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS9PSlBPVk=
+M_dXRtX2NhbXBhaWduPWZyb210aGVkaXJlY3RvcnNkZXNrJnV0bV9jb250ZW50PWluYXVndXJ=
+hbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwifQ.4Lm-bhNGxeKywI2-hbEsEAGfUzmFxiMSx_2eA=
+U_T0Vo/s/2591266041/br/143323776041-l" target=3D"_blank" rel=3D"noopener =
+noreferrer" style=3D"color: #00488f; text-decoration: underline; -ms-word=
+-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hy=
+phens: none; hyphens: none;"><img class=3D"govd_template_image" src=3D"ht=
+tps://content.govdelivery.com/attachments/fancy_images/USDOJOJP_COMMS/202=
+0/01/3081875/socialz-04_original.png" style=3D"width: 22px; height: auto =
+!important; max-height: auto !important; border: none;" alt=3D"youtube" w=
+idth=3D"22" height=3D"20"></a>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%">=20
+
+<!--[if mso]>
+<table class=3D"main-table" width=3D"700" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+
+<table width=3D"100%" align=3D"center" style=3D"border-collapse: collapse=
+;" cellpadding=3D"0" cellspacing=3D"0">
+
+<tr>
+<td width=3D"100%" id=3D"main-footer-bg" data-govdstyle=3D"all" data-govd=
+title=3D"Main Footer BG" style=3D"background-color: #ececec;" bgcolor=3D"=
+#ececec">=20
+
+<!--[if mso]>
+<table class=3D"main-table" width=3D"630" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"width:630px;">
+<tr>
+<td>
+<![endif]-->
+
+<div style=3D"max-width: 630px; width: 100%; margin: 0 auto;">
+
+<table width=3D"100%" align=3D"center" style=3D"border-collapse: collapse=
+;" cellpadding=3D"0" cellspacing=3D"0">
+
+<tr>
+<td id=3D"main-footer" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Footer" align=3D"center" style=3D"background-color: #ececec; p=
+adding: 10px 10px 20px;" bgcolor=3D"#ececec">
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #585858; font-family: arial, helvetica, sans-serif; font-size: 12px; t=
+ext-align: center;" align=3D"center"><strong>OVC shares your mission and =
+has a wide range of resources to help you accomplish it. Visit the=A0<a h=
+ref=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjo=
+xMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEi=
+LCJ1cmwiOiJodHRwOi8vd3d3Lm5janJzLmdvdi8_dXRtX2NhbXBhaWduPWZyb210aGVkaXJlY=
+3RvcnNkZXNrJnV0bV9jb250ZW50PWluYXVndXJhbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.VF1TAYxzs9TIG8qHxB7qYiGyqf1TmL3fnV6n9ajDQw=
+c/s/2591266041/br/143323776041-l" style=3D"color: #00488f; text-decoratio=
+n: underline; -ms-word-break: break-all; word-break: break-word; -webkit-=
+hyphens: none; -moz-hyphens: none; hyphens: none;">National Criminal Just=
+ice Reference Service (NCJRS)</a>=A0online to register for services or to=
+ find out more.</strong></p>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #585858; font-family: arial, helvetica, sans-serif; font-size: 12px; t=
+ext-align: center;" align=3D"center"><strong>If you no longer want to rec=
+eive periodic e-mail notifications from NewsFromOVC,=A0<a href=3D"https:/=
+/lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6I=
+mJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodH=
+RwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0pPSlAvc3Vic2NyaWJ=
+lci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.pQu1TQ0b6otnbURn_aXzUjPSzFjlTUl=
+70JUoO55QCpk/s/2591266041/br/143323776041-l" style=3D"color: #00488f; tex=
+t-decoration: underline; -ms-word-break: break-all; word-break: break-wor=
+d; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">please unsu=
+bscribe</a>.</strong></p>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5=
+MTEiLCJ1cmwiOiJodHRwczovL3d3dy5vdmMuZ292Lz91dG1fY2FtcGFpZ249ZnJvbXRoZWRpc=
+mVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXRtX21lZGl1bT1lbWFpbC=
+J9.8MuujRydqLRvSInHnfgdHc6zw0ADj9eLxEXOCSIBmsA/s/2591266041/br/1433237760=
+41-l" target=3D"_blank" rel=3D"noopener noreferrer" style=3D"color: #0048=
+8f; text-decoration: underline; -ms-word-break: break-all; word-break: br=
+eak-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"><img=
+ class=3D"govd_template_image" src=3D"https://content.govdelivery.com/att=
+achments/fancy_images/USDOJOJP_COMMS/2020/01/3081928/ftr_original.png" st=
+yle=3D"width: 267px; height: auto !important; max-height: auto !important=
+; border: none;" alt=3D"Department of Justice OVC" width=3D"267" height=3D=
+"76"></a>
+</td>
+</tr>
+  <tr>
+<td id=3D"bottom-footer" width=3D"100%" data-govdstyle=3D"all" data-govdt=
+itle=3D"Bottom Footer" align=3D"center" style=3D"background-color: #ecece=
+c; padding: 0px 10px 20px;" bgcolor=3D"#ececec">
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #585858; font-family: arial, helvetica, sans-serif; font-size: 11px; t=
+ext-align: center;" align=3D"center"><strong><a href=3D"https://lnks.gd/l=
+/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGl=
+jayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vd3d3=
+Lm92Yy5nb3YvP3V0bV9jYW1wYWlnbj1mcm9tdGhlZGlyZWN0b3JzZGVzayZ1dG1fY29udGVud=
+D1pbmF1Z3VyYWxfY2FsbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcn=
+kifQ._kPCQ2XRkNhOh94KqhFdgs07JVADSy8ZDx6Tbcyrl7Y/s/2591266041/br/14332377=
+6041-l" style=3D"color: #00488f; text-decoration: underline; -ms-word-bre=
+ak: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphen=
+s: none; hyphens: none;">OVC Home</a>=A0|=A0<a href=3D"https://lnks.gd/l/=
+eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vb2pwL=
+mdvdi8_dXRtX2NhbXBhaWduPWZyb210aGVkaXJlY3RvcnNkZXNrJnV0bV9jb250ZW50PWluYX=
+VndXJhbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.7s=
+OyuPmdeYQDjhXLOzep3DMByogHlCUXDH_1a5TRv8g/s/2591266041/br/143323776041-l"=
+ style=3D"color: #00488f; text-decoration: underline; -ms-word-break: bre=
+ak-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none=
+; hyphens: none;">OJP Home</a>=A0|=A0<a href=3D"https://lnks.gd/l/eyJhbGc=
+iOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVyaSI6ImJwMjpjbGljayIsImJ=
+1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3Rp=
+Y2UuZ292Lz91dG1fY2FtcGFpZ249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9a=
+W5hdWd1cmFsX2NhbGwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In=
+0.2QskuFwDIVFCDNoKrPTUMIFVbtYkQlmr_tBphXK4EdY/s/2591266041/br/14332377604=
+1-l" style=3D"color: #00488f; text-decoration: underline; -ms-word-break:=
+ break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: =
+none; hyphens: none;">DOJ Home</a>=A0|=A0<a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTUsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vb3ZjLm5j=
+anJzLmdvdi9hc2tvdmM_dXRtX2NhbXBhaWduPWZyb210aGVkaXJlY3RvcnNkZXNrJnV0bV9jb=
+250ZW50PWluYXVndXJhbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZW=
+xpdmVyeSJ9.jMriu9GdgsGVUpQNkofMEdOzxx4WUK-0aJ1zdbulyyw/s/2591266041/br/14=
+3323776041-l" style=3D"color: #00488f; text-decoration: underline; -ms-wo=
+rd-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-=
+hyphens: none; hyphens: none;">Ask OVC</a>=A0|=A0<a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTYsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8v=
+dXNhLmdvdi8_dXRtX2NhbXBhaWduPWZyb210aGVkaXJlY3RvcnNkZXNrJnV0bV9jb250ZW50P=
+WluYXVndXJhbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeS=
+J9.eK9-SqnQUMILFeuVHGpYN9aXh8jztCqtGE7mrFsT2PQ/s/2591266041/br/1433237760=
+41-l" style=3D"color: #00488f; text-decoration: underline; -ms-word-break=
+: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens:=
+ none; hyphens: none;">USA.gov</a>=A0|=A0<a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTcsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1=
+c3RpY2UuZ292L2Rvai9wcml2YWN5LXBvbGljeT91dG1fY2FtcGFpZ249ZnJvbXRoZWRpcmVjd=
+G9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX2NhbGwmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPWdvdmRlbGl2ZXJ5In0.gTmLi01SzzUJc9-gMhpiesL53BjKTcS5Nwr6P7EIgbo=
+/s/2591266041/br/143323776041-l" style=3D"color: #00488f; text-decoration=
+: underline; -ms-word-break: break-all; word-break: break-word; -webkit-h=
+yphens: none; -moz-hyphens: none; hyphens: none;">Privacy Statement</a>=A0=
+|=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMTgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMw=
+MTY5MTEiLCJ1cmwiOiJodHRwOi8vb2pwLmdvdi9hYm91dC9mb2lhL2ZvaWEuaHRtP3V0bV9jY=
+W1wYWlnbj1mcm9tdGhlZGlyZWN0b3JzZGVzayZ1dG1fY29udGVudD1pbmF1Z3VyYWxfY2FsbC=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.GwAoPFZdJe1IyO2_=
+Q3QBAuMox2FCr4_T_SnYJqCMJlw/s/2591266041/br/143323776041-l" style=3D"colo=
+r: #00488f; text-decoration: underline; -ms-word-break: break-all; word-b=
+reak: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: non=
+e;">FOIA</a>=A0|=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJi=
+dWxsZXRpbl9saW5rX2lkIjoxMTksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiM=
+jAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vd3d3Lm92Yy5nb3Yvc2l0ZW1hcC5odG=
+1sP3V0bV9jYW1wYWlnbj1mcm9tdGhlZGlyZWN0b3JzZGVzayZ1dG1fY29udGVudD1pbmF1Z3V=
+yYWxfY2FsbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.qHpOQ=
+452xDxi6vRUiDnI5-9nl7o3Jo8IuL49oZ2Bv8Q/s/2591266041/br/143323776041-l" st=
+yle=3D"color: #00488f; text-decoration: underline; -ms-word-break: break-=
+all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; h=
+yphens: none;">Site Map</a></strong><br><strong><a href=3D"https://lnks.g=
+d/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjAsInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vd=
+3d3Lm92Yy5nb3YvP3V0bV9jYW1wYWlnbj1mcm9tdGhlZGlyZWN0b3JzZGVzayZ1dG1fY29udG=
+VudD1pbmF1Z3VyYWxfY2FsbCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZ=
+lcnkifQ.4cbX8i7a4q_6yg8RR8PJCL-PqeBFsxOcxxExtOV9lZY/s/2591266041/br/14332=
+3776041-l" style=3D"color: #00488f; text-decoration: underline; -ms-word-=
+break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyp=
+hens: none; hyphens: none;">The Office for Victims of Crime</a>=A0is a co=
+mponent of the=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMjEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vb2pwLmdvdi8_dXRtX2NhbXBhaWduPWZy=
+b210aGVkaXJlY3RvcnNkZXNrJnV0bV9jb250ZW50PWluYXVndXJhbF9jYWxsJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.sp9YXdFjAXz8tlw7AER-NXs1Rjfi8=
+MHZ9lXPvVAljQM/s/2591266041/br/143323776041-l" style=3D"color: #00488f; t=
+ext-decoration: underline; -ms-word-break: break-all; word-break: break-w=
+ord; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Office of=
+ Justice Programs</a>,=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292Lz91=
+dG1fY2FtcGFpZ249ZnJvbXRoZWRpcmVjdG9yc2Rlc2smdXRtX2NvbnRlbnQ9aW5hdWd1cmFsX=
+2NhbGwmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.ZMMWbGg_IB=
+kMlXis2U9R8eYwQU5T5_Ijevqc9gNfv5Q/s/2591266041/br/143323776041-l" style=3D=
+"color: #00488f; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">U.S. Department of Justice</a>.</strong></p>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+</td>
+</tr>
+
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"border-collapse: collapse; margin: 0px auto; width: 1=
+00%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0 10px 0 10px;" valign=3D"top">
+<table class=3D"mobile-tagline" style=3D"border-collapse: collapse; margi=
+n: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"right">
+<tbody>
+<tr style=3D"height: 15px;">
+<td style=3D"padding: 10px 0px 0px; height: 15px;" colspan=3D"2" valign=3D=
+"top"><hr></td>
+</tr>
+<tr style=3D"height: 17px;">
+<td style=3D"padding: 10px 5px 10px 0px; height: 17px;" align=3D"left" va=
+lign=3D"top"><span style=3D"color: #757575; font-size: 10px; font-family:=
+ arial, helvetica, sans-serif;">This email was sent to MS60710444266@YAHO=
+O.COM using GovDelivery Communications Cloud on behalf of Department of J=
+ustice =B7 Washington, DC</span></td>
+<td style=3D"width: 95px; padding-top: 10px; height: 17px;" align=3D"righ=
+t" valign=3D"top" width=3D"95"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMTY5MTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZW=
+xwLmdyYW5pY3VzLmNvbS8_dXRtX2NhbXBhaWduPWZyb210aGVkaXJlY3RvcnNkZXNrJnV0bV9=
+jb250ZW50PWluYXVndXJhbF9jYWxsJnV0bV9tZWRpdW09ZW1haWwifQ.pMankw6weEnXfyZI6=
+hqUDeF22yyDeoQIvxGj80L3JHk/s/2591266041/br/143323776041-l" target=3D"_bla=
+nk" rel=3D"noopener"><img src=3D"https://content.govdelivery.com/images/g=
+ovd-logo-dark.png" border=3D"0" alt=3D"GovDelivery logo" width=3D"95" hei=
+ght=3D"27" align=3D"right"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjM3NzYwNDEtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMTY5MTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDE2OTExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3MzkzJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_BBC_884F_79267A26.0278A9E6--
+

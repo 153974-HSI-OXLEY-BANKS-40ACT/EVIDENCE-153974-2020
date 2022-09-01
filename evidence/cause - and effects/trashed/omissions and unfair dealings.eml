@@ -1,0 +1,201 @@
+From - Sun Aug 28 22:41:08 2022
+X-Account-Key: account1
+X-UIDL: AOpb/zQvz8TlYryrjA53IDgz78c
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.75
+ by atlas122.free.mail.ne1.yahoo.com with HTTPS; Wed, 29 Jun 2022 19:44:12 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.132.217]
+Received-SPF: pass (domain of yahoo.com designates 74.6.132.217 as permitted sender)
+Authentication-Results: atlas122.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 29 Jun 2022 19:44:12 +0000
+X-YMailISG: HtjONxgWLDtmA7lrzCHoamUXm20Rc7P7eBWqznV0HX25OY8l
+ ve8pzjjiUQSOawBHqGWodUmHkAmc57uJ048wzmtiE4wlnP9mWEwqBNUgD74v
+ 29C_BWCfE7k2JTgATS3w1feWRGuxdJYvt8bbXHC5_xxeXdP2dH4WkRehxfbU
+ 1ZURzDKRWpFjzRIvdU5UnZ.tdmF2m4ui6QfkJdFW6pz0yEwiQ8HLkSWGDESn
+ X1U30OsM9YS0Cnhkp17qc.3oE26EaHP09VwxO4lHqXB7W2lclOCDXn4dBxVB
+ fV_fAKup5BWwGjF_hgECBJfgFBXtaH3notZF6GufEmA1Cmz9.DkBEDQb.wlx
+ hc3QYZkBEm1LvaGaECEh9Q3tMVv2x4PUH0P_MkPW6XY13zl2schR9DvgWy5g
+ QKHN9UZ0F7jRfk45EsFyiYbq2s.kis8dPhZmYr8OU7tLL9Vi7DNU1CI_Bl89
+ SoJfBzlXNT68k4YPhYJw_FofDAxxrGYVU1lxmKNSwUHgUETUVwP0sBUSfhU0
+ HUDEtx0xLMBtIOY_i5aKsqxaycn7UAcfUNUbEJVWIHg.C7l4JnEGCQiiRIRZ
+ LQmSgkPag0c0EAmnI0uVhgK18ohkZVNqsm4jzBEaoVj1CtkPq2vLpyigtxwK
+ xfjAfCDVHklslG5BWkUwAASQ_V2JhE3BBHo2Z5ci50iBAL6Xx.T7Yt0YDXRk
+ 0UXeFvj6reuGqcDOKI5Qqpiz82ziVQh2QzU5mSYQVYa.NedVdBkdgk_gTy6J
+ ba8B_1Ne7KFKlqkMfWRzIwhwmAFWXzUMdyf9gs8czQhDIEZ2wDx_Mne5VtuT
+ 9ypMVS.8cXd9jPPlCbc23Hm7im.KQ7AL4P8dMAheDmsOxM5hLW99fl6s01hp
+ E5dJuBthSzjguNW94jP_QKHfdveeBwGCFbvUPmtlP4ew35cjfC4qAM9TsiEr
+ 8wJlKzmiFTBBV4PSVUwWGt8rq9op7z.ZyTmkPoHFmn0A7m1QkuZfoTMkYqke
+ iknf0VSfoMWfBFvv1_3SlXSo0LoI3vjOAupsBfafwWfUB7.Khbf4zOp5VTvl
+ Z9Cnx4Hpa7irZiBHHMk0.iK4cltkLaylowGI6C9Au.hYm6MXTmtkkAaj0TrI
+ BtWOiXTm
+Received: from 74.6.132.217 (EHLO sonic314-43.consmr.mail.bf2.yahoo.com)
+ by 10.217.151.75 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 29 Jun 2022 19:44:12 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656531852; bh=9YnY91GYuGxtTKmSKVXiIIolHZnGXhUjIRj3LJH1d6k=; h=Date:To:Cc:From:Subject:References:From:Subject:Reply-To; b=ohBu7r9S5VW8Z4Hxfg202S5O1aDwyjmUJGCWe13lH4GpnjJOgxU96c89uwcifE5dfqVIM30Iy5dZZF9Ek1+Rdhf6nNL2x1WhvvHKnrcxQ0zLG3hO9BJql212wrwSlARyLU0E1wETM55ZKucvZovAnHjk43FWmlvK/8T16zZiZhgYukm9GQteiyLPbfO+YCYeoSCZhF8k3sUN3hF0LMKZLzN7X6SolHmKy2GgBxUUakZPz80obBEN0ko82EkfL/hGymVslPhWB7TU9FFfZNf2s2ZIorb0RoPm6lpg9QyLv14rhhdbsIw0DtIJX8Vf5emwc1GOD7X99+zS/jLE88vhDA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656531852; bh=3v3xl2WpvfNJsGx099AheTZILDvaM8+tdi87bJacJhe=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=iMBdaGlPKBjuiiQxFG0EXk7goA3uvBE6igKvWE6aDlPRCdNBUkgM6nE7KzDMsBv9QFWiIRljYBMqImUTh5jKLL3ytzHHUM9YnE8x4axsQ5ay76tkDqUmDbArLXFjPRWrkXXZCoCmyRmtgTPo0kWydFhDoCS0o7p0Uq6Bl+VRMhu0Mw5g4mf7Kp/kjrwV3cOhFsOo/PWBdhfQkhleuwf2ZN1zUrAgv5auAouHea/BQOaUNgKwhU5QwDfHZhCBYcKMSAOZb4wKK73te9J0zoPjt6qh/TPyKTjAzdVAJxMPWLcjsPiJtkUysx6udFsWK5U1oJqN9rqLZLyjdeIC/cnfxg==
+X-YMail-OSG: 5QohkIIVM1kMBWFIY0QDnDRk.1TKLASOyhz98Tgz_2x22eDUbeT57rIhIR8Eyuf
+ 3ND7HhapVtWUxmmMU3duq9VK_0R3fJVFDEiaUhOwLMJC9_T5m6Ohe.LEVdbP44UBtxodmpK3.td_
+ ped9NvJJuHu5W_hL7bdfaIKBtsjKCi9LX2rNJWnSPmWRX8fCNRro9gqGGOSeBaE6zDpgWW6rEzrh
+ hi5FEowyoiF2ElernZLRZ7M3ZsnropYCUjn1R5ex2UcwavC.n7nFSdVY.vguwcFLIchsWZI.UQlt
+ t.bXshEd_og_yHe5EUSunQfRrMtBEtu8aUcg1aT.dowvdnxiXu9HaOOCmSP8CRcad8TjT0jr9lJA
+ wx8eZprhubeM97hLefHOaOg4LpW3ZKgKrVCUz2ZEMaJD9schPFfFwX1EgI1mzPL92gndNH_LBPcq
+ btmXOS_EJ0iyOb8IThNIsXML7VY2uun.gugYG3nJ41mZOiMKAyON4coyjPOCjw0AaVUXBzJFBmgL
+ SIIGQ5Zkn3t_v3gvbYYajTORk72R5ASdMXmUM.X5eAd6P9.AAfdkNw3XnuN_uWFkS0XBKqN7CkfX
+ LNVzkJ1viQKZk0yusM2lM80GrkQohu94EtUVGMacRpZE92Z0u_ugLU9YQYRhkdRpV.TdNMmr2khd
+ DTA1VAnNZxHFcADhTHHnviyfiAgPh28.eEYr01JCyLICiW07YS8fAaWyooS064Rajj5hMhzj5W6p
+ fFJjb4ZxVlcscCbge_bm21V0.Ixcei6_l5L0TdAYdpfYnReP0lksV.Nezx9OelnPEGhWLOKs_c7_
+ BhHtlN6GeqsHZbqqe4n9a.u4xnOMtbsVyD5qzUnex4.Mt9U0o7sajei8G4CCRebQ.nwlQB8iqQUu
+ DY8cPtfNs6ApmPlRliJMk_aJx5_8tyRCkEEQNfxGKM7P8OyY_bcAVBd2MHdPTeK.O4svGgd8pwOW
+ cDxw.s.02beR_fuyYXgst2aQsT8yZJRU1tmQR4ONAJhaeoTbB_FcnkBmkwf1sa4eVtGaUnL9D.vX
+ C1crcTfXMaA1EHopScO1V5.vrcNthGjOlW_THHupdrblspU2iZ3fzlNzJ2JVDhhLp1FVsHmcuDuM
+ PKqBL4hN0Ngzgq3QAXWSdxlIufqm2zJ9AOlGvQh3XdTHcw3sPHdUYG8M5lsTb5J6Vr36nYUd.49p
+ hxwU9.MLmzNbqrywXrCUqT4dnVueH91hmA4.lzjLCNks5_tLsNFboFR_bMYEH1YLriGYksV8ynKp
+ v0LZ8igxscxq0s6O6dVnSKZmRTeVDLUiAWaHmAL8QPY2K5nJeKSHSNgTmDnqU1ueJ09M1ZWO3tXw
+ 7mNjmwZHcPWvAcOprXvAqxr3MyPRnOSfBH2rDiiK9CKKbqSMaiuTU4KE.sMqqeSrUOrEcoUeQ2wo
+ iDZOpNk745Zkz47Y2OgFAX7TM4ZSxDWaTY.gI9aLpRHaxQwY3gL4w28weRrpuBoaTp9La7T1l8gu
+ T099ON8ggwAnffmXtPe.ARaGZ7qXeKC4QWPe.fRV4kr3lACz_grD_03iN0d3Lp53tDjdGMQxVj1i
+ Au9xjF_7HkznADyitZ1VpaN.ihKCkAuMraihKcxqnUPrfb0z5y.oD7HSfzSg_m_gguvtEWWebhXy
+ C87RGoU3nwaRRaKs_zTElOjjUfLlDqdMdoxeRD30e34se5GPk5MUtSdC9scVi2rpSYeEw_HlgrOm
+ NBIje3PZNh63R5nko0mRrOfN8lJ3.noINILKXiOFY1Akk89r583i4MU4Scy2x2wNb_gn.sXAQTp0
+ EjhL.H5dNIvpKiix3Yori7amKB6FIm_ueb9GMLs05pJmKXDJHpFk5YabWGD6xsn1q78gK4j_PaFJ
+ FjcwioZ3X3rAr0solO7jWjxSyDYW.nib6xnloZsRzEVGNTCD41OKjF6CYsZbO32e.p_3PVs60Pii
+ srYi4PVz2B899qvqrY6G23k.rpFX8T1v7xRU61yfhhTIqPxRbtqedfheVrlDyy62c0c0.S853UDt
+ Rns.CEjJi5AYA81fH3bK9TNBBDHZJQY9XcGLhLZBhwiSlbFewpnX4DENEwskFzdx2oCR8kdx6UFd
+ Trge34BjmGHjKOYOWDe7j7xJwKFGe9s13sgZsFU6kxnv_ZtucjLIlH2YBSctcsEMkiZkKHacIKuI
+ m8w8mRyV03iv41fzawUgz4tn952yKnDD2m4Tl9npFQJU28sKHeZMtGUGDw6TS0.CPtBPT66bkK2K
+ R6wlIbiZPF8mUYq8TN0TVTE_dYOMv.kdWdiRCmTrHbpAuB_SiyJE57SR.f_.sjkhHmVU-
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.bf2.yahoo.com with HTTP; Wed, 29 Jun 2022 19:44:12 +0000
+Received: by hermes--production-ne1-7864dcfd54-fcw4x (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID dcf4af54cf200c0e134c40e33c6ab298;
+          Wed, 29 Jun 2022 19:42:10 +0000 (UTC)
+Message-ID: <e151da73-55c5-4dd6-ad44-c7a8810d0497@yahoo.com>
+Date: Wed, 29 Jun 2022 14:41:45 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+Content-Language: en-US
+X-Priority: 1 (Highest)
+To: "smbyrne@bloomberg.net" <smbyrne@bloomberg.net>,
+ John Malito <jmalito@bloomberg.net>,
+ "Steven Santiccioli, Northern Trust" <steve@bloomberg.net>,
+ "[ NTRS ] Steven Santiccioli" <sjs5@ntrs.com>,
+ Heather Caldwell <hncaldwell@bloomberg.net>,
+ Brent Reeder <bdr11@bloomberg.net>,
+ Michael Zaroogian <mzaroogian1@bloomberg.net>,
+ Terence Lynch <tlynch54@bloomberg.net>, Rebekah Holt
+ <rholt22@bloomberg.net>, Katie Hubbard <khubbard1@bloomberg.net>,
+ Leigh Ann Rogalski <lrogalski@bloomberg.net>,
+ "smarsh16@bloomberg.net" <smarsh16@bloomberg.net>,
+ Chris Minter <cminter2@bloomberg.net>, Hollie Marsh <hmarsh6@bloomberg.net>,
+ Matthew Lockridge <mlockridge2@bloomberg.net>,
+ Ashley Smock <asmock1@bloomberg.net>,
+ Cory Swartzlander <cswartzlande@bloomjhoyerberg.net>,
+ Scott Lawson <sbloomberglawson15@bloomberg.net>,
+ Ayman Bari <abari4@bloomberg.net>, Adam Vales <avales1@bloomberg.net>,
+ KEVIN ROCK <krock5@bloomberg.net>,
+ Jean-Francois Ducrest <ducrest2@bloomberg.net>,
+ Mark Dunford <mdunford3@bloomberg.net>,
+ Caroline Dirks <cdirks1@bloomberg.net>,
+ Kyle Gilmor <kgilmore10@bloomberg.net>,
+ Diane Hsiung <dianehsiung@bloomberg.net>, HUNTER ROSE
+ <hrose17@bloomberg.net>, Cameron Kurak <ckurak@bloomberg.net>,
+ Mark Broughton <mbroughton11@bloomberg.net>,
+ Betsey Euliss <beuliss@bloomberg.net>, Kim Bretz <kbretz2@bloomberg.net>,
+ Jon Wilson <jwilson578@bloomberg.net>, Numan Ahmed
+ <nahmed127@bloomberg.net>, Walter Ruane <wruane1@bloomberg.net>,
+ Shawna Barlow <sbarlow28@bloomberg.net>,
+ Philip Kroger <pkroger5@bloomberg.net>,
+ Gabrielle Poole <gpoole2011@bloomberg.net>,
+ Ricardo Correa <rcorrea29@bloomberg.net>,
+ Matt Krebsbach <mkrebsbach3@bloomberg.net>,
+ Sophie Kim <skim1465@bloomberg.net>, Ketrick Karsten
+ <kkarsten@bloomberg.net>, Larnita Gates <lgates16@bloomberg.net>,
+ Vicki Trimpe <vtrimpe@bloomberg.net>,
+ Christin Higham <cmhigham@bloomberg.net>,
+ Christina Constantine <cconstanti37@bloomberg.net>,
+ "MSHY1 [ DEC 18 - 2021]" <mshy1@bloomberg.net>,
+ Peter Melley <pmelley@bloomberg.net>,
+ "jhoyer@bloomberg.net" <jhoyer@bloomberg.net>,
+ "gshull@bloomberg.net" <gshull@bloomberg.net>,
+ Jeffrey Attwood <jtattwood@bloomberg.net>,
+ Robert Stephan <bstephan@bloomberg.net>, LISA ROGERS
+ <lrogers@bloomberg.net>, Elena Khoziaeva <ekhoziaeva@bloomberg.net>,
+ "btrauner@bloomberg.net" <btrauner@bloomberg.net>,
+ "tbaker5@bloomberg.net" <tbaker5@bloomberg.net>,
+ "tgipson@bloomberg.net" <tgipson@bloomberg.net>,
+ Michael Whipple <mwhipple@bloomberg.net>, Chad Moser
+ <cmoser7@bloomberg.net>, "tzelgert@bloomberg.net" <tzelgert@bloomberg.net>,
+ Ray Renken <rrenken@bloomberg.net>,
+ Kara Olson Sheffield <ksheffield1@bloomberg.net>,
+ Jennifer Hsui <jhsui2@bloomberg.net>, John Socha <jsocha@bloomberg.net>,
+ Joe Young <jyoung121@bloomberg.net>,
+ Wade Reinthaler <wreinthaler@bloomberg.net>,
+ "sreid42@bloomberg.net" <sreid42@bloomberg.net>,
+ Adam Hallman <ahallman1@bloomberg.net>, Tyler Smith
+ <tsmith241@bloomberg.net>, Wei Hao <whao15@bloomberg.net>,
+ Rich Rebholz <rrebholz@bloomberg.net>,
+ Michael Mayberger <mmayberger@bloomberg.net>,
+ Brian Bengtson <bbengtson3@bloomberg.net>,
+ BARIS xmas211 Dincer <bdincer211@bloomberg.net>,
+ Donald Rizer <drizer@bloomberg.net>, Paul Aragon <aragonp@bloomberg.net>,
+ "B.DINCER@COLUMBIA.EDU" <b.dincer@columbia.edu>,
+ Jesse Aguilar <aguilarj@bloomberg.net>,
+ FEDERATED INVESTMENT <fed-mmkt-ops@bloomberg.net>,
+ Samriddi Abney <sadhikari2@bloomberg.net>, cmobloomberg@bloomberg.net,
+ Kerri Saperstein <ksaperstein2@bloomberg.net>,
+ "Ms Hyld (MORGAN STANLEY )" <mshyld@bloomberg.net>,
+ "Morgan Stanley15 (MORGAN STANLEY ADVTG )" <mstanley153@bloomberg.net>,
+ Morgan Stanley154 "(MORGAN" STANLEY ADVTG ")" Morgan Stanley154 "(MORGAN"
+ STANLEY ADVTG ")" <mstanley1541@bloomberg.net>,
+ Morgan32 Stanley "(MORGAN" STANLEY ADVTG ")" Morgan32 Stanley "(MORGAN"
+ STANLEY ADVTG ")" <mstanley321@bloomberg.net>,
+ Marc Freeman <mfreeman57@bloomberg.net>,
+ Viviana Lui-Chan <vlui-chan@bloomberg.net>,
+ Jay Loftus <jloftus21@bloomberg.net>, William Downey
+ <wdowney4@bloomberg.net>, "tclarke57@bloomberg.net"
+ <tclarke57@bloomberg.net>, Brian Carr <bcarr43@bloomberg.net>,
+ Michael Karp <karp58@bloomberg.net>,
+ Nicole Bowyer <nicole.bowyer@statefarm.com>,
+ "gpradocorrea@bloomberg.net" <gpradocorrea@bloomberg.net>
+Cc: "usdoj@public.govdelivery.com" <usdoj@public.govdelivery.com>,
+ "irs@service.govdelivery.com" <irs@service.govdelivery.com>,
+ "usttb@public.govdelivery.com" <usttb@public.govdelivery.com>,
+ "financialeducation@info.consumerfinance.gov"
+ <financialeducation@info.consumerfinance.gov>,
+ "DHSOIG@public.govdelivery.com" <DHSOIG@public.govdelivery.com>,
+ "vaoig@messages.va.gov" <vaoig@messages.va.gov>,
+ "pbgc@subscriptions.pbgc.gov" <pbgc@subscriptions.pbgc.gov>,
+ "USPSOIG@public.govdelivery.com" <USPSOIG@public.govdelivery.com>,
+ "cdfifund@service.govdelivery.com" <cdfifund@service.govdelivery.com>,
+ "subscribe@subscribe.ftc.gov" <subscribe@subscribe.ftc.gov>,
+ "vatax@public.govdelivery.com" <vatax@public.govdelivery.com>,
+ "tigta@service.govdelivery.com" <tigta@service.govdelivery.com>,
+ "news@updates.sba.gov" <news@updates.sba.gov>,
+ "news@updates.oig.dot.gov" <news@updates.oig.dot.gov>,
+ Office of the Special Inspector General for the Troubled Asset Relief Program
+ "(SIGTARP)" <sigtarp@service.govdelivery.com>,
+ "HUDOIG@info.hudoig.gov" <HUDOIG@info.hudoig.gov>,
+ "FrontDesk@LoungeStudiosNYC.com" <FrontDesk@LoungeStudiosNYC.com>,
+ Council of the Inspectors General on Integrity and Efficiency
+ <CIGIE@public.govdelivery.com>, CBPMEDIARELATIONS@cbp.dhs.gov,
+ "AZCBPPublicAffairs@cbp.dhs.gov" <AZCBPPublicAffairs@cbp.dhs.gov>,
+ "Constituentservices@doc.nyc.gov" <Constituentservices@doc.nyc.gov>,
+ OFCCP-Public@dol.gov, "foia@eeoc.gov" <foia@eeoc.gov>
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: omissions and unfair dealings
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+References: <e151da73-55c5-4dd6-ad44-c7a8810d0497.ref@yahoo.com>
+X-Mailer: WebService/1.1.20381 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 115
+
+https://saaze2311prdsra.blob.core.windows.net/clean/0d16940d3dd6ec11a7b50022483079c1/Nov17-2021-IngramZuckers.PDF
+

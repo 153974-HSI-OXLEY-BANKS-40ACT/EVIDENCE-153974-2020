@@ -1,0 +1,201 @@
+From - Sun Aug 28 22:41:29 2022
+X-Account-Key: account1
+X-UIDL: ALiRorM1qOy+Yr6dGQT9WAlQXp4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.136
+ by atlas106.free.mail.ne1.yahoo.com with HTTPS; Fri, 1 Jul 2022 07:07:05 +0000
+Return-Path: <>
+X-Originating-Ip: [67.231.155.98]
+Received-SPF: none (domain of mx0f-00376703.gpphosted.com does not designate permitted sender hosts)
+Authentication-Results: atlas106.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@cbp.dhs.gov header.s=select1;
+ spf=none smtp.mailfrom=mx0f-00376703.gpphosted.com;
+ dmarc=pass(p=REJECT) header.from=cbp.dhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 07:07:05 +0000
+X-YMailISG: ueeICewWLDu.E08IZtaewJxzBtaE8cvZ.qhF.F5Q1t8uD3hN
+ iwgNUZ4O5_8dP0qjZrumq3mPZKFrVzJp2deSbQL5oq70brzWwvIyvKANKM5J
+ _VqFJ4VkoRu4bfEk4LFelloAQ5LgzJCBHG8023g1d0TtmWgQOLz2oHHJLFsv
+ hWRvg2HlZZBZ54uIIHVIYh9vVotSuuD0VK5xJHeRFmhWZLFOYw6bIP7yWcsn
+ EVkpiKvFje8o_Q4xlbdLNgfXPmJhR4surJVSI2HxGOU3QEjeV26aRKDyuYSv
+ 2uyndGwSaH1OxMWy1CHqUAqOWZSKxHSCpsGHzhHg930lVmQxneFkNSVSvN4U
+ KLnsOxJ72_z9PmtUU_IhKg9xdfQmd1oFIb4m1xETrvO6cDjFWdPHxXv8XJz5
+ Q49BW4McFCGcWb.9NJu_Sp4M.HR7SnHE0EF8M3jhbL.2ycmxW9SFr7jknWaG
+ YH3fQR_HYFGiNqwwmTcB_GvOIy6JCGiooZG4gALlGBZRW5VeEx3BHzIUbAzd
+ i4mmU.gSfjbb7TdyDaLicJisT6QM.kR.J_aIiLgTle2FLaoNl0UH.P4K95Ln
+ EP_79GYRa5DtKmM4X3231DLnUIxlCFr2xrKqgJadApoFyE0IH3muo845yY46
+ pgBtjexeeaf9Xo2LeWyOmSScnVJ1X77HryT1h6Q4MEtnV2k8TbKx5ZXiNLkP
+ W2Z58Jbs_Tb.N0T9b_ZZYvFGetOfyJZNhdOJ_cr8DOXaQRiXGyI7raZeqhiV
+ wkB_XWLnh5ZYXlaGplZU060YKBMUkgmeAqT__hM29IbkBk6mno5gSthQQqyT
+ 7wYbnD7eYgYW9LtnBJO_x_DM2x3sM09hLfjvwq4gufgCU7VtjGwUKRs7dCu8
+ 2H4yfjsNPdpT2qmy1tLSCn56rwqF_Vh6qte2CIcOXvDOHWINT104ZTVpXC6i
+ 0I1hfd8EKbEt4QJLAxkf0ELh4ISFDhTSdnr0J48.TffzpxjdJ6FKNcsyIYXu
+ S.HJYto7ge7C1t2Ev.kGXhhRQuYRojzbLdtAn.Td_KdPb5HVvHsxo1zYpxJy
+ i8ykCuD8M1udTABs4MRJnyXD9vZLlxlAT6KsSKb4nachGfYZsByEjMZRu6gn
+ XoWB0QR1oROGa9Xi82pd6PFctwzQh0cQ7CZSY207KvsSYAeFdWj6GLG7ihb9
+ icEkN..qHeZkut2Zuxtt9BwylkYrH.LjSFggkN_Ab8M0m1HBcIw00zJPbL5n
+ eRaxrRGZGTtVdDCpS3Em9o0iTv6NJlHr8ByRZ5_AsujvBRuQ1h1bGkjsiwMW
+ Wvv5.P7gZKaXpKAJQsQ631lYJzKXujceHb1kEGSr_maQ5r1hAEhzuAE8HkDr
+ LNEn4nhxPAyb6OBdQaCVogUkoDYToGHMkknlr8Qmu8.JRY3Kfigc
+Received: from 67.231.155.98 (EHLO mx0f-00376703.gpphosted.com)
+ by 10.217.137.136 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 01 Jul 2022 07:07:05 +0000
+Received: from pps.filterd (m0231304.ppops.net [127.0.0.1])
+	by mx0e-00376703.gpphosted.com (8.16.1.2/8.16.1.2) with SMTP id 26176FpB003059
+	for <ms60710444266@yahoo.com>; Fri, 1 Jul 2022 07:07:04 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cbp.dhs.gov; h=from : to : subject
+ : date : message-id : references : in-reply-to : content-type :
+ mime-version; s=select1; bh=nR+VdnRnmzWSn+/ZM7vpD6f40YU7TmA0mwMx1bVQtP4=;
+ b=PXNr6m0jksrHrSauH7sFwisc7RmqGGWr3q0RBAxaH6lgJ9feltMOHmvXqAzt1GQbIxIM
+ MCd8FzTtzo+TgJiQq+/nOMKQ0+jp+yqEpSQOG0FEheuburjmOb2XdI1sBKwVKOcLweQG
+ DSpU9wYKUG31yKiuaCJ9uCnQUVGqNeXORtOlvZ2HIfmV5xKBqL9rH0Uv1FDtpbWVHUmV
+ 198bxAubt/pzYZ9DuhQ25IWBkMv8vTtSNABEIorsk7waHqEi0xJ3tsxZJvjDPGDEiPyd
+ iLup8hG2YZ3AA3Zryrbzrr619wR9B1pzm58iFjcpA7Tc+sXSXsp/8Gaw5qM7cCf/ZSyJ Ag== 
+Received: from gcc02-bl0-obe.outbound.protection.outlook.com (mail-bl2gcc02lp2106.outbound.protection.outlook.com [104.47.64.106])
+	by mx0e-00376703.gpphosted.com with ESMTP id 3h1pje8vm7-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <ms60710444266@yahoo.com>; Fri, 01 Jul 2022 07:07:04 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=EnWjZV8e73IEHZ00pValbJ23xFLD2RWOLWbk6v8PVfzxkw2uYlprJxTO55eoFv+MK4f6w/FX321Ybmoctk9zXgUmUP/RPKhy5so0cKp4yZtLVHMTmK0pOCOJfLtEIAxxc9SRA2ZlHR+Uhvop+AN8uRpy4LQyZ0HGVxeDSur/GGDHpy4sS5NME0AV2XVsQxsXNNR+hm32RYK3oCHvhUsrhyw8P2VMkrFfBWtO//4zXXi3OdW/3okdaqdFD82ZPA1UrOjd5VKlzNjrp2iA2Y8dKSVJHW/tbtR3dL2mgsZph9GR9aGfcPU5VbsJsAYao9SI/MW7kGI9coYbNc1x+g+dlw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=nR+VdnRnmzWSn+/ZM7vpD6f40YU7TmA0mwMx1bVQtP4=;
+ b=GFEFZwEZ0IEU8tfYBgmnI9Pfu2i9fFUeqLv/ARPVsuuwtpKD5ZqfJZGnPxGPSAg7XulfUwmWl7GgmXQROro2uw+bjTtu5zM0l7JdAYC5bs0dxLY6oms4DrsUOEljgLDRuIEN47XXQRoTNypZEuBQY6Qnbyx2snpQ0TbCuMlPqnk9UDdGoZCA9R09l0RvrQX/DU9pNZF194g68/3EKGVO5wO+J0UVfDfYdo44LSMAyfxZP93O61THVII67/CsYePoaxuaonmOJDvWPEFpu7cOi/b9JsBFPsT9+itDPvpdYWUt5lkCl4bkrocBOW8zljvfOi/EYejdUO0UM9uDcEWVYA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=pass
+ action=none header.from=cbp.dhs.gov; dkim=pass header.d=cbp.dhs.gov; arc=none
+Received: from CO6PR09MB7446.namprd09.prod.outlook.com (2603:10b6:303:cd::18)
+ by PH0PR09MB7705.namprd09.prod.outlook.com (2603:10b6:510:62::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.14; Fri, 1 Jul
+ 2022 07:07:01 +0000
+Received: from CO6PR09MB7446.namprd09.prod.outlook.com ([::1]) by
+ CO6PR09MB7446.namprd09.prod.outlook.com ([fe80::5456:16e3:61c3:d22e%8]) with
+ Microsoft SMTP Server id 15.20.5395.014; Fri, 1 Jul 2022 07:07:01 +0000
+From: "GIVENS, JASON A." <JASON.A.GIVENS@cbp.dhs.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Automatic reply:
+ [ricki.roer@wilsonelser.com][ashley.humphries@wilsonelser.com]
+Thread-Topic: [ricki.roer@wilsonelser.com][ashley.humphries@wilsonelser.com]
+Thread-Index: AQHYjRkoEMbEWZfP30GWXvVlKQ+pu61pGCCe
+Date: Fri, 1 Jul 2022 07:07:01 +0000
+Message-ID: 
+ <d6926292f49a45c094ffcd91efeef423@CO6PR09MB7446.namprd09.prod.outlook.com>
+References: <08d454b7-0a36-2a16-f91c-8fd45d5500e5.ref@yahoo.com>
+ <08d454b7-0a36-2a16-f91c-8fd45d5500e5@yahoo.com>
+In-Reply-To: <08d454b7-0a36-2a16-f91c-8fd45d5500e5@yahoo.com>
+X-MS-Has-Attach: 
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: jason.a.givens@cbp.dhs.gov
+X-MS-TNEF-Correlator: 
+x-ms-exchange-parent-message-id: 
+ <08d454b7-0a36-2a16-f91c-8fd45d5500e5@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 486567e9-fb96-485f-755b-08da5b304c12
+x-ms-traffictypediagnostic: PH0PR09MB7705:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 
+ clu3hj7Utgh/2aFHfwPuOOy8Cdx5zmMeYgO+HPKlHTRzbxQzzeI/e/ZjkmBOFpGnLEqLclPoXGHtWMb7rawc5b3JRlXkA+Ld1z9XeyzBh2SZDPD8LY3pwlv7rb3PbcCxhBCXB5/P/7bnedvi8x6lT3Eh1jID8BIr5SsBhioAoU7yB45Fz0ngzzZwP24f8MzwoJ73CJs/yM1va1oE6WrxxmiKwM5+d2hfp2eaWhXCfMe8NQTJlgzyg3RulytyIzNPcdDKotkz/CEmnrZ56f101ORonT3VuJhCDEmCya3HpPCYo5VmE9nbFFRvaAamtFPyI9vZA11CFi0mUnnUVdDvFIj0SqGJdC80wqpxRianvHI9fNq0JzgbG0w3sVtsofHKmZLGxra3SfLllJjhuWqY/vGitzw/36p52v5EulS+BkTikOQjxpQQoGiz+a8Rk+zD+juv3DyKn7sLNOUW2Uy7tfA8PmfcPP3pxd29wCqH5E/MIHwDH2XEw+fV/34XlQhrwG2MJr+ujqLvV8uCJoYUB+Mja8uvSRAdmN+uVtwb3JUG9r/hh592z6ogo9xEHVLsmeB8EyaXPKB5rLIc0thkXYY+EohbXvypUfNlMlOHJzNaJb3vfzd1pNjck5oSJcMZ3mpNUWDcRsN19HLXeoo5Km3wfOADpTZupgfMXTp9Xm99HYwEHJVusDvGO01vcaCiXGUTIozOKc4BXx72/L1L1dK9MWnZqt9ssG/bM+eRFMswwMyuK8Ify5+pnnKmVUE3oC6iRCMHM/SpKsZkwOD7yA==
+x-forefront-antispam-report: 
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB7446.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(50650200002)(366004)(71200400001)(88996005)(42882007)(24736004)(8936002)(2906002)(5660300002)(66556008)(6506007)(7696005)(558084003)(6916009)(498600001)(9686003)(108616005)(64756008)(122000001)(8676002)(78352004)(66476007)(66946007)(66446008)(55016003)(111220200005)(80100003)(220923002);DIR:OUT;SFP:1501;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: 
+ lz6smLDPXtjvzCGEzjdDTDSjXyuHtArVyuSUC4BKH8TK5NZfhYrXz+2WOzCcMbZJQDPst7RJ7I01L3+Wg7p/yeYHXn2BMXdsjYfl34JWSqOBi6tUSiEvZVmy+sVgQHbff8/hmdl0Qb/Ood/uDmBo7g9nvu1VELaHwOYk+eUH/uTRALLgwCep3xq1bt488WjHMr13zGBjoA5lZCZKNp740ZiWBMKbOn/6Nt1qfDmz3OHZwJMoydONXfuVzzVacSMz9+s1emEqktWQsqBg6TplQoJdiuDpKaGLwB08/dcjX4DULcrB9CvRfxbsrGX5adfS
+Content-Type: multipart/alternative;
+	boundary="_000_d6926292f49a45c094ffcd91efeef423CO6PR09MB7446namprd09pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: cbp.dhs.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB7446.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 486567e9-fb96-485f-755b-08da5b304c12
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Jul 2022 07:07:01.8713
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e4b16b84-4c56-4f27-9af7-30345a161ad4
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH0PR09MB7705
+X-Proofpoint-ORIG-GUID: kf5FzOF3cOO6s0bLEb9Z-Utd7WxhnufL
+X-Proofpoint-GUID: kf5FzOF3cOO6s0bLEb9Z-Utd7WxhnufL
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.517,18.0.883
+ definitions=2022-07-01_04:2022-06-28,2022-07-01 signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 phishscore=0 impostorscore=0
+ lowpriorityscore=0 mlxscore=0 adjustscore=0 malwarescore=0 mlxlogscore=719
+ bulkscore=0 ndrscore=0 suspectscore=0 clxscore=1031 priorityscore=1501
+ spamscore=0 adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2204290000 definitions=main-2207010024
+Content-Length: 2439
+
+--_000_d6926292f49a45c094ffcd91efeef423CO6PR09MB7446namprd09pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I am out of the office June 30-July1. For media-related assistance, please =
+reach out to Jaime Ruiz at Jaime.I.Ruiz@cbp.dhs.gov.
+
+Thank you.
+
+
+--_000_d6926292f49a45c094ffcd91efeef423CO6PR09MB7446namprd09pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">I am out of the of=
+fice June 30-July1. For media-related assistance, please reach out to Jaime=
+ Ruiz at Jaime.I.Ruiz@cbp.dhs.gov.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p>&nbsp;</o:p><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">Thank you.<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p>&nbsp;</o:p><=
+/span></p>
+</div>
+</body>
+</html>
+
+--_000_d6926292f49a45c094ffcd91efeef423CO6PR09MB7446namprd09pr_--

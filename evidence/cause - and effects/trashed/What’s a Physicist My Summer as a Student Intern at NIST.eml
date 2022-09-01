@@ -1,0 +1,696 @@
+From - Wed Aug 31 18:53:27 2022
+X-Account-Key: account1
+X-UIDL: AFEyR6E/Ny7JYw9WgA5QEJ+rPj8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Wed, 31 Aug 2022 12:39:28 +0000
+Return-Path: <messages@service.govdelivery.com>
+X-Originating-Ip: [208.42.190.103]
+Received-SPF: pass (domain of service.govdelivery.com designates 208.42.190.103 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@service.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=unknown header.from=service.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 12:39:28 +0000
+X-YMailAVSC: .oikfiA3bBv2qpTuK99NAPi6V8IR3YVCRM99_hQhxoA8Y0s
+ VfAKri9tw4zaQws2mGijIUjtyw_BQ__TTCtnbcwQctvtgvq3qaYTL3A47nSZ
+ S_lfngM1ykELXlsTgkkGiw0Sfs48gn4So3ZJ5pOTv5XdfsAfu8zdwDNA33Co
+ eaQ4saPaLZH0H44YzdyzM1XCH6Z03IDsJHWpxuSDZyReUxb.3hyVsx_2kztN
+ kl_T9GIYNib78uDPPRzwwCZPrs.1x7UBwXZ7LiowuQRrTQ6sQlKA8_Hox1Be
+ irbaDktXGcbDYQrftqIqGDzg3D7He4R8rWnttaMKHIU78li899NAqZ1OcYoU
+ uq.CkaT671iotGMhNXiPIsfdDTCIUbEViUchTw7xLU5Ir1XidR0HlpHo_eYA
+ RC.mf1g9givSEOrm93.6NR4INsPbl8ca2Arvyq3WsYeX3GhY5QKODA9f97zV
+ YUf89I9QxIPJB_tZcHfzhvAomF8eSMsVSI.0XypVQHMlTU86FNjQckhDvZ6c
+ M2q9HSDG58QahT4on1yrXQlG6nAc0pcAwIi4QbTDygxjO1hcMHva0Gn0Bq9G
+ ZRbrXf1PG7BK899XRq.XMQ2GqAjfyJ7_GjDSxq.1._8DuFM8HCgrn8j9t6Oz
+ OhVks.xBOkzexTDWZ7.bJ5VLif8ZUhIM.tpVC6LLC76hdzW9ASGd4FElbOsH
+ 7gZ7VRO8yFkomCBYr_JqruaVDuddYvFsDQIYiw5aUWKk44kLUUdUb238p.iG
+ WnySJXj50Sf9pooA33k4B8JjM.g8ALUMxPpCnawe8oGU9BONgyPHDyBDmVv2
+ oTeksiC_.qgCEZ_3UoA9shE0zhZn2Yv7n9xk67wO8AYaiKxkP6I398OghSua
+ CkRpgnAV6MMVMlIxO8NM20xbPk3LC43slw359wiyT7UZgOY9zHKkRhlrheVg
+ y0jVaBet8dHS2phfByel1eh0DpsLffyiIWGP9inC8SSDqAnRWC1bYE97Qcab
+ rRJxk9qmJE2FncjIPlKHCTApqL9wOvNzul183RODbLaT71Ww4UEu0biXLwCI
+ KBrdtMqUgY6WbeLRl7PXjFpvoxBT6ieHRUqD2qYQwxmxCyS6_eGbtQ1lt0y0
+ UZfmXjtiypFc8Tigi2BRJzd9IO5j1.SpwW877yRW1tAZwzrKWIiiyt8oy3RB
+ VK7VRDDhVo4mOa4ExRqhPfgflNJjfhxU1o1f.UykoWcV0s1BY35ah2gpP.aV
+ GNQg0NbKJMK8wdD0PtIz_TFVDXJC_4258p8jqyiYIwQvcVUklTQsH1EL8qH9
+ 993HQfSq.dcUR8CvHn7O7ggbgOmS_EcAtNJU-
+X-YMailISG: G765Gg8WLDt.QltNkKsOBjFDmnc062tSgQgENzDK4_yVNvFM
+ P.K2NpRSHfBNBj2h9S4BDCtYLIB.ikk0TV1Cu2b9geeFTYb8YAGM_.9Bh_.v
+ wIEyjrr6hM_av5E85HgM1yNhydAisnzoro2U8Oc1JC7al3lEktOzWk3eOBHE
+ 7YIYOvKZbedCaDyXEip71OWnblawOj2EqIGKc6IJlnYqbU6LWDLSA3Iwurfe
+ wHOjoXBXUj0t9Gd2UM3fZ8.aJDXAs1gCwdjyk_.PU5zsGw0E92eRpcJL8PoF
+ H8w7kN8RuapZRFnMt9dkMKZ88xXvJ818MnQgmPFBnEvdcYrByQiuuxE5sAc9
+ kQhbR5kmT9_o.1U4hINmof42XrZFwYDI9ThzG4xwPR1wT5GJKbqeZ0j.RLUG
+ wVzW1Sj6eVBGTARNAP7yqrGssA7ZrD23hOjnqrpimKUNpUCRrtJtIL5damor
+ HP8Um.93NRNPpYvHE5OCItOmlIIyVCH6cn9.fV6jggHX.DXTQHzqcEB1uwoc
+ C50ZhAYJF05dQEm2g1hRrGtaAfCU5xrS7F2n0dLjKHCf_h.UdjCuKNp0rm5f
+ i2unOjA0MNOiyQAa7VURCm8p.AnTyTAXFqcjsFJbIVABuELP62dAv6n93xKK
+ ZY3sQ2Nv7VyriwTxYf52x4xd9igTWz7zMs5Jret5EIyWdZiIp4eb7l7sE8WX
+ 4Zofkj7icgjYp9SMbPXtOvdbcrzTI9DQYYIc4Cn9YMd_SF0MmpX8tXoGuOsF
+ SosqvGKpILhUgmZoIauA3qipHLpI4B0lKjKLAwt9eZQ_rY1EYD4C.y3XbBMU
+ UcWK8iqGU_AU_xyiFlCUfaC63hsnPxvRoMwk.P0Y5BR9sbkD_clR0eepXJA3
+ pVpWhRSFY0ZF6QGbtr9waHRUqdzugCuHm0yZRPd_NcBGzbYCYHex8Rr2dDPQ
+ iC3LATSVpdBrhMsoGH.HKwA8l498Tp7GYepNDeWsTmzcG8OkoTmQ9X0p8zLQ
+ cbIu6RbnSrDbIvQHJqZMYG3tdnQJzbYmy3JZ5BiEpmqNQjihZKlGoHmIoM69
+ yCVkwNzALM.uTJTsrHfr4LuNHLaL1_b4h9JWp.PeAii9eT9oeIeN3quGozgx
+ 3pz8LGUeVH2FWqfKmoCl4lv.uCU4gJwoNinbg9e0_Akr0wp2O6pdcUDttfW4
+ VBKx
+Received: from 208.42.190.103 (EHLO mailer190103.service.govdelivery.com)
+ by 10.253.31.92 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 12:39:28 +0000
+Received: from gepdp-smeds5-2.systems.dc.gdi ([10.5.36.40])
+	by mailer190103.service.govdelivery.com (-); Wed, 31 Aug 2022 12:39:25 +0000
+X-VirtualServer: VSG004, mailer190103.service.govdelivery.com, 10.5.37.219
+X-VirtualServerGroup: VSG004
+X-MailingID: 16870708::20220831.63014381::1001::MDB-PRD-BUL-20220831.63014381::ms60710444266@yahoo.com::14486_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=service.govdelivery.com; s=13q2; i=@service.govdelivery.com;
+	h=Content-Transfer-Encoding:Content-Type:x-subscriber:
+	X-Accountcode:Errors-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:Reply-To:From; bh=Q9TxpghuJ+gEoP6UWJdx9GFQafEtay
+	t9S5aabC5t6DM=; b=H1Xyi4vcdnJot+BrfXyPI/qc9W1NvEXJFmcYpdhXWR+hUu
+	GNtq5B1dYM2D8na9zNxcfPS6YGOxoM8OYqGqRSULnHmzWM+DNHvagSHszQKuHJor
+	WzFfaebf056gAdAJjmf6Is2iFL4HtMcQBrtEsflUKFjHAr7gU25uMdcvogQByl2L
+	5eJg+//WHEByktL5xnc9S2dXb1SkvE+OfO1oYNDPjbQFIsaQ5XljSPCVem8T5WSn
+	FhMtY+8nJPKBTv/SARwxJz+T+z69bUn+09HMowkFC16uQH1LEdSgEHYzKQpYAos0
+	OR1B84MzDrDRP+Zs15h2C3VLRKGRBt4shcnOGcQA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_B19_50BB_68DE9016.4FDE3664"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI56be3xrvLpa38Kw+mkwD281gZV6xb4L0oT+5lW4wD9tlx3e9/EL29Xf+5kU9ixsnfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USNIST
+Errors-To: messages@service.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16870708.14486@service.govdelivery.com>
+X-ReportingKey: MJJJ2EWJKDBIVJJ222RJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?Cp1252?Q?What=92s_a_Physicist=3F_My_Summer_as_a_Student_Intern_at_NIST?=
+Date: Wed, 31 Aug 2022 12:39:16 +0000
+To: ms60710444266@yahoo.com
+Reply-To: subscriptions@service.govdelivery.com
+From: "=?US-ASCII?Q?National_Institute_of_Standards_and_Technology_(NIST)?=" <subscriptions@service.govdelivery.com>
+Content-Length: 28121
+
+
+------=_NextPart_B19_50BB_68DE9016.4FDE3664
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Valeria Viteri-Pflucker found what she was looking for at NIST: hands-on =
+experience in running experiments. =20
+
+=20
+
+n i s t =20
+=20
+
+View as a Web Page [ https://content.govdelivery.com/accounts/USNIST/bull=
+etins/32a81f6 ]
+
+=20
+=20
+=20
+
+Taking Measure Blog
+=20
+What=92s a Physicist? My Summer as a Student Intern at NIST
+
+Valeria Viteri-Pflucker leans over a table full of optical equipment, wea=
+ring safety goggles. [ https://www.nist.gov/blogs/whats-physicist-my-summ=
+er-student-intern-nist ]=20
+
+"By=A0Valeria Viteri-Pflucker, a=A0Society of Physics Students (SPS) inte=
+rn at NIST"
+
+At the age of 13, I had firmly decided that I wanted to be a particle phy=
+sicist, whatever that meant. All I knew is that I wanted to play with sub=
+atomic particles and was particularly fascinated by the idea of antimatte=
+r. Whenever I=92d tell my parents or friends this goal, they=92d inevitab=
+ly ask what a particle physicist=A0"does,"=A0since they=92d never met one=
+. Amusingly enough, I didn=92t really know either, but that didn=92t matt=
+er.
+
+Fast-forward to where I am now. I earned a bachelor=92s degree in physics=
+ from Illinois Wesleyan University in May, and this month, I am beginning=
+ my graduate journey with a Ph.D. program in optics at the University of =
+Rochester. During the summer, I was one of 16 students participating in a=
+ Society of Physics Students (SPS) internship program in the Washington, =
+D.C., area, and I am one of three stationed at NIST. For many years now I=
+ have been trying to answer the question of what a physicist=A0"does."=A0=
+This summer has fundamentally shaped my answer to this question.
+
+Read More [ https://www.nist.gov/blogs/whats-physicist-my-summer-student-=
+intern-nist ]
+=20
+IN CASE YOU MISSED IT
+=20
+Steven Salisbury works at a computer screen in a lab with robotic arms in=
+ the foreground. [ https://www.nist.gov/blogs/taking-measure/solving-robo=
+tics-puzzle-during-summer-internship-nist ]=20
+Solving a Robotics Puzzle During a Summer Internship at NIST [ https://ww=
+w.nist.gov/blogs/taking-measure/solving-robotics-puzzle-during-summer-int=
+ernship-nist ]
+
+"Jan. 26, 2022"
+When Steven Salisbury heard about the NIST Summer High School Intern Prog=
+ram (SHIP), it seemed like a golden opportunity to gain real-world engine=
+ering experience and understanding with top experts in the field while gr=
+owing his passion for problem solving.=20
+
+Read More [ https://www.nist.gov/blogs/taking-measure/solving-robotics-pu=
+zzle-during-summer-internship-nist ]
+
+=20
+=20
+=20
+=20
+
+Connect with us
+ facebook [ https://www.facebook.com/NIST ]twitter [ https://twitter.com/=
+NIST ]youtube [ https://www.youtube.com/NIST ]linkedin [ https://www.link=
+edin.com/company/nist ]flickr [ https://www.flickr.com/photos/usnistgov/ =
+] =20
+
+Received this email from a friend? Subscribe here [ https://public.govdel=
+ivery.com/accounts/USNIST/subscriber/new?topic_id=3DUSNIST_1 ].
+
+ NIST [ https://www.nist.gov ]=20
+
+Subscriber services:
+
+Manage Preferences [ https://public.govdelivery.com/accounts/USNIST/subsc=
+riber/edit?preferences=3Dtrue#tab1 ] =A0|=A0 Unsubscribe [ https://public=
+.govdelivery.com/accounts/USNIST/subscriber/edit?preferences=3Dtrue#tab1 =
+] =A0|=A0 Help [ https://subscriberhelp.govdelivery.com/ ]
+
+=20
+=20
+________________________________________________________________________
+
+If you have questions or problems with the subscription service, please c=
+ontact subscriberhelp.govdelivery.com [ https://subscriberhelp.govdeliver=
+y.com/ ].
+Technical questions? Contact inquiries@nist.gov. (301) 975-NIST (6478).
+
+This service is provided to you at no charge by National Institute of Sta=
+ndards and Technology (NIST).=A0100 Bureau Drive, Stop 1070=A0=B7 Gaither=
+sburg, MD 20899=A0=B7=A0301-975-6478
+
+ GovDelivery logo [ https://subscriberhelp.granicus.com/ ]
+=0A
+------=_NextPart_B19_50BB_68DE9016.4FDE3664
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    What=92s a Physicist? My Summer as a Student Intern at NIST
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+
+/* Sets the line height in everything but Outlook */
+table#yahoo body, table#yahoo p, table#yahoo .gd_p, table#yahoo p span, t=
+able#yahoo li, table#yahoo li span { line-height: 1.4; }
+
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 10=
+0% !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 auto 10p=
+x auto !important; display:block !important; float:none !important; text-=
+align:center; }
+table#yahoo table.gd_combo_table td.gd_combo_image_cell .govd_template_im=
+age { margin:0 !important; text-align:left; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+<table bgcolor=3D'#ffffff' border=3D'0' cellpadding=3D'0' cellspacing=3D'=
+0' style=3D'width: 100%;'>
+<tbody>
+<tr bgcolor=3D'#ffffff'>
+<td align=3D'center' style=3D'background-color: #ffffff; padding: 0px; fo=
+nt-size:1px; font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans=
+-serif; color:#ffffff' valign=3D'top'>
+Valeria Viteri-Pflucker found what she was looking for at NIST: hands-on =
+experience in running experiments.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #f2f2f2; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#f2f2=
+f2"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+
+<tr>
+<td id=3D"top-bg" data-govdstyle=3D"all" data-govdtitle=3D"Top Background=
+" style=3D"background-color: #000000;" bgcolor=3D"#000000">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td width=3D"50%" class=3D"tablecell" align=3D"left" valign=3D"top">
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"left-top" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=3D=
+"Left Top" class=3D"thin" style=3D"background-color: #000000;" bgcolor=3D=
+"#000000">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USNIST/2018/12/2304614/top-left_original.png" s=
+tyle=3D"width: 133px; height: auto !important; max-height: auto !importan=
+t; border: none;" alt=3D"n i s t" width=3D"133" height=3D"46">
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"50%" class=3D"tablecell" align=3D"right" valign=3D"top">
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"right-top" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Right Top" class=3D"thin" style=3D"background-color: #000000; padding=
+: 20px;" bgcolor=3D"#000000">
+<p style=3D"line-height: 1.1; margin-top: 0; margin-bottom: 0; color: #FF=
+FFFF; font-family: arial, helvetica, sans-serif; font-size: 12px; text-al=
+ign: right;" align=3D"right"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZGVs=
+aXZlcnkuY29tL2FjY291bnRzL1VTTklTVC9idWxsZXRpbnMvMzJhODFmNiJ9.9HykmQzsU70i=
+-9ThWXzPrvbDXcFDYQc0Ca_yItzS4GI/s/2596074662/br/143322557186-l" target=3D=
+"_blank" title=3D"" rel=3D"noopener" style=3D"color: #f5c636; text-decora=
+tion: underline; -ms-word-break: break-all; word-break: break-word; -webk=
+it-hyphens: none; -moz-hyphens: none; hyphens: none;">View as a Web Page<=
+/a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFF=
+FFF; border-collapse: collapse;">
+
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header" style=3D"background: #8a5ea5 url(https://content.govde=
+livery.com/attachments/fancy_images/USNIST/2018/12/2304992/bg_original.jp=
+g) no-repeat; padding: 20px 20px 5px;" bgcolor=3D"#8a5ea5">
+<h1 style=3D"margin-top: 0; margin-bottom: 20px; line-height: 1.2; font-w=
+eight: bold; color: #FFFFFF; font-family: arial, helvetica, sans-serif; f=
+ont-size: 30px; text-align: left;" align=3D"left">Taking Measure Blog</h1=
+>
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"padding: 20px;">
+<h1 style=3D"margin-top: 0; margin-bottom: 20px; line-height: 1.2; font-w=
+eight: bold; color: #000000; font-family: arial, helvetica, sans-serif; f=
+ont-size: 35px; text-align: left;" align=3D"left">What=92s a Physicist? M=
+y Summer as a Student Intern at NIST</h1>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"border-collapse: collapse;"><tr><td align=3D"center"><a href=3D"ht=
+tps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVy=
+aSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiO=
+iJodHRwczovL3d3dy5uaXN0Lmdvdi9ibG9ncy93aGF0cy1waHlzaWNpc3QtbXktc3VtbWVyLX=
+N0dWRlbnQtaW50ZXJuLW5pc3QifQ.LHKLdC6WHo0j5utC4gjJJUpbBNcWzTlP2xqEgHG_c80/=
+s/2596074662/br/143322557186-l" target=3D"_blank" rel=3D"noopener norefer=
+rer" style=3D"color: #0073bf; text-decoration: underline; -ms-word-break:=
+ break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: =
+none; hyphens: none;"><img class=3D"govd_template_image" src=3D"https://c=
+ontent.govdelivery.com/attachments/fancy_images/USNIST/2022/08/6369335/va=
+leria_original.png" style=3D"width: 560px; height: auto !important; max-h=
+eight: auto !important; border: none;" alt=3D"Valeria Viteri-Pflucker lea=
+ns over a table full of optical equipment, wearing safety goggles." width=
+=3D"560" height=3D"321"></a></td></tr></table>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 15px; t=
+ext-align: left;" align=3D"left"><em>By=A0Valeria Viteri-Pflucker, a=A0So=
+ciety of Physics Students (SPS) intern at NIST</em></p>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 15px; t=
+ext-align: left;" align=3D"left">At the age of 13, I had firmly decided t=
+hat I wanted to be a particle physicist, whatever that meant. All I knew =
+is that I wanted to play with subatomic particles and was particularly fa=
+scinated by the idea of antimatter. Whenever I=92d tell my parents or fri=
+ends this goal, they=92d inevitably ask what a particle physicist=A0<em>d=
+oes,</em>=A0since they=92d never met one. Amusingly enough, I didn=92t re=
+ally know either, but that didn=92t matter.</p>
+<p style=3D"line-height: 1.4; margin-top: 20px; margin-bottom: 20px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 15px; t=
+ext-align: left;" align=3D"left">Fast-forward to where I am now. I earned=
+ a bachelor=92s degree in physics from Illinois Wesleyan University in Ma=
+y, and this month, I am beginning my graduate journey with a Ph.D. progra=
+m in optics at the University of Rochester. During the summer, I was one =
+of 16 students participating in a Society of Physics Students (SPS) inter=
+nship program in the Washington, D.C., area, and I am one of three statio=
+ned at NIST. For many years now I have been trying to answer the question=
+ of what a physicist=A0<em>does.</em>=A0This summer has fundamentally sha=
+ped my answer to this question.</p>
+<h3 style=3D"line-height: 1.1; font-weight: bold; margin-top: 40px; margi=
+n-bottom: 20px; color: #000000; font-family: arial, helvetica, sans-serif=
+; font-size: 17px; text-align: left;" align=3D"left"><a href=3D"https://l=
+nks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRw=
+czovL3d3dy5uaXN0Lmdvdi9ibG9ncy93aGF0cy1waHlzaWNpc3QtbXktc3VtbWVyLXN0dWRlb=
+nQtaW50ZXJuLW5pc3QifQ.jREj3cKhs-V6f4VbPRTEFIYZDne4OzR18NPw9WK_mF4/s/25960=
+74662/br/143322557186-l" target=3D"_blank" rel=3D"noopener" style=3D"colo=
+r: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break:=
+ break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; ba=
+ckground-color: #0073bf; border-color: #0073bf; border-style: solid; bord=
+er-width: 12px 20px;">Read More</a></h3>
+</td>
+</tr>
+ =20
+<tr>
+<td id=3D"main-title-2" width=3D"100%" data-govdstyle=3D"all" data-govdti=
+tle=3D"Main Title 2" style=3D"background-color: #8a5ea5; padding: 0px 15p=
+x;" bgcolor=3D"#8a5ea5">
+<h2 style=3D"margin-top: 20px; margin-bottom: 20px; line-height: 1.2; fon=
+t-weight: bold; color: #ffffff; font-family: arial, helvetica, sans-serif=
+; font-size: 22px;">IN CASE YOU MISSED IT</h2>
+</td>
+</tr>
+ =20
+<tr>
+<td id=3D"main-body-2" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Body 2" style=3D"padding: 20px;">
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr>
+    <td>
+      <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNj=
+MwMTQzODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaXN0Lmdvdi9ibG9ncy90YWtpbmctbWVhc3V=
+yZS9zb2x2aW5nLXJvYm90aWNzLXB1enpsZS1kdXJpbmctc3VtbWVyLWludGVybnNoaXAtbmlz=
+dCJ9.Ud9IC_QYN-mfqPhMxQBtqNacgGgPBMo0kBxYXtjGjHM/s/2596074662/br/14332255=
+7186-l" target=3D"_blank" rel=3D"noopener noreferrer" style=3D"color: #00=
+73bf; text-decoration: underline; -ms-word-break: break-all; word-break: =
+break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"><i=
+mg class=3D"govd_template_image" src=3D"https://content.govdelivery.com/a=
+ttachments/fancy_images/USNIST/2022/01/5448899/4301228/salisbury-ship_cro=
+p.png" style=3D"width: 179px; height: auto !important; float: left; max-h=
+eight: auto !important; border: none;" alt=3D"Steven Salisbury works at a=
+ computer screen in a lab with robotic arms in the foreground." width=3D"=
+179" height=3D"103" align=3D"left" hspace=3D"7"></a>
+      <h2 style=3D"margin-top: 0; margin-bottom: 5px; line-height: 1.2; f=
+ont-weight: bold; color: #005597; font-family: arial, helvetica, sans-ser=
+if; font-size: 20px; text-align: left;" align=3D"left"><a href=3D"https:/=
+/lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6I=
+mJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodH=
+RwczovL3d3dy5uaXN0Lmdvdi9ibG9ncy90YWtpbmctbWVhc3VyZS9zb2x2aW5nLXJvYm90aWN=
+zLXB1enpsZS1kdXJpbmctc3VtbWVyLWludGVybnNoaXAtbmlzdCJ9.fhf4s_fem8OiFMEDyhd=
+TMO0BJN5ScMvfxROuJG2dSCg/s/2596074662/br/143322557186-l" target=3D"_blank=
+" rel=3D"noopener" style=3D"color: #005597; text-decoration: none; -ms-wo=
+rd-break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-=
+hyphens: none; hyphens: none;">Solving a Robotics Puzzle During a Summer =
+Internship at NIST</a></h2>
+<p style=3D"line-height: 1.4; margin-top: 0; margin-bottom: 20px; color: =
+#000000; font-family: arial, helvetica, sans-serif; font-size: 15px; text=
+-align: left;" align=3D"left"><em>Jan. 26, 2022</em><br>When Steven Salis=
+bury heard about the NIST Summer High School Intern Program (SHIP), it se=
+emed like a golden opportunity to gain real-world engineering experience =
+and understanding with top experts in the field while growing his passion=
+ for problem solving. <br><br><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUz=
+I1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldG=
+luX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaXN0Lmdvdi9=
+ibG9ncy90YWtpbmctbWVhc3VyZS9zb2x2aW5nLXJvYm90aWNzLXB1enpsZS1kdXJpbmctc3Vt=
+bWVyLWludGVybnNoaXAtbmlzdCJ9.2O9XZ_M7MtOxr3Qj0UgNx124AMK33yeferD_FhcaO_E/=
+s/2596074662/br/143322557186-l" target=3D"_blank" rel=3D"noopener" style=3D=
+"color: #0073bf; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">Read More</a></p>
+    </td>
+  </tr>
+</table>
+
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_tbl_wrap" border=3D"0" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"background-color: #f2f2f2; margin: 0; padding: 0 0 20px 0; w=
+idth: 100% !important;" bgcolor=3D"#f2f2f2">
+<table class=3D"mobile-footer" style=3D"width: 600px; border-collapse: co=
+llapse;" width=3D"600" cellspacing=3D"0" cellpadding=3D"0" align=3D"cente=
+r">
+<tbody>
+<tr>
+<td style=3D"padding: 25px 20px 8px; background: #d0cfcf;" bgcolor=3D"#d0=
+cfcf" width=3D"100%">
+<h2 style=3D"margin-top: 0; margin-bottom: 0px; line-height: 1.2; font-we=
+ight: normal; color: #0073bf; font-family: arial, helvetica, sans-serif; =
+font-size: 15px; text-align: center;" align=3D"center">Connect with us</h=
+2>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 20px 20px; background: #d0cfcf;" align=3D"cente=
+r" bgcolor=3D"#d0cfcf" width=3D"100%">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQz=
+ODEiLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vTklTVCJ9.Ln9SD0QXpUBK6azp=
+_AIyZqujb23Q0le5iyw7-oc58Mc/s/2596074662/br/143322557186-l" target=3D"_bl=
+ank" rel=3D"noopener"><img src=3D"https://content.govdelivery.com/attachm=
+ents/fancy_images/USNIST/2018/12/2313147/socl-01_original.png" alt=3D"fac=
+ebook" width=3D"31" height=3D"21"></a><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXI=
+uY29tL05JU1QifQ.Oz7uU3HvXu8APfz4uXDiHs_bNTmKFzs-2myibR_xo1k/s/2596074662/=
+br/143322557186-l" target=3D"_blank" rel=3D"noopener"><img src=3D"https:/=
+/content.govdelivery.com/attachments/fancy_images/USNIST/2018/12/2313148/=
+socl-02_original.png" alt=3D"twitter" width=3D"31" height=3D"21"></a><a h=
+ref=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjo=
+xMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEi=
+LCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS9OSVNUIn0.227z6I4KVugqWyCzrRKC4=
+nQF3-GC8t2RNnsbnVyCQis/s/2596074662/br/143322557186-l" target=3D"_blank" =
+rel=3D"noopener"><img src=3D"https://content.govdelivery.com/attachments/=
+fancy_images/USNIST/2018/12/2313149/socl-03_original.png" alt=3D"youtube"=
+ width=3D"31" height=3D"21"></a><a href=3D"https://lnks.gd/l/eyJhbGciOiJI=
+UzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxl=
+dGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3d3dy5saW5rZWRpb=
+i5jb20vY29tcGFueS9uaXN0In0.M5o4bOMUVnVaBS-cc_dTdRKzDLnz6QgNWhNDmHYopxM/s/=
+2596074662/br/143322557186-l"><img src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USNIST/2018/12/2313150/socl-04_original.png" al=
+t=3D"linkedin" width=3D"31" height=3D"21"></a><a href=3D"https://lnks.gd/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbG=
+ljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3d=
+3dy5mbGlja3IuY29tL3Bob3Rvcy91c25pc3Rnb3YvIn0.rmK_8UqlqMLsn9IfWsIj4QkQwcs4=
+ceciAxtdjf5WCWw/s/2596074662/br/143322557186-l"><img src=3D"https://conte=
+nt.govdelivery.com/attachments/fancy_images/USNIST/2018/12/2313151/socl-0=
+5_original.png" alt=3D"flickr" width=3D"31" height=3D"21"></a>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 20px 35px; background: #d0cfcf;" bgcolor=3D"#d0=
+cfcf" width=3D"100%">
+<p style=3D"margin-top: 0; margin-bottom: 0px; line-height: 1.2; font-wei=
+ght: normal; color: #000000; font-family: arial, helvetica, sans-serif; f=
+ont-size: 15px; text-align: center;" align=3D"center">Received this email=
+ from a friend? <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWx=
+sZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAy=
+MjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vY=
+WNjb3VudHMvVVNOSVNUL3N1YnNjcmliZXIvbmV3P3RvcGljX2lkPVVTTklTVF8xIn0.rASwnS=
+e36QVG-J7qHYz-Z1wISaOp9BdfJga0PeGpeu8/s/2596074662/br/143322557186-l" sty=
+le=3D"color: #0073bf; text-decoration: none;">Subscribe here</a>.</p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 20px 30px; background: #d0cfcf;" align=3D"cente=
+r" bgcolor=3D"#d0cfcf" width=3D"100%"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaXN=
+0LmdvdiJ9.pJPOajZNj33mLQaUYzNfD2jFz03qpKN9zkZEtzrPyf4/s/2596074662/br/143=
+322557186-l" target=3D"_blank" rel=3D"noopener"><img src=3D"https://conte=
+nt.govdelivery.com/attachments/fancy_images/USNIST/2022/05/5978180/f-nist=
+-logo-brand-2c-gd-nist-logo-brand-2c_original.png" alt=3D"NIST" width=3D"=
+80%"></a></td>
+</tr>
+<tr>
+<td style=3D"padding: 30px 20px 35px; background: #585858;" bgcolor=3D"#5=
+85858" width=3D"100%">
+<p style=3D"margin-top: 0; margin-bottom: 0px; line-height: 1.2; font-wei=
+ght: normal; color: #fff; font-family: arial, helvetica, sans-serif; font=
+-size: 13px; text-align: center;" align=3D"center">Subscriber services:</=
+p>
+<p style=3D"margin-top: 0; margin-bottom: 0px; line-height: 1.2; font-wei=
+ght: normal; color: #fff; font-family: arial, helvetica, sans-serif; font=
+-size: 13px; text-align: center;" align=3D"center"><a href=3D"https://lnk=
+s.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI6ImJwM=
+jpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwcz=
+ovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNOSVNUL3N1YnNjcmliZXIvZWR=
+pdD9wcmVmZXJlbmNlcz10cnVlI3RhYjEifQ.zSetop6EnsSkxn8djHdF67s7JpUOM38_ELlT9=
+igIz-I/s/2596074662/br/143322557186-l" style=3D"color: #ffffff; text-deco=
+ration: none;">Manage Preferences</a> =A0|=A0 <a href=3D"https://lnks.gd/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVyaSI6ImJwMjpjbG=
+ljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3B=
+1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNOSVNUL3N1YnNjcmliZXIvZWRpdD9w=
+cmVmZXJlbmNlcz10cnVlI3RhYjEifQ.xCwApVsCRcBjXexkQLq6ibrbyYUX1QvMhJu0Hn3CC1=
+Y/s/2596074662/br/143322557186-l" style=3D"color: #ffffff; text-decoratio=
+n: none;">Unsubscribe</a> =A0|=A0 <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTUsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ._rvk6dXSjr2nSLFcuzEOuo_poRlh2qg8rTi14VbXp=
+6c/s/2596074662/br/143322557186-l" style=3D"color: #ffffff; text-decorati=
+on: none;">Help</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">
+<p>If you have questions or problems with the subscription service, pleas=
+e contact <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpb=
+l9saW5rX2lkIjoxMTYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4Mz=
+EuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmN=
+vbS8ifQ._EKRbXWsnabXN3rMSJjzhYfFa3spSpUAgoIIOI9Tt_g/s/2596074662/br/14332=
+2557186-l">subscriberhelp.govdelivery.com</a>.<br>Technical questions? Co=
+ntact <a href=3D"mailto:inquiries@nist.gov">inquiries@nist.gov</a>. (301)=
+ 975-NIST (6478).</p>
+<p>This service is provided to you at no charge by National Institute of =
+Standards and Technology (NIST).=A0100 Bureau Drive, Stop 1070=A0=B7 Gait=
+hersburg, MD 20899=A0=B7=A0301-975-6478</p>
+</td>
+<td width=3D"11%" align=3D"right"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTcsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMTQzODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.2cRTGFN7SON9sZhn2qmzhVrtN5LpJOlKxwJ3HJxovuc/s=
+/2596074662/br/143322557186-l" target=3D"_blank"><img src=3D"https://cont=
+ent.govdelivery.com/images/govd-logo-dark.png" border=3D"0" alt=3D"GovDel=
+ivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjI1NTcxODYtbCZzdWJzY3JpYmVyaWQ9MjU5NjA3NDY2MiZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMTQzODEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDE0MzgxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODcwNzA4JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_B19_50BB_68DE9016.4FDE3664--
+

@@ -1,0 +1,505 @@
+From - Wed Aug 31 19:13:12 2022
+X-Account-Key: account1
+X-UIDL: AL6t5BBjE1KTYw/2aAEhEFmhBZs
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.215
+ by atlas113.free.mail.ne1.yahoo.com with HTTPS; Thu, 1 Sep 2022 00:01:43 +0000
+Return-Path: <messages@updates.interior.gov>
+X-Originating-Ip: [209.134.158.16]
+Received-SPF: pass (domain of updates.interior.gov designates 209.134.158.16 as permitted sender)
+Authentication-Results: atlas113.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@updates.interior.gov header.s=14q4;
+ spf=pass smtp.mailfrom=updates.interior.gov;
+ dmarc=pass(p=REJECT) header.from=updates.interior.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 1 Sep 2022 00:01:43 +0000
+X-YMailISG: 97QGvjEWLDuPVo_sCYNaQ5mRInjRF4ai38x0zMXl_DU_16mj
+ iYgqBvYRNIvXDexpK79FZN4Uh72zUw7m4egB4iSHO6NYv58F09A8AB9bOQjB
+ VSaMZt8mN1RWNV6wDJsLOXGmGS9_HLvgIpHEqmGa60un.jnflrndqiuOtTWc
+ nmczEgmPfiP6XWDT_OaGCrQUXUKIkg8I7CVcASeoyljRUaAwHrVee1_D0FuH
+ za1UE.bBfQO0SBB93dewarsaaXEBIXFSWmwtSzCyONrAiGb0Yt1XT3S6RAFs
+ L2UpfesURomFYyOsT96XWATPhVWjIbwSbffFK6MH9PetD4.6tFukIQjJa0Or
+ Qzv3NZz.JW5__yFYPXzIeeQmVVOFYPMBbCR6MEfN2ffGzfqePjXbLyWC5FDq
+ Huz7arz8fcDeOL.ZAC3yUq6VbBcZOINyoOc0PdMejWRqmol9pYdS9YBe.eqX
+ UmqrHohqDEHPcgOssCGSsjMgdbJpKizqvVq0PHTHMt1Z7ki3hR.8K995SNJA
+ V1W7dRaJsYqoEbJzUHemkZshw9PHUbnc6CsL.Z.phRldKEWzFtmgQbwq669v
+ .Us5P1PqdkXsVs_Tsj7yNAHgabRC2WD7Qrprk_pXr8LOsfg72oF0DQQQeR2o
+ OvyZU23XStVbB.Pk1aVpeD4QU8hN4rK7PDqEb4JJ5WIEDQatEBgZjHOb8TpU
+ MSTkGx5hNbjLSZDQ9nsEmJ2l0NjeEhL1Tjxg4272XpoBrpNPuiKd9D1M_BT8
+ hFIyLdL4.2X_2ZmLtj4xNnpYLKsybqTLmgH.7E9PDESPIvh.he55pDpBS_EQ
+ UgvIszv2YXAmnuJHEannrMOWxJ2Nnp0nYwcwf_QSQ0JWQptVV_1CSkQYv3TE
+ 5nsKDGyWpVgNB8pKdfTre77lWSlZLr_nJdFGEo8wqfx5iigDPrI7FONAw.zF
+ qKwuLsNSlk9EJI9B2pEhRphDweDQ0uhrX_07jP001Hn3SzdkNqCw0djlMFzl
+ Kk5e_bQqTGjmKGPi0S.IWapqHSkTKCqATilvunmH5KZSWxPscKj805iExTrs
+ K1Hq8eMZG0stxINGMeskBgbA0yUSliXfXttr3JhZ1mRKIq_IIi2japhqf1ly
+ xtI7JBzX32iyP8rKkhGyHzE8ygBz1ooOhteluRtP9XREg_0xqA0wk8dzyJ99
+ DybYiDLPTrDhCSs1jdEjGSB3
+Received: from 209.134.158.16 (EHLO mailer158106.service.govdelivery.com)
+ by 10.217.136.215 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 01 Sep 2022 00:01:43 +0000
+Received: from gepdp-smeds8-1.systems.dc.gdi ([10.5.36.49])
+	by mailer158106.service.govdelivery.com (-); Thu, 01 Sep 2022 00:01:42 +0000
+X-VirtualServer: VSG001, mailer158106.service.govdelivery.com, 10.5.38.133
+X-VirtualServerGroup: VSG001
+X-MailingID: 16831877::20220901.63061441::1001::MDB-PRD-BUL-20220901.63061441::ms60710444266@yahoo.com::11198_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=updates.interior.gov; s=14q4; i=@updates.interior.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=lWJ5
+	4U2DWLZaEvRHM4aFsHH64N0ZWqaqNiF+ZAIbq/s=; b=mfosFixz9y7Tpf0hyNvR
+	FB/HEt5ZQgeN5yChEhzVZ9rsECNLuyAkIuAPvbY4+c8QXa/3QYX5mPm1suVvVM7m
+	PWrGb+Wz4OS8iUYjtxh4g3X376+kPTxzu/X0qVVkB1a3U9/KewLZ8hT2HR2bhaM8
+	S4rq/iUe2005TKCTIIQdlZ0OSVbHCL2dEJSwZeYkQX1QCMWiTStTYrjODcajGRnl
+	WLJFPbmyHd0rUCMbrB6dEs1vSp7mixCD0S1tBP+k+ROTiTBZVjtG4d8W4sFMYH/Y
+	0goVqe5Lz/7P4emyQgOnq1OAPK2FLYUQOA8PNNkPJBeaTNQHibCDwx8WjnsC6NDR
+	vw==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_438_03DD_07268D65.178AA8DC"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI8K3tRGiMb+KvZgy6EHUI6tybrZ55Wy+YlKVTTnIDNOyvxlVCb4pgMcFTBvaZX/i0fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOI
+Errors-To: messages@updates.interior.gov
+MIME-Version: 1.0
+Message-ID: <16831877.11198@updates.interior.gov>
+X-ReportingKey: MJJJ2EWJK7I7-JJ1C0QJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Interior_on_Twitter?=
+Date: Thu, 01 Sep 2022 00:01:31 +0000
+To: ms60710444266@yahoo.com
+Reply-To: interior@updates.interior.gov
+From: "=?US-ASCII?Q?U.S._Department_of_the_Interior?=" <interior@updates.interior.gov>
+Content-Length: 19861
+
+
+------=_NextPart_438_03DD_07268D65.178AA8DC
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Having trouble viewing this email? View it as a Web page [ https://conten=
+t.govdelivery.com/accounts/USDOI/bulletins/32aa438 ].
+
+Interior seal and grey banner
+
+Hello=A0Friend,
+
+=A0
+
+You are subscribed to Interior on Twitter for U.S. Department of the Inte=
+rior.
+
+________________________________________________________________________
+
+=20
+
+@Interior icon  [ https://twitter.com/Interior ]   US Department of the I=
+nterior  [ https://twitter.com/Interior ] Interior  [ https://twitter.com=
+/Interior ]  31 Aug  [ https://twitter.com/Interior/status/15650971844371=
+45601 ]   Cacti in Minnesota, you betcha! Ball cactus is one of three cac=
+tus species native to the Land of 10,000 Lakes an=85 https://t.co/gz2K9AM=
+wLk  Details  [ https://twitter.com/Interior/status/1565097184437145601 ]=
+ =A0|=A0 Retweet  [ https://twitter.com/intent/retweet?tweet_id=3D1565097=
+184437145601 ]  =20
+________________________________________________________________________
+
+=20
+
+@Interior icon  [ https://twitter.com/Interior ]   US Department of the I=
+nterior  [ https://twitter.com/Interior ] Interior  [ https://twitter.com=
+/Interior ]  31 Aug  [ https://twitter.com/Interior/status/15649776139358=
+94528 ]   We all have a role to play to safeguard our planet for future g=
+enerations. Interior is working to address the clima=85 https://t.co/69pi=
+9A7zdy  Details  [ https://twitter.com/Interior/status/156497761393589452=
+8 ] =A0|=A0 Retweet  [ https://twitter.com/intent/retweet?tweet_id=3D1564=
+977613935894528 ]  =20
+body { font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weig=
+ht: normal; font-style: normal; color: #333333; }=20
+Follow us on Instagram [ http://www.Instagram.com/USInterior ]Follow us o=
+n Facebook [ http://www.Facebook.com/USInterior ]Follow us on Twitter [ h=
+ttp://twitter.com/Interior ] [ http://americasgreatoutdoors.tumblr.com/ ]=
+ SUBSCRIBER SERVICES:
+Manage email updates [ http://public.govdelivery.com/accounts/USDOI/subsc=
+ribers/new?preferences=3Dtrue ]=A0=A0|=A0=A0Delete profile [ https://publ=
+ic.govdelivery.com/accounts/USDOI/subscriber/one_click_unsubscribe?verifi=
+cation=3D5.fff8f8b015470cb441eed754261cd5ff&destination=3Dms60710444266%4=
+0yahoo.com ]=A0=A0|=A0=A0Help [ https://subscriberhelp.govdelivery.com/ ]=
+=A0=A0|=A0=A0Contact DOI [ http://www.doi.gov/public/contact-us.cfm ] ___=
+_____________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com by: U.S. Department of the=
+ Interior =B7 1849 C Street, N.W. =B7 Washington DC 20240 =B7 202-208-310=
+0 GovDelivery logo [ https://subscriberhelp.granicus.com/ ]=20
+body .abe-column-block {min-height: 5px;} table.gd_combo_table img {margi=
+n-left:7px; margin-right:7px;} table.gd_combo_table td.gd_combo_image_cel=
+l img, table#yahoo .gd_combo_table div.govd_image_display img {margin-lef=
+t:0px; margin-right:0px;}
+=0A
+------=_NextPart_438_03DD_07268D65.178AA8DC
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Interior on Twitter
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <p>Having trouble viewing this email? <a href=3D"https://lnks.gd/l/eyJh=
+bGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIs=
+ImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ1cmwiOiJodHRwczovL2NvbnRlb=
+nQuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTRE9JL2J1bGxldGlucy8zMmFhNDM4In0.lE=
+wc4gREKNq5t2JXkrx8NGXHqG6w74yaQyhzPUR6HxQ/s/2601788357/br/143372894668-l"=
+>View it as a Web page</a>.</p>
+  <p><img src=3D"https://admin.govdelivery.com/attachments/fancy_images/U=
+SDOI/2016/02/758223/generic-banner-for-email_original.png" alt=3D"Interio=
+r seal and grey banner" title=3D"null" width=3D"700" height=3D"120"></p>
+<p>Hello=A0Friend,</p>
+<p>=A0</p>
+<p>You are subscribed to Interior on Twitter for U.S. Department of the I=
+nterior.</p>
+<p></p><hr height=3D"1" style=3D"color: #e8e8e8; background-color: #e8e8e=
+8; min-height: 1px; margin: 0 auto; border: 0;" width=3D"520">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color: white;" width=3D"500" bgcolor=3D"white">
+<tbody>
+<tr>
+<td height=3D"12" width=3D"500"></td>
+</tr>
+</tbody>
+</table>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"twitter_change_item" style=3D"font-family: 'Helvetica Neue',Helv=
+etica,Arial,sans-serif; background-color: white; table-layout: fixed; ove=
+rflow: hidden;" width=3D"500" bgcolor=3D"white">
+<tbody>
+<tr valign=3D"top">
+<td rowspan=3D"8" width=3D"48">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yIn0.DLErKfDHG6CAVUnOn=
+D-14d8BDwPPjp0Hwpz082CIEkk/s/2601788357/br/143372894668-l" rel=3D"noopene=
+r noreferrer" style=3D"color: #0084b4; text-decoration: none; border: non=
+e;" target=3D"_blank">
+<img alt=3D"@Interior icon" height=3D"48" src=3D"https://pbs.twimg.com/pr=
+ofile_images/432081479/DOI_LOGO_normal.jpg" style=3D"width: 48px; min-hei=
+ght: 48px; border-radius: 4px; border: 0;" width=3D"48">
+</a>
+</td>
+<td rowspan=3D"8" style=3D"background-color: white;" width=3D"10" bgcolor=
+=3D"white"></td>
+<td>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yIn0.Qt1Yf0el0pB8FbQOI=
+aFp_WhL4p_HTPwT_wF1WYmjfhY/s/2601788357/br/143372894668-l" rel=3D"noopene=
+r noreferrer" style=3D"color: #0084b4; text-decoration: none; border: non=
+e;" target=3D"_blank">
+<span class=3D"twitter_user_name" style=3D"font-size: 14px; font-weight: =
+bold; color: #333;">US Department of the Interior</span>
+</a>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yIn0.5LaS5sDTc-2LbPxgS=
+AubUUWbhxk5JfO6UmncF-Npqz4/s/2601788357/br/143372894668-l" rel=3D"noopene=
+r noreferrer" style=3D"color: #0084b4; text-decoration: none; border: non=
+e;" target=3D"_blank">
+<span class=3D"twitter_screen_name" style=3D"font-size: 12px; color: #999=
+;">Interior</span>
+</a>
+</td>
+<td align=3D"right" class=3D"twitter_date" style=3D"font-size: 12px; colo=
+r: #bbb; width: 50px;" valign=3D"middle">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yL3N0YXR1cy8xNTY1MDk3M=
+Tg0NDM3MTQ1NjAxIn0.upQEjIUjsaQHGfguAHDOHKoT3S_sY0p0qzczQfGu0kc/s/26017883=
+57/br/143372894668-l" rel=3D"noopener noreferrer" style=3D"color: #0084b4=
+; text-decoration: none; border: none;" target=3D"_blank">
+<span style=3D"color: #bbb;">31 Aug</span>
+</a>
+</td>
+</tr>
+<tr valign=3D"top">
+<td height=3D"4" style=3D"background-color: white;" bgcolor=3D"white"></t=
+d>
+</tr>
+<tr valign=3D"top">
+<td class=3D"twitter_text" colspan=3D"2" style=3D"font-size: 14px; line-h=
+eight: 18px; color: #333;">Cacti in Minnesota, you betcha! =20
+
+Ball cactus is one of three cactus species native to the Land of 10,000 L=
+akes an=85 https://t.co/gz2K9AMwLk</td>
+</tr>
+<tr valign=3D"top">
+<td height=3D"4" style=3D"background-color: white;" bgcolor=3D"white"></t=
+d>
+</tr>
+<tr valign=3D"top">
+<td colspan=3D"2" style=3D"font-size: 12px; color: #999;">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yL3N0YXR1cy8xNTY1MDk3M=
+Tg0NDM3MTQ1NjAxIn0.KMaaIBvBFHoQjoVEOnVMFv2O2pjVh7Y-FJdC3QcT5i4/s/26017883=
+57/br/143372894668-l" rel=3D"noopener noreferrer" style=3D"color: #0084b4=
+; text-decoration: none; border: none;" target=3D"_blank">
+<span class=3D"twitter_details" style=3D"font-size: 12px;">Details</span>=
+
+</a>
+=A0|=A0
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL2ludGVudC9yZXR3ZWV0P3R3ZWV0X2lkP=
+TE1NjUwOTcxODQ0MzcxNDU2MDEifQ.e7RvNVBq4vgyfuDL4wjMZ-OzDEO7HJZDrZt5dkc5RMU=
+/s/2601788357/br/143372894668-l" rel=3D"noopener noreferrer" style=3D"col=
+or: #0084b4; text-decoration: none; border: none;" target=3D"_blank">
+<span class=3D"twitter_retweet" style=3D"font-size: 12px;">Retweet</span>=
+
+</a>
+</td>
+</tr>
+<tr valign=3D"top">
+<td height=3D"4" style=3D"background-color: white;" bgcolor=3D"white"></t=
+d>
+</tr>
+</tbody>
+</table>
+<hr height=3D"1" style=3D"color: #e8e8e8; background-color: #e8e8e8; min-=
+height: 1px; margin: 0 auto; border: 0;" width=3D"520">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color: white;" width=3D"500" bgcolor=3D"white">
+<tbody>
+<tr>
+<td height=3D"12" width=3D"500"></td>
+</tr>
+</tbody>
+</table>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"twitter_change_item" style=3D"font-family: 'Helvetica Neue',Helv=
+etica,Arial,sans-serif; background-color: white; table-layout: fixed; ove=
+rflow: hidden;" width=3D"500" bgcolor=3D"white">
+<tbody>
+<tr valign=3D"top">
+<td rowspan=3D"8" width=3D"48">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yIn0.EEw1Nru6S7TJa-SFy=
+l6kc1FAXDHfSjDj7q1HniZg3nQ/s/2601788357/br/143372894668-l" rel=3D"noopene=
+r noreferrer" style=3D"color: #0084b4; text-decoration: none; border: non=
+e;" target=3D"_blank">
+<img alt=3D"@Interior icon" height=3D"48" src=3D"https://pbs.twimg.com/pr=
+ofile_images/432081479/DOI_LOGO_normal.jpg" style=3D"width: 48px; min-hei=
+ght: 48px; border-radius: 4px; border: 0;" width=3D"48">
+</a>
+</td>
+<td rowspan=3D"8" style=3D"background-color: white;" width=3D"10" bgcolor=
+=3D"white"></td>
+<td>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yIn0.qYX48GvMq-XIgtd9N=
+_sActrwBnY-u2DMZjaw4C3_2sM/s/2601788357/br/143372894668-l" rel=3D"noopene=
+r noreferrer" style=3D"color: #0084b4; text-decoration: none; border: non=
+e;" target=3D"_blank">
+<span class=3D"twitter_user_name" style=3D"font-size: 14px; font-weight: =
+bold; color: #333;">US Department of the Interior</span>
+</a>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yIn0.0JnW8tknJqenx84jd=
+wXtJADKQDC9z5ppR5Z69KMD3es/s/2601788357/br/143372894668-l" rel=3D"noopene=
+r noreferrer" style=3D"color: #0084b4; text-decoration: none; border: non=
+e;" target=3D"_blank">
+<span class=3D"twitter_screen_name" style=3D"font-size: 12px; color: #999=
+;">Interior</span>
+</a>
+</td>
+<td align=3D"right" class=3D"twitter_date" style=3D"font-size: 12px; colo=
+r: #bbb; width: 50px;" valign=3D"middle">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yL3N0YXR1cy8xNTY0OTc3N=
+jEzOTM1ODk0NTI4In0.RkjDn3R102ZZCvMabZXxKgrN_YzloD4SaW9oaTCY8MU/s/26017883=
+57/br/143372894668-l" rel=3D"noopener noreferrer" style=3D"color: #0084b4=
+; text-decoration: none; border: none;" target=3D"_blank">
+<span style=3D"color: #bbb;">31 Aug</span>
+</a>
+</td>
+</tr>
+<tr valign=3D"top">
+<td height=3D"4" style=3D"background-color: white;" bgcolor=3D"white"></t=
+d>
+</tr>
+<tr valign=3D"top">
+<td class=3D"twitter_text" colspan=3D"2" style=3D"font-size: 14px; line-h=
+eight: 18px; color: #333;">We all have a role to play to safeguard our pl=
+anet for future generations. Interior is working to address the clima=85 =
+https://t.co/69pi9A7zdy</td>
+</tr>
+<tr valign=3D"top">
+<td height=3D"4" style=3D"background-color: white;" bgcolor=3D"white"></t=
+d>
+</tr>
+<tr valign=3D"top">
+<td colspan=3D"2" style=3D"font-size: 12px; color: #999;">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0ludGVyaW9yL3N0YXR1cy8xNTY0OTc3N=
+jEzOTM1ODk0NTI4In0.Ffky2UJPz_XdDqes5dk3N7ggMnNn49SY_nj-tXn1jYs/s/26017883=
+57/br/143372894668-l" rel=3D"noopener noreferrer" style=3D"color: #0084b4=
+; text-decoration: none; border: none;" target=3D"_blank">
+<span class=3D"twitter_details" style=3D"font-size: 12px;">Details</span>=
+
+</a>
+=A0|=A0
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL2ludGVudC9yZXR3ZWV0P3R3ZWV0X2lkP=
+TE1NjQ5Nzc2MTM5MzU4OTQ1MjgifQ.9NOMKKmP7fxr-ljklYfTd840jvoHe12mrXL6A5Efvko=
+/s/2601788357/br/143372894668-l" rel=3D"noopener noreferrer" style=3D"col=
+or: #0084b4; text-decoration: none; border: none;" target=3D"_blank">
+<span class=3D"twitter_retweet" style=3D"font-size: 12px;">Retweet</span>=
+
+</a>
+</td>
+</tr>
+<tr valign=3D"top">
+<td height=3D"4" style=3D"background-color: white;" bgcolor=3D"white"></t=
+d>
+</tr>
+</tbody>
+</table>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; background-color: #fff;">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0=
+NDEiLCJ1cmwiOiJodHRwOi8vd3d3Lkluc3RhZ3JhbS5jb20vVVNJbnRlcmlvciJ9.BNXFntwT=
+f8tqXU3V-iLft8i27DPAZes2f31hVxoSWso/s/2601788357/br/143372894668-l" title=
+=3D"Follow Interior on Instagram"><br><img src=3D"https://admin.govdelive=
+ry.com/attachments/fancy_images/USDOI/2016/02/753213/instagram_original.p=
+ng" alt=3D"Follow us on Instagram" width=3D"48" height=3D"48"></a><a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMT=
+QsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ=
+1cmwiOiJodHRwOi8vd3d3LkZhY2Vib29rLmNvbS9VU0ludGVyaW9yIn0.sGIMPY1LJ3W8emRH=
+AOWv3YxrGU22-FJxHYO3iiDnGTk/s/2601788357/br/143372894668-l" title=3D"Foll=
+ow Interior on Facebook"><img src=3D"https://admin.govdelivery.com/attach=
+ments/fancy_images/USDOI/2016/02/753214/facebook_original.png" alt=3D"Fol=
+low us on Facebook" width=3D"48" height=3D"48"></a><a href=3D"https://lnk=
+s.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTUsInVyaSI6ImJwM=
+jpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ1cmwiOiJodHRwOi=
+8vdHdpdHRlci5jb20vSW50ZXJpb3IifQ.TbaalS_iTondI-Td5AKlce1s7YSfo-PGvB2hkqaO=
+u3U/s/2601788357/br/143372894668-l" target=3D"_blank" title=3D"Follow Int=
+erior on Twitter" rel=3D"noopener"><img src=3D"https://admin.govdelivery.=
+com/attachments/fancy_images/USDOI/2016/02/753101/twitter_original.png" a=
+lt=3D"Follow us on Twitter" width=3D"48" height=3D"48"></a><a href=3D"htt=
+ps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTYsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ1cmwiOi=
+JodHRwOi8vYW1lcmljYXNncmVhdG91dGRvb3JzLnR1bWJsci5jb20vIn0.qT_VGP9x8QSWawJ=
+HEZfoT1d9W25r5zNwLVIwi-fD2Zo/s/2601788357/br/143372894668-l" target=3D"_b=
+lank" rel=3D"noopener"></a>
+</div>
+<div style=3D"text-align: center; background-color: #fff;"></div>
+<div style=3D"text-align: center; background-color: #fff;">SUBSCRIBER SER=
+VICES:<br><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpb=
+l9saW5rX2lkIjoxMTcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MD=
+EuNjMwNjE0NDEiLCJ1cmwiOiJodHRwOi8vcHVibGljLmdvdmRlbGl2ZXJ5LmNvbS9hY2NvdW5=
+0cy9VU0RPSS9zdWJzY3JpYmVycy9uZXc_cHJlZmVyZW5jZXM9dHJ1ZSJ9.6ioAn1sOgfJ5r-g=
+mniYjsMjnJw6qtJUIgbKqrdvZzE0/s/2601788357/br/143372894668-l">Manage email=
+ updates</a>=A0=A0|=A0=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTgsInF1ZXJ5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24=
+iLCJkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXRpbl9pZCI6IjIwMjIw=
+OTAxLjYzMDYxNDQxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY=
+291bnRzL1VTRE9JL3N1YnNjcmliZXIvb25lX2NsaWNrX3Vuc3Vic2NyaWJlIn0.3PZMr12Qqu=
+qHTTdobEGTu3fdMYur8Nt68XM0KB4aNeA/s/2601788357/br/143372894668-l?verifica=
+tion=3D5.fff8f8b015470cb441eed754261cd5ff&destination=3Dms60710444266%40y=
+ahoo.com">Delete profile</a>=A0=A0|=A0=A0<a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTksInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ1cmwiOiJodHRwczovL3N1YnNj=
+cmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.FfYp-EAllC52-p8ad0Z0nONzpebxwMt1Zn=
+akLDxoc7I/s/2601788357/br/143372894668-l">Help</a>=A0=A0|=A0=A0<a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjAsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ1cm=
+wiOiJodHRwOi8vd3d3LmRvaS5nb3YvcHVibGljL2NvbnRhY3QtdXMuY2ZtIn0.Fm-BGPCF5vs=
+Pfuq9yte7gJujiThjZI6ueOdNRKPwD4s/s/2601788357/br/143372894668-l" title=3D=
+"AGO">Contact DOI</a>
+</div>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com by: U.S. Department =
+of the Interior =B7 1849 C Street, N.W. =B7 Washington DC 20240 =B7 202-2=
+08-3100</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjEsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA5MDEuNjMwNjE0NDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.IBbhguzjF1l0C0KrMX6x7Tg5_2dogtkhtPGd9JyzZy4/s=
+/2601788357/br/143372894668-l" target=3D"_blank" rel=3D"noopener"><img sr=
+c=3D"https://content.govdelivery.com/images/govd-logo-dark.png" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;} table.=
+gd_combo_table img {margin-left:7px; margin-right:7px;} table.gd_combo_ta=
+ble td.gd_combo_image_cell img, table#yahoo .gd_combo_table div.govd_imag=
+e_display img {margin-left:0px; margin-right:0px;} </style>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNzI4OTQ2NjgtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1NyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA5MDEuNjMwNjE0NDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwOTAxLjYzMDYxNDQxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODMxODc3JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_438_03DD_07268D65.178AA8DC--
+

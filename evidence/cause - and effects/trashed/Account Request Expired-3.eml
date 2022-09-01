@@ -1,0 +1,242 @@
+From - Sun Aug 28 22:42:38 2022
+X-Account-Key: account1
+X-UIDL: AAQ+pVo81sAIYsTRZwmc8JQrr10
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.73
+ by atlas123.free.mail.bf1.yahoo.com with HTTPS; Wed, 6 Jul 2022 00:03:51 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [208.42.137.100]
+Received-SPF: pass (domain of public.govdelivery.com designates 208.42.137.100 as permitted sender)
+Authentication-Results: atlas123.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 6 Jul 2022 00:03:51 +0000
+X-YMailAVSC: kZpPS.Q3bBuFnezmS3Np9yEQCk8H.9TI5c.ONK2wSrv00B5
+ 5i822ju72YQwSPU9Bw8naoPxze.kcNshQWmWQ221TTOAjtND8RboLgUzWU91
+ 5V2MDGbbngMb781fr9tMqco0jhTmM56xKABcHD_kDKSruOlrj46baIOp4NqD
+ 57hynsuGP2S5m54_b3miZ15N9HFbBo6Jd5akwBP57jfoYBRBKQn57q76j37A
+ Bdhp0Oh6VXIsAW0h47HwK.ZGPN9M-
+X-YMailISG: duaO1WcWLDsgw7hlvGrKB8cfvFy3w8ugObPjQ5A3ldrhFJGH
+ 0PlfmZLmk5hvmW2bTqPCrC3P0qCz73lHCiGf7kdPZrM7awytCWLrAZTkz2Rl
+ BEVyQaXVTFbXbTTEdS11hedJ74n7i2rZmZ09x6gwMDjwVVeLoKFutzahDR1R
+ S8_MD9vhTDm_xFTGSkAAKk3wOVGqUorRWGkrJ_yWyZDcdLrfGiD2NZYKdG3Y
+ v.v48kd0snySbMj8M.pUhsJA4B6k6ZW0BZMVSFVch.izPF4sFL91zdq7L3bN
+ qwCpXgg6fD06lPu2i3runGU0AQFh_DMgls32FtQM.ARL27cnVKF0RZ1wj7_G
+ ctpozg4IZooOXOj_.YjPyDqSnGTAEfStKS0QryAsKVRGoc9EOtkSd0rqqGYc
+ 4XGF5xpFppRjYhdAH560RGUzc5CLxH9KjmvQLwHOrFS6GPuj7PAYh9GmPRro
+ k7h2SSuow4mE_G83huFdKfA_z6_GZfLCYfF3QM41CH_9u49IWAsl0p2UakYj
+ wXG3A22rqTddi6btxjyQ8ZRs_fQx3cGANhevcChVzNbzfpn5j5xHpGTKzX1Q
+ 8hhSzNm0yAN8W_ri3_ybI.QxUGtjo.l_BQrLlYsMuKQpQAdBEr2teT1TVMb8
+ t1r1hRdLTIgtvN6SuobTgTxxAB16cyTqK40nN6LOpucLEhwAE7VGZt6jWcHA
+ OtPqIXNgu28.dEZbhqHZ_IdP4F36GBxS77dDGeW_uoZwd2PO7x3YaAwmuZyP
+ xrfrgxgvljoSTfJMwhGAfxKclkfh353oUODPag0uNCBJTlPQQK1VrsCZ0krX
+ 1pMgHmiM49QTITkQsQMfgo_E9KGrzHm2miocVWd66rDb5IFaJ6hpANjU0ifk
+ 0F6cjSgFsKwsjMTZsL2EDjomq95Johppca0_gc1iJf6RfQJ5gQ5q7DNR.u98
+ 8IScApR3xSgRihUv.FNcpJjVSG_uFTA8C6_rQ9tWD.7pTzVl5urR5d74v6li
+ .GhX6w0uIG4ux2KWyioOKSzjTFicw.2.6OY8oYi5P4wutkVFZZiobMxgQL_j
+ TbzK9AC.uQXZAVxbaZ7IQDR_Lb8zRcyZSjdrADbQnuWvXw3ecnJwA9MSwotM
+ AGLOZYL3V8jIwcbv8njgxoyQPnTQw_vg1IQx8RfpZD5b.IAzER9q4tvTzg--
+Received: from 208.42.137.100 (EHLO mailer137100.service.govdelivery.com)
+ by 10.197.40.73 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 06 Jul 2022 00:03:51 +0000
+Received: from prod-bulletinprocessor4.ep.gdi ([10.5.3.4])
+	by mailer137100.service.govdelivery.com (-); Wed, 06 Jul 2022 00:03:51 +0000
+X-VirtualServer: Default, mailer137100.service.govdelivery.com, 10.5.38.217
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+X-VirtualServerGroup: Default
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Date:
+	From:Message-ID:Subject:Mime-Version:Content-Type:
+	Content-Transfer-Encoding:X-AccountCode:message-type:Errors-To:
+	X-MailingID:X-SMHeaderMap:To; bh=qj07lEpNkJg9WaYmuNXQgnSoJ0vnHu7
+	+OCE3hvK6slU=; b=VxrogdgLFCMcHLmGrRC77HcQuxGwrdnZK64yMgbBkWwTjJ1
+	9jllGjJ9TkwG06usTmWgXywUyhBh55olW4kZ5Uid/mYGnKuB9wdcIKTc1TyWfhzR
+	dybmyppc1X3K9FtdT96Ca1KZclse+LQCzEndgYcvI3rN2NrkZ57xccNy5lbOe8kg
+	Uf068d6QHm8HN3eEhBM/pxGKpLzZU2lVWtzRiIn8g9kdnCDfyRPaqf128pAQ0LgL
+	mIu6s9P5VkrcjuNh6ULfzGxOmgZRk9NFqnyqaNMrrwGcP39zldqLYUCeHmyKq8Ls
+	zXfxQ1qe2kIw9l8B5ktShRujkigTNLviFy0twcQ==
+Date: Tue, 05 Jul 2022 20:03:50 -0400
+From: "U.S. Drug Enforcement Administration" <dea@public.govdelivery.com>
+Message-ID: <62c4d166dea60_f55512271d41981f6@prod-evo-bg5.ep.gdi.mail>
+Subject: Account Request Expired
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62c4d166dbffc_f55512271d4198073";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-AccountCode: USDOJDEA
+message-type: account_request_expired
+Errors-To: messages@public.govdelivery.com
+X-MailingID: 310716455640128::3251638668::0::PRD-ZIPMAIL-3251638668::::1
+X-SMHeaderMap: mid="X-MailingID"
+To: MS60710444266@YAHOO.COM
+Content-Length: 7059
+
+
+----==_mimepart_62c4d166dbffc_f55512271d4198073
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Your registration for U.S. Drug Enforcement Administration subscriptions =
+expired.
+
+This email address was registered on 2022-07-03 16:41:57 -0400.
+
+U.S. Drug Enforcement Administration requires confirmation of all new reg=
+istrations, to ensure that no email address is registered without the own=
+er's permission.
+
+The confirmation period for this registration has expired. Click here [ h=
+ttps://public.govdelivery.com/accounts/USDOJDEA/subscriber/new ] sign up =
+again.
+
+________________________________________________________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the U.S. Department of Justice Web site.=C2=A0 Update your subsc=
+ription to this service, modify your password or e-mail address, or stop =
+subscriptions at any time on your Subscriber Preferences Page [ https://p=
+ublic.govdelivery.com/accounts/USDOJDEA/subscriber/edit?preferences=3Dtru=
+e#tab1 ].=C2=A0 You will need to use your e-mail address to log in.=C2=A0=
+ If you have questions or problems with the subscription service, please =
+contact subscriberhelp.govdelivery.com [ https://subscriberhelp.govdelive=
+ry.com/ ].=C2=A0 If you have questions about the Department of Justice We=
+b site, please contact webmaster@usdoj.gov.=C2=A0=C2=A0 =
+
+
+GovDelivery is providing this service on behalf of the Department of Just=
+ice and may not use your subscription information for any other purposes.=
+=C2=A0 =
+
+
+Department of Justice Privacy Policy [ http://www.usdoj.gov/privacy-file.=
+htm ] =
+
+GovDelivery Privacy Policy [ http://www.govdelivery.com/privacy/ ] =
+
+
+This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communic=
+ations Cloud on behalf of: U.S. Drug Enforcement Administration =C2=B7 95=
+0 Pennsylvania Ave., NW =C2=B7 Washington, DC 20530=C2=A0=C2=B7 800-439-1=
+420
+
+----==_mimepart_62c4d166dbffc_f55512271d4198073
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/1=
+999/xhtml" xml:lang=3D"en" lang=3D"en" xml:lang=3D"en">
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+<title></title>
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+<p style=3D"margin-bottom: 1em;">Your registration for U.S. Drug Enforcem=
+ent Administration subscriptions expired.</p>
+<p style=3D"margin-bottom: 1em;">This email address was registered on 202=
+2-07-03 16:41:57 -0400.</p>
+<p style=3D"margin-bottom: 1em;">U.S. Drug Enforcement Administration req=
+uires confirmation of all new registrations, to ensure that no email addr=
+ess is registered without the owner's permission.</p>
+<p style=3D"margin-bottom: 1em;">The confirmation period for this registr=
+ation has expired. Click <a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJ=
+hbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoiYWNjb3V=
+udF9yZXF1ZXN0X2V4cGlyZWQiLCJzdWJzY3JpYmVyX2lkIjoyNTkxMjY2MDQwLCJtZXNzYWdl=
+X2lkIjo5ODY5MzY3MDgsInVyaSI6ImV2bzp0cmFuc2FjdGlvbmFsOmVtYWlsOmNsaWNrIiwid=
+XJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTRE9KREVBL3=
+N1YnNjcmliZXIvbmV3In0.W6FUa4ZeuvDp8JjChnfVnGURB4q76LAW9bQdV0BQA7A">here</=
+a> sign up again.</p>
+
+
+
+<div id=3D"mail_footer">
+<hr /> You have received this e-mail because you have asked to be notifie=
+d of changes to the U.S. Department of Justice Web site.=C2=A0 Update you=
+r subscription to this service, modify your password or e-mail address, o=
+r stop subscriptions at any time on your <a href=3D"https://lnks.gd/l/eyJ=
+0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV9=
+0eXBlIjoiYWNjb3VudF9yZXF1ZXN0X2V4cGlyZWQiLCJzdWJzY3JpYmVyX2lkIjoyNTkxMjY2=
+MDQwLCJtZXNzYWdlX2lkIjo5ODY5MzY3MDgsInVyaSI6ImV2bzp0cmFuc2FjdGlvbmFsOmVtY=
+WlsOmNsaWNrIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291bn=
+RzL1VTRE9KREVBL3N1YnNjcmliZXIvZWRpdD9wcmVmZXJlbmNlcz10cnVlI3RhYjEifQ.3d-m=
+O-n8Qej57rJ19rDcHIJMId7pxtgpGPy9vNJelh4" title=3D"" target=3D"">Subscribe=
+r Preferences Page</a>.=C2=A0 You will need to use your e-mail address to=
+ log in.=C2=A0 If you have questions or problems with the subscription se=
+rvice, please contact <a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbG=
+ciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoiYWNjb3VudF=
+9yZXF1ZXN0X2V4cGlyZWQiLCJzdWJzY3JpYmVyX2lkIjoyNTkxMjY2MDQwLCJtZXNzYWdlX2l=
+kIjo5ODY5MzY3MDgsInVyaSI6ImV2bzp0cmFuc2FjdGlvbmFsOmVtYWlsOmNsaWNrIiwidXJs=
+IjoiaHR0cHM6Ly9zdWJzY3JpYmVyaGVscC5nb3ZkZWxpdmVyeS5jb20vIn0.ub-56b1PU1JZa=
+lvCSTa6rdBzgZn09zJkI7CNak0HaGc">subscriberhelp.govdelivery.com</a>.=C2=A0=
+ If you have questions about the Department of Justice Web site, please c=
+ontact <a href=3D"mailto:webmaster@usdoj.gov">webmaster@usdoj.gov</a>.=C2=
+=A0=C2=A0 =
+
+<p>
+</p> =
+
+<p>GovDelivery is providing this service on behalf of the Department of J=
+ustice and may not use your subscription information for any other purpos=
+es.=C2=A0 =
+
+</p> =
+
+<p><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJh=
+Y2NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoiYWNjb3VudF9yZXF1ZXN0X2V4cGlyZ=
+WQiLCJzdWJzY3JpYmVyX2lkIjoyNTkxMjY2MDQwLCJtZXNzYWdlX2lkIjo5ODY5MzY3MDgsIn=
+VyaSI6ImV2bzp0cmFuc2FjdGlvbmFsOmVtYWlsOmNsaWNrIiwidXJsIjoiaHR0cDovL3d3dy5=
+1c2Rvai5nb3YvcHJpdmFjeS1maWxlLmh0bSJ9.t10uAqXf9chiBwrDNaURe-lWBu9PW93ApP5=
+DZbIzf6o" title=3D"" target=3D"">Department of Justice Privacy Policy</a>=
+ =
+
+  <br /><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9=
+.eyJhY2NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoiYWNjb3VudF9yZXF1ZXN0X2V4=
+cGlyZWQiLCJzdWJzY3JpYmVyX2lkIjoyNTkxMjY2MDQwLCJtZXNzYWdlX2lkIjo5ODY5MzY3M=
+DgsInVyaSI6ImV2bzp0cmFuc2FjdGlvbmFsOmVtYWlsOmNsaWNrIiwidXJsIjoiaHR0cDovL3=
+d3dy5nb3ZkZWxpdmVyeS5jb20vcHJpdmFjeS8ifQ.4nzg1ElxSPpvB8KmkB57L6B8yjwDY0ip=
+tQRkjDLQuv0" title=3D"" target=3D"">GovDelivery Privacy Policy</a> =
+
+</p>
+
+</div>
+<div id=3D"tagline">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"89%"><font size=3D"2">This email was sent to MS60710444266@Y=
+AHOO.COM using GovDelivery Communications Cloud on behalf of: U.S. Drug E=
+nforcement Administration =C2=B7 950 Pennsylvania Ave., NW =C2=B7 Washing=
+ton, DC 20530=C2=A0=C2=B7 800-439-1420</font></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<img src=3D'https://lnks.gd/o/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2=
+NvdW50X2lkIjoxMTM4OCwibWVzc2FnZV90eXBlIjoiYWNjb3VudF9yZXF1ZXN0X2V4cGlyZWQ=
+iLCJzdWJzY3JpYmVyX2lkIjoyNTkxMjY2MDQwLCJtZXNzYWdlX2lkIjo5ODY5MzY3MDgsInVy=
+aSI6ImV2bzp0cmFuc2FjdGlvbmFsOmVtYWlsOm9wZW4ifQ.FB3mvC4aLYUHKTDeFv5cm3uAqw=
+elGsQ-nbGN9Qo9_HE'/></body>
+</html>
+
+----==_mimepart_62c4d166dbffc_f55512271d4198073--
+

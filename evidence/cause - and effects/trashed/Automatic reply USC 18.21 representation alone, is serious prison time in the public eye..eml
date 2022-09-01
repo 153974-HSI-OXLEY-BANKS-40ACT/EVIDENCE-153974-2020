@@ -1,0 +1,222 @@
+From - Sun Aug 28 22:55:46 2022
+X-Account-Key: account1
+X-UIDL: ALb4vwB/flwpYuTK9wY5wJ+71MY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.150
+ by atlas312.free.mail.ne1.yahoo.com with HTTPS; Sat, 30 Jul 2022 06:08:54 +0000
+Return-Path: <>
+X-Originating-Ip: [52.100.8.228]
+Received-SPF: pass (domain of EUR02-AM5-obe.outbound.protection.outlook.com designates 52.100.8.228 as permitted sender)
+Authentication-Results: atlas312.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@icmpmusic.com header.s=selector1;
+ spf=pass smtp.mailfrom=EUR02-AM5-obe.outbound.protection.outlook.com;
+ dmarc=pass(p=REJECT) header.from=icmpmusic.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 30 Jul 2022 06:08:55 +0000
+X-YMailISG: OpaxkOAWLDtLHtqpTPMl8Tq06bIKer_5oxhnekJkPaFDQp4w
+ rASse4OjnmpDe5tfGrXykhTB29IEkB_nQzxLKVqqSCJGTeyIHz7yVrzsDlkX
+ 5FteT9AI2x5r5l1BGycxGY4CXU8H9S4LxDQGfh..MkHtGId2SVEBwz5t4xkA
+ ylYO15LFnYv4RP.hdmYxFIQyQY.yIk7RwWUFHYHAyYQK50aWBxKTagn7NlTE
+ K526W6UWLZ4Ph4Gt9T_9LSBo8C4TrMhrp8WwPdyWxDlvAO88aqrtO9xnu6WZ
+ ZrWJEAn.i6cQYSrQJVg3d8zl1uPrINrUQ5x5BR5dVQaCzRzJnqkieTdEkkla
+ M_rBoRvoZ5L45g.xvcHI3ethIbkWB7v255c7nHTB2MmC5jegbimF0_GKSQsz
+ J_ZazuuKtYEfihr.CD2Qt8QSw9PGJzdSZ8Jx78wbu_dH5qJ84oQWGUuCszu1
+ VI22KsmjyS1pme.gmlnJbPKfGeW6zNBoKNiJjTbCpf4Qsc98W90depyjYkqo
+ 8MIGzu6ZKScXYQwyfawgcIO8_YBbhyw5B4af_D2ss6VEQ6tuLhXFQcMW49Tl
+ p6J.e11OIDiN59URjIHG0yqimlRM4Qp91YdR7NTVgsWG4jRRi_FHsESwlVSw
+ xHxONvLbK85pyxjBtElr6Cuc.86CHoFazSH4X60x9UPhWU5.Rl.BLKocc.a9
+ efKwfaJXi8kVX69uzTH1W7n.wwvqj8Yv1vodnBe2Wd4fV9TSH.edXumkVS7B
+ eROlv4U6ZbBfiG0X.hdpmyPH_BpVt.Hrvqw.sI3ca8oMFuJzBYDa4zfn3qMS
+ MdnikIMY4NJiPRQ7fmqJo4WLHbcp8gzmX5WzcqUTG_a9zSq2ro8CQvTY83po
+ AxHX_.ZssXOxhkyDMGlNdw4bWyMPorWVt0mAr6xU.i8q0IAwLl9B1WLBwFpm
+ CVJBMx9G4KERYFX.K0PcoQWkipUKnVtfIWc1GwgfZ26itaMiwGoQu5Na.a_Z
+ Ue8amRLft29Kq0sc7MKRkO1IIHs9OvMtKrTOLQambUDVAbuIWu3pzHCMTN6x
+ yRIj7FGheXqX8_jMmY5QOLwP01BPyhLvBa_p_HV0hJf9.0CryCKfLYCsjTSX
+ CeqAfpuIpVCH6gfWndt8T3qGuukhPy439s9DHzGJACx_1rpWB_59GwqAQnGI
+ 7zJCPwmhYjibxYUb3t3woWiLPTxH1i6vaMCGbFgpenAbKitLLxBcSEw0ceMP
+ Jfxa_Lu81.exLC5mO5m8.6WvFKumQIkJZ6uFDIWKJIxuTz6VdvRs8pVzVCcJ
+ MQFBFV74GG1G_OY3wkAyxR2M6Xt12ULrONg0dDZvZsjVo.14yHDYjf0VaRdd
+ xU6mhuxOp4L5
+Received: from 52.100.8.228 (EHLO EUR02-AM5-obe.outbound.protection.outlook.com)
+ by 10.222.142.150 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 30 Jul 2022 06:08:54 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Rcaz6DeFJr2+M7056MANp+fjKp8pRharCK5ruc9QWciWgDnY+25OYg7vbkycmjf5O9bY0S3L9wkiCpe5SaggfxeM7xxuRLwCFjU7DoMu+BAv590W/MFSCZ1Zr3E2U5QqaApQLd2PIoZiKYugqLIXwo4DssZU4nH44wDrrlU1yWK41WqMf3UqT6edXLiKebswoI6LPvV8hiX6PE4PFapIsvF3eq92vsA60vfjrkdZreMXE5/zMoEzv3Jsn5Slv1vXNa69bSe531GkoHRMOPAdALI0oHXXy2uQly/9mIDcb4lsGqvrykLzKU6VTzUBnMyIcSS1lm33yFj6db3rGGu6hA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=/+p8JtLGkcs1SV2z5f481c+leDJ1IknK2hlRwOIGdqU=;
+ b=aL3ZfxwuQ4vbRuEn//kq/PLZim7cBHbd6VbJn6gVBp9cgTKpXyqOsmlzi30p/0vA9dxYripsSBAIZTfJxePqiccIVRPvYCbioTa3Y3YMFZ1pcZnGoQMrv1CYvY6QnWdW59fPUAG5dQnZxlSojBtfpDw2hZFE09ertemGLHtdTnFwvuUcVuCSD43yxs2lxtTfeiU+FMcksRWVQswoQfWXL9ezDwFqTMrk4g/xeTge9ePhKF0L/VqP6DNZMTzSPrgSS6rJfaPomIPiaZ3PKLh9tq/V08Nz4exTczZWUV6A4PFrgI8wFj6VV0K8nVYcZ9grScBag7VRjzeTlZVsE/JY+A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=pass
+ action=none header.from=icmpmusic.com; dkim=pass header.d=icmpmusic.com;
+ arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icmpmusic.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=/+p8JtLGkcs1SV2z5f481c+leDJ1IknK2hlRwOIGdqU=;
+ b=1AzAmpAzQL1lFdGx4TxiJNVh2yqMmVmX76B8eQLK2qHAvHl7JNDjLnIwnqr9NvaiKN+oBRFcdmLP7bNSDWf5zFpgzHu2mIL38UkbC4yj1q50JRKA8Uik2fDl7D8VvHsA9bsdIJUi/A2QoXrCzyDzMXsiGwkCS+vW5T22HS1T2BeNxaX8XzRtb6PAQlvNdX/60Jtua+vEuBY7ZbaebpQZ/6tvmS/BlkdtmPmCQOUtIS75eF0Qy/ZzhU1zWIwS+NhiLX7VmzGjRvJ5RqVAuQ8ifHJYeS/UNDyarbGxbzwGAQPf4p6/k3hbDE9m1Y962U+4uhtiuUE/2YasKfDHSa51ww==
+Received: from AM0PR0502MB4050.eurprd05.prod.outlook.com (2603:10a6:208:a::26)
+ by PAXPR05MB7934.eurprd05.prod.outlook.com (2603:10a6:102:159::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5482.14; Sat, 30 Jul
+ 2022 06:08:53 +0000
+Received: from AM0PR0502MB4050.eurprd05.prod.outlook.com ([::1]) by
+ AM0PR0502MB4050.eurprd05.prod.outlook.com ([fe80::a96b:ad05:cd14:df71%5])
+ with Microsoft SMTP Server id 15.20.5458.025; Sat, 30 Jul 2022 06:08:53 +0000
+From: Pietro Villani | ICMP <pietro.villani@icmpmusic.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Automatic reply: USC 18.21 representation alone, is serious prison
+ time in the public eye.
+Thread-Topic: USC 18.21 representation alone, is serious prison time in the
+ public eye.
+Thread-Index: AQHYo9rXmZwA0waqqUyJAkLir/DIMq2WbfqJ
+Date: Sat, 30 Jul 2022 06:08:53 +0000
+Message-ID:
+ <b994c78381964fd7b48e2567cd869ec3@AM0PR0502MB4050.eurprd05.prod.outlook.com>
+References: <2a24abd5-a571-0952-55d5-ae625a43a849.ref@yahoo.com>
+ <2a24abd5-a571-0952-55d5-ae625a43a849@yahoo.com>
+In-Reply-To: <2a24abd5-a571-0952-55d5-ae625a43a849@yahoo.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: pietro.villani@icmpmusic.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <2a24abd5-a571-0952-55d5-ae625a43a849@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: d0a2daee-b795-4f40-30d2-08da71f1faa1
+x-ms-traffictypediagnostic: PAXPR05MB7934:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ SQkHDu6R1A/pAYbGgua6gXqhMKF/XVP6pQov0DcLQ/CFKTzq+sKVG/ujjnHnu/U8VbmvuYmd4xeGIlKSTh6TH+3z8Ixh/4q+ZKCfEKORPrRKJFtAYTPN7gOOsMX5Gn2iB4EZNueiG9yPRf5XI1zCyuKJZdb09DHjuf7OSuVrrQZJpG1YbzZjRdNieA5JpUvZDB+u/P+8dZ0xFkpw3Ca2I5c1QMH7+XKeZtAtYAKSzUkmGF7rkiARGxz4zlCf4TqAuAeNRA7NkQPYtCko0uG3fGmT7PJzJZHkHTBQ54e6jy15c34OTuB8roxx+PCua3sXaj9Wn/pkVn/q2Y3ZMysKdlOEEuBlcN9Fde/ReXjQYVou9SY+QOCENhE5sX3vMYIhG+X6dWI/dZJ9JMpLX+66qsiiBGWjzpqekdgpPdNRdoFnicBe/X9vaODcCE+AnsD4Kxhj+Xi3zVe4RjNxaEGM6OYEpeY6LpEg0RmL84hjmakVY7SISzoejEvX8nojaQYqSOulzBMTufiay4VirbQRD3SNaBIqfMqPLzwPSiHuA6W9s7iulau/FeJ8m4UbbDfcYjw9oEU0TU65xe6gxwIC/TuJTdUFJdRv7WIkOoS4+V8hKiB7LIzf8QZkgQrkhe5Uog+r6LlW19BMoU64HcqzJsYlkKT5uh37AfUGDOxVNwZsC/4EIykBpJQMtI4D5sYUaiiV5OOHn/+AhG9TQpJtk1IxzkOKnZhT9DiuesTR99Y=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM0PR0502MB4050.eurprd05.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(50650200002)(396003)(366004)(39840400004)(136003)(346002)(376002)(42882007)(9326002)(5660300002)(9686003)(55016003)(8936002)(316002)(6916009)(88996005)(122000001)(71200400001)(108616005)(78352004)(8676002)(66476007)(64756008)(66446008)(66946007)(66556008)(498600001)(24736004)(83380400001)(2906002)(41300700001)(558084003)(7696005)(6506007)(111220200005)(80100003);DIR:OUT;SFP:1501;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ uNcnbi73cMrhHbzlijWg4lfDuX0nTdvBgno52bs+9r0ZhCzSV1rFEe4CyqnVi7XtopJuOQa5jRdG9X0M1V/9TgBPqQumgNaEB2QP/kiEBvIOCG6AzXZVAxOQIASj5timAEqTXa0FBAfV+yqyIEqHZ4pt9ytLLbG9roavly2DSgCC5xNk95PYlSxqP5FJIzn7xLKP3aG2+ubDFxjFVfbTskTVl53coMo6ZErp+1a/OYT4txPogXfdWXxobA8IZF7FAdR4fblFLxF55QXppnxSRBHTzqd87GbS4Z3W+lUIwwfMK8Fsc4lSOhDpSOP4T5CD
+Content-Type: multipart/alternative;
+	boundary="_000_b994c78381964fd7b48e2567cd869ec3AM0PR0502MB4050eurprd05_"
+MIME-Version: 1.0
+X-OriginatorOrg: icmpmusic.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AM0PR0502MB4050.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: d0a2daee-b795-4f40-30d2-08da71f1faa1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Jul 2022 06:08:53.2115
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 28a4cc59-64d7-4629-87bf-20744de61c93
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PAXPR05MB7934
+Content-Length: 4254
+
+--_000_b994c78381964fd7b48e2567cd869ec3AM0PR0502MB4050eurprd05_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I am out of the office, returning Thursday 1 September.
+
+For anything urgent please contact - headoffice@icmpmusic.com<mailto:headof=
+fice@icmpmusic.com>
+
+Thanks,
+
+Pietro.
+
+
+--_000_b994c78381964fd7b48e2567cd869ec3AM0PR0502MB4050eurprd05_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri Light",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"background:white;text-autospace:none"><span=
+ lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Calibri Light&q=
+uot;,sans-serif;color:black">Hi,</span><span lang=3D"EN-US" style=3D"font-s=
+ize:12.0pt;font-family:&quot;Calibri Light&quot;,sans-serif"><o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"background:white;text-autospace:none"><span=
+ lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Calibri Light&q=
+uot;,sans-serif;color:black">&nbsp;</span><span lang=3D"EN-US" style=3D"fon=
+t-size:12.0pt;font-family:&quot;Calibri Light&quot;,sans-serif"><o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal" style=3D"background:white;text-autospace:none"><span=
+ lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Calibri Light&q=
+uot;,sans-serif;color:black">I am out of the office, returning Thursday 1 S=
+eptember.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white;text-autospace:none"><span=
+ lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Calibri Light&q=
+uot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white;text-autospace:none"><span=
+ lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Calibri Light&q=
+uot;,sans-serif;color:black">For anything urgent please contact -
+<a href=3D"mailto:headoffice@icmpmusic.com"><span style=3D"color:#0563C1">h=
+eadoffice@icmpmusic.com</span></a></span><span lang=3D"EN-US" style=3D"font=
+-size:12.0pt;font-family:&quot;Calibri Light&quot;,sans-serif"><o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-US" s=
+tyle=3D"font-size:12.0pt;font-family:&quot;Calibri Light&quot;,sans-serif">=
+&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-US" s=
+tyle=3D"font-size:12.0pt;font-family:&quot;Calibri Light&quot;,sans-serif">=
+Thanks,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Segoe UI&quot;,sans-serif">Pietro.<o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></sp=
+an></p>
+</div>
+</body>
+</html>
+
+--_000_b994c78381964fd7b48e2567cd869ec3AM0PR0502MB4050eurprd05_--

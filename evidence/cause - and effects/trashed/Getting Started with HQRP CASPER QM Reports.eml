@@ -1,0 +1,572 @@
+From - Wed Aug 31 18:53:29 2022
+X-Account-Key: account1
+X-UIDL: AKGtGjUU0AGvYw9rdwc/eMRRQcg
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Wed, 31 Aug 2022 14:08:54 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.28]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.28 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 14:08:55 +0000
+X-YMailAVSC: CZNGzEs3bBsy_AnuE2_xiepHAKT2woVbt6TlVc_VlLaMqR_
+ e_5_GHWSqiMtQo_k9q2BMH1lAawghsU0VqlR5S3TJvazQi_V7VHYuxbTlkhl
+ bWRVgSBTyzRGHyWvdlwBMdIPblbEMp9D64qT11S9UwSvIxwnZAafwE6HzW6c
+ J_EI2UazI1ihv7UcpOD6DtlABKF8T8Cc.r_l.jQ7GF7eISVRjBm4H1_5mKKN
+ S1YttwTt2QrY2DNBfwi._lGexTVxKpm9xX8nh9chTfqc8qfmNI9vfReS9YFW
+ DWBEJeE_LLMPMz9t6XmzTdL6kI5TdJZvAGXmAS.wtqIcXRK25NP64_p9ajcM
+ p4_Yqby.hFnPUtTpcsLt.TeJXHo4kBK7AiJr2sbEe4v_mXx7BrEm41riQ94C
+ NJlJWywcHe8LCOB6RxL05kwlXWIDYFqqO8Hw4BRG72SZMvOaiMe.SUiIwHdW
+ NHCLHemH30mUJkYZCZsNN1jyPCOwLBEXgHfSbNmmZU8caTLy5EmKAQNWkGAk
+ qsEE1lnJnggI_74eseIaNty3gxJkQn81j52ESJzWdKY48CZ7W_Ot0SlEQUW_
+ ln4_lDRGOPsQeqNGks1paz0Gm2Lz_dblF_zydh0TQXrwKKimyouhceA.rgga
+ 0xvQBPCUR78Nd8_7QhII.sxfRsC5lQuJIc0jKq.Gbe9O3_c7f4LtHEgFB0jb
+ 3oXjZnpk_k7yJ.QsFTa_fA0bIwsboY7uC7mh.kofG_P2yJNJAzJMNQ2ZQjpQ
+ oD.T_KWbDHsxy3AP2cTypD3scksO.RMJ9sRSEVC7DFnCnfUkL8nOwdgIpqO6
+ GnWyw17FHKJDEF7UKLurr6sYAswG.V0T5NQcyImTppNdRhxxQPhEXD3IJ0b1
+ nGsl28.ijZU5aoX2XL6YUm67szo6GksSSPX8c8bsR7SvhKLYnjXCUicEfXBy
+ JJJhvZzsxi_GXkPOyAsQwB15oHyNeW1C3qF4.c2e.vfkUARTRUG_OQa.e9gC
+ TJqC6Qs3SmzwSqIiWGXgiT9Yrs6xO5cz5zU9qBanalkYgDw_Q2hSA7EGrF2T
+ Gvq9DeJQkYcBU4mL1.a10wiq3kNQ3jk1Zen82EyXr8wtMRCPSPpXejV0j2a.
+ NILRUnW9HiuNWOjxWPYzijjrzRk9Ft_6H9mnlodwe9Alw4SbYkP0Najii6.F
+ km8FvP914mnbLI0KcXmf1C6sYWjYbwxBoJkJ5L35EaIGIja6eFfyZE7jfMO4
+ WVqsSQTB0_vm_NhFj4_SVPCFJaSAsrFNDH.dB4dY0GCan0WZH8fHD2SXxVBV
+ UFdd88V.6IPTLKZeIiaQjsL_h.vkQFcA0Ynpra8fHRG6TIPP_pe1UWN436hR
+ pnoeHo8kaJvW5XeebFKpz0eKAGA--
+X-YMailISG: zq62Z60WLDuxhna3AgTQho3hRGkbHtPWQoIKieZuFFSuBTi0
+ ZcFQ9WwpqoKRs4U7fLHu4m4b7EpcugggZ2rCeG56Q9HUYhcH3UO5E_BL_03g
+ NLqHr3rSFyzKr9ZaD6f14Yea_WnUCwixqFtQhOHBPuZy8jk._8BM3WM7rb.g
+ fzYG6mUKaZyHwbdvEBdj6CiDuPipJ8UDbHIi2Kf0BHq_NkyHdZJ4Xqa3389C
+ JePkd4I1x7.4wcqCWrAjMG4aJopwlgFCmzEYPwiz4wY2HotlUdihkJUeDGuw
+ SUV5mPRs509SWNkEiI1q9MRMj_PI2nR5Eg5zUwQLH23E0sLG5m74fRLX7h1n
+ pEsObKge9Xnu63zdbzpuND4w.U1L3SCGSCvZwPRQPIPn9zW9lzZ9eLsElXlm
+ Dnz1.lJ88gWbG0g.qQZid.U_WPegUiHDfkz51RSMRITXLWJ03TRhKMB_S4aE
+ PZzMS13sMdrc.wdBjV4aePeV1JP_XFDi.MTIFaczU2CPshNV2ij5J4D3c7Cv
+ AYur51Je.cY_6O4N6QMhZMG0XmIcqChJiKOnBO8_50GwpulDUyKTFfHoExZR
+ fKJeTfexFBNCPTkQYhbnFfUgEVXaANmKm2POjNMUzUFdZC5K1Gmx1V6eygE3
+ ixW5XQRrOb3M3Okj58BKFge4ogzmkp9h91A4MN3qFPopEPeMyP2m3APqAqQO
+ XGAPiepJfgr0SAZHbNO13uEoH2Cto4ajdPvWnDg02V1OciYXNfTxLzB8YzOW
+ DBOAJHF8XAxV.OinfsfpISEQrt_FNEVvZnqDS7ki29o9o35MhuTFuLbiAl2V
+ v8TfA0uB9gnC79YrFzfUdNT1xWLoG75X1lu97e9pmQXnT5ehhdvzjTBHt7I9
+ TIh5Yi3EByh0r3_8B.ZonyvFFm7LA9QbvLDlrnEg5bDhAag2KAIRlYYl39wB
+ J2OzADd9CoHGOQBJwmKIdB.aEhU234VXGdiIkoOt0fdyhnyoiP5FTr08rOcb
+ 0hkW8C4DP_2NJfA1lX5yxCdjSgvD.mUW7HrRzfVkFtgJ90tGRpn9Lb4mxqtn
+ jEKw3cqG.xMPP.LgCJ93kx1vfFh6923qyLNR1mXJxhzcQNTuukmTQH7O9YFg
+ 99TQlSeTtyDaAd5Z9bQjy9RRXfE_pe00h0CU2sZjSHu32LxCKI1v3v7NS9kl
+ X0yP37sA.7Tvyz63xu3GEOQsZ3TaXw--
+Received: from 209.134.151.28 (EHLO mailer151028.service.govdelivery.com)
+ by 10.206.155.40 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 14:08:54 +0000
+Received: from gepdp-smeds1-7.systems.dc.gdi ([10.5.36.52])
+	by mailer151028.service.govdelivery.com (-); Wed, 31 Aug 2022 14:08:51 +0000
+X-VirtualServer: VSG001, mailer151028.service.govdelivery.com, 10.5.36.154
+X-VirtualServerGroup: VSG001
+X-MailingID: 16837435::20220831.63021981::1001::MDB-PRD-BUL-20220831.63021981::ms60710444266@yahoo.com::154613_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=wJby
+	cHh/cZQ4qiOegtD52B0XnJvT1UY6ZFpyJ+PlhQ8=; b=bJs8IROty6xHYRwDrJiu
+	hSL5MLwR9yiBzkVbRQAdjsS17C/m8I7CmXHDQEjW+kPAS/6MZ+svxKREHqWiE/kM
+	qOs4r10azrE8KGuDtjYC8/8QF4u+SftSKpXAb4QFmCJIXOcUfjvO5xKKYnIXYDUt
+	dgKVgpvWGtVq3CRcxxhdmOsIFTbO/CDH1pyowA9O08qzN/VvVzK5Tl8VV+XXQwez
+	/Te3y3/luzIh922q/nfQSXTnkG8Jjee0t0Mon6xlIkAWmXBPkLdl5XFt+thaMpzK
+	yjaLyTFYNc3a2kOSv3EmKyur5/1VwBqLpGTRL9xKgXgA9uYkME+/LBYu1D46kA06
+	9A==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_D28_EC30_0B3B6083.2267B5AF"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIcpQ2Piw5CzgKvLa4RRpQC81gZV6xb4L0oT+5lW4wD9vr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16837435.154613@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK8EFRJJ13A5TJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Getting_Started_with_HQRP_CASPER_QM_Reports?=
+Date: Wed, 31 Aug 2022 14:08:44 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 19077
+
+
+------=_NextPart_D28_EC30_0B3B6083.2267B5AF
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+header=20
+=20
+=20
+=20
+
+________________________________________________________________________
+
+Getting Started with HQRP CASPER QM Reports
+
+Two updated documents *"Getting=A0Started with HQRP CASPER QM Reports"*" =
+and *Getting Started with Review and Correct Reports *are "now available =
+on the HQRP Requirements and Best Practices webpage
+
+These updates add new screenshots with detailed explanations of the most =
+current reports available to providers and will help in understanding and=
+ using the reports. These revised documents are located on the *HQRP Requ=
+irements and Best Practices* [ https://www.cms.gov/Medicare/Quality-Initi=
+atives-Patient-Assessment-Instruments/Hospice-Quality-Reporting/HQRP-Requ=
+irements-and-Best-Practices ] webpage in the *Provider Toolkit* section o=
+f the Downloads.
+
+=20
+=20
+=20
+=20
+
+Center for Clinical Standards and Quality
+
+=20
+=20
+=20
+=20
+ =20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_D28_EC30_0B3B6083.2267B5AF
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Getting Started with HQRP CASPER QM Reports
+</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css">
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and =
+other text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+
+
+</head>
+<body style=3D"margin:0;padding:0;margin:0;padding:0;width:100% !importan=
+t;">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #EEEEEE; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#EEEE=
+EE">
+<table id=3D"flexible-abe-main-table" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-top: 20px; padding-bottom: 20px=
+;">
+  <tr>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+    <!-- centered column -->
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77802059">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-f2b81f65-dade-45c1-be31-fc024a43ea4a" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-7c255217-ff31-4=
+367-ab06-b165b0610e14-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-7c255217-ff31-4367-ab06-b165b0610e14" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77802060" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-7c255=
+217-ff31-4367-ab06-b165b0610e14-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 0px;"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USCMS/2019/07/2720738/=
+post-acutecare-original_original.jpg" style=3D"width: 600px; height: auto=
+; -ms-interpolation-mode: bicubic; line-height: 1; outline: none; text-de=
+coration: none; max-width: 100%; border: none;" alt=3D"header" width=3D"6=
+00" height=3D"119"></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77802062">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-4763355d-740b-4927-989a-fa6c05d6c8a4" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-bf09f5a3-1f5a-4=
+6c1-8d7b-2fa371e43906-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-bf09f5a3-1f5a-46c1-8d7b-2fa371e43906" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77802063" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-bf09f=
+5a3-1f5a-46c1-8d7b-2fa371e43906-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 0px 10px 10px;">
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h2 style=3D"text-align: center; line-height: 1.2; color: #000000; font-f=
+amily: helvetica; font-size: 17px; margin: 0.83em 0 18px;" align=3D"cente=
+r">Getting Started with HQRP CASPER QM Reports</h2>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; color: #000000; font-family: arial, helvetica, sans-seri=
+f; font-size: 14px; margin: 0 0 15px;">Two updated documents <strong><em>=
+Getting=A0Started with HQRP CASPER QM Reports</em></strong><em> and <stro=
+ng>Getting Started with Review and Correct Reports </strong>are </em>now =
+available on the HQRP Requirements and Best Practices webpage</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; color: #000000; font-family: arial, helvetica, sans-seri=
+f; font-size: 14px; margin: 0 0 15px;">These updates add new screenshots =
+with detailed explanations of the most current reports available to provi=
+ders and will help in understanding and using the reports. These revised =
+documents are located on the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwMjE5ODEiLCJ1cmwiOiJodHRwczovL3d3dy5jbXMuZ292L01l=
+ZGljYXJlL1F1YWxpdHktSW5pdGlhdGl2ZXMtUGF0aWVudC1Bc3Nlc3NtZW50LUluc3RydW1lb=
+nRzL0hvc3BpY2UtUXVhbGl0eS1SZXBvcnRpbmcvSFFSUC1SZXF1aXJlbWVudHMtYW5kLUJlc3=
+QtUHJhY3RpY2VzIn0.iaYk5JomkKlOAQPIW7U-VQjWXFtiUQ8Wq6tYK4INV7I/s/260178835=
+8/br/143325714328-l" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; color: #1856CB;"><strong>HQRP Requirements and Best Prac=
+tices</strong></a> webpage in the <strong>Provider Toolkit</strong> secti=
+on of the Downloads.</p>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77802067">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-b884013f-62bd-402b-a68a-e05be022627a" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-7c561a16-a5e6-4=
+087-a760-5d6e9988b483-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #20549E;" =
+bgcolor=3D"#20549E">
+<![endif]-->
+<div id=3D"abe-column-block-7c561a16-a5e6-4087-a760-5d6e9988b483" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77802068" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top; background-color: #20549E;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-7c561=
+a16-a5e6-4087-a760-5d6e9988b483-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 10px 10px 0px 0px;"><p style=3D"text-align: right; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; line-height: 1.4=
+; color: #FFFFFF; font-family: arial, helvetica, sans-serif; font-size: 1=
+1px; margin: 0 0 15px;" align=3D"right">Center for Clinical Standards and=
+ Quality</p></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+  </tr>
+</table>
+</td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjE5ODEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.1K32lCSWZxALpz4j2pBtFpVbP9KmmvZf3mjjmQZ_zGU/s/2601788358/br/1=
+43325714328-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjE5ODEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.hLa2G3PguDpaRIU_3byNXN=
+TxrqvMWuEPutsP4cvpjQ4/s/2601788358/br/143325714328-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMjE5ODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.0sIjRWS91vjACqPaW3FUBZ6uIMLUmi01Jz4jIJFNl=
+b0/s/2601788358/br/143325714328-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEu=
+NjMwMjE5ODEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.h5KWW1Xw_tmlxd3MDATSvG=
+u5vr5-vKTSuXL0QtsR71Y/s/2601788358/br/143325714328-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjU3MTQzMjgtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMjE5ODEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDIxOTgxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODM3NDM1JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_D28_EC30_0B3B6083.2267B5AF--
+

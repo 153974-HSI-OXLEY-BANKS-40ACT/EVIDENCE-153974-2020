@@ -1,0 +1,483 @@
+From - Sun Aug 28 22:52:51 2022
+X-Account-Key: account1
+X-UIDL: AIt/f8kzCe0uYtguWwB5GI5zA4U
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.137
+ by atlas219.free.mail.bf1.yahoo.com with HTTPS; Wed, 20 Jul 2022 16:33:30 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.151.47]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.151.47 as permitted sender)
+Authentication-Results: atlas219.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 20 Jul 2022 16:33:30 +0000
+X-YMailAVSC: b4gtrRs3bBuWN5vzZ0X6HieAlrXEKBLG23aDym26nBHde39
+ MwVK4uSuOPsVAx9q_BnTcc8f_sPlpknA3LnSLLvOE8U_ByIpue678zMaQSAQ
+ z1Gq_Hh1.uhF1xV0B3CkV0ehg_tDzQ__awWK5OShJKUjq8kSI3tTu9rgcBOj
+ r.utOwmzbBvSOFyHZiuEPwOiVwauCVEoBPv1WpX4mdEPRPqlMbg_yg8deIzP
+ Yxa7cqeRvXlfBJ6sqyVjGYoIp_vUgn7OmTQSCuIAfW_1RX.ADj5ccCWdK0iF
+ uuIG.tqnF9u9Zh2lSFI6ckPV.FgNV3cbF3n4kSS62HZvh_Ir1IrjT83znEp5
+ 0Wh1ofkK54Xzxf0m8OrxNxzV5VqWAp9SdJDRWX25wmES.mS71DZheG1Y91cG
+ BRA9ZoIAO7zqNcJvwkBV0uKxgzwYVF5L79128QVfUhwdDfrNVwOwW5qtrO8_
+ _hM2z3Ci1rd.hGTXly7blV4mEkeNrsLNDfTxoSiwyeJPeNRJ_PLjX.qZfBUO
+ GGW0hiW44B7NKZVICys8TnoXxWv_YXFkC2dXuygTydZvdZSlxJ9wIqiCYeOf
+ N1OSx7QNGDqBCIuBTXoidx5l8mUh1pXS.YDKbcbu.G2mU0QyIln_pWq2xSDY
+ s6Gj1_zrvDrKZOtrBeLH1R1ORx4kSnmZWMXd.d9xakj24Oors0jFVhO.MmeX
+ MKiSdSJoNWShYG.5VhCit8Q.Q9G0IOzseO2pF_rv91qq4qD9zCcRQ9C9KkCe
+ lEabJwM8aeMh4ocxwBSMD6YLtQULn6gVUGGrmcrlUWlkx8lLSyWLU_nEIDHY
+ JN1tvQYRsB4mFMjDHPYKRKBRTMaWW9aWUdr6rEyjHGFP32nlTWE7nmXeAvjE
+ m39rbQUVmufz5QbJO._dyCUwJ2.1LnObZhmPAbxdsusBLzWsfmBMgIs9BDNL
+ makMvLtIHeYZOAXyJfyKRFUANPSmDrJG5PhL5YK_xHNK5dHzdkARSRrdcRKr
+ ZeO6JuhWjyKzyT34bEIbRS01PpX9qFzx_atJrb9vjnVBaBBcQwEfs5udMEmF
+ 9RVioSowhTeaglbVYuqoCY0XiIDytbEz5OSqF25DT5HRbnreY96wdvoIIHBB
+ R8BzTagiqRPYV_.yVrfJH06gM0uqpP0ywtikaaHkjdBNfFw0mfH7LL51C4U8
+ tU8U3NtuzpvJr4o6vrPBNpE1D0z5pdCmrXM.HTrWRU7ud.SRanzLNTNhpDJd
+ LtuSf8txZ6WP6CLPb85CiFjjNLxZIJjiINqfZrslcIk.wAg_ckirOFH.7enC
+ lUdOqMgSZqMgHNfQzKtRgf9Rx2X7QMqB5y4ltkEAbPQ5TUt3EAOGkHlES9ET
+ D_2MUBbCRy2ar9_pGOoDJtY4-
+X-YMailISG: IKjcpx4WLDuvYwHZ1PQnhqs5zGgvoRXqzEKjbyFbGqGag7C8
+ _T83eucg9zklIHAy_1iNP.3G_fj26gtcdH1UvEXbEnn5sN5nF.PDwlLXer4d
+ HSvkmIdIzzwnTVt0.eRkq2Rx8WAt2BLfQ2mGtb5b2OQg4njmdQw7nxxL8xNA
+ v9NwdlPYvsIi07emgH.fG_CCqPa1pdRosQuAB7w3RKQBONPRFLKQ.N4Sdw5k
+ BQ4KOpfXytx1YkDJiZ4y5X6pRu3sIPRrifrAWkP45PboG9Y.51lt.1ubji_o
+ AVEzmiyOOD8aMfCiJ2gyLnifXzN6950gmV0kPgpuwQdB.sfIzC7FwaOoCQUL
+ LOkiP8pjrNKmkhptdpPKLOI1kzfWVYUpdCow3UPvmIiV12QDfZO5PVIE3Ce8
+ fm8ayqAmzKXCEb95P9zZwJmqxWTSG8cWLDKOTs3oYeSWK7s0s8jQvxNHCQof
+ XRM4yCPN39Lav1LUsdChUAXq4nY1Upt8JtxYLEEcuQBlvpmtCvA61DpdHXQb
+ gm4mJ5BUK.OzBea6mvp_xS35a4R7qrTsftsoRZc1Sej.cm_XUorwqUZV5vO2
+ LwLMeIUuLc_KHjCwObMjN2b4jGxRM767_2vnlGDp0ulzrUoh7FZFtuzvJCuB
+ JJ.ajel.9SQZtlnfs2f8lZg4QEyPTcH8.dZSofcw.spRMzfp4wD6VnKgHA_S
+ SSQN7hqaAlDkhO6dBSXVYjD.2GtqI1bEBxRHWBLJlcHu49JMbbwbCow7XJvw
+ Q4iRiMnfpG67lONC_GAcNJ_GhDazQE_.RHMsc3d.IcX3S7ClLBWTmVzHcX1X
+ 6uKImnuNSlOaIqxb_LozXI8W6vALrhKEZ6rEbe3zEkKs9z6ekhHS953bidxF
+ RuoO2sPUbT8Qhje0XVLAy2haSWaFChbTf73wIS9STFeaVSlUgSog1YfBjWeP
+ 1ow9xf_B9ZGkjBfrGZGHAooiGfO41hjGCsYYIbY2AfbQlUP9YSeLj_KaCS.K
+ B_XorGWkOJIVvAjU_WKLXlI5JAHBZaSw09ia5WKEbmtdzmxRfOFMSp566oiG
+ JL6unN5tp2aCbSn3i6vvuGyUHadcpccrG5i4helvcuauTRsStDoGNDJcNpoj
+ sPektJ5VcQ1guywWuVomd42ry3urXfpy90MwCXaCrRDZ34YArTFlMElYRU9J
+ PvbGV9w-
+Received: from 209.134.151.47 (EHLO mailer151047.service.govdelivery.com)
+ by 10.197.33.137 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 20 Jul 2022 16:33:30 +0000
+Received: from gepdp-smeds1-2.systems.dc.gdi ([10.5.36.52])
+	by mailer151047.service.govdelivery.com (-); Wed, 20 Jul 2022 16:33:25 +0000
+X-VirtualServer: VSG001, mailer151047.service.govdelivery.com, 10.5.36.111
+X-VirtualServerGroup: VSG001
+X-MailingID: 16822731::20220720.61035131::1001::MDB-PRD-BUL-20220720.61035131::ms60710444266@yahoo.com::121272_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=5oT5
+	J/XDOYrrHCBnCJsyviZ+41zFivyQL6A7zwyrW28=; b=IagBKQcZ7YqAslm1yRGx
+	g218FRxxu7lZSTDD4ZJE5EjdMUsRSSdFHK7gzn3OrX6c1BivAyvGgpqoctFrCXjM
+	xbc13cSInqkeAElpFwBaC/InCsNYZD/HV1qVaNBhGKXkuoapov3sNWwHoqLQhQ2X
+	fuo4HqutfIO6no5FkAtvuZLzVSbgCaX+Hcf8w8NZwlmbN/y1OXIJ/l3dNU6G15u4
+	mlK1PmltBoq/wJSwYe1XZFu3k8psh6AgIINXsrAndtiwq36QPoT5AcwK1XOteeSk
+	fsXASl+6DwhezHl/njqPPZEETCMSLmKKy7rfQZsVCScgLCSNYHkMhRo2f2VDASHV
+	BQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_8F1_D2C9_2D242415.1B6F8361"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI10fk5ZHv12JadBNSE4zvBA7MuJ2eXYk42WjqmhFiIVTr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16822731.121272@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK6C1TJJHCHXJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Now_Available:_Updated_eCQM_Data_Element_Repository_?= =?US-ASCII?Q?(DERep)_for_CY2023_Reporting_and_Performance_Periods?=
+Date: Wed, 20 Jul 2022 16:32:44 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 16784
+
+
+------=_NextPart_8F1_D2C9_2D242415.1B6F8361
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+centers for medicare and medicaid services  Medicare Promoting Interopera=
+bility Program =20
+Now Available: Updated eCQM Data Element Repository (DERep) for CY2023 Re=
+porting and Performance Periods
+
+The Centers for Medicare & Medicaid Services (CMS) has updated the=A0Elec=
+tronic Clinical Quality Measure (eCQM) Data Element Repository (DERep) [ =
+https://ecqi.healthit.gov/mc-workspace-2/data-element-repository ]=A0to p=
+rovide information for=A0eCQMs=A0used in CMS quality reporting and incent=
+ive programs for the calendar year (CY) 2023 reporting and performance pe=
+riods. The=A0eCQM DERep=A0provides information on the=A0data elements=A0a=
+ssociated with=A0eCQMs and their definitions. Each=A0data element=A0also =
+includes the associated=A0value set=A0or the=A0direct reference code=A0(D=
+RC), the=A0Quality Data Model=A0(QDM) datatype, the=A0QDM attributes, and=
+ QDM entities used by that data element. eCQMs for 2023 reporting and per=
+formance period use QDM v5.6 [ https://ecqi.healthit.gov/sites/default/fi=
+les/QDM-v5.6-508.pdf ]. The intent of the eCQM DERep information is to im=
+prove clarity for those implementing eCQMs.
+
+Please send any comments, suggestions, or questions regarding the eCQM DE=
+Rep to=A0ecqi-resource-center@hhs.gov. For more information on eCQM devel=
+opment and implementation, see the=A0Electronic Clinical Quality Improvem=
+ent (eCQI) Resource Center [ https://ecqi.healthit.gov/ ].
+
+ =20
+
+Centers for Medicare & Medicaid Services
+
+=20
+=20
+=20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_8F1_D2C9_2D242415.1B6F8361
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Now Available: Updated eCQM Data Element Repository (DERep) fo=
+r CY2023 Reporting and Performance Periods
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+
+/* Sets the line height in everything but Outlook */
+table#yahoo body, table#yahoo p, table#yahoo .gd_p, table#yahoo p span, t=
+able#yahoo li, table#yahoo li span { line-height: 1.4; }
+
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 10=
+0% !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 auto 10p=
+x auto !important; display:block !important; float:none !important; text-=
+align:center; }
+table#yahoo table.gd_combo_table td.gd_combo_image_cell .govd_template_im=
+age { margin:0 !important; text-align:left; }
+table#yahoo #main-header .govd_template_image, table#yahoo #main-banner .=
+govd_template_image { max-width: 480px !important; width: 100% !important=
+; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #eef3fa; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#eef3=
+fa"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+
+<tr>
+<td width=3D"100%" style=3D"padding: 20px 0;" class=3D"mobile-padding">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFF=
+FFF; border-collapse: collapse;">
+
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header" align=3D"center" style=3D"background-color: #FDFDFD; p=
+adding: 0px 0px 10px;" bgcolor=3D"#FDFDFD">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2018/12/2309016/cmmiheader-original-origi=
+nal-original_original.jpg" style=3D"width: 600px; height: auto !important=
+; max-height: auto !important; border: none;" alt=3D"centers for medicare=
+ and medicaid services" width=3D"600" height=3D"82">
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-banner" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Banner" align=3D"center" style=3D"background-color: #FDFDFD;" =
+bgcolor=3D"#FDFDFD">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USCMS/2022/01/5357851/3894287/promoting-interop=
+erability-programs-govdelivery-tem_crop.jpg" style=3D"width: 600px; heigh=
+t: auto !important; max-height: auto !important; border: none;" alt=3D"Me=
+dicare Promoting Interoperability Program" width=3D"600" height=3D"105">
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"padding: 20px 15px 0px;">
+<h1 class=3D"govd_header" style=3D'margin-top: 0; margin-bottom: 10px; li=
+ne-height: 1.1; font-weight: bold; color: #000000; font-family: "arial bl=
+ack", "avant garde"; font-size: 23px; text-align: left;' align=3D"left">N=
+ow Available: Updated eCQM Data Element Repository (DERep) for CY2023 Rep=
+orting and Performance Periods</h1>
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px; t=
+ext-align: left;" align=3D"left">The Centers for Medicare &amp; Medicaid =
+Services (CMS) has updated the=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJ=
+IUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGx=
+ldGluX2lkIjoiMjAyMjA3MjAuNjEwMzUxMzEiLCJ1cmwiOiJodHRwczovL2VjcWkuaGVhbHRo=
+aXQuZ292L21jLXdvcmtzcGFjZS0yL2RhdGEtZWxlbWVudC1yZXBvc2l0b3J5In0.QIw2ecD7o=
+zhrNz_ywBXH0FaLj2ifNXGQKep7Gb9GlKE/s/2601788358/br/141329913308-l" style=3D=
+"color: #3B36AD; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;">Electronic Clinical Quality Measure (eCQM) Data Element Reposito=
+ry (DERep)</a>=A0to provide information for=A0eCQMs=A0used in CMS quality=
+ reporting and incentive programs for the calendar year (CY) 2023 reporti=
+ng and performance periods. The=A0eCQM DERep=A0provides information on th=
+e=A0data elements=A0associated with=A0eCQMs and their definitions. Each=A0=
+data element=A0also includes the associated=A0value set=A0or the=A0direct=
+ reference code=A0(DRC), the=A0Quality Data Model=A0(QDM) datatype, the=A0=
+QDM attributes, and QDM entities used by that data element. eCQMs for 202=
+3 reporting and performance period use <a href=3D"https://lnks.gd/l/eyJhb=
+GciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsI=
+mJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwMzUxMzEiLCJ1cmwiOiJodHRwczovL2VjcWkuaG=
+VhbHRoaXQuZ292L3NpdGVzL2RlZmF1bHQvZmlsZXMvUURNLXY1LjYtNTA4LnBkZiJ9.Xfz57O=
+COgGQtItGHmbg5gpWZhqSP0xWERJ8GdhqUJIA/s/2601788358/br/141329913308-l" sty=
+le=3D"color: #3B36AD; text-decoration: underline; -ms-word-break: break-a=
+ll; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hy=
+phens: none;">QDM v5.6</a>. The intent of the eCQM DERep information is t=
+o improve clarity for those implementing eCQMs.</p>
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px; t=
+ext-align: left;" align=3D"left">Please send any comments, suggestions, o=
+r questions regarding the eCQM DERep to=A0<a href=3D"mailto:ecqi-resource=
+-center@hhs.gov" style=3D"color: #3B36AD; text-decoration: underline; -ms=
+-word-break: break-all; word-break: break-word; -webkit-hyphens: none; -m=
+oz-hyphens: none; hyphens: none;">ecqi-resource-center@hhs.gov</a>. For m=
+ore information on eCQM development and implementation, see the=A0<a href=
+=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMD=
+IsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwMzUxMzEiLCJ=
+1cmwiOiJodHRwczovL2VjcWkuaGVhbHRoaXQuZ292LyJ9.2hOSaZgmwAFCVvVljKjxZePmix3=
+VBzs4u6PYzLjUJ7I/s/2601788358/br/141329913308-l" style=3D"color: #3B36AD;=
+ text-decoration: underline; -ms-word-break: break-all; word-break: break=
+-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Electro=
+nic Clinical Quality Improvement (eCQI) Resource Center</a>.</p>
+</td>
+</tr>
+
+<tr>
+<td id=3D"bottom-body" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Bottom Body" style=3D"padding: 15px 15px 5px;">
+
+</td>
+</tr>
+
+<tr>
+<td id=3D"main-footer" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Footer" style=3D"background-color: #00529c; padding: 5px 15px =
+15px;" bgcolor=3D"#00529c">
+<p style=3D"line-height: 1.4; margin-top: 10px; margin-bottom: 10px; colo=
+r: #FFFFFF; font-family: arial, helvetica, sans-serif; font-size: 11px; t=
+ext-align: right;" align=3D"right">Centers for Medicare &amp; Medicaid Se=
+rvices</p>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwMzUxMzEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.YrhRHQsl3vTPe1dd7gntYYoOyVTnYCEp4Jvk-GbZqzM/s/2601788358/br/1=
+41329913308-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjAuNjEwMzUxMzEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.Ts_7NXW1GJxWXs6FjI4U6K=
+LTucwMy3a6RfnWy93Vl_I/s/2601788358/br/141329913308-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjAuNjEwMzUxMzEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.0SRqNCeIbWKKZwDwqZbaCEwUcpff8wDJS8FgLTSbb=
+Dw/s/2601788358/br/141329913308-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjAu=
+NjEwMzUxMzEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.JalO0zNe7XKR_G4V0UYxUn=
+6rzjdxvj1CQ7FYeZxLXfM/s/2601788358/br/141329913308-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDEzMjk5MTMzMDgtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjAuNjEwMzUxMzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzIwLjYxMDM1MTMxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIyNzMxJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_8F1_D2C9_2D242415.1B6F8361--
+

@@ -1,0 +1,449 @@
+From - Sun Aug 28 23:00:58 2022
+X-Account-Key: account1
+X-UIDL: AEHq1h02kxJiYvEJ+wrF0MYm/nw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Mon, 8 Aug 2022 13:04:59 +0000
+Return-Path: <cmslists@subscriptions.cms.hhs.gov>
+X-Originating-Ip: [209.134.158.43]
+Received-SPF: pass (domain of subscriptions.cms.hhs.gov designates 209.134.158.43 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@subscriptions.cms.hhs.gov header.s=17q3;
+ spf=pass smtp.mailfrom=subscriptions.cms.hhs.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.cms.hhs.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 8 Aug 2022 13:04:59 +0000
+X-YMailAVSC: 3BAaK_43bBuyHP85IoQOKCYwyNzmp9mA_qxcY250ySO6Vhn
+ zKfm_X8gezpM3zh._tzIlvhVQg7doKZPQRHpT7jaipMFVGm_d5oDNI8wkVNO
+ f_JbiAS3vtFuE2IA1ooO9bP4A4jJWEhPdLaKNOH.b_S47bUNSRmnJqdnbO6w
+ 12r.MKuY2qvrgWg9k4S85CWPZlu1YsZ3iEUOgkJaiLRewnSfwoij6w3xrhmS
+ sL625z2AdC2VcxtlZawfmNEUexH8g1DzsDcmdMkY1IMMDWR6aq2p.npCqwUn
+ r_pOgO3yR_sfHbG.MitOP3oF3XK173ZKQkJ_waRMObtIYhpBiu.N.tCzsjhz
+ DRzx11XQFxVgjUJU3G5oQkftBESMcPLmtPi4UhR2VnLMGGXEnoO0nD2bMZFi
+ M5gj8F55VY0ucfD3UWqSOm6ZmYYDtGQpaFN825r_VCb0qpnyyxAcXkKqjId0
+ j0kk6TQGEPoI6.sER9b.HW9HepFypXwquYf1EGvtaJQ1mnjcxR34zSnJwX7K
+ 5kpBx4rBU4E4_l.iKCIXqt6rpAcaEAYAESUFRCO_HsAnL.RGxEDi.vITiybb
+ kKhd4jUwhkGKAhHzBlNM_x5ViCnDdZ3.BwB6JcYDVl4puUF4LVEe5HG1bY5u
+ XJGEV16iMQTWJlwhai35hQhTJe.B1O0sRmuNC.xiFcUeVQAN.7xkeZxAtD_M
+ SRr6Gs663TMXcvO2s8EfQdVZ7.uX_n1apmEieTtB3FIcfrSmbP83eZimnO_a
+ 8FDcjjzGORNILNI72CPAjUPNmWxg5lFxfIgqIP8INA5O_JKBAVJw1jS9lt3c
+ 2_rIs01x8WPd6t6deViIDHa2NHguefM4WiEQR.bi6jkTOT2WERAkUWaxGsGb
+ j_N4kBy0RS3__jIBeTu2LOAqRLTdrfNCPxvmFG0WcZDNm8sWgbsSGUDN4a0V
+ lufbnAwmuKzCnQkFvud.7QL0Cz_uR6oOVGflZ4yY3Yzp9wN1pRYXMEkDRsvT
+ DK.4LihC0.BOQzVSU10rCRuOFdh4bEKg764t63M6YTppYqFL0b5jZ5pC_lBK
+ VoFyLWO0LW2LrFh0DSlt9gxfZaoRiRDBs052HEv3frwdMTSh7El7DrkW2C7Z
+ OR5TJjuPRSDCArz6EF9FGxqESiCg1r0OAfpyxPhnIk3EcmlXWutOmP6fWgQJ
+ r3H9FWJvvrlbrexWlvv8RprCKpVfWYaZ1GJAndsKUHgZXRqnH5OnKA_T4Ea7
+ gTPnAmztX7DnTmFJEjTedJVwnr4SYh0GmnX70amHPvFFl8bIIs4zsnJGX4jc
+ zjxZuCbv0z_dy1GHhSc85plBrIjIkuw7Qn4qHQzPwD73XheU986O4vOcFIOn
+ YiRnHJcKqlrDVAQKAJNWQ_REy40a0pVOE6cQurF53._h2
+X-YMailISG: VI6cMesWLDvbYIQkHUvnoNI3JR.hgqAV4gsyQ_ggZiWT5OhC
+ 0Z2iHcMgCXJS1uoxFKPKYMsUhGO0kc2vw8qFc34gIRX44KCqV8zjrQuB0iID
+ hovRSI2b5uinSfcLKkR8AvQbNTw7yIPFyxbG3Awx1bhGZHKmco9Csk7NXmhL
+ 4_bEus9EYMG5W7jE2lEaMlsBvP6CRyrLSDWuUO7T.iZhMSs79sGTNcYRc9Ha
+ obZRmUIkRKbn24_zXewkCFSupsG9oaKQ.PCuu9w24.n5NjoxR2eWa9Gn_M7h
+ Sau.JllHc.lchb.yosU.iyVeln24wQWawDBqzFrUWoKtMSGmYr8ahixLr.9B
+ VRYEE8vjdHH6cqcC5ZyMEeAQMMEL8STP18X3fI1ejPAe8i4uOyqsRs2cs9BR
+ 8K4UWrfSVkDkJLLxCEodpMlm_DvoJLLkn4OYhsgJ5DsPoyMrKHj8Lqgswv7J
+ WBX5eomTvjQd48wwVu8wLRQsDKHfb5pd.AAHCVzA2V9DBlhIMU0S3pKLUpQ7
+ SiSyeimMA_FxPpcXrj.jysmATpSe7qohTkGCw0H5xNz7x4zB9wgEGrekD5xA
+ t_z8s2x_mwDOZ_a.svZdNHfaMJeCZ4QaiRz4bvLC8fgX59twgq6Yz2LyekVl
+ vZGW4jKzPQtks81cl5eU23LcZCDMZhGxhbf1Gq1_V8ZemkOEUPlx6AFj.IMI
+ OrIdQJeal7DRDdKUeYDZ74.jdVqSNOz52fwMN3E1dL.Ty6J_QQiyQQDDCEMl
+ epNwRtIZm5nSdZWqImvQmmuR9j3e6Yg0xGXmVufwS0geKQTjXOe_pKFxkYgx
+ EKsIYyBS8rTRDNi8n9GyKZ.k1FeSh6SAFx.aTe1n7gtfFoZ4keywrv9y47Wx
+ O2RaxNGkFipn86wPz9DhiN_fwLLGz2hopeC5BN0gB2s.Soa8lz0VVRFZCaNf
+ zkX8DICEpXW3ODlRf7Qt2NmBXeb0pcuKl5Kn41JbyizfWMjq0URuZailNQea
+ 2ozKQuC_GOF.WE_T899dhE1WkXO.bZEyMy5VRv14X1zcOIRJjzdDOuaD0RGD
+ DAwUUOHPy1pYX1428VE712ZTcbAHux0CqY_ZJJQqIW8pi_JFqlTlz25NBmGt
+ DcnEVi6JiEdDrKeIvkP3EvwC8DTM2pUq9nLxWUB6C16jJN54syymtBXOX303
+ tHyr6TALCDEqql0XtJhtJLo-
+Received: from 209.134.158.43 (EHLO mailer158043.service.govdelivery.com)
+ by 10.253.231.25 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 08 Aug 2022 13:04:59 +0000
+Received: from gepdp-smeds1-2.systems.dc.gdi ([10.5.36.52])
+	by mailer158043.service.govdelivery.com (-); Mon, 08 Aug 2022 13:04:56 +0000
+X-VirtualServer: VSG001, mailer158043.service.govdelivery.com, 10.5.36.112
+X-VirtualServerGroup: VSG001
+X-MailingID: 16828984::20220808.61925001::1001::MDB-PRD-BUL-20220808.61925001::ms60710444266@yahoo.com::112359_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.cms.hhs.gov; s=17q3;
+	i=@subscriptions.cms.hhs.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=JYDK
+	CJQ21LtSUVb+qrbKuqDuc5gPoBknmfS03+QsCyg=; b=QEjk0fttFsy8mGI8hmd0
+	Mgd67zoSlIv0b6fanuYMw7yJMFDmcND3xigB7KLiY73F8ZEn4GIQqgvNxSGpLjmy
+	OyP5ypjEPZFubvqAPrkfm1uHXm0kkncasRSzbKRi8lUQTnrKQjbGVQrTMhq/Rn6M
+	uu9Y39ZB3j4gBfJIhmMsJHpI8WGyQf2e1VHqo69WP82W6wWPjdxT94ufQ3h8wLsG
+	a9Bk7HS3FtUaWu9vz37RedDk1hcqrq9Hh7W0aUNNp7k1PKov2+Gu5m4rULA8RvHm
+	ZO/3GW/Bd1qd+ltmSs51AU+876UFct0MPOnzO8MnmnKqiyqffjPdV/j7VH/KtZ3b
+	1w==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_E05_9CAB_4AB34B14.004D530E"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIsLxEWXSpTwCMJQIv5IH+bMFYklC4YvvbjH8F6UVyXJPr3ucJaD/vQMfW3geLi4m3fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USCMS
+Errors-To: cmslists@subscriptions.cms.hhs.gov
+MIME-Version: 1.0
+Message-ID: <16828984.112359@subscriptions.cms.hhs.gov>
+X-ReportingKey: MJJJ2EWJK7A7VJJG74VJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?Lessons_from_Five_Years_of_the_CMS_?= =?US-ASCII?Q?Accountable_Health_Communities_Model?=
+Date: Mon, 08 Aug 2022 13:04:52 +0000
+To: ms60710444266@yahoo.com
+Reply-To: cmslists@subscriptions.cms.hhs.gov
+From: "=?US-ASCII?Q?Centers_for_Medicare_&_Medicaid_Services?=" <cmslists@subscriptions.cms.hhs.gov>
+Content-Length: 16553
+
+
+------=_NextPart_E05_9CAB_4AB34B14.004D530E
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Centers for Medicare &amp; Medicaid Services=20
+Lessons from Five Years of the CMS Accountable Health Communities Model
+
+Providers and payers are increasingly addressing the health-related socia=
+l needs (HRSNs) of their patients to improve outcomes, reduce costs, and =
+address health disparities. In a blog post published on Health Affairs [ =
+https://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.h=
+ealthaffairs.org%2Fcontent%2Fforefront%2Flessons-five-years-cms-accountab=
+le-health-communities-model&data=3D05%7C01%7CAlison.Rigby%40cms.hhs.gov%7=
+C9888fca89e264d3f6bb108da793d05ed%7Cd58addea50534a808499ba4d944910df%7C0%=
+7C0%7C637955600247572754%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQ=
+IjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DhnkQ40=
+lwGVB24Pelhv%2B2Oig%2BiAfbkV%2FqzG5T2XAAMaQ%3D&reserved=3D0 ] today, CMS =
+examines lessons learned to date from the landmark Accountable Health Com=
+munities (AHC) Model test, which launched in 2017 and ended in April 2022=
+.
+
+AHC was CMS=92s first model test focused on evaluating HRSN screening, re=
+ferral and navigation. It was built on emerging interventions in Accounta=
+ble Care Organizations, Medicaid Managed Care, Medicaid health homes and =
+home and community-based services programs.
+
+Early evidence from the AHC Model is promising and there are many lessons=
+ to share as CMS aims to continue addressing HRSNs and social determinant=
+s of health for Medicare and Medicaid beneficiaries. In this blog, CMS br=
+ings together key evaluation findings to date and promising practices tha=
+t providers and payers can implement to address HRSNs in their patient po=
+pulations and communities. CMS also describes emerging themes for how AHC=
+ Model participants, called bridge organizations, plan to scale and susta=
+in the model interventions and how lessons learned are being embedded acr=
+oss CMS.
+
+For more on the AHC Model, visit https://innovation.cms.gov/innovation-mo=
+dels/ahcm.
+
+Other AHC Model Resources:
+
+
+  * Advancing Screening, Referral, and Navigation Beyond the AHC Model: N=
+ovember 2021 Virtual Meeting Summary (PDF) [ https://innovation.cms.gov/m=
+edia/document/ahcm-virtmtgsummary-nov21 ]=20
+  * Making the Business Case for Addressing Health-Related Social Needs -=
+ Reading Hospital Spotlight (PDF) [ https://innovation.cms.gov/media/docu=
+ment/ahc-reading-hosp-spotlight ]=20
+  * Aligning Provider and Payer Activities to Address Social Determinants=
+ of Health - Allina Health Spotlight (PDF) [ https://innovation.cms.gov/m=
+edia/document/ahcm-casestudy-allina ]=20
+  * AHC Social Needs Screening Guide [ https://innovation.cms.gov/media/d=
+ocument/ahcm-screeningtool-companion ] and 10 translations now available =
+of the AHC tool=20
+
+=A0
+
+Follow us on Twitter [ https://twitter.com/CMSinnovates ] | Visit the CMS=
+ Innovation Center website [ https://innovation.cms.gov/ ]
+
+ Centers for Medicare & Medicaid Services (CMS) has sent this update. To =
+contact Centers for Medicare & Medicaid Services (CMS) go to our contact =
+us [ http://www.cms.gov/About-CMS/Agency-Information/ContactCMS/index.htm=
+l ] page. =20
+
+________________________________________________________________________
+
+You're getting this message because you subscribed to get email updates f=
+rom the Centers for Medicare & Medicaid Services (CMS) [ http://www.cms.g=
+ov/ ].
+
+Update your subscriptions, modify your password or email address, or stop=
+ subscriptions at any time on your Subscriber Preferences Page [ https://=
+public.govdelivery.com/accounts/USCMS/subscriber/edit?preferences=3Dtrue#=
+tab1 ]. You will need to use your email address to log in. If you have qu=
+estions or problems with the subscription service, please contact subscri=
+berhelp.govdelivery.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Centers for Medicare & Me=
+dicaid Services (CMS) [ http://www.cms.gov ].
+
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud 7500 Security Boulevard =B7 Baltimore MD 21244=20
+=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_E05_9CAB_4AB34B14.004D530E
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Lessons from Five Years of the CMS Accountable Health Communit=
+ies Model
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table style=3D"background-color: #ffffff; width: 700px;" border=3D"1" =
+cellspacing=3D"0" cellpadding=3D"10" align=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://stage-public.govdelivery.com/system/images/11605/=
+original/CMSBanner_MockUp.png" alt=3D"Centers for Medicare &amp; Medicaid=
+ Services" width=3D"700" height=3D"120"></td>
+</tr>
+<tr>
+<td style=3D"height: 450px;" valign=3D"top">
+<h2 align=3D"center">Lessons from Five Years of the CMS Accountable Healt=
+h Communities Model</h2>
+<p>Providers and payers are increasingly addressing the health-related so=
+cial needs (HRSNs) of their patients to improve outcomes, reduce costs, a=
+nd address health disparities. In a blog post published on <a href=3D"htt=
+ps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cmwiOi=
+JodHRwczovL2djYzAyLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxvb2suY29tLz91cmw9aHR=
+0cHMlM0ElMkYlMkZ3d3cuaGVhbHRoYWZmYWlycy5vcmclMkZjb250ZW50JTJGZm9yZWZyb250=
+JTJGbGVzc29ucy1maXZlLXllYXJzLWNtcy1hY2NvdW50YWJsZS1oZWFsdGgtY29tbXVuaXRpZ=
+XMtbW9kZWwmZGF0YT0wNSU3QzAxJTdDQWxpc29uLlJpZ2J5JTQwY21zLmhocy5nb3YlN0M5OD=
+g4ZmNhODllMjY0ZDNmNmJiMTA4ZGE3OTNkMDVlZCU3Q2Q1OGFkZGVhNTA1MzRhODA4NDk5YmE=
+0ZDk0NDkxMGRmJTdDMCU3QzAlN0M2Mzc5NTU2MDAyNDc1NzI3NTQlN0NVbmtub3duJTdDVFdG=
+cGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJa=
+zFoYVd3aUxDSlhWQ0k2TW4wJTNEJTdDMzAwMCU3QyU3QyU3QyZzZGF0YT1obmtRNDBsd0dWQj=
+I0UGVsaHYlMkIyT2lnJTJCaUFmYmtWJTJGcXpHNVQyWEFBTWFRJTNEJnJlc2VydmVkPTAifQ.=
+AhNxSYBlcEWvQ5paX0CQmxxEU5VHCwD459_yJGHrXvs/s/2601788358/br/142221507000-=
+l" target=3D"_blank" title=3D"Lessons from Five Years of CMS=92 Accountab=
+le Health Communities (AHC) Model blog on Health Affairs" rel=3D"noopener=
+">Health Affairs</a> today, CMS examines lessons learned to date from the=
+ landmark Accountable Health Communities (AHC) Model test, which launched=
+ in 2017 and ended in April 2022.</p>
+<p>AHC was CMS=92s first model test focused on evaluating HRSN screening,=
+ referral and navigation. It was built on emerging interventions in Accou=
+ntable Care Organizations, Medicaid Managed Care, Medicaid health homes a=
+nd home and community-based services programs.</p>
+<p>Early evidence from the AHC Model is promising and there are many less=
+ons to share as CMS aims to continue addressing HRSNs and social determin=
+ants of health for Medicare and Medicaid beneficiaries. In this blog, CMS=
+ brings together key evaluation findings to date and promising practices =
+that providers and payers can implement to address HRSNs in their patient=
+ populations and communities. CMS also describes emerging themes for how =
+AHC Model participants, called bridge organizations, plan to scale and su=
+stain the model interventions and how lessons learned are being embedded =
+across CMS.</p>
+<p>For more on the AHC Model, visit <a href=3D"https://lnks.gd/l/eyJhbGci=
+OiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1=
+bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb=
+24uY21zLmdvdi9pbm5vdmF0aW9uLW1vZGVscy9haGNtIn0.2gDQaFXEgNs7JVwSONzuI_rZVJ=
+FsPnGoZPRHhh8lHmU/s/2601788358/br/142221507000-l" target=3D"_blank" title=
+=3D"AHC Model page on CMMI website" rel=3D"noopener">https://innovation.c=
+ms.gov/innovation-models/ahcm</a>.</p>
+<p>Other AHC Model Resources:</p>
+<ul>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5=
+MjUwMDEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9tZWRpYS9kb2N1bWVud=
+C9haGNtLXZpcnRtdGdzdW1tYXJ5LW5vdjIxIn0.ognhkvo_rOrJ5-PzjPAejpdfC5dMNtrCiW=
+DSkElqLKQ/s/2601788358/br/142221507000-l" target=3D"_blank" rel=3D"noopen=
+er">Advancing Screening, Referral, and Navigation Beyond the AHC Model: N=
+ovember 2021 Virtual Meeting Summary (PDF)</a></li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5=
+MjUwMDEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9tZWRpYS9kb2N1bWVud=
+C9haGMtcmVhZGluZy1ob3NwLXNwb3RsaWdodCJ9.mfbb08QrhH4KbNIL46SPhyioskFenBFD_=
+sSGPOUYEps/s/2601788358/br/142221507000-l" target=3D"_blank" title=3D"Mak=
+ing the Business Case for Addressing Health-Related Social Needs - Readin=
+g Hospital Spotlight (PDF)" rel=3D"noopener">Making the Business Case for=
+ Addressing Health-Related Social Needs - Reading Hospital Spotlight (PDF=
+)</a></li>
+<li><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5=
+MjUwMDEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9tZWRpYS9kb2N1bWVud=
+C9haGNtLWNhc2VzdHVkeS1hbGxpbmEifQ.OOJcPSt21HRVUl6yQuUp3sCNsrfmJACZhr6y3tz=
+kR10/s/2601788358/br/142221507000-l" target=3D"_blank" title=3D"Aligning =
+Provider and Payer Activities to Address Social Determinants of Health - =
+Allina Health Spotlight (PDF)" rel=3D"noopener">Aligning Provider and Pay=
+er Activities to Address Social Determinants of Health - Allina Health Sp=
+otlight (PDF)</a></li>
+<li>
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUw=
+MDEiLCJ1cmwiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi9tZWRpYS9kb2N1bWVudC9ha=
+GNtLXNjcmVlbmluZ3Rvb2wtY29tcGFuaW9uIn0.VVo7ndQY0tjy3wri4oYM_PTID6uZjoefVw=
+Sz7egGwck/s/2601788358/br/142221507000-l" target=3D"_blank" title=3D"AHC =
+Social Needs Screening Guide" rel=3D"noopener">AHC Social Needs Screening=
+ Guide</a> and 10 translations now available of the AHC tool</li>
+</ul>
+<p style=3D"text-align: center;">=A0</p>
+<p style=3D"text-align: center;">Follow us on <a href=3D"https://lnks.gd/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbG=
+ljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cmwiOiJodHRwczovL3R=
+3aXR0ZXIuY29tL0NNU2lubm92YXRlcyJ9._Eu24MZxoB56foy5JX7vbim1Ms_57k5rSNkoWVo=
+tTLY/s/2601788358/br/142221507000-l" target=3D"_blank" title=3D"CMS Innov=
+ation Center Twitter" rel=3D"noopener">Twitter</a> | Visit the <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cm=
+wiOiJodHRwczovL2lubm92YXRpb24uY21zLmdvdi8ifQ.Rli5MCq5hdSdkge3AH_cowJ4na3_=
+Wh6pkj9gwz4BRQo/s/2601788358/br/142221507000-l" target=3D"_blank" title=3D=
+"CMS Innovation Center website" rel=3D"noopener">CMS Innovation Center we=
+bsite</a></p>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #1c4b8f; height: 75px;" align=3D"left">
+<span style=3D"color: #ffffff;">Centers for Medicare &amp; Medicaid Servi=
+ces (CMS) has sent this update. To contact Centers for Medicare &amp; Med=
+icaid Services (CMS) go to our </span><span style=3D"text-decoration: und=
+erline;"><span style=3D"color: #ffffff;"><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvQWJvdXQtQ01TL0FnZW5jeS1JbmZvcm1hdGlvbi9Db250YWN0Q01TL2luZGV4Lmh0b=
+WwifQ.LHNha5EbWfT85WXI6Zwx8vrfo8hn_TgLHKWe9Y7_6Bs/s/2601788358/br/1422215=
+07000-l" target=3D"_blank" title=3D"CMS.gov Contact Us" rel=3D"noopener">=
+<span style=3D"color: #ffffff; text-decoration: underline;">contact us</s=
+pan></a> </span></span><span style=3D"color: #ffffff;">page.</span>
+</td>
+</tr>
+</tbody>
+</table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"gd_table" style=3D"width: 643px; border-collapse: col=
+lapse; height: 209px;" border=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td style=3D"width: 638.889px;">
+<hr>
+<p style=3D"margin-bottom: 1em;">You're getting this message because you =
+subscribed to get email updates from the <a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cmwiOiJodHRwOi8vd3d3LmNt=
+cy5nb3YvIn0.WCQc8Qq0Jsb84n1D91Nxglmz72LKCk8Fk8AXta19qXM/s/2601788358/br/1=
+42221507000-l" target=3D"_blank" title=3D"CMS.gov" rel=3D"noopener">Cente=
+rs for Medicare &amp; Medicaid Services (CMS)</a>.</p>
+<p style=3D"margin-bottom: 1em;">Update your subscriptions, modify your p=
+assword or email address, or stop subscriptions at any time on your <a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiL=
+CJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNDTVMvc3=
+Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFiMSJ9.KcP-DH9y4uE-OZXPbifSWg=
+0xBpWdCy2qB9oK-u8r0gk/s/2601788358/br/142221507000-l" target=3D"_blank" r=
+el=3D"noopener">Subscriber Preferences Page</a>. You will need to use you=
+r email address to log in. If you have questions or problems with the sub=
+scription service, please contact <a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MDguNjE5MjUwMDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.ITWqmnfCAM4ZxMxNA0IOANibKj66vS33uxitC-erp=
+DQ/s/2601788358/br/142221507000-l">subscriberhelp.govdelivery.com</a>.</p=
+>
+<p style=3D"margin-bottom: 1em;">This service is provided to you at no ch=
+arge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9=
+saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDgu=
+NjE5MjUwMDEiLCJ1cmwiOiJodHRwOi8vd3d3LmNtcy5nb3YifQ.CTURdoGVj8Uy4Lgd7v7dqG=
+sx7DooMahv9RrtCRH6jhI/s/2601788358/br/142221507000-l">Centers for Medicar=
+e &amp; Medicaid Services (CMS)</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"700" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:700px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"max-width: 700px; width: 100%; margin: 0 auto;">
+<table style=3D"border-collapse: collapse;" width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 29px;">
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial; height:=
+ 29px;"><span style=3D"font-family: arial, helvetica, sans-serif; font-si=
+ze: xx-small;">This email was sent to ms60710444266@yahoo.com using GovDe=
+livery Communications Cloud 7500 Security Boulevard =B7 Baltimore MD 2124=
+4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDIyMjE1MDcwMDAtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDguNjE5MjUwMDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODA4LjYxOTI1MDAxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI4OTg0JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_E05_9CAB_4AB34B14.004D530E--
+

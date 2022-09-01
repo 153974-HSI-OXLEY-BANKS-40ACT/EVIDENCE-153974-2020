@@ -1,0 +1,334 @@
+From - Sun Aug 28 22:41:01 2022
+X-Account-Key: account1
+X-UIDL: AKPXTzlENhsJYrtXYA4NqJyQ6kk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.234.151
+ by atlas311.free.mail.gq1.yahoo.com with HTTPS; Tue, 28 Jun 2022 19:32:48 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [208.42.137.100]
+Received-SPF: pass (domain of public.govdelivery.com designates 208.42.137.100 as permitted sender)
+Authentication-Results: atlas311.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 19:32:48 +0000
+X-YMailAVSC: TuZZBFU3bBub3ekht6vxiLxXtOqNtPRg9rVIbynrBUDtEgL
+ C2D5lFhru3MzU8y9O.3Vl9Ew3M8bTevKAmoaje7ENy.7hL62BLFa5ISjqasZ
+ KYvowW1_5DYoXJSvQaQkFbscvaCko_oR0NLCMVtFwoWr1BoZ_F6iuMdkNZlM
+ d8cczjx9Sj5DK7WN9BwFDKca71Uu91.tAo13Rt.X6IMdxPDFcuwC8ZxKO5fU
+ TztFZaz43buptD7GRT0LqUsQww7cjEw--
+X-YMailISG: x5RlyCsWLDumWI5TnW.gQce0t8l5lJPwWiWJ34DIRcgjXCqf
+ RTHNxxLDfZV2vAKC5JHHzf_a8exnOUJMhLxfeTB6fTUc5LCvU4jXMlFK9yuM
+ Ek3kZnGluzJhxS343h.X.vfUkml22gJ6HpNTi4.HZF8AfylhVm54hyftA9Zb
+ HihXLmKbY_0lZHcOXliHSX_V9ZH7B9EPTT4nOtua9jzBoojexYJW_eOaAy_L
+ Nfmddtbp3ck6tRFxfmqfQiSL_GsGCX6Ph39.aaE.ZvTmKzGc21Dr85S0vKyL
+ hPUOGgjkmFuFF4OMsdIod9TBUz_7RHIw3KbYDp2UldUT84NGK5b0.JwijHGD
+ MyYGUws1degOGHoAYub80oi9TJmqwN4HQxtPHJXTfs4LuQJuuh2p_v6b9YcJ
+ aPbT.mEp9yUYu5YxreEU4NSjtdTXoFa0EfOYSeh9TVL3l1_X4xhpfQL9jofq
+ UoceK6TqDRNVdq45Iz.uBSkViNeHi4o_jVSdUL9IsEtowezb9P5JNNzsnZpU
+ kUW596uBW0NxWDolSz1WBhP95vPxgojlYed7euVjz6gk3xSDw4JjMvqSqQTj
+ skQBIGi_EHtK3_jFuv.013uDKQIoCGQlFVNwd0P5bIUW_T0dL8sqdKSdAf7b
+ CKXUa1eKxXKXVO301tARNXAQGrygv828Fe73aWnZF4hMIl_qS8AcPv6n4vDp
+ hcxjL8dJIUUlXBoHj9kk9Ulsf37RxhpL9aVHnIwCHZCmX_DuXTTIlYkIuwkG
+ IMUMyK3cfUWfqjac.aey7Im_kOERTxYtZIIi4taDULATEp9cT3512bhk1STx
+ OLCS_xHsF3xGkVwxbyLq4Gvk1AeQR0ycwYm0OPu3uDu5CM.6ZT7b4ylEj4Y9
+ AY.s2shoGGgXUId0uN34Xtupp09VyvafrvXqopHXqY5KmZqfDgYu6A7fnupO
+ oc1rQdHhlUh6.xvL1uHECIrFvQ.rCo_Y3l_H4AlA7NTB9nTPhzFk493qhJzC
+ h9pQkk9y_fUPA9CrcEJ4eaH6UGP9vnGMD3vjmfc6Ufh0hkZG3JCKe0qeDFtO
+ YAutKVUIfFKGWblUhnpDk.HiHzFnc8uHTc3qcbUvTvVakOp4HaW4CCPDCCVi
+ VdI8G1ghYPjT2Yl4E1h7.prwh03dZ5YsU9bby.qgJiVHTVsGc7CUyd1.xoqn
+ 9DAT.Y9__37aV41XaPU-
+Received: from 208.42.137.100 (EHLO mailer137100.service.govdelivery.com)
+ by 10.253.234.151 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 19:32:48 +0000
+Received: from prod-bulletinprocessor2.ep.gdi ([10.5.3.4])
+	by mailer137100.service.govdelivery.com (-); Tue, 28 Jun 2022 19:32:48 +0000
+X-VirtualServer: Default, mailer137100.service.govdelivery.com, 10.5.38.217
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+X-VirtualServerGroup: Default
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Date:
+	From:Message-ID:Subject:Mime-Version:Content-Type:
+	Content-Transfer-Encoding:X-AccountCode:message-type:Errors-To:
+	X-MailingID:X-SMHeaderMap:To; bh=4T0FL/pPOBOVLPGIx5Q91uaUBV/y/2j
+	u65nXVJlge6Y=; b=arI+w5L6xqmpP5Bdshdb+e5/yRVd00TrDLO0n8vWWmHB2sO
+	L+8gcEqujhUrDDYEyS6ZP3HZ0LHm4STdjjPw+VkGDFft4U5AMSZoCBmtQ6RmOkHm
+	g8E+Y4UVGVFByPKxqzO1xyevNpk67gGHwKDtG07BL1O7MN+bGQw/IAbaJIanmi5Z
+	Gpjy5IQZNUgt9IQ2fndA69e0mxgAgi9Sd9CqVsUMZLrjCK2YRnRM9vByFKMSuvni
+	gnXpUH14rYrQY35BGx/iIuZewyknyEZooRQAWYCQ/fU+DhPPs4nrRUyygHy5McoV
+	2MiaWs0lBSskj9DkkOPTUZKJM8LlPtPq2yhsYcw==
+Date: Tue, 28 Jun 2022 14:32:47 -0500
+From: DHS Office of Inspector General <DHSOIG@public.govdelivery.com>
+Message-ID: <62bb575f1692b_62f0121f1dc84594@prod-evo-bg6.ep.gdi.mail>
+Subject: Welcome New User
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62bb575f1419b_62f0121f1dc844a2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-AccountCode: USDHSOIG
+message-type: welcome_new_subscriber
+Errors-To: messages@public.govdelivery.com
+X-MailingID: 310568378963368::3235567354::0::PRD-ZIPMAIL-3235567354::::1
+X-SMHeaderMap: mid="X-MailingID"
+To: MS60710444266@YAHOO.COM
+Content-Length: 11666
+
+
+----==_mimepart_62bb575f1419b_62f0121f1dc844a2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome,
+
+You have successfully created subscriber preferences for DHS Office of In=
+spector General. You are now able to take advantage of the convenient ema=
+il updates offered by DHS Office of Inspector General.
+
+Please write down your access information for future use:
+
+
+  * Email address: MS60710444266@YAHOO.COM =
+
+
+=C2=A0
+
+ [ http://www.oig.dhs.gov/ ] =C2=A0 =
+
+Contact Us <dhs-oig.officepublicaffairs@dhs.gov>=C2=A0=C2=A0=C2=A0|=C2=A0=
+=C2=A0=C2=A0 Manage Subscriptions [ https://public.govdelivery.com/accoun=
+ts/USDHSOIG/subscriber/edit?preferences=3Dtrue#tab1 ]=C2=A0=C2=A0=C2=A0|=C2=
+=A0=C2=A0=C2=A0 Unsubscribe All [ https://public.govdelivery.com/accounts=
+/USDHSOIG/subscriber/one_click_unsubscribe?verification=3D4.65226d03ad734=
+00876fe17dff4700bcd&destination=3DMS60710444266%40YAHOO.COM ]=C2=A0=C2=A0=
+=C2=A0|=C2=A0=C2=A0 Help [ https://subscriberhelp.govdelivery.com/ ] =
+
+
+OIG Hotline - report fraud, waste &amp; abuse [ http://www.oig.dhs.gov/in=
+dex.php?option=3Dcom_content&view=3Darticle&id=3D51:hotline-info&catid=3D=
+1:right&Itemid=3D133 ]
+ =
+
+Know your rights - Whistleblower Protection [ http://www.oig.dhs.gov/inde=
+x.php?option=3Dcom_content&view=3Darticle&id=3D136&Itemid=3D146 ]
+ =
+
+Visit Us on Twitter [ https://twitter.com/#!/DHSOIG/ ]
+ =
+
+RSS [ http://www.oig.dhs.gov/index.php?option=3Dcom_content&view=3Darticl=
+e&id=3D133&Itemid=3D136 ]
+ =
+
+Sign up for email updates [ https://public.govdelivery.com/accounts/USDHS=
+OIG/subscriber/new ]
+ =
+
+ =
+
+________________________________________________________________________
+
+This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communic=
+ations Cloud on behalf of: DHS Office of Inspector General =C2=B7 245 Mur=
+ray Drive, SW, Building 410 =C2=B7 Washington, DC 20528 =C2=B7 1-202-254-=
+4100 GovDelivery logo [ https://subscriberhelp.granicus.com/ ] =
+
+
+=C2=A0
+
+----==_mimepart_62bb575f1419b_62f0121f1dc844a2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/1=
+999/xhtml" xml:lang=3D"en" lang=3D"en" xml:lang=3D"en">
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+<title></title>
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+<p style=3D"margin-bottom: 1em;">Welcome,</p>
+<p style=3D"margin-bottom: 1em;">You have successfully created subscriber=
+ preferences for DHS Office of Inspector General. You are now able to tak=
+e advantage of the convenient email updates offered by DHS Office of Insp=
+ector General.</p>
+<p style=3D"margin-bottom: 1em;">Please write down your access informatio=
+n for future use:</p>
+<ul>
+<li>Email address: MS60710444266@YAHOO.COM</li>
+</ul>
+
+
+<div id=3D"mail_footer">
+<p>=C2=A0</p>
+<table style=3D"width: 748px; height: 181px; border-top-width: 3px; borde=
+r-top-color: #1a356b; border-top-style: solid;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"7">
+<tbody>
+<tr>
+<td valign=3D"top" width=3D"192"><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJ=
+KV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjo=
+id2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1l=
+c3NhZ2VfaWQiOjk4NDg0MzE4NCwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY=
+2siLCJ1cmwiOiJodHRwOi8vd3d3Lm9pZy5kaHMuZ292LyJ9.rjhObfsN5TV6j0wWUMrS0e9P4=
+lMxIvpzimzkDbTPKI4" target=3D"_blank" title=3D"http://www.oig.dhs.gov/"><=
+img src=3D"https://admin.govdelivery.com/attachments/fancy_images/USDHSOI=
+G/2012/05/93986/logo_original.jpg" border=3D"0" /></a></td>
+<td width=3D"2">=C2=A0</td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; color: #666666; f=
+ont-size: 11px; font-weight: bold;" valign=3D"top" width=3D"476">
+<h2><span style=3D"font-family: arial black,avant garde;"><a href=3D"mail=
+to:dhs-oig.officepublicaffairs@dhs.gov" title=3D"Contact Us" style=3D"col=
+or: #666666; font-size: 11px; font-weight: bold; text-decoration: none;">=
+Contact Us</a>=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0 <a href=3D"https://ln=
+ks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxNDc4Mywi=
+bWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiO=
+jI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwidXJpIjoiZXZvOnRyYW5zYWN0aW=
+9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20=
+vYWNjb3VudHMvVVNESFNPSUcvc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUjdGFi=
+MSJ9.y7WrjxUQOdorlIOa4l4ojkMPCZ-_ggc9pVq9YgWMJMc" title=3D"Manage Subscri=
+ptions" style=3D"color: #666666; font-size: 11px; font-weight: bold; text=
+-decoration: none;">Manage Subscriptions</a>=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=
+=C2=A0 <a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.=
+eyJhY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2Nya=
+WJlciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NC=
+widXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B=
+1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNESFNPSUcvc3Vic2NyaWJlci9vbmVf=
+Y2xpY2tfdW5zdWJzY3JpYmU_dmVyaWZpY2F0aW9uPTQuNjUyMjZkMDNhZDczNDAwODc2ZmUxN=
+2RmZjQ3MDBiY2QmZGVzdGluYXRpb249TVM2MDcxMDQ0NDI2NiU0MFlBSE9PLkNPTSJ9.54PwW=
+Bh8NRIfYm5ztyzS4aGyN-vIQE1Ggtb_zsjT9q4" title=3D"Unsubscribe from All Top=
+ics" style=3D"color: #666666; font-size: 11px; font-weight: bold; text-de=
+coration: none;">Unsubscribe All</a>=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0 <a hr=
+ef=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50=
+X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1Y=
+nNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwidXJpIjoiZX=
+ZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.PgIWR5-jf1VWywe9tACiYtjV8h_S1pqwtsOVzgGBb=
+l8" title=3D"Subscriber Support" style=3D"color: #666666; font-size: 11px=
+; font-weight: bold; text-decoration: none;">Help</a> </span></h2>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"5">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center" valign=3D"top" width=3D=
+"25">
+<h2><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ=
+hY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJl=
+ciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwid=
+XJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vd3d3Lm=
+9pZy5kaHMuZ292L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJml=
+kPTUxOmhvdGxpbmUtaW5mbyZjYXRpZD0xOnJpZ2h0Jkl0ZW1pZD0xMzMifQ.wDIO01-hBEIeB=
+EdSSjRhVUJD0V3ybW3j65ew63vUu5c"><img src=3D"https://admin.govdelivery.com=
+/attachments/fancy_images/USDHSOIG/2014/12/402720/untitled-4_original.png=
+" border=3D"0" alt=3D"OIG Hotline - report fraud, waste &amp; abuse" widt=
+h=3D"180" height=3D"88" style=3D"border: 0;" /></a></h2>
+</td>
+<td style=3D"text-align: center;" align=3D"center" valign=3D"top" width=3D=
+"25">
+<h2><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ=
+hY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJl=
+ciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwid=
+XJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vd3d3Lm=
+9pZy5kaHMuZ292L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJml=
+kPTEzNiZJdGVtaWQ9MTQ2In0.pxX-DB7CloNUDj2pw3U8cpKyqlXePkkQnWWp-Pz0dq0"><im=
+g src=3D"https://admin.govdelivery.com/attachments/fancy_images/USDHSOIG/=
+2014/12/402737/untitled-3_original.png" border=3D"0" alt=3D"Know your rig=
+hts - Whistleblower Protection" width=3D"180" height=3D"84" style=3D"bord=
+er: 0;" /></a></h2>
+</td>
+<td style=3D"text-align: center;" align=3D"center" valign=3D"top" width=3D=
+"25">
+<h2><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ=
+hY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJl=
+ciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwid=
+XJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3R3aX=
+R0ZXIuY29tLyMhL0RIU09JRy8ifQ.wieA-lM1SJV7BEl3_2ASj4fbJ2OgjAAVce8e1gomhsI"=
+ target=3D"_blank" title=3D"Follow us on Twitter"><img src=3D"https://ser=
+vice.govdelivery.com/banners/GOVDELIVERY/SOCIAL_MEDIA/twitter.gif" border=
+=3D"0" alt=3D"Visit Us on Twitter" width=3D"27" height=3D"25" /></a></h2>=
+
+</td>
+<td style=3D"text-align: center;" align=3D"center" valign=3D"top" width=3D=
+"25">
+<h2><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ=
+hY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJl=
+ciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwid=
+XJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vd3d3Lm=
+9pZy5kaHMuZ292L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJml=
+kPTEzMyZJdGVtaWQ9MTM2In0.WbVfTBxvgunNUcqYP3OiaskZ1wbv87F9uf3JxDciPJI" tar=
+get=3D"_blank" title=3D"RSS"><img src=3D"https://service.govdelivery.com/=
+banners/GOVDELIVERY/SOCIAL_MEDIA/rss.gif" border=3D"0" alt=3D"RSS" width=3D=
+"25" height=3D"25" /></a></h2>
+</td>
+<td style=3D"text-align: center;" valign=3D"top" width=3D"25" align=3D"ce=
+nter">
+<h2><a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ=
+hY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJl=
+ciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwid=
+XJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3B1Ym=
+xpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNESFNPSUcvc3Vic2NyaWJlci9uZXcifQ.=
+CEaSzKEAVuE3ohNpW4S_q_ydyOIaC1GmcyidxuJ62P4" target=3D"_blank" title=3D"S=
+ign up for email updates"><img src=3D"https://service.govdelivery.com/ban=
+ners/GOVDELIVERY/SOCIAL_MEDIA/envelope.gif" border=3D"0" alt=3D"Sign up f=
+or email updates" width=3D"25" height=3D"25" /></a></h2>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+<hr />
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to MS60710444266@YAHOO.COM using GovDelivery Co=
+mmunications Cloud on behalf of: DHS Office of Inspector General =C2=B7 2=
+45 Murray Drive, SW, Building  410 =C2=B7 Washington, DC 20528 =C2=B7 1-2=
+02-254-4100</td>
+<td width=3D"11%" align=3D"right"><a href=3D"https://lnks.gd/l/eyJ0eXAiOi=
+JKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIj=
+oid2VsY29tZV9uZXdfc3Vic2NyaWJlciIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1=
+lc3NhZ2VfaWQiOjk4NDg0MzE4NCwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xp=
+Y2siLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdyYW5pY3VzLmNvbS8ifQ.fMtLpZ=
+fv7RMrhlcxvcigmfSvS8LcnK7WMan_NCbrJ20" target=3D"_blank"><img src=3D"http=
+s://content.govdelivery.com/images/govd-logo-dark.png" border=3D"0" alt=3D=
+"GovDelivery logo" width=3D"115" /></a></td>
+</tr>
+</tbody>
+</table>
+<p style=3D"text-align: center;" align=3D"center">=C2=A0</p>
+
+</div>
+
+<img src=3D'https://lnks.gd/o/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2=
+NvdW50X2lkIjoxNDc4MywibWVzc2FnZV90eXBlIjoid2VsY29tZV9uZXdfc3Vic2NyaWJlciI=
+sInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MjgsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4NCwidXJp=
+IjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6b3BlbiJ9.Jk_oipzGBrxwuNDp989PKBPxo21O=
+8AqKnDrqgn4nZYA'/></body>
+</html>
+
+----==_mimepart_62bb575f1419b_62f0121f1dc844a2--
+
