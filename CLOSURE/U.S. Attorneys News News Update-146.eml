@@ -1,0 +1,576 @@
+From - Wed Aug 31 18:53:49 2022
+X-Account-Key: account1
+X-UIDL: AJFaeugmZpyuYw/BmwpE6Ns3qNs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.41.12
+ by atlas106.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 20:16:27 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.124]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.124 as permitted sender)
+Authentication-Results: atlas106.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 20:16:27 +0000
+X-YMailAVSC: yOWT6Ic3bBvHYk2rz9HY7.KBrei4xN4RQS5CcgCHVvyopJI
+ Tfrm3c7wvHQovgS2TX06GG9hr4ercoDm4DuvC4JLVf_U3x6Ts4J5.RpWBjzp
+ o2fO2xlL0BxOlcGA4xvc.vmpJzwyOkRLIyr3jm1J9EW9N7NnFk2B4b7QrRKP
+ rUU3De7jaBhPDoAvKrIfeitHxV7r9pzXr3hkHKQXU5zlXLsxU7z8FvRGgiuv
+ wzFbOUvyGmrUZMFTdRxouLn8Md.S1ycOeZHdpLvAOUMsk96mdgqknPzPDIQ7
+ LkS.0ckUolu5z5hUHNUy7Lz.I4CxpkGf3IaFHOiAT.84sIz3XDPPngBQe0xC
+ ygW_bQiddjRA1.0B80mMHqO6aEoxcBXUGh5VH95zagxwSBBW16Tnw9KEzz5j
+ ru2JXJK0AQrtQgH0v0LZ4lsyBUrx06IHyxPKZAED2tKvVt8fTX91b9Psxa7p
+ AAWEiH7ZRhvCapFvXE0D5ytySzCG7KIBHZXFM6OeZFmL0jmAIJKgfbDfurwW
+ UPdaZ3aCesavc4WsK7KGOYJzMVEWJp.oSJMmL.Tb8bfMqOI1zfRidk_LuE1F
+ l6O3JwH.Sw8QA4J99ybKf2sAISHs4wQl4t.Zaz.cDU7v0GddIh8gA5i7oZ9N
+ hI_Tsuv.wU7rgmdI3nbrJ0iSxPDNeLCvB3x7djw5DrhmkA_.wowjDFAqBX5I
+ sO89.vRUnIaqIz6FiHWZDxh16mpejEtdtX_hP44JPdkpW8sjdPLaCuzW7uaA
+ sGLWSfroTcDxnbsUv_rAJm1DwM3plb3QprtVgC8YXmcoz801hInRdvsiIGTY
+ juwaIVkfxUhTZUzXD_D7kx2hiNuEn4d4bwwDUkriuxRQycAhPC921zg1R4S8
+ cLGdXeVOAiKA4kONKPLvG2CmcjD4ZGreY8_oLo1MUvaWwffWoFoUwHZh9I.H
+ fDRXXM7ql4xJBjJlpydkjETxGYwSOK3KvCNLKaRimK_0ObyCCEaN5m1OSkxU
+ ggIuSnktDc.vuNmYciz9Dx5jDuDnGTIophJO.ebz9Xcrv8PXe_Lk.RBekQH1
+ LQE_9FE_uRvwM5Xoaydk9ERCFgGz4Ul.38Osc44qHQrRCq4vO57xfk5RRdS6
+ HBtKk9rT5iYW0q59QWCvzDkWB_hb.x7B4ayYGsE_.Ah7gKFM7udUUJJnzUeM
+ u38uXwh3rDpzBtfyBWV9Lkf_h9TbWkWtBqOG_FtHoQLZvdQ5T
+X-YMailISG: Hrlew0gWLDs0Fkw1SDfgCxqh.wOslDfGvAT9c1dF8bVzXMAj
+ AkS.HfKcDEqakCfLTQKyPnxCHWYdFkTtUG40XY5VhVkbm7seZgxz.bEu1lo2
+ xiDFqy5I6p996miLrYgJZh0WjULb_ocbgObxy.Ire09MJ4yu1AXaj_YAtzd3
+ cfrTsWFzeKLYZ9pPWR35m86lDz_F.4WJYJZ4zlqp2f3fY_N5JgrCy5xXaEx.
+ AFT0qranELkt_wOVV8PZgwE1UGwSzqvZV.eJfG2n3RBtLAb9JjhYPLI3NTfK
+ 7484LOWiLYd4OVHrURLIviK6YtcM9nOxvjzbwSTRB4UR3PV_hgxlBpuVS4gq
+ EUczeTnB_YJOmJORJzcAnpTl2eF1mBACgwrM_BKx0kaew0yMpVRhwz0Yi9Ko
+ 0DHmqnvlm0AcRaA2..TVyJXV0msdlTSLr0.TpXSnUBg5Y5TqDWgdx0K_P6mm
+ MnGtJ2kK.AKoZhMj70.b4aEaT2MgyX7wbxg8x.Dju1SPn8mKG5vxaphwvn1u
+ .ImdT2chyC4i3AIzO9fw76YAU2oJhS2nwzXV6D2ADZKgu_7RPvlKGDQu3007
+ vqHmCRymUD6UM.bupRJ0rTRybErNoigni2PH94.d4o83ZHHhMejHgHlBczvY
+ SCToAcU2CW2HSnSG_XvdaYEKPKLQrS2R30AbE3mKNNcxfhI323A7c5nRV6MS
+ 1e_Gvpz6bEESiJSAVWgXdhAXAKt7eVFTJ4ks8AhNQU8iFBjaYImVPF7wvpOX
+ iXSfqow6U1tNP5NPB3lNLSD8QhdM4dgDEJNYFDIG3XWq1_L3RZ7YvedPfhwJ
+ f0Tvm5xEp3yIurxXd236fKjrwW1MTYIviWhdScVrBi9j7XU9D7OFlXn8Z6B9
+ e_ZGd_MKDrMHVvJXLKUOhRKap85m1yiQDKq5f_yD_CaHoSSoHrSge2ZLi7KP
+ 6rxihsHizaQN9Z_R5CwzxAEqnIU7umE_ysMjUX6Pi_M1ey8NRu7f29M1Iewt
+ AwAAOTCq8y5wf9RZHBeNoJIImo.cPveTX00BEUUS_kJ6KDZDQMClPy4MSNpf
+ IqEK057WInpJmLuiSeiIThzuPGW7XJAEo7dho_VUSnh_2TkTH7FC5XVRK6mA
+ sI6iY0Mp7GSqUnRLeD6Xn1Ej0ltDCzAxHlj1_4Z_lMW204hDZW3aKYQRHqmi
+ UWICPjMy5NbY_ObaZqeNvJYJ_SZai6cZ
+Received: from 69.5.87.124 (EHLO mailer087124.service.govdelivery.com)
+ by 10.197.41.12 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 20:16:27 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087124.service.govdelivery.com (-); Wed, 31 Aug 2022 20:16:26 +0000
+X-VirtualServer: VSG002, mailer087124.service.govdelivery.com, 10.1.38.131
+X-VirtualServerGroup: VSG002
+X-MailingID: 16832922::20220831.63051011::1001::MDB-PRD-BUL-20220831.63051011::MS60710444266@YAHOO.COM::8190_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=wAQr
+	FlEGdWwukq1CaiqyydIdm8zDVsyLwfCPSqO9bKE=; b=ctus9q9IKy7b7ptvk+IE
+	V/60LL3DZqdSarzSGzYtLV27eijZ+Hoo5pedPSceOodnazfrsUg7vo16hQhKV6iE
+	sRl1AGPIHMk9gP709Q1qBFq/eTvCy1tRlPgZbIdZecXqwep5BlXZ2bh9mq5B4SdG
+	ZpPeW6KaGEq/GDFQFW42hWJTdKD17DqTr6WxlSUZ3ChttnNvdeyM09PGt3nHiGki
+	jyCZIzE75sl9YnnOZx4FBngPG0AEjKDp0pwgRl/jjuvHqKLKyBZz3UerNhLt4d8j
+	i/uW4rg1czfM4H5NkamIpqtoEslOj5XTNZTr1rkpkht7Zpn0IHTocBRlGIqtBdNw
+	9g==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_EB1_96C5_31A5D3BF.3971E8F0"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrUry5DpimqFLawCXqk6jncHMVdmYzrAg8zJXsj6+HJOdITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16832922.8190@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK825-JJ13DKJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Wed, 31 Aug 2022 20:16:19 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 25420
+
+
+------=_NextPart_EB1_96C5_31A5D3BF.3971E8F0
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+U.S. Attorney Charges Former Rockland County Coach With Transporting Mino=
+rs To Engage In Illegal Sexual Activity [ https://www.justice.gov/usao-sd=
+ny/pr/us-attorney-charges-former-rockland-county-coach-transporting-minor=
+s-engage-illegal ] 08/31/2022 12:00 AM EDT=20
+Waynesboro Man Sentenced To 151 Months=92 Imprisonment For Methamphetamin=
+e Trafficking And Firearms Offenses [ https://www.justice.gov/usao-mdpa/p=
+r/waynesboro-man-sentenced-151-months-imprisonment-methamphetamine-traffi=
+cking-and ] 08/31/2022 12:00 AM EDT=20
+Chatsworth Man Pleads Guilty to Stalking Charges for Sending Two Sisters =
+Death Threats and Harassment Campaign Against Teenager [ https://www.just=
+ice.gov/usao-cdca/pr/chatsworth-man-pleads-guilty-stalking-charges-sendin=
+g-two-sisters-death-threats-and ] 08/31/2022 12:00 AM EDT=20
+A San Fernando Valley man pleaded guilty today to federal criminal charge=
+s, including for cyberstalking two sisters by sending them text messages =
+that threatened them with rape and murder. Wilmington Woman Sentenced to =
+31 Months in Federal Prison in CARES Act Fraud Case [ https://www.justice=
+.gov/usao-de/pr/wilmington-woman-sentenced-31-months-federal-prison-cares=
+-act-fraud-case ] 08/31/2022 12:00 AM EDT=20
+Ohio Man Sentenced to 240 Months in Prison [ https://www.justice.gov/usao=
+-ndin/pr/ohio-man-sentenced-240-months-prison ] 08/31/2022 12:00 AM EDT=20=
+
+Large Scale Fentanyl Trafficker Sentenced to Over 15 Years in Prison [ ht=
+tps://www.justice.gov/usao-edpa/pr/large-scale-fentanyl-trafficker-senten=
+ced-over-15-years-prison ] 08/31/2022 12:00 AM EDT=20
+Woman Sentenced for Stealing over $100,000 from Social Security [ https:/=
+/www.justice.gov/usao-ut/pr/woman-sentenced-stealing-over-100000-social-s=
+ecurity ] 08/31/2022 12:00 AM EDT=20
+Woman Sentenced for Stealing over $100,000 from Social Security Johnston =
+Man Sentenced to Federal Prison for Possessing Child Pornography [ https:=
+//www.justice.gov/usao-ri/pr/johnston-man-sentenced-federal-prison-posses=
+sing-child-pornography ] 08/31/2022 12:00 AM EDT=20
+PROVIDENCE =96 A Johnston man who admitted to possessing more than 2,000 =
+videos and images of child pornography has been sentenced to three years =
+in federal prison, announced United States Attorney Zachary A. Cunha. Cal=
+ifornia Man Sentenced to Federal Prison for Role in Health Care Kickback =
+Conspiracy [ https://www.justice.gov/usao-edtx/pr/california-man-sentence=
+d-federal-prison-role-health-care-kickback-conspiracy ] 08/31/2022 12:00 =
+AM EDT=20
+El Departamento de Justicia devolver=E1 a la Rep=FAblica de Per=FA aproxi=
+madamente $686,000 de las ganancias de corrupci=F3n decomisadas [ https:/=
+/www.justice.gov/espanol/pr/el-departamento-de-justicia-devolver-la-rep-b=
+lica-de-aproximadamente-686000-de-las ] 08/31/2022 12:00 AM EDT=20
+El Departamento de Justicia de EE.UU. compartir=E1 con la Rep=FAblica de =
+Per=FA aproximadamente $686,000 de las ganancias delictivas decomisadas, =
+vinculadas con la corrupci=F3n y el soborno del ex presidente peruano Ale=
+jandro Celestino Toledo Manrique (Toledo) por parte de Odebrecht S.A. (Od=
+ebrecht), un conglomerado de construcci=F3n global con sede en Brasil. Ju=
+stice Department Will Return Approximately $686,000 in Forfeited Corrupti=
+on Proceeds to the Republic of Peru [ https://www.justice.gov/usao-edny/p=
+r/justice-department-will-return-approximately-686000-forfeited-corruptio=
+n-proceeds ] 08/31/2022 12:00 AM EDT=20
+BROOKLYN, NY - The U.S. Department of Justice is sharing with the Republi=
+c of Peru approximately $686,000 in forfeited criminal proceeds linked to=
+ the corruption and bribery of former Peruvian President Alejandro Celest=
+ino Toledo Manrique (Toledo) by Odebrecht S.A. (Odebrecht), a Brazil-base=
+d global construction conglomerate. Career Offender Pleads Guilty to Meth=
+amphetamine, Fentanyl and Illicit Pill Conspiracy [ https://www.justice.g=
+ov/usao-edva/pr/career-offender-pleads-guilty-methamphetamine-fentanyl-an=
+d-illicit-pill-conspiracy ] 08/31/2022 12:00 AM EDT=20
+A Chesapeake man pleaded guilty today to conspiring to distribute and pos=
+sess with intent to distribute methamphetamine. Justice Department Will R=
+eturn Approximately $686,000 in Forfeited Corruption Proceeds to the Repu=
+blic of Peru [ https://www.justice.gov/opa/pr/justice-department-will-ret=
+urn-approximately-686000-forfeited-corruption-proceeds-republic ] 08/31/2=
+022 12:00 AM EDT=20
+The Department of Justice is sharing approximately $686,000 in forfeited =
+criminal proceeds to the Republic of Peru linked to the corruption and br=
+ibery of former Peruvian President Alejandro Celestino Toledo Manrique (T=
+oledo) by Odebrecht S.A. (Odebrecht), a Brazil-based global construction =
+conglomerate. body { font-size: 1em; font-family: Arial, Verdana, sans-se=
+rif; font-weight: normal; font-style: normal; color: #333333; } _________=
+_______________________________________________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_EB1_96C5_31A5D3BF.3971E8F0
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.glaRbTnkp6V3SdKHckuiBjOr6pSMZKeTZfKBELHykso/s/2591266043/br/14334=
+5763586-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXNkbnkvcHIvdXMtYXR0b3JuZXktY2hhcmdlcy1mb3JtZXItcm9ja2xhbmQtY291b=
+nR5LWNvYWNoLXRyYW5zcG9ydGluZy1taW5vcnMtZW5nYWdlLWlsbGVnYWwifQ.fEck3ZO3rfc=
+iEqBYj6iwS9Awcp5BPhq9hCZyBwoZNyo/s/2591266043/br/143345763586-l">U.S. Att=
+orney Charges Former Rockland County Coach With Transporting Minors To En=
+gage In Illegal Sexual Activity</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW1kcGEvcHIvd2F5bmVzYm9yby1tYW4tc2VudGVuY2VkLTE1MS1tb250aHMtaW1wc=
+mlzb25tZW50LW1ldGhhbXBoZXRhbWluZS10cmFmZmlja2luZy1hbmQifQ.eHVqHGhRVzLF0HF=
+q2M8Q-BshEvk6jxyxQ0KPNVbRhys/s/2591266043/br/143345763586-l">Waynesboro M=
+an Sentenced To 151 Months=92 Imprisonment For Methamphetamine Traffickin=
+g And Firearms Offenses</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWNkY2EvcHIvY2hhdHN3b3J0aC1tYW4tcGxlYWRzLWd1aWx0eS1zdGFsa2luZy1ja=
+GFyZ2VzLXNlbmRpbmctdHdvLXNpc3RlcnMtZGVhdGgtdGhyZWF0cy1hbmQifQ.ZwZ4bihDi67=
+dC6-Z3gdWtTZCBESHRv0IkcZQIejnhU0/s/2591266043/br/143345763586-l">Chatswor=
+th Man Pleads Guilty to Stalking Charges for Sending Two Sisters Death Th=
+reats and Harassment Campaign Against Teenager</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+ San Fernando Valley man pleaded guilty today to federal criminal charges=
+, including for cyberstalking two sisters by sending them text messages t=
+hat threatened them with rape and murder. </div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWRlL3ByL3dpbG1pbmd0b24td29tYW4tc2VudGVuY2VkLTMxLW1vbnRocy1mZWRlc=
+mFsLXByaXNvbi1jYXJlcy1hY3QtZnJhdWQtY2FzZSJ9.wtBb97pF9ozBN2AvaPuJl7s593Bn6=
+TmlGuNlysXmC1k/s/2591266043/br/143345763586-l">Wilmington Woman Sentenced=
+ to 31 Months in Federal Prison in CARES Act Fraud Case</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW5kaW4vcHIvb2hpby1tYW4tc2VudGVuY2VkLTI0MC1tb250aHMtcHJpc29uIn0.l=
+gd0XKT26E9dg4bVcD1XkC3vkBWZnwdt8JVFKJyInyg/s/2591266043/br/143345763586-l=
+">Ohio Man Sentenced to 240 Months in Prison</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkcGEvcHIvbGFyZ2Utc2NhbGUtZmVudGFueWwtdHJhZmZpY2tlci1zZW50ZW5jZ=
+WQtb3Zlci0xNS15ZWFycy1wcmlzb24ifQ.tPQmHHcbbjXolHAYH8XwXDDXZpERREtyKzmYcS4=
+7AZA/s/2591266043/br/143345763586-l">Large Scale Fentanyl Trafficker Sent=
+enced to Over 15 Years in Prison</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXV0L3ByL3dvbWFuLXNlbnRlbmNlZC1zdGVhbGluZy1vdmVyLTEwMDAwMC1zb2NpY=
+Wwtc2VjdXJpdHkifQ.sqXi8UpGaNDC4URP2l44j0PotRmrw9qL91nCKIJIOHM/s/259126604=
+3/br/143345763586-l">Woman Sentenced for Stealing over $100,000 from Soci=
+al Security</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">W=
+oman Sentenced for Stealing over $100,000 from Social Security  </div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXJpL3ByL2pvaG5zdG9uLW1hbi1zZW50ZW5jZWQtZmVkZXJhbC1wcmlzb24tcG9zc=
+2Vzc2luZy1jaGlsZC1wb3Jub2dyYXBoeSJ9.CUVwT2Pur55t3LVnXQRNy2wrb1hOoXqQVNWYN=
+9_IJ7Q/s/2591266043/br/143345763586-l">Johnston Man Sentenced to Federal =
+Prison for Possessing Child Pornography</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">P=
+ROVIDENCE =96  A Johnston man who admitted to possessing more than 2,000 =
+videos and images of child pornography has been sentenced to three years =
+in federal prison, announced United States Attorney Zachary A. Cunha.</di=
+v>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkdHgvcHIvY2FsaWZvcm5pYS1tYW4tc2VudGVuY2VkLWZlZGVyYWwtcHJpc29uL=
+XJvbGUtaGVhbHRoLWNhcmUta2lja2JhY2stY29uc3BpcmFjeSJ9.tPvuxUczOWYrwH9IA7xIe=
+Kk4Oj7n09CfTv7OEiAdHCI/s/2591266043/br/143345763586-l">California Man Sen=
+tenced to Federal Prison for Role in Health Care Kickback Conspiracy</a><=
+/div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di9lc3Bhbm9sL3ByL2VsLWRlcGFydGFtZW50by1kZS1qdXN0aWNpYS1kZXZvbHZlci1sYS1yZ=
+XAtYmxpY2EtZGUtYXByb3hpbWFkYW1lbnRlLTY4NjAwMC1kZS1sYXMifQ.owNl2vVtN6rG15J=
+7uf2ynUMOGPPIKUD893JKMsqeVTA/s/2591266043/br/143345763586-l">El Departame=
+nto de Justicia devolver=E1 a la Rep=FAblica de Per=FA aproximadamente $6=
+86,000 de las ganancias de corrupci=F3n decomisadas</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">E=
+l Departamento de Justicia de EE.UU. compartir=E1 con la Rep=FAblica de P=
+er=FA aproximadamente $686,000 de las ganancias delictivas decomisadas, v=
+inculadas con la corrupci=F3n y el soborno del ex presidente peruano Alej=
+andro Celestino Toledo Manrique (Toledo) por parte de Odebrecht S.A. (Ode=
+brecht), un conglomerado de construcci=F3n global con sede en Brasil.
+
+</div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkbnkvcHIvanVzdGljZS1kZXBhcnRtZW50LXdpbGwtcmV0dXJuLWFwcHJveGltY=
+XRlbHktNjg2MDAwLWZvcmZlaXRlZC1jb3JydXB0aW9uLXByb2NlZWRzIn0._PtxVvTsrwnO3j=
+m_I_TXvqT1uGL43zNnw5ZrmApbJ68/s/2591266043/br/143345763586-l">Justice Dep=
+artment Will Return Approximately $686,000 in Forfeited Corruption Procee=
+ds to the Republic of Peru</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">B=
+ROOKLYN, NY - The U.S. Department of Justice is sharing with the Republic=
+ of Peru approximately $686,000 in forfeited criminal proceeds linked to =
+the corruption and bribery of former Peruvian President Alejandro Celesti=
+no Toledo Manrique (Toledo) by Odebrecht S.A. (Odebrecht), a Brazil-based=
+ global construction conglomerate. </div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkdmEvcHIvY2FyZWVyLW9mZmVuZGVyLXBsZWFkcy1ndWlsdHktbWV0aGFtcGhld=
+GFtaW5lLWZlbnRhbnlsLWFuZC1pbGxpY2l0LXBpbGwtY29uc3BpcmFjeSJ9.MC53cPRQj6O1X=
+YhHNA9rdZnX8ycAzZavv6zGyYNqhuM/s/2591266043/br/143345763586-l">Career Off=
+ender Pleads Guilty to Methamphetamine, Fentanyl and Illicit Pill Conspir=
+acy</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+ Chesapeake man pleaded guilty today to conspiring to distribute and poss=
+ess with intent to distribute methamphetamine.</div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di9vcGEvcHIvanVzdGljZS1kZXBhcnRtZW50LXdpbGwtcmV0dXJuLWFwcHJveGltYXRlbHktN=
+jg2MDAwLWZvcmZlaXRlZC1jb3JydXB0aW9uLXByb2NlZWRzLXJlcHVibGljIn0.1BQyvkk_nB=
+aKi1aXsBu1wdNuHvABiaL3G_IKUiVP2SY/s/2591266043/br/143345763586-l">Justice=
+ Department Will Return Approximately $686,000 in Forfeited Corruption Pr=
+oceeds to the Republic of Peru</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/31/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">T=
+he Department of Justice is sharing approximately $686,000 in forfeited c=
+riminal proceeds to the Republic of Peru linked to the corruption and bri=
+bery of former Peruvian President Alejandro Celestino Toledo Manrique (To=
+ledo) by Odebrecht S.A. (Odebrecht), a Brazil-based global construction c=
+onglomerate.</div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.nNUVfVnIVkhXohPbVb3-joGPzJGhFoauwDs8ukcpmYo/s/259=
+1266043/br/143345763586-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.qJrlS0CU01sEwd2gCxvM88NWkU1RmKwcskfAb1-T6M4/s/2591266043/br/143=
+345763586-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.MP-v5Skq-7jIpf_n-TlQfgSNpirqiRMMFyyM6vZ9dlQ/s/2591=
+266043/br/143345763586-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTcsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwNTEwMTEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.LrcXk5o0JUDlj=
+gXyp035udSduUL72Oai-8_Yt2vb-9o/s/2591266043/br/143345763586-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMTgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA4MzEuNjMwNTEwMTEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.wHgdJNGCENn0NHG_Ao1iZsv8h_V-8aA1c_F54IUxuD8/s/2591266043/br/14334576=
+3586-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzNDU3NjM1ODYtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwNTEwMTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDUxMDExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODMyOTIyJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_EB1_96C5_31A5D3BF.3971E8F0--
+

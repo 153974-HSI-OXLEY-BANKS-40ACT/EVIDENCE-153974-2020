@@ -1,0 +1,373 @@
+From - Sun Aug 28 22:42:58 2022
+X-Account-Key: account1
+X-UIDL: AKztau4qh9msYsbLDwHckJlENrY
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.160
+ by atlas304.free.mail.gq1.yahoo.com with HTTPS; Thu, 7 Jul 2022 12:01:18 +0000
+Return-Path: <messages@subscribe.usaid.gov>
+X-Originating-Ip: [69.5.86.105]
+Received-SPF: pass (domain of subscribe.usaid.gov designates 69.5.86.105 as permitted sender)
+Authentication-Results: atlas304.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@subscribe.usaid.gov header.s=22q1;
+ spf=pass smtp.mailfrom=subscribe.usaid.gov;
+ dmarc=pass(p=REJECT) header.from=subscribe.usaid.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 7 Jul 2022 12:01:19 +0000
+X-YMailAVSC: WYyf_B43bBvNULiY8giiNEp32LZUGuW8t7crJk7joOtU7Rg
+ GxisxCbgt43VzLXgw3iZXqxI1xP6tj9FlX95OvVtG1LkO2vNzGhr1N_3pYwk
+ FPqfg5seOcT1ZuO9WYxBzsFk96oE2SQMWQ8c8uOBiQFuluhh5JGyzx8UhoMz
+ nlqFqI2cwYt6hzi0L6eWjBMvc8_8bKZ4DRTkx4voW5l.oepm0Mr9LvCE6vBG
+ 8rDD3XGVnoyaEfsR9TsbvIVIjytA2lajfLPvEK8SPaEhklOh8Ubz.E0K.Yxg
+ pudSW_YLBqB4gl3FU1SG26EjRpSv1Ycmp_Cs_T9bxH.0_Ea3ioLMc6b.dnwg
+ fvUdWCQJMl3iNBsfiPwEeIFNghd0qGTc1n8VgRrU.pSrxEzjaqm2l0Nn8sAx
+ PT_inLQD9XWieRmpIm3GxXn8Zex70LHhAgYhoga3DuKr6eRKemMKxDIgR_7m
+ OaoQ5kKZeF6k3Mw--
+X-YMailISG: H8DurEgWLDuhmEWiYn1UAbWB9jZD.Ou1Ge3TTRQ3IHuX.GBK
+ IupHxOuWEh3YukvAu8TuDTcjXyDwLC17lZyw3k8ib_J4ApcgbVdu370cZcpT
+ QuY9LChDSx73CoCzRfz7IyYLGaQwQ7HfNToOK4GnbJ6Bfjt_xHg_U_AIHs5O
+ J7VCr6CAA_MQ1EhpRrNkVHSPi.QablNkUBoVnOOqEuUb7JDB7VXsd9_1KVp4
+ Xgy3xedpZYmrKej0AVAdm2hSYPHxteTNX_3Kj1yJwYr1LHRbLgt06hoN24YC
+ vZ5rgiUb2XpDhpeeji_lhoq.GX69gcqNUBqT7OtYCae4Xye2h1qDlFCAtI81
+ uNewNqoJ4xhxP2PGcao1iacTH_DFb1uWR.B6MmjVPPHVubtKr_ME3mPUtEJe
+ ChNGiWKo7qJteFKkHjOim4_D0nTZEA0tRKT0f7qFghH3Bfj3Tqv_9bm3yA5d
+ BOUWGu8EgIdeHZ0LHjF8ZIZ7qlaL7b_ZE_Iv0stZ3cOO3RUXCJ_lY_fDaYKV
+ RKxSOpWjO6oJYqByA8MFUQy0KemoFQfkGfbLbgTcJ8br5vacoxajv8is4wMW
+ rprQveEw4RkzuGQ421pNmSDeqQfFt4rT1mcdqlfOyeLiedFmjTADpIfpYsCB
+ HBjDtfX6ha5Fvaew5uKlWLFByv._zRr2Rg4vfEVggL19vCaeQ2igLK4xII8p
+ TuSMeqf6xU489Z.92lc1pWGgV30rmQqEikTbb5bbhFsQYO54fAwHIS9LvQ1Y
+ cOGoxOnrnDZjANQK0DYJy2nup6x4tHsitXe4PShOU2DoLy7WDoUXvN8jZbkY
+ QPbu.AjvGm9IdzWxlHtfB5u1oLTWOOWeNxpFM6yaAJJgDUrzkR12nN2Xfqlm
+ MpfnRUdBeVkl28IJ8Vtyf7fda0NOa9RaXcnj9U90_30WwiHf7qFJzfijF4_L
+ jR_z8e7z0VIlEjkvo7kDtJmxiaMqf4_qhyUAeCrWhzrKluj5NXhkxhKpPjY8
+ Jd4Od6oE5Jm1hIHmjS7bkyeS1q0xTee5D.eLsHNV0vuw6ImgsSNP4f4uX_Cu
+ k7np6yy0Dgxa7xik6IWDHiwnJEa9XF4rhFNd6IY7y3rGn0PqTBVvPDAR_NbV
+ TQYnmMholnoj2_tKjqIuR5f0USJjyTOzMQ6uOP97BB4oUQWaIo3eo3YUH__V
+ PrKKMZqA1X7JRvEVqIc4SYpSyp5KdCtQQU5s
+Received: from 69.5.86.105 (EHLO mailer086105.service.govdelivery.com)
+ by 10.253.62.160 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 07 Jul 2022 12:01:18 +0000
+Received: from gasdp-smeds3-1.systems.dc.gdi ([10.1.36.28])
+	by mailer086105.service.govdelivery.com (-); Thu, 07 Jul 2022 12:01:16 +0000
+X-VirtualServer: VSG002, mailer086105.service.govdelivery.com, 10.1.37.161
+X-VirtualServerGroup: VSG002
+X-MailingID: 16832678::20220707.60411781::1001::MDB-PRD-BUL-20220707.60411781::MS60710444266@YAHOO.COM::11514_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscribe.usaid.gov; s=22q1; i=@subscribe.usaid.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=EHLOYj8WDGe6gf+F85xLgSQ3UjcGg55/227x9LIk2wA=;
+	b=GZF7v22IUhH2l4zLI883vk/4vzg4fScSe+1axCwUQtLpE0VGZwznASeBulbstN
+	/Yxb6g6VqrDueu+bIATy2yrilN1umjml/eyelbQ38pSrhEJkoZO7RGHSdAwtDrSV
+	sTkAjFlgmETyGsDq+1f+KnSy3rvoYyXXwM9lE4DDkY4p7og0cAfOxu1FqUtpZR9M
+	LGv4xs7GItGJp34UwYkklDcBX/qbbldyrJ2pZs2uQ/PMgxdrCyaX0SJnx5RAi9KN
+	KHD4n7YJQQ1FZz0RB2k7+vDA8uaJrLC3zxcN3QBxOp6EjVS3N6IVGt+h9LyGe8V5
+	Q5Rmg9yh/9zcAUBPSOl8IBgA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_B3A_EB88_3040F72A.60971A1D"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrmZzAyicR7kUUSXvAaOI8qc1gZV6xb4L0oT+5lW4wD9tFZ5MaMItx+Cg6AY0EeXLefL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USAIDHQ
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USAIDHQ/subscriber/one_click_unsubscribe?verification=5.74f3717e68ed4d7575b3b74776410aa6&destination=MS60710444266%40YAHOO.COM>
+Errors-To: messages@subscribe.usaid.gov
+MIME-Version: 1.0
+Message-ID: <16832678.11514@subscribe.usaid.gov>
+X-ReportingKey: MJJJ2EWJK81CKJJ1CHJJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?United_States_Agency_for_Internatio?= =?US-ASCII?Q?nal_Development_USAID_Careers_Update?=
+Date: Thu, 07 Jul 2022 12:01:16 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usaid@subscribe.usaid.gov
+From: "=?US-ASCII?Q?USAID?=" <usaid@subscribe.usaid.gov>
+Content-Length: 13149
+
+
+------=_NextPart_B3A_EB88_3040F72A.60971A1D
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+USAID Horizontal Logo
+
+________________________________________________________________________
+
+Below are the latest career updates from USAID.gov's career vacancy page =
+[ https://www.usaid.gov/work-with-us/careers/vacancy-announcements?utm_me=
+dium=3Demail&utm_source=3Dgovdelivery ]. Please click on any of the below=
+ hyperlinks to see the full listing.
+
+Financial Analyst #72068022R10007 [ https://www.usaid.gov/node/456766?utm=
+_medium=3Demail&utm_source=3Dgovdelivery ] body { font-size: 1em; font-fa=
+mily: Arial, Verdana, sans-serif; font-weight: normal; font-style: normal=
+; color: #333333; }=20
+
+Stay Connected with USAID [ https://www.usaid.gov/stayconnected?utm_mediu=
+m=3Demail&utm_source=3Dgovdelivery ] Facebook [ https://www.facebook.com/=
+USAID?utm_medium=3Demail&utm_source=3Dgovdelivery ] =A0 Twitter [ https:/=
+/twitter.com/usaid?utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0 =A0Li=
+nkedIn [ https://www.linkedin.com/company/usaid?utm_medium=3Demail&utm_so=
+urce=3Dgovdelivery ]=A0 =A0YouTube [ https://www.youtube.com/c/fwd?utm_me=
+dium=3Demail&utm_source=3Dgovdelivery ]=A0=A0Instagram [ https://www.inst=
+agram.com/usaid?utm_medium=3Demail&utm_source=3Dgovdelivery ] [ http://ww=
+w.granicus.com?utm_medium=3Demail&utm_source=3Dgovdelivery ]  SUBSCRIBER =
+SERVICES:
+Manage Subscriptions [ https://public.govdelivery.com/accounts/USAIDHQ/su=
+bscriber/edit?preferences=3Dtrue#tab1 ] =A0|=A0 Unsubscribe All [ https:/=
+/public.govdelivery.com/accounts/USAIDHQ/subscriber/one_click_unsubscribe=
+?verification=3D5.74f3717e68ed4d7575b3b74776410aa6&destination=3DMS607104=
+44266%40YAHOO.COM ] =A0|=A0 Help [ https://subscriberhelp.govdelivery.com=
+/ ] =20
+=20
+=20
+
+________________________________________________________________________
+
+ This email was sent to MS60710444266@YAHOO.COM using govDelivery Communi=
+cations Cloud on behalf of: United States Agency for International Develo=
+pment =B7=A01300 Pennsylvania Avenue NW=A0=B7 Washington, DC=A0=B7 20004 =
+GovDelivery logo  [ https://subscriberhelp.granicus.com/?utm_medium=3Dema=
+il&utm_source=3Dgovdelivery ]=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_B3A_EB88_3040F72A.60971A1D
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    United States Agency for International Development USAID Caree=
+rs Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <center>
+<p><img src=3D"https://content.govdelivery.com/attachments/fancy_images/U=
+SAIDHQ/2022/02/5516195/horizontal-rgb-294_original.png" alt=3D"USAID Hori=
+zontal Logo" width=3D"649" height=3D"252" align=3D"center"></p>
+<hr>
+</center>
+  <p>Below are the latest career updates from USAID.gov's <a href=3D"http=
+s://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaS=
+I6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJ=
+odHRwczovL3d3dy51c2FpZC5nb3Yvd29yay13aXRoLXVzL2NhcmVlcnMvdmFjYW5jeS1hbm5v=
+dW5jZW1lbnRzP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.bCud=
+zbmZVlpC0-Ru64LX4CaO4yJ2ubAO4cUFXWNV9Rw/s/2591266048/br/135892514754-l" t=
+arget=3D"_blank" rel=3D"noopener">career vacancy page</a>. Please click o=
+n any of the below hyperlinks to see the full listing.</p>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3d3dy51c2FpZC5nb3Yv=
+bm9kZS80NTY3NjY_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.F=
+cgJXOzZT9fF0L3JK0BVqcoG_-aROQDcBtxWTyTAwLM/s/2591266048/br/135892514754-l=
+">Financial Analyst #72068022R10007</a></div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"ce=
+nter">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:600px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"margin: 0 auto; max-width: 600px; width: 100%;">
+<table style=3D"background: #FFFFFF;" width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" align=3D"center" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 13px; text-align: center; padding: 20px 0px 10px;=
+ font-family: arial, helvetica, sans-serif !important;" align=3D"center">=
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3=
+ODEiLCJ1cmwiOiJodHRwczovL3d3dy51c2FpZC5nb3Yvc3RheWNvbm5lY3RlZD91dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.1DMB-uL-yEgzW0vOi5aOQ1et_JF=
+TkHvGcaDBOHngll0/s/2591266048/br/135892514754-l" target=3D"_blank" rel=3D=
+"noopener"><font face=3D"arial,helvetica,sans-serif">Stay Connected with =
+USAID</font></a></td>
+</tr>
+<tr>
+<td style=3D"padding: 10px;" align=3D"center">
+<font face=3D"arial,helvetica,sans-serif"><font face=3D"arial,helvetica,s=
+ans-serif"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3M=
+DcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vVVNBSUQ_dXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.zFK-vjncsbRGLhvhTZPo9OA=
+NxtJL3HyqcFI4SmFptps/s/2591266048/br/135892514754-l" target=3D"_blank" re=
+l=3D"noopener"><img src=3D"https://content.govdelivery.com/attachments/fa=
+ncy_images/implementation/2016/02/754187/facebook_original.png" alt=3D"Fa=
+cebook" width=3D"25" height=3D"25"></a> =A0 <a href=3D"https://lnks.gd/l/=
+eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3R3a=
+XR0ZXIuY29tL3VzYWlkP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeS=
+J9.UPK3ALoQ-XaVFCkUhHW-8-gniWxA30s0McNw-pG6QSo/s/2591266048/br/1358925147=
+54-l" target=3D"_blank" rel=3D"noopener"><img src=3D"https://content.govd=
+elivery.com/attachments/fancy_images/implementation/2016/02/754151/twitte=
+r_original.png" alt=3D"Twitter" width=3D"25" height=3D"25"></a>=A0 =A0<a =
+href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIj=
+oxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODE=
+iLCJ1cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS91c2FpZD91dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.0ouWaFz7kYEah_sThVqv7JfG7k=
+3JYm-v-jfiSvky_fE/s/2591266048/br/135892514754-l" target=3D"_blank" rel=3D=
+"noopener"><img src=3D"https://content.govdelivery.com/attachments/fancy_=
+images/implementation/2016/02/754194/linkedin_original.png" alt=3D"Linked=
+In" width=3D"25" height=3D"25"></a>=A0 =A0<a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3d3dy5=
+5b3V0dWJlLmNvbS9jL2Z3ZD91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZl=
+cnkifQ.VO25uY951tA5Fet8x1QubFNhtAWfNnHj_NLfd0_Bdhw/s/2591266048/br/135892=
+514754-l" target=3D"_blank" rel=3D"noopener"><img src=3D"https://service.=
+govdelivery.com/banners/GOVDELIVERY/youtube.gif" alt=3D"YouTube" width=3D=
+"25" height=3D"25"></a>=A0=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3d3dy5pbnN0YWdyYW0u=
+Y29tL3VzYWlkP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.DDLa=
+OFXuhAnA7hRi2As1SRg7C5jG2sEJZrHWS6mF_Ws/s/2591266048/br/135892514754-l" t=
+arget=3D"_blank" title=3D"Instagram" rel=3D"noopener"><img src=3D"https:/=
+/public.govdelivery.com/attachments/fancy_images/GOVDELIVERY/2021/03/4237=
+093/instagram-logo_original.png" alt=3D"Instagram" width=3D"25" height=3D=
+"25"></a></font></font><font face=3D"arial,helvetica,sans-serif"><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cm=
+wiOiJodHRwOi8vd3d3LmdyYW5pY3VzLmNvbT91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9Z292ZGVsaXZlcnkifQ.9XvqAyLFDD-1emTYELCfnA6qWJ-vNHAlw92CfytNAa4/s/2591266=
+048/br/135892514754-l" target=3D"_blank" rel=3D"noopener"></a></font>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; font-family: arial, helvetica, sans-seri=
+f; font-size: 13px; padding: 10px 0px 20px;">
+<font face=3D"arial,helvetica,sans-serif">SUBSCRIBER SERVICES:</font><br>=
+<font face=3D"arial,helvetica,sans-serif"><a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3B1Ymx=
+pYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNBSURIUS9zdWJzY3JpYmVyL2VkaXQ_cHJl=
+ZmVyZW5jZXM9dHJ1ZSN0YWIxIn0.2plBUnQ6TIj2zctaYCQRszyIUgFp544R_nQBJBkOq9Y/s=
+/2591266048/br/135892514754-l" title=3D"Manage Subscriptions">Manage Subs=
+criptions</a> =A0|=A0 <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMTAsInF1ZXJ5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24iLC=
+JkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXRpbl9pZCI6IjIwMjIwNzA=
+3LjYwNDExNzgxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291=
+bnRzL1VTQUlESFEvc3Vic2NyaWJlci9vbmVfY2xpY2tfdW5zdWJzY3JpYmUifQ.qU4U09uuTV=
+4o5nEkMQD8VPMcP-5bAa4LX1oVqwg0SvA/s/2591266048/br/135892514754-l?verifica=
+tion=3D5.74f3717e68ed4d7575b3b74776410aa6&destination=3DMS60710444266%40Y=
+AHOO.COM" title=3D"Unsubscribe from All Topics">Unsubscribe All</a> =A0|=A0=
+ <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2=
+lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDcuNjA0MTE=
+3ODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.n=
+yXPT9jXyEG5SgaEMEkNmQdFvuuJez2UtXqmaP2Jusg/s/2591266048/br/135892514754-l=
+">Help</a></font>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"border-collapse: collapse; margin: 0px auto; width: 1=
+00%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0 10px 0 10px;" valign=3D"top">
+<table class=3D"mobile-tagline" style=3D"border-collapse: collapse; margi=
+n: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"right">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 0 0 0;" colspan=3D"2" valign=3D"top"><hr></td>=
+
+</tr>
+<tr>
+<td style=3D"padding: 10px 5px 10px 0;" align=3D"left" valign=3D"top"><sp=
+an style=3D"color: #757575; font-size: 10px; font-family: arial, helvetic=
+a, sans-serif;">This email was sent to MS60710444266@YAHOO.COM using govD=
+elivery Communications Cloud on behalf of: United States Agency for Inter=
+national Development =B7=A01300 Pennsylvania Avenue NW=A0=B7 Washington, =
+DC=A0=B7 20004</span></td>
+<td style=3D"width: 95px; padding-top: 10px;" align=3D"right" valign=3D"t=
+op" width=3D"95"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MDcuNjA0MTE3ODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdyYW5pY3Vz=
+LmNvbS8_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.i_9s3SdKo=
+XmAeGIjvZsLxu-_Bi_jazyvkG1g08uO9O8/s/2591266048/br/135892514754-l" target=
+=3D"_blank" rel=3D"noopener"> <img src=3D"https://content.govdelivery.com=
+/images/govd-logo-dark.png" border=3D"0" alt=3D"GovDelivery logo" width=3D=
+"95" height=3D"27" align=3D"right"> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzU4OTI1MTQ3NTQtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MDcuNjA0MTE3ODEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzA3LjYwNDExNzgxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODMyNjc4JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_B3A_EB88_3040F72A.60971A1D--
+

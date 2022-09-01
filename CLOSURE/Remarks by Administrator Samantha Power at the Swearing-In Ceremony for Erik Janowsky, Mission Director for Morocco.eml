@@ -1,0 +1,901 @@
+From - Wed Aug 31 18:53:40 2022
+X-Account-Key: account1
+X-UIDL: AHtTqjxdHHlvYw+bAALmMJ8iswM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.233
+ by atlas217.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 17:31:43 +0000
+Return-Path: <messages@subscribe.usaid.gov>
+X-Originating-Ip: [69.5.87.170]
+Received-SPF: pass (domain of subscribe.usaid.gov designates 69.5.87.170 as permitted sender)
+Authentication-Results: atlas217.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@subscribe.usaid.gov header.s=22q1;
+ spf=pass smtp.mailfrom=subscribe.usaid.gov;
+ dmarc=pass(p=REJECT) header.from=subscribe.usaid.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 17:31:44 +0000
+X-YMailAVSC: DHslYjM3bBvCN5tA_JY6j7AAfWwKmnrnUbhuVMA6XhwEvl3
+ JgwHgWS34fWCkjcDwd_VS0vMeEnlmrC3nbPZ5v7V9dy1k0xpEqPziYMnRirt
+ EPsQ1lR.okTW4R8e5uDdaF8yys3CPxC_MPHZplwy9jE_xqd1QcaNi7LmAxaN
+ 3Zf0DcTm_gW9SQiz0Rz2_1wMoZ2a4ggbtPNoLk3Zsybecg5cTipdPBSHwJd7
+ l64ZUVIRmef9yBl0C8XcCV14fYNP.T2OPcqyi2Df9vFZCHAtrdsXTCSerD9N
+ QBlKEUjUkeU6_ubYt_EiuRdNA9nj2oElSVh4O014xWhcw5514z2YCiafKjQP
+ EuPKEM2VQGCIYYIftJHMr4WcuL9sRCjHSdsdIKC61Gr_lsdU9X9yhf3TapBa
+ GAVno4jmxt05MYpOeteChwdizXxak1NAYNbTVyaCqrSoOc8UUecxx0Uz_Xb8
+ FOmUGj4BKo3qXXQUw9OHh901iUF.3hnWZ8QTkQKt5G8zAywzxn98gjubfWD7
+ iQPqc5f7K4FQhjEtc0obSvRFbgiaFV1SRFLJQv1T8CQlEIs5s9Tnwbpp5kNl
+ tNJuQlYpNj256b6nrrf0uAqTRRpKGNU3.78A.C1qTUhB3E29yyR18OuunUbO
+ dv5z5lGyzjMH2O.0HX_cTX2XsJdHeSnAaUZWpoCQWLoKspmi331KJKqm7KEG
+ jCRQb4ydCyO4Eqxm_b8DuwanibBP8wUa4.9xAYONJrjHa5lIyHHbf5XOAkpy
+ dJiBjvOeNaGo_vrtLd.iW1SMXXyqkhvM0e7fbSKVWdhWTnwps4r29x5dAFLm
+ yo0Av24d0Q2utZ2wTX2rBdULK9cMmnfNv.pScRDWBNE90wyBKWtj2GUMP93D
+ F2eETgh4ejFaBtJfBkZ31Xjn9tRiXeDH.sZgQvsfPX7foih8DO7RUOAX7Fac
+ q7P_YdptdLukwBRgXPuMkOqFxfD8q6rYDhBfUbOx_dWRTW_nkZp_0HZ7jNmv
+ XaQAuBWZOfsE_XVXfJeGARIEq7HzfezCH1TWPxLAFewfnko6ulw06Z5sHsv1
+ vOw2qrc7mucrlyeW8LA7hKYMpeAEM4ITebNntIohlSrXPQ94X2a4tnm6MQ3U
+ pQ9IVPdrVdpiNCtqjyQSVaLmj051ExbnBEi6Hsn2ozPiMbjCjAvig7hh7ZkO
+ GW5jZ5PBWzRyRzIyUJAZdIdvDZkqSknhHilHU12SULxPgnSDma_3ssv5wmyf
+ j5weSLTL2ORHIuY.HJmzPbgmUxdX8z3F_j0X69fEkPtxMIgInl9t6EuOmNox
+ pTxqopaI4jYJFgHR9E4r05uy9dYnldp.._uJxHYgNAYm4mF5uWJDK.dmzPO7
+ 6rCNA1A3MIO5bcMi9rkErZHZoDDt054xjn96HhqRU389ZbOEhJ2lKostSGA6
+ 8mv2vvYcSK5VUD2SI7WQ9NGK9TzE51KbKmNlh9TXCqDXpUSqYsNNy52aacIy
+ dXlEdTgjekjtRc8Y4COSojHb1M1mn7.2_pC1i0Dc-
+X-YMailISG: c.Saqf4WLDu9WbsaM5CnysDwo2DVEcKtyHmYeW5UtLpfY8VY
+ h9EbiU3vuWtQ6CrPkvnXqbVlmMBOVrVPatKXaVZUmoCfsvXl.Nj1cWQpUB9j
+ SLQ8JWLZJNTy73rq5DAV_WykvVhiLIK9z5Rogn0m2M.d_4iWvMOecBqwvOY2
+ 9xwclnrxYzUPr22GXixoiYoV9d8Px.3gUV_NPgkv0kmoeRvL5RJE9lf2X1je
+ wd1grLdpBx1mEkWLrN1KV1VslxUlnUTGZRWJKqpRcXl4p8ajMs.lvO12Olt_
+ k_xTBw6g5TXdRVV9p.pc1MRGcuZk00.DR..a4JXCxDWCZqrTR40NsRQ94H8r
+ 5BwpONMXlOPIv9ykws9J.Uea3MMKDBC_yzO0DKrdgCR9DPjyXBg_f5rZ94NO
+ sBMGrM2cosRboCobjyqsKn5KkpxxvqE90_TlayyAeUb8ayg9j8uCZ_XiCUu.
+ 7vJ0vVfyw1s.IrWH3gWJfs3NDcFKVT3DGPC3PwGnzCfErrGbr8jGZQSv2Ld2
+ q7GDyA_85jY5vpiPIKry4oNyT5DlebcjpyaKAkR0rwzPutWi25mt48Oh6qF5
+ rdxSkW8_y1Ebw8mz8uHvi84DBiuRltgdx6m8dO127RycMcbIb9Ut915kqIzm
+ NNHS.sQ.nvqIcZe0gr7Vy4B6KB_nONEK53v9GqEKTDuDzh08qUDMBj1n0h.V
+ nzVw.BbrMEKz9h3BPJL.QBJNlj8ZlG_.rbLlg8WPWMqJODxC_O938Xs2aeSO
+ f4HLAovAHNRt2qbRT9lIw3O.qpmEwb1XwGaLCXS2U4cJyqiQqV1mvuLo0e2y
+ nt4SeSieAe4wj1t15Mq1Bgj44kKDzuihD4PVeOYC9z8M6kKsqqoKN2niPuwi
+ t4O.ybQqjS3YZG7._nAHDI0f41rNp_9kNmyzG7dbCTQxWEIDdMxtcmZm1FS.
+ SfmZiYCZepIotTSUq8d.GNQ2cleJyThbMq27N2bdVeWkIy0ofFa7f1HElFuO
+ H15AbssmDe94BUuUmDqcDxyUEZjPKBsUg7mDBcm_1Iolu6mj5YG0pmG7bZKl
+ 2zoaJx0uGHyOOdliZrNnXIXFZOSJX3PjSSqjlmYcbst0iCFCm.f5cCZwgcT2
+ S2iA6xzrJEEYVClxuumx_vrr45PqXi9IMxtNF89JpTwTP0LFwwfiTwJb.m9x
+ L0eoOebazeBRle.ipoYbPkZbAm6Z4HNhd5U2
+Received: from 69.5.87.170 (EHLO mailer087170.service.govdelivery.com)
+ by 10.197.37.233 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 17:31:43 +0000
+Received: from gasdp-smeds3-7.systems.dc.gdi ([10.1.36.28])
+	by mailer087170.service.govdelivery.com (-); Wed, 31 Aug 2022 17:31:43 +0000
+X-VirtualServer: VSG002, mailer087170.service.govdelivery.com, 10.1.37.206
+X-VirtualServerGroup: VSG002
+X-MailingID: 16847383::20220831.63039001::1001::MDB-PRD-BUL-20220831.63039001::MS60710444266@YAHOO.COM::11299_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscribe.usaid.gov; s=22q1; i=@subscribe.usaid.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:List-Unsubscribe:
+	Errors-To:MIME-Version:Message-ID:X-ReportingKey:Subject:Date:To:
+	Reply-To:From; bh=+vUb6KbaWoPkwcKyZM2tTox+RJ1u+4/EQMxyxf17YLA=;
+	b=KWWyZumGj4RNO747rYNL/D4BVgQ2QeckQ1mRCjuqHN3LoFQcOzvLOVidoB5UQG
+	n/8eQ4speDvDZ7OG4McF1BleEgClz+CwHxM73wLVg3kwduz79GWojOksr24OF5hF
+	1act7JmWwpxU9c1TGK5kPnlK3IH9JIWZj6kQOvCHesewrOwjrLPPhd0igIJJd/tF
+	gteN7RYg71T3WSQ5tPhGktlv81OlXbHTjii0Q1FqZkmCJDWL6SRsfw+AAh4sc2rN
+	mIZUXOVE2ljVDMOFMntFyB+bZ0YHqB3djqyve8bEpmYGd2DajHfnoKWl0bYgb9PX
+	e2e4Flb93TiO9V3CuUvnzGEQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_90B_037F_26F95378.25EFB6CC"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrVCDOlaQonZslmg+hnUKG+cFYklC4YvvbjH8F6UVyXJNFZ5MaMItx+Cg6AY0EeXLefL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USAIDHQ
+List-Unsubscribe: <https://public.govdelivery.com/accounts/USAIDHQ/subscriber/one_click_unsubscribe?verification=5.74f3717e68ed4d7575b3b74776410aa6&destination=MS60710444266%40YAHOO.COM>
+Errors-To: messages@subscribe.usaid.gov
+MIME-Version: 1.0
+Message-ID: <16847383.11299@subscribe.usaid.gov>
+X-ReportingKey: MJJJ2EWJKA47JJJ1C5WJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?Remarks_by_Administrator_Samantha_Power_at_the_Swearing-I?= =?US-ASCII?Q?n_Ceremony_for_Erik_Janowsky,_Mission_Director_for_Morocco?=
+Date: Wed, 31 Aug 2022 17:31:43 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: USAID-Press-Office@subscribe.usaid.gov
+From: "=?US-ASCII?Q?USAID_Press_Office?=" <USAID-Press-Office@subscribe.usaid.gov>
+Content-Length: 42183
+
+
+------=_NextPart_90B_037F_26F95378.25EFB6CC
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+United States Agency for International Development USAID - from the Ameri=
+can People=20
+=20
+=20
+=20
+=20
+
+UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT
+Office of Press Relations
+________________________________________________________________________
+
+*For Immediate Release*
+*August 31, 2022*
+
+REMARKS
+
+*Administrator Samantha Power at the Swearing-In Ceremony for Erik Janows=
+ky, Mission Director for Morocco
+
+**Ronald Reagan Building*
+
+Thank you, Andy, for kicking us off. Good morning to everyone here in per=
+son and those tuning in virtually. A special welcome to Erik=92s family =96=
+ his mother Peggy; his brother and sister-in-law, Kurt and Jory; his sist=
+er Brooke and her son, Serafino; and of course his wife, Gloria, and thei=
+r son, Ian. I=92m told Erik=92s daughter, Bella, is also tuning in virtua=
+lly from London, where she is studying to become a screenwriter.
+
+Before we celebrate Erik and this tremendous achievement, I have to depar=
+t from script to pay tribute to Gloria. I just learned that Gloria passed=
+ her State Department Oral Exam and will be joining the Foreign Service. =
+Ian put it best: =93I guess I have a lot to live up to.=94
+
+Erik grew up in Indiana, in a family dedicated to service and giving back=
+. His mother, Peggy, worked with underprivileged communities through Unit=
+ed Way and then at the Notre Dame library. His father, Gordy, was a publi=
+c school teacher who taught high school chemistry for over four decades. =
+The family=92s focus on helping professions clearly influenced Erik, who =
+is described by almost everyone he meets as someone who truly has a heart=
+ for service, someone who, as his mother put it, constantly asks the ques=
+tion: =93what can I do to help?=94
+
+It=92s a quality that surfaced when Erik was quite young. His mother reme=
+mbers him caring diligently for his baby sister Brooke, becoming, as she =
+described, a kind of second father to her, and making her laugh with his =
+renditions of the Beatles=92 =93Rocky Raccoon.=94 And when Peggy herself =
+injured her back skating at the university ice rink on Christmas Eve, Eri=
+k =96 then just in high school, found a doctor willing to help out on the=
+ holiday, and for weeks cooked and brought her meals, while practically c=
+arrying her to and from her bed.
+
+It wasn=92t just his family who took notice of Erik=92s caring nature. In=
+ college, Erik befriended the late Father Theodore Hesburgh, an internati=
+onally recognized defender of human rights who at the time was the Presid=
+ent of Notre Dame. The two became penpals when Erik joined the Peace Corp=
+s in Ecuador, and Father Ted became one of Erik=92s closest mentors, alwa=
+ys reminding him that =93one person can make a difference.=94 They were s=
+o close that eventually, when Erik converted to Catholicism, Father Ted b=
+ecame Erik=92s godfather. And he baptized both of Erik=92s children.=A0
+
+Professionally, Father Ted was an enormous influence in Erik=92s life. He=
+ encouraged Erik to pursue a graduate degree and a career in internationa=
+l development, and helped Erik find research funding for his dissertation=
+.
+
+Father Ted also helped Erik return to Ecuador in the 1990s to start a hea=
+lth care nonprofit, Andean Health and Development, which turned out to be=
+ Erik=92s first exposure to USAID. The nonprofit, whose work was supporte=
+d by a small USAID grant, worked to fundamentally change healthcare in ru=
+ral Ecuador, training doctors to help communities prevent diseases throug=
+h better nutrition and vaccination while also helping clinics treat patie=
+nts through training and resources. Today, 100 percent of the staff in th=
+e organization=92s health system are Ecuadorian, and 75 percent are women=
+. For his work starting the organization and serving as its first Executi=
+ve Director, Erik won the Dr. Thomas A. Dooley Award from Notre Dame=92s =
+Alumni Association for outstanding service to humankind in 1999.=A0
+
+Although he=92s traveling to North Africa, it=92s clear that Latin Americ=
+a holds a special place in Erik=92s heart, especially since it=92s where =
+he met his wife, Gloria. Gloria worked at a mall in Ecuador that Erik wou=
+ld often visit to go to the bank and grab lunch. Almost every day, Erik w=
+ould stop by and talk to Gloria at her store, under the pretext of stoppi=
+ng by on his way to Kentucky Fried Chicken, which was right next door. It=
+ took him several weeks to ask Gloria out for coffee, weeks in which Erik=
+=92s lunches almost solely consisted of KFC. Does Erik actually like the =
+Colonel's secret recipe? Let=92s just say we all make sacrifices for love=
+.
+
+After stops at Notre Dame and the Peace Corps headquarters, Erik eventual=
+ly joined the Foreign Service with USAID in 2004. Erik=92s first post was=
+ at USAID=92s Mission in Uganda, where he worked as a health officer. His=
+ focus, from the very beginning, was localization. At the time, a large U=
+.S.-based contractor specializing in logistics and commodities handled mu=
+ch of the Mission=92s health work. Erik was part of the effort to help Ug=
+andan partners benefit from that opportunity. He helped design a new prog=
+ram that would set up a local organization to take over the work then bei=
+ng handled by the larger company. The program was such a success that, te=
+n years later and long after he left Uganda, Erik received an email from =
+one of the local staff with the news that the local partner had just won =
+an award for their health work.
+
+Since that first posting in Uganda, Erik has spent close to two decades a=
+s a career member of the Senior Foreign Service, serving in Peru, Afghani=
+stan, Guatemala, DC of course, and most recently, North Macedonia.
+
+Everywhere he has traveled, he=92s had an impact. In Guatemala, he helped=
+ create a major new public-private alliance to create economic opportunit=
+ies in the Western Highlands. In Afghanistan, he helped provide tens of m=
+illions of dollars in direct funding to the Afghan ministries for health =
+and education, helping to educate girls and supporting NGOs providing lif=
+esaving medical care for Afghan communities, particularly women. And in N=
+orth Macedonia, during his tenure, the Mission=92s yearly budget more tha=
+n tripled. He not only had to manage this increase of funds, but did so w=
+hile managing operations through the duration of the COVID-19 pandemic, a=
+nd of course, the country=92s name change.=A0
+
+Wherever Erik goes, he remains deeply committed to colleagues. One cowork=
+er from North Macedonia remembered how, during the first few months of th=
+e pandemic, he stopped by the homes of his staff members to personally de=
+liver chocolate to help mitigate the mental health effects of isolation. =
+Erik=92s past experiences have prepared him well for his newest post: Mis=
+sion Director for USAID/Morocco.
+
+The United States and Morocco have enjoyed strong diplomatic relations fo=
+r over 200 years. Morocco was the first country to recognize the newly in=
+dependent United States, and since 1960, the Agency has worked to support=
+ the welfare of the Moroccan people.
+
+Today, Morocco faces the worst seasonal drought the country has seen in 3=
+0 years, and water levels in dams and reservoirs around the country are s=
+inking rapidly. The Abdelmoumen Dam in Agadir, for example, which supplie=
+s the region of Morocco that produces the most fruits and vegetables, is =
+filled to just four percent of its capacity.
+
+The drought has worsened the country=92s rising food and fuel prices amid=
+st a tough economic climate. Nationally, one in ten Moroccans are unemplo=
+yed and about 80 percent of those unemployed are young people. In respons=
+e, USAID is providing capital funding to nearly a thousand struggling coo=
+peratives to help pay for equipment, raw materials, and production tools,=
+ supporting a crucial part of Morocco=92s economy and its fight against p=
+overty.=A0
+
+But our work extends far beyond responding to immediate needs. Morocco ha=
+s always been a place where the Government takes smaller pilot programs a=
+nd scales them nationally =96 a model of how we want our work to evolve o=
+ver time. For years, the Agency has helped boost government accountabilit=
+y, support local elections, and expand participation in civil society and=
+ government among minority communities including young people, women, and=
+ persons with disabilities. And within the last decade, thanks to USAID=92=
+s partnership with the Ministry of Education, the National Program for Re=
+ading has helped more than 4 million grade schoolers across 24,000 public=
+ and private schools read at grade level =96 just one of many of our effo=
+rts to educate young people and help them lift themselves out of poverty.=
+
+
+Our work in Morocco requires a leader able to build on this work and tack=
+le the challenges faced by the Moroccan people. Someone who can make an i=
+mpact beyond the programs we implement. Someone who truly has a heart for=
+ service, and of course, who will take advantage of all the KFCs that Mor=
+occo has to offer.
+
+Erik is that someone in every respect, and I=92m grateful that he will be=
+ representing the Agency, and the U.S., in Morocco. With that, it=92s my =
+pleasure to administer the oath of office.
+
+=20
+=20
+=20
+=20
+ =20
+=20
+
+Stay Connected with USAID [ https://www.usaid.gov/stayconnected?utm_mediu=
+m=3Demail&utm_source=3Dgovdelivery ] Facebook [ https://www.facebook.com/=
+USAID?utm_medium=3Demail&utm_source=3Dgovdelivery ] =A0 Twitter [ https:/=
+/twitter.com/usaid?utm_medium=3Demail&utm_source=3Dgovdelivery ]=A0 =A0Li=
+nkedIn [ https://www.linkedin.com/company/usaid?utm_medium=3Demail&utm_so=
+urce=3Dgovdelivery ]=A0 =A0YouTube [ https://www.youtube.com/c/fwd?utm_me=
+dium=3Demail&utm_source=3Dgovdelivery ]=A0=A0Instagram [ https://www.inst=
+agram.com/usaid?utm_medium=3Demail&utm_source=3Dgovdelivery ] [ http://ww=
+w.granicus.com?utm_medium=3Demail&utm_source=3Dgovdelivery ]  SUBSCRIBER =
+SERVICES:
+Manage Subscriptions [ https://public.govdelivery.com/accounts/USAIDHQ/su=
+bscriber/edit?preferences=3Dtrue#tab1 ] =A0|=A0 Unsubscribe All [ https:/=
+/public.govdelivery.com/accounts/USAIDHQ/subscriber/one_click_unsubscribe=
+?verification=3D5.74f3717e68ed4d7575b3b74776410aa6&destination=3DMS607104=
+44266%40YAHOO.COM ] =A0|=A0 Help [ https://subscriberhelp.govdelivery.com=
+/ ] =20
+=20
+=20
+
+________________________________________________________________________
+
+ This email was sent to MS60710444266@YAHOO.COM using govDelivery Communi=
+cations Cloud on behalf of: United States Agency for International Develo=
+pment =B7=A01300 Pennsylvania Avenue NW=A0=B7 Washington, DC=A0=B7 20004 =
+GovDelivery logo  [ https://subscriberhelp.granicus.com/?utm_medium=3Dema=
+il&utm_source=3Dgovdelivery ]=20
+=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_90B_037F_26F95378.25EFB6CC
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Remarks by Administrator Samantha Power at the Swearing-In Cer=
+emony for Erik Janowsky, Mission Director for Morocco
+</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css">
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and =
+other text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+
+
+</head>
+<body style=3D"margin:0;padding:0;margin:0;padding:0;width:100% !importan=
+t;">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #EEEEEE; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#EEEE=
+EE">
+<table id=3D"flexible-abe-main-table" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-top: 20px; padding-bottom: 20px=
+;">
+  <tr>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+    <!-- centered column -->
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77814646">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-12f86e7d-4a69-43d5-afd4-9ce39d72223c" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-5e55bc5b-760a-4=
+f0c-b978-a3505d3b50ac-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-5e55bc5b-760a-4f0c-b978-a3505d3b50ac" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77814647" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-5e55b=
+c5b-760a-4f0c-b978-a3505d3b50ac-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 20px;"><table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;"><tr><td align=3D"center" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"><img class=3D"govd_template_image" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USAIDHQ/2021/11/5147570/logo_original.png=
+" style=3D"width: 189px; height: auto; -ms-interpolation-mode: bicubic; l=
+ine-height: 1; outline: none; text-decoration: none; max-width: 100%; bor=
+der: none;" alt=3D"United States Agency for International Development USA=
+ID - from the American People" width=3D"189" height=3D"59"></td></tr></ta=
+ble></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77814649">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-a452e389-6429-48af-b56d-b92cba84d146" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-478dafc0-95d3-4=
+c40-a183-ed622d1c18a5-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-478dafc0-95d3-4c40-a183-ed622d1c18a5" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77814650" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-478da=
+fc0-95d3-4c40-a183-ed622d1c18a5-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 20px;">
+<h1 style=3D'text-align: center; line-height: 1.2; font-family: "times ne=
+w roman", times; font-size: 15px; color: #000000; margin: 0 0 5px;' align=
+=3D"center">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT<br>Office =
+of Press Relations</h1>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 1em 0 15px;' align=3D"left"><st=
+rong>For Immediate Release</strong><br><strong>August 31, 2022</strong></=
+p>
+<h2 style=3D'text-align: center; line-height: 1.2; font-family: "times ne=
+w roman", times; font-size: 15px; color: #000000; margin: 0 0 10px;' alig=
+n=3D"center">REMARKS</h2>
+<p style=3D'text-align: center; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; line-height: 1.4; font-family: "times new roman", time=
+s; font-size: 15px; color: #000000; margin: 0 0 15px;' align=3D"center"><=
+strong>Administrator Samantha Power at the Swearing-In Ceremony for Erik =
+Janowsky, Mission Director for Morocco<br><br></strong><strong>Ronald Rea=
+gan Building</strong></p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Thank=
+ you, Andy, for kicking us off. Good morning to everyone here in person a=
+nd those tuning in virtually. A special welcome to Erik=92s family =96 hi=
+s mother Peggy; his brother and sister-in-law, Kurt and Jory; his sister =
+Brooke and her son, Serafino; and of course his wife, Gloria, and their s=
+on, Ian. I=92m told Erik=92s daughter, Bella, is also tuning in virtually=
+ from London, where she is studying to become a screenwriter.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Befor=
+e we celebrate Erik and this tremendous achievement, I have to depart fro=
+m script to pay tribute to Gloria. I just learned that Gloria passed her =
+State Department Oral Exam and will be joining the Foreign Service. Ian p=
+ut it best: =93I guess I have a lot to live up to.=94</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Erik =
+grew up in Indiana, in a family dedicated to service and giving back. His=
+ mother, Peggy, worked with underprivileged communities through United Wa=
+y and then at the Notre Dame library. His father, Gordy, was a public sch=
+ool teacher who taught high school chemistry for over four decades. The f=
+amily=92s focus on helping professions clearly influenced Erik, who is de=
+scribed by almost everyone he meets as someone who truly has a heart for =
+service, someone who, as his mother put it, constantly asks the question:=
+ =93what can I do to help?=94</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">It=92=
+s a quality that surfaced when Erik was quite young. His mother remembers=
+ him caring diligently for his baby sister Brooke, becoming, as she descr=
+ibed, a kind of second father to her, and making her laugh with his rendi=
+tions of the Beatles=92 =93Rocky Raccoon.=94 And when Peggy herself injur=
+ed her back skating at the university ice rink on Christmas Eve, Erik =96=
+ then just in high school, found a doctor willing to help out on the holi=
+day, and for weeks cooked and brought her meals, while practically carryi=
+ng her to and from her bed.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">It wa=
+sn=92t just his family who took notice of Erik=92s caring nature. In coll=
+ege, Erik befriended the late Father Theodore Hesburgh, an internationall=
+y recognized defender of human rights who at the time was the President o=
+f Notre Dame. The two became penpals when Erik joined the Peace Corps in =
+Ecuador, and Father Ted became one of Erik=92s closest mentors, always re=
+minding him that =93one person can make a difference.=94 They were so clo=
+se that eventually, when Erik converted to Catholicism, Father Ted became=
+ Erik=92s godfather. And he baptized both of Erik=92s children.=A0</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Profe=
+ssionally, Father Ted was an enormous influence in Erik=92s life. He enco=
+uraged Erik to pursue a graduate degree and a career in international dev=
+elopment, and helped Erik find research funding for his dissertation.</p>=
+
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Fathe=
+r Ted also helped Erik return to Ecuador in the 1990s to start a health c=
+are nonprofit, Andean Health and Development, which turned out to be Erik=
+=92s first exposure to USAID. The nonprofit, whose work was supported by =
+a small USAID grant, worked to fundamentally change healthcare in rural E=
+cuador, training doctors to help communities prevent diseases through bet=
+ter nutrition and vaccination while also helping clinics treat patients t=
+hrough training and resources. Today, 100 percent of the staff in the org=
+anization=92s health system are Ecuadorian, and 75 percent are women. For=
+ his work starting the organization and serving as its first Executive Di=
+rector, Erik won the Dr. Thomas A. Dooley Award from Notre Dame=92s Alumn=
+i Association for outstanding service to humankind in 1999.=A0</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Altho=
+ugh he=92s traveling to North Africa, it=92s clear that Latin America hol=
+ds a special place in Erik=92s heart, especially since it=92s where he me=
+t his wife, Gloria. Gloria worked at a mall in Ecuador that Erik would of=
+ten visit to go to the bank and grab lunch. Almost every day, Erik would =
+stop by and talk to Gloria at her store, under the pretext of stopping by=
+ on his way to Kentucky Fried Chicken, which was right next door. It took=
+ him several weeks to ask Gloria out for coffee, weeks in which Erik=92s =
+lunches almost solely consisted of KFC. Does Erik actually like the Colon=
+el's secret recipe? Let=92s just say we all make sacrifices for love.</p>=
+
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">After=
+ stops at Notre Dame and the Peace Corps headquarters, Erik eventually jo=
+ined the Foreign Service with USAID in 2004. Erik=92s first post was at U=
+SAID=92s Mission in Uganda, where he worked as a health officer. His focu=
+s, from the very beginning, was localization. At the time, a large U.S.-b=
+ased contractor specializing in logistics and commodities handled much of=
+ the Mission=92s health work. Erik was part of the effort to help Ugandan=
+ partners benefit from that opportunity. He helped design a new program t=
+hat would set up a local organization to take over the work then being ha=
+ndled by the larger company. The program was such a success that, ten yea=
+rs later and long after he left Uganda, Erik received an email from one o=
+f the local staff with the news that the local partner had just won an aw=
+ard for their health work.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Since=
+ that first posting in Uganda, Erik has spent close to two decades as a c=
+areer member of the Senior Foreign Service, serving in Peru, Afghanistan,=
+ Guatemala, DC of course, and most recently, North Macedonia.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Every=
+where he has traveled, he=92s had an impact. In Guatemala, he helped crea=
+te a major new public-private alliance to create economic opportunities i=
+n the Western Highlands. In Afghanistan, he helped provide tens of millio=
+ns of dollars in direct funding to the Afghan ministries for health and e=
+ducation, helping to educate girls and supporting NGOs providing lifesavi=
+ng medical care for Afghan communities, particularly women. And in North =
+Macedonia, during his tenure, the Mission=92s yearly budget more than tri=
+pled. He not only had to manage this increase of funds, but did so while =
+managing operations through the duration of the COVID-19 pandemic, and of=
+ course, the country=92s name change.=A0</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Where=
+ver Erik goes, he remains deeply committed to colleagues. One coworker fr=
+om North Macedonia remembered how, during the first few months of the pan=
+demic, he stopped by the homes of his staff members to personally deliver=
+ chocolate to help mitigate the mental health effects of isolation. Erik=92=
+s past experiences have prepared him well for his newest post: Mission Di=
+rector for USAID/Morocco.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">The U=
+nited States and Morocco have enjoyed strong diplomatic relations for ove=
+r 200 years. Morocco was the first country to recognize the newly indepen=
+dent United States, and since 1960, the Agency has worked to support the =
+welfare of the Moroccan people.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Today=
+, Morocco faces the worst seasonal drought the country has seen in 30 yea=
+rs, and water levels in dams and reservoirs around the country are sinkin=
+g rapidly. The Abdelmoumen Dam in Agadir, for example, which supplies the=
+ region of Morocco that produces the most fruits and vegetables, is fille=
+d to just four percent of its capacity.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">The d=
+rought has worsened the country=92s rising food and fuel prices amidst a =
+tough economic climate. Nationally, one in ten Moroccans are unemployed a=
+nd about 80 percent of those unemployed are young people. In response, US=
+AID is providing capital funding to nearly a thousand struggling cooperat=
+ives to help pay for equipment, raw materials, and production tools, supp=
+orting a crucial part of Morocco=92s economy and its fight against povert=
+y.=A0</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">But o=
+ur work extends far beyond responding to immediate needs. Morocco has alw=
+ays been a place where the Government takes smaller pilot programs and sc=
+ales them nationally =96 a model of how we want our work to evolve over t=
+ime. For years, the Agency has helped boost government accountability, su=
+pport local elections, and expand participation in civil society and gove=
+rnment among minority communities including young people, women, and pers=
+ons with disabilities. And within the last decade, thanks to USAID=92s pa=
+rtnership with the Ministry of Education, the National Program for Readin=
+g has helped more than 4 million grade schoolers across 24,000 public and=
+ private schools read at grade level =96 just one of many of our efforts =
+to educate young people and help them lift themselves out of poverty.</p>=
+
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Our w=
+ork in Morocco requires a leader able to build on this work and tackle th=
+e challenges faced by the Moroccan people. Someone who can make an impact=
+ beyond the programs we implement. Someone who truly has a heart for serv=
+ice, and of course, who will take advantage of all the KFCs that Morocco =
+has to offer.</p>
+<p style=3D'-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: "times new roman", times; font-size: 15px; =
+color: #000000; text-align: left; margin: 0 0 15px;' align=3D"left">Erik =
+is that someone in every respect, and I=92m grateful that he will be repr=
+esenting the Agency, and the U.S., in Morocco. With that, it=92s my pleas=
+ure to administer the oath of office.</p>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+  </tr>
+</table>
+</td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"ce=
+nter">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%">
+<!--[if mso]>
+<table width=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"width:600px;">
+<tr>
+<td>
+<![endif]-->
+<div style=3D"margin: 0 auto; max-width: 600px; width: 100%;">
+<table style=3D"background: #FFFFFF;" width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" align=3D"center" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 13px; text-align: center; padding: 20px 0px 10px;=
+ font-family: arial, helvetica, sans-serif !important;" align=3D"center">=
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzkw=
+MDEiLCJ1cmwiOiJodHRwczovL3d3dy51c2FpZC5nb3Yvc3RheWNvbm5lY3RlZD91dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.gwZwdJviM1RA4gpg_CkR2jGtbCD=
+1K4t3XHvGdxuzzfI/s/2591266048/br/143331542210-l" target=3D"_blank" rel=3D=
+"noopener"><font face=3D"arial,helvetica,sans-serif">Stay Connected with =
+USAID</font></a></td>
+</tr>
+<tr>
+<td style=3D"padding: 10px;" align=3D"center">
+<font face=3D"arial,helvetica,sans-serif"><font face=3D"arial,helvetica,s=
+ans-serif"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4M=
+zEuNjMwMzkwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vVVNBSUQ_dXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.u5uTXCFQ4TKhqwx7lCC8sBU=
+HyaKHghw6-vu2ZK4JSrQ/s/2591266048/br/143331542210-l" target=3D"_blank" re=
+l=3D"noopener"><img src=3D"https://content.govdelivery.com/attachments/fa=
+ncy_images/implementation/2016/02/754187/facebook_original.png" alt=3D"Fa=
+cebook" width=3D"25" height=3D"25"></a> =A0 <a href=3D"https://lnks.gd/l/=
+eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzkwMDEiLCJ1cmwiOiJodHRwczovL3R3a=
+XR0ZXIuY29tL3VzYWlkP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeS=
+J9.bpNUfAn0weM7bmKIkwf9dbXlUFjUoMWZWMUrXlugmmM/s/2591266048/br/1433315422=
+10-l" target=3D"_blank" rel=3D"noopener"><img src=3D"https://content.govd=
+elivery.com/attachments/fancy_images/implementation/2016/02/754151/twitte=
+r_original.png" alt=3D"Twitter" width=3D"25" height=3D"25"></a>=A0 =A0<a =
+href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIj=
+oxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzkwMDE=
+iLCJ1cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS91c2FpZD91dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.as6SS2x31RzQsI974kq2E3of8e=
+kGZmJvO-Wvyz4Ayvo/s/2591266048/br/143331542210-l" target=3D"_blank" rel=3D=
+"noopener"><img src=3D"https://content.govdelivery.com/attachments/fancy_=
+images/implementation/2016/02/754194/linkedin_original.png" alt=3D"Linked=
+In" width=3D"25" height=3D"25"></a>=A0 =A0<a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzkwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5=
+5b3V0dWJlLmNvbS9jL2Z3ZD91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZl=
+cnkifQ.xjBqI1Q4ojLFQiJ4ULVbewneSjVBlo4letrbuP5zfdE/s/2591266048/br/143331=
+542210-l" target=3D"_blank" rel=3D"noopener"><img src=3D"https://service.=
+govdelivery.com/banners/GOVDELIVERY/youtube.gif" alt=3D"YouTube" width=3D=
+"25" height=3D"25"></a>=A0=A0<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MzEuNjMwMzkwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5pbnN0YWdyYW0u=
+Y29tL3VzYWlkP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.B_pA=
+PseQ6JI0t9lXO47xaG4JAkZqtX-T2S3KaapqCSk/s/2591266048/br/143331542210-l" t=
+arget=3D"_blank" title=3D"Instagram" rel=3D"noopener"><img src=3D"https:/=
+/public.govdelivery.com/attachments/fancy_images/GOVDELIVERY/2021/03/4237=
+093/instagram-logo_original.png" alt=3D"Instagram" width=3D"25" height=3D=
+"25"></a></font></font><font face=3D"arial,helvetica,sans-serif"><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzkwMDEiLCJ1cm=
+wiOiJodHRwOi8vd3d3LmdyYW5pY3VzLmNvbT91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9Z292ZGVsaXZlcnkifQ.qq2vjXMnDLpRXKdYpOQKdnniiUuhk5nDpBC1qIAX5iM/s/2591266=
+048/br/143331542210-l" target=3D"_blank" rel=3D"noopener"></a></font>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; font-family: arial, helvetica, sans-seri=
+f; font-size: 13px; padding: 10px 0px 20px;">
+<font face=3D"arial,helvetica,sans-serif">SUBSCRIBER SERVICES:</font><br>=
+<font face=3D"arial,helvetica,sans-serif"><a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzkwMDEiLCJ1cmwiOiJodHRwczovL3B1Ymx=
+pYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNBSURIUS9zdWJzY3JpYmVyL2VkaXQ_cHJl=
+ZmVyZW5jZXM9dHJ1ZSN0YWIxIn0.q_BWugT7dAW7gkUl7ciCGi8w5cQXdtxXVliAEsuLUJY/s=
+/2591266048/br/143331542210-l" title=3D"Manage Subscriptions">Manage Subs=
+criptions</a> =A0|=A0 <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMDgsInF1ZXJ5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24iLC=
+JkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXRpbl9pZCI6IjIwMjIwODM=
+xLjYzMDM5MDAxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291=
+bnRzL1VTQUlESFEvc3Vic2NyaWJlci9vbmVfY2xpY2tfdW5zdWJzY3JpYmUifQ.KR7igQn0Uj=
+5fAAxvhIhNTX4czgWfYgskkiE53LB50-A/s/2591266048/br/143331542210-l?verifica=
+tion=3D5.74f3717e68ed4d7575b3b74776410aa6&destination=3DMS60710444266%40Y=
+AHOO.COM" title=3D"Unsubscribe from All Topics">Unsubscribe All</a> =A0|=A0=
+ <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2=
+lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzk=
+wMDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.z=
+KIozAHVg_8Uwyjy_nBY13Tz0yTD8sw7jYAHK9cX5Zg/s/2591266048/br/143331542210-l=
+">Help</a></font>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"border-collapse: collapse; margin: 0px auto; width: 1=
+00%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0 10px 0 10px;" valign=3D"top">
+<table class=3D"mobile-tagline" style=3D"border-collapse: collapse; margi=
+n: 0px auto; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"right">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 0 0 0;" colspan=3D"2" valign=3D"top"><hr></td>=
+
+</tr>
+<tr>
+<td style=3D"padding: 10px 5px 10px 0;" align=3D"left" valign=3D"top"><sp=
+an style=3D"color: #757575; font-size: 10px; font-family: arial, helvetic=
+a, sans-serif;">This email was sent to MS60710444266@YAHOO.COM using govD=
+elivery Communications Cloud on behalf of: United States Agency for Inter=
+national Development =B7=A01300 Pennsylvania Avenue NW=A0=B7 Washington, =
+DC=A0=B7 20004</span></td>
+<td style=3D"width: 95px; padding-top: 10px;" align=3D"right" valign=3D"t=
+op" width=3D"95"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA4MzEuNjMwMzkwMDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdyYW5pY3Vz=
+LmNvbS8_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.qxd0_PCn5=
+a65OOQZQNClJf-v8c1K6ijZyTM0qosTtJs/s/2591266048/br/143331542210-l" target=
+=3D"_blank" rel=3D"noopener"> <img src=3D"https://content.govdelivery.com=
+/images/govd-logo-dark.png" border=3D"0" alt=3D"GovDelivery logo" width=3D=
+"95" height=3D"27" align=3D"right"> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMzE1NDIyMTAtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0OCZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMzkwMDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDM5MDAxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODQ3MzgzJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_90B_037F_26F95378.25EFB6CC--
+

@@ -1,0 +1,365 @@
+From - Sun Aug 28 22:55:17 2022
+X-Account-Key: account1
+X-UIDL: AAQHKl8sirPgYuMEJQIDoOrxi+0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.107
+ by atlas304.free.mail.ne1.yahoo.com with HTTPS; Thu, 28 Jul 2022 21:48:20 +0000
+Return-Path: <subscriptions@subscriptions.dol.gov>
+X-Originating-Ip: [209.134.151.40]
+Received-SPF: pass (domain of subscriptions.dol.gov designates 209.134.151.40 as permitted sender)
+Authentication-Results: atlas304.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.dol.gov header.s=18q1;
+ spf=pass smtp.mailfrom=subscriptions.dol.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.dol.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 28 Jul 2022 21:48:20 +0000
+X-YMailISG: _NzpDB4WLDuK1jxCs5nHDn91SoYUQY23lr.HJ7RUtS.u90mC
+ tQJpPv_rLgNBo4gboxMyneW2l0NMf9BtpzaV8NVJi3i0K26eYSIQRxaT5E1m
+ GLQOUmoSZ_UMFJ4_Gg3mQGRhCAPgTqo1HemM_jonOPTqx3Wqcfp9dxn.NOma
+ 5zM.wBiv6k0uaeDtw64QuEHhdskk7zEbJp68qAqBK7oYjMt7hcvS532o.nM3
+ j9jmiC6QmLMZrg4c_rW7tEvP4VpHZ2pcHzNOFW6QzwX8lM7_oPZ.D01L2SJc
+ nzUqfx76kBekEGGY4XtGc9ORop8RWU3vYA2Kpm5rV_.kscCxJidVqVtVG4z0
+ GX8Ax1QSv1ifGXt5dvnI3EKL5qFRt4D62DMTufBN6CX00qsdWW4gV3vPEQDF
+ PHSIZCf8L0z0Bot0iMEfx.UFENnWGLEl_DvQv8zyyX_rQbM19SKPu_EsP4Vi
+ VK_Gs4.yVsQVkrhlvtkxyF9J.Zt6XKmpoDblUZlRZDuLFstsG3t3I7FRWEqI
+ dPjhuriCHuPZyGrZmg3z9QsaZq86wKlINQlzqk_O9xuq49n_mem0_4TNaQls
+ jApfZNssOrh0RotbjSZLqEQJ5u4_BhWbZGBMx3.Nqrpufap0uL4e6p0s0M2v
+ ziQjNFI.mrzbbVeMqqkaN7Um0kvY9KVreGbD4ywNcFyXIBTsGPdY.BhdgbMe
+ h1H.7jXfysFnBOLXgmxW13CGUZGHNs_isfaBKfIrI5PUpfwAvMPfbMtm1O73
+ dsk_FPPasmoh7yuFCPQDlwvxRhAcqS_Suxdtn0n_Sp84TBMlf.Z7w8DvAVOX
+ lVpZKBzwtznQvGzTcnAzZX.hL.dE0hWEk0JSQ7dK2uo0qauVxtes9WnlxKoR
+ Nejx9tNu1eYZyhWDa8VIw7sdxi2DtR577j1lC36LIEQvz25G5DF8aTq3hJee
+ KwxD41gem6tzz0daaRq432fzzbbAj07iAomLSRkntdh4hfVLL3VzqgRduRsw
+ ecSKqdWyVuDhfQm1jp7rrNVpdyZy5FG2RcUnR7e73Y90UyO.7pz8eGG20Psc
+ Pu.w7m3_BcFdCR4rq0lKTCDLM7a3hkc0ZQAJMuUniseUkjFNMmmsfshEbE3F
+ 2jI1rDGseCEf3N0qz6HoOPxncyLDkg2DbfnISgwAu8252zLOshQMtJ5qnu1W
+ vJqUPXuAjwxP6WXCqWI-
+Received: from 209.134.151.40 (EHLO mailer151040.service.govdelivery.com)
+ by 10.217.135.107 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 28 Jul 2022 21:48:20 +0000
+Received: from gepdp-smeds2-3.systems.dc.gdi ([10.5.36.25])
+	by mailer151040.service.govdelivery.com (-); Thu, 28 Jul 2022 21:48:17 +0000
+X-VirtualServer: VSG001, mailer151040.service.govdelivery.com, 10.5.36.185
+X-VirtualServerGroup: VSG001
+X-MailingID: 16821033::20220728.61456101::1001::MDB-PRD-BUL-20220728.61456101::ms60710444266@yahoo.com::115446_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.dol.gov; s=18q1; i=@subscriptions.dol.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=hD3r
+	cVnXi02ZCBHxD1S8BU5iLf5SvVfhKFfCUwIIQAQ=; b=Tb9xNNQL8yFSnE2JPVIf
+	i3YS9tnJd7wEod3NvXppTZ9ijFTVtFB+X4GWsKYrC0ks/MvuRMAIHMwo8StV9z1f
+	4A03+a+HAeq76g46sSj9l4D7xXDf4WL3yptoeYuaWQrlZHNgtY9Ohiu4VfzB7V0k
+	5PT9T7Lqi5JTULTyTgUn4ap/ZMAOAQ9X4drrqEkEqz2fHzT002vZtV6tX6eIDjW9
+	q6E3hX5pmDksHPQOR2k/FQNmE1+zDniW6Ls5yLyFGCSs6ntRAYBI5ua6XCN6R95P
+	YqQ3o5k7R7DOXIU417ZSlJTWw+oNQZYwr4epMhGKN02Yu50bGqH08eL53Nyr0Hmi
+	Sg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_AEC_38F9_446C689D.1446120A"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMI6AGzokF48CMtXDzrZiNkv8FYklC4YvvbjH8F6UVyXJMH+5akY5MosAzDN4sql3m9fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOL
+Errors-To: subscriptions@subscriptions.dol.gov
+MIME-Version: 1.0
+Message-ID: <16821033.115446@subscriptions.dol.gov>
+X-ReportingKey: MJJJ2EWJK677MJJGFFLJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?EBSA_Website_Update?=
+Date: Thu, 28 Jul 2022 21:48:13 +0000
+To: ms60710444266@yahoo.com
+Reply-To: subscriptions@subscriptions.dol.gov
+From: "=?US-ASCII?Q?United_States_Department_of_Labor?=" <subscriptions@subscriptions.dol.gov>
+Content-Length: 13432
+
+
+------=_NextPart_AEC_38F9_446C689D.1446120A
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+The U.S. Department of Labor=92s Employee Benefits Security Administratio=
+n posted the following:
+
+Preventive Services Requirements for Contraceptive Coverage
+
+
+  * Affordable Care Act Implementation FAQs Part 54 available at https://=
+www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-ce=
+nter/faqs/aca-part-54.pdf=20
+
+Bookmark and Share [ https://content.govdelivery.com/accounts/USDOL/bulle=
+tins/3259e04?reqfrom=3Dshare ]
+
+________________________________________________________________________
+
+DOL Seal [ https://www.dol.gov ] Questions? Contact Us [ https://www.dol.=
+gov/general/contact ] =20
+
+=A0
+
+STAY CONNECTED: Visit Us on Facebook [ https://www.facebook.com/departmen=
+toflabor/ ] Visit Us on Twitter [ https://twitter.com/USDOL ] Visit Us on=
+ YouTube [ https://www.youtube.com/USDepartmentOfLabor ] Sign up for emai=
+l updates [ https://public.govdelivery.com/accounts/USDOL/subscriber/new =
+] RSS Feeds [ http://www.dol.gov/rss/ ] Blog [ https://blog.dol.gov ]=20
+
+=A0
+
+SUBSCRIBER SERVICES: Manage Preferences [ https://public.govdelivery.com/=
+accounts/USDOL/subscriber/edit?preferences=3Dtrue#tab1 ] =A0|=A0 Unsubscr=
+ibe [ https://public.govdelivery.com/accounts/USDOL/subscriber/one_click_=
+unsubscribe?verification=3D5.f742f4e65f4c63fd51f2a26c0065bcd5&destination=
+=3Dms60710444266%40yahoo.com ] =A0|=A0 Help [ https://subscriberhelp.govd=
+elivery.com/ ] Got this as a forward? Sign up [ https://public.govdeliver=
+y.com/accounts/USDOL/subscriber/topics?qsp=3DCODE_RED%20. ] to receive ou=
+r future emails.=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud on behalf of: United States Department of Labor =B7 200 Cons=
+titution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL (1-866-487-2=
+365)  GovDelivery logo [ https://subscriberhelp.granicus.com/ ]=20
+body .abe-column-block { min-height: 5px; } table.gd_combo_table img {mar=
+gin-left:10px; margin-right:10px;} table.gd_combo_table div.govd_image_di=
+splay img, table.gd_combo_table td.gd_combo_image_cell img {margin-left:0=
+px; margin-right:0px;}
+=0A
+------=_NextPart_AEC_38F9_446C689D.1446120A
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    EBSA Website Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <p>The U.S. Department of Labor=92s Employee Benefits Security Administ=
+ration posted the following:</p>
+<p>Preventive Services Requirements for Contraceptive Coverage</p>
+<ul>
+<li>Affordable Care Act Implementation FAQs Part 54 available at <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjguNjE0NTYxMDEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5kb2wuZ292L3NpdGVzL2RvbGdvdi9maWxlcy9FQlNBL2Fib3V0LWV=
+ic2Evb3VyLWFjdGl2aXRpZXMvcmVzb3VyY2UtY2VudGVyL2ZhcXMvYWNhLXBhcnQtNTQucGRm=
+In0.CHHLfI7Y-vUbHfkFpJ97pwgv6Cyt9jAuCbe_jJgs_7Y/s/2601788355/br/141741362=
+396-l">https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activit=
+ies/resource-center/faqs/aca-part-54.pdf</a>
+</li>
+</ul>
+ =20
+
+
+<div id=3D"mail_footer">
+    <p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjguN=
+jE0NTYxMDEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bn=
+RzL1VTRE9ML2J1bGxldGlucy8zMjU5ZTA0P3JlcWZyb209c2hhcmUifQ.ItCxrQjHBqh_P2_p=
+BlzxRONfTesk0jHvxfUa3p3i5xo/s/2601788355/br/141741362396-l" target=3D"_bl=
+ank" rel=3D"noopener noreferrer"><img width=3D"83" height=3D"16" alt=3D"B=
+ookmark and Share" style=3D"border:0" src=3D"https://content.govdelivery.=
+com/assets/share_this-795413ad3d604760a450815a10e46c8ea06b7315facb759ffda=
+cbc7b7830f87b.gif"></a></p>
+<hr>
+<table style=3D"width: 257px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td width=3D"94"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3d3dy5kb2wuZ292In0.TbUsVmzgxx4g=
+Bi7lFWzsiHEtIpqIptQQEtEt2icS9AE/s/2601788355/br/141741362396-l" target=3D=
+"_blank" title=3D"Link Title" rel=3D"noopener"><img src=3D"https://conten=
+t.govdelivery.com/attachments/fancy_images/USDOL/2018/08/2111383/dol-seal=
+-85x85_original.png" border=3D"0" alt=3D"DOL Seal" title=3D"DOL Seal" wid=
+th=3D"75" height=3D"75" style=3D"border: 0;"></a></td>
+<td style=3D"font-family: Arial, Verdana, sans-serif; color: #666666; fon=
+t-size: 12px;" width=3D"163">Questions? <a href=3D"https://lnks.gd/l/eyJh=
+bGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIs=
+ImJ1bGxldGluX2lkIjoiMjAyMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3d3dy5kb=
+2wuZ292L2dlbmVyYWwvY29udGFjdCJ9.elBZzZCvwKZmx9QYFc64qlB8-Pm3l8J79ncCX8Urg=
+Hc/s/2601788355/br/141741362396-l" target=3D"_blank" rel=3D"noopener">Con=
+tact Us</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+<table style=3D"width: 186px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-family: Arial, Verdana, sans-serif; color: #666666; fon=
+t-size: 12px;" colspan=3D"9">STAY CONNECTED:</td>
+</tr>
+<tr>
+<td width=3D"35"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vZGVwYXJ0=
+bWVudG9mbGFib3IvIn0.I7fan1k7UsL7E7xFxyl2bXTw69z68rPr8T-iLSw-cb0/s/2601788=
+355/br/141741362396-l" target=3D"_blank" rel=3D"noopener"><img src=3D"htt=
+ps://service.govdelivery.com/banners/GOVDELIVERY/SOCIAL_MEDIA/facebook.gi=
+f" border=3D"0" alt=3D"Visit Us on Facebook" width=3D"26" height=3D"25"><=
+/a></td>
+<td width=3D"35"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL1VTRE9MIn0.tyjv=
+Cy2eFgZhu9kmJE7ViI6zKGepSOQN6ypJDHF26bs/s/2601788355/br/141741362396-l" t=
+arget=3D"_blank" rel=3D"noopener"><img src=3D"https://service.govdelivery=
+.com/banners/GOVDELIVERY/SOCIAL_MEDIA/twitter.gif" border=3D"0" alt=3D"Vi=
+sit Us on Twitter" width=3D"27" height=3D"25"></a></td>
+<td width=3D"35"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS9VU0RlcGFy=
+dG1lbnRPZkxhYm9yIn0.AdR1Yx-FJt_4x8kXuONRAryvksip9wkTyB1ABh83l5Y/s/2601788=
+355/br/141741362396-l" target=3D"_blank" rel=3D"noopener"><img src=3D"htt=
+ps://service.govdelivery.com/banners/GOVDELIVERY/SOCIAL_MEDIA/youtube.gif=
+" border=3D"0" alt=3D"Visit Us on YouTube" width=3D"25" height=3D"25"></a=
+></td>
+<td width=3D"35"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20v=
+YWNjb3VudHMvVVNET0wvc3Vic2NyaWJlci9uZXcifQ.JxVpYP1e_P1EJAt0lJlh7BX_gEnLEw=
+0H36f0ppDdk-o/s/2601788355/br/141741362396-l" target=3D"_blank" rel=3D"no=
+opener"><img src=3D"https://service.govdelivery.com/banners/GOVDELIVERY/S=
+OCIAL_MEDIA/envelope.gif" border=3D"0" alt=3D"Sign up for email updates" =
+width=3D"25" height=3D"25"></a></td>
+<td width=3D"35"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwOi8vd3d3LmRvbC5nb3YvcnNzLyJ9.lfvqdsO=
+ddwX_aFp4Yo9d9o6ne-xo4MBHtFFm4Gi3vN4/s/2601788355/br/141741362396-l"><img=
+ src=3D"https://service.govdelivery.com/banners/GOVDELIVERY/SOCIAL_MEDIA/=
+rss.gif" border=3D"0" alt=3D"RSS Feeds" width=3D"25" height=3D"25"></a></=
+td>
+<td width=3D"54"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL2Jsb2cuZG9sLmdvdiJ9.R19LsaLFw3A=
+6UuhUey--JKz5oVOlROteJmsv31ZZNWI/s/2601788355/br/141741362396-l" target=3D=
+"_blank" rel=3D"noopener"><img src=3D"https://service.govdelivery.com/ban=
+ners/GOVDELIVERY/SOCIAL_MEDIA/blogger.gif" border=3D"0" alt=3D"Blog" widt=
+h=3D"26" height=3D"25"></a></td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+<table style=3D"width: 275px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5" valign=3D"bottom" height=3D"15"><span style=3D"font-fam=
+ily: Arial, sans-serif; color: #666666; font-size: 12px;">SUBSCRIBER SERV=
+ICES:</span></td>
+</tr>
+<tr>
+<td width=3D"115"><span style=3D"font-family: Arial, sans-serif; color: #=
+666666; font-size: 12px;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1Ni=
+J9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmV=
+yeS5jb20vYWNjb3VudHMvVVNET0wvc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUj=
+dGFiMSJ9.hI2pq_wF5bvmbqTVbvezSKEgau1VEDiEdXiiz-CBvRM/s/2601788355/br/1417=
+41362396-l">Manage Preferences</a></span></td>
+<td width=3D"11">=A0|=A0</td>
+<td align=3D"center" width=3D"74"><span style=3D"font-family: Arial, sans=
+-serif; color: #666666; font-size: 12px;"><a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsInF1ZXJ5X3BhcmFtcyI6Wy=
+J2ZXJpZmljYXRpb24iLCJkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXR=
+pbl9pZCI6IjIwMjIwNzI4LjYxNDU2MTAxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVs=
+aXZlcnkuY29tL2FjY291bnRzL1VTRE9ML3N1YnNjcmliZXIvb25lX2NsaWNrX3Vuc3Vic2Nya=
+WJlIn0.BqTzv7UwgXMSG3WOK998qeBwI8dhC1kWiQezsjqxrPM/s/2601788355/br/141741=
+362396-l?verification=3D5.f742f4e65f4c63fd51f2a26c0065bcd5&destination=3D=
+ms60710444266%40yahoo.com">Unsubscribe</a></span></td>
+<td width=3D"11">=A0|=A0</td>
+<td width=3D"64"><span style=3D"font-family: Arial, sans-serif; color: #6=
+66666; font-size: 12px;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdv=
+dmRlbGl2ZXJ5LmNvbS8ifQ.QN4F9MSVnYxT681Wryvk39URUfdSqhJd7Jfx2PitkOc/s/2601=
+788355/br/141741362396-l">Help</a></span></td>
+</tr>
+<tr>
+<td colspan=3D"5"><span style=3D"font-family: Arial, sans-serif; color: #=
+666666; font-size: 12px;">Got this as a forward? <a href=3D"https://lnks.=
+gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczov=
+L3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNET0wvc3Vic2NyaWJlci90b3BpY=
+3M_cXNwPUNPREVfUkVEJTIwLiJ9.KBP0Kbpv9OlzOcdwZt7nv_oLdboUKaIrHxYMTCjbkiA/s=
+/2601788355/br/141741362396-l">Sign up</a> to receive our future emails.<=
+/span></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com using GovDelivery Co=
+mmunications Cloud on behalf of: United States Department of Labor =B7 <s=
+pan>200 Constitution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL =
+(1-866-487-2365)</span>
+</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA3MjguNjE0NTYxMDEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.cxRiCz4Dm7a8eCzv81wjyzsft96qM7XYHx5rmFkCZZ4/s=
+/2601788355/br/141741362396-l" target=3D"_blank" rel=3D"noopener"><img sr=
+c=3D"https://content.govdelivery.com/images/govd-logo-dark.png" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block { min-height: 5px; } tabl=
+e.gd_combo_table img {margin-left:10px; margin-right:10px;} table.gd_comb=
+o_table div.govd_image_display img, table.gd_combo_table td.gd_combo_imag=
+e_cell img {margin-left:0px; margin-right:0px;}</style>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE3NDEzNjIzOTYtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1NSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MjguNjE0NTYxMDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzI4LjYxNDU2MTAxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIxMDMzJmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_AEC_38F9_446C689D.1446120A--
+

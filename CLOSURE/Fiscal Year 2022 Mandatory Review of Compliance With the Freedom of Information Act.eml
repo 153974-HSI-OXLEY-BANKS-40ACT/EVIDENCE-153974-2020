@@ -1,0 +1,294 @@
+From - Sun Aug 28 22:56:18 2022
+X-Account-Key: account1
+X-UIDL: ABvFvoQbEd8IYuk8nwBxSNoULi4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.43
+ by atlas214.free.mail.ne1.yahoo.com with HTTPS; Tue, 2 Aug 2022 15:02:54 +0000
+Return-Path: <messages@service.govdelivery.com>
+X-Originating-Ip: [209.134.158.20]
+Received-SPF: pass (domain of service.govdelivery.com designates 209.134.158.20 as permitted sender)
+Authentication-Results: atlas214.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@service.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=unknown header.from=service.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 2 Aug 2022 15:02:54 +0000
+X-YMailISG: j5J0sGkWLDuRbFXOV_IeDpc8AjVEijaBM3W_YPYn2G6aHqCz
+ GrDqI1vUv7mcCJPAMQGBg8ES7aMvOADTgltaNilLvNl83ya4NVJORhmQ.mFl
+ IH5GfbTWD.AsqiV2Eny1BbLqxcqoy43vkv1EPg0.84OTel_SdukOJCN2PUy0
+ yu17U2ajhK3Fiu07UcwdMaFj3OMKRb7pnt5DLUrRSIfge7MaQvcH4y6eNd_E
+ H6pb1XGVO_G5H2HChH81IwQoMpEEsDTZQ4nxz_vOU711VUZXBT4Sjk150EI0
+ JWaB10qBTxS2W_UV8bJqFtGRUgjO5jS8UD72LlegGOhdvsMrPcC5qhy_sJM0
+ 44YGXP.j2xBynQAm9FFdPcn8i5Uc0wkdtuX_zTt_mWfg98jj7O7PC4XtAZOt
+ NzEY8RaoDvAfB9C_UUYPXvBOdBX_ogFJAUUsVPHwJsbYiAvlj3U8NWbHc4M.
+ 86yz77GnV8I0WR5QjhXL.C_.mwzDsWXvuFa1DG_3fhEquZkJ.Jr321LUI61H
+ yUYbBdToVoiW1ki3iAzg_oEALHF_cgo5ZwnC7aTF4DaONINWTzk2XJUiDrOE
+ YXv9LObA.Ffy1M3knkK_Oi3B1KAv88vugRcR4AQ9q5TkjQ3fv3I7mCmzqbsl
+ mqhWoS_9GhlGs_PpGMbTo57ucfqByxp.pj3hZey7iVOrgrFFwNu8UxRDCU1W
+ jtrez1iF45gMRJvXUNi_Hq2pV.79Hh.iQ7VgzIz.xEjDQ9lhFaZjNiOIXyOu
+ CCquz2mqFrPnt_.KP3e1dG8RLWohqn95CRiom8izBwpN21joT3BTjTTCkZVP
+ _2H7FQufPVW1m.nOEStrcEDAd8LeZXVSD82A6hKmdNivwT6txm.fmjNXXIii
+ .0v1a5l_UqWJ3Cxi31fOL77D_fssY9nkEI5MeW9CnXd56qPen2aL5e09jEBA
+ NBCgidl1hgU40tFBQqhtloI_.vbwrmUesAN83uE3RlHNY58PMmHe154TNLTt
+ e9xoAy_Z4FrRYsX7FU63MydbPIZgTlqHEdWmRPhkLD71yzUJafrL8YW1aNCG
+ pw_mgdKEE4s8b1tOfidZNsvFUVginRK7kmHODcSRywkDLHHJfonuvL_WmO8d
+ RahYLfIETU2q7232OE1SaosUps1nEMr2MK1.idRp_ePECYdfI99KqGQWpq1x
+ 6wvErU78zSdprnM-
+Received: from 209.134.158.20 (EHLO mailer158020.service.govdelivery.com)
+ by 10.217.135.43 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 02 Aug 2022 15:02:54 +0000
+Received: from gepdp-smeds8-1.systems.dc.gdi ([10.5.36.49])
+	by mailer158020.service.govdelivery.com (-); Tue, 02 Aug 2022 15:02:54 +0000
+X-VirtualServer: VSG002, mailer158020.service.govdelivery.com, 10.5.38.138
+X-VirtualServerGroup: VSG002
+X-MailingID: 16823937::20220802.61652211::1001::MDB-PRD-BUL-20220802.61652211::MS60710444266@YAHOO.COM::6882_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=service.govdelivery.com; s=13q2; i=@service.govdelivery.com;
+	h=Content-Transfer-Encoding:Content-Type:x-subscriber:
+	X-Accountcode:Errors-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:Reply-To:From; bh=TUQrhnCn4J3xv+Jrz6C4Yd1HTQ5+hf
+	qesVzP5wfUZns=; b=EsVSbXc8wOAIOEFnYX/Ehg7rRTHOPmZNw24hy+ZHfuVJ/X
+	gLmcoUlHQwTNnJ6NmHQNbLjkIs0nBaqUiQ27qnowLzkWYcH47CTY8Qj2ASbTtTJE
+	gmK5Bx9X+U0TA7mZApWPoQ40a5VX/3gDUjJN8mmWZbVKTZTbC4GMK3JxC+s3qwdJ
+	xirNFY2yzHNbcW2ikG9cKRbYg3UU9YhfnBjTRs/emt7oBYYLQsPTfBz7iaT9Dyn8
+	KBrwtwjbhc7xeDqvFf5vOuPFfBSlSvgEu4DLrU5lltFRZKQlzTh5o5MCsZKNMsoy
+	Sq5XCzH3SvPh495UyZTZpPu1Jajn10bjMUR0w85A==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_800_56C9_529E2493.2F22E8A8"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrEnsac/fo+4PSIHa6Rnb1W3MVdmYzrAg8zJXsj6+HJOdm65nkl6tOPrQJcSvfe4Z8fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USTREASTIGTA
+Errors-To: messages@service.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16823937.6882@service.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK6F8JJJ101NJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?Fiscal_Year_2022_Mandatory_Review_of_Comp?= =?US-ASCII?Q?liance_With_the_Freedom_of_Information_Act?=
+Date: Tue, 02 Aug 2022 15:01:27 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: tigta@service.govdelivery.com
+From: "=?US-ASCII?Q?Treasury_Inspector_General_for_Tax_Administration?=" <tigta@service.govdelivery.com>
+Content-Length: 9312
+
+
+------=_NextPart_800_56C9_529E2493.2F22E8A8
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+header
+
+The Treasury Inspector General for Tax Administration (TIGTA) today relea=
+sed the following:
+
+Audit Report
+
+Fiscal Year 2022 Mandatory Review of Compliance With the Freedom of Infor=
+mation Act=A0=A0=A0
+
+
+  * Read the Report: https://www.treasury.gov/tigta/auditreports/2022repo=
+rts/202210044fr.pdf=20
+
+=A0
+
+=A0
+
+Email Address:=A0TIGTACommunications@tigta.treas.gov
+
+Phone Number: 202-622-6500=A0
+
+Website:=A0http://www.tigta.gov [ https://www.treasury.gov/tigta/ ]
+
+=A0
+
+=A0
+
+=A0
+
+"Note:=A0 The difference between the date TIGTA issues an audit report to=
+ the Internal Revenue Service and the date TIGTA publicly releases the re=
+port is due to TIGTA's internal review process to ensure that public rele=
+ase is in compliance with Federal confidentiality laws."
+
+________________________________________________________________________
+
+=A0
+
+New Website footer=20
+
+Update your subscriptions, modify your password or e-mail address, or sto=
+p subscriptions at any time on your Subscriber Preferences Page [ https:/=
+/public.govdelivery.com/accounts/USTREASTIGTA/subscriber/new ]. You will =
+need to use your email address to log in. If you have questions or proble=
+ms with the subscription service, please visit subscriberhelp.govdelivery=
+.com [ https://subscriberhelp.govdelivery.com/ ].
+
+This service is provided to you at no charge by Treasury Inspector Genera=
+l for Tax Administration [ http://www.treas.gov/tigta/ ].
+
+________________________________________________________________________
+
+This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communic=
+ations Cloud on behalf of: Treasury Inspector General for Tax Administrat=
+ion =B7 901 D Street, SW, Suite 600 =B7 Washington, D.C. 20024-2169 =B7 (=
+800) 366-4484 GovDelivery logo [ https://subscriberhelp.granicus.com/ ]
+=0A
+------=_NextPart_800_56C9_529E2493.2F22E8A8
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    Fiscal Year 2022 Mandatory Review of Compliance With the Freed=
+om of Information Act
+</title>
+
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <p><img src=3D"https://content.govdelivery.com/attachments/fancy_images=
+/USTREASTIGTA/2022/07/6239009/header-003_original.png" alt=3D"header" tit=
+le=3D"" width=3D"773" height=3D"268"></p>
+  <p style=3D"color: black; font-family: Arial; font-size: 12pt; margin-t=
+op: 0pt; margin-bottom: 8pt;">The Treasury Inspector General for Tax Admi=
+nistration (TIGTA) today released the following:</p>
+<p style=3D"color: black; font-family: Arial; font-size: 12pt; margin-top=
+: 0pt; margin-bottom: 8pt;">Audit Report</p>
+<p><span style=3D"font-size: 12.0pt; font-family: 'Arial',sans-serif;">Fi=
+scal Year 2022 Mandatory Review of Compliance With the Freedom of Informa=
+tion Act</span>=A0<span style=3D"font-weight: bold;">=A0=A0</span></p>
+<ul style=3D"margin-top: 0in; margin-bottom: 0in; margin-left: 0.375in; u=
+nicode-bidi: embed; direction: ltr;" type=3D"disc">
+<li style=3D"color: black; margin-top: 0px; margin-bottom: 0px; vertical-=
+align: middle;"><span style=3D"font-family: Arial; font-size: 12pt;">Read=
+ the Report: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZX=
+Rpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA=
+4MDIuNjE2NTIyMTEiLCJ1cmwiOiJodHRwczovL3d3dy50cmVhc3VyeS5nb3YvdGlndGEvYXVk=
+aXRyZXBvcnRzLzIwMjJyZXBvcnRzLzIwMjIxMDA0NGZyLnBkZiJ9.nzMz4BLj7EFXt_40WlKw=
+tS-RLToIRhB5Ix6QDdIk_iE/s/2171856047/br/141933984513-l" target=3D"_blank"=
+ rel=3D"noopener">https://www.treasury.gov/tigta/auditreports/2022reports=
+/202210044fr.pdf</a></span></li>
+</ul>
+<p style=3D"margin: 0in 0in 0in 0.375in; color: black; font-family: Arial=
+; font-size: 12pt;">=A0</p>
+<p style=3D"margin: 0in 0in 0in 0.375in; color: black; font-family: Arial=
+; font-size: 12pt;"><span style=3D"font-style: italic;">=A0</span></p>
+<p style=3D"margin: 0in; font-family: Arial; font-size: 12pt;"><span styl=
+e=3D"color: black;">Email Address:=A0</span><a href=3D"mailto:TIGTACommun=
+ications@tigta.treas.gov">TIGTACommunications@tigta.treas.gov</a></p>
+<p style=3D"margin: 0in; color: black; font-family: Arial; font-size: 12p=
+t;">Phone Number: <font face=3D"arial,helvetica,sans-serif" size=3D"3">20=
+2-622-6500=A0</font></p>
+<p style=3D"margin: 0in; font-family: Arial; font-size: 12pt;"><font size=
+=3D"3"><span style=3D"color: black;">Website:=A0</span></font><a href=3D"=
+https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsIn=
+VyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NTIyMTEiLCJ1cmw=
+iOiJodHRwczovL3d3dy50cmVhc3VyeS5nb3YvdGlndGEvIn0.ZOg2Vm_BxGklSd3Wvr0ovOrK=
+CAd4d-AFNjfzBtQm9bM/s/2171856047/br/141933984513-l"><font face=3D"arial,h=
+elvetica,sans-serif" size=3D"3">http://www.tigta.gov</font></a></p>
+<p style=3D"margin: 0in; font-family: Arial; font-size: 12pt;">=A0</p>
+<p style=3D"margin: 0in; color: #595959; font-family: Arial; font-size: 1=
+2pt;">=A0</p>
+<p style=3D"margin: 0in; font-family: Arial; font-size: 12pt;">=A0</p>
+<p><font face=3D"times new roman,times" size=3D"2"><em>Note:=A0 The diffe=
+rence between the date TIGTA issues an audit report to the Internal Reven=
+ue Service and the date TIGTA publicly releases the report is due to TIGT=
+A's internal review process to ensure that public release is in complianc=
+e with Federal confidentiality laws.</em></font></p>
+<hr>
+<p>=A0</p>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table style=3D"height: 140px; width: 55.4479%;" width=3D"1107" cells=
+pacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 161px;">
+<td style=3D"height: 161px;" width=3D"100%"><img src=3D"https://content.g=
+ovdelivery.com/attachments/fancy_images/USTREASTIGTA/2022/07/6243983/foot=
+er-003_original.png" alt=3D"New Website footer" title=3D"TIGTA footer" wi=
+dth=3D"1152" height=3D"192"></td>
+</tr>
+</tbody>
+</table>
+<p>Update your subscriptions, modify your password or e-mail address, or =
+stop subscriptions at any time on your <a href=3D"https://lnks.gd/l/eyJhb=
+GciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsI=
+mJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NTIyMTEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy=
+5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNUUkVBU1RJR1RBL3N1YnNjcmliZXIvbmV3In0=
+.7s3Xtgkfq3d-uYn-hy0ddWaK-WcTo9Xo02FRIBdGIqU/s/2171856047/br/141933984513=
+-l">Subscriber Preferences Page</a>. You will need to use your email addr=
+ess to log in. If you have questions or problems with the subscription se=
+rvice, please visit <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJ=
+idWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoi=
+MjAyMjA4MDIuNjE2NTIyMTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlb=
+Gl2ZXJ5LmNvbS8ifQ.-PtE4Q3loZJiuRaFn9mEu21ljOeI3r6I4LhDavzl4RQ/s/217185604=
+7/br/141933984513-l">subscriberhelp.govdelivery.com</a>.</p>
+<p>This service is provided to you at no charge by <a href=3D"https://lnk=
+s.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwM=
+jpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NTIyMTEiLCJ1cmwiOiJodHRwOi=
+8vd3d3LnRyZWFzLmdvdi90aWd0YS8ifQ.At85wjaaD4o6ky5iVA3LiPDxjfyMpawtABCb4tR7=
+gdE/s/2171856047/br/141933984513-l">Treasury Inspector General for Tax Ad=
+ministration</a>.</p>
+
+</div>
+<div id=3D"tagline">
+    <div><hr></div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"89%"><font size=3D"1">This email was sent to MS60710444266@Y=
+AHOO.COM using GovDelivery Communications Cloud on behalf of: Treasury In=
+spector General for Tax Administration =B7 901 D Street, SW, Suite 600 =B7=
+ Washington, D.C. 20024-2169 =B7 (800) 366-4484</font></td>
+<td align=3D"right" width=3D"11%">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDIuNjE2NTIy=
+MTEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdyYW5pY3VzLmNvbS8ifQ.-WjDi3=
+Jb7il_izAQCbfBVyszO3gOC79BDvzXBJrKOG4/s/2171856047/br/141933984513-l" tar=
+get=3D"_blank" rel=3D"noopener"><img src=3D"https://content.govdelivery.c=
+om/images/govd-logo-dark.png" border=3D"0" alt=3D"GovDelivery logo" width=
+=3D"115"></a><br><br>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDE5MzM5ODQ1MTMtbCZzdWJzY3JpYmVyaWQ9MjE3MTg1NjA0NyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDIuNjE2NTIyMTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODAyLjYxNjUyMjExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIzOTM3JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_800_56C9_529E2493.2F22E8A8--
+

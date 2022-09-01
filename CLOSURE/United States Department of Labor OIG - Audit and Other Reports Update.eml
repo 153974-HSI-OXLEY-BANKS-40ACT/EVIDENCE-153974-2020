@@ -1,0 +1,289 @@
+From - Sun Aug 28 23:00:10 2022
+X-Account-Key: account1
+X-UIDL: ANTA1YxBhp8YYuq45Av2gFvowUs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.134.141
+ by atlas224.free.mail.ne1.yahoo.com with HTTPS; Wed, 3 Aug 2022 18:05:24 +0000
+Return-Path: <subscriptions@subscriptions.dol.gov>
+X-Originating-Ip: [208.42.137.68]
+Received-SPF: pass (domain of subscriptions.dol.gov designates 208.42.137.68 as permitted sender)
+Authentication-Results: atlas224.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@subscriptions.dol.gov header.s=18q1;
+ spf=pass smtp.mailfrom=subscriptions.dol.gov;
+ dmarc=pass(p=REJECT) header.from=subscriptions.dol.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 3 Aug 2022 18:05:24 +0000
+X-YMailISG: RRBNAy0WLDumfl9eSKRjm29bLEPEIfeXn8nzYGyJqGjI1aKZ
+ 8gqS8fJz5XZHRX43_m335pocpbr3Dn9STrKpaGtwFVoqRSbgQyvJsBEKcvip
+ J4lSpdIuvUROWpitTAN199XFOLxo9nL5ydcnwPb7PSODwEmpHkt25y9yhhSi
+ Lb7Ek5u3QIfI0mMU.nFo2Ew_fl16t2aHCN0Ebfro265V_co5d_m.Gb04URNi
+ odPCNd_0OabE3HuzOA9eb2JE79Rkh7d1_3MM54re91DtnLuaAyQBrwZ1Gfx0
+ bV0KVmH5xg372g_H4cKtECQwqvOhLuSoP3bg6PVBxQK4iBI7jAsDlL_LzoC1
+ ecWflzZsiSryen.Kp8e70.3hNZo0OnFX3QclzSnanVHsEkNoXq6HT0hv2GyH
+ 8cV.6JLcQml2YAW8WxNAvlBfe39cxoQx1deUoJZk0Gk8SLblKLdxW4Vct8Uu
+ 7WGvP3MkvVEG7MaxVNHjWruMkkAYgkxvwnf3rHnm4GVdKl1Zp2cGzrAyENY7
+ RtBWGz29wVdTUMS_6OJ1yufhmTUGs75.8pIt6LTklAk5kgxSLsadkNc_BLwB
+ lFKXnuP9wpbawafpKYuctLS3RIx25.GPi7zU1tuGahzpHWzRvXhSB3NS9sAo
+ laIgugzlS4JWIqZx8e5iFXqJ5fsFITaJXin2aqUnFD53letSfnz9IP_zo850
+ z.GQd34m.WfDzEO4tH_ifv7CpxwlwMRSHQG5FB6nQdihP6uCqOjt8Invh43q
+ eqa0EDydAa0HbKxOjkl1yXjPCw.V.Q8DVVkUt1zDtnjh1qwDP9V3KbEoI02V
+ Vwe6PR.WhwxsdDIGLIDdbUc5bzz_ZONW.hXVhCaCEeu4qp8mnMU87TOJEyjk
+ Pug_YQRyzYmQBOw58xhaM_h.0PQWXig.9OqNopHdx3pV6Kgpqtvme6gACuKd
+ OvUH.2awWKzUof_GJZeqtVF9Du7n_OOpn27GACNU20jPWTicGkc4jste9uXg
+ UdY6LxW.OlZvF92rzK9MC033Ee0LI9eDTWHMPZhCyOhm4RM9IL0BNYL6vnyw
+ yNwCbiq1m2vSgv2KRKxU2UgRdMEkNl_F0o.uhBUeePrvmfSdWHkxjfdFHtHB
+ VpUik.a2lx67.OVqvqFeMGEpBBeHO.R3IGML1jfHM39BOI6urZV2JhhY620u
+ FToXtmqqti0-
+Received: from 208.42.137.68 (EHLO mailer137068.service.govdelivery.com)
+ by 10.217.134.141 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 03 Aug 2022 18:05:24 +0000
+Received: from gepdp-smeds2-3.systems.dc.gdi ([10.5.36.25])
+	by mailer137068.service.govdelivery.com (-); Wed, 03 Aug 2022 18:05:23 +0000
+X-VirtualServer: VSG001, mailer137068.service.govdelivery.com, 10.5.36.190
+X-VirtualServerGroup: VSG001
+X-MailingID: 16822278::20220803.61724721::1001::MDB-PRD-BUL-20220803.61724721::ms60710444266@yahoo.com::74480_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=subscriptions.dol.gov; s=18q1; i=@subscriptions.dol.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=yRo6
+	4qQWaf4LbQFAPwKtNdoMydZmXsMsVxu+gt/9WGU=; b=zHPuhb+zjK5VDrm8K2Or
+	lypnNYC9ouxsIM9/2EsKgSg2G6CfCtkZh2MNmdEFW33dNBw5lEDl0nmJ/MD/8rZn
+	gkAxXmzNyS3GFRPPqI4osVYX+imtHR0bf8xFYUBLkz42Qc2I8kRHCPib+a57y7wH
+	aEuhOVZgJfaHyrnBEwyzmMZEmlCYEWC3nwtVxGpMsoFfPGEDB9DfSLuu31caXDkJ
+	NGku5JrAueIeDq/YQZvfUylOIi3dOH84sW24FGaQzIoBcyLts7jDmG/qWlK+sOOC
+	eXQ/k/SpywMtMawbwJl0Ma62cf3kO9iliSNkj0wn0Vl8vLLHemjhELuDSPK35JwY
+	lg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_01B_CCA4_133AF1B1.757AD9E3"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMILOEJKDhw1uqKiEPCaR/ILAdKTlsoeaLknFgP3GFic9wH+5akY5MosAzDN4sql3m9fL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOL
+Errors-To: subscriptions@subscriptions.dol.gov
+MIME-Version: 1.0
+Message-ID: <16822278.74480@subscriptions.dol.gov>
+X-ReportingKey: MJJJ2EWJK6AFWJJAG6JJJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?United_States_Department_of_Labor_O?= =?US-ASCII?Q?IG_-_Audit_and_Other_Reports_Update?=
+Date: Wed, 03 Aug 2022 18:05:12 +0000
+To: ms60710444266@yahoo.com
+Reply-To: subscriptions@subscriptions.dol.gov
+From: "=?US-ASCII?Q?United_States_Department_of_Labor?=" <subscriptions@subscriptions.dol.gov>
+Content-Length: 9390
+
+
+------=_NextPart_01B_CCA4_133AF1B1.757AD9E3
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+You are subscribed to receive audit and other reports from the United Sta=
+tes Department of Labor, Office of Inspector General (OIG).=A0 The OIG re=
+cently released the following report(s):
+
+=A0
+
+
+  * Alert Memorandum: Employment and Training Administration Needs to Ens=
+ure State Workforce Agencies Report Activities Related to CARES Act Unemp=
+loyment Insurance Programs
+Report No. 19-22-004-03-315 (August 2, 2022)
+No Summary | [=A0Full Report=A0 [ https://www.oig.dol.gov/public/reports/=
+oa/2022/19-22-004-03-315.pdf ]] {736 KB} | [=A0Response=A0 [ https://www.=
+oig.dol.gov/public/reports/oa/2022/19-22-004-03-315x.pdf ]]=20
+
+Bookmark and Share [ https://content.govdelivery.com/accounts/USDOL/bulle=
+tins/32683d6?reqfrom=3Dshare ]
+
+The OIG is on Twitter! Please follow us @DOLOIG [ http://www.twitter.com/=
+doloig ]
+
+________________________________________________________________________
+
+If you have any questions please contact the OIG at LaborOIGinfo@oig.dol.=
+gov.
+
+=A0
+
+SUBSCRIBER SERVICES: Manage Preferences [ https://public.govdelivery.com/=
+accounts/USDOL/subscriber/edit?preferences=3Dtrue#tab1 ] =A0|=A0 Unsubscr=
+ibe [ https://public.govdelivery.com/accounts/USDOL/subscriber/one_click_=
+unsubscribe?verification=3D5.f742f4e65f4c63fd51f2a26c0065bcd5&destination=
+=3Dms60710444266%40yahoo.com ] =A0|=A0 Help [ https://subscriberhelp.govd=
+elivery.com/ ]=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud on behalf of: United States Department of Labor =B7 200 Cons=
+titution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL (1-866-487-2=
+365)  GovDelivery logo [ https://subscriberhelp.granicus.com/ ]=20
+body .abe-column-block { min-height: 5px; } table.gd_combo_table img {mar=
+gin-left:10px; margin-right:10px;} table.gd_combo_table div.govd_image_di=
+splay img, table.gd_combo_table td.gd_combo_image_cell img {margin-left:0=
+px; margin-right:0px;}
+=0A
+------=_NextPart_01B_CCA4_133AF1B1.757AD9E3
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    United States Department of Labor OIG - Audit and Other Report=
+s Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <p style=3D"margin: 0in 0in 0pt;"><font size=3D"3"><font face=3D"Calibr=
+i">You are subscribed to receive audit and other reports from the United =
+States Department of Labor, Office of Inspector General (OIG).=A0 The OIG=
+ recently released the following report(s):</font></font></p>
+<p style=3D"margin: 0in 0in 0pt;">=A0</p>
+<ul>
+<li>Alert Memorandum: Employment and Training Administration Needs to Ens=
+ure State Workforce Agencies Report Activities Related to CARES Act Unemp=
+loyment Insurance Programs<br>Report No. 19-22-004-03-315 (August 2, 2022=
+)<br>No Summary | [<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciO=
+iJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1b=
+GxldGluX2lkIjoiMjAyMjA4MDMuNjE3MjQ3MjEiLCJ1cmwiOiJodHRwczovL3d3dy5vaWcuZG=
+9sLmdvdi9wdWJsaWMvcmVwb3J0cy9vYS8yMDIyLzE5LTIyLTAwNC0wMy0zMTUucGRmIn0.5oZ=
+EODWPnx5E7i8J5EoXiewDU-PUgBCtqttRyLhUFfQ/s/2601788355/br/142021860755-l">=
+Full Report<span>=A0</span></a>] {736 KB} | [<span>=A0</span><a href=3D"h=
+ttps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInV=
+yaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDMuNjE3MjQ3MjEiLCJ1cmwi=
+OiJodHRwczovL3d3dy5vaWcuZG9sLmdvdi9wdWJsaWMvcmVwb3J0cy9vYS8yMDIyLzE5LTIyL=
+TAwNC0wMy0zMTV4LnBkZiJ9.BP5cHeVc92RWoUc0UM8TC3jQGJF19n2aHFHhQ9BAQrA/s/260=
+1788355/br/142021860755-l">Response<span>=A0</span></a>]</li>
+</ul>
+ =20
+
+
+<div id=3D"mail_footer">
+    <p><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDMuN=
+jE3MjQ3MjEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bn=
+RzL1VTRE9ML2J1bGxldGlucy8zMjY4M2Q2P3JlcWZyb209c2hhcmUifQ.udYDIHvStUH2bb0w=
+pdPSrgER7NAVGytLbf3JCkewsjc/s/2601788355/br/142021860755-l" target=3D"_bl=
+ank" rel=3D"noopener noreferrer"><img width=3D"83" height=3D"16" alt=3D"B=
+ookmark and Share" style=3D"border:0" src=3D"https://content.govdelivery.=
+com/assets/share_this-795413ad3d604760a450815a10e46c8ea06b7315facb759ffda=
+cbc7b7830f87b.gif"></a></p>
+<p>The OIG is on Twitter! Please follow us <a href=3D"https://lnks.gd/l/e=
+yJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGlja=
+yIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDMuNjE3MjQ3MjEiLCJ1cmwiOiJodHRwOi8vd3d3Ln=
+R3aXR0ZXIuY29tL2RvbG9pZyJ9.qCQN7oAiqIMj97g3b5AdOgGGItkb4m7HVxruR7boA-0/s/=
+2601788355/br/142021860755-l"><font color=3D"#0000ff">@DOLOIG</font></a><=
+/p>
+<hr>
+<p>If you have any questions please contact the OIG at <a href=3D"mailto:=
+LaborOIGinfo@oig.dol.gov">LaborOIGinfo@oig.dol.gov</a>.</p>
+<p>=A0</p>
+<table style=3D"width: 275px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5" valign=3D"bottom" height=3D"15"><span style=3D"font-fam=
+ily: Arial, sans-serif; color: #666666; font-size: 12px;">SUBSCRIBER SERV=
+ICES:</span></td>
+</tr>
+<tr>
+<td width=3D"115"><span style=3D"font-family: Arial, sans-serif; color: #=
+666666; font-size: 12px;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1Ni=
+J9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMjA4MDMuNjE3MjQ3MjEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmV=
+yeS5jb20vYWNjb3VudHMvVVNET0wvc3Vic2NyaWJlci9lZGl0P3ByZWZlcmVuY2VzPXRydWUj=
+dGFiMSJ9.ADM3G18DYohhcS0pPRxoKsc4ts_bZfJ5Jt6tczNrA9k/s/2601788355/br/1420=
+21860755-l">Manage Preferences</a></span></td>
+<td width=3D"11">=A0|=A0</td>
+<td align=3D"center" width=3D"74"><span style=3D"font-family: Arial, sans=
+-serif; color: #666666; font-size: 12px;"><a href=3D"https://lnks.gd/l/ey=
+JhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInF1ZXJ5X3BhcmFtcyI6Wy=
+J2ZXJpZmljYXRpb24iLCJkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXR=
+pbl9pZCI6IjIwMjIwODAzLjYxNzI0NzIxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVs=
+aXZlcnkuY29tL2FjY291bnRzL1VTRE9ML3N1YnNjcmliZXIvb25lX2NsaWNrX3Vuc3Vic2Nya=
+WJlIn0.QoPb9HP4F5rRwEcBnyF8BnvwZLsq_hJX67npeVXMQn4/s/2601788355/br/142021=
+860755-l?verification=3D5.f742f4e65f4c63fd51f2a26c0065bcd5&destination=3D=
+ms60710444266%40yahoo.com">Unsubscribe</a></span></td>
+<td width=3D"11">=A0|=A0</td>
+<td width=3D"64"><span style=3D"font-family: Arial, sans-serif; color: #6=
+66666; font-size: 12px;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA4MDMuNjE3MjQ3MjEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdv=
+dmRlbGl2ZXJ5LmNvbS8ifQ.r8QqMQ44kLqOp_N49NdfdGefJwSJTs6aIUTjRjZacPs/s/2601=
+788355/br/142021860755-l">Help</a></span></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com using GovDelivery Co=
+mmunications Cloud on behalf of: United States Department of Labor =B7 <s=
+pan>200 Constitution Ave NW =B7 Washington, DC 20210 =B7 1-866-4-USA-DOL =
+(1-866-487-2365)</span>
+</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MDMuNjE3MjQ3MjEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8ifQ.9Zc-I3TPyXLhhDQZwmOpjE20HNT2KOyP_j6_6iOv8zk/s=
+/2601788355/br/142021860755-l" target=3D"_blank" rel=3D"noopener"><img sr=
+c=3D"https://content.govdelivery.com/images/govd-logo-dark.png" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block { min-height: 5px; } tabl=
+e.gd_combo_table img {margin-left:10px; margin-right:10px;} table.gd_comb=
+o_table div.govd_image_display img, table.gd_combo_table td.gd_combo_imag=
+e_cell img {margin-left:0px; margin-right:0px;}</style>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDIwMjE4NjA3NTUtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM1NSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDMuNjE3MjQ3MjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODAzLjYxNzI0NzIxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODIyMjc4JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_01B_CCA4_133AF1B1.757AD9E3--
+

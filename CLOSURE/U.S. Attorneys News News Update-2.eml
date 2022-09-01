@@ -1,0 +1,315 @@
+From - Sun Aug 28 22:42:19 2022
+X-Account-Key: account1
+X-UIDL: AK/BE5l3s0a8YsRx2AFrSLQlDyc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.241.214
+ by atlas104.free.mail.bf1.yahoo.com with HTTPS; Tue, 5 Jul 2022 17:16:07 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.189]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.189 as permitted sender)
+Authentication-Results: atlas104.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 17:16:07 +0000
+X-YMailAVSC: 0yb_H1g3bBvZMPkV4bGYu6o6lPjKvhI7wk8nVH7pqnRsngT
+ 2mXrEGonKoVtrA0yAhUfndw1g8xoXB1mlNbLX.F1reeGdwVUa.9hk5pLHXiz
+ LfAss..BEk99X1R5giYRvuWVbkXwNhaqG_98RwW9UUWwyeqhf4CN0QsyVDzT
+ iEx4CZOTjfLDLg1qzD8djYTOGLULx1R9hTq_LhI1v_6irsJ3zfL_Em97ZjtG
+ cgDz5VNBzQieQ3LZ9ydM6jRPqpMxx4A--
+X-YMailISG: ekfKsaEWLDvbSgM4cEXmMD0U1f.lfkqFaTy.e8NWVGNhAnuz
+ zdg0Xa38IhVtDZOMx0wRIjVyoiYiU0TsBdyL8j_QjBa0.AJ.JvuZLAJuPvvX
+ ZHyeyypy6kmP_A3UK2nqa2eQyUSaThFQCeBDKkO5BZVR9unBmFPRTNLgFdf9
+ ICUCXjz6COIsQI6wFqmx6Fh_f1Te.AKvKSqqw0ou8fxlwEnI6X1zW2DQ6.8k
+ mwHc3heCsI3hb6un_0_PJqG9ZqVTvqo9x9TzmFcdR6DBcCZhDvJUEphbgb7H
+ NUmh1YuEylU8aEUE5rSU1NQrj2m1at_iugKk5AIgItlSp5wyXR73YdZam3C.
+ YfV0nkO955vm3xVNFRNK4VqtEEsoprzfhkCYXx6I89Yjaqu5..BhiM.aBdpm
+ io8zHPEpB_M8J4QE5CYej7pTEiOFCDBybEj_6dcZo22aJKwJnQo228jSrMVJ
+ ZjNjdtTgW.oPjIGQW.GjqM2zhpwJwvZfI1A645Rs.buE0.iV3_1H_R93o1Vp
+ Ye56Z0qV7n6ubDL13SHSUwJo9MmIb8Lwxm2MlefEUiIQJNSpszEhNylG5QAV
+ VGmxafAXr1a6QwqDjdCZqcMRMzd1dr3nvkbf_sKKxDLJo0ZvzxvfCR836dGk
+ BYNJe_XB2SIs_6KoBI9YOt.gQIllNImX.V0mfpBTRQs4oRcmaO60HZhEySFX
+ uUjR0ueCHjV2bEwSNR4jgfcawBVxEFU1Ra.Nm2VwOqallhq88ZPlXnm5A6de
+ YYNw5WQXcmId3nWkAK9HukqbuCXp.2y9V2Ol55I61QGprA1M1m3FIljCuSTX
+ RhbWpzgJZjqrbQt2U4MF5z2YSmpPh0IUaaDbcMatOnNbOwkNICM2_EzBCiKn
+ hzWi.tcFtJE7MBSJgWzjEw1nsIjINrqCbmyJPlOL8qF9T0fvrrYm8FAb5pGD
+ P.C.Y2PdrSXXNjEUXLSnbr7RiZ70EqUkGpCsbxsa.hAE8VwHc_3eAg9ipUIi
+ qwtX8MLaZQ58dRqz.4bgC.kR23iHleZNKPFXo9E.naGvXRnL5_ffT3g8o5vc
+ AhF5Zp75625QJbSW8.qr11569YDpxen5KKkwarltlhk71woNVO7Q_SUU5Tpl
+ 1Y1BwCU3e_ETI4xw0XtzDzTOmRPbNMO8ZS7rLWrtcxzHcWOFLe0P2r1AZsc_
+ Ar6.evPyYDZifNjn2wC7
+Received: from 69.5.87.189 (EHLO mailer087189.service.govdelivery.com)
+ by 10.196.241.214 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 17:16:07 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087189.service.govdelivery.com (-); Tue, 05 Jul 2022 17:16:06 +0000
+X-VirtualServer: VSG002, mailer087189.service.govdelivery.com, 10.1.38.137
+X-VirtualServerGroup: VSG002
+X-MailingID: 16818139::20220705.60323721::1001::MDB-PRD-BUL-20220705.60323721::MS60710444266@YAHOO.COM::1869_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=bEmF
+	YBqbIfZgoahICKYQj0knjRlGAFcFcBF7bZle380=; b=sg9fGPv02rtDkAC2/xcL
+	TwBz5sNFagspFp9awWJmqJKw0xVOhdTFUHXv+IgWejijHGeLxdTd8flqVbggPpiK
+	262aE5Rwiig88JCGz3vU6vNjPzWTZ7Bo6aBgsGJawzulyWgnhtk9h+CkwfaF9VI7
+	ra3LSuzVqB8ZgxCpc5EgojveN29bsf5ZjJIdk6PWRlaNdOVqctsvdFzwvC5dOXMr
+	VL9W+d/Z3pxL2+OunWhSpD6w8mCdVQn7cebM3HGN/b2cOVeDBgGJemwa8CI6kNyL
+	UD/UDvMOxSJIedHBcs44AMSq57br/reJcwFa4hhQ1tVupni2zm243otp4k3sruyx
+	sA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_4AD_6930_39577C00.73683DA1"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrkz6HPlqialOuHcZZhOEwMQdKTlsoeaLknFgP3GFic9xITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16818139.1869@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK5I6ZJJ53QJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Tue, 05 Jul 2022 17:16:05 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 10540
+
+
+------=_NextPart_4AD_6930_39577C00.73683DA1
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+Former Bangor Business Owner Pleads Guilty to Paycheck Protection Plan (P=
+PP) Loan Fraud [ https://www.justice.gov/usao-me/pr/former-bangor-busines=
+s-owner-pleads-guilty-paycheck-protection-plan-ppp-loan-fraud ] 07/05/202=
+2 12:00 AM EDT=20
+Florida Man Charged with Unlawful Transportation of Individuals [ https:/=
+/www.justice.gov/usao-vt/pr/florida-man-charged-unlawful-transportation-i=
+ndividuals ] 07/05/2022 12:00 AM EDT=20
+Bonifay Doctor Settles Controlled Substances Act Violations For $130,000 =
+[ https://www.justice.gov/usao-ndfl/pr/bonifay-doctor-settles-controlled-=
+substances-act-violations-130000 ] 07/05/2022 12:00 AM EDT=20
+body { font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weig=
+ht: normal; font-style: normal; color: #333333; } _______________________=
+_________________________________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_4AD_6930_39577C00.73683DA1
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.Phu-VHbb4dYR7XEmmjTuDcltmN4DqwMMjiBZgSsa0ps/s/2591266043/br/13535=
+7035427-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW1lL3ByL2Zvcm1lci1iYW5nb3ItYnVzaW5lc3Mtb3duZXItcGxlYWRzLWd1aWx0e=
+S1wYXljaGVjay1wcm90ZWN0aW9uLXBsYW4tcHBwLWxvYW4tZnJhdWQifQ.tyX5UaPIl7uU52M=
+EpNZGlhwYIFQ2GHdQdelgRGIe1cQ/s/2591266043/br/135357035427-l">Former Bango=
+r Business Owner Pleads Guilty to Paycheck Protection Plan (PPP) Loan Fra=
+ud</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXZ0L3ByL2Zsb3JpZGEtbWFuLWNoYXJnZWQtdW5sYXdmdWwtdHJhbnNwb3J0YXRpb=
+24taW5kaXZpZHVhbHMifQ.rm9_o17zX_bKMWXG6q8ekSWI2TbPhcFZsfivlHcRh18/s/25912=
+66043/br/135357035427-l">Florida Man Charged with Unlawful Transportation=
+ of Individuals</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW5kZmwvcHIvYm9uaWZheS1kb2N0b3Itc2V0dGxlcy1jb250cm9sbGVkLXN1YnN0Y=
+W5jZXMtYWN0LXZpb2xhdGlvbnMtMTMwMDAwIn0.ywRGQRftqD9DJJOGWgOU052d7B8UClML5s=
+p5Brp17tQ/s/2591266043/br/135357035427-l">Bonifay Doctor Settles Controll=
+ed Substances Act Violations For $130,000</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.9H3jW1jEXsaEPFXCBt8XraC8ROTrcES6VXYz2ccwCvc/s/259=
+1266043/br/135357035427-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.y0Hdef6OPw6vVFgVX9S2AxHQdQkcpMa5fSY30goW2ZY/s/2591266043/br/135=
+357035427-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.H2QrMIDlJtYK_BMUw5rptVfshp91nVR8vYYDxIzwAWI/s/2591=
+266043/br/135357035427-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzMjM3MjEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.cpyNNR-QXu4It=
+pz-Znm6birmRSmcao6qrSPkxY33GcU/s/2591266043/br/135357035427-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA3MDUuNjAzMjM3MjEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.DcsZjyVggdkn6NQELXHO3AJXpnRiCkMImEJU4QKytL0/s/2591266043/br/13535703=
+5427-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzUzNTcwMzU0MjctbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MDUuNjAzMjM3MjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzA1LjYwMzIzNzIxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODE4MTM5JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_4AD_6930_39577C00.73683DA1--
+

@@ -1,0 +1,412 @@
+From - Sun Aug 28 22:42:35 2022
+X-Account-Key: account1
+X-UIDL: AMR5qdpwsM5uYsS4JQHkYKx6vFs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.232.211
+ by atlas203.free.mail.gq1.yahoo.com with HTTPS; Tue, 5 Jul 2022 22:16:04 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.127]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.127 as permitted sender)
+Authentication-Results: atlas203.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 22:16:04 +0000
+X-YMailAVSC: R_HHqo83bBuCP4FMaMMSePZeF0Vi4YBNwuqpqvd.HuJ0CGv
+ WwKrJRBge0tFUJL_e2KMIM2Wwq2QqB7Y4rfX0s.HIP1vK0Y332_0HeTGwS14
+ xiF48HAqV5sV_8EXYjB9DA7PDTCgXPrHLwrCXNynVhcRsQstJCTdY7YZNadP
+ cuHjJDqLdUMlqIvodOFPxxIoiPE1MyUJdiwcoZFjdh0qcAqb1JX0PPs270ze
+ H8UxzHCmcraFdKfw6cmb6iBCTpsU-
+X-YMailISG: fjbOEkgWLDuRGsYK9A6PWaz89GrffC5KnlW6adL4Vwn4OiU5
+ YP96SMX0Swxiwd.9fNhV8bsVlg46Am38XhJzJlOO_Aet5R.cOPvQwA5CO4av
+ lazs9cHBXXYSqIyPTjWBjwcWyDIRRRN84DzXpHdKop2SQ8ORlWjEN.1SYNwT
+ tacwn7.gkM4pPNhIvgCRn_EnmvH0JfL86wM3t2ip2gYIhDEh3k4iyIBu6vhV
+ cQly6Ywd2ThBesiGYqeFYPiZUdgjQjJ8cGqgftoQDbjKKGmsruqNxRixTn5U
+ iuhkl4_WXTETvYV8GVTvYDHciuVPmWh5KRLQDGkKlQ.YqHoMV7fBGXNvEyvL
+ ICPI3nhyPtIkSQw6yTwAnk3nU7g0lPOohN2qPIdm0QoUSXp08x_IILw1Fjoc
+ dl5pP33si3AIBqLrKkvMJKsllDWqbqH.FrAwzD8j5vvML984PYsVUgrSchiN
+ hfkmc2is98c919jUQg8eQAofJCWpAFivBj.EMtl5ZTYefDr3Grj5rARpUWja
+ RPa0C7TDqVA1uThXob6WyzWy9jLLoZM6qMBzfIUeI6qVKherOv.IuCXjUMBy
+ dFovL5gqVKPchYXfFveJPWY.sxrZcIuDA1W0fQfpkvGrgqsPXp3b4IsAarVy
+ sEvHX.KHdYyBK40BtS0OxJQzQf7ranpA2tyQyGfdXD8iW5jrOXU218dDsU2k
+ pQbBzdq3FZMNJ4B6Mb3oMoEqeaCZ8n7pw9LmU58gK.QwdwK51j0_qHQp.Usj
+ cpmJaD.2lJ.cyPn_hgXHtF_lkFBJSq9xfcduUv8rZD17cL_xlET1UYumINH5
+ keY_5CX5oXR8JyIUuawm2hvo7qvyux863lysaLEifC5WWGnISBBz4oDkr48L
+ Ca0R0dfnYCO8wij0C15Krjs86vhxGhY3QQ4N4Lc_kXUtL23h4TjxdsBC8RIq
+ L1groPE_lX9T1qdJ5LjYQuEne3KUDP.eWimP60RQDjpVrmF8o6b1CW7nqBGz
+ wGCu4sOZuO9T8yBrUZzj4aexFAKLgFMVKd6hv4g3N_PtaOvS8HTGrfWZojw8
+ YVaD1OaG0fvF06FwOTmhSpcCSfrCguzo8uXgWOq2WDY_qhxwhHVfZ1b9aMOw
+ xxRTyTPc_aVUAGi5JWtwq.FABl67kBHQFUDWqPzH8MEOwbI0ROHDrE.gjc9V
+ 6WAxyOO2RuDdRx.hfkV_J44-
+Received: from 69.5.87.127 (EHLO mailer087127.service.govdelivery.com)
+ by 10.253.232.211 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 22:16:04 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087127.service.govdelivery.com (-); Tue, 05 Jul 2022 22:16:01 +0000
+X-VirtualServer: VSG002, mailer087127.service.govdelivery.com, 10.1.38.134
+X-VirtualServerGroup: VSG002
+X-MailingID: 16818249::20220705.60341001::1001::MDB-PRD-BUL-20220705.60341001::MS60710444266@YAHOO.COM::16324_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=mRDb
+	HyzDNnErcdr7Gja0/FVGCCiDNbXzSFoKZd8pe+E=; b=D0QgMdPmWPmUnAYllJbM
+	/mKjuPJhS/XQ0EGpbHmWOtYB+bKeEbyedOlk5H//JtSQduUj4lCiweKNl0mYe86Q
+	7kxKI/8HTsY1FZ+deR892/NjQfOdvmssgNS5ghYvl1/RnjAEPLZuTqWys2RgwYL/
+	Df/P7UQui21WTUScVzJHeJ3HPSYhqjuAkYy1RyPcPISY1OZwtTBy/kdCYDElJfnq
+	2EOGxOeQNMym3P3FGq93P/NU6Wf6IDaE4/koR7xR40i+/JmFWnfiN2GkY4Hj1bFr
+	d+L672p45iI+rxwYo3FhDwKsxpowfT+WDPdP/olT+UJQJKGaFngiFDG8H46V176U
+	jA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_D69_C5FF_1CB3E558.14FE0520"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSr1bFkfUjCT3b8nd0LtOyCD8FYklC4YvvbjH8F6UVyXJNITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16818249.16324@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK5ICVJJ274MJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Tue, 05 Jul 2022 22:15:56 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 16298
+
+
+------=_NextPart_D69_C5FF_1CB3E558.14FE0520
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+27-Year-Old Florida Man Sentenced To Over 26 Years In Prison For Enticing=
+ Minors In New York, Kentucky, And New Jersey To Engage In Sexual Activit=
+y [ https://www.justice.gov/usao-sdny/pr/27-year-old-florida-man-sentence=
+d-over-26-years-prison-enticing-minors-new-york ] 07/05/2022 12:00 AM EDT=
+=20
+U.S. Attorney Announces Two Additional Indictments as Part of COVID-19 Re=
+lief Fraud Strike Force [ https://www.justice.gov/usao-edwa/pr/us-attorne=
+y-announces-two-additional-indictments-part-covid-19-relief-fraud-strike =
+] 07/05/2022 12:00 AM EDT=20
+New Orleans Man Sentenced to Nine Years in Federal Prison for Massive Cre=
+dit Card Fraud Scheme [ https://www.justice.gov/usao-edla/pr/new-orleans-=
+man-sentenced-nine-years-federal-prison-massive-credit-card-fraud-scheme =
+] 07/05/2022 12:00 AM EDT=20
+Luling Man Pleads Guilty to Possessing Files Depicting the Sexual Victimi=
+zation of Children [ https://www.justice.gov/usao-edla/pr/luling-man-plea=
+ds-guilty-possessing-files-depicting-sexual-victimization-children ] 07/0=
+5/2022 12:00 AM EDT=20
+Federal Grand Jury Indicts Former Schuele Boys Gang Associate For Stealin=
+g Painkillers From Rite Aid [ https://www.justice.gov/usao-wdny/pr/federa=
+l-grand-jury-indicts-former-schuele-boys-gang-associate-stealing-painkill=
+ers-rite ] 07/05/2022 12:00 AM EDT=20
+Montrose Woman Pleads Guilty to Mail Fraud [ https://www.justice.gov/usao=
+-co/pr/montrose-woman-pleads-guilty-mail-fraud ] 07/05/2022 12:00 AM EDT=20=
+
+Grand Junction =96 The United States Attorney=92s Office for the District=
+ of Colorado announces Megan Hess, age 45, of Montrose, Colorado pleaded =
+guilty to one count of mail fraud and aiding and abetting. Justice Depart=
+ment Files Lawsuit Against the State of Arizona Over Restrictive Voter Re=
+gistration Requirements [ https://www.justice.gov/opa/pr/justice-departme=
+nt-files-lawsuit-against-state-arizona-over-restrictive-voter-registratio=
+n ] 07/05/2022 12:00 AM EDT=20
+The Justice Department announced today that it has filed a lawsuit agains=
+t the State of Arizona challenging voting restrictions imposed by House B=
+ill 2492 (2022), a recently-enacted law set to take effect in January 202=
+3. body { font-size: 1em; font-family: Arial, Verdana, sans-serif; font-w=
+eight: normal; font-style: normal; color: #333333; } ____________________=
+____________________________________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_D69_C5FF_1CB3E558.14FE0520
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.JlQoBFiGqik9WPL2Ouvdy7JOHildoYCzTKiu27VUS_k/s/2591266043/br/13536=
+5610253-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXNkbnkvcHIvMjcteWVhci1vbGQtZmxvcmlkYS1tYW4tc2VudGVuY2VkLW92ZXItM=
+jYteWVhcnMtcHJpc29uLWVudGljaW5nLW1pbm9ycy1uZXcteW9yayJ9.Iw7sZHJXEya5RTppD=
+obLsZ3KR4eVFkK2j6MWANb1HOU/s/2591266043/br/135365610253-l">27-Year-Old Fl=
+orida Man Sentenced To Over 26 Years In Prison For Enticing Minors In New=
+ York, Kentucky, And New Jersey To Engage In Sexual Activity</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkd2EvcHIvdXMtYXR0b3JuZXktYW5ub3VuY2VzLXR3by1hZGRpdGlvbmFsLWluZ=
+GljdG1lbnRzLXBhcnQtY292aWQtMTktcmVsaWVmLWZyYXVkLXN0cmlrZSJ9.giBe05T3Vc28v=
+-NlNwKk0WR1ENmNAso9FqexXHUEUgA/s/2591266043/br/135365610253-l">U.S. Attor=
+ney Announces Two Additional Indictments as Part of COVID-19 Relief Fraud=
+ Strike Force</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkbGEvcHIvbmV3LW9ybGVhbnMtbWFuLXNlbnRlbmNlZC1uaW5lLXllYXJzLWZlZ=
+GVyYWwtcHJpc29uLW1hc3NpdmUtY3JlZGl0LWNhcmQtZnJhdWQtc2NoZW1lIn0.TtP5XFDjMR=
+RG9ZJkPr7Jx4UNWzjp8Ow6l2c7ahWfLRo/s/2591266043/br/135365610253-l">New Orl=
+eans Man Sentenced to Nine Years in Federal Prison for Massive Credit Car=
+d Fraud Scheme</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkbGEvcHIvbHVsaW5nLW1hbi1wbGVhZHMtZ3VpbHR5LXBvc3Nlc3NpbmctZmlsZ=
+XMtZGVwaWN0aW5nLXNleHVhbC12aWN0aW1pemF0aW9uLWNoaWxkcmVuIn0.4pC7FgO9D3DDWw=
+5BQy7IUKOJzQMj3kIICwOTDTFZ6n0/s/2591266043/br/135365610253-l">Luling Man =
+Pleads Guilty to Possessing Files Depicting the Sexual Victimization of C=
+hildren</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXdkbnkvcHIvZmVkZXJhbC1ncmFuZC1qdXJ5LWluZGljdHMtZm9ybWVyLXNjaHVlb=
+GUtYm95cy1nYW5nLWFzc29jaWF0ZS1zdGVhbGluZy1wYWlua2lsbGVycy1yaXRlIn0.kRR5DS=
+ePLEy-eW0U7QfvOUBG3DamqgQ7fR5DXkMbvqA/s/2591266043/br/135365610253-l">Fed=
+eral Grand Jury Indicts Former Schuele Boys Gang Associate For Stealing P=
+ainkillers From Rite Aid</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWNvL3ByL21vbnRyb3NlLXdvbWFuLXBsZWFkcy1ndWlsdHktbWFpbC1mcmF1ZCJ9.=
+fetD1MIkkk5Wg38ob5vruaiz7Nkv1VE0w-ccUXdEjRs/s/2591266043/br/135365610253-=
+l">Montrose Woman Pleads Guilty to Mail Fraud</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">G=
+rand Junction =96 The United States Attorney=92s Office for the District =
+of Colorado announces Megan Hess, age 45, of Montrose, Colorado pleaded g=
+uilty to one count of mail fraud and aiding and abetting.</div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di9vcGEvcHIvanVzdGljZS1kZXBhcnRtZW50LWZpbGVzLWxhd3N1aXQtYWdhaW5zdC1zdGF0Z=
+S1hcml6b25hLW92ZXItcmVzdHJpY3RpdmUtdm90ZXItcmVnaXN0cmF0aW9uIn0.6QS6ZFRoF7=
+Z8TlMGk-vqIoxSj7cyfFAknf_iDppQgR4/s/2591266043/br/135365610253-l">Justice=
+ Department Files Lawsuit Against the State of Arizona Over Restrictive V=
+oter Registration Requirements</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">T=
+he Justice Department announced today that it has filed a lawsuit against=
+ the State of Arizona challenging voting restrictions imposed by House Bi=
+ll 2492 (2022), a recently-enacted law set to take effect in January 2023=
+.</div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.qsnD2qn_Hcm6Pnfryvuh2haXYEIr1jk41V-5Qq1BeUM/s/259=
+1266043/br/135365610253-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.KMSETKTsEKmN5V2UMuOtI3SnEEfUQaMFWdI_1hdG4is/s/2591266043/br/135=
+365610253-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.bqi4tHZJy0is0rx8YpcNg0tp5M1G4Fk4xRxuXzOJSU0/s/2591=
+266043/br/135365610253-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDUuNjAzNDEwMDEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.RD5C_ufpnbcDR=
+Lpv2XsLfbtR1cn8zQOVV86UuzYkekc/s/2591266043/br/135365610253-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA3MDUuNjAzNDEwMDEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.QKqIOOLyMCbdWEQcVQi75y1WNIIXmQUVQGtK6AIFq-0/s/2591266043/br/13536561=
+0253-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzUzNjU2MTAyNTMtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MDUuNjAzNDEwMDEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzA1LjYwMzQxMDAxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODE4MjQ5JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_D69_C5FF_1CB3E558.14FE0520--
+

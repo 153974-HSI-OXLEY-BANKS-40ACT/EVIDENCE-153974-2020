@@ -1,0 +1,590 @@
+From - Wed Aug 31 18:53:32 2022
+X-Account-Key: account1
+X-UIDL: AEbB+lUtlKqeYw9xbgvPcMMLvMw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.93
+ by atlas225.free.mail.ne1.yahoo.com with HTTPS; Wed, 31 Aug 2022 14:34:22 +0000
+Return-Path: <messages@service.govdelivery.com>
+X-Originating-Ip: [208.42.190.243]
+Received-SPF: pass (domain of service.govdelivery.com designates 208.42.190.243 as permitted sender)
+Authentication-Results: atlas225.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@service.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=unknown header.from=service.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 14:34:22 +0000
+X-YMailAVSC: eTSTD5g3bBuTsn9hacpBdOBFpv.UcM5tnALj1K_tttT67VO
+ bdjhZVlo7JWmHTGD67g2DYE8XtfV54cOemRaBxBwMWMYorTqbtuKrSn23TvF
+ TMe2O_VgXT8k_cdFIhZBejueNhTb4Gea5KxfT8DL1SBtB1mkLtTvPH5fYRpH
+ 11j3Pgd7RdWcBmXztlc__GnmJ0uyrnbJ5.3xv80eSASH77FCrOAB2mikLqq1
+ l.MQXgB82q2834T7qaFvRTgf8ujZJc83T7ae8X0kRma7kthBK1Fzkoht.UvM
+ uAFsQY9GcvWlc74OAWx19qmAEv_nr3KL5A39JjRKk6QqmaAtdFX7NjP2xPiN
+ 48u2XcgeAUQ_geQrBzEwGeRMwoDj.FA_uLe3iSJTaC3a4ToVjOtjevORI5pt
+ 2TOtk_EENp5lfgO3ABKA4AYCkvMOVRHtebp61JpG0Eouk8WmPjMZU5ygyzos
+ JxphVXMOIKmdjPjtEjnSSRdnhNbGcAaR2.KZely0qkXwWP2M933EL.iU5IHn
+ kZQu5Q8GEpnODP.1PGNUXNgaXnH6k4eYy5PA07ToBzDYK.KjPgoaiTK1gr6o
+ Q97txlkBBFwcEdyYJlvmiuSur5ffA75o3cZs59ReY24diHUirGvuYj_TyyXF
+ bFrf0GqEanQomjPA9_VfTukCol_w.IU.3pgfi7hIKH0FAO57IsdltwkMQ_NF
+ Sj1C7IQDZYnqTEoQ71Kt9SSGLOAT79QTVAN8c5sskPXuuXNwsDjZ8s801v8P
+ NQiWl47i4bo9s8sbuqzvLJl8oGtu5wbuyrA0jjdxrkCRc5R_Pf4v6GFWQpwU
+ FjsivoZUN7NNhRbHLVSotvz4wk1ftw4EKVxkUAvaH3jyYqFFV35Qnq6DRdRV
+ JCnTcCtE8SQ7l6z6uHJo.CeHz2VOpn01blhbrhVg6T04UuTn.m1pyg7CRqlS
+ 7oWNGLS9OoTVs_FYDPf3a8Bbp30F4xm3uhVuuyh.YY9EAWji6PaJneTDsel9
+ 2yCFbR75.sdrnE2AF1t1p8aN4o7HjNSJzRTILRbowhLTwwgyzeGj8vITrJcm
+ Q.16WvVTxgd3ld6WauoNOYFXbJ_W5sqO2fAfyRzSSsKYQvlfWZsrviEQengk
+ 6ehJ629k4AOvEwtoMH2mBxzf4wsQJ9DO55DOooAfgxuDyvSfyEYUSp7Sczj9
+ ltA2wv66DJ4C3pBlNNukI6RwCLXKdTscPB0xpyQ--
+X-YMailISG: MWL644QWLDuIn87f_lshMZRP8i3p0CIAl6LyrvBTMpIeAWC.
+ sl4NuJsXTDn8VrMkvrqSQB0S6LOX4yKSx30IslLO_K7Nnm3_Vt0Qd6t1Jf2Q
+ P_gYCdJHkFxzPUi8rdm3ehn6CD0Exq.4tOVqOUMVRcxMi3TgWI7mCxRJHacz
+ UO.e9cTJW0sn0LNLdO1HbdSyE5qtBsakoV6OAtiOXnLLGuQsTv.DlScdjj9a
+ bionYSZhV_CbA2Yh0Zg2O5N7Y1q66jU5gn4ZQLYDPNnGFmcevFcESmvTJY06
+ yQW12gg.rCJc7iUMpqcA4kbbP06UXpOHGlHdeEzD7wLYzujV7bWPyE1._z59
+ DDRUZ7hO_gklTeB9aXoMoYcQjo6CU7fckSouGUNkdv7GHIQGtH..5sREPwDK
+ FjP8Kaig6ORtxpLAzI2BdpdWeL2hHCYoZKnFZlFxnqtKoPFpgh4RwCxbVB17
+ wnSVIe9_pWNGHOgfopSeTmL85b7XoNJXaOQeWDLYpTI5rADEEn8fYzEQSUeM
+ 0aA7VG92gCFcOZ.ytGsW2b..yZ8NeldUxL4FjwbH8HUxlIiUnOs.RXG3uEtK
+ SNlYemb85FvUyBgkh.Z.LnjYR5iwt6DHBA8xj6Rhs4MZiNNzzhFfOVjunoVg
+ vkb.s3wuCBIJI3sWPRtyVmW6fwHsI8qzZQgOjo2HTT.8ByYDsc9WZQTjO15P
+ Xr7xE96AkybEllu0tG7Mg690nbiN4utpkXeFsBZJtOJwX32rokOKBoUDeHqx
+ s20Qz6aIduGu7W.4zq9974sjNGygde1rFsmxPb6FzmFGp9dyCue29QP1A.o2
+ CvibeqoMzsMgH9.eMtYeSBcxYRPSdj.1FHzC_crg9krETBCeJkLElHJ2h6va
+ hWtMxzux0C5zOQ1Al2FGcOZS93d9FXKu_SOlG7DTyN61NZyW4BHY6AHWbdBh
+ VBcUAL0DW_6y5Ulq2cGJ28boExSteCcuFbJU_5FYPXqD0RhPWE265GsQbRJz
+ VLknThcsHMPiJe3kxQBaxHATLPJAFwdY8xKvyWPA_ZFB34Bdr7z9hB7KRHm8
+ kd6l7j.BmnBtpF_TDGvko4fbQF6aRvQzvtpdPK8QCUG5pxjZINLE3Dm1jfqi
+ tn5NMPGNIiZi.Bxei5w_UV36noX44AgUaNOOzkbmPlepA6IdkQ8bvv7WINuE
+ AaWqBWocfIkx3XCgZVK2Gw--
+Received: from 208.42.190.243 (EHLO mailer190243.service.govdelivery.com)
+ by 10.217.136.93 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 14:34:22 +0000
+Received: from gepdp-smeds4-2.systems.dc.gdi ([10.5.36.37])
+	by mailer190243.service.govdelivery.com (-); Wed, 31 Aug 2022 14:34:21 +0000
+X-VirtualServer: VSG002, mailer190243.service.govdelivery.com, 10.5.37.177
+X-VirtualServerGroup: VSG002
+X-MailingID: 16813864::20220831.63024451::1001::MDB-PRD-BUL-20220831.63024451::ms60710444266@yahoo.com::29411_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=service.govdelivery.com; s=13q2; i=@service.govdelivery.com;
+	h=Content-Transfer-Encoding:Content-Type:x-subscriber:
+	X-Accountcode:Errors-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:Reply-To:From; bh=VgQZdke9hWl+dZgcyX8oV5tGwCjEzP
+	iB28cNF1Nen/I=; b=GZB4YHUfiT2QIesN0NMyBHXqPGajZbBsJyXCuWIpAKUMzF
+	2SIolWV1wYHubZzxk9QLdmtNfPpcSHXnG9gVcpyc2q2lw4qmsne7op9XZcZjszgj
+	JA+VoCXJ/R5OiMg0+IPA6l2z3UHLjvSSHMpmIr3CfLLW5g9gmPYAidkLRSxPPhu5
+	30CBIyriXkgyD7COcdLPHrkp51TFg+/jlyvcagGVd87L1ZeBNj64Enzg2mcZGUXN
+	hSeS/tX8irbDB3I9zZWFzJ+pbu5mQAz4ID2Qf8GHNL7W1CU3Lq0gloSI/ViJRJ0J
+	jejJ4OnqwAWNrVS3Z2GLUM7jJQ+hrOWMVKr3gAsw==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_B3A_0024_56836E51.34956FF2"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIf3LTSl84iqhKCfidYi+r+kRaXIWKxaMbOqy0d66Q1UaMOP2skrKdiur+Yv+qscBifL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USACCESS
+Errors-To: messages@service.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16813864.29411@service.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK569ZJJ458_JJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?U.S._Access_Board_Seeks_Events_and_Communication_Specialist?=
+Date: Wed, 31 Aug 2022 14:34:14 +0000
+To: ms60710444266@yahoo.com
+Reply-To: access-board@service.govdelivery.com
+From: "=?US-ASCII?Q?United_States_Access_Board?=" <access-board@service.govdelivery.com>
+Content-Length: 22546
+
+
+------=_NextPart_B3A_0024_56836E51.34956FF2
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+August 31, 2022
+
+=20
+=20
+=20
+=20
+
+U.S. Access Board Seeks Events and Communication Specialist
+
+The U.S. Access Board seeks an=A0Events and Communication Specialist=A0to=
+ serve in its Office of Executive Director. This Events and Communication=
+ Specialist position will be responsible for planning, coordination, comm=
+unication, and administrative and logistical support for virtual and in-p=
+erson public events hosted by the Access Board. Additionally, they will m=
+anage the agency=92s social media platforms, including content developmen=
+t and audience engagement. More information about the duties is in the va=
+cancy announcement.=A0
+
+Current or former federal employees who qualify as status candidates, can=
+didates eligible under the Veterans Employment Opportunity Act, the Caree=
+r Transition Assistance Plan, or the Interagency Career Transition Assist=
+ance Plan, and candidates eligible for special hiring authorities (e.g., =
+Schedule A appointment for persons with disabilities) or who are eligible=
+ for Veterans=92 Recruitment Appointment, should respond to Vacancy Annou=
+ncement #22-AB-9-MP [ https://www.usajobs.gov/job/674037800 ]. Candidates=
+ who are U.S Citizens or U.S. Nationals with no prior federal experience =
+should respond to Vacancy Announcement #22-AB-10-P [ https://www.usajobs.=
+gov/job/674037900 ].=A0
+
+Applications are due by September 14, 2022.=A0
+
+For further information, contact the Applicant Call Center at 1-304-480-7=
+300 or by email at accessboardinquiries@fiscal.treasury.gov.
+
+=20
+=20
+=20
+=20
+ =20
+=20
+________________________________________________________________________
+
+SUBSCRIBER SERVICES:=20
+Manage Preferences [ https://public.govdelivery.com/accounts/USACCESS/sub=
+scriber/edit?preferences=3Dtrue#tab1 ]=A0=A0|=A0=A0Unsubscribe [ https://=
+public.govdelivery.com/accounts/USACCESS/subscriber/one_click_unsubscribe=
+?verification=3D5.cd17c6470208c9727bc8de922d990178&destination=3Dms607104=
+44266%40yahoo.com ]=A0=A0|=A0=A0Help [ https://subscriberhelp.govdelivery=
+.com/ ]
+
+Bookmark and Share [ https://content.govdelivery.com/accounts/USACCESS/bu=
+lletins/32a88aa?reqfrom=3Dshare ]
+
+For more information about the content of this email, contact the Access =
+Board <news@access-board.gov>.
+
+Twitter [ https://twitter.com/AccessBoard ]=A0 =A0 =A0 =A0 =A0 LinkedIn [=
+ https://www.linkedin.com/company/us-access-board/ ]=A0 =A0 =A0 =A0 =A0Fa=
+cebook [ https://www.facebook.com/usaccessboard/ ]
+
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud on behalf of: United States Access Board =B7 1331 F St NW, S=
+uite 1000 =B7 Washington DC 20004 =B7 (800) 872-2253 (v)=A0=B7=A0(800) 99=
+3-2822 (TTY) =A0=20
+body .abe-column-block {min-height: 5px;}
+=0A
+------=_NextPart_B3A_0024_56836E51.34956FF2
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Access Board Seeks Events and Communication Specialist
+</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css">
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and =
+other text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+
+
+</head>
+<body style=3D"margin:0;padding:0;margin:0;padding:0;width:100% !importan=
+t;">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #FFFFFF; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#FFFF=
+FF">
+<table id=3D"flexible-abe-main-table" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-top: 20px; padding-bottom: 20px=
+;">
+  <tr>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+    <!-- centered column -->
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77804309">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-12094a9b-0796-4a77-9b2f-5be6bd19ac3b" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFF=
+FFF">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-71ca558a-e898-4=
+1b8-aa60-06363208ed06-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-71ca558a-e898-41b8-aa60-06363208ed06" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77804310" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-71ca5=
+58a-e898-41b8-aa60-06363208ed06-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 5px 5px 20px;"><img class=3D"govd_template_image" src=3D=
+"https://content.govdelivery.com/attachments/fancy_images/USACCESS/2021/0=
+6/4613537/access-board-news-from-the-us-access-board_original.jpg" style=3D=
+"width: 590px; height: auto; -ms-interpolation-mode: bicubic; line-height=
+: 1; outline: none; text-decoration: none; max-width: 100%; border: none;=
+" alt=3D'Star logo with "News from the U.S. Access Board" text' width=3D"=
+590" height=3D"103"></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77804312">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-1423b7a4-2db1-4041-953d-2cd8ae35a522" class=
+=3D"abe-section-row" style=3D"background-color: #003366;" bgcolor=3D"#003=
+366">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-1acd4f0e-7a0e-4=
+845-9f51-2c6f22347d1a-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #003366;" =
+bgcolor=3D"#003366">
+<![endif]-->
+<div id=3D"abe-column-block-1acd4f0e-7a0e-4845-9f51-2c6f22347d1a" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77804313" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top; background-color: #003366;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-1acd4=
+f0e-7a0e-4845-9f51-2c6f22347d1a-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 3px 30px;"><p style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; line-height: 1.4; color: #FFFFFF; font-size:=
+ 13px; text-align: right; font-family: helvetica; margin: 0 0 0px;" align=
+=3D"right">August 31, 2022</p></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" da=
+ta-block-id=3D"77804315">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"max-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-f51a2f92-aa22-4412-8794-b05c38a5193d" class=
+=3D"abe-section-row" style=3D"background-color: #f2f2f2;" bgcolor=3D"#f2f=
+2f2">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-48435a02-1c88-4=
+093-bab7-7d389a451483-outlook-only" class=3D"abe-column-block-outlook-onl=
+y" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f2f2f2;" =
+bgcolor=3D"#f2f2f2">
+<![endif]-->
+<div id=3D"abe-column-block-48435a02-1c88-4093-bab7-7d389a451483" class=3D=
+"abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"=
+77804316" style=3D"width: 100%; box-sizing: border-box; display: inline-b=
+lock; font-size: 16px; vertical-align: top; background-color: #f2f2f2;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; over=
+flow-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-48435=
+a02-1c88-4093-bab7-7d389a451483-padding" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 30px;">
+<h1 style=3D"line-height: 1.2; font-family: helvetica; font-size: 24px; c=
+olor: #003366; text-align: left; margin: 0 0 11px;" align=3D"left">U.S. A=
+ccess Board Seeks Events and Communication Specialist</h1>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; color: #000000;=
+ text-align: left; margin: 0 0 15px;" align=3D"left">The U.S. Access Boar=
+d seeks an=A0Events and Communication Specialist=A0to serve in its Office=
+ of Executive Director. This Events and Communication Specialist position=
+ will be responsible for planning, coordination, communication, and admin=
+istrative and logistical support for virtual and in-person public events =
+hosted by the Access Board. Additionally, they will manage the agency=92s=
+ social media platforms, including content development and audience engag=
+ement. More information about the duties is in the vacancy announcement.=A0=
+</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; color: #000000;=
+ text-align: left; margin: 0 0 15px;" align=3D"left">Current or former fe=
+deral employees who qualify as status candidates, candidates eligible und=
+er the Veterans Employment Opportunity Act, the Career Transition Assista=
+nce Plan, or the Interagency Career Transition Assistance Plan, and candi=
+dates eligible for special hiring authorities (e.g., Schedule A appointme=
+nt for persons with disabilities) or who are eligible for Veterans=92 Rec=
+ruitment Appointment, should respond to <a href=3D"https://lnks.gd/l/eyJh=
+bGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIs=
+ImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjQ0NTEiLCJ1cmwiOiJodHRwczovL3d3dy51c=
+2Fqb2JzLmdvdi9qb2IvNjc0MDM3ODAwIn0.GnQN20ChF-9Y-un6Xb2MO9dm9qh32uFRASLqdc=
+K-mes/s/2601787959/br/143326153839-l" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; color: #003366;">Vacancy Announcement #=
+22-AB-9-MP</a>. Candidates who are U.S Citizens or U.S. Nationals with no=
+ prior federal experience should respond to <a href=3D"https://lnks.gd/l/=
+eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjQ0NTEiLCJ1cmwiOiJodHRwczovL3d3d=
+y51c2Fqb2JzLmdvdi9qb2IvNjc0MDM3OTAwIn0.k4DXqxnH8iWgJjrI9hPCb0eCpf4nFv90CP=
+-MpFFBEDA/s/2601787959/br/143326153839-l" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; color: #003366;">Vacancy Announceme=
+nt #22-AB-10-P</a>.=A0</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; color: #000000;=
+ text-align: left; margin: 0 0 15px;" align=3D"left">Applications are due=
+ by September 14, 2022.=A0</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; l=
+ine-height: 1.4; font-family: helvetica; font-size: 15px; color: #000000;=
+ text-align: left; margin: 0 0 15px;" align=3D"left">For further informat=
+ion, contact the Applicant Call Center at 1-304-480-7300 or by email at <=
+a href=3D"mailto:accessboardinquiries@fiscal.treasury.gov" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #003366;">a=
+ccessboardinquiries@fiscal.treasury.gov</a>.</p>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+  </tr>
+</table>
+</td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <hr>
+<p><span style=3D"font-size: x-small; font-family: arial,helvetica,sans-s=
+erif;">SUBSCRIBER SERVICES: </span><br><span style=3D"font-size: x-small;=
+ font-family: arial,helvetica,sans-serif;"><a href=3D"https://lnks.gd/l/e=
+yJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGlja=
+yIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjQ0NTEiLCJ1cmwiOiJodHRwczovL3B1Ym=
+xpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvVVNBQ0NFU1Mvc3Vic2NyaWJlci9lZGl0P3B=
+yZWZlcmVuY2VzPXRydWUjdGFiMSJ9.0pwHVV4IdqSYO1113Kw3IaVwHphAa9kYoo8tXjzlJTA=
+/s/2601787959/br/143326153839-l">Manage Preferences</a>=A0=A0|=A0=A0<a hr=
+ef=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjox=
+MDMsInF1ZXJ5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24iLCJkZXN0aW5hdGlvbiJdLCJ1cmkiO=
+iJicDI6Y2xpY2siLCJidWxsZXRpbl9pZCI6IjIwMjIwODMxLjYzMDI0NDUxIiwidXJsIjoiaH=
+R0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTQUNDRVNTL3N1YnNjcml=
+iZXIvb25lX2NsaWNrX3Vuc3Vic2NyaWJlIn0.iqqk91RjhxeXVp4-To5grKhg-H0hjYtgRou6=
+LHsmvn8/s/2601787959/br/143326153839-l?verification=3D5.cd17c6470208c9727=
+bc8de922d990178&destination=3Dms60710444266%40yahoo.com" target=3D"_blank=
+" rel=3D"noopener">Unsubscribe</a>=A0=A0|=A0=A0<a href=3D"https://lnks.gd=
+/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjQ0NTEiLCJ1cmwiOiJodHRwczovL3=
+N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS8ifQ.CKrA9_MwqQbjgGHvT_yy99nmNfe5=
+rrMm13lPRl-2NM4/s/2601787959/br/143326153839-l">Help</a></span></p>
+<p><span style=3D"font-size: x-small; font-family: arial,helvetica,sans-s=
+erif;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuN=
+jMwMjQ0NTEiLCJ1cmwiOiJodHRwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bn=
+RzL1VTQUNDRVNTL2J1bGxldGlucy8zMmE4OGFhP3JlcWZyb209c2hhcmUifQ.EHeZ2Sjc81Ty=
+JF0nrOOhLE3bWQKoqSLDkWzGUvXWmhQ/s/2601787959/br/143326153839-l" target=3D=
+"_blank" rel=3D"noopener noreferrer"><img width=3D"83" height=3D"16" alt=3D=
+"Bookmark and Share" style=3D"border:0" src=3D"https://content.govdeliver=
+y.com/assets/share_this-795413ad3d604760a450815a10e46c8ea06b7315facb759ff=
+dacbc7b7830f87b.gif"></a></span></p>
+<p><span style=3D"font-size: x-small; font-family: arial,helvetica,sans-s=
+erif;">For more information about the content of this email, contact the =
+<a href=3D"mailto:news@access-board.gov">Access Board</a>.</span></p>
+<p><span style=3D"font-size: x-small; font-family: arial,helvetica,sans-s=
+erif;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuN=
+jMwMjQ0NTEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL0FjY2Vzc0JvYXJkIn0.YpjDKt=
+OSqwI1b-n6gAHgoNq4nAL1dF8L9e6sDAxyk8o/s/2601787959/br/143326153839-l" tar=
+get=3D"_blank" rel=3D"noopener">Twitter</a>=A0 =A0 =A0 =A0 =A0 <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjQ0NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS91cy1hY2Nlc3MtYm9hcmQvIn0=
+.K8063fDV2uaeercMxMPWf7-LILOXfEFFjQAF4KnvZFc/s/2601787959/br/143326153839=
+-l" target=3D"_blank" rel=3D"noopener">LinkedIn</a>=A0 =A0 =A0 =A0 =A0<a =
+href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIj=
+oxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMjQ0NTE=
+iLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vdXNhY2Nlc3Nib2FyZC8ifQ.wfxG0=
+ielRMAmo7w7zYIrbJ4z5TYTiWfDrZ54xJFuB-k/s/2601787959/br/143326153839-l" ta=
+rget=3D"_blank" rel=3D"noopener">Facebook</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com using GovDelivery Co=
+mmunications Cloud on behalf of: United States Access Board =B7 1331 F St=
+ NW, Suite 1000 =B7 Washington DC 20004 =B7 (800) 872-2253 (v)=A0=B7=A0(8=
+00) 993-2822 (TTY)</td>
+<td align=3D"right" width=3D"11%">=A0</td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block {min-height: 5px;}</style=
+>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMjYxNTM4MzktbCZzdWJzY3JpYmVyaWQ9MjYwMTc4Nzk1OSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMjQ0NTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDI0NDUxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODEzODY0JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_B3A_0024_56836E51.34956FF2--
+

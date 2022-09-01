@@ -1,0 +1,363 @@
+From - Sun Aug 28 22:43:36 2022
+X-Account-Key: account1
+X-UIDL: AFSpQf4j8QL3YshmZAOGWLUjbag
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.34.205
+ by atlas214.free.mail.bf1.yahoo.com with HTTPS; Fri, 8 Jul 2022 17:16:19 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.124]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.124 as permitted sender)
+Authentication-Results: atlas214.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 8 Jul 2022 17:16:20 +0000
+X-YMailAVSC: AIMFfHo3bBvugZYs2_VbMgOeIYzpKLmmkRq999DOHxmjDHW
+ JDJW1F.P020VEl35XQfVGhSohBsAyzl6VMl_WbV6XkoShegT0gPPECW2IUl.
+ b2veWQkYQXSdHGmDY0IyIMSTn.U5XBdPz2NqozfhOPrrKBfDcCRAjc3y_wE5
+ t61frmCuBkCMztFhi1AN8h.zfBwAgffomUiWvxL.Pw45nDzdGhoYZ2B844lK
+ .y0vPnL9yZkmeXIZbT_tXHpfJSeb92Q--
+X-YMailISG: KEBwEC8WLDsCLguFkwHdtOV40nyMQEWinWVRgID2RgIXdXvs
+ 5hqaD0PyQz2IRv8PBM4OcmYQY7Ic6ez7fItsGnlfGrE31NMHGhbxfdH04Fei
+ 73XsOl6Fwqj1FE33BBF3PWkIh6Z2ihomhGA4bKl1aqzUZo9AlFz5PBs8EnUO
+ zWzEhFSuZqCFibORYn7_RSO30o3KL30geigKbUEgxe0oe8xHn2OVZsb7XCv.
+ 2cjK6szSxVVvQ15GNiQZ1kSlaNCppDd8.NkePlpMOfjPRTjIqUzEHedVoIa1
+ K9Cr2Kp5wL1qfk.YSQSTh8FsR.4kaI7D46A2w1MnFUkOnfIxdh7XfZQDOLoj
+ J7NMBd8OtWHgwneT.Q5V8WhCozPeLoVOl4r0Q9jQUeZATn3DgmQdTp77Zw9n
+ Xgq7k2zQXEnbgFlo3pC1j3HlBXRXwy7GK3adquKitEY3NBefc.LPs2uwntSJ
+ 29OO0yr9HKyAcxgRSMGmLOPiUd9Nx_N.574Z.IlUNflqmda1qtUv_O1yQF2p
+ 3rS6UY4fyWAy7VXha1seqpCaMgVoftuO4F90gF51ANtYnnXaduod74UVDu3w
+ c9wwO.pdLDJn.1OhMEjBhMj.PY05QKNYQZlL7YP_lme1E6OwJwfQzgKFkGBE
+ Yg56w0ynW0v0gXoz4sQlU7oyrV7w9DFAstrodrHAgpaOwYp8olcrHkZOyKRI
+ LRWLVrEjb78anIsENFLUDZ6rQi4ZWym63WwS5Q8mmGe4ghfYFt_LeGYTQ4uc
+ Byhusc8_V6ygJQH5DjFfET942Nwny0XrtMYeDfETCO6RZuNqMt86wXbbNWIi
+ io6JtsdSNm0_0oxDFwbkFZPF3xc_ikExP431AQgrm5U_cEXZRUMxLAkdVEuf
+ rWa65TRqVISzQLnjvf6TV5EDIkQz.NeVw5fkfnTFfcRzIIZKTn9MjR2c.Pw7
+ kfXtZhZywrrMfgbkgmNott3JZPBJkbdgYTe_iyH3CtLlPndfVVtAKuklT5vR
+ Kxfrm.sCCrXxSWXWjPAuc0EXHLqPXIsGZzBSM2O6Ahig.FEmcDu5jMUZsXPU
+ R8tbDbVUqfOseLOe9yRUWcJO0YQpx7mCoUaOPo9gJZQB3XtQIFVqsZxzGKLt
+ h6CJmvXfuh0.xrox4DbeIgrp.NvHf.nF7LcyVJNNWRFcvo5czu4P1KDmp1bH
+ K6dGrqBJwHpZ.FJdrhU4Nkzr_KfP
+Received: from 69.5.87.124 (EHLO mailer087124.service.govdelivery.com)
+ by 10.197.34.205 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 08 Jul 2022 17:16:19 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087124.service.govdelivery.com (-); Fri, 08 Jul 2022 17:16:19 +0000
+X-VirtualServer: VSG002, mailer087124.service.govdelivery.com, 10.1.38.131
+X-VirtualServerGroup: VSG002
+X-MailingID: 16819208::20220708.60499191::1001::MDB-PRD-BUL-20220708.60499191::MS60710444266@YAHOO.COM::16301_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=Y8EB
+	gt29OEUqRZPWTv/7lBeuz9WVmJTZGO4bdTDPjIU=; b=JZ3zjlIKlwhb+dxe+o84
+	Q2gerezFPwKeaD0he32NEoqw2wweOYRkB6RKFbCfxn/mHRSBUMPCF25zN9k8NIdn
+	IGC6LdmUa42ZyVk0DNLXz3TkPvmPlURW3AmIto+wctQ3bnZqYt4tVL2r/DWYNr45
+	DJPUfrO7zKYD0BH3UqnEIlCfI8joEK9SEtrfwOCms2sRnI5ABiehjgbOG2k1TaJz
+	JjRhCL/TI83+f8ahoTeGU6sMPgSOWjgNTE7qQEOms/k/5N5E/F7Tc7VR76eFIqQ6
+	CzyzhUS+FdMfNFApVe3SiN+ncY1iHoodfDeQ9P5ZTNwQyxzIW6DPZhSFya0uGDUu
+	gg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_F7E_B126_517A4FC0.3FFFB860"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSra5G8dO5XT9TbN7hOwXvE7+VDJsHLbAPD5bEJAZkAsu9ITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16819208.16301@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK626LJJ272_JJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Fri, 08 Jul 2022 17:16:04 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 13280
+
+
+------=_NextPart_F7E_B126_517A4FC0.3FFFB860
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+Monessen Man Sentenced to 5 Years for Receiving a Kilo of Cocaine Sent th=
+rough the US Mail [ https://www.justice.gov/usao-wdpa/pr/monessen-man-sen=
+tenced-5-years-receiving-kilo-cocaine-sent-through-us-mail ] 07/08/2022 1=
+2:00 AM EDT=20
+Texas Man Sentenced to 27 Years in Prison for Sexual Exploitation of an A=
+labama Child [ https://www.justice.gov/usao-mdal/pr/texas-man-sentenced-2=
+7-years-prison-sexual-exploitation-alabama-child ] 07/08/2022 12:00 AM ED=
+T=20
+Albuquerque man sentenced to 14 years in prison for federal robbery and f=
+irearms conviction [ https://www.justice.gov/usao-nm/pr/albuquerque-man-s=
+entenced-14-years-prison-federal-robbery-and-firearms-conviction ] 07/08/=
+2022 12:00 AM EDT=20
+Alexander M.M. Uballez, United States Attorney for the District of New Me=
+xico, announced that Jacquan Abe, 24, of Albuquerque, was sentenced on Ju=
+ly 7 to 14 years and three months in prison. Theranos Chief Operating Off=
+icer Ramesh =93Sunny=94 Balwani Found Guilty Of Conspiracy, Wire Fraud [ =
+https://www.justice.gov/usao-ndca/pr/theranos-chief-operating-officer-ram=
+esh-sunny-balwani-found-guilty-conspiracy-wire ] 07/07/2022 12:00 AM EDT=20=
+
+Bay Area Men Charged with Bribing a Vallejo City Official [ https://www.j=
+ustice.gov/usao-edca/pr/bay-area-men-charged-bribing-vallejo-city-officia=
+l ] 07/07/2022 12:00 AM EDT=20
+body { font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weig=
+ht: normal; font-style: normal; color: #333333; } _______________________=
+_________________________________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_F7E_B126_517A4FC0.3FFFB860
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.kNjqCH-Ei_bxpcn5YELAsDebDaL8RWp5TyoDznPdNgc/s/2591266043/br/13702=
+1241078-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXdkcGEvcHIvbW9uZXNzZW4tbWFuLXNlbnRlbmNlZC01LXllYXJzLXJlY2VpdmluZ=
+y1raWxvLWNvY2FpbmUtc2VudC10aHJvdWdoLXVzLW1haWwifQ.ahebn2nDLawQ0mQs2ziDfix=
+iaEXTX3SkIptGcg9_hwQ/s/2591266043/br/137021241078-l">Monessen Man Sentenc=
+ed to 5 Years for Receiving a Kilo of Cocaine Sent through the US Mail</a=
+></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/08/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW1kYWwvcHIvdGV4YXMtbWFuLXNlbnRlbmNlZC0yNy15ZWFycy1wcmlzb24tc2V4d=
+WFsLWV4cGxvaXRhdGlvbi1hbGFiYW1hLWNoaWxkIn0.9jdHapLT_6mAQq397UGfjk3I7EFyZe=
+RJxTwc097TV28/s/2591266043/br/137021241078-l">Texas Man Sentenced to 27 Y=
+ears in Prison for Sexual Exploitation of an Alabama Child</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/08/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW5tL3ByL2FsYnVxdWVycXVlLW1hbi1zZW50ZW5jZWQtMTQteWVhcnMtcHJpc29uL=
+WZlZGVyYWwtcm9iYmVyeS1hbmQtZmlyZWFybXMtY29udmljdGlvbiJ9.3I7zyvTWWomjfxhCm=
+JHiKj9qRRt2TP5FfrTrB8kJKzk/s/2591266043/br/137021241078-l">Albuquerque ma=
+n sentenced to 14 years in prison for federal robbery and firearms convic=
+tion</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/08/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+lexander M.M. Uballez, United States Attorney for the District of New Mex=
+ico, announced that Jacquan Abe, 24, of Albuquerque, was sentenced on Jul=
+y 7 to 14 years and three months in prison.</div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW5kY2EvcHIvdGhlcmFub3MtY2hpZWYtb3BlcmF0aW5nLW9mZmljZXItcmFtZXNoL=
+XN1bm55LWJhbHdhbmktZm91bmQtZ3VpbHR5LWNvbnNwaXJhY3ktd2lyZSJ9.25_7HM8FAhO-I=
+EJmBRDiB9xLSYB2lMpLBJHR-dkWn5A/s/2591266043/br/137021241078-l">Theranos C=
+hief Operating Officer Ramesh =93Sunny=94 Balwani Found Guilty Of Conspir=
+acy, Wire Fraud</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/07/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkY2EvcHIvYmF5LWFyZWEtbWVuLWNoYXJnZWQtYnJpYmluZy12YWxsZWpvLWNpd=
+Hktb2ZmaWNpYWwifQ.SlRBdGxOFgmct29hyz4QafeqL53HT267nTEf_2h83Ys/s/259126604=
+3/br/137021241078-l">Bay Area Men Charged with Bribing a Vallejo City Off=
+icial</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/07/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.x0jhH_jjuugL3lWxh9nIaoKkD3EdPL54lEHCoHNHdi0/s/259=
+1266043/br/137021241078-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.IoSbacVAsBYSbYdLdPhHVj6FGJZ4xlq9xQx4ntGoAj8/s/2591266043/br/137=
+021241078-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.qIN3EZzoqba9e9konc1ZhBDxMPGCsQwrg3PwTy1ek_w/s/2591=
+266043/br/137021241078-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDguNjA0OTkxOTEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.EAmh63K2ZCHUR=
+Qbk23SI4zgLXAhO_EERjqzFmYc1zE8/s/2591266043/br/137021241078-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA3MDguNjA0OTkxOTEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.jhZgJIEaXDGJTNi3-9mxgIGyXv5omMCDsju7ufxI_vc/s/2591266043/br/13702124=
+1078-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzcwMjEyNDEwNzgtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MDguNjA0OTkxOTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzA4LjYwNDk5MTkxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODE5MjA4JmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_F7E_B126_517A4FC0.3FFFB860--
+

@@ -1,0 +1,294 @@
+From - Sun Aug 28 23:00:37 2022
+X-Account-Key: account1
+X-UIDL: AL094mZ3NOheYu0YVAr8gP+uMng
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.108
+ by atlas103.free.mail.ne1.yahoo.com with HTTPS; Fri, 5 Aug 2022 13:17:08 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.124]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.124 as permitted sender)
+Authentication-Results: atlas103.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 5 Aug 2022 13:17:08 +0000
+X-YMailISG: 0TQ2fmoWLDsld.N3PgCcVsZ2INNmph4cqlb7FjXBoOACzm2x
+ VxYID0qJNMjAFeElaQZU4VjEAK2ES5AZ.Ecpky.n7sbSeCauo2xB1CvSGKSj
+ 9WIz525vq452.M0S03fS8ytJPdOJHCXRudty7qVW3NwlHGC2EYHi81V3zx.7
+ eR5E.7PNTN6avS2bOJ5PQKSE3hHZdzPufUdx.LXssG6CE_5C.lch4HN49eUN
+ 6sm20bNdHymQuOGFeIF8Syo1gfMJtjQzhEj7ItbsLPtW_a5x.4x242ZMAQPX
+ s5XMCqAHv1uWvEgJzCgsueeqD6yc1ffo37tt2V4MuL8nGquhAuAubJ9zRcR0
+ rb.ruLjr4S.I1Kfa6ssZvN5fhOS9ahmOxNx3fr6d_WlN9PA2yiJA88avhrud
+ EhwRhGRIf2IntaoAkwsb0QB7G6daW5rdImpnLslr8i.sXSXQXU2qCG.JWBmq
+ Lf8DVWUv_TOVHpJyNqoJtZToVOVDKLBqzK4gW468IslNv2PTWWyHKh0nBnQA
+ lthOuwufs7TIoJunVmiEsYm2ImdWKFtWXQ4GZ4zioMteXTLbjNjh35bnrcjS
+ jiw1DDG1bXHB4_h9r5U5jW18BXVhdAnSTfCh1r6UegXL_8jASCL2GqDAz4co
+ O0EpHuis95AJr09cQ0SaXFgrJl5JcOg82o_H6_GUKyfxBOruV0kg0YetWk6j
+ I0JmrbAVBh02y3EaiJY6CsoefqiuBBpsiJ7l..neuq83vb_5FEe8SHQVFhcQ
+ 5YPcbIb1u6qXn6wn9GmG3aUNnrtzfCkF547vJ_BNvNYZWAcW2T.vp6qXpGbU
+ _gM0XH7Bkq9zKPY33kwFg0UkqWp_Ihj.pe__4M0UR_9z8pFvux6MG8RbTpR6
+ NRNmQCmqsLJ3dsYhCmyVsrXOkV9Q_meYJMPlwm1Zlr4l4Yg.ukpP7mJg2Df7
+ jL5vSTQF.ggJRR_Dc3hOp46oduxzqWrv1NWzLdzeb9LReGKc4AXcJorUMe83
+ aOa_KesR49JzRVixyTsYykLgehVeGHpqp50z68xPNFzvJPof9CJQfNBvDOH.
+ 14lamrds55OHtlXBLk2RvfarJ11u1U_oitYwPCJipG_Nl4yQGYlCsGumpy66
+ 4zzSJrXi6i.gnVa5lLwnvOINkQE88s1fJ3gx9xP4d1kL1HW.xSWKANorzM4X
+ _4iuPNPuwNf_AVvhyNsBGZYjE644soU-
+Received: from 69.5.87.124 (EHLO mailer087124.service.govdelivery.com)
+ by 10.217.135.108 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 05 Aug 2022 13:17:08 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087124.service.govdelivery.com (-); Fri, 05 Aug 2022 13:17:06 +0000
+X-VirtualServer: VSG002, mailer087124.service.govdelivery.com, 10.1.38.131
+X-VirtualServerGroup: VSG002
+X-MailingID: 16826791::20220805.61823211::1001::MDB-PRD-BUL-20220805.61823211::MS60710444266@YAHOO.COM::16159_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=X+QX
+	NswW0EUSY27oag7Hy+eIFEt4aLsWuDswjmt3RLc=; b=RvZ8G8OP7AWU9VZk8nEH
+	aAkqWbDVD2GKmgrG+MEZaI36L1XP9NifeN/07un+JXYgV20gMZ01b4Fh4EITVUNm
+	qIU/3kH7aLr27lm+CnNLp03+DkDQ8WMPJBflN35HHHtuWEga65sgc5madgmg1+/e
+	Kxfb1wn75HsYKJ7kXyspC/2t5RplA9AtCJ9sjZ9GGjcxcoSDzDYoe0WWmvhRFKIa
+	pQGIRcWkbmJfsCBDysJOFBTn1zrqsUlUWVtnuNhxxLl8LyCnH6wtCkfIBkQ29Z7f
+	I40/pycjJGTCK7WgYPTrfq2f18n5Tc+lqRWhzkbDuSjoZlMeBTgpGodTANlY2O7a
+	Iw==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_2B2_8E59_27CECE8C.33E9487E"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrBJDq21tRt5BNbWgx6yg+VHMVdmYzrAg8zJXsj6+HJOdITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16826791.16159@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK746NJJ26ESJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Fri, 05 Aug 2022 13:16:57 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 10005
+
+
+------=_NextPart_2B2_8E59_27CECE8C.33E9487E
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+Co-Defendants Sentenced in Methamphetamine, Heroin Conspiracy Directed fr=
+om Two Georgia Prisons [ https://www.justice.gov/usao-mdga/pr/co-defendan=
+ts-sentenced-methamphetamine-heroin-conspiracy-directed-two-georgia-priso=
+ns ] 08/05/2022 12:00 AM EDT=20
+ALBANY, Ga. =96 Two individuals involved in a heroin and methamphetamine =
+trafficking network directed by inmates from two Georgia prisons were sen=
+tenced to federal prison today for their crimes. Joseph Collins, 38, of A=
+ugusta State Prison, was sentenced to 240 months in prison to be followed=
+ by five years of supervised release after pleading guilty to conspiracy =
+to possess with intent to distribute controlled substances. Co-defendant =
+Christopher Ogle, 38, of Dalton, Georgia, was sentenced to 132 months in =
+prison to be followed by five years of supervised release after pleading =
+guilty to conspiracy to possess with intent to distribute controlled subs=
+tances. U.S. District Judge Leslie Gardner handed down the sentences. The=
+re is no parole in the federal system. body { font-size: 1em; font-family=
+: Arial, Verdana, sans-serif; font-weight: normal; font-style: normal; co=
+lor: #333333; } _________________________________________________________=
+_______________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_2B2_8E59_27CECE8C.33E9487E
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA4MDUuNjE4MjMyMTEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.fZjQi30KlY5okIQa4Ru75qgShflzrtc37fQtbmURYpM/s/2591266043/br/14212=
+5747783-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MDUuNjE4MjMyMTEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW1kZ2EvcHIvY28tZGVmZW5kYW50cy1zZW50ZW5jZWQtbWV0aGFtcGhldGFtaW5lL=
+Whlcm9pbi1jb25zcGlyYWN5LWRpcmVjdGVkLXR3by1nZW9yZ2lhLXByaXNvbnMifQ.wX9rcG-=
+tx67JxWHbj60TgAN2pABlwQDnmnA-lt3p9zE/s/2591266043/br/142125747783-l">Co-D=
+efendants Sentenced in Methamphetamine, Heroin Conspiracy Directed from T=
+wo Georgia Prisons</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">08/05/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+LBANY, Ga. =96  Two individuals involved in a heroin and methamphetamine =
+trafficking network directed by inmates from two Georgia prisons were sen=
+tenced to federal prison today for their crimes.
+
+Joseph Collins, 38, of Augusta State Prison, was sentenced to 240 months =
+in prison to be followed by five years of supervised release after pleadi=
+ng guilty to conspiracy to possess with intent to distribute controlled s=
+ubstances. Co-defendant Christopher Ogle, 38, of Dalton, Georgia, was sen=
+tenced to 132 months in prison to be followed by five years of supervised=
+ release after pleading guilty to conspiracy to possess with intent to di=
+stribute controlled substances. U.S. District Judge Leslie Gardner handed=
+ down the sentences. There is no parole in the federal system.</div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA4MDUuNjE4MjMyMTEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.X3X8S12kuxVgT1fgh648p1W4glbCu0QpRevexnZamlE/s/259=
+1266043/br/142125747783-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA4MDUuNjE4MjMyMTEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.ygeocZiZFUyVuLsTFB3lqImLNhROgJd5qHV2VjZ4SLs/s/2591266043/br/142=
+125747783-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA4MDUuNjE4MjMyMTEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.FrG2cTSiBaftSmXYSgZDrE0Nd3PsCHCnbeMM1YMIbVU/s/2591=
+266043/br/142125747783-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MDUuNjE4MjMyMTEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.Y7hy1OCVclHq8=
+Etez1wkaE9o5r0na4rYDhPD-RNCwDI/s/2591266043/br/142125747783-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA4MDUuNjE4MjMyMTEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.IDwEePOhKdNVwNh1XlTQfBOpxOroAuN-R6IHd8qJYNQ/s/2591266043/br/14212574=
+7783-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDIxMjU3NDc3ODMtbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MDUuNjE4MjMyMTEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODA1LjYxODIzMjExJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODI2NzkxJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_2B2_8E59_27CECE8C.33E9487E--
+

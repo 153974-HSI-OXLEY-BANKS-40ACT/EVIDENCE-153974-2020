@@ -1,0 +1,287 @@
+From - Sun Aug 28 22:45:17 2022
+X-Account-Key: account1
+X-UIDL: AKG7mzMiKLUrYswwswNLwFTk1YM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.140
+ by atlas313.free.mail.ne1.yahoo.com with HTTPS; Mon, 11 Jul 2022 14:16:18 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.178]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.178 as permitted sender)
+Authentication-Results: atlas313.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 11 Jul 2022 14:16:19 +0000
+X-YMailISG: Ymi_.uQWLDse2CDQTureoqDU0QbPp5VRajyg3PYBUkt_irfR
+ qJpftBT46N5pRSmuc5gtC1.ebEvKhegWzaTV_In_ZH6O.WDhEflwWWhFisuA
+ xjbjqheFO6S37NkWJy4jTLkUnVN..8DMDYWBXcnqU6QELqFXAs5zynSlw0tu
+ tRo39AucWNfCdRVIr2JGXCc5P45tKPgLHUbl4sSh80vv0Q9zPdOQ0TY0ZVNh
+ cbIVnpckpL3diC6Y.KkiKaXrn4gh7NMbBAl.4A_I0EC3VyYdam2Zb5Ze97iO
+ CkKMsihhX4RHV3CRn9P7eXc4Syt_xmxl0J6iz2O5mjUzzDZSZepT4tW2FPzr
+ npFLdhc2ur62M8uksbodBcbCM1VHoE8LTc6OGE2KBwUBdteQqfEp2rBya8cf
+ CIsvcaCFHTPr0M2XxLFHh2SPHo9Ad9E5TRk46_3dw_kx7keY8eGM1pbEB0wf
+ 8J9uTgh4TXhNLvJTPCvaZfFsXQcrvYuKMe8MM6cqm5scrDsk1i_BH6SXLX6x
+ KBG4r7ClWt.M60CvgLTz1vuO7W8mJC98Ha619wYpBTj6BWii5GGS7CIqTEQD
+ x8h6aTbFIKRdl0c5IoZVeAkaaWDSWJFUSFQyB0ZJYE0N84rwMU7x9zrvk7iy
+ F3HrVJFZK6XnKC.aLFZhXQgiKLkDlGWsHgdpBXrRF3ZWYzW.q1ASZ36Gkmk3
+ dBJXANR41cgviqq_xSBNR6xYUlZKNy5YMvClmlr8HzUjj2FoCx0oLGglXybb
+ _2SNftcTzIUIJiZ952.IiLa2hgfxEEBP1LYJ7_1M8o.yucY9L6g6P9lktnk.
+ TRDvmtBwM9A5Lqc5qjy7fKpF05hrsWz1kcVy_0yqtHzs2_6j_r39I13MCu6h
+ 3qdrgRQCDiMDpsbVXxRZ93clAZnUuK7uq9Oyk6ermmU.L.0lNN4YU_XYNiIQ
+ AmWBEXdcnqVj.e3ljMttB_OQy7HerzkZ9mAxK1z75EGKfcUWYkKGt6jtYkeK
+ wIJTE3acAGYsatXNG8qBiEr575yri_UbazyouZnM02C7.2YNHiIKoy28LaYI
+ ba3BajCRTM3cImw7GSOYjDNazWc15xvxbiltbfsga4XyVwQ5CNEp8P_x7Jb1
+ _yxwYxzbETA1ahQz1wgjNoIACPRHULWbMZhBd8NyqKL6KRnnbZLhgLvuTjVG
+ gyWCZWuf2uRpjyywALbHLi0-
+Received: from 69.5.87.178 (EHLO mailer087178.service.govdelivery.com)
+ by 10.217.150.140 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 11 Jul 2022 14:16:18 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087178.service.govdelivery.com (-); Mon, 11 Jul 2022 14:16:18 +0000
+X-VirtualServer: VSG002, mailer087178.service.govdelivery.com, 10.1.38.136
+X-VirtualServerGroup: VSG002
+X-MailingID: 16819591::20220711.60579161::1001::MDB-PRD-BUL-20220711.60579161::MS60710444266@YAHOO.COM::16195_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=tpgm
+	QDEo87NHda8/+1uz89jrPGwaAbwL13oXQpAMZ1Y=; b=n58av4X+GJA+1tJwe0YQ
+	uj9FguCVyoRqF5S+w0FLqujiCxOlapb4rQ/nBKsmLmqn9vrT+2lGNN7FYxoQo03r
+	ynefuv1dj2bJpsolNM+3oOYMCz1MJkjvVH4YYJjCziHdHuaF6sW31Evcu+xP1QfZ
+	0xuRFrPjRZXPfGGeGzc3CpTPlZuyZ3Iut68cAMe2EEsXY7kYqYBrNQTOsKIGyytu
+	XadY6MvnB/8R1Brdn5Ff9iZRVPCCOfxx592nJygd+MrQfbCO9HoWXxyygn7qmsaW
+	wfCUqz6M4LfBNmqL0/U22TDVLMzwEqU4OCvOTf87RsKTwL3h2q4nvPRPF65o2TzI
+	AQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_792_0CEA_3AC6D89F.4C9C7CF7"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSr2Y0SvnCuTuIYPqmT5gsm+M+2itCAGxGawJnpNExMX15ITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16819591.16195@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK637OJJ26GQJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Mon, 11 Jul 2022 14:16:04 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 9571
+
+
+------=_NextPart_792_0CEA_3AC6D89F.4C9C7CF7
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+U.S. Attorney Ryan K. Buchanan appointed to serve on Attorney General Mer=
+rick B. Garland=92s Advisory Committee [ https://www.justice.gov/usao-ndg=
+a/pr/us-attorney-ryan-k-buchanan-appointed-serve-attorney-general-merrick=
+-b-garland-s ] 07/11/2022 12:00 AM EDT=20
+Attorney General Merrick B. Garland has announced the appointment of U.S.=
+ Attorney Ryan K. Buchanan of the Northern District of Georgia to serve o=
+n the Attorney General=92s Advisory Committee of U.S. Attorneys (AGAC). T=
+he AGAC was created in 1973 and advises the Attorney General on matters o=
+f policy, procedure, and management impacting the Offices of the U.S. Att=
+orneys and elevates the voices of U.S. Attorneys in Department of Justice=
+ policies. Buchanan, along with 12 other U.S. Attorneys from around the U=
+nited States, will serve on the AGAC. body { font-size: 1em; font-family:=
+ Arial, Verdana, sans-serif; font-weight: normal; font-style: normal; col=
+or: #333333; } __________________________________________________________=
+______________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_792_0CEA_3AC6D89F.4C9C7CF7
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA3MTEuNjA1NzkxNjEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.MIQqPw3y_X-o_kJL_d8EbHaGR_G-K2SvyS-ZRvyLTm0/s/2591266043/br/13838=
+3656409-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MTEuNjA1NzkxNjEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW5kZ2EvcHIvdXMtYXR0b3JuZXktcnlhbi1rLWJ1Y2hhbmFuLWFwcG9pbnRlZC1zZ=
+XJ2ZS1hdHRvcm5leS1nZW5lcmFsLW1lcnJpY2stYi1nYXJsYW5kLXMifQ.D0Qk-7ff5rtDtAq=
+ew0ZB-gVAEz7nWLUZrlLP1cZVTE0/s/2591266043/br/138383656409-l">U.S. Attorne=
+y Ryan K. Buchanan appointed to serve on Attorney General Merrick B. Garl=
+and=92s Advisory Committee</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/11/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+ttorney General Merrick B. Garland has announced the appointment of U.S. =
+Attorney Ryan K. Buchanan of the Northern District of Georgia to serve on=
+ the Attorney General=92s Advisory Committee of U.S. Attorneys (AGAC). Th=
+e AGAC was created in 1973 and advises the Attorney General on matters of=
+ policy, procedure, and management impacting the Offices of the U.S. Atto=
+rneys and elevates the voices of U.S. Attorneys in Department of Justice =
+policies. Buchanan, along with 12 other U.S. Attorneys from around the Un=
+ited States, will serve on the AGAC.</div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MTEuNjA1NzkxNjEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.csZABGwOdwvRAWU7PzqDrgCv49Zhkg7FHAp9Q82O-KI/s/259=
+1266043/br/138383656409-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MTEuNjA1NzkxNjEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.o0qHy2Jft8GMXPxjSFZyT5bWYr-B9qFT7VsGTbAKmqs/s/2591266043/br/138=
+383656409-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MTEuNjA1NzkxNjEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.hU1b0Em7U-rUWY91RWtlj85FebscOWwYppkOkFOiFKE/s/2591=
+266043/br/138383656409-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MTEuNjA1NzkxNjEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.o_gneW_Rt1Ha5=
+dT5lFRuIn5aIst0RgcMQ95kO5N171E/s/2591266043/br/138383656409-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA3MTEuNjA1NzkxNjEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.vZWAf0tZqzrporX_Vn3akGE7fjbtqV7ZvtZ09-OKIQI/s/2591266043/br/13838365=
+6409-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzgzODM2NTY0MDktbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MTEuNjA1NzkxNjEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzExLjYwNTc5MTYxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODE5NTkxJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_792_0CEA_3AC6D89F.4C9C7CF7--
+

@@ -1,0 +1,959 @@
+From - Wed Aug 31 18:53:37 2022
+X-Account-Key: account1
+X-UIDL: AOlBKkQ648iXYw+UrgnbcHYq6Zs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Wed, 31 Aug 2022 17:04:45 +0000
+Return-Path: <info@updates.ninr.nih.gov>
+X-Originating-Ip: [208.42.137.87]
+Received-SPF: pass (domain of updates.ninr.nih.gov designates 208.42.137.87 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=perm_fail header.i=@updates.ninr.nih.gov header.s=17q3;
+ spf=pass smtp.mailfrom=updates.ninr.nih.gov;
+ dmarc=pass(p=REJECT) header.from=updates.ninr.nih.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 17:04:46 +0000
+X-YMailAVSC: Fk795FA3bBtqbLO3SHkoK5ylJi0DhgNzQXsTZeVpLRy7m6w
+ 92PJNefhEPcq8pU0N7r.jf2Lb7qsXvWyl1G22jgx_5u72KQfUjLVfRBuQlWE
+ w6XbJ2vWqccbO.DOZ0FbF6vMSKHAhKWyAV5JfU5Mr7yTvdgxr0YbBGJGpjHw
+ Y_kDUU5ys.l_qBGkbXpvrCkbw69EGvwNXw9mdI.01S.wmgTn6TVNrGP.K58M
+ uvO5p8.VdB3EIjEsx1z2LDwoCDRLKru_X8KImuWAaeAGPzlsNA8KXASFBNtL
+ yvuLkOUGg.rajImZLviREGBwwNT.yFQoV7uwh0QFLEpj5b97TwcbnwMo0H3y
+ 5Age5O.xi9pP34qmEgqpBQy_7qn2vjau_daBeQ2LLxG1gveRREI9FmScY_dZ
+ HECQtVPwjTp2VrAZsq0DfjXcCFZgr9K1p.fYWFCqEIkVtehXoloqapupkrxJ
+ 8kJHsBCVZA1yK5Txyp4dmatvy5mp_2QNshLyugIQeCmsQD4CC0tCWj2wwJRX
+ iaV4BhpzzDZUX1P4Jg.JfrILBUrcHTpx4JLEn2tu1U6UjQlZJJ4pRj3uJL9i
+ z8_91jP3ao2iBHE1ta5K3dQlBfGOkxl3VtrwQIo6emRh3RhBGv4r5fj.uv9B
+ _6SO18H6wlsDHr8hnDGe70tLQbHjHBn7eT7AMy0iDfgETVidDoRm5NASbPa_
+ 8r9b7EyaVxucgstWZBh_5Xxv68UyVq4efAddxGBOABD1hddfEgIUD_9bKcbJ
+ Lol9o4T6dxEEiDxlCiFf_jx5V2gUSf.hL.yD0EjgJkjQM5oxX5nZDMuOuGQW
+ UFkulXfnz_Y.z.qcH0vs.nJw_d5fdwNky55cweCwSfuHSot8JDZaetBFLIK.
+ XiZhEPITNxOEeumwFLhdfuzwOYusIowr6cTddupGn2QM4ucSQvniBQb_i94T
+ iu3EHGbfrCth6NwvrHyYwgIiLOmC.Rz65HzCrt2n2_hLPWFVt96zPsJ.jnbD
+ gwDaOfs53B3TqgM2jQboOvCx.MdyzMJc.BeFS9gWcgWs3NK3PWOX7execnsj
+ 0tnKUM_4WEN9ObjVx.I7RdEaq3WrCX9_eCafZ3krEMZC.9L_XrNgRcGjUDw1
+ ihzocpRolUnOoyzHU_xbwTWnsHFkghxO3tu0K5ulNbRou7UeYG0N88YerrHu
+ sFCbVc5sBJ36KU26o3C0v0aLILba5eRRwZJuujZoTDJdRDcKkt_KTNQG9gDC
+ nw9VsPVa0fIC9T_IWl4SEx40TiUEjGWkGsbNOCUNswtQH_zITYZunVBYWNrV
+ j2WdCTMEEiFZBN589GWzDcaEBiuH3xGV6rSLyLXe_8HjvNUQJfuDa_MIpJgz
+ Zoo9wrxREM9CI34ybkMg6IGJ.Iv.E0bVv9Ky_NMdxk3k4xS8-
+X-YMailISG: WL34lAkWLDvPz9J1cnT8hbCKpOssiw5TLRrtmMnG3_PcBgaE
+ Wdn32tLXuAH78bKQRAOiKNP36Byalq5nkzg8.JPywfVoZ6FCpAqqSMKJKDmS
+ LFc1fs1IwarZ9mMbb3sGhCzUC35VgdERbDt_Bc8OhqmrE3n7o_DbAEHZqwda
+ 5jf58ZmvUHJ6Ao5UDANypmMi0fIRBZdQYi3_WTKEkx9H2LErdgUr_Tf2NrPZ
+ 4SMnzcM5QfwvSnDLmT3e_McepOOfFThQ9Zrej7Q6mU3wsGKM2ZeI7LyVobmJ
+ SP0DzAn.YDVAHOtYob3j2SLVJFzMSaau3o2Tz0JHB0D.LTlFoROXrUFfIq0q
+ Th7fKE4gc6i1zeXdcWyEnlvL8PKSbYAolQ0d28ozIOp1n42ie4X0R3.mX62y
+ JYP6.wT0XZ5R3F3XmSzicAHBPkktlSHq6ccH07SuJOHgOo2EVZf1xctn5oqM
+ 0hsUKCC.qXCSIXPp5_A69Y3Ull1MxL65MJ_MWnb9tZONIRwQ5se7JFc5WWjY
+ xesHzhw3FunU9IQsU8mQyyvdHDpRWw_LYQ.IePdLok9MkPP6CPooy3NSrVhx
+ UtJvVM6pvl8.1lYxwSGf1687xZLn2Mv8HeV0.b6DvlAp3Skk3x6yaohjgVY1
+ OxLRs86AahM9urRZlRkal5PmDVBjgKnSv_nPsVdcdnhqKbavDRINb47LLa.A
+ WUYM5PMjdPAiNzg4KdnHOAVZpAhvBfX90KVpuPrythB5LKQb2aixxA2Wr0UX
+ c15IoGrgUDeBNXXVSe1ooeaTFZ_LStXb5FazkkWBNbL4d_3Oy25Q6l5VT1_k
+ .XKlzbq5Jdu27L3eJT2xFtyYPXyfdYgQuZYtHV5CAI7_OAeuyp04EepM23Bh
+ GvxkRB5KblynuO12p0IxOFz2CsgN194x1_RsFV4vTTKKC1yPexVTx4AF7p52
+ FT2SYBRZpUjdz44mTTaW9b_RXCzdJ_qzjKlboU9y.l5dTGuyOKVFsO8YNsWl
+ RvFZbmgCbfv2wQTsnNzjtw4GQOe_kMfUOqpsNvsAl5LcnN74MqyvvXrHNGgN
+ BhgLkdPyBTSCitwyG7xYwTOaz_6lBlAp3.OZ8Q--
+Received: from 208.42.137.87 (EHLO mailer137087.service.govdelivery.com)
+ by 10.253.31.95 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 17:04:45 +0000
+Received: from gepdp-smeds9-1.systems.dc.gdi ([10.5.36.21])
+	by mailer137087.service.govdelivery.com (-); Wed, 31 Aug 2022 17:04:45 +0000
+X-VirtualServer: VSG004, mailer137087.service.govdelivery.com, 10.5.38.187
+X-VirtualServerGroup: VSG004
+X-MailingID: 16903666::20220831.63036681::1001::MDB-PRD-BUL-20220831.63036681::ms60710444266@yahoo.com::110541_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ms60710444266@yahoo.com
+X-SMFBL: bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=updates.ninr.nih.gov; s=17q3; i=@updates.ninr.nih.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=V+cO
+	2EzYuBDy80KLKPWsxrzppILLF329ARsUqac8ig8=; b=fZueMEnyCi23dn0dHClO
+	r0cJkxoUt+aWV0zCJqHZZnr+FiJvqyGOFERxNrqOb6CagKyvIV3rfQ7lzPJKf5UB
+	oglZO4PsRwL1UZ9sNKU8EB4eaWL8/KOLN/q5y+s+7UwBJE8oG2honBoNZ/95EwS3
+	Mg8w2v4CObZWsgvfVHK2Gi4fdDF6gCNzvTiSdhVn7a2i8RHlobbJQHt7P/4U3zQd
+	Nf1Vwyr1wgeTYsM7qifxPufg9fPvKlVKy5EckLrznJGiDMArd4b/iXjkRKPRaB8y
+	KF6Egg3vYzh8Zsvi/e5bpH0ZpKiq1Rkwr0yqHrWul8VZSkkrylYkP4WDfTQiyMlK
+	IQ==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_8B8_8480_1B452009.05E7C310"
+x-subscriber: 3.rYve9fmrAfyuaJQuuawl7WcGdXCZXjtXgNPulZXesMgFr/AHkxK+sqXbLdyV2eMIETvhibGfOZRbWz25qFZIds1gZV6xb4L0oT+5lW4wD9sXS1K6QEjjBwn77FpsXoQVfL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USNIHNINR
+Errors-To: info@updates.ninr.nih.gov
+MIME-Version: 1.0
+Message-ID: <16903666.110541@updates.ninr.nih.gov>
+X-ReportingKey: MJJJ2EWJKI85OJJG23_JJJ::ms60710444266@yahoo.com::ms60710444266@yahoo.com
+Subject: =?US-ASCII?Q?NINR_News_and_Notes_Digest:_August_2022?=
+Date: Wed, 31 Aug 2022 17:04:43 +0000
+To: ms60710444266@yahoo.com
+Reply-To: info@updates.ninr.nih.gov
+From: "=?US-ASCII?Q?The_National_Institute_of_Nursing_Research?=" <info@updates.ninr.nih.gov>
+Content-Length: 41117
+
+
+------=_NextPart_8B8_8480_1B452009.05E7C310
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+NINR's online newsletter, providing the latest nursing science discoverie=
+s, funding and training opportunities, and news. =20
+
+=20
+
+Having trouble viewing this email? View it as a Web page [ https://conten=
+t.govdelivery.com/accounts/USNIHNINR/bulletins/327b31b ].
+
+=20
+=20
+
+NINR News and Notes =20
+=20
+=20
+=20
+
+"News and Notes" is NINR's online newsletter, providing the latest nursin=
+g science discoveries, funding and training opportunities, and news about=
+ our events and initiatives.
+
+________________________________________________________________________
+
+Events
+
+NACNR =20
+
+*108th Meeting of the National Advisory Council for Nursing Research*
+
+Join NINR for the next open session of the National Advisory Council for =
+Nursing Research (NACNR) on September 13, 2022 at 11:00 a.m. (ET). Read M=
+ore [ https://www.ninr.nih.gov/newsandinformation/events/nacnr-108?utm_ca=
+mpaign=3Dnewsandnotes&utm_medium=3Demail&utm_source=3Dgovdelivery ]
+
+=A0
+
+=A0
+
+=20
+
+NINR Director's Lecture Series =20
+
+*2022 NINR Director=92s Lecture Series: Health Equity*
+
+Join NINR on October 11, 2022, as we bring leading experts in health equi=
+ty to share their knowledge at an upcoming NINR Director=92s Lecture. Dr.=
+ Chandra Ford, Professor and Founding Director of the Center for the Stud=
+y of Racism, Social Justice & Health at the UCLA Fielding School of Publi=
+c Health, and Dr. Suzanne Miyamoto, Chief Executive Officer of the Americ=
+an Academy of Nursing, will be presenting research priorities and the pra=
+ctice and policy implications of nursing research through the health equi=
+ty lens. Read More [ https://www.ninr.nih.gov/newsandinformation/events/d=
+irectors-lecture-healthequity?utm_campaign=3Dnewsandnotes&utm_medium=3Dem=
+ail&utm_source=3Dgovdelivery ]
+
+=A0
+
+=20
+
+NIH Logo =20
+
+*Malnutrition in Clinical Settings: Research Gaps and Opportunities Works=
+hop*
+
+Join the National Institutes of Health Office of Nutrition Research on Se=
+ptember 12-14 and 19-20 2022, for the Malnutrition in Clinical Settings: =
+Research Gaps and Opportunities workshop. Read More [ https://www.ninr.ni=
+h.gov/newsandinformation/newsandnotes/onr-workshop-2022?utm_campaign=3Dne=
+wsandnotes&utm_medium=3Demail&utm_source=3Dgovdelivery ]
+
+=A0
+
+=20
+
+Staff
+
+Dr. Paule Joseph =20
+
+*Dr. Paule Joseph Selected as the Inaugural American Academy of Nursing F=
+ellow at the National Academy of Medicine*
+
+Scientist and certified nurse practitioner Paule V. Joseph, PhD MS, FNP-B=
+C, FAAN, is the inaugural 2022-2024 American Academy of Nursing (AAN) Fel=
+low at the National Academy of Medicine (NAM). Dr. Joseph=92s selection w=
+ill be announced at the Annual Meeting of the NAM in Washington, D.C. on =
+Monday, October 17. Read More [ https://www.ninr.nih.gov/newsandinformati=
+on/newsandnotes/paulejoseph-aan-nam?utm_campaign=3Dnewsandnotes&utm_mediu=
+m=3Demail&utm_source=3Dgovdelivery ]
+
+=20
+
+Training
+
+NIH Climate and Health Scholars Program =20
+
+*NIH Climate and Health Scholars Program
+*
+
+NINR is excited to announce our participation in the NIH Climate Change a=
+nd Health Initiative's Climate and Health Scholars Program, which seeks t=
+o bring climate and health focused scientists from outside the agency to =
+work with NIH staff and build our capacity in the scientific domains outl=
+ined in the NIH Climate Change and Health Initiative=92s Strategic Framew=
+ork. Read More [ https://www.ninr.nih.gov/newsandinformation/newsandnotes=
+/ch-scholars?utm_campaign=3Dnewsandnotes&utm_medium=3Demail&utm_source=3D=
+govdelivery ]
+
+=A0
+
+=20
+
+Funding
+
+NIH COMPASS; Health Equity =20
+
+*NIH Common Fund's Community Partnerships to Advance Science for Society =
+(ComPASS) Program*
+
+The NIH Common Fund=92s newly launched ComPASS Program published a Notice=
+ of Information and a Notice of Intent to Publish. Read More [ https://ww=
+w.ninr.nih.gov/newsandinformation/newsandnotes/cf-compass?utm_campaign=3D=
+newsandnotes&utm_medium=3Demail&utm_source=3Dgovdelivery ]
+
+=A0
+
+=A0
+
+=20
+
+Lightbulb =20
+
+*Apply for FREE Phase I SBIR/STTR Application Guidance*
+
+The NINR Small Business Program is accepting applications for the next gr=
+oup of Applicant Assistance Program (AAP) participants. The free, 10.5-we=
+ek program is designed to assist small businesses in preparing an SBIR or=
+ STTR application. Read More [ https://www.ninr.nih.gov/newsandinformatio=
+n/newsandnotes/sb-aap?utm_campaign=3Dnewsandnotes&utm_medium=3Demail&utm_=
+source=3Dgovdelivery ]
+
+=A0
+
+=20
+=20
+=20
+
+To view or modify your subscription preferences, please visit the Subscri=
+ber Preferences Page [ http://links.govdelivery.com:80/track?type=3Dclick=
+&enid=3DZWFzPTEmbXNpZD0mYXVpZD0mbWFpbGluZ2lkPTIwMTgwNjI4LjkxODIzMTgxJm1lc=
+3NhZ2VpZD1NREItUFJELUJVTC0yMDE4MDYyOC45MTgyMzE4MSZkYXRhYmFzZWlkPTEwMDEmc2=
+VyaWFsPTE3MTg2NTUwJmVtYWlsaWQ9YWxpc29uLmxlbW9uQG5paC5nb3YmdXNlcmlkPWFsaXN=
+vbi5sZW1vbkBuaWguZ292JnRhcmdldGlkPSZmbD0mZXh0cmE9TXVsdGl2YXJpYXRlSWQ9JiYm=
+&&&104&&&https://public.govdelivery.com/accounts/USNIHNINR/subscriber/new=
+ ].=A0If you no longer wish to receive updates from NINR, unsubscribe her=
+e [ https://public.govdelivery.com/accounts/USNIHNINR/subscriber/one_clic=
+k_unsubscribe?verification=3D5.3e68bc42fa27cf50d008a16357f2ce42&destinati=
+on=3Dms60710444266%40yahoo.com ].
+
+For questions or problems with your subscription, please visit subscriber=
+help.govdelivery.com [ https://subscriberhelp.govdelivery.com ].=A0This s=
+ervice is provided to you at no charge by The National Institute of Nursi=
+ng Research [ https://www.ninr.nih.gov/?utm_campaign=3Dnewsandnotes&utm_m=
+edium=3Demail&utm_source=3Dgovdelivery ].
+
+=20
+=20
+Twitter [ https://twitter.com/NINR?utm_campaign=3Dnewsandnotes&utm_medium=
+=3Demail&utm_source=3Dgovdelivery ]Youtube [ https://www.youtube.com/user=
+/NINRnews?utm_campaign=3Dnewsandnotes&utm_medium=3Demail&utm_source=3Dgov=
+delivery ]Sign up for updates [ https://public.govdelivery.com/accounts/u=
+snihninr/subscriber/new ] =20
+
+*Our mailing address is:*
+31 Center Drive, Room 5B03
+Bethesda, MD 20892-2178
+
+=20
+=20
+=20
+=20
+=20
+________________________________________________________________________
+
+This email was sent to ms60710444266@yahoo.com using GovDelivery Communic=
+ations Cloud, on behalf of: National Institute of Nursing Research Nation=
+al Institutes of Health =B7 31 Center Drive, Room 5B10 =B7 Bethesda, MD 2=
+0892-2178 GovDelivery logo [ https://subscriberhelp.granicus.com/?utm_cam=
+paign=3Dnewsandnotes&utm_medium=3Demail&utm_source=3Dgovdelivery ]=20
+body .abe-column-block { min-height: 5px; } table.gd_combo_table img {mar=
+gin-left:10px; margin-right:10px;} table.gd_combo_table div.govd_image_di=
+splay img, table.gd_combo_table td.gd_combo_image_cell img {margin-left:0=
+px; margin-right:0px;}
+=0A
+------=_NextPart_8B8_8480_1B452009.05E7C310
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    NINR News and Notes Digest: August 2022
+</title>
+    <meta content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<style type=3D"text/css">
+/*start reset css*/
+div { line-height: 1; }
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+table { border-spacing: 0; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+body { margin: 0; padding: 0; }
+img { border: none !important; height: auto; line-height: 1; outline: non=
+e; text-decoration: none; }
+table td { border-collapse: collapse !important; }
+.preheader { display: none !important; visibility: hidden; opacity: 0; co=
+lor: transparent; height: 0; width: 0; }
+/*end reset css*/
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+/* outlook.com line-height control */
+.ExternalClass p,=20
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%}
+@media only screen and (max-device-width: 480px) {
+table#yahoo, table#yahoo table { position: relative; }
+table#yahoo .govd_header { max-width: 480px !important; }
+table#yahoo .govd_hr img, table#yahoo .govd_hr_inner img { display:none !=
+important; }
+table#yahoo img { max-width: 400px !important; width: 100% !important; }
+table#yahoo .govd_template_image { height: auto !important; max-width: 40=
+0px !important; width: auto !important; margin:0 !important; }
+table#yahoo table.gd_combo_table .govd_template_image { margin:0 5px 5px =
+5px !important; }
+table#yahoo #main-header .govd_template_image { max-width: 480px !importa=
+nt; width: 100% !important; }
+table#yahoo .govd_content_container .govd_image_display { margin-left:0 !=
+important; }
+table#yahoo .container-fill, table.gd_tbl_wrap, table.gd_tbl_wrap table {=
+ max-width: 480px !important; }
+
+.main-table, .mobile-footer, .mobile-tagline, table.gd_tbl_wrap, table.gd=
+_tbl_wrap table { width:100% !important; min-width:100% !important; max-w=
+idth:480px !important; }
+table#yahoo .tablecell, .tablecell { width:100% !important; display: bloc=
+k !important; }
+table#yahoo p, table#yahoo p span, table#yahoo .gd_p, table#yahoo li { fo=
+nt-size:13pt !important; }
+table#yahoo #view-in-browser p, table#yahoo #view-in-browser p span, tabl=
+e#yahoo #view-in-browser .gd_p, table#yahoo #view-in-browser li { font-si=
+ze:8pt !important; }
+table#yahoo h1 { font-size:18pt !important; }
+table#yahoo h2 { font-size:16pt !important; }
+table#yahoo h3 { font-size:14pt !important; }
+table#yahoo #main-body .govd_hr {background:transparent none !important;}=
+
+.mobile-hide {display:none !important;}
+.mobile-padding {padding:0 !important;}
+.mobile-columns {padding:10px 20px !important;}
+}
+</style>
+
+
+</head>
+<body style=3D"line-height:1.4;margin:0;padding:0;width:100% !important;"=
+>
+<table bgcolor=3D'#ffffff' border=3D'0' cellpadding=3D'0' cellspacing=3D'=
+0' style=3D'width: 100%;'>
+<tbody>
+<tr bgcolor=3D'#ffffff'>
+<td align=3D'center' style=3D'background-color: #ffffff; padding: 0px; fo=
+nt-size:1px; font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans=
+-serif; color:#ffffff' valign=3D'top'>
+NINR&#39;s online newsletter, providing the latest nursing science discov=
+eries, funding and training opportunities, and news.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"background-color:=
+ #eeeeee; margin: 0; padding: 0; width: 100% !important" bgcolor=3D"#eeee=
+ee"><table class=3D"main-table" width=3D"600" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0" id=3D"yahoo" style=3D"width: 600px; border-coll=
+apse: collapse;">
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"view-in-browser" width=3D"100%" data-govdstyle=3D"all" data-gov=
+dtitle=3D"View in Browser" class=3D"thin" style=3D"padding: 10px;">
+<p class=3D"gd_p" style=3D"text-align: center; line-height: 1.1; color: #=
+666666; font-family: arial, helvetica, sans-serif; font-size: 10px; margi=
+n: 0;" align=3D"center">Having trouble viewing this email? <a href=3D"htt=
+ps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOi=
+JodHRwczovL2NvbnRlbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL1VTTklITklOUi9idWx=
+sZXRpbnMvMzI3YjMxYiJ9.XS4vpSDO-f4Cd9vMtcq159NOCUekcd7XMSLVcXKKK20/s/26017=
+88375/br/143338967298-l">View it as a Web page</a>.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFF=
+; border-collapse: collapse;">
+<tr>
+<td id=3D"header-bg" data-govdstyle=3D"all" data-govdtitle=3D"Header Back=
+ground" style=3D"background: #592D82 url(https://content.govdelivery.com/=
+attachments/fancy_images/USNIHNINR/2021/06/4668109/bannerbg_original.jpg)=
+ no-repeat; padding: 0px; border: none;" bgcolor=3D"#592D82">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-header" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Header" style=3D"padding: 0px;">
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USNIHNINR/2022/07/6133380/4216265/ninr-emailhea=
+der-external-2x_crop.jpg" style=3D"width: 600px; height: auto !important;=
+ max-height: auto !important; border: none;" alt=3D"NINR News and Notes" =
+width=3D"600" height=3D"101">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td id=3D"date-bg" data-govdstyle=3D"all" data-govdtitle=3D"Date Backgrou=
+nd" style=3D"padding: 0px; border: none;">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-date" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Date" class=3D"thin" style=3D"border-left-style: none !important=
+; border-right-style: none !important; border-top-style: none !important;=
+">
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-body" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=
+=3D"Main Body" style=3D"background-color: #FFFFFF; padding: 15px;" bgcolo=
+r=3D"#FFFFFF">
+<p class=3D"gd_p" style=3D"text-align: left; line-height: 1.4; color: #00=
+0000; font-family: arial, helvetica, sans-serif; font-size: 14px; margin:=
+ 10px 0;" align=3D"left"><em>News and Notes</em> is NINR's online newslet=
+ter, providing the latest nursing science discoveries, funding and traini=
+ng opportunities, and news about our events and initiatives.</p>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h1 class=3D"govd_header" style=3D"line-height: 1.1; font-weight: bold; c=
+olor: #783CB9; font-family: arial, helvetica, sans-serif; font-size: 24px=
+; text-align: left; margin: 0 0 10px;" align=3D"left">Events</h1>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2022/01/5462=
+266/3933501/nacnr_crop.jpg" style=3D"width: 182px; height: auto !importan=
+t; max-height: auto !important; border: none;" alt=3D"NACNR" width=3D"182=
+" height=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left"><strong>108th Meeting of the National Advisory Council for Nu=
+rsing Research</strong></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">Join NINR for the next open session of the National Advisory =
+Council for Nursing Research (NACNR) on September 13, 2022 at 11:00 a.m. =
+(ET). <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNj=
+MwMzY2ODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaW5yLm5paC5nb3YvbmV3c2FuZGluZm9ybWF=
+0aW9uL2V2ZW50cy9uYWNuci0xMDg_dXRtX2NhbXBhaWduPW5ld3NhbmRub3RlcyZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.iYfXWvzOYrq4FMUPOoCvQBxAbj=
+egC8vGGIxM-1FEjx8/s/2601788375/br/143338967298-l" target=3D"_blank" rel=3D=
+"noopener" style=3D"color: #0000EE; text-decoration: underline; -ms-word-=
+break: break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyp=
+hens: none; hyphens: none;">Read More</a></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+</td>
+  </tr>
+</table>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2022/06/6059=
+045/4188967/directors-lecture_crop.jpg" style=3D"width: 182px; height: au=
+to !important; max-height: auto !important; border: none;" alt=3D"NINR Di=
+rector's Lecture Series" width=3D"182" height=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left"><strong>2022 NINR Director=92s Lecture Series: Health Equity<=
+/strong></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">Join NINR on October 11, 2022, as we bring leading experts in=
+ health equity to share their knowledge at an upcoming NINR Director=92s =
+Lecture. Dr. Chandra Ford, Professor and Founding Director of the Center =
+for the Study of Racism, Social Justice &amp; Health at the UCLA Fielding=
+ School of Public Health, and Dr. Suzanne Miyamoto, Chief Executive Offic=
+er of the American Academy of Nursing, will be presenting research priori=
+ties and the practice and policy implications of nursing research through=
+ the health equity lens. <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaW5yLm5paC5nb3Yv=
+bmV3c2FuZGluZm9ybWF0aW9uL2V2ZW50cy9kaXJlY3RvcnMtbGVjdHVyZS1oZWFsdGhlcXVpd=
+Hk_dXRtX2NhbXBhaWduPW5ld3NhbmRub3RlcyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9Z292ZGVsaXZlcnkifQ.E064YaRuwM4zI9ehu4kBrEq9pwsXfomlkcIUISvhalk/s/260178=
+8375/br/143338967298-l" target=3D"_blank" rel=3D"noopener" style=3D"color=
+: #0000EE; text-decoration: underline; -ms-word-break: break-all; word-br=
+eak: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none=
+;">Read More</a></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+</td>
+  </tr>
+</table>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2022/04/5850=
+499/4096236/nih-logo_crop.jpg" style=3D"width: 182px; height: auto !impor=
+tant; max-height: auto !important; border: none;" alt=3D"NIH Logo" width=3D=
+"182" height=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left"><strong>Malnutrition in Clinical Settings: Research Gaps and =
+Opportunities Workshop</strong></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">Join the National Institutes of Health Office of Nutrition Re=
+search on September 12-14 and 19-20 2022, for the Malnutrition in Clinica=
+l Settings: Research Gaps and Opportunities workshop. <a href=3D"https://=
+lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6Im=
+JwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHR=
+wczovL3d3dy5uaW5yLm5paC5nb3YvbmV3c2FuZGluZm9ybWF0aW9uL25ld3NhbmRub3Rlcy9v=
+bnItd29ya3Nob3AtMjAyMj91dG1fY2FtcGFpZ249bmV3c2FuZG5vdGVzJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.EHY105MJq4Owg2KIcKhAbImEMfJvuPv9v=
+x2emuoOGZ8/s/2601788375/br/143338967298-l" target=3D"_blank" rel=3D"noope=
+ner" style=3D"color: #0000EE; text-decoration: underline; -ms-word-break:=
+ break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: =
+none; hyphens: none;">Read More</a></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+</td>
+  </tr>
+</table>
+<h1 style=3D"line-height: 1.1; font-weight: bold; color: #783CB9; font-fa=
+mily: arial, helvetica, sans-serif; font-size: 24px; text-align: left; ma=
+rgin: 0 0 10px;" align=3D"left">Staff</h1>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2020/03/3243=
+499/3013162/paulejoseph-digest_crop.jpg" style=3D"width: 182px; height: a=
+uto !important; max-height: auto !important; border: none;" alt=3D"Dr. Pa=
+ule Joseph" width=3D"182" height=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left"><strong>Dr. Paule Joseph Selected as the Inaugural American A=
+cademy of Nursing Fellow at the National Academy of Medicine</strong></p>=
+
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">Scientist and certified nurse practitioner Paule V. Joseph, P=
+hD MS, FNP-BC, FAAN, is the inaugural 2022-2024 American Academy of Nursi=
+ng (AAN) Fellow at the National Academy of Medicine (NAM). Dr. Joseph=92s=
+ selection will be announced at the Annual Meeting of the NAM in Washingt=
+on, D.C. on Monday, October 17. <a href=3D"https://lnks.gd/l/eyJhbGciOiJI=
+UzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxl=
+dGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaW5yLm5pa=
+C5nb3YvbmV3c2FuZGluZm9ybWF0aW9uL25ld3NhbmRub3Rlcy9wYXVsZWpvc2VwaC1hYW4tbm=
+FtP3V0bV9jYW1wYWlnbj1uZXdzYW5kbm90ZXMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPWdvdmRlbGl2ZXJ5In0.TmwS4VHZ36QD9Lc5RVUQd2nUybp9pc6g6BQbI28K3Rk/s/260178=
+8375/br/143338967298-l" target=3D"_blank" rel=3D"noopener" style=3D"color=
+: #0000EE; text-decoration: underline; -ms-word-break: break-all; word-br=
+eak: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none=
+;">Read More</a></p>
+</td>
+  </tr>
+</table>
+<h1 class=3D"govd_header" style=3D"line-height: 1.1; font-weight: bold; c=
+olor: #783CB9; font-family: arial, helvetica, sans-serif; font-size: 24px=
+; text-align: left; margin: 0 0 10px;" align=3D"left">Training</h1>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2022/08/6295=
+945/4291136/nih-climate-and-health-scholars-program_crop.jpg" style=3D"wi=
+dth: 182px; height: auto !important; max-height: auto !important; border:=
+ none;" alt=3D"NIH Climate and Health Scholars Program" width=3D"182" hei=
+ght=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left"><strong>NIH Climate and Health Scholars Program<br></strong><=
+/p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">NINR is excited to announce our participation in the NIH Clim=
+ate Change and Health Initiative's Climate and Health Scholars Program, w=
+hich seeks to bring climate and health focused scientists from outside th=
+e agency to work with NIH staff and build our capacity in the scientific =
+domains outlined in the NIH Climate Change and Health Initiative=92s Stra=
+tegic Framework. <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidW=
+xsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjA=
+yMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaW5yLm5paC5nb3YvbmV3c2Fu=
+ZGluZm9ybWF0aW9uL25ld3NhbmRub3Rlcy9jaC1zY2hvbGFycz91dG1fY2FtcGFpZ249bmV3c=
+2FuZG5vdGVzJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.Uj4GN=
+0oFWdoZleLtD6OktkfNwZJTxqG6ZhSzT3UD8vM/s/2601788375/br/143338967298-l" ta=
+rget=3D"_blank" rel=3D"noopener" style=3D"color: #0000EE; text-decoration=
+: underline; -ms-word-break: break-all; word-break: break-word; -webkit-h=
+yphens: none; -moz-hyphens: none; hyphens: none;">Read More</a></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+</td>
+  </tr>
+</table>
+<h1 class=3D"govd_header" style=3D"line-height: 1.1; font-weight: bold; c=
+olor: #783CB9; font-family: arial, helvetica, sans-serif; font-size: 24px=
+; text-align: left; margin: 0 0 10px;" align=3D"left">Funding</h1>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2022/08/6345=
+969/4291137/nih-compass_crop.jpg" style=3D"width: 182px; height: auto !im=
+portant; max-height: auto !important; border: none;" alt=3D"NIH COMPASS; =
+Health Equity" width=3D"182" height=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left"><strong>NIH Common Fund's Community Partnerships to Advance S=
+cience for Society (ComPASS) Program</strong></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">The NIH Common Fund=92s newly launched ComPASS Program publis=
+hed a Notice of Information and a Notice of Intent to Publish. <a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cm=
+wiOiJodHRwczovL3d3dy5uaW5yLm5paC5nb3YvbmV3c2FuZGluZm9ybWF0aW9uL25ld3NhbmR=
+ub3Rlcy9jZi1jb21wYXNzP3V0bV9jYW1wYWlnbj1uZXdzYW5kbm90ZXMmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.VYLhkUbob5ItyhneW7ZOJsfR-OI_ZB0ZO=
+a6mqRciHYQ/s/2601788375/br/143338967298-l" target=3D"_blank" rel=3D"noope=
+ner" style=3D"color: #0000EE; text-decoration: underline; -ms-word-break:=
+ break-all; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: =
+none; hyphens: none;">Read More</a></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+</td>
+  </tr>
+</table>
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+  <tr class=3D"gd_combo_first_image">
+    <td class=3D"gd_combo_image_cell" width=3D"182" style=3D"vertical-ali=
+gn: top;" valign=3D"top"><img class=3D"govd_template_image" src=3D"https:=
+//content.govdelivery.com/attachments/fancy_images/USNIHNINR/2022/03/5666=
+722/4014842/lightbulb_crop.jpg" style=3D"width: 182px; height: auto !impo=
+rtant; max-height: auto !important; border: none;" alt=3D"Lightbulb" widt=
+h=3D"182" height=3D"138"></td>
+<td class=3D"gd_combo_spacer" width=3D"4"></td>
+<td class=3D"gd_combo_text_cell">
+<div class=3D"content-header">
+<div class=3D"region region-title">
+<div class=3D"contextual-region block block-core block-page-title-block" =
+id=3D"block-ninr-page-title">
+<div class=3D"content">
+<p class=3D"js-quickedit-page-title page-title" style=3D"line-height: 1.4=
+; color: #000000; font-family: arial, helvetica, sans-serif; font-size: 1=
+4px; text-align: left; margin: 0 0 10px;" align=3D"left"><strong>Apply fo=
+r FREE Phase I SBIR/STTR Application Guidance</strong></p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">The NINR Small Business Program is accepting applications for=
+ the next group of Applicant Assistance Program (AAP) participants. The f=
+ree, 10.5-week program is designed to assist small businesses in preparin=
+g an SBIR or STTR application. <a href=3D"https://lnks.gd/l/eyJhbGciOiJIU=
+zI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxld=
+GluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaW5yLm5paC=
+5nb3YvbmV3c2FuZGluZm9ybWF0aW9uL25ld3NhbmRub3Rlcy9zYi1hYXA_dXRtX2NhbXBhaWd=
+uPW5ld3NhbmRub3RlcyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnki=
+fQ.-Ixbpe-DOwCyDOR7UpVeUOisN1UqmCg_aM6oTfEziaA/s/2601788375/br/1433389672=
+98-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #0000EE; text-de=
+coration: underline; -ms-word-break: break-all; word-break: break-word; -=
+webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Read More</a></=
+p>
+<p style=3D"line-height: 1.4; color: #000000; font-family: arial, helveti=
+ca, sans-serif; font-size: 14px; text-align: left; margin: 0 0 10px;" ali=
+gn=3D"left">=A0</p>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"main-content">
+<div class=3D"region region-content">
+<div class=3D"contextual-region block block-core block-local-tasks-block"=
+ id=3D"block-tabs">
+<div class=3D"contextual" data-contextual-id=3D"block:block=3Dtabs:langco=
+de=3Den" data-contextual-token=3D"2n4wKeF3_ct6p5Jwk7PeLHtAdnf_KfhmUjWUgrs=
+o8I4"></div>
+</div>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+ =20
+<tr>
+<td id=3D"footer-bg" data-govdstyle=3D"all" data-govdtitle=3D"Footer Back=
+ground" style=3D"background-color: #363636;" bgcolor=3D"#363636">
+<table class=3D"main-table" width=3D"100%" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse: collapse;">
+<tr>
+<td width=3D"65%" class=3D"tablecell" align=3D"left" valign=3D"top">
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"main-footer" width=3D"100%" data-govdstyle=3D"all" data-govdtit=
+le=3D"Main Footer" style=3D"padding: 15px;">
+<p class=3D"gd_p" style=3D"text-align: left; line-height: 1.4; color: #e5=
+e5e5; font-family: arial, helvetica, sans-serif; font-size: 13px; margin:=
+ 10px 0;" align=3D"left">To view or modify your subscription preferences,=
+ please visit the <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20=
+vYWNjb3VudHMvVVNOSUhOSU5SL3N1YnNjcmliZXIvbmV3In0.-dh7RY0krcHL6gx5DrqDAaWq=
+VZIE4u4vpp4M_AJr4RY/s/2601788375/br/143338967298-l" style=3D"color: #e5e5=
+e5; text-decoration: underline; -ms-word-break: break-all; word-break: br=
+eak-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">Subs=
+criber Preferences Page</a>.=A0If you no longer wish to receive updates f=
+rom NINR, unsubscribe <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.e=
+yJidWxsZXRpbl9saW5rX2lkIjoxMDksInF1ZXJ5X3BhcmFtcyI6WyJ2ZXJpZmljYXRpb24iLC=
+JkZXN0aW5hdGlvbiJdLCJ1cmkiOiJicDI6Y2xpY2siLCJidWxsZXRpbl9pZCI6IjIwMjIwODM=
+xLjYzMDM2NjgxIiwidXJsIjoiaHR0cHM6Ly9wdWJsaWMuZ292ZGVsaXZlcnkuY29tL2FjY291=
+bnRzL1VTTklITklOUi9zdWJzY3JpYmVyL29uZV9jbGlja191bnN1YnNjcmliZSJ9.VUDMwtup=
+Zl84hydLdoj9DQh2S51vdXyAKnr3IIIVouo/s/2601788375/br/143338967298-l?verifi=
+cation=3D5.3e68bc42fa27cf50d008a16357f2ce42&destination=3Dms60710444266%4=
+0yahoo.com" target=3D"_blank" rel=3D"noopener" style=3D"color: #e5e5e5; t=
+ext-decoration: underline; -ms-word-break: break-all; word-break: break-w=
+ord; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">here</a>.=
+</p>
+<p class=3D"gd_p" style=3D"text-align: left; line-height: 1.4; color: #e5=
+e5e5; font-family: arial, helvetica, sans-serif; font-size: 13px; margin:=
+ 10px 0;" align=3D"left">For questions or problems with your subscription=
+, please visit <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxs=
+ZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyM=
+jA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZX=
+J5LmNvbSJ9.-U5Nj5if8JjOvGZa4h8Cs5zh3qOWc8JNRAjdObO0g2c/s/2601788375/br/14=
+3338967298-l" target=3D"_blank" rel=3D"noopener" style=3D"color: #e5e5e5;=
+ text-decoration: underline; -ms-word-break: break-all; word-break: break=
+-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;">subscri=
+berhelp.govdelivery.com</a>.=A0This service is provided to you at no char=
+ge by <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNj=
+MwMzY2ODEiLCJ1cmwiOiJodHRwczovL3d3dy5uaW5yLm5paC5nb3YvP3V0bV9jYW1wYWlnbj1=
+uZXdzYW5kbm90ZXMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.=
+HEqfeXOFvaJcoxnniSHN3277m619HkjLOxAdEXNJKsg/s/2601788375/br/143338967298-=
+l" target=3D"_blank" rel=3D"noopener" style=3D"color: #e5e5e5; text-decor=
+ation: underline; -ms-word-break: break-all; word-break: break-word; -web=
+kit-hyphens: none; -moz-hyphens: none; hyphens: none;">The National Insti=
+tute of Nursing Research</a>.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"35%" class=3D"tablecell" align=3D"right" valign=3D"top">
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse;">
+<tr>
+<td id=3D"social" width=3D"100%" data-govdstyle=3D"all" data-govdtitle=3D=
+"Social" style=3D"padding: 15px 15px 0px 10px;">
+<a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2l=
+kIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2=
+ODEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL05JTlI_dXRtX2NhbXBhaWduPW5ld3Nhb=
+mRub3RlcyZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.VqoXMFW=
+A0_10tIDy5QsZdTB7Q_NkTtj1dGHTA7SBpaI/s/2601788375/br/143338967298-l" targ=
+et=3D"_blank" rel=3D"noopener noreferrer" style=3D"color: #0000EE; text-d=
+ecoration: underline; -ms-word-break: break-all; word-break: break-word; =
+-webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"><img class=3D"=
+govd_template_image" src=3D"https://content.govdelivery.com/attachments/f=
+ancy_images/USNIHNINR/2017/07/1470117/twitter-square_original.png" style=3D=
+"width: 42px; height: auto !important; max-height: auto !important; borde=
+r: none;" alt=3D"Twitter" width=3D"42" height=3D"32"></a><a href=3D"https=
+://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI=
+6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL05JTlJuZXdzP3V0bV9jYW1wYWlnbj1uZXdzY=
+W5kbm90ZXMmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWdvdmRlbGl2ZXJ5In0.JR9R5V=
+ByJNYyViODofL3JgVf6ZBHRm4VEKdzSNJWFPk/s/2601788375/br/143338967298-l" tar=
+get=3D"_blank" rel=3D"noopener noreferrer" style=3D"color: #0000EE; text-=
+decoration: underline; -ms-word-break: break-all; word-break: break-word;=
+ -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"><img class=3D=
+"govd_template_image" src=3D"https://content.govdelivery.com/attachments/=
+fancy_images/USNIHNINR/2017/07/1470120/youtube-square_original.png" style=
+=3D"width: 42px; height: auto !important; max-height: auto !important; bo=
+rder: none;" alt=3D"Youtube" width=3D"42" height=3D"32"></a><a href=3D"ht=
+tps://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVy=
+aSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiO=
+iJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvdXNuaWhuaW5yL3N1Yn=
+NjcmliZXIvbmV3In0.Se5W2ZwsU0q3EphxYvzQpm6vKFNoxVFQyNnq5hyd83o/s/260178837=
+5/br/143338967298-l" target=3D"_blank" rel=3D"noopener noreferrer" style=3D=
+"color: #0000EE; text-decoration: underline; -ms-word-break: break-all; w=
+ord-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens=
+: none;"><img class=3D"govd_template_image" src=3D"https://content.govdel=
+ivery.com/attachments/fancy_images/USNIHNINR/2017/07/1470127/mail-square_=
+original.png" style=3D"width: 42px; height: auto !important; max-height: =
+auto !important; border: none;" alt=3D"Sign up for updates" width=3D"42" =
+height=3D"32"></a>
+</td>
+</tr> =20
+<tr>
+<td id=3D"main-footer-2" width=3D"100%" data-govdstyle=3D"all" data-govdt=
+itle=3D"Main Footer 2" style=3D"padding: 0px 15px 15px;">
+<p class=3D"gd_p" style=3D"text-align: left; line-height: 1.4; color: #e5=
+e5e5; font-family: arial, helvetica, sans-serif; font-size: 13px; margin:=
+ 10px 0;" align=3D"left"><b>Our mailing address is:</b><br class=3D"shift=
+">31 Center Drive, Room 5B03<br class=3D"shift">Bethesda, MD 20892-2178</=
+p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr> =20
+
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+
+
+</div>
+<div id=3D"tagline">
+    <hr>
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"color: #757575; font-size: 10px; font-family: Arial;" width=3D=
+"89%">This email was sent to ms60710444266@yahoo.com using GovDelivery Co=
+mmunications Cloud, on behalf of: National Institute of Nursing Research =
+National Institutes of Health =B7 31 Center Drive, Room 5B10 =B7 Bethesda=
+, MD 20892-2178</td>
+<td align=3D"right" width=3D"11%"><a href=3D"https://lnks.gd/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTUsInVyaSI6ImJwMjpjbGljayIsImJ1bG=
+xldGluX2lkIjoiMjAyMjA4MzEuNjMwMzY2ODEiLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJ=
+oZWxwLmdyYW5pY3VzLmNvbS8_dXRtX2NhbXBhaWduPW5ld3NhbmRub3RlcyZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnkifQ.kGCeT8OVxhOP0qRqmlSmD_1ozY14As=
+mecGiP8ubqQrE/s/2601788375/br/143338967298-l" target=3D"_blank" rel=3D"no=
+opener"><img src=3D"https://content.govdelivery.com/images/govd-logo-dark=
+.png" border=3D"0" alt=3D"GovDelivery logo" width=3D"115"></a></td>
+</tr>
+</tbody>
+</table>
+<style type=3D"text/css">body .abe-column-block { min-height: 5px; } tabl=
+e.gd_combo_table img {margin-left:10px; margin-right:10px;} table.gd_comb=
+o_table div.govd_image_display img, table.gd_combo_table td.gd_combo_imag=
+e_cell img {margin-left:0px; margin-right:0px;}</style>
+
+</div>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xNDMzMzg5NjcyOTgtbCZzdWJzY3JpYmVyaWQ9MjYwMTc4ODM3NSZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA4MzEuNjMwMzY2ODEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwODMxLjYzMDM2NjgxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2OTAzNjY2JmVtYWlsaWQ9bXM2MDcxMDQ0NDI2NkB5YWhvby5jb20mdXNlcmlkPW1zNjA3MT=
+A0NDQyNjZAeWFob28uY29tJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_8B8_8480_1B452009.05E7C310--
+

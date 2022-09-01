@@ -1,0 +1,442 @@
+From - Sun Aug 28 22:42:55 2022
+X-Account-Key: account1
+X-UIDL: ALV4CuxLK2VOYsYJtAnbcOf2/gg
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.210
+ by atlas302.free.mail.bf1.yahoo.com with HTTPS; Wed, 6 Jul 2022 22:16:20 +0000
+Return-Path: <messages@public.govdelivery.com>
+X-Originating-Ip: [69.5.87.126]
+Received-SPF: pass (domain of public.govdelivery.com designates 69.5.87.126 as permitted sender)
+Authentication-Results: atlas302.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@public.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=public.govdelivery.com;
+ dmarc=unknown header.from=public.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 6 Jul 2022 22:16:20 +0000
+X-YMailAVSC: iUmNZeM3bBsKI6TCsJ.fKCpIued00u9Z9xYvwKnSEY9X9ZE
+ WMKmPxXQprmp.2LQEhhv1J_UroAi5_aYSAkqoqtaA7cAfPxjXUBFYSAyc8_4
+ zKr5McAsHivcO8RMrbCQkb37tkFmOXjjH6nduOOdOAxPoWyUisCqDKmbRCD4
+ TnpBYOuJwcLG5MginYhyhzQ0r7wejyfnnR1mRJjnVjs_Ev3tdP83VwlwGXDs
+ T9QpFvttM_u_7ZTGDbc1OIA3ON54-
+X-YMailISG: N93SUigWLDsWA4g.M5cTRB.WoDLjKis1Wozm6FGE39aRSAHD
+ RBBxdESzkOryX12s1zvEAxcDb7Lfg26Rh9wiR2j0L52bK5rqXMgLmihLbDF6
+ Y01qs_sRipxyRoqmN_k18JpymPXUcZUsOvL0EZRDSSUcfkPAz7DzZR5aDYrW
+ yl6PRmA.QxpHmfjvLseclpt8d7TE6eiFW7joMZcjUe45EuTkj73AQZfizXrn
+ jWMIWyflTpx7_9oa8IOkW2iK540FV.VG8qFzWGYAnBz3iIWZWMKEaE8U48wZ
+ ._b8SYSfg_ylWOS572aw_kitkBFnI5FPUZzRXTgcBy7QdQ4uiDz3vRnuNeUh
+ MxoQ7uDYc2RJ4ISlIbcCoOvSMKSj8QdqkNv_4kxw5g2cKJer2.nQPMLwGn7F
+ v_LQq4CIDr3BmKc0l78ulMkvHpsXUe3WDtwN4Ln0BtSOV5jz82x8BJksuvDt
+ uHjuMwa.G7Y5mhSwOMLzTm1rskBVyZeI.QmU2rrJgwIRcSlq3FwT1cxluNYd
+ BN87TUt0A7kDNT3Uml_m6_hRBueXicQq83n35qJvEc1Pf.kVgHkN2TazoAb2
+ DYc7qWTOaOX.ODLLgiGWP3RbFr5aB9hX8b5djet5uHDmRVXq1p.frBB26uY7
+ 1KNjd6TKgXghC.UNGrMnqig3qPbKGDXgNzScGLF7b7avUpxgpMDOdkRUb6oZ
+ W5pJq4ChBlKjN968VSPDdAcom2sWX69EAaPv5_xT56FYH62MzGOapxO_Hr03
+ kyyStAhNLIkUVMqk9uCr02.VI8EslGQyXzAsgMUK001nhjUUX_u8F56Agh9u
+ juGNeU_LvEothV9qKoWUmTqggcPF6TRwl4y5_Po_qnqnCWkCxwao.1Id3OXN
+ 22v66BKY6AnJERiNIwV9FRDjJ0KmmQXmoM8mNb9R9dV0O5mtCUI87eAEOvtP
+ ehBgNLooLt9EienRLEth6Uw6Vr5pTEUl7lBWci7H_asK5e6xJGO2CqqZSeZi
+ uuuq7UKans.squiNVwiFB0yIZzsBtSZ5S6Vbo96Ioz.tumdBaguNTRY3srLo
+ gRjxP8q25vabYGUpvRucWT5e4xLjzuI.5Uux9ROwpaPhIHebNO90D5EcQOUx
+ jd25dOGFmpjMvHyjsH4LsI.vWzBjefAIgdUzeGRBoSuvnVhqoYCLmXpA_4eN
+ WlxYqHcEPl7kRmFZoZvmZY01DQ--
+Received: from 69.5.87.126 (EHLO mailer087126.service.govdelivery.com)
+ by 10.197.40.210 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 06 Jul 2022 22:16:20 +0000
+Received: from gasdp-smeds4-2.systems.dc.gdi ([10.1.36.29])
+	by mailer087126.service.govdelivery.com (-); Wed, 06 Jul 2022 22:16:18 +0000
+X-VirtualServer: VSG002, mailer087126.service.govdelivery.com, 10.1.38.133
+X-VirtualServerGroup: VSG002
+X-MailingID: 16818602::20220706.60398831::1001::MDB-PRD-BUL-20220706.60398831::MS60710444266@YAHOO.COM::16318_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=public.govdelivery.com; s=13q2; i=@public.govdelivery.com; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=en+M
+	lk7C3nbsC4Yxq7H/XUNpB14s0QtrvSK7oA6OnX0=; b=SWXQLNzRy/KlhhC5Wke8
+	fqezH9CLmoKHxazgZa3gmvtvtmEb57YT0+9f6jSd3sYszgXps+xbVDzp7HOtUSsk
+	qeHpGZjvZV/KTwSDplZaHGIfZbRZHzx2S/AMT2bds5ncPMz5R+qteapZBbBlFfrf
+	CIMaAK47XurS47bbHhMMviLuQC+ymx3Hb4+EvUQkzoVymc0QFapznox03OHZsE1a
+	mQQFyILgX2AHagLXYqZrAxHAZSSlsUorNEnkv+IHH+B4jz8asx+2xsWlNmapUQow
+	38P2KnWH2mtwu2a52UqbUAqEErOXyJP2SmzC/86U27yjG54VI+7tIjq6oVHSWy3f
+	fg==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_153_FBDA_65C2FF9F.7D9F718A"
+x-subscriber: 3.PCYCak/cTYjD7lWvUHeA+Q39waWQ11UWKiXo429hOSHiTyvuW9gMEwG59uL67KSrvOs8sVPOIZPjhi+qsDneRg7MuJ2eXYk42WjqmhFiIVRITaaWvDVfko32gIz7Kd1afL3MSaU/TqixEVBzKmXXpcsEjyVTIlX8UWLMCZSH/+0=
+X-Accountcode: USDOJUSAO
+Errors-To: messages@public.govdelivery.com
+MIME-Version: 1.0
+Message-ID: <16818602.16318@public.govdelivery.com>
+X-ReportingKey: MJJJ2EWJK60CNJJ273ZJJJ::MS60710444266@YAHOO.COM::MS60710444266@YAHOO.COM
+Subject: =?US-ASCII?Q?U.S._Attorneys_News_News_Update?=
+Date: Wed, 06 Jul 2022 22:16:18 +0000
+To: MS60710444266@YAHOO.COM
+Reply-To: usattorneys@public.govdelivery.com
+From: "=?US-ASCII?Q?Offices_of_the_United_States_Attorneys?=" <usattorneys@public.govdelivery.com>
+Content-Length: 17933
+
+
+------=_NextPart_153_FBDA_65C2FF9F.7D9F718A
+Content-Type: text/plain;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+U.S. Department of Justice [ http://justice.gov ] *Offices of the United =
+States Attorneys*=20
+
+=A0
+You are subscribed to U.S. Attorneys News=A0news updates. This informatio=
+n has recently been updated, and is now available.
+
+=20
+
+Four Defendants Plead Guilty in $11.5 Million Fraud Case [ https://www.ju=
+stice.gov/usao-edar/pr/four-defendants-plead-guilty-115-million-fraud-cas=
+e ] 07/06/2022 12:00 AM EDT=20
+Four women, all sisters, have pleaded guilty to their involvement in defr=
+auding the U.S. Department of Agriculture out of over $11.5 million that =
+was intended to benefit farmers who had been discriminated against. Prepa=
+ring fraudulent returns results in conviction for tax servicers [ https:/=
+/www.justice.gov/usao-sdtx/pr/preparing-fraudulent-returns-results-convic=
+tion-tax-servicers ] 07/06/2022 12:00 AM EDT=20
+A tax preparer and her two daughters have admitted to conspiring to commi=
+t tax fraud over a four-year period Hamden Man Charged with Mailing Numer=
+ous Threatening Letters [ https://www.justice.gov/usao-ct/pr/hamden-man-c=
+harged-mailing-numerous-threatening-letters ] 07/06/2022 12:00 AM EDT=20
+KC Man Sentenced for Illegal Firearm [ https://www.justice.gov/usao-wdmo/=
+pr/kc-man-sentenced-illegal-firearm-1 ] 07/06/2022 12:00 AM EDT=20
+A Kansas City, Mo., man who was arrested when he fell asleep in another p=
+erson=92s car was sentenced in federal court today for illegally possessi=
+ng a firearm. U.S. Attorney=92s Office Joins Plaza Tower Tenants to Comba=
+t Elder Financial Abuse [ https://www.justice.gov/usao-edtx/pr/us-attorne=
+y-s-office-joins-plaza-tower-tenants-combat-elder-financial-abuse ] 07/06=
+/2022 12:00 AM EDT=20
+Kalispell woman sentenced to five years in prison for trafficking meth in=
+ Flathead Valley [ https://www.justice.gov/usao-mt/pr/kalispell-woman-sen=
+tenced-five-years-prison-trafficking-meth-flathead-valley ] 07/06/2022 12=
+:00 AM EDT=20
+Woman Indicted in Connection with Fatal Nicholas County Shooting [ https:=
+//www.justice.gov/usao-sdwv/pr/woman-indicted-connection-fatal-nicholas-c=
+ounty-shooting ] 07/06/2022 12:00 AM EDT=20
+Former Social Security Employee of West Sacramento Sentenced to 4 Years i=
+n Prison for Defrauding the Social Security Administration [ https://www.=
+justice.gov/usao-edca/pr/former-social-security-employee-west-sacramento-=
+sentenced-4-years-prison-defrauding ] 07/06/2022 12:00 AM EDT=20
+Grand Rapids Man Sentenced To 42 Months For Robbery [ https://www.justice=
+.gov/Usao-wdmi/pr/2022_0706_Sciamanna ] 07/06/2022 12:00 AM EDT=20
+January 2022 Robbery of Lake Michigan Credit Union body { font-size: 1em;=
+ font-family: Arial, Verdana, sans-serif; font-weight: normal; font-style=
+: normal; color: #333333; } _____________________________________________=
+___________________________
+
+You have received this e-mail because you have asked to be notified of ch=
+anges to the=A0Offices of the United States Attorneys [ https://www.justi=
+ce.gov/usao ]=A0website.=A0GovDelivery is providing this service on behal=
+f of the Executive Office for United States Attorneys, Department of Just=
+ice, 950 Pennsylvania Ave., NW =B7 Washington, DC 20530 =B7 202-514-2000 =
+and may not use your subscription information for any other purposes.=20
+
+Manage your Subscriptions [ https://public.govdelivery.com/accounts/USDOJ=
+USAO/subscriber/new?preferences=3Dtrue ]=A0|=A0Department of Justice Priv=
+acy Policy=A0 [ http://www.justice.gov/privacy-file.htm ]=A0|=A0GovDelive=
+ry Privacy Policy [ https://subscriberhelp.govdelivery.com/hc/en-us/artic=
+les/200355775-GovDelivery-Privacy-Policy ]
+
+Follow the Offices of the United States Attorneys on Twitter: @USAttorney=
+s [ https://twitter.com/usattorneys ]
+
+=A0=20
+
+=A0
+=0A
+------=_NextPart_153_FBDA_65C2FF9F.7D9F718A
+Content-Type: text/html;
+	charset="Cp1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">=
+
+<head>
+<title>    U.S. Attorneys News News Update
+</title>
+
+
+</head>
+<body style=3D"">
+
+      <table width=3D"700" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+        <tr>
+          <td>
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+  <div style=3D"background: #212121;"><a href=3D"https://lnks.gd/l/eyJhbG=
+ciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwOi8vanVzdGljZS5=
+nb3YifQ.yNIbCHKck43oXa_4kDH6kpk1zjGINTBa6suRssWc7U8/s/2591266043/br/13582=
+2207912-l"><img src=3D"http://content.govdelivery.com/attachments/fancy_i=
+mages/USDOJ/2012/05/88820/govdelivery-email-banner-453p_original.gif" bor=
+der=3D"0" alt=3D"U.S. Department of Justice" title=3D"U.S. Department of =
+Justice" width=3D"453" height=3D"110"></a></div>
+<div style=3D"background: #fff;"></div>
+<div align=3D"center" style=3D"background: #fff;"><font size=3D"3"><stron=
+g>Offices of the United States Attorneys</strong></font></div>
+  <table width=3D"100%" cellspacing=3D"8">
+<tbody>
+<tr>
+<td>
+<p>=A0<br><span>You are subscribed to U.S. Attorneys News=A0</span><span>=
+news updates</span><span>. This information has recently been updated, an=
+d is now available.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkYXIvcHIvZm91ci1kZWZlbmRhbnRzLXBsZWFkLWd1aWx0eS0xMTUtbWlsbGlvb=
+i1mcmF1ZC1jYXNlIn0.XPk4Nhue5tuQ222qbDoS48bQrNm0yJMPMxCqu-8ctts/s/25912660=
+43/br/135822207912-l">Four Defendants Plead Guilty in $11.5 Million Fraud=
+ Case</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">F=
+our women, all sisters, have pleaded guilty to their involvement in defra=
+uding the U.S. Department of Agriculture out of over $11.5 million that w=
+as intended to benefit farmers who had been discriminated against. </div>=
+
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXNkdHgvcHIvcHJlcGFyaW5nLWZyYXVkdWxlbnQtcmV0dXJucy1yZXN1bHRzLWNvb=
+nZpY3Rpb24tdGF4LXNlcnZpY2VycyJ9.dB46iLUblPocCOdNO9D1q2GUvzJtcBqN4JydO02fo=
+co/s/2591266043/br/135822207912-l">Preparing fraudulent returns results i=
+n conviction for tax servicers</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+ tax preparer and her two daughters have admitted to conspiring to commit=
+ tax fraud over a four-year period</div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWN0L3ByL2hhbWRlbi1tYW4tY2hhcmdlZC1tYWlsaW5nLW51bWVyb3VzLXRocmVhd=
+GVuaW5nLWxldHRlcnMifQ.-HPaDYwNsp95I0SiNIfuCthfOly77B5gZ6Ep2QX0bV4/s/25912=
+66043/br/135822207912-l">Hamden Man Charged with Mailing Numerous Threate=
+ning Letters</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXdkbW8vcHIva2MtbWFuLXNlbnRlbmNlZC1pbGxlZ2FsLWZpcmVhcm0tMSJ9.nu-C=
+DnELc4skaQb0H0vwkewbGtKwhINPgVx9LB_U-ak/s/2591266043/br/135822207912-l">K=
+C Man Sentenced for Illegal Firearm</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">A=
+ Kansas City, Mo., man who was arrested when he fell asleep in another pe=
+rson=92s car was sentenced in federal court today for illegally possessin=
+g a firearm.</div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkdHgvcHIvdXMtYXR0b3JuZXktcy1vZmZpY2Utam9pbnMtcGxhemEtdG93ZXItd=
+GVuYW50cy1jb21iYXQtZWxkZXItZmluYW5jaWFsLWFidXNlIn0.YboLoucD1oOqOiN-VrFX_4=
+GxC84eVE8LJqkrjccAsLk/s/2591266043/br/135822207912-l">U.S. Attorney=92s O=
+ffice Joins Plaza Tower Tenants to Combat Elder Financial Abuse</a></div>=
+
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLW10L3ByL2thbGlzcGVsbC13b21hbi1zZW50ZW5jZWQtZml2ZS15ZWFycy1wcmlzb=
+24tdHJhZmZpY2tpbmctbWV0aC1mbGF0aGVhZC12YWxsZXkifQ.dnaTiUw3gU-F3SxyhQQgbG2=
+5c8BOz1WHx6t6qDg7fmI/s/2591266043/br/135822207912-l">Kalispell woman sent=
+enced to five years in prison for trafficking meth in Flathead Valley</a>=
+</div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLXNkd3YvcHIvd29tYW4taW5kaWN0ZWQtY29ubmVjdGlvbi1mYXRhbC1uaWNob2xhc=
+y1jb3VudHktc2hvb3RpbmcifQ.blxuOXAhFwcRTA4krBCy658lSjMN9uQhIM3B3kAPV2o/s/2=
+591266043/br/135822207912-l">Woman Indicted in Connection with Fatal Nich=
+olas County Shooting</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di91c2FvLWVkY2EvcHIvZm9ybWVyLXNvY2lhbC1zZWN1cml0eS1lbXBsb3llZS13ZXN0LXNhY=
+3JhbWVudG8tc2VudGVuY2VkLTQteWVhcnMtcHJpc29uLWRlZnJhdWRpbmcifQ.Hh1bvpUlTv6=
+jj8C1Hlqt96eVSAkn3ez_y2oHc3YRzG4/s/2591266043/br/135822207912-l">Former S=
+ocial Security Employee of West Sacramento Sentenced to 4 Years in Prison=
+ for Defrauding the Social Security Administration</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;"><=
+/div>
+</div>
+<div class=3D"rss_item" style=3D"margin-bottom: 2em;">
+<div class=3D"rss_title" style=3D"font-weight: bold; font-size: 120%; mar=
+gin: 0 0 0.3em; padding: 0;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5qdXN0aWNlLmdv=
+di9Vc2FvLXdkbWkvcHIvMjAyMl8wNzA2X1NjaWFtYW5uYSJ9.8AbZs8F39Q4yLGncWJBPLbSr=
+0HIwws0oP44IdiUBvIo/s/2591266043/br/135822207912-l">Grand Rapids Man Sent=
+enced To 42 Months For Robbery</a></div>
+<div class=3D"rss_pub_date" style=3D"font-size: 90%; font-style: italic; =
+color: #666666; margin: 0 0 0.3em; padding: 0;">07/06/2022 12:00 AM EDT</=
+div>
+<br>
+<div class=3D"rss_description" style=3D"margin: 0 0 0.3em; padding: 0;">J=
+anuary 2022 Robbery of Lake Michigan Credit Union</div>
+</div>
+
+<style>body {
+font-size: 1em; font-family: Arial, Verdana, sans-serif; font-weight: nor=
+mal; font-style: normal; color: #333333;
+}
+</style>
+ =20
+
+
+<div id=3D"mail_footer">
+    <div style=3D"text-align: center; font-size: x-small; font-family: 'C=
+alibri','Arial','sans-serif'; color: #1f497d;"><hr></div>
+<div style=3D"text-align: left; color: gray; font-family: 'Times New Roma=
+n','serif';">You have received this e-mail because you have asked to be n=
+otified of changes to the<span>=A0</span><a href=3D"https://lnks.gd/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3d3dy5q=
+dXN0aWNlLmdvdi91c2FvIn0.j_4Gf-Rs4VxsT9b9X5JwHBH9w-4-Ri_BlRZGho9qpHw/s/259=
+1266043/br/135822207912-l"><span style=3D"color: gray;">Offices of the Un=
+ited States Attorneys</span></a>=A0website.=A0GovDelivery is providing th=
+is service on behalf of the Executive Office for United States Attorneys,=
+ Department of Justice, 950 Pennsylvania Ave., NW =B7 Washington, DC 2053=
+0 =B7 202-514-2000 and may not use your subscription information for any =
+other purposes.</div>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;"><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI=
+1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGl=
+uX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxp=
+dmVyeS5jb20vYWNjb3VudHMvVVNET0pVU0FPL3N1YnNjcmliZXIvbmV3P3ByZWZlcmVuY2VzP=
+XRydWUifQ.9AF0-qKqgmo8HLcdW_tB6mPDPr7v06zu5lGhAMJLqSE/s/2591266043/br/135=
+822207912-l"><span style=3D"color: gray;">Manage your Subscriptions</span=
+></a>=A0|<span>=A0</span><a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwOi8vd3d3Lmp1c3RpY2UuZ292L3By=
+aXZhY3ktZmlsZS5odG0ifQ.f6dPpYdWBEvaxbi039k7BA145og_tWIY_HWabCIhaFc/s/2591=
+266043/br/135822207912-l"><span style=3D"color: gray;">Department of Just=
+ice Privacy Policy<span>=A0</span></span></a>=A0|<span>=A0</span><a href=3D=
+"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA3MDYuNjAzOTg4MzEiLCJ1cm=
+wiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2ZXJ5LmNvbS9oYy9lbi11cy9hcnR=
+pY2xlcy8yMDAzNTU3NzUtR292RGVsaXZlcnktUHJpdmFjeS1Qb2xpY3kifQ.UsVqDUHtwchdi=
+Rf2P97YPEi4bkn-Qy2cW-1dVtGsspo/s/2591266043/br/135822207912-l"><span styl=
+e=3D"color: gray;">GovDelivery Privacy Policy</span></a></span></p>
+<p style=3D"text-align: center;"><span style=3D"font-family: 'Times New R=
+oman','serif'; color: gray;">Follow the Offices of the United States Atto=
+rneys on Twitter: <a href=3D"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxMTQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMjA3MDYuNjAzOTg4MzEiLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL3VzYXR0b3JuZXl=
+zIn0.NFGMxEZUK4S6gk3hKsmZmEY8sfsODUTgxrnNvxIONvk/s/2591266043/br/13582220=
+7912-l" target=3D"_blank" rel=3D"noopener">@USAttorneys</a></span></p>
+
+</div>
+<div id=3D"tagline">
+    <table style=3D"height: 1px; width: 1px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>=A0</td>
+</tr>
+</tbody>
+</table>
+<p>=A0</p>
+
+</div>
+          </td>
+        </tr>
+      </table>
+
+<IMG SRC=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW=
+5yZWNpcGllbnRpZD0xMzU4MjIyMDc5MTItbCZzdWJzY3JpYmVyaWQ9MjU5MTI2NjA0MyZtc2l=
+kPSZhdWlkPSZtYWlsaW5naWQ9MjAyMjA3MDYuNjAzOTg4MzEmbWVzc2FnZWlkPU1EQi1QUkQt=
+QlVMLTIwMjIwNzA2LjYwMzk4ODMxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsP=
+TE2ODE4NjAyJmVtYWlsaWQ9TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00mdXNlcmlkPU1TNjA3MT=
+A0NDQyNjZAWUFIT08uQ09NJnRhcmdldGlkPSZmbD0mbXZpZD0mZXh0cmE9JiYm" WIDTH=3D"=
+1" HEIGHT=3D"1" STYLE=3D"border-width:0; border-style:hidden;" ALT=3D""/>=
+</body>
+</html>
+=0A
+------=_NextPart_153_FBDA_65C2FF9F.7D9F718A--
+
