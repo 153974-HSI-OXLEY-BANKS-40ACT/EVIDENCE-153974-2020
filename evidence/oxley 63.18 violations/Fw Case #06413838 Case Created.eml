@@ -1,0 +1,313 @@
+From - Sun Aug 28 22:43:06 2022
+X-Account-Key: account1
+X-UIDL: ABYNfBQS7R5GYscW/AFrSDDnGXA
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.245
+ by atlas204.free.mail.ne1.yahoo.com with HTTPS; Thu, 7 Jul 2022 17:25:15 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.65.83]
+Received-SPF: pass (domain of yahoo.com designates 98.137.65.83 as permitted sender)
+Authentication-Results: atlas204.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 7 Jul 2022 17:25:15 +0000
+X-YMailISG: kwpBPwEWLDvrg9WRLuQ8r.vT3MHPKbCsFCQ.L4r6wESJ1KlN
+ 5HqGpWN9ulkxJvLJgBb5XWEm3kKQ9uKJ5tuAlr2GRWXRuwPSSIej7MNOz_yA
+ N_9GKHnjBr0Cw.S.aCZsrawaTWMx_DItYT_mF_UPM5dta2vFoYKam5ds9gyw
+ KiqEPoOoA.sqICcuaC9PV7xqyeXYmCLv77jE26lLNt5cvQkf3YaE4mVkAWsh
+ eLHhvLpT9XFbe38oYuHKqqzFV3FQffnAcXxwAR2WUYHp03H1j8SkCqLZU56v
+ 3qfwnmykTSipp8mLO4v4.piRt1SbR9513lu0EVMd7y43rv9GamS6RxL3XKcm
+ 5ECpshvnQY1rSryCuRh3UL.Z4lNKR7Dge4PNchNeuUwEqZbiZvZuO0EU2O1v
+ LjI0LC9iIkQp4etbriYp5TCb9OTPpe.cf3TVzhZ8HRV..oNTvJY65xof20k8
+ uKiG2_K_LxZU1Plc0R2RqlvJuJlfv24lIF6pOp5b9ruRarqKmOvuhXNbIs4g
+ EUUIRPdRliFajbNsIYakIGx_5y_5_hOJsyV6SSRh6qqpcz9mOYyTHeytB6QX
+ 2Qx4d5R57PB9kthtLEEpR5l1nQhup.hfl69m0mrqoDeIm32vsBI9XAG4fCFg
+ dvjGFGAcJ9se7.hJ6mkjVaIbPedT71sUjbSPGOw3ELsNY.1ty9tLQ.qAEm4S
+ g_g8c6B5wm1C8NThHjwcFxLThuHFFpkieuVgftcvtwHZxJsRf5VTRF.Pkes6
+ A5_AGFC3qcp9daO3faGrFJJ.XimgWpM3Uf5WULjAyN7V00RLKWDnAX8nq3Xb
+ 9nAk2nQPWzcXl7VUO5hrh1xNZeEKjslDaQCW4OYEQRkVrk1ppbMtTcL_wYzC
+ 7G5cUJnOdcZ6zyJ8M4Np0sy5SnmMVGieszmzRI.FHPTNixxxJWXlzB7J8oxL
+ KNzT.lDTZwU0QMRPn4GF5wONXL8aikYsIYHOJR.ihzA0mPyiiCKbhfmmS9gQ
+ DWtDlLBj6z4o7f.lmdW7IKgztzwuEAO_A0UoXD17BSO6GAsdVnHchZ5xy6Z_
+ Fw_QkN7_uFRELEJvjNAEoLARNfZqmjxUM3qr0_FwUOKN3NGnUjsFwKe7UXAd
+ tx3Y1tcglGOznzl3k5hc.FfEkO6rS_f6PU2nVJ_I.KQ.burNX1Ux29d5Q2x0
+ sp5NSKXpFQ--
+Received: from 98.137.65.83 (EHLO sonic313-20.consmr.mail.gq1.yahoo.com)
+ by 10.223.248.245 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 07 Jul 2022 17:25:15 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657214714; bh=aOaCpCsoRryKmojtL3/1djhftvp7gYRplSt2jkpxfno=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=FBEHHRc/Nq+6oYyvN9V6qGC80M6xK7vdZcaUlEYGRwZYCThMM/CzHPriz7A/Jn3Byqwe1rIPnxZJeT3yOZlzTDOOEmQPLIwIviNvnqiSRo8TCO3z87ARmA3EFOnFMjTgHFx4kROPSs9WyYq6fqAew6KNRa/BypW3xzmhm4QSv98SyDRDtv7RUS5zdXwsJCuC/qw9XOr8nVFJgY0zDtsX9Bqx1hqnRNZCjUrdnPezcqGa3sAOuJov4PK5hRzHcRie4j9AMp5lH2dPOn8ccjotwWU8RYVSoUbwlK3qB5TuhkoMQnUel6JB6jQwVk9E3gL8H5B+R9As+rVgZJXovBXvog==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657214714; bh=n5VIX2BpIA+BJLRJYVr+xfQnTVQ03zrgwbIGs+IBCb+=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=M/doyE1xxkIRslp5RGk1fWlvQjf0Y3S6INy2bFZ1rnZ5oBKCReMrtXJB/xFYqdsGZQ5wO+B02V3klRPcq0xATuPTGUcZzIAWfmpViyoxGDE589IUXikYLven8SnmCYqMJav+PYC/K4IDWwAuQh1fz8PVGboYTckyzp16IV2EZZvUPqVuj9M8XBhRIOZg2c29RciyI6GE9Yfow5mYqzx7AL8ZM5lHrMGD1gyXSDF74iw5Zv0g3RkUJdIGAUgDvWUbD+E7xR9L/lJelNpRou9e2v62rmKx8GRVjGS4TOBW0mhphZvzKQ7dkVmBeKVoM3BT6j8PjSK4gGQdwB43dR/J2Q==
+X-YMail-OSG: 7FGvvI8VM1lqgZprYC0QWboQKEDVeNExpmfXh8MjWeltOzYlN9jF1FB4g9g4keh
+ dl.mh9xPCTPqpREjDQppe7Yb_CNmRwKayzyy8GEdCrUxD36g4Q5xDUOYoQbBOTihsIUfMHGWWc1G
+ 1.3kvbr5GoQ6TppMEEkD.ox2zgNxUajCfNrHZaZORJfWQnkmN7vv3IB0E.SlG_iRkmZ0DdpuYxRU
+ 7r9jEL_xXq64n8ktCCy1b_JnxoZ7YCeXcZb2zYCky78TMjq3s4N_4W7lEkPMkaSGkxJlOQpvJi3K
+ YUMsLcFpreZe5hjKwqvgQhJbg81bhG9gi_lP1TSquFPYfT.MLBsTTMdQd081x4ouJ7vUShOZKG38
+ 0z.81OGHT9AvHFPIUa0FQ7sJYOD.jKni4dsdvKoRFQdchUVT8ehN2tW12UIv64AwATe79KaHKxmv
+ cGnw6rS3LVlRTmNq9tVMO0tuFw8t_U4t3_SkjmLD9wopGfPkci97oLh8BqKPgtvzIj1upt48oE1u
+ 7MpXVOnyw.7bOU7Zi.4cdss9jR3RzX5HyDAFI30xDNeATPXapnKn4cMoiKUKP1JHb3Ts6b6N2hlZ
+ ZjoPWO7N.jH0MGKd8q4ZV04sA3WpFCUw6FomxLcA2oBcxEBH0ONBhSNsp2LXwmQru.xd87qxwi1L
+ AyMxIeCOTpSF_LiF0oFfc3zjX2CxiPKm.K_I9R4mubbZHUqKAk4s.Xy3hmO5ICFJ6U0sK0Sm905R
+ XAbJQ01p_qzIpJC15KUdWX7E7U3vnJD58q6eAJkKk9KSS2To89p4_yzHukKRS5upy1AtrF7LsnBU
+ cEIjDbDCNs7bKIB60Dd6A0U7G.eT7uAh2nN3_2otEZ6zKzFJdkoX1ZePM63Mm.o2xaToGnBwmGiD
+ pBI9Fyvje90RoQ7tqp73qGe60OVzIPJZfjTnH7vYzkh7XPuql367oaPWfDIu9gJKPVaSIs8jtEEC
+ EtwXj_G7Dx13TPTx3W4l5.7_t10BPWMJ4lkfZTidzuayzoOLdp7_4b7hAPpmKUPDhplCBFlcd0Y6
+ 28OOmaTnalLQCWgUgJexaxeRmhejZyxzUVvTkDsQG_F5hWPkaNBi13urnLkgTuQrRKwdqJpksefH
+ gIf3ARzMD9lgX1UoFuDU.QD51CkF3BKdy2AS3Re8dAl6.0bqSZvO6qBmT_BiOuEQIKynrw8GCm3E
+ TQdDfFVPHfLlVXlyGOk1Gq3nsB.qUdbANY9MIQsYRF2_W3Pvdiu3inOh1SyOcWBp.1svyh5YOY_R
+ MumJwTbgJv1Fg1FeVd0u1GAEJnct6XrNxl.8qiJnynCjmMi6ZwVx_Az.EiSBst2rIgHt0uWn0AIo
+ ipBuwviI2waiD434p45zWhbcXpKcEYbs.J2gMQMe4bP29q_wRSPW9phOJPkLBsDCnIRZEmA.yqFz
+ Lcn7a0bw7YDlz0NLzmyvCRPgPddUrTpcL5YRT5kW_Ny5M30S_WaW7A_H6bKZ7UmC8YGdzCkySwUN
+ .zZre39KkeeVWczAVYOAy551HwS0ik6Jc6Nh375ARBkls6JfDFAPqpVJkS_C5fKWzm4BKFV0dRkM
+ I_vwbZg..jE1yz.5jnCvcqw5VeDD_OWbuJtTfJtopMDo__XJNJEB_hp2uAFxNBS8Rh1xv11GEF8j
+ 5T4iVVkk4VSi8JHKCnh89m6kItxwyr8r6mL._3dWc1bCWstf7PeWyKDtXVIbYjMyJwNjR3W.wr5x
+ QxW5OvADrH.A7vd2Fe_rSWQOtUiVtGHLIRQLPBtifQYvADcjrtYOKe6M6we6jAVa_fXO8xrseT6o
+ O66o9i2.OiillHrw9JsuULEuoi3Tlll25zyy6H4sQZz7S29W.l962CVdwk42crtgPQsbE56QrbAV
+ KKLn.NPDUouhDUDoBPQD.0pfamQg.GlJJjL9ldgv8J2mudthVyPPxfvJlVbHcx3QBTFqgAn0M1AP
+ 5a4Apk9ZcqU6THiRpDkcE2baZTPYgd88KpX7LGEFMSQXWugzFGjOsPvOBfeEStcURAsO89sSoa7W
+ o4jU6lH7vjZCU_oTefpHa8oosotdwxbJ6O8ow.EiTyDQVE_nbQYjTHYd..WZtViog4XHKeRESj_p
+ tsBrhXOvndBhVAX0p
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic313.consmr.mail.gq1.yahoo.com with HTTP; Thu, 7 Jul 2022 17:25:14 +0000
+Date: Thu, 7 Jul 2022 17:25:13 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <820050534.2059672.1657214713694@mail.yahoo.com>
+In-Reply-To: <Q2VsV000000000000000000000000000000000000000000000REDCX5006h4g4ZJNR7KjqBo3gVClyQ@sfdc.net>
+References: <Q2VsV000000000000000000000000000000000000000000000REDCX5006h4g4ZJNR7KjqBo3gVClyQ@sfdc.net>
+Subject: Fw: Case #06413838 Case Created
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2059671_2120005603.1657214713691"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 12511
+
+------=_Part_2059671_2120005603.1657214713691
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Granicus Customer Support" <support=
+@granicus.com> To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com> Cc:  Sent: F=
+ri, Jul 1, 2022 at 9:17 PM Subject: Case #06413838 Case Created  #yiv061091=
+9144 p{margin-top:0px;margin-bottom:0px;}
+|  |
+|  |
+|=20
+| Granicus Case Created
+Your case, #06413838, has been placed in our queue.=C2=A0 A Customer Suppor=
+t Representative will review your case and contact you to follow up as soon=
+ as possible.=C2=A0You can also view the current status of Granicus applica=
+tions and services by visiting=C2=A0status.granicus.com.
+For critical cases we recommend you call Customer Support at:=C2=A0800-314-=
+0147 or 0800 032 7764 (Europe)
+Customer Support Hours=C2=A0US Regular Hours 8:00 AM - 10:00 PM (ET) Monday=
+ - FridayUK Regular Hours 9:00 AM - 5:00 PM (GMT) Monday - FridayANZ Regula=
+r Hours=C2=A0 9:00 AM - 5:30 PM (AEDT) Monday - Friday
+Urgent After Hours Support is also available
+Please visit our Customer Portal at support.granicus.com to access training=
+ content and technical "how-to's" to ensure your success with our system.=
+=C2=A0=C2=A0
+If you have any questions about this Case or any other issue, please don't =
+hesitate to reply to this email or call us at 800-314-0147 or 0800 032 7764=
+ (Europe) .
+Thanks!
+
+Case Information:
+Case #: 06413838Case Status: NewCreated on: 7/2/2022
+Subject: You need help or notDescription: File(s) attached to case feed.
+
+Fwd: filed. All pro
+
+#BIN-CODES PAR-ID, IN THE DECK.
+ QUARTERLY & QUARTERED=E2=80=A6 like I told them in June, annexed. 8.75BLN.
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/27
+=20
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
+
+
+ #GOLIONS
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+
+#goCARDS
+
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490
+
+Sent from Yahoo Mail on Android
+
+ On Wed, Apr 20, 2022 at 1:44 AM, BO DINCER<bondstrt007@gmail.com> wrote: 8=
+52,029,489.38 on par at 10,164,850,238.82 last i checked.
+Is the greater LOSS to investors at the OMISSION and UNFAIR dealings of the=
+ registrant C.16 as the new entrants are also MISREPRESENTED earlier.
+
+=E2=80=9CMatrimonial=E2=80=9D tax records represent the underlying property=
+ values insured, indentured and OMITTED by the C.16 Brokers and enjoined a =
+larger body of risk to the OMISSION. Carries over to the NEW IMPROVED CIK 1=
+516523.
+
+So who is in charge to file into the web at the COMMISSION?
+TY--
+---------- Forwarded message ---------
+From: <6462563609@mms.att.net>
+Date: Wed, Apr 20, 2022, 1:21 AM
+Subject:
+To: <bondstrt007@gmail.com>
+
+
+=20
+| https://acrobat.adobe.com/link/track?uri=3Durn:aaid:scds:US:72b77ada-c493=
+-30b8-b2fe-f473dcf49de4 |
+
+
+
+
+Psst, it=E2=80=99s 2022.. you at least update the zipcode on the merger?? I=
+t=E2=80=99s called =E2=80=9CGross Negligence=E2=80=9D and a registered LOSS=
+ OF AN INVESTMENT ADVISER, in addition to the excess of $1,406,000,000.00 i=
+n US currency..
+=20
+
+
+/BD
+Case Thread ID: ref:_00D4618MW9._5004w2RTvi5:ref |
+
+ |
+|  |
+|  |
+|  |
+
+ =20
+
+------=_Part_2059671_2120005603.1657214713691
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; =
+margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fa=
+mily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message ----=
+-</div> <div><b>From:</b> "Granicus Customer Support" &lt;support@granicus.=
+com&gt;</div> <div><b>To:</b> "bo.dincer@yahoo.com" &lt;bo.dincer@yahoo.com=
+&gt;</div> <div style=3D"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> =
+Fri, Jul 1, 2022 at 9:17 PM</div> <div><b>Subject:</b> Case #06413838 Case =
+Created</div> </div>  <div id=3D"yiv0610919144"><style>#yiv0610919144 p{mar=
+gin-top:0px;margin-bottom:0px;}</style><div><center><table cellpadding=3D"0=
+" width=3D"500" cellspacing=3D"0" id=3D"yiv0610919144topTable" height=3D"45=
+0"><tbody><tr valign=3D"top"><td style=3D"background-color:#FFFFFF;vertical=
+-align:middle;min-height:60;text-align:left;"><img border=3D"0" id=3D"yiv06=
+10919144r1sp1" src=3D"https://support.granicus.com/servlet/servlet.ImageSer=
+ver?id=3D01546000000minY&amp;oid=3D00D460000018MW9"></td></tr><tr valign=3D=
+"top"><td style=3D"background-color:#EE0009;min-height:5;"></td></tr><tr va=
+lign=3D"top"><td height=3D"300" style=3D"background-color:#FFFFFF;color:#00=
+0000;font-size:12pt;font-family:arial;"><table border=3D"0" cellpadding=3D"=
+5" width=3D"550" cellspacing=3D"5" height=3D"400"><tbody><tr valign=3D"top"=
+ height=3D"400"><td style=3D"background-color:#FFFFFF;color:#000000;font-si=
+ze:12pt;font-family:arial;"><div style=3D"color:rgb(0, 0, 0);font-family:ar=
+ial;font-size:12pt;"><font style=3D"" size=3D"5" face=3D"Verdana, Helvetica=
+, sans-serif">Granicus Case Created</font></div><div style=3D"color:rgb(0, =
+0, 0);font-family:arial;font-size:12pt;"><span style=3D"font-family:Arial, =
+sans-serif;font-size:12pt;"><font color=3D"#ff0000"></font></span></div><di=
+v style=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt;"><font face=
+=3D"Arial, sans-serif" style=3D"font-size:12pt;"><br></font></div><div styl=
+e=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt;"><font face=3D"Ar=
+ial, sans-serif" style=3D"font-size:12pt;">Your case, #06413838, has been p=
+laced in our queue.&nbsp; A Customer Support Representative will review you=
+r case and contact you to follow up as soon as possible.&nbsp;</font><span =
+style=3D"font-size:12pt;font-family:Arial, sans-serif;">You can also view t=
+he current status of Granicus applications and services by visiting&nbsp;</=
+span><a href=3D"https://status.granicus.com/" style=3D"font-size:12pt;font-=
+family:Arial, sans-serif;" target=3D"_blank" rel=3D"noreferrer noopener">st=
+atus.granicus.com</a><span style=3D"font-size:12pt;font-family:Arial, sans-=
+serif;">.</span></div><div style=3D""><div style=3D"color:rgb(0, 0, 0);font=
+-family:arial;font-size:12pt;"><div style=3D""><font face=3D"Arial, sans-se=
+rif"><b><br></b></font></div><div style=3D""><span style=3D"font-family:Ari=
+al, sans-serif;font-size:12pt;">For critical cases we recommend you call Cu=
+stomer Support at:&nbsp;800-314-0147 or 0800 032 7764 (Europe)</span></div>=
+</div><div style=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt;"><=
+font face=3D"Arial, sans-serif"><br></font></div><div style=3D"color:rgb(0,=
+ 0, 0);font-family:arial;font-size:12pt;"><font face=3D"Arial, sans-serif">=
+Customer Support Hours&nbsp;</font></div><div style=3D"color:rgb(0, 0, 0);f=
+ont-family:arial;font-size:12pt;"><font face=3D"Arial, sans-serif">US Regul=
+ar Hours<span style=3D"white-space:pre;">=09</span>8:00 AM - 10:00 PM (ET)<=
+span style=3D"white-space:pre;">=09</span>Monday - Friday</font></div><div =
+style=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt;"><font face=
+=3D"Arial, sans-serif">UK Regular Hours<span style=3D"white-space:pre;">=09=
+</span>9:00 AM - 5:00 PM (GMT)<span style=3D"white-space:pre;">=09</span>Mo=
+nday - Friday</font></div><div style=3D""><font face=3D"Arial, sans-serif" =
+style=3D"">ANZ Regular Hours&nbsp; 9:00 AM - 5:30 PM (AEDT)<span style=3D"w=
+hite-space:pre;">=09</span>Monday - Friday</font></div><div style=3D"color:=
+rgb(0, 0, 0);font-family:arial;font-size:12pt;"><font face=3D"Arial, sans-s=
+erif"><br></font></div><div style=3D"color:rgb(0, 0, 0);font-family:arial;f=
+ont-size:12pt;"><font face=3D"Arial, sans-serif">Urgent After Hours Support=
+ is also available</font></div><div style=3D"color:rgb(0, 0, 0);font-family=
+:arial;font-size:12pt;"><font face=3D"Arial, sans-serif"><br></font></div><=
+div style=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt;"><font fa=
+ce=3D"Arial, sans-serif">Please visit our Customer Portal at support.granic=
+us.com to access training content and technical "how-to's" to ensure your s=
+uccess with our system.&nbsp;&nbsp;</font></div><div style=3D"color:rgb(0, =
+0, 0);font-family:arial;font-size:12pt;"><font face=3D"Arial, sans-serif"><=
+br></font></div><div style=3D"color:rgb(0, 0, 0);font-family:arial;font-siz=
+e:12pt;"><font face=3D"Arial, sans-serif">If you have any questions about t=
+his Case or any other issue, please don't hesitate to reply to this email o=
+r call us at 800-314-0147 or 0800 032 7764 (Europe) .</font></div><div styl=
+e=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt;"><font face=3D"Ar=
+ial, sans-serif"><br></font></div><div style=3D"color:rgb(0, 0, 0);font-fam=
+ily:arial;font-size:12pt;"><font face=3D"Arial, sans-serif">Thanks!</font><=
+/div></div><div style=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12p=
+t;"><font face=3D"Arial, sans-serif"><br></font></div><div style=3D"color:r=
+gb(0, 0, 0);font-family:arial;font-size:12pt;"><font face=3D"Arial, sans-se=
+rif"><br></font></div><div style=3D"color:rgb(0, 0, 0);font-family:arial;fo=
+nt-size:12pt;"><font face=3D"Arial, sans-serif"><b>Case Information:</b></f=
+ont></div><div style=3D"color:rgb(0, 0, 0);font-family:arial;font-size:12pt=
+;"><font face=3D"Arial, sans-serif"><br></font></div><div style=3D"color:rg=
+b(0, 0, 0);font-family:arial;font-size:12pt;"><font face=3D"Arial, sans-ser=
+if"><b>Case #:</b> 06413838</font></div><div style=3D"color:rgb(0, 0, 0);fo=
+nt-family:arial;font-size:12pt;"><font face=3D"Arial, sans-serif"><b>Case S=
+tatus:</b> New</font></div><div style=3D"color:rgb(0, 0, 0);font-family:ari=
+al;font-size:12pt;"><font face=3D"Arial, sans-serif"><b>Created on:</b> 7/2=
+/2022</font></div><div style=3D"color:rgb(0, 0, 0);font-family:arial;font-s=
+ize:12pt;"><font style=3D"" face=3D"Arial, sans-serif"><br></font><div styl=
+e=3D""><font face=3D"Arial, sans-serif"><b>Subject:</b> You need help or no=
+t</font></div><div style=3D""><font face=3D"Arial, sans-serif"><b>Descripti=
+on:</b> File(s) attached to case feed.
+<br>
+<br>Fwd: filed. All pro<br><br>#BIN-CODES PAR-ID, IN THE DECK.<br>         =
+   QUARTERLY &amp; QUARTERED=E2=80=A6 like I told them in June, annexed. 8.=
+75BLN.<br><br>https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull=
+/27<br> <br>https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7=
+<br><br><br>        #GOLIONS<br>https://github.com/BSCPGROUPHOLDINGSLLC/ELS=
+ER-AND-DICKER<br><br>#goCARDS<br><br>https://github.com/users/BSCPGROUPHOLD=
+INGSLLC/projects/1#column-18309490<br><br>Sent from Yahoo Mail on Android<b=
+r><br>  On Wed, Apr 20, 2022 at 1:44 AM, BO DINCER&lt;bondstrt007@gmail.com=
+&gt; wrote:  852,029,489.38 on par at 10,164,850,238.82  last i checked.<br=
+>Is the greater LOSS to investors at the OMISSION and UNFAIR dealings of th=
+e registrant C.16 as the new entrants are also MISREPRESENTED earlier.<br><=
+br>=E2=80=9CMatrimonial=E2=80=9D tax records represent the underlying prope=
+rty values insured, indentured and OMITTED by the C.16 Brokers and enjoined=
+ a larger body of risk to the OMISSION. Carries over to the NEW IMPROVED CI=
+K 1516523.<br><br>So who is in charge to file into the web at the COMMISSIO=
+N?<br>TY--<br>---------- Forwarded message ---------<br>From: &lt;646256360=
+9@mms.att.net&gt;<br>Date: Wed, Apr 20, 2022, 1:21 AM<br>Subject:<br>To: &l=
+t;bondstrt007@gmail.com&gt;<br><br><br> <br>|  https://acrobat.adobe.com/li=
+nk/track?uri=3Durn:aaid:scds:US:72b77ada-c493-30b8-b2fe-f473dcf49de4 |<br><=
+br><br><br><br>Psst, it=E2=80=99s 2022.. you at least update the zipcode on=
+ the merger?? It=E2=80=99s called =E2=80=9CGross Negligence=E2=80=9D and a =
+registered LOSS OF AN INVESTMENT ADVISER, in addition to the excess of $1,4=
+06,000,000.00 in US currency..<br> <br><br><br>/BD</font></div><div style=
+=3D""><font face=3D"Arial, sans-serif"><br></font></div><div style=3D""><fo=
+nt style=3D"" face=3D"Arial, sans-serif"><b style=3D"">Case Thread ID: </b>=
+ref:_00D4618MW9._5004w2RTvi5:ref</font></div></div></td></tr></tbody></tabl=
+e></td></tr><tr valign=3D"top"><td style=3D"background-color:#FFFFFF;min-he=
+ight:5;"></td></tr><tr valign=3D"top"><td style=3D"background-color:#FFFFFF=
+;vertical-align:middle;min-height:40;text-align:center;"></td></tr><tr vali=
+gn=3D"top"><td style=3D"background-color:#FFFFFF;min-height:5;"></td></tr><=
+/tbody></table></center></div></div> </div> </blockquote>
+------=_Part_2059671_2120005603.1657214713691--

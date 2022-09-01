@@ -1,0 +1,202 @@
+From - Sun Aug 28 22:53:30 2022
+X-Account-Key: account1
+X-UIDL: AEap1rM4CZPfYtsMgQSrULXKyr0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.17
+ by atlas114.free.mail.ne1.yahoo.com with HTTPS; Fri, 22 Jul 2022 20:45:52 +0000
+Return-Path: <boboschickenandpoker@gmail.com>
+X-Originating-Ip: [209.85.167.49]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.49 as permitted sender)
+Authentication-Results: atlas114.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 22 Jul 2022 20:45:53 +0000
+X-YMailISG: I63Um3gWLDvvLSLgUu.jXEnKZ_nJd1dAOPjdmqwpwfbGwTZx
+ VpN41TtnLXzy7JKuLlI0bZFlr0sgt9XDIaVBc.WyGfp8.dqHAbh9fQSwo4uC
+ UXpdPuYRN8intKPyeEiOGeZulqJRd6Y.F0iHvmyaY1D4zTvSgYBQ5dsZis._
+ 1O_fwfcP9W6k__ajMRsF5iynjzG3lustvu8bWzCgS3XjYLuOJdnAqexH7kKE
+ Xdwpw311BBwuegwPx1mJa5WQ9N4ntDibSnPvNDEgA26t8F6QcV_J3APYhZX2
+ KMiNbVhaHZndkxriuG3tja969yXObSb85Qnt0HJ36Zn.dlxmMqazufg_5sWM
+ TTyzAK5Ru1196OAgfMa18rBP.b6njVb1Dg0coDS0Nt10fbsyva1wrRYmgX77
+ ealGPMc_cwX4Xkh_igYtCOP.Vcnj7TMcsPvLPM9u9fuCLc7v..V9DYcS4Bzo
+ mY3hbqncZM8STJXLa5LSq4t1S4b5c_fYIbN2bEVsGNeyUxsYCsR16HFGqyjo
+ q5oRmkWk4JRs1Cy6FcKo2O69rmnB_LkGxj9AnxZiDebZsk6P.2Z00P8ppCiP
+ 6zEBH7bkl_LEfPasN6xrk_uSq6WgKMjPBfLewAjZsNWTHj9SZQuUmI2QpH56
+ oousRRanqOT60lBZGIQV2.IQIBm6300x45F0E3z.j72RucY7G1z5DK2GY9dy
+ BBd5_rA5t3kBDii8QkQq69YKi1ZiiKgyUCyy_2_6vbsMlNUXlxRDNEMOERiV
+ fX9bjN6Yc22VNj3Bobiw0gm2VpwSzRf1bhM955mUYjCsi3qo.i1dVKA2qHIB
+ 1ssD7l7JfgrSGRNYyhZcwoDycG61lLwjw7rQoJgcnF5EA6VQd4j1TssiHv.M
+ aWq2G6KiTB4l3xfRdhcuKGgrV52xBN3iJ0PweergUb3AE0VmlqXJx_QqUHUy
+ r4bcKEitpU90wKeJgUezH.yRkQrNm4nsO0PzgeuWiK1HUg07Qnyrpu4cBrCf
+ 6SXWnr8SjEtutlK9g37TsRzWFfLzMST36BqyxgHpJVIjSUi1mWXgXcYs9DjX
+ LdMIUlIUqYGtzct7sONFCq4LVTIo3iHNC561TsYotSLiAh4.2Jrqi_M5s0Y.
+ 24dmsUMhVl05zUO.2bVeRPzzBCSoxn3UFdYMGLLDdywG3kRVvIvEOIcImQX.
+ SCHO_LVyyTeUNL9d1a8yFDzQUOsv2GAHcwYoNoJuhz4VX0Vzk8G4ZbebPkP6
+ rRVc5hPSn0Wfy89CEZlX9NDSJfrqwfbQ5N1MH6DHLqgQCAOCrWiL3b_c2gZ3
+ Vr4z23tJAgLoZQVNm6ex9izYXRDd8LmPlvJGl.CH3cMzchSGgxQ0bjn6Cmd1
+ Nw--
+Received: from 209.85.167.49 (EHLO mail-lf1-f49.google.com)
+ by 10.217.130.17 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 22 Jul 2022 20:45:52 +0000
+Received: by mail-lf1-f49.google.com with SMTP id bp17so9480351lfb.3
+        for <ms60710444266@yahoo.com>; Fri, 22 Jul 2022 13:45:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=NlY4I1WqvI4CnhT/6I0Q85uCO0qdN0ELk2+cNpkUfno=;
+        b=OMSBt83fEIqvqHEppyeaNhZd7PNoZKBb9N4UYHYqH6vLhZqxHt2kLQSnVN5vbhIMkM
+         +I21qrxF9OFVOgZpu5ow+6P7V/xskZavGLWKxhwW1OKHhRRqRYDk62Ed/MzcDoaEv9k4
+         kpKWwpqc2JQITr5JrGot2p6vFu2/mJE2ojpHAjKqCtHkHqDiVrwx1yqL4UyGtZ4ag/AN
+         MY4C9ZlfgKAnqZba2LoK75hBPEe0GBLMbuRxw2hWJKjx087MjOHWAELTPJ73L/F+2G34
+         Eea9mK5jesCl62Mi8R/lwpub+fxc0tI11ultS97M84xJhS04ZIEV+SNRNYWWoOuvcIn9
+         0Jjg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=NlY4I1WqvI4CnhT/6I0Q85uCO0qdN0ELk2+cNpkUfno=;
+        b=3AVcAfd+b+dPrLQCBIW2vgkaX6qubz4sLNmNX8OLSkvIwwKXWXzhu0vK9QQqcUhJLC
+         5wuhBmAjv7mUkDKQ4t5p+knfdMpyDRAXCROzatEDxaoz34v7NHFyhridXmAa+Vfl5ULq
+         D5X3CNQzUt1XwxkhDD2xPG2gJP8tFi8MZ6Nje+2Wu3hkpj3AFnOngGhao+LwE1LoZuvK
+         RiftNINuKMXmnD73xF5ZX0B078aQ6dHy5FmVMnCnkUlOzzC/B8hqTz4d4E8LGPTJnTA3
+         McFzajuYR/6XKLBMEpCx8f9NLc5fVX64DbFt1LMWxCTsHyOZJZXr1HvkfMqxPfWuzYqB
+         blDg==
+X-Gm-Message-State: AJIora+SsRqRG/oO1cOM0vYYeaeUaQIkR/pfM55REUnpqHWmgoUwzBcP
+	kC9ut3oVUHelaVkARYE4rKuZTShPthhWrj/UGeo=
+X-Google-Smtp-Source: AGRyM1sX1OWtEfk1MuKSW5H9Tcsb4w2oxLe5UTYZH1RTUjmoQ3ndn6nedfY/9csRCsx/NWUTU0XmEJLGhyzsoR/9D1U=
+X-Received: by 2002:a05:6512:2284:b0:48a:7c35:2729 with SMTP id
+ f4-20020a056512228400b0048a7c352729mr671495lfu.397.1658522751482; Fri, 22 Jul
+ 2022 13:45:51 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAHFkkL2RqMw9K3u=_tq2Bm59xyDajukfDeYKjPzamVe4m+dHYw@mail.gmail.com>
+ <CAHFkkL1cyvuwwW0ipF5pZ4sdXo18VYLwE_i-Ay99iLLFH0dYug@mail.gmail.com>
+In-Reply-To: <CAHFkkL1cyvuwwW0ipF5pZ4sdXo18VYLwE_i-Ay99iLLFH0dYug@mail.gmail.com>
+From: B B <boboschickenandpoker@gmail.com>
+Date: Fri, 22 Jul 2022 16:45:39 -0400
+Message-ID: <CAHFkkL1d2rvqW=GcTdApvtEj_jBrWN2sU8+W38Ddutqm5ARAMw@mail.gmail.com>
+Subject: Fwd: Do you really want GOD in your life???
+To: js@gc.columbia.edu, Lee Bollinger <officeofthepresident@columbia.edu>, risc@ic.fbi.gov, 
+	st3251@columbia.edu, jrk3@cs.columbia.edu, 
+	James Brien Comey Jr <jbc2167@columbia.edu>, dcr2132@columbia.edu, 
+	BBO 121 <ms60710444266@yahoo.com>, Bo Dincer <bdincer66@icloud.com>, 
+	bdincer1738@bloomberg.net, bdincer1768@bloomberg.net, 
+	bdincer211@bloomberg.net, james.gorman@morganstanley.com
+Content-Type: multipart/alternative; boundary="000000000000743dd705e46aeb50"
+Content-Length: 5082
+
+--000000000000743dd705e46aeb50
+Content-Type: text/plain; charset="UTF-8"
+
+I have that letter of conduct, they didn't like that PROMT.
+
+AKA, promply.
+
+Are we clear on the word?
+- two options MF.
+
+---------- Forwarded message ---------
+From: B B <boboschickenandpoker@gmail.com>
+Date: Fri, Jul 22, 2022, 4:35 PM
+Subject: Do you really want GOD in your life???
+To: <espnfrontrow@espn.com>, <jrk3@columbia.edu>, Stephen O'Connell <
+sgo2107@adcu.columbia.edu>, <connect@jackierobinson.org>, Amber Griffiths <
+ag2943@adcu.columbia.edu>, Dean's Discipline - SCCS <
+conduct-admin@columbia.edu>, <letters@nypost.com>
+Cc: <info@statefarm.com>
+
+
+Hey ask Steve amd Amber:
+
+"DO YOU REALLY WANT GOD IN YOUR LIFE?"
+
+
+AND LET ME KNOW IF YOU ALSO GET CALLED INTO A DEANS HEARING FOR USING THAT
+ON ANY GIVEN SUNDAY....
+
+
+AS A SECURITY PROMPT FOR A CYBERSECURITY
+ "ASSIGNMENT"
+
+IN DR.KENDER'S FOLDER HERE.
+
+I have those emails in my phone.
+
+TEST ME on that BCC chain.
+
+I have a folder named Kender. For that notice as well was spelled In all
+CAPS.
+
+So they had a problem with that too.
+
+On Fri, Jul 22, 2022, 4:12 PM B B <boboschickenandpoker@gmail.com> wrote:
+
+>
+> https://open.spotify.com/track/7r0snlidQFaTbutnYxlIpq?si=P4aU0zoGRX-yIIO96rQAgA&utm_source=copy-link
+>
+>
+> Its too late. I listened to like 3 songs alreadyn...
+> - yes, summer leagues yes. Yestssss.
+>
+> I sent Miss Delacorte the inviting dm from the other line.
+>
+> Yestsstss.
+>
+
+--000000000000743dd705e46aeb50
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">I have that letter of conduct, they didn&#39;t like that =
+PROMT.<div dir=3D"auto"><br></div><div dir=3D"auto">AKA, promply.</div><div=
+ dir=3D"auto"><br></div><div dir=3D"auto">Are we clear on the word?</div><d=
+iv dir=3D"auto">- two options MF.</div></div><br><div class=3D"gmail_quote"=
+><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message -------=
+--<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">B B</strong> <s=
+pan dir=3D"auto">&lt;<a href=3D"mailto:boboschickenandpoker@gmail.com">bobo=
+schickenandpoker@gmail.com</a>&gt;</span><br>Date: Fri, Jul 22, 2022, 4:35 =
+PM<br>Subject: Do you really want GOD in your life???<br>To:  &lt;<a href=
+=3D"mailto:espnfrontrow@espn.com">espnfrontrow@espn.com</a>&gt;,  &lt;<a hr=
+ef=3D"mailto:jrk3@columbia.edu">jrk3@columbia.edu</a>&gt;, Stephen O&#39;Co=
+nnell &lt;<a href=3D"mailto:sgo2107@adcu.columbia.edu">sgo2107@adcu.columbi=
+a.edu</a>&gt;,  &lt;<a href=3D"mailto:connect@jackierobinson.org">connect@j=
+ackierobinson.org</a>&gt;, Amber Griffiths &lt;<a href=3D"mailto:ag2943@adc=
+u.columbia.edu">ag2943@adcu.columbia.edu</a>&gt;, Dean&#39;s Discipline - S=
+CCS &lt;<a href=3D"mailto:conduct-admin@columbia.edu">conduct-admin@columbi=
+a.edu</a>&gt;,  &lt;<a href=3D"mailto:letters@nypost.com">letters@nypost.co=
+m</a>&gt;<br>Cc:  &lt;<a href=3D"mailto:info@statefarm.com">info@statefarm.=
+com</a>&gt;<br></div><br><br><div dir=3D"auto">Hey ask Steve amd Amber:=C2=
+=A0<div dir=3D"auto"><br></div><div dir=3D"auto">&quot;DO YOU REALLY WANT G=
+OD IN YOUR LIFE?&quot;</div><div dir=3D"auto"><br></div><div dir=3D"auto"><=
+br></div><div dir=3D"auto">AND LET ME KNOW IF YOU ALSO GET CALLED INTO A DE=
+ANS HEARING FOR USING THAT ON ANY GIVEN SUNDAY....=C2=A0</div><div dir=3D"a=
+uto"><br></div><div dir=3D"auto"><br></div><div dir=3D"auto">AS A SECURITY =
+PROMPT FOR A CYBERSECURITY</div><div dir=3D"auto">=C2=A0&quot;ASSIGNMENT&qu=
+ot;=C2=A0</div><div dir=3D"auto"><br></div><div dir=3D"auto">IN DR.KENDER&#=
+39;S FOLDER HERE.</div><div dir=3D"auto"><br></div><div dir=3D"auto">I have=
+ those emails in my phone.</div><div dir=3D"auto"><br></div><div dir=3D"aut=
+o">TEST ME on that BCC chain.</div><div dir=3D"auto"><br></div><div dir=3D"=
+auto">I have a folder named Kender. For that notice as well was spelled In =
+all CAPS.</div><div dir=3D"auto"><br></div><div dir=3D"auto">So they had a =
+problem with that too.</div></div><br><div class=3D"gmail_quote"><div dir=
+=3D"ltr" class=3D"gmail_attr">On Fri, Jul 22, 2022, 4:12 PM B B &lt;<a href=
+=3D"mailto:boboschickenandpoker@gmail.com" target=3D"_blank" rel=3D"norefer=
+rer">boboschickenandpoker@gmail.com</a>&gt; wrote:<br></div><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pa=
+dding-left:1ex"><div dir=3D"auto"><a href=3D"https://open.spotify.com/track=
+/7r0snlidQFaTbutnYxlIpq?si=3DP4aU0zoGRX-yIIO96rQAgA&amp;utm_source=3Dcopy-l=
+ink" rel=3D"noreferrer noreferrer" target=3D"_blank">https://open.spotify.c=
+om/track/7r0snlidQFaTbutnYxlIpq?si=3DP4aU0zoGRX-yIIO96rQAgA&amp;utm_source=
+=3Dcopy-link</a><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div><di=
+v dir=3D"auto">Its too late. I listened to like 3 songs alreadyn...</div><d=
+iv dir=3D"auto">- yes, summer leagues yes. Yestssss.</div><div dir=3D"auto"=
+><br></div><div dir=3D"auto">I sent Miss Delacorte the inviting dm from the=
+ other line.</div><div dir=3D"auto"><br></div><div dir=3D"auto">Yestsstss.=
+=C2=A0</div></div>
+</blockquote></div>
+</div>
+
+--000000000000743dd705e46aeb50--

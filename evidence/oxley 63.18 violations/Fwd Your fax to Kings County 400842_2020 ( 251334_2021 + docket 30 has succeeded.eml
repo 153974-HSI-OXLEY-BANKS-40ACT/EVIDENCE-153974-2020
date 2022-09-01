@@ -1,0 +1,139 @@
+From - Sun Aug 28 22:41:53 2022
+X-Account-Key: account1
+X-UIDL: ACWwvaBuHiEvYsHMtAiDsI7ucqY
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.220.180.164
+ by atlas318.free.mail.ne1.yahoo.com with HTTPS; Sun, 3 Jul 2022 17:07:00 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.57.155.10]
+Received-SPF: pass (domain of icloud.com designates 17.57.155.10 as permitted sender)
+Authentication-Results: atlas318.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 3 Jul 2022 17:07:00 +0000
+X-YMailISG: kh_tjsYWLDtrcqW1wHliBHtvASlkWwFTfL0Nzy8Y28GJMKrY
+ 2Wg9ImqL3qAW0jjgQ8wkm8IEu5Vt2aghLk2jt9zhR9ajwx02xOrBT.JMCXNP
+ 8UNBiUH9eOfLF5uEFDMLNCWWs7FMt4yPtrty4yftzWALr9OcDGOSdA2HA5op
+ Pz4qVL2jAlT8R5.lynKHzZjqX3TZB3IIoQtaXPl.jepa34JX1Ps6HmYfTrE9
+ QEgwQc7SRgmaNohMgPtQQEfrPhriPP7uw9D5yeP76hUzQeO5jGLhyxOiaKup
+ zeBdvz83.FCOLZMZIHiaeGESCH4VaIjaRylj7_Enls1.x.DELm5omkMBL7Qv
+ T07SebQqaxgeagBcM.x6NxmSdJxrCXA3KG_5aowFVDG.6N29CeTFT5A_aaJe
+ 20Gg2mMKg2PKtkK2t8MAGHhbFL0lyBjXo0LV1PL7rFWcqxqkbrK9PaOEQVd1
+ AEqO2l.N8oAnDIgCiNzreg8lE.w3AZruZXwgsgBxfIexMq5z1NpD63W241nn
+ vteG6qvr5ceiQtr43N.96MYzWRvTIevtom.ZW3Z3ChvaBoh7.KwdvI18wOLm
+ o.Opp5Ll8LAKFtpbThsBVCipyBNspa9RmGznrtIyMGjJRFvNCN9dMOMcSwWo
+ BQx0p9q3kOYGZP6nzY_s479Se5k2.HKY5cgJQHqtFD8duHOK_NNIk1Z3SvGF
+ Q8mPRXrea21OMWl_kuwt5_oNrqtDTENLcaFtRFpX07tTjS7RPDroA55LaMnO
+ nycZrC6qUcK__FyA6vdus2kcRBq_NGEEacyoGdB9EqZmVlDTP2xsl4Gyt5mg
+ Y9c2I94gHgPwhqckWLlJJ5ZlY.IMmnUqaWeS5MdalAJnVJGtFniZzQfAhFts
+ 7.D_8LNQjrEonXJ1yXJN0Q4szufdyu5Excv87LOqejBnMhwlLCAMp.fQwOJL
+ Ue0Dci6Fa8BXqbi2sHFYWWLie4rvXvPWVcZ1lgn73Ha8CQp7HKjZibwn9m0w
+ dcqI.1T21Ild9_aGnpFdLaqGdd72oYqcSr2E_OwCaYT053Y8sqyYngy7ZOLP
+ rSqRNIO1EgVeBY8oeG9ZmNgGhpIP7SPJf0nZWNjB4mY3L9Em_Uv1uyYobwXo
+ fXs5uinQqe5GQyELEqyTR4TcWdnNMJTvBMfDEZONhw4pCIXh_CWLc7JpEpEO
+ uzTJ5C6mFU_CzsBP1AivuIIHxF7jx8D0DHJkTQeaqoqaZrKR3Q--
+Received: from 17.57.155.10 (EHLO qs51p00im-qukt01072101.me.com)
+ by 10.220.180.164 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 03 Jul 2022 17:07:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1656868019;
+	bh=mkzMgS0PdJi6gSTIj3yljD3fOnxXTCrMJJlLVAf23KU=;
+	h=Content-Type:From:Mime-Version:Subject:Date:To:Message-Id;
+	b=NKKiB6I2cmbfUvr/JLlGrkRqokWQVCwhfko3rfRiwED7AoWnQBoto2lE4OSOQRsFr
+	 vfdNkcWWti5wmYN2vaPvboj29NNVBM38ig+tQw/1Xyv1GNuUr8y5knutPgUqMY8bOJ
+	 57pKQZV8DGBVVrEFSpW1sB/2FsRwMM8vPcllWCuDNF84v+C+5Haj/SrIRq7nWnJzEg
+	 xHq393hc/9d34iuUspHdw3TgRA8nCPDfGOZbUuKZCRlV7hj1xINGLLmLIe+BSAPzBq
+	 RxsFENReJrwiwc+R0OIz8kfjjL5lQZqd6SMmF+FTf9iuNj1EDsWZGLMhbMZB52O5+v
+	 UFQ17IGfqwRyA==
+Received: from smtpclient.apple (qs51p00im-dlb-asmtp-mailmevip.me.com [17.57.155.28])
+	by qs51p00im-qukt01072101.me.com (Postfix) with ESMTPSA id 2C1684015A;
+	Sun,  3 Jul 2022 17:06:56 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-5AD6102D-FF49-48D9-BEE6-7EA9947F33FF
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: Your fax to Kings County 400842/2020 < 251334/2021 + docket 30 has succeeded
+Date: Sun, 3 Jul 2022 13:06:54 -0400
+References: <E1o6xps-000Q8c-AU@hostess.faxzero.com>
+Cc: Ricki Roer <ricki.roer@wilsonelser.com>,
+ "governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>,
+ Ashley Humphries <ashley.humphries@wilsonelser.com>,
+ usbep@service.govdelivery.com,
+ Urvashi Sinha <urvashi.sinha@wilsonelser.com>,
+ Shari Laskowitz <slaskowitz@ingramllp.com>, administration@mskyline.com,
+ administrator@makyline.com, Stephen O'Connell <sgo2107@adcu.columbia.edu>,
+ Jeffrey Sears <js@gc.columbia.edu>, Lee Bollinger <bollinger@columbia.edu>,
+ Lee Bollinger <officeofthepresident@columbia.edu>, legalASSt@mskyline.com,
+ legal@insider-inc.com, Joseph Frumin <jefrumin@legal-aid.org>,
+ espnfrontrow@espn.com
+To: BBO 121 <ms60710444266@yahoo.com>, usbep@service.govdelivery.com,
+ Ashley Humphries <ashley.humphries@wilsonelser.com>, hr@jonestrading.com,
+ HREmployeeServices@doc.nyc.gov, HRTeam-ITA-DL@barclayscorp.com,
+ 72pctdvo@nypd.org, 90pctdvo@nypd.org, 1pctdvo@nypd.org
+Message-Id: <289DF927-5683-4ADA-BC1D-413602F8729D@icloud.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: XYRtNYGF1GXbIr7Gm-zFyQmGkZNlrrSj
+X-Proofpoint-GUID: XYRtNYGF1GXbIr7Gm-zFyQmGkZNlrrSj
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.425,18.0.572,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-11=5F01:2022-01-11=5F01,2020-02-14=5F11,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 mlxscore=0 clxscore=1015 bulkscore=0
+ phishscore=0 malwarescore=0 suspectscore=0 mlxlogscore=999 adultscore=0
+ spamscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2207030081
+Content-Length: 2345
+
+
+--Apple-Mail-5AD6102D-FF49-48D9-BEE6-7EA9947F33FF
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Good luck with those court rooms, Zucker.=20
+
+> Be sure to follow up with the recipient to make sure that the fax is legib=
+le and is delivered to the right person in the office.
+> To view or print the status of your fax, click here.=20
+>=20
+> To: "50074. NYSCEF 153974/2020" <bdincer66@icloud.com>
+> Subject: Your fax to Kings County 400842/2020 < 251334/2021 + docket 30 ha=
+s succeeded
+>=20
+> Dear 50074. NYSCEF 153974/2020,
+>=20
+> Your fax to Kings County 400842/2020 < 251334/2021 + docket 30 at 21240191=
+46 has been sent successfully!
+> Successful delivery of your fax was confirmed at 1:20 PM Eastern Daylight T=
+ime on June 30th, 2022
+> Your fax included 1 page of coversheet with your text and 1 page of attach=
+ed documents.
+
+--Apple-Mail-5AD6102D-FF49-48D9-BEE6-7EA9947F33FF
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Good luck with those court rooms, Zucker.&n=
+bsp;<br><br><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr">Be s=
+ure to follow up with the recipient to make sure that the fax is legible and=
+ is delivered to the right person in the office.<br><a href=3D"https://faxze=
+ro.com/status/31341288/6520a914552b50b053584bc7e70e0cdd7d95edf1">To view or p=
+rint the status of your fax, click here</a>.&nbsp;</div></blockquote><div><b=
+lockquote type=3D"cite"><div dir=3D"ltr"><b><br></b></div><div dir=3D"ltr"><=
+b>To:</b>&nbsp;"50074. NYSCEF 153974/2020" &lt;bdincer66@icloud.com&gt;<br><=
+b>Subject:</b>&nbsp;<b>Your fax to Kings County 400842/2020 &lt; 251334/2021=
+ + docket 30 has succeeded</b><br><br></div></blockquote><blockquote type=3D=
+"cite"><div dir=3D"ltr">Dear 50074. NYSCEF 153974/2020,<br><br>Your fax to K=
+ings County 400842/2020 &lt; 251334/2021 + docket 30 at 2124019146 has been s=
+ent successfully!<br>Successful delivery of your fax was confirmed at 1:20 P=
+M Eastern Daylight Time on June 30th, 2022<br>Your fax included 1 page of co=
+versheet with your text and 1 page of attached documents.</div></blockquote>=
+</div></div></body></html>=
+
+--Apple-Mail-5AD6102D-FF49-48D9-BEE6-7EA9947F33FF--

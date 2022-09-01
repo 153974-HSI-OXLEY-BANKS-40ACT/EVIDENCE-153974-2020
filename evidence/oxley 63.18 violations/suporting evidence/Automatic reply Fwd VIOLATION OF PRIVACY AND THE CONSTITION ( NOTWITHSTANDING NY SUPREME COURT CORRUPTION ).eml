@@ -1,0 +1,187 @@
+From - Sun Aug 28 22:41:17 2022
+X-Account-Key: account1
+X-UIDL: ADHgb6VAoZxdYr4OAw5jmNgOt+g
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.131.17
+ by atlas120.free.mail.ne1.yahoo.com with HTTPS; Thu, 30 Jun 2022 20:56:35 +0000
+Return-Path: <>
+X-Originating-Ip: [52.100.162.210]
+Received-SPF: pass (domain of NAM04-MW2-obe.outbound.protection.outlook.com designates 52.100.162.210 as permitted sender)
+Authentication-Results: atlas120.free.mail.ne1.yahoo.com;
+ dkim=unknown;
+ spf=pass smtp.mailfrom=NAM04-MW2-obe.outbound.protection.outlook.com;
+ dmarc=unknown header.from=mtagservices.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 30 Jun 2022 20:56:35 +0000
+X-YMailAVSC: NnOGt4w3bBuqVFxTPKiCXCFBKcKO9i7qG6vmA.XyDFh30bi
+ nO.sEotXfHrnCYkLoqM4wx_PtfwOApJzyGrtf2FxkRYF_E.rdsyYIbazo46i
+ e1GyATdS2quY5lwY_BFT.L.J1eKPCSWcgvig9n3GkzXsRYjqrPxN47C.wyVR
+ OwdV.PSIWNhw2FZZ.vPyhXwJrLVsw_BYFOTD2J59ByI_nXHreQPVz7HopFSC
+ gmPU0AMfavAsACA4LeWAsVmhjZya8hg--
+X-YMailISG: ZU6.s7wWLDutJZy5JPRsup0H_ioncHpGdMDWpiYj40a_rcuL
+ zkJgfgDEu3X8Gk3eNWE2_7MTj54H2NjA6aYTbxv6EADLGruOBO3r0rPBPBt2
+ YLuWLcIsQgdenFcn4uX4buGt_xKfebW.B6.4Ta7q8ctcT871ezgpvat3DeED
+ Aj_NyYm.rMRfB7oAKO5PlP7m8l7niwJMA5Ce2bk00zNeLftdwxZOPnJg_pmS
+ .nKOFDg6Yj1JMzyqj29oMa3WODNUjl5uHkVjpgLSrSONk2YA2K5D.iiMl0.K
+ XkuLmDnmWUWZguXWYcZhbCJupjWWFq4OqA9_paJ7lY5XhkMzrUoAEIt7BSCi
+ jjgFP1PMZWAd_lNUk.PvqmrwQYSk1z32qQ8kg54BlpZs.QXUjVfsoJ.Zly.E
+ 9hYZW4b4aprCrxsUZz7MUCzY_J0h3XeSSXAW6aEgVKn5H22bdTdIrTDCB2qJ
+ fLUGcxtHeUkzWCIqaS0QHPruDbeTbXIpo9Os8hBO8IoVjgi9nykfZrMu0ywJ
+ frUR587tB6J74SFPeFf6DhGgZf7qAES1IUvxtrdv5d1yMLQIibghhi83I3RX
+ XJwc2eiPq78r37uEGkVwNbnOajxPrFEbBbMgIwJjntN1utmEyvpWlUy_hKqg
+ jxq5qmvRRlSScffkxWfkfbNVtzA2l.rf2CJl2Y6_lKlJh97OrUKefYvkwnUn
+ gpF4HOWd24MoICb2Fg6bEZZ6s2J9VyY9oEXyaewfxjU58meSMzJVBTcS49LR
+ fFW1Y2cYCVEPYM6fac4109b2sWG7K0nmtWrU.I7Gm_Dg3ni0K0On8s.KsXSw
+ mvqSY1kXDk2SmlrdZC54Mj_9jz6kf8.pp.5qes4xYl6cywH.q6KMTmPCqjzp
+ CCt3uQtt7Dtpsh5ujy3llho50dd11KJrZyGW9diKUzSIufPVVjZrqquqOHnQ
+ 4aA5WUjoMK8HqDBO94h7uFHBOvhfkPcSK4kYyyrP15UnXx5Zwvvn6VPFGUXR
+ Iy1LT1xehlOZBepJ259RIfhzjZNkVgb0X8Nm7D7VPq0RdTUsXFEgPs8RbZAR
+ 2rj.nL.NO_tgyTKA8CWFW7KFO_CqwVO4uIXivQm_fRUlYKgqsMDpi2WzmLub
+ gGcD01xG6eVPOjOIMXNlJcOid5XLzj2RVlLnMChm19mKZH98pKWTbP.5BS1P
+ a90EU_0Y5tjtKhaO8LeSl6fTkijBMzhXGFgYMqizHH0gxjn4NFN29A--
+Received: from 52.100.162.210 (EHLO NAM04-MW2-obe.outbound.protection.outlook.com)
+ by 10.217.131.17 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 30 Jun 2022 20:56:35 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=NmS3aRtNDwpsquFctaX5j5Sl2KcEj6Zhhh9xBzfB+ikYzS9cw3DmNgErFPzqSu+8WRFIjDvEaQYBTo4vaeVyP4lQSkJLXEfXh3XJlbHqq+o5bf4YMy2HU5k60DgPw25EIz9/R9S4zXbL3cH0V7ub/JapngU9za7lYr4RZBQyuFyYeh/GgiCS1tpBvBgwz1uZKiIb1OjZ499QZi7BeRcyC7jfc+BxIslahNfywUh8xCdE1VenjXwzGA7uVhkxPJoJVPmo0EDGy31WkpLJKFhtODETpSvdReJHIKcWEVeoF+YwIVZKq6Ws4Cd3W38cY/LX0vLddIk5pgCVjpPJ7E1QbQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=m393mZeDbawGB+lckHkZvFuAsnCNCzsLYfJ28GE9TIU=;
+ b=G/NfFXOJmN+499I7VjGY5U0cdZfW11JmU97+H3DYa7BV8zRfNig9kBwFVsToBawaD76P3S5RlKMt8CxAN1xKo5bbMVOQqk4o54aOuy4Uiuj57wSXJVTrGMflkJlQFZSTsqmOxk0TI9972wOssGqrOnkOvjh/PByh7eMAEAcu/PKK5BxJFvL7q6AZ3M7bX1UmcFGVb88sL1h0vJYrqD1DIc6FE1foxQZa7soaxbKLim7o3rdV9dQ2roJOUWf5zrf83qXTjb8RwP+iy/kSBO3WuOa9yS99S94lpovCdzy1DxWoM1P8jIKLUsMendIpG3ryQFxSeDlviuAmEjbw/QqS3g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=pass
+ action=none header.from=mtagservices.com; dkim=pass
+ header.d=mtagservices.com; arc=none
+Received: from CO3PR22MB3343.namprd22.prod.outlook.com (2603:10b6:303:174::22)
+ by DM5PR22MB0283.namprd22.prod.outlook.com (2603:10b6:3:a8::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5373.18; Thu, 30 Jun
+ 2022 20:56:32 +0000
+Received: from CO3PR22MB3343.namprd22.prod.outlook.com ([::1]) by
+ CO3PR22MB3343.namprd22.prod.outlook.com ([fe80::5923:8265:d942:a60d%8]) with
+ Microsoft SMTP Server id 15.20.5395.015; Thu, 30 Jun 2022 20:56:32 +0000
+From: Allison Siegel <asiegel@mtagservices.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Automatic reply: Fwd: VIOLATION OF PRIVACY AND THE CONSTITION (
+ NOTWITHSTANDING NY SUPREME COURT CORRUPTION )
+Thread-Topic: Fwd: VIOLATION OF PRIVACY AND THE CONSTITION ( NOTWITHSTANDING
+ NY SUPREME COURT CORRUPTION )
+Thread-Index: AQHYjMPgP1rp9N1/qEGE/b2Dg9arVa1objpm
+Date: Thu, 30 Jun 2022 20:56:32 +0000
+Message-ID:
+ <89423e3698ac46a9ae9d866fed997914@CO3PR22MB3343.namprd22.prod.outlook.com>
+References: <b72f0792-1762-12fa-2129-2598c1d0a9e5@yahoo.com>
+ <122d5fb1-51bb-e699-30ba-7701f95c0bd7@yahoo.com>
+In-Reply-To: <122d5fb1-51bb-e699-30ba-7701f95c0bd7@yahoo.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: asiegel@mtagservices.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <122d5fb1-51bb-e699-30ba-7701f95c0bd7@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: dd569ec8-ed15-40a2-2866-08da5adb0381
+x-ms-traffictypediagnostic: DM5PR22MB0283:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ iBD8wvxijTgVzfV+cc+t3vSYsbTsssWlJfp56ExAHrzJuuY251xU733Yj7BMGZm4rQW/S5FWKVGPqUIXEU3INBma3FGZyL4Q+Cz8Isd5WFGjKJjKNH0z9NQUCo5RSfzsKkQq48B+lGfo9PrQb+ADf5d3RFi2cXJQ+g1BbrNWwXe9uc2saMepcELDyrkqzERH67d7RomiVHzsTUyhATGRaFnhsMHsyCGtTcUifKNxp8SfzgyCJkc63SKNY4jJzPOi9QcRRy4BgJr7QNX/S/IHq83ek1pt9cKZdZp0OFvJS25q3M86LRkAuvWkp1w6kk8X/pr8q1Ry0nfb5pJdmC/rJ3ZenYOssTfpEHvdWW74zTk4lNR4tGXHduguifxlA54hk4ZIY8ylH7Q6cOfC1onRHVGtW4YRbeKeQ7xuXu3mqwkYCfWpreqg21WjxEpRjvlC+PM1QJRqrJFznhrFMHqqDnjgh5GoKGW9f/F/4RnUiTjjWFb4+RaYFX4zTblJ+DclMFFW9GNshfSUbhkUEK/9xOL/wlJ0KNMI5sSKmpKtYkWrvobUZyt3IK6OWfgmyGmzHBDqI7aOs5NV3GvxSBzrRMXxU5rry8G54aTOqkWce7J1jZ3joAeKrl+fYrXyUT4KsOYn6pFurKRLruYOWPboQENc6hSvEYC6m3Lejo/s9lvmxuuJvL2CWbJa6s1XLNRNLKPkM8p1xX6jZxceMFKQoxsZXK5vGqcKaESBlGky1qY=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO3PR22MB3343.namprd22.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(50650200002)(39840400004)(376002)(346002)(366004)(136003)(396003)(42882007)(6506007)(6916009)(108616005)(4744005)(78352004)(83380400001)(9686003)(24736004)(41300700001)(7696005)(71200400001)(8676002)(8936002)(5660300002)(40140700001)(498600001)(316002)(88996005)(66946007)(64756008)(66446008)(2906002)(55016003)(66476007)(66556008)(122000001)(111220200005)(80100003);DIR:OUT;SFP:1501;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ bjftSZVcp6LYnx/5zyYD4nyrtupnLwe/1zj6XEYoGb7AbHNoyrmmrJ8THpiXzzOVnS4bamDeGHhHrIXibkSgGxgyhLchazwW/P87ppZdVD8ETad+YtjI49Ujy5E5g7+pVV6wyMC2QCkjSWPMhQ8QDw5CFyiFcHVepcwD1OlxMujR+jGR0ahVokFLbWsjON2MsB/kTYuajnZGDKdzb6go8OZhogG7SqQfc4Mh5ZPj2CcKnFFYTF1NWNsqLuAnA3YRG7FMauVT5UD8aDYzfQGJqmWNpQUTjIkkuFhgfux82VEhNbZMgN0oyvyo1cFnKPWe
+Content-Type: multipart/alternative;
+	boundary="_000_89423e3698ac46a9ae9d866fed997914CO3PR22MB3343namprd22pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: mtagservices.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO3PR22MB3343.namprd22.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: dd569ec8-ed15-40a2-2866-08da5adb0381
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Jun 2022 20:56:32.9480
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 3be980f6-1118-465e-a88c-24cf8571cf5e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM5PR22MB0283
+Content-Length: 3100
+
+--_000_89423e3698ac46a9ae9d866fed997914CO3PR22MB3343namprd22pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I am out of the office with no access to email, returning Wednesday, July 6=
+th, 2022. If you have an immediate concern please call 800-750-9210.
+The information contained in this message may be privileged, confidential a=
+nd protected from disclosure. If the reader of this message is not the inte=
+nded recipient, or an employee or agent responsible for delivering this mes=
+sage to the intended recipient, you are hereby notified that any disseminat=
+ion, distribution or copying of this communication is strictly prohibited. =
+If you have received this communication in error, please notify your repres=
+entative immediately and delete this message from your computer. Thank you.
+
+--_000_89423e3698ac46a9ae9d866fed997914CO3PR22MB3343namprd22pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none">I am out of the office=
+ with no access to email, returning Wednesday, July 6th, 2022. If you have =
+an immediate concern please call 800-750-9210.<span style=3D"font-size:8.5p=
+t;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</div>
+The information contained in this message may be privileged, confidential a=
+nd protected from disclosure. If the reader of this message is not the inte=
+nded recipient, or an employee or agent responsible for delivering this mes=
+sage to the intended recipient,
+ you are hereby notified that any dissemination, distribution or copying of=
+ this communication is strictly prohibited. If you have received this commu=
+nication in error, please notify your representative immediately and delete=
+ this message from your computer.
+ Thank you.
+</body>
+</html>
+
+--_000_89423e3698ac46a9ae9d866fed997914CO3PR22MB3343namprd22pr_--

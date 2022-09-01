@@ -1,0 +1,274 @@
+From - Sun Aug 28 22:44:02 2022
+X-Account-Key: account1
+X-UIDL: AB+GN7gXw3lfYsjO2w4F2O+ttR0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.34.75
+ by atlas219.free.mail.bf1.yahoo.com with HTTPS; Sat, 9 Jul 2022 00:42:03 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.42]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.42 as permitted sender)
+Authentication-Results: atlas219.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 00:42:03 +0000
+X-YMailAVSC: kP8EWVU3bBtr4XZZ7XfPoavr.htsKsNGNgeucVVV1Kod0AQ
+ 9__2rklE23ATRvJrse6Cu7KZ0biJ_a88YQuChYWZzuhzwkaG04A9mSDL4r1v
+ OGyajMkE60.q3gO6J0TNxj3Vm0BtYrTcsEi0AurczwGjn6D_sIA0AtxC1MTl
+ _yd8I7gFvD.W9vdtjwUEKoINhQFTGMOLPOguD_8Glih4nSJrkbbZ71w1z8p3
+ WzSLfF6NCmq4ISDBzttS820MFQvsrfg.6FaYX7lsabtilEn9NBLscOsaskJm
+ FkXMnCLSlAWLBeug3nWlJrvyQZ8_SrAuAnL5cBArdhTakB7udZdcVmi..z5l
+ tortexJHb3pfnoC.hB5u.mK307etvXFCRH6AfN3sPzbfj4euKKFUVew--
+X-YMailISG: 5OQ8u0MWLDuddPSSDDusS3qOcWQlLaCoZACWijeyf.Wiu5lA
+ bzbIIf3MzCyJyAXP32S2gbEBSXD0ggSppu4.WFe3EelPg_0SXKg2IxUE_mdT
+ 122x4.psLVRJgBfK3VXh0n3J5S8F8sNNBv70UFrkOHMCAX4_gjAzkINhjM3M
+ zKI71k23_1joDU5.uZPoTYftzBMHM_S0.2bjfBwt_94UmFO3Or1qCxbl.3Da
+ c.CN3pj4ozVwAPph9NCk2u1ADBkw0cOUS30OU4TDAEKBURlMJFiyf6ueMS6a
+ 4otrihUkT70BFwcHhYwRRKKiQ20A_2rx7kDnzZDHbMlDGlfbEk327qMT5KTn
+ eiCE9r8B8FqfpOMHbN8o1TgMGmmYFR2dWu059okOn6bRTZZnw74XOhDphWLL
+ jYulwUMiH2_FE4i6QsprLSt0KQSiFHEizZrst6iOMaj033YiRl.1kg4Gu9nV
+ .0Eq3SZYDwatp05T4Oeq891hAGUKud_U27HMm4V.gA_w0jUdlPQKuQlQNdZB
+ 8G3ixB0p0.UvbzZrA3jHn7HlNd6dRASp5gxzQc7txW39JDLLXfHcyZ0KDcPp
+ yYyF8KipPzQNCBV3EtiDRzjBguD1H6a9JYM1C8Q3qliGJhaOjAc0r35CL6QZ
+ pVlKBctcnEwwlzawxmMBkbjYoTvGIv5tW7JGD2tBk_x4yGHiss0JIxutcrsG
+ C3ILRsL6ckktla44JIj157NWp.oNc67sq_EQPvyTMA_wlCT0q1_hLNokFkcl
+ cnBSdElxjV.GqvuyC2D7HHQpk8WwMKtzXDNu0upB7LepVo5mcQs.a4ulpS0Q
+ T2KSXsw1dmv5sDgNwg9dEg1yk9D_OFfxGT6A7jDax38tUoL8Tw6R4ok2R2WO
+ pCqc9riy9SPARGDS7goD3l9zoc3rr1t3..OXn2Tqfv7kl_fWEcF9TGBWSBdV
+ FNTFvGvYmw5uQhEWb3bo_Rhb65iDAWejWuvBrBroLNwDHxsxLDC7DEZoN2aw
+ xKXE6DoGNbeHcmP3xIY.is9B7EIM7IUyTPx0PLDS8QLpqlbKX8RxzHxIzKUV
+ Qx7QjWAIrfltQVAtLX.ebaMVNFrv5XsWP.U5vKhxfGEDVJ91m0B_mrmELemw
+ nHA2n2NGluHs4PC5z60Vk2qQjfiGPOGE_9ETjQRrgZ2SawZQ3TOBPC.l8vgS
+ 0GNo3qgjl.y.wLZQvaaokEtZjAW..rxktvujOd3ufqtAPEttKnw-
+Received: from 209.85.166.42 (EHLO mail-io1-f42.google.com)
+ by 10.197.34.75 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 00:42:03 +0000
+Received: by mail-io1-f42.google.com with SMTP id u20so425135iob.8
+        for <ms60710444266@yahoo.com>; Fri, 08 Jul 2022 17:42:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=WWLpxifRE49EgL+Vyf69ZpJWG2NwSgG9YL6nNT11Pv4=;
+        b=m8LQ0nY/LYpe8RAzzuvjju54AGW7r5F5r5RyGNm/52P/A4rBqCn9AUJklfK2BSDCVM
+         mr/6JnoeAXLdw74FeOrRkbEIZNtiYdwRIGoJbCO2JU3SZncBvDNl0BV//wizcVK7U1aF
+         yP3nYo0AM/lP5rJPMvI9ZKz6bFhM6Uso7VK7z8leKUXSThnxjH3pjkEhNwyXgcNYbH0r
+         gFb0TeegQma/3a0jVT+hV+AmPDuvPq+oHElqJdCWr8pnGqudNwgT3TV0FxnrHZNZleJ5
+         mmRLyN3BO+u+UPIo7V77TZNV3WmQJjCjcS2sNSUjJaXQ9tliUrhKFBTlaF8p08wYXO0+
+         dsig==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=WWLpxifRE49EgL+Vyf69ZpJWG2NwSgG9YL6nNT11Pv4=;
+        b=dV8/T3jRdL2rjztyd49pEWJX1/JE+RbC+hCkBJCzbLbXICDm0nfeWbGIWL8t3zDmAZ
+         w3pADmVbemcJ1f9cu82EFTaB1jU+Re19Ocredcnd1u6Z4zSh1CNWuR5XkfcfBqoS5rLc
+         y2Ll7MyuuLr24P/REwgsSb8AXWTH+s+GY6cAmqZkRPWCNC34ncm8JjFoBB/Dhy3eRj9w
+         PrSsr02tpaN/DnblGhvPRxUTQ3CDQnqu0PpFFu0JL52rTioZphTm1PwXkI4xVFbbcDEv
+         2VTjqq8FLbXvHWSd55VAMno0J3etXbu6S8AYXcTwGqxW9/Pre4gCJaGryr9v6v4TPo1F
+         gZnw==
+X-Gm-Message-State: AJIora/6OR8xAcf8D0xSRMaRNlZusPj/PDJEHRpv/ett7ueGEj85xibB
+	VjyX20YCBruKmkgxHt9bLDsZNdlAf5bO8k4T3wI=
+X-Google-Smtp-Source: AGRyM1sV4KL/fZIIvhzxEd3OWmsusSi5ZwdJ65SuLK8wr8f7YhXNqr3iN50x/SSEq/tbg9pNCGa3ZRHb6AJV0X5ZnJA=
+X-Received: by 2002:a6b:7f4d:0:b0:675:421:af03 with SMTP id
+ m13-20020a6b7f4d000000b006750421af03mr3344206ioq.122.1657327323057; Fri, 08
+ Jul 2022 17:42:03 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOHu488BZ+ibDhmEwzM=4=9wL+UhH0S8bYTnidTsuoeYGjgTrw@mail.gmail.com>
+ <CAOHu48-VXmSeQk9ZK6tbn2ZAHGyHKS6Qk5WNLkkRK8yBzs2QVg@mail.gmail.com>
+In-Reply-To: <CAOHu48-VXmSeQk9ZK6tbn2ZAHGyHKS6Qk5WNLkkRK8yBzs2QVg@mail.gmail.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Fri, 8 Jul 2022 20:41:53 -0400
+Message-ID: <CAOHu48-OvmN75aRyf3_tjc+PQQXZJ1peSF_R3rrDV4ggstX0ow@mail.gmail.com>
+Subject: Re: 400842_2020 thru 251334 _2021 [ firm down ]
+To: bop-ipp-publicaffairs@bop.gov, BOP-RSD-PREACOORDINATOR@bop.gov, 
+	=?UTF-8?Q?Steve_O=E2=80=99Connell?= <sgo2107@columbia.edu>, 
+	"Laskowitz, Shari" <slaskowitz@ingramllp.com>, LZUCKER@mskyline.com, 
+	"Humphries, Ashley V." <ashley.humphries@wilsonelser.com>, Amber Griffiths <ag2943@columbia.edu>, 
+	Amber Griffiths <ag2943@adcu.columbia.edu>, "Stephen O'Connell" <sgo2107@adcu.columbia.edu>, 
+	"Dean's Discipline - SCCS" <conduct-admin@columbia.edu>, elizabeth.scoditti@wilsonelser.com, 
+	SLASKOWITZ@mskyline.com, Marlyn Delva <mmt22@columbia.edu>, 
+	"Delva, Marlyn" <mmt22@cumc.columbia.edu>, David Moore <david.moore.ct95@statefarm.com>, 
+	William McKenzie <wmckenzi@nycourts.gov>, lzucker@m-skyline.com, 
+	"Lauren M. Zink" <lauren.zink@wilsonelser.com>, 
+	"Roger R. Gottilla" <roger.gottilla@wilsonelser.com>, 
+	WILLIAM BEHR <william.behr@wilsonelser.com>, Debra Tama <debra.tama@wilsonelser.com>, 
+	MSKYLINE <anne@thehighlandpartners.com>, Ricki Roer <ricki.roer@wilsonelser.com>, 
+	"Meghan A. Rigney" <meghan.rigney@wilsonelser.com>, ricki.roar@wilsonelser.com, 
+	"Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>, 
+	Dean Marcus Foskett <dmf2189@columbia.edu>, MOLLY WEISS <mweiss@ingramllp.com>, 
+	QUEUED <askcuit@columbia.edu>, curt.schlom@wilsonelser.com, 
+	cuit-communications@columbia.edu, 
+	Lee Bollinger <officeofthepresident@columbia.edu>, 
+	NYSCEF PROCESS HD <oca_hd_processor@nycourts.gov>, js@gc.columbia.edu, 
+	"MSHARMA@SCHOOLS.NYC.GOV" <MSHARMA@schools.nyc.gov>, MATT LOWE <mlowe@fdic.gov>, 
+	"Scott Andrew Slater Jr." <sas2419@columbia.edu>, xs23@columbia.edu, jheegan@doi.nyc.gov, 
+	Morgan Stanley Human Resources <morganstanley@taleo.com>, dm3412@columbia.edu, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, mshy1@bloomberg.net, 
+	"MSHY15@MORGANSTANLEY.COM" <MSHY15@morganstanley.com>, MSRB <msrbsupport@msrb.org>, mshyld@bloomberg.net, 
+	mshy2@bloomberg.net, Jpetit <jpetit@mccarter.com>, 
+	Thermanson <thermanson@northmarq.com>, The Stanford Daily <digest@stanforddaily.com>, 
+	praghuram2@bloomberg.net, ADMINISTRATION@mskyline.com, 
+	"MANHATTAN SKYLINE, LLC." <ADMINISTRATOR@mskyline.com>
+Cc: BBO 121 <ms60710444266@yahoo.com>, Bo Dincer <bdincer66@icloud.com>, 
+	SOHO HOUSE <membership@sohohouse.com>, CustomerService@seahawks.com, 
+	espnfrontrow@espn.com, inbox@livekelly.com, WiWong@dep.nyc.gov, 
+	hhp_info@hms.harvard.edu, wmprivacy@warnermediagroup.com, 
+	royalty.statements@sonymusic.com, Kyle Lopes <kvl2107@columbia.edu>, 
+	UNITED ARTISTS MUSIC <investorrelations@umusic.com>, info@mta.com, publicaffairs@doc.gov, 
+	publicinfo@sec.gov, paul.jones@tudor.com, 
+	KATHY HOCHUL <governor.hochul@exec.ny.gov>, Kpmg Info <info@kpmg.com>, letters@nypost.com, 
+	The Bureau of Engraving and Printing <usbep@service.govdelivery.com>
+Content-Type: multipart/alternative; boundary="0000000000005e153b05e354961f"
+Content-Length: 6388
+
+--0000000000005e153b05e354961f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+https://en.everybodywiki.com/Maritime_Capital_Partners_LP
+
+An expert. Not a ex-perps
+
+On Wed, Jul 6, 2022, 7:08 PM BO DINCER <bondstrt007@gmail.com> wrote:
+
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+>
+>
+> On Wed, Jul 6, 2022, 5:59 AM BO DINCER <bondstrt007@gmail.com> wrote:
+>
+>> Hey do you know which subway goes to Lorimer street?
+>> - I would like to see if state farm also gave them awtter of credit for
+>> that property as well.
+>>
+>> They even tried to get a $600,000 refund from the city using another
+>> entity. You like that also, giving away money while they owe 10-years ba=
+ck
+>> on 6 properties?
+>>
+>> Hon Nancy and Milton in these cases here.
+>> 400842_2020 during 153974_2020 and
+>> 251334 _2021.
+>>
+>> Hey, you're catching up with the Benjamins in my book coach.... not good=
+.
+>>
+>> BTW, If it's State Farm Life Insurance again I don't really care --- but
+>> which train can I take over there?
+>> The yellow one? Harange colored, or is another gross rent reported in th=
+e
+>> NY finance register.
+>>
+>> - if they back-backed and did that I mean whatever, 6 building later and
+>> their filing for tax kickbacks?
+>>
+>> Of course i faxed the papers to their adversaries already.
+>> - even on the cover page....
+>>
+>> 646-256-3609
+>>
+>>
+>> ---------- Forwarded message ---------
+>> From: CustomerService <CustomerService+noreply@nypost.com>
+>> Date: Thu, Jun 30, 2022, 8:37 PM
+>> Subject: Re: case number_ 400842_2020 thru 251334 _2021.PDF
+>> To: <bondstrt007@gmail.com>
+>>
+>>
+>> Thank you for contacting the New York Post.
+>>
+>> New York Post Customer Service is in receipt of your email. Our staff is
+>> available to respond to messages during regular business hours, excludin=
+g
+>> holidays. Responses typically are sent within 24 hours.
+>>
+>> Best Regards,
+>>
+>> NYPost Customer Service
+>>
+>>
+>>
+>> Website: http://www.NYPost.com
+>> Email: CustomerService@NYPost.com
+>> Phone: 1-800-552-7678
+>> Hours: Monday =E2=80=93 Friday 7:00 am to 4:30 pm EST; Saturday and Sund=
+ay 7:00
+>> am to 2:00 pm EST
+>>
+>
+
+--0000000000005e153b05e354961f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><a href=3D"https://en.everybodywiki.com/Maritime_Capital_=
+Partners_LP">https://en.everybodywiki.com/Maritime_Capital_Partners_LP</a><=
+div dir=3D"auto"><br></div><div dir=3D"auto">An expert. Not a ex-perps</div=
+></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr"=
+>On Wed, Jul 6, 2022, 7:08 PM BO DINCER &lt;<a href=3D"mailto:bondstrt007@g=
+mail.com">bondstrt007@gmail.com</a>&gt; wrote:<br></div><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div dir=3D"auto"><a href=3D"https://github.com/BSCPGROUPHOLD=
+INGSLLC/ELSER-AND-DICKER/pull/11" target=3D"_blank" rel=3D"noreferrer">http=
+s://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11</a><div dir=3D=
+"auto"><br></div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" clas=
+s=3D"gmail_attr">On Wed, Jul 6, 2022, 5:59 AM BO DINCER &lt;<a href=3D"mail=
+to:bondstrt007@gmail.com" target=3D"_blank" rel=3D"noreferrer">bondstrt007@=
+gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=
+=3D"auto"><div dir=3D"auto">Hey do you know which subway goes to Lorimer st=
+reet?</div><div dir=3D"auto">- I would like to see if state farm also gave =
+them awtter of credit for that property as well.</div><div dir=3D"auto"><br=
+></div><div dir=3D"auto">They even tried to get a $600,000 refund from the =
+city using another entity. You like that also, giving away money while they=
+ owe 10-years back on 6 properties?</div><div dir=3D"auto"><br></div><div d=
+ir=3D"auto">Hon Nancy and Milton in these cases here.</div><div dir=3D"auto=
+">400842_2020 during 153974_2020 and=C2=A0</div><div dir=3D"auto">251334 _2=
+021.</div><div dir=3D"auto"><br></div><div dir=3D"auto">Hey, you&#39;re cat=
+ching up with the Benjamins in my book coach.... not good.</div><div dir=3D=
+"auto"><br></div><div dir=3D"auto">BTW, If it&#39;s State Farm Life Insuran=
+ce again I don&#39;t really care --- but which train can I take over there?=
+=C2=A0</div><div dir=3D"auto">The yellow one? Harange colored, or is anothe=
+r gross rent reported in the NY finance register.</div><div dir=3D"auto">=
+=C2=A0 =C2=A0 =C2=A0</div><div dir=3D"auto">- if they back-backed and did t=
+hat I mean whatever, 6 building later and their filing for tax kickbacks?</=
+div><div dir=3D"auto"><br></div><div dir=3D"auto">Of course i faxed the pap=
+ers to their adversaries already.</div><div dir=3D"auto">- even on the cove=
+r page....</div><div dir=3D"auto"><br></div><div dir=3D"auto">646-256-3609<=
+/div><div dir=3D"auto"><br></div><div dir=3D"auto"></div><br><div class=3D"=
+gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded mes=
+sage ---------<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">Cus=
+tomerService</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:CustomerServ=
+ice%2Bnoreply@nypost.com" rel=3D"noreferrer noreferrer noreferrer noreferre=
+r" target=3D"_blank">CustomerService+noreply@nypost.com</a>&gt;</span><br>D=
+ate: Thu, Jun 30, 2022, 8:37 PM<br>Subject: Re: case number_ 400842_2020 th=
+ru 251334 _2021.PDF<br>To:  &lt;<a href=3D"mailto:bondstrt007@gmail.com" re=
+l=3D"noreferrer noreferrer noreferrer noreferrer" target=3D"_blank">bondstr=
+t007@gmail.com</a>&gt;<br></div><br><br>Thank you for contacting the New Yo=
+rk Post.<br>
+<br>
+New York Post Customer Service is in receipt of your email. Our staff is av=
+ailable to respond to messages during regular business hours, excluding hol=
+idays. Responses typically are sent within 24 hours. <br>
+<br>
+Best Regards,<br>
+<br>
+NYPost Customer Service<br>
+<br>
+<br>
+<br>
+Website: <a href=3D"http://www.NYPost.com" rel=3D"noreferrer noreferrer nor=
+eferrer noreferrer noreferrer noreferrer" target=3D"_blank">http://www.NYPo=
+st.com</a><br>
+Email: CustomerService@NYPost.com<br>
+Phone: 1-800-552-7678<br>
+Hours: Monday =E2=80=93 Friday 7:00 am to 4:30 pm EST; Saturday and Sunday =
+7:00 am to 2:00 pm EST<br>
+</div></div>
+</blockquote></div>
+</blockquote></div>
+
+--0000000000005e153b05e354961f--

@@ -1,0 +1,220 @@
+From - Sun Aug 28 22:44:41 2022
+X-Account-Key: account1
+X-UIDL: AC0vNthmsTWQYsm+6wy16FRnVa0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-baseline-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Sat, 9 Jul 2022 17:46:19 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.70.96]
+Received-SPF: pass (domain of yahoo.com designates 98.137.70.96 as permitted sender)
+Authentication-Results: atlas-baseline-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 17:46:19 +0000
+X-YMailAVSC: HdHY_Kc3bBsT8c2c0jacwmH2UwupsjZwQKHRwqcOxw4s3ko
+ LdCFx1Rg2yI2E54BiNdq7hDD1RDnD2EILShC0gPaaN6CUQgPo8X.dnjT.xGY
+ UNyfBrfSjTTPnrbi.sm42gunFnvRhEhSvZFxjVseJqYIpsg3skxU..sfzJJI
+ hDXnckrYGzA32PuP_jXnDJa6qR7MxkBkIzlI1CwPIXtCDVHaaewrcuxjpaIi
+ 8kxgxKvcQLnx52KjW3BGPhS3Yt5pc8cvDsa9rMSc2Yf_WHknoIi13knEAN2o
+ idsJHK1HtsqyKI7m1FNIkndTEieNI_da3QYlmvIfDZ4Uq.gddAJRJwEJ9Nh6
+ vJeCSeXYlN0veieeFIzsbhwC3vtfVtAk.v8r2gWem54_dDyun4M8Y3uW4mUr
+ 0.A.sCC4vkLZhBJaCW1a5RrEYa9REFS5nEWAKma9eqCZvHNUrV3GgeEfBYzh
+ qQjP2xJKeuctsKIVRnImjpoPwLJs-
+X-YMailISG: u9wIniEWLDsZbmNtXc6HugIq1G.U.AkGLIU5Eh5bJiVxPYAR
+ i_CAiJbmyuict0j39zqkMPKdOAxz8egQ_5sQdjO1E6ewNoDc29xvOvesi0HC
+ eEGcKtzXcXQmp97m9pXPJuinDPY_yQxjYgTotGs2yInm_SXGbbeca.87Qey_
+ r3TGVQe6Eh5GQjKPlqQc0iMSWIGf9ac8iXH6m6DJT901YrmDihTUnDoJtiMQ
+ Ym7McMT7VMjrUf6rEw_zrFpKFeU0lgrKjhW5yS_UigG9jrVXI0KsmurwXcAw
+ EnKiD3ePpDAnaMI.kDkpwcSi.sQddFUCWwwOLZr30PvpyDOLB4ukfgS_ZwXf
+ l6XsFio0bxUeuEGq5TXeNUJnZr7i2ZIX_VfTDBBaAUIze832Yumvvm4JhshH
+ rfGXzVzdNhJe63e64nYwAuI0ZpFs7ysCmrXWHzdiMw6lJWF7Mpt2wKvAN3u1
+ d2oKhBSujXOuRYAEyUDJtvS1JTO7keO7fOTJEcSAjF.EGME3bD2xMYij6L0l
+ 93ytQcZVXkBqQaZSUOltH6NmnkBJ2_WzxBT4fEeVJZToz9ENT0WrLDGdeXny
+ QDUO98dwSn1rGNIFJwk0ujpUvOftouUrfdDXhpIU4_yMgEayOpDMgTwJXqfW
+ .tR72OAgcGTPiOuAhYzqEftylSA59zoEibsm_JDhKfWnO5V1Fn0NzdYCpfNw
+ qUL2eDu01itswfCqIDvEIHi4isK7MnuAQVre7BkwvoRw.gmR7GxMf858RxwL
+ 2EVdttODBLZASEimvQL6gsXSBnC7NGfihbb2FG2AfGq7ubLQaROHk5PDxlxT
+ oUT1SkEnjt_sM3fu523X3Ts1jWUQDKC0N6o32D5Z7C1eNOKOqweC5q4QHN1k
+ NNOiXbYLtxeHBAGBWdPJALbdkA2SU5Uuh1Wjkb4TWxwmZ2J5EZWVFdIwUYpj
+ .xs6vuIAFJgts0T7fzwKcPhOcLb64OVa0MpaNRUsr3lyiTf__SvwhkgsT_rA
+ pJZUN_GPWAkSDcdYJ_yHy7JVjJzXWE2V0RWOXkh9Pg55LuY8fBE99P..3XOC
+ wN0VX0yqiiMLN2IUET6ryiZ4.ROX9Q26beUzeKPZc9o2htwa5p1UaszIVMc9
+ fH5LTSLhjoTv7tuHLANpyL3ApoVmQZL8DG44FaBuQZMY7Nn4
+Received: from 98.137.70.96 (EHLO sonic322-33.consmr.mail.gq1.yahoo.com)
+ by 10.253.234.155 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 17:46:19 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657388779; bh=BH02/dAQS47ITJZS750zacAeNd/WnRAHHmFtYZz3A/g=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=QHLTEYAPtRs2K677n56lYD9/fq4acxzb0BFoMU5blCudDoIZ3Ml+MOgxK2Ct6H35dlaERd/FHKCKJQVpQbhKfKtKC5PpYyO2nCVReYJ90WqFf8sX0x5Pu1NcVIfTaNomuvEuVWqsOkNUxPamPKc1nejPGJJ6owZw3J5/LdWPZHEyjhIzC3lGIGmfHJnhwlV/h2yjNExVumpIHFD5wV6v2RGmnXcrAer0xyF1OcQtDvy5tNXDBE3T4tIAy+E921c9/ci9lkTJUs8/p3qpba1kkEx29VwSKvTx5efTmBmB1vD4c2ZDkaH3NiUAGHK4abuVt3GmHHSbRdWUrkgCD9t0qg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657388779; bh=WGn+5IHQ4hjqX47jYEVM0h2YRqh0WHNjymmKFbRkjxv=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=jKu4+WytFlACWR3i7tG7ByNhUjWfePMIyOT5Z0urwv1AKnzkYcMuV08GWd45fYpdBXBuw2V1AtVlWc0rGt8kzzUn4qdbIqABcSxT/3rsnFMbcTT5Opdtc2unWugXv1qgVrdVwfCi+bosmm8FtuPZjztD+Z5MFWipKDcYqAsfn2XT4l3G2TFyEdvaczRTW1IDXm41U49U5HtQQIxWwyB/qk1/XXUGl5Lg+dng+TVNmHoJzqem7ZOT66QIwR1aHrU5jUc1FBWQ5T1rP06HvTfRsAsf4Bs70gJs8WjbMD8T3X/zUpcXhd6jnwkG+XQLq1qq2myuiNeNwFbSh2+l8uQVfw==
+X-YMail-OSG: sfEPOaYVM1npbkOHbYqGr3CNhi3tD1BZCe2CP.pJd0t7M89PH_6N3m1f9CiyQII
+ 62yJyKZzIrpxZTiyHp0wiDL4Ey.wLvjKdIQMEESZIhTSspd7oxRZOgr3FPGm9JRcaa8xdi9nDv1P
+ L031HpW4qvnvoncslbjg_FEdc5Qm9Oh5mr5qovProWowfNoZt8Bkyb25ZTEh8iyZ4TyqrgheI1rB
+ x8wN6jDfgDPPboG7XUsCW7OMqd4GBtOuOYM1gWyI8lRCMMB2tUQJcUbFZ3Ge0ULQiPtUz2VbIbN6
+ eR.K7B0m7Uk7ikEtf9wX3Umnco.toP6nkQaoiiVFJu8LYmguDaJxyGxLN0gV5D1aYwKPllOWXIxQ
+ rRcpn3zVzVVT0i8NBwTauDeJPe5xF9CfnrutjTePC_wjADnNwwBgtushsOmqgrfsnGbrcqU6CBSZ
+ uhKl0LkNfem2_dVof.UPU2h8xS3RMQtZvK1fOu2o0FUpes7LDhvg7TfQ8V.oxD7zU3_qMdKoSh8k
+ up06x.4YB1QRTjTHEjvGyOuK5qlwhzoM6hhi8nvGyNoCG64zTK12sU_Sux9bAqX1ODtNFLe5bmo9
+ 90Hh1Vz4Fm7qXgRwth99XN5STbWPSpVehV97DWdN2YUPQRtxqUSmNikoFQ3vJIRvGtBkbbEE_MHc
+ iZ2nvXK3K1br0_mwxyFPvVbed6kmkN3Ix3tZJffEow2knEYVw._0iotrNECJ_i4Pb4xH6OXVEYPA
+ fJpHJhDge29mFOTwWHemT3qQScgMN9OYFIevHV6gfarh2XrYsEXMkhbpMgva.OWijlfH6YXQGbga
+ MV1kmkeEFmRhD.aCb4X_aSB7vPPfY6rRvrub.ygacr.rAfW54W9ghKOhOFgRspEBszc0FhzXdv8H
+ r7PGX_8FT4fVFvHTJnYLm10RDhaIooND0OB0pxCLM19nRg6H3xOShiUO4xUbLwgv.x314n2hxW2X
+ SNPgrRkwuPMBgfem5iia8yz.fHsseV02ZA0s8F3KCDYlIwIVWS367ENl56byPhZ1Lvpr2KMz3KDG
+ 16DjGcwv6FiUXcKwGlXJYzh9EUikHut8hF07zZSS3ccdQal2c4PuyD7ltoX9EguN_CLSbha5RCsj
+ jpaahlSHlqJUlfdfkwTwIUV.o5fYQbNcRBkEVYei0qYsVyDVg0JOY.Nvw159Oh79sHOeA9GU68B1
+ DYjNY1I5Ed7v5eGQM0TLxQOgi0L68zO.U4MMOUz7yLqwzm_VMj3.kMkgFiZdS9PelrbsnDzqCBxC
+ Z_5y6u7JAOfCxmnySEyHVVIHEX0jXpVqcKk.qTR45YghaHy1KrUXmGeM_6MkxX.eJVVvUpjX7lWZ
+ q48NUNVMRpucRrPxFlyEm_t8yoGl9NFxpzJmbTyftmclxTGuCuFUxSU0Yt3yTDpD845OBTKhVGYW
+ 7flnz_7qoW026K6RbnAdSL7YGEia18RmDPRvjKmHwq515C5H9C6hqD9UoCFVYoUlHcGPfqFbFfpv
+ n6_xgJ419E5N6hA5ow95KNvFaLba49fKOdGv3pF_B2N91i6n0EGwFO4zp3viQm8J2dT0MaHx9IA2
+ WFLIZf6qoxa4awOhaOd2C_dFiXskSUcdzPZNmGNu0dpyw7_8WykV52fsOA5WPe9vC9rnUPMafpEL
+ EjWIpF_cvq2wZBzqzIjAo9MVu1hGiADCJe.rYN6EQYRq53AHdrbImrgZsD65g70ZC2Gpz1uGqf._
+ 56Ku2VlxiRrGa.ANmjasriLcnXB1k3Z9Qpo.8m2gY7Dxsdrz.8cM6A9p9ixd2OTzUjC7l49SPUL8
+ rFI1vxdaLmCC8RB4rgiD7CwyAC.oLPqSyFHVU7kUAzsXx0xncuMozoKNilTRJ4DfYWXmRqCDI6q.
+ JNtUz2gosAhtIY7DcghwlMijk3WJbr2d2EtWOe9mxbTvcgTC5FzIZCgNFc.s1Hq43rc9bcGAPKyD
+ 9TB99VyHtrr6vkUAVg0.hfN_CLljdkpLWYOjGPtWYVK.ed7e6fIAHx9KcfgpJ3w.IEJ8w_D5Ifih
+ zh2YgWYzy.1I8Ms3L0HZGZlEfxqWpFhel5LVkU7UelX78smVslSvUrqWEwmv1szAHSD.AMMivhRF
+ J5w08PjytbrMuZlOuXw2NLaQulUiA59E7mejNarbTjear3s9QOIRQwG0WPr6I1yNyEM7qhIGB_fe
+ bAAygrWQnmYbaudM_.pxHHwE6CpMDaBGulOg676zgMwdnE919mIwFxkBhSgcEtNZqGfxOD2PByms
+ 3t8zGyuI972zXrPaErXWk2aaycfsTIIaSdVmfJObLQVCRNX.bQNsL5EwbKni80Doc0.QFzZL0JGl
+ N3FY8Oe8dk_BmRU6ESvPCQafdPLcinKPOJLGi2i70iUu3nhcMMkB_0qE9L5Z.jfb2X20tC0UGBvb
+ 5lUBsO6Od_2yn.oLNGFnJ29w-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic322.consmr.mail.gq1.yahoo.com with HTTP; Sat, 9 Jul 2022 17:46:19 +0000
+Date: Sat, 9 Jul 2022 17:46:16 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	KINGS COUNTY TAX MATTERS <TaxEfiled@law.nyc.gov>, 
+	NYSCEF Resource Center <efile@nycourts.gov>, 
+	"+19173783467@tmomail.net" <+19173783467@tmomail.net>, 
+	"6462563609@mms.att.net" <6462563609@mms.att.net>, 
+	"baris.dincer@jjay.cuny.edu" <baris.dincer@jjay.cuny.edu>, 
+	"+15168841084@tmomail.net" <+15168841084@tmomail.net>, 
+	OGIS <ogis+noreply@nara.gov>, "ogis@nara.gov" <ogis@nara.gov>, 
+	Traveler Resolutions <travelerresolutions@expediagroup.com>, 
+	"ir@expedia.com" <ir@expedia.com>, 
+	Hilton Hotels & Resorts <hiltonhonors@hilton.com>, 
+	Points <hiltonhonors@points-mail.com>, 
+	Hilton Hotels & Resorts <honors@h1.hilton.com>
+Message-ID: <532975374.178834.1657388776878@mail.yahoo.com>
+In-Reply-To: <1859009344.172229.1657388219838@mail.yahoo.com>
+References: <4655630a-586e-cb98-18cb-445d681ed8a4@yahoo.com> <04e38d83-4e34-9392-1ccc-4f3b724b0ebb@yahoo.com> <246164323.185156.1657388038596@mail.yahoo.com> <1859009344.172229.1657388219838@mail.yahoo.com>
+Subject: *** USC - RESERVATION BOT
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_178833_241028514.1657388776876"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 7183
+
+------=_Part_178833_241028514.1657388776876
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=C2=A0 trying to work here I mean, how many times do I have to switch IP ad=
+dresses?
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+
+
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES/commit/=
+9d578169b5b727319e14326fb6ea3de5ae8c21d3
+USC 18 TITLE 18- SECTION 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEME=
+NT OFFICER OR JUDGE
+
+my mother is a phase 3 Alzheimer or something.. BTW
+check out her daily routine..- Love you too HK.
+
+On 7/9/2022 7:20 AM, B D2022 wrote:USC 18 TITLE 18- SECTION 1512 - PREVENTI=
+NG COMMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGE
+Subject: VIOLATION OF CIVIL RIGHTSEXHIBIT(S) - b/1 (Motion #1)USC TITLE 18.=
+2, USC TITLE 18.3, USC TITLE 18.4=C2=A0--- VERIFIES WILLFUL PARTICIPATION B=
+Y THE ZUCKERS AND THEIR COUNSELORS .
+
+-------- Forwarded Message --------Subject: VIOLATION OF CIVIL RIGHTSDate: =
+Fri, 8 Jul 2022 16:54:59 -0500From: B D2022 <ms60710444266@yahoo.com>To: +1=
+-347-880-1899 <+13478801899@tmomail.net>, administration@mskyline.com <ADMI=
+NISTRATION@MSKYLINE.COM>, administrator@mskyline.com <administrator@mskylin=
+e.com>, AREYNOSO@mskyline.com <AREYNOSO@mskyline.com>, askLaurie@mskyline.c=
+om <askLaurie@mskyline.com>, cbloom@mskyline.com, DZUCKER@MSKYLINE.COM <DZU=
+CKER@MSKYLINE.COM>, EDevine@mskyline.com, jgiamboi@mskyline.com <jgiamboi@m=
+skyline.com>, joseph.giamboi@brooklaw.edu <joseph.giamboi@brooklaw.edu>, LB=
+RITTON@MSKYLINE.COM <LBRITTON@MSKYLINE.COM>, leftbank@mskylinerentals.com <=
+leftbank@mskylinerentals.com>, Paul Regan <legal@mskyline.com>, legalasst@m=
+skyline.com <legalasst@mskyline.com>, lzucker@mskyline.com <lzucker@mskylin=
+e.com>, MGMTADMIN@mskyline.com <MGMTADMIN@mskyline.com>, MVredjian@mskyline=
+.com, pregan@mskyline.com <PREGAN@MSKYLINE.COM>, slaskowitz@mskyline.com <s=
+laskowitz@mskyline.com>, SHIKENA MELTON <smelton@mskyline.com>, SULLIVANMEW=
+S@MSKYLINERENTALS.COM, Super@sullivanmews.com <Super@sullivanmews.com>, TEs=
+chmann@mskyline.com, FILER 400842/2020 isaac@shermantax.com <isaac@shermant=
+ax.com>, Stephen O'Connell <sgo2107@columbia.edu>, Amber Griffiths <ag2943@=
+columbia.edu>, Marlyn Delva <mmt22@columbia.edu>, Alan J. Morrison <ajm157@=
+columbia.edu>, wmckenzi@nycourts.gov <wmckenzi@nycourts.gov>, JLewis@ap.org=
+ <JLewis@ap.org>, Sara E. Ede <see2119@columbia.edu>, jac2381@columbia.edu,=
+ Dean's Discipline - SCCS <conduct-admin@columbia.edu>, Gmas Rrpanda Newsle=
+tters <newsletters@gmas.rrpanda.com>, dmf2189@columbia.edu <dmf2189@columbi=
+a.edu>, FundLegalGroup@cohenandsteers.com, ajbrandon@gmail.com <ajbrandon@g=
+mail.com>, cweiss@ingramllp.com, Janna.Underwood@STATEFARM.COM <Janna.Under=
+wood@STATEFARM.COM>, Ashley V. Humphries <ashley.humphries@wilsonelser.com>=
+, Ricki Roer <ricki.roer@wilsonelser
+------=_Part_178833_241028514.1657388776876
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&nbsp; trying to work here I mean, how many times do I have to switch IP ad=
+dresses?<div><br></div><div id=3D"yMail_cursorElementTracker_1657388694728"=
+><a id=3D"linkextractor__1657388695540" data-yahoo-extracted-link=3D"true" =
+href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER">https://=
+github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER</a></div><div id=3D"yMail=
+_cursorElementTracker_1657388695594"><br></div><div><br></div><div id=3D"yM=
+ail_cursorElementTracker_1657388698489"><br></div><div id=3D"yMail_cursorEl=
+ementTracker_1657388696501"><a id=3D"linkextractor__1657388697113" data-yah=
+oo-extracted-link=3D"true" href=3D"https://github.com/WILSON-ELSER-STATEFAR=
+M-SULLIVAN-ZUCKER/RELATIVES/commit/9d578169b5b727319e14326fb6ea3de5ae8c21d3=
+" class=3D"lEnhancr_1657388698180">https://github.com/WILSON-ELSER-STATEFAR=
+M-SULLIVAN-ZUCKER/RELATIVES/commit/9d578169b5b727319e14326fb6ea3de5ae8c21d3=
+</a></div><div><br></div><div>USC 18 TITLE 18- SECTION 1512 - PREVENTING CO=
+MMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGE</div><div id=3D"yMail_cur=
+sorElementTracker_1657388715680"><br></div><div><br></div><div id=3D"yMail_=
+cursorElementTracker_1657388711617">my mother is a phase 3 Alzheimer or som=
+ething.. BTW</div><div><br></div><div>check out her daily routine..</div><d=
+iv id=3D"yMail_cursorElementTracker_1657388719719">- Love you too HK.<br></=
+div><div id=3D"yMail_cursorElementTracker_1657388723997"><br></div><div>On =
+7/9/2022 7:20 AM, B D2022 wrote:</div><div>USC 18 TITLE 18- SECTION 1512 - =
+PREVENTING COMMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGE</div><div><b=
+r></div><div>Subject: VIOLATION OF CIVIL RIGHTS</div><div>EXHIBIT(S)  - b/1=
+  (Motion #1)</div><div>USC TITLE 18.2, USC TITLE 18.3, USC TITLE 18.4&nbsp=
+;</div><div>--- VERIFIES WILLFUL PARTICIPATION BY THE ZUCKERS AND THEIR COU=
+NSELORS .</div><div><br></div><div><br></div><div>-------- Forwarded Messag=
+e --------</div><div>Subject: =09VIOLATION OF CIVIL RIGHTS</div><div>Date: =
+=09Fri, 8 Jul 2022 16:54:59 -0500</div><div>From: =09B D2022 &lt;ms60710444=
+266@yahoo.com&gt;</div><div>To: =09+1-347-880-1899 &lt;+13478801899@tmomail=
+.net&gt;, administration@mskyline.com &lt;ADMINISTRATION@MSKYLINE.COM&gt;, =
+administrator@mskyline.com &lt;administrator@mskyline.com&gt;, AREYNOSO@msk=
+yline.com &lt;AREYNOSO@mskyline.com&gt;, askLaurie@mskyline.com &lt;askLaur=
+ie@mskyline.com&gt;, cbloom@mskyline.com, DZUCKER@MSKYLINE.COM &lt;DZUCKER@=
+MSKYLINE.COM&gt;, EDevine@mskyline.com, jgiamboi@mskyline.com &lt;jgiamboi@=
+mskyline.com&gt;, joseph.giamboi@brooklaw.edu &lt;joseph.giamboi@brooklaw.e=
+du&gt;, LBRITTON@MSKYLINE.COM &lt;LBRITTON@MSKYLINE.COM&gt;, leftbank@mskyl=
+inerentals.com &lt;leftbank@mskylinerentals.com&gt;, Paul Regan &lt;legal@m=
+skyline.com&gt;, legalasst@mskyline.com &lt;legalasst@mskyline.com&gt;, lzu=
+cker@mskyline.com &lt;lzucker@mskyline.com&gt;, MGMTADMIN@mskyline.com &lt;=
+MGMTADMIN@mskyline.com&gt;, MVredjian@mskyline.com, pregan@mskyline.com &lt=
+;PREGAN@MSKYLINE.COM&gt;, slaskowitz@mskyline.com &lt;slaskowitz@mskyline.c=
+om&gt;, SHIKENA MELTON &lt;smelton@mskyline.com&gt;, SULLIVANMEWS@MSKYLINER=
+ENTALS.COM, Super@sullivanmews.com &lt;Super@sullivanmews.com&gt;, TEschman=
+n@mskyline.com, FILER 400842/2020 isaac@shermantax.com &lt;isaac@shermantax=
+.com&gt;, Stephen O'Connell &lt;sgo2107@columbia.edu&gt;, Amber Griffiths &=
+lt;ag2943@columbia.edu&gt;, Marlyn Delva &lt;mmt22@columbia.edu&gt;, Alan J=
+. Morrison &lt;ajm157@columbia.edu&gt;, wmckenzi@nycourts.gov &lt;wmckenzi@=
+nycourts.gov&gt;, JLewis@ap.org &lt;JLewis@ap.org&gt;, Sara E. Ede &lt;see2=
+119@columbia.edu&gt;, jac2381@columbia.edu, Dean's Discipline - SCCS &lt;co=
+nduct-admin@columbia.edu&gt;, Gmas Rrpanda Newsletters &lt;newsletters@gmas=
+.rrpanda.com&gt;, dmf2189@columbia.edu &lt;dmf2189@columbia.edu&gt;, FundLe=
+galGroup@cohenandsteers.com, ajbrandon@gmail.com &lt;ajbrandon@gmail.com&gt=
+;, cweiss@ingramllp.com, Janna.Underwood@STATEFARM.COM &lt;Janna.Underwood@=
+STATEFARM.COM&gt;, Ashley V. Humphries &lt;ashley.humphries@wilsonelser.com=
+&gt;, Ricki Roer &lt;ricki.roer@wilsonelser</div>
+------=_Part_178833_241028514.1657388776876--

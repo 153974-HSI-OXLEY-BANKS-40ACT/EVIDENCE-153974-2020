@@ -1,0 +1,168 @@
+From - Sun Aug 28 22:42:09 2022
+X-Account-Key: account1
+X-UIDL: AIoGIk1TFENjYsKC/Q4hMMU8kak
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.116
+ by atlas312.free.mail.gq1.yahoo.com with HTTPS; Mon, 4 Jul 2022 06:04:45 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.57.156.19]
+Received-SPF: pass (domain of icloud.com designates 17.57.156.19 as permitted sender)
+Authentication-Results: atlas312.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 4 Jul 2022 06:04:45 +0000
+X-YMailAVSC: ssFjtIc3bBvdmwC3gQ56yXtmKcjEU1NAd8Nu0anVzrZDwqm
+ xHleiPq3O3YZy0fTfBJ0_rKldVJT9dcV5qs8fq2AanNq_SmoJjoBmc_j6A3T
+ dfI1nh78glAevhGLbtNSdm7TaW5yhwL..g9Aeo6tdicA3Od7FyUXPtzwAYn_
+ Tfl9ElbIH4hgUuAqa1bdNhRS35PmL0m6gn7Ml99W4VHbC25qEmuAZ4rd15lu
+ .a3rO4lZKHwuEan8GwGa67_JTwjBEk7eJdsUjFgsH0dN1y51vStBP8oreUja
+ TsjlzhTRbOBQe.VzXlH0XPPK2Pux1kLmQZg_TU1NG3ddskfurd4GTlBrczd2
+ LvD5rI9P4pbPkTqcEpY4q0ox228umNy6lPkGk.9tngSP41vEagDogLrUSwFs
+ D7X4IIWEI1Yay6cziVaqxMns4IRGhcIFb3A--
+X-YMailISG: ZoZ_IkUWLDtzyCfw_E.vDsYasliIklxZARGmnlWncVEHjFT6
+ UnPmSqc.Qh3UUIdXAq9ObpMvZUxCs4hfeq6vwvZLVwGJY64lK0YhoHgxdf0P
+ yEKSkUNIfTzvKUlUPCdupOrNZn1j4skK4Ueny92nCtATtnW2bZ15QCT_iW1w
+ Q6VjXd2OlkPtgt.71Zs0M030NXvq3L0Qpv9zbnmRnQKy018cmsRH8LIHKkao
+ A9Iy3V4tAtMrVF0u892X5BztAIV.Y.laU3LVHdpvdAvW2tUWMrlTtOwR6Vir
+ NMUGbmyNSAdVSSQGxStZE.v1rX.hJS1ae4fJ2kk9PT.6dI9YCc7hPrODXXnB
+ 1.RTeGCZhooHFTian.L0KrCXJJdtlIl7OUh.L28R9sbJSBo5eBHaMHm9N5fd
+ _8bwbNGF9PHXKuT57qvu85XVTkqGftrSO979.eWm_xu7Mvq12gTIUQN1RjG0
+ uCHScksaIMBbNEdygdGc6.9dlOasgFNPf7NGBvHdZOhkfFlrDrV7Y_Dw2j4c
+ U08jnSEPJFI2.0rB.xz3kNnBoGBy2666PY8ITMgDwpEn9sELeDoMDcMMxlnL
+ c7L3V.mUQhzVEq_kq8513J9fu5R4TEhU1fzO3FgFqgncvZnpEzYdKtjvii4k
+ x3xwUJvnSElp8aLeBGVtphHIc2e_nVRJluqTI_C5NMxEqNmsmY6l6jA8RVdG
+ Q6xEwQBi08fFEk.gDDS3Hyqe5_U_9iIa2zH1TjZABE6gAAtz0jAhVRBtEjHU
+ ehDf2haTko.m8wR_EuURuiJU.FU2q_APmnU2HxwU0IzTAkn0mEbLxgvbMCvB
+ sygkV0grg90byasp0tphkZs6Uv8q3vuAD50mnCt30W7L5fCiyMICSVcOr.8w
+ izgQHIP07zx6pqR6qNJKFNXXcPaixIy4vA2_saDroburXn1Bwpyz.YRT_j4o
+ a.SLjNmc15CEXuOxAz68qx364nEZVGDfmhvcooHWmyH.Ninxu2jGtmcosA1M
+ 5hgNT7ZPFH8aWq85eQe3nGvZtGTc7gzX8EINGTd2HUGbme9HymlpFftQ3bXj
+ knc3epS7bqkFjK_o3nrCjK0ltdScWrOSr4vqX9XSDdBoqmuX4SI8J5op3ASu
+ Rmh0ONrZVmLrttAkUpQXYfJH._YESXJy66kT6j0s6Uhkn4Y2kSkNrcdV9UOu
+Received: from 17.57.156.19 (EHLO ci74p00im-qukt09090102.me.com)
+ by 10.253.31.116 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 04 Jul 2022 06:04:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1656914684;
+	bh=ULSYNbW1P4pzZvAQIVN8lxZVOb4ToS66wn3es+cJu2w=;
+	h=Content-Type:From:Mime-Version:Subject:Date:To:Message-Id;
+	b=vxRvh1GPKgDSJKVPdPdul4KaSk90csLAn5dfvHaYRei/TAy1h2q/e17OLFmmJe4xB
+	 2VfBaU7aT+VTEfMh3MQa+SLfCojtPDVpxvXAfAJDwBMPZJmV2bjaK72Wv/1hFdmpdk
+	 k8uptjM+CYcpL5vmFCZDK17DmWJ18vSo8WCFIu45fr6+gI3A/6E0pWw7h3lgp1bQPV
+	 m5PJPGRhutGrAS8DLDqYuiKmimuD0WpWWq9vIxQLyN3u93c1naDrL/O2K5iKZ6bzOF
+	 dANS0vYY6181qno6ACd8N5p62sv86HA4ChOD0Xbq32B62nga7Lxmqg/EIEg+QWJLvq
+	 kZZFxwoakDAFw==
+Received: from smtpclient.apple (ci77p00im-dlb-asmtp-mailmevip.me.com [17.57.156.26])
+	by ci74p00im-qukt09090102.me.com (Postfix) with ESMTPSA id 8F94C3C0017B;
+	Mon,  4 Jul 2022 06:04:42 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-8C8F8DB5-8507-490D-AE9D-205471CB41BF
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: =?utf-8?Q?Fwd:_Automatic_reply:_USC_18.2,_18.3,_18.4_=E2=80=94_C?=
+ =?utf-8?Q?ombine.?=
+Date: Mon, 4 Jul 2022 02:04:40 -0400
+References: <fb45788c2aa24cb892e5c66d50ac6167@PH0PR09MB7978.namprd09.prod.outlook.com>
+Cc: "governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>
+To: Ashley Humphries <ashley.humphries@wilsonelser.com>
+Message-Id: <9C932745-F354-49FF-BA18-8464CD3AC8FB@icloud.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: DSn27KjTduSeRgoj8P6nbWnBoQTYkxF2
+X-Proofpoint-GUID: DSn27KjTduSeRgoj8P6nbWnBoQTYkxF2
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.790,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-12=5F03:2020-02-14=5F02,2022-01-12=5F03,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 phishscore=0 adultscore=0
+ malwarescore=0 bulkscore=0 clxscore=1031 spamscore=0 suspectscore=0
+ mlxscore=0 mlxlogscore=999 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2207040026
+Content-Length: 3636
+
+
+--Apple-Mail-8C8F8DB5-8507-490D-AE9D-205471CB41BF
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: FREEDOM OF INFORMATION ACT <foia@eeoc.gov>
+> Date: July 3, 2022 at 11:32:28 PM EDT
+> To: Bo Dincer <bdincer66@icloud.com>
+> Subject: Automatic reply: USC 18.2, 18.3, 18.4 =E2=80=94 Combine.
+>=20
+> =EF=BB=BF This is an automated response to your email received by a Freedo=
+m of Information Act (FOIA) field office unit within the Equal Employment Op=
+portunity Commission (EEOC). Please note that FOIA requests submitted to the=
+ EEOC through this email box may experience some processing delays. If you a=
+re submitting a FOIA request, we strongly encourage you to submit your reque=
+st online, https://eeoc.arkcase.com/foia/portal/login . Submitting your requ=
+est online, https://eeoc.arkcase.com/foia/portal/login, ensures your FOIA re=
+quest is timely received and allows you to monitor the status of your reques=
+t. And, it delivers your responsive records online through a secured account=
+.=20
+> If you are unable to access our online portal, you can submit your request=
+ directly to the office=E2=80=99s FOIA email account, which you can find by c=
+licking on the following link: https://www.eeoc.gov//eeoc/foia/contact.cfm. P=
+lease do not submit requests by mail, fax, or courier since we do not have a=
+ccess to these delivery methods at this time. EEOC employees are teleworking=
+ full time because of the pandemic.=20
+>=20
+> Sincerely,=20
+> Field FOIA Office
+
+--Apple-Mail-8C8F8DB5-8507-490D-AE9D-205471CB41BF
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> FREEDOM OF INFORMATION ACT &lt;=
+foia@eeoc.gov&gt;<br><b>Date:</b> July 3, 2022 at 11:32:28 PM EDT<br><b>To:<=
+/b> Bo Dincer &lt;bdincer66@icloud.com&gt;<br><b>Subject:</b> <b>Automatic r=
+eply: USC 18.2, 18.3, 18.4 =E2=80=94 Combine.</b><br><br></div></blockquote>=
+<blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-12=
+52">
+
+
+This is an automated response to your email received by a Freedom of Informa=
+tion Act (FOIA) field office unit within the Equal Employment Opportunity Co=
+mmission (EEOC). Please note that FOIA requests submitted to the EEOC throug=
+h this email box may experience
+ some processing delays. If you are submitting a FOIA request, we strongly e=
+ncourage you to submit your request online, https://eeoc.arkcase.com/foia/po=
+rtal/login . Submitting your request online, https://eeoc.arkcase.com/foia/p=
+ortal/login, ensures your FOIA
+ request is timely received and allows you to monitor the status of your req=
+uest. And, it delivers your responsive records online through a secured acco=
+unt.
+<br>
+If you are unable to access our online portal, you can submit your request d=
+irectly to the office=E2=80=99s FOIA email account, which you can find by cl=
+icking on the following link: https://www.eeoc.gov//eeoc/foia/contact.cfm. P=
+lease do not submit requests by mail,
+ fax, or courier since we do not have access to these delivery methods at th=
+is time. EEOC employees are teleworking full time because of the pandemic.
+<br>
+<br>
+Sincerely, <br>
+Field FOIA Office<br>
+
+
+</div></blockquote></body></html>=
+
+--Apple-Mail-8C8F8DB5-8507-490D-AE9D-205471CB41BF--

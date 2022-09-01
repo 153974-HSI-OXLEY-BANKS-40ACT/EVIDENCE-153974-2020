@@ -1,0 +1,204 @@
+From - Sun Aug 28 22:40:52 2022
+X-Account-Key: account1
+X-UIDL: AH3oklBjufPcYrjDaAcIyNn0TBw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.167
+ by atlas118.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 20:36:56 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.147]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.147 as permitted sender)
+Authentication-Results: atlas118.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 20:36:56 +0000
+X-YMailAVSC: ZcRv9BI3bBti9gj.g7KRrwVPSH5Te1CXXqN65ICiNZv8tsp
+ mFjKjvuhwCN_AZnwX_82J6j_Jm1.TgjfI0sW36ARMGsOYewsX_LAczx.OXek
+ vHOzO7yhRc7B5vFzr7w0wKqOdjd4_M2v_rLdwtTIlIhzsisVfDr2HpqDD5fH
+ fXmwzW79lSLaKzQcazTLiNifooi2Z9LO0cU93.Ry9Q0TTiBLUDEMuUp3Soy4
+ 8gGtUyOnEt5l9XNHw4.Sz1y1wKYdsgi6bzKHHIAL.3vQhOUjw29bZtvXeu2F
+ Z0z_mcXnPBcwKHlZ7nXLFf82Pcl9mD3_rCC1WPBFKIWcq6BxByG8D9Etjwo4
+ UZBI9Kadoent4BuVthPzJVhSiqAS86X6EyFwj7dDsJBIRjvrQQkPxg8ng2dZ
+ rz4HwyrTmoq7mwtSxzjrSqn1auuZxLFSvPWxTdN37nh_0nPt_Fl6DhbWJs.t
+ O6kiYWOcZxTMWPhinFlreXl0ceSWB6C_5jTwaVjkdCzKMD16sozHyT._macM
+ i4lf7OTAJsNiedfnF0NeH
+X-YMailISG: WLsto1gWLDv.mCpK2biyeYMlLCHuBCGRt.hTISkG5fVs48YM
+ _C2SkoNnZ7g8B9IkG8imUpP8fQIrdT8MnB.FTEH.Swq5hz59wErON4HefLxt
+ gUcABoms_j5HIzxEwYqNtASwUA6J2b2iW_UKR7rhNITS.3QzykqLypKVnnAS
+ iUpX6FC4Uma24Hn5cq_PmWqFLzzA5mpNIDNE2WPfcEke8N9LYay62RZREDUD
+ loMA_0JFLcNGT_XYhBlMsdQdTZgwkE6tpt7icsl7xd8P9z9IFglrUrQMQFsS
+ 6n0SvdKnfx7sr.vBXPN3pgtwuLBS.T.Wy6VUZAOL73ogMBl6I1wu.dGw9sR6
+ n134oXYDKEpmoTsmZCXdGc4sn1Ykgewz16AZAl5_1aHWjtYQW70VDeJxr_Wn
+ zjDQBjIu4wchoFL4aziO4eRfYtYHfotJtzKGsWJoEph7Bm6YoBWP2Rv4_sYw
+ BltTp4TVNQ5IyzhzNG1KYShAnvxwzTLQ.1WlNwjMYByofkSN0PC.4G4mEY_N
+ 4Zd7XM71aLcP7R_oT9QddCb49kqqq369bFcmHG08ou0QTpjjT40dWrTFAXWY
+ aPvDQLFP.wkIq_AaQkeBGy1EnBBxmbbNp6eVWuVvDluD_PNHCKZFV7pO0Ri0
+ 1g0fKeZQ25mCSk1QtbAqW8KXYCC6A1RZSAViW7x6nb8LilZFQpFtAX0wblNy
+ kenab1ES34LM8nEF9TT2cFY2CDojtQQ.xTyi.1TETtHexVM6qMcQqY1weStA
+ h.BsXo3GxI1zb2W_tmz26MbVxRkpyUiCrxxpAwPeSwVkpdcb.6MDGJn.boPC
+ 6ADJOT.44blhqaMQu.i0M_WOTLnwbtpX6cUdB.QCIVd04Tcw7Sp2JD7WyiGG
+ CswIVL5YrgiZ.P3saiWP1zIBRJjsQghpsGlZvs27yBAxIJ3ejFg8h0mnayUu
+ iQ2miZHoT7Y8NbRf8mttJ9.WPZgJyCTCZFyhZcXuTQlo7vvw5jlt.ce2Fza7
+ 1HoYdTjIQWyUFEd9ugK04o2AUIf2tPGHmtx5IFsshNJVgQTyfwhpvXixfpNm
+ chA9jCaYh6sHNz5ry2jQ8Nk.X9hM.eHxD4ytA1KR4BAP.ga96p8ekNtKSLPr
+ ieeu_OUBd0ez.9xCU2_J.h9L28RPr1gNUO3s1BUEVnj0JKPuNAIt9W4erBW6
+ jtXMNaqcWLV41JtcM1C6NFLnDWJ2JA--
+Received: from 98.137.69.147 (EHLO sonic310-21.consmr.mail.gq1.yahoo.com)
+ by 10.197.40.167 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 20:36:56 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656275815; bh=H/NXKGuA7jR/xTvll6zNwIqh2AkeIreZBnafAXbvd/8=; h=Date:From:Reply-To:To:Cc:Subject:References:From:Subject:Reply-To; b=BXmFD6t4n372oPvmjykEJ2dEW3+a/qYGFDo07hCXBmdUeooFqdcCnIhGC5nAi/E3u4HvSugxfxK2XHsGhD+Gw7FXDWkfNJTiXIea/k0CFKm7e50mu8R5kq8tJlZqJcEAiB97r1jZld4YhBs3LeV6Tfsglhgio2qK0abWCVkqm3zRBuWReHfH+8xqxnh1RsW6VgDMQznid5mESpiikdofxRbJte/AUn7Q2hLtAe80eFVCHTdteb8SC+3a9dNA1xfsnKF88+0xBBQ9uDeMPfg+1Ka5B94+EMw1kt3oKsV3wi71lY6psoc3Cxy4oXr7tdR5LEWqZjlQNoY6bmqKwL/gHw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656275815; bh=QCJM0IEoUdJnWO7KHXQJZJMpPkk5kQeIxzrc/aKuI3s=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=fVKOFG+GIQJgLWt/Z7fz4CTavVcylc/Bgs1oVrzhsOAhsfvvQ9ffh7nydbZ/7Pi5uqUxpLrD1R/14XC8qkHQ7aMNBxIJajDjc8iC9rHjuZpJ2Oz7YhFw0QfrXiBO0dff6T2mDcCLQViKZOvANFg+zpMVsmAqCtVKNraPdpEugR1Bn7EC2DA1dtk6FMjoMybeXdWo9bwR7l2C5cAh1l6LW8SH9RlO/aGoxhSeQp04cspxVZfKRZ9Q94rIr7aeqlfN+CEAymEMoZ1EGOOMImuhEo5EXqcp6E7wdPn9GhtmVvunoDaHZNyrHblDxzbSj5XWLLDN3BgIRTMiaolNY6ppqA==
+X-YMail-OSG: nnIeFUwVM1mRC64obI7_Ubp07tSNfPbDgDPvfWWEQ5WKabfP6_wiEJveHv0CniS
+ kg5fIi5gnT9buKvV0ABjZsG9Tga5HNVO72nEi1p49T5kFyodrtbTKC6LgV3nOKAu56IcM1FlWl6J
+ XTtsVMr4ezE6Oo6dSTJepkbEq8.bJ5ZpHjkMoJYalXQ.FXiIAquZbF2eNwz5mvcOyeh2RbJ53XRV
+ a0VAswS5Mf4zFqC68UuF5e8NYMKRhVxs_6dj9ehZ1g_lDVbzrFhUQv5tcnUDoiqO.ruM5_2vfnph
+ e2EPEPwAU9jHKLvuOLycokRRNDOilD9fGVeYRYGJjAsqJBjMzOJHIXnnsWWDyEBt0aOaz226V9UI
+ q3Wf1IIqr5HCH3kj2dgFejIUR1rNbKH8Fdh8fAVgTEznjCFMsF_0FjJOYAUDS.eGQIxRZsgkvGqC
+ 9z3qPFjXjgdR6rLp5_cjcf_xYYEEywpKB7.YdfR_UVNHgLftXgTznEm3rOOtI9w9s9gQVUVUgEtg
+ e3Q9sXRtUPyVQD1ig3ZhY9NIYAgk_iFneMgCMsnhanPIPClIiA2.Hd6uQC22lZ5UEq64TvY7XsPF
+ AATMoWdCtTkkpZ9oXT0aTt9RC5.Tg14.AbNczqmWtjRh_FALfOnA1l2ebyPUgYqd.oyJajo_5Nv.
+ 2rbClV9VvMdzFbUL.roFiv2Xo6xh4TGhWTqwkJ1u79GAoQEiLsqQ68RPJaR.Oas10Gv03On2Ursq
+ UPrSerfvxEbQeWZqHnX1dCcCsdEf8b2Z8buE54KmAZ7lvNu5rg4.r8aR1llp1Ed9XrByacdYWxcG
+ zlBy0O.gCM5ZyZQdBIZ.Q6Dg9QXyypqaq8d3KaZPlym98zKs7VEd6MvuV6ZA34CFa1di2diB8cQK
+ R2vExinf.MUiPPvDdtBXy2flZiW.UV5t2mnSjDJ.HHXHjM8UrdjKEgOT2sRZG7DyrZET5YAdFAC8
+ kWvfc6aT4xOng8GYdlVddZcBwVj1GICGLSqgjuyg4JW4DNgCJQjpmZ2wm8TTBINh_8p7YtNqcyvZ
+ OxWfGguc.QaT7ssbjG_LwwqNjFI8ZvcYKkkupKqL3oRvy3SeK4qblay1UJDjV3adMfMT.DRSzHv3
+ xw1M2N..IiPUDfZvw6NllAHteZr4pfsgFThLBoKwyGukBq4jXwsqbUG0wJDNHu6FA6sBY9NkZfoP
+ AiKFF7XVk7jJpieDC8FlkWB2mX_XxA18uhM7Kt1O4JR85q8Q6FT8S4GWs7E2h5WLO.PT1HUsG6hj
+ 13vdgkos55qW2H9vny62m72Ai0.Thdz8Nxw0P8jil48sSMlQ_cYBkTc3DQ3FMh8NtcHqvpxF8AMT
+ MDiM6yxIN0368T_yGd7mqa4pzhwf7Jr9mTQGGHVZ_Kf4gzwMjvUQfmr3JgGHR.Nyf9d9fyb0xSvm
+ eJaTq5YduSmquSa9r7moDnwDRyve0wRPH98at84YagwTg53jHMJ5HFQ_8rorVnfm4M7nQMbPSf2Q
+ ta1k4MNrnXagi_.._.LXfRvbNFPFDIFt7.Efro2ItYdMP6pFsB14X3taeQtt62gKcEpNK9P_NTuv
+ 0XOJ9_QKLDCnAYHz7ZRO_FtEHnvFVJv5rLjI01lb2Dn_ZcvNWS7UZGrxxU9I_1SH.SooYUdg7z2q
+ uyH0amOLrCbAet8KObJh9cX..eUYeBSsWmEuERlL6DO01wCtBVITA7LzN1lRc86enHeH8EUJquDa
+ mciJM0jmXbrw2V.90ocF7iPm6B3vp4fBl8uiCIexZCFROfaKv1OBxNlWbkJZ.lASQS7C5BxXghEf
+ pff2oR378SPSOeLQ8MBrDeIn8LxD7vMFNMUNkN0cZgXmqUUUokR_8sr8v6.CQVJS8.IXqFehCr7B
+ 4nfDIk45qgkkH2Xu1k9CIraqGFoCOZ3sIDvN6kriofg8MzPVMzTzdhtUz.zbkzm9wzKRmTAYyNrL
+ ZI4qrMczYLjF8YB5xarHHZgS4IH9pHYnHB1BSNWyxmgSMjPnOyUslymaHMXepGSLmEVqAg1ZaZAy
+ IFXwyFm1WYiPJpFxE71tLSNhkUh.E7kptTUm982jFeUgi9zGdxt5wuPi.Vhtar7RDclTmWhvKun8
+ pzhhO00OYE07u6iDKYzz8PDHWq1IC7Bm5RsRkz7aV.8SvWvae0gsQ74J.2qGrcaLAaR5caGEMDx6
+ EBeKWa2B5hrKV8g5f5P0beNV4DxHVMh0b0ZipjNi.cTskfJO.eVocs2zi4eRbeJdK30bXtWmjvbD
+ 4GNaTqaNJ5uaWDy_utUwASI6P0fPlwbL0GfI9V2lsn7oNY1OXLxD5jN766EmXvYxU3wYCeL6bY9X
+ nW4a7dIE2M4ig3K8FiLRyuZXTPmF_Zg5K4sI1zLQHOKnC29F6i9WgTR2rB7AGscV3KCdHyu9u6TU
+ 83ImQW9Ikcmy_fmgy_rgeCZ6_UQihXH3zDGQWqN_JWM0voLmqgLIzlLLofNmvUv6xdOomAYKCeBu
+ JCRSdJVQKmrRSvVysCgW2j5jddclcZhbXowXYAsD0wDWv8I7r7aoLK__ApZ8MhNCmOvwDb24-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.gq1.yahoo.com with HTTP; Sun, 26 Jun 2022 20:36:55 +0000
+Date: Sun, 26 Jun 2022 20:25:21 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	"stringer@comptroller.nyc.gov" <stringer@comptroller.nyc.gov>, 
+	Governor Hochul <governor.hochul@exec.ny.gov>
+Cc: MILTON MCKENZIE <MS60710444266@YAHOO.COM>, 
+	Bo Dincer <bdincer66@icloud.com>
+Message-ID: <1066016923.324839.1656275121350@mail.yahoo.com>
+Subject: Re: EX 69 --- DOCKET 385 --- 1.6662-2 Accuracy-related
+ penalty..html
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_324838_746218763.1656275121348"
+References: <1066016923.324839.1656275121350.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 6540
+
+------=_Part_324838_746218763.1656275121348
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Loan dockets, premerger.=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3DH4jMXghoLMU1ozmlj4VYHg=3D=3D=C2=A0 =C2=A0 =C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0 /s/ AUGUST 8TH, 2020 =E2=80=A2 https://a836-acris.nyc.g=
+ov/DS/DocumentSearch/DocumentImageView?doc_id=3D2020052000291002 =E2=80=A2 =
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D202=
+0052000291003 =E2=80=A2 https://a836-acris.nyc.gov/DS/DocumentSearch/Docume=
+ntImageView?doc_id=3D2020052000291004 =E2=97=A6 1004 HAS SOME ADDITIONAL CO=
+VENANTS THEREIN, WAS NOT TERMINATED IN THE 90-DAY WINDOW.=C2=A0 =C2=A0
+X------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D10=
+05030011&stmtDate=3D20190201&stmtType=3DSOAX------- https://a836-mspuvw-dof=
+ptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D1005030011&stmtDate=3D20181116&stm=
+tType=3DSOAX------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSear=
+ch?bbl=3D1005030011&stmtDate=3D20180824&stmtType=3DSOAX------- https://a836=
+-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D1005030011&stmtDate=3D2=
+0180601&stmtType=3DSOA=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 PREMIUMS ON=
+ THESE RECEIPTS HERE GO BACK 15 YEARS +=C2=A0
+**
+**NYSCEF DOC. NO.=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0220RECEIVED NYSCEF:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A008/02/2020INDEX NO.=C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0153974/2020
+* https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DoFSKORPzy=
+551BVUfHZGI_PLUS_Q=3D=3D
+NYSCEF DOC. NO.=C2=A0 =C2=A0 =C2=A0 348RECEIVED NYSCEF:=C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A008/09/2020INDEX NO.=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0153974/2020
+* https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVI=
+HKtnJU/ni/zvg=3D=3D
+WARNING. JUNE 3RD, 2021 -----------------
+NYSCEF DOC. NO.=C2=A0 =C2=A0 =C2=A0 385RECEIVED NYSCEF:=C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A008/10/2020INDEX NO.=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0153974/2020
+* https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcweC=
+7esRoSPO8MNtA=3D=3D
+/BDSent from Yahoo Mail on Android
+------=_Part_324838_746218763.1656275121348
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div id=3D"yiv6618962859"><div><br clear=3D"none"><div>Loan dockets, premer=
+ger.&nbsp;</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DH4jMXghoLMU1ozmlj4VYHg=3D=3D</div><div>&nbsp; &nbsp; &nbsp; &nbsp=
+;&nbsp;</div><div>&nbsp; &nbsp; /s/ AUGUST 8TH, 2020</div><div><span style=
+=3D"white-space:pre;">=09</span>=E2=80=A2<span style=3D"white-space:pre;">=
+=09</span>https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?do=
+c_id=3D2020052000291002</div><div><span style=3D"white-space:pre;">=09</spa=
+n>=E2=80=A2<span style=3D"white-space:pre;">=09</span>https://a836-acris.ny=
+c.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2020052000291003</div><d=
+iv><span style=3D"white-space:pre;">=09</span>=E2=80=A2<span style=3D"white=
+-space:pre;">=09</span>https://a836-acris.nyc.gov/DS/DocumentSearch/Documen=
+tImageView?doc_id=3D2020052000291004</div><div><span style=3D"white-space:p=
+re;">=09</span>=E2=97=A6<span style=3D"white-space:pre;">=09</span>1004 HAS=
+ SOME ADDITIONAL COVENANTS THEREIN, WAS NOT TERMINATED IN THE 90-DAY WINDOW=
+.&nbsp; &nbsp;</div><div><br clear=3D"none"></div><div>X------- https://a83=
+6-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D1005030011&amp;stmtDat=
+e=3D20190201&amp;stmtType=3DSOA</div><div>X------- https://a836-mspuvw-dofp=
+tsz.nyc.gov/PTSCM/StatementSearch?bbl=3D1005030011&amp;stmtDate=3D20181116&=
+amp;stmtType=3DSOA</div><div>X------- https://a836-mspuvw-dofptsz.nyc.gov/P=
+TSCM/StatementSearch?bbl=3D1005030011&amp;stmtDate=3D20180824&amp;stmtType=
+=3DSOA</div><div>X------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/Stateme=
+ntSearch?bbl=3D1005030011&amp;stmtDate=3D20180601&amp;stmtType=3DSOA</div><=
+div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PREMIUMS ON THESE RECEIPTS HE=
+RE GO BACK 15 YEARS +&nbsp;</div><div id=3D"yiv6618962859yqtfd82717" class=
+=3D"yiv6618962859yqt8465812659 yQTDBase"><div><br clear=3D"none"></div><div=
+>**</div><div><br clear=3D"none"></div><div>**</div><div>NYSCEF DOC. NO.&nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp;220</div><div>RECEIVED NYSCEF:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp;08/02/2020</div><div>INDEX NO.&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;153974/2020</div><div><br cle=
+ar=3D"none"></div><div>* https://iapps.courts.state.ny.us/nyscef/ViewDocume=
+nt?docIndex=3DoFSKORPzy551BVUfHZGI_PLUS_Q=3D=3D</div><div><br clear=3D"none=
+"></div><div>NYSCEF DOC. NO.&nbsp; &nbsp; &nbsp; 348</div><div>RECEIVED NYS=
+CEF:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;08/09/2020</div>=
+<div>INDEX NO.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp;153974/2020</div><div><br clear=3D"none"></div><div>* https:=
+//iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/n=
+i/zvg=3D=3D</div><div><br clear=3D"none"></div><div>WARNING. JUNE 3RD, 2021=
+ -----------------</div><div><br clear=3D"none"></div><div>NYSCEF DOC. NO.&=
+nbsp; &nbsp; &nbsp; 385</div><div>RECEIVED NYSCEF:&nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp;08/10/2020</div><div>INDEX NO.&nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;153974/2020</d=
+iv><div><br clear=3D"none"></div><div>* https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3DK9sgXcweC7esRoSPO8MNtA=3D=3D</div><div><br cle=
+ar=3D"none"></div><div id=3D"yiv6618962859yMail_cursorElementTracker_165176=
+8089466">/BD</div></div><div id=3D"yiv6618962859ymail_android_signature"><a=
+ rel=3D"nofollow noopener noreferrer" shape=3D"rect" id=3D"yiv6618962859yma=
+il_android_signature_link" target=3D"_blank" href=3D"https://go.onelink.me/=
+107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__=
+AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGr=
+owth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on Android</a></div=
+></div></div>
+------=_Part_324838_746218763.1656275121348--

@@ -1,0 +1,750 @@
+From - Tue Aug 30 19:53:29 2022
+X-Account-Key: account1
+X-UIDL: AMxQGng8bVqtYw6qRwMY+DJQgKc
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.234
+ by atlas316.free.mail.bf1.yahoo.com with HTTPS; Wed, 31 Aug 2022 00:24:39 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.206]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.206 as permitted sender)
+Authentication-Results: atlas316.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 31 Aug 2022 00:24:39 +0000
+X-YMailAVSC: C4oQvD43bBtLN.Kg2YhVIIsQTYDJDiyDeHQBhD0_YFZq_.q
+ 6nLFoVkcyzGJC6f6SChlseZhrnmZumNGl1KVQMNRVx09DBEMmffHAYvvrZ.I
+ r37Uv10jf.V6xxyprxvCH2KpeQDRQJFNqGB2xuUay9pinRQq_h72eFO1UgzB
+ rqP7iGbcLjJCTTiTFmcMeHjuCWaLah1dhxCzdvhoo9lEMcIPa8Yz6zJhd2.z
+ 6kcfS3q52EMXj6YTwlBW2JiwVYuPgbYCiqqnZrZh7l_cpEjTEhAPRBZGzq1a
+ 7b8r77Su1BKKJw.LB91.kdjL2PPPFOqmCJpblW0ueACHGCIF4SBYCtzONJcP
+ ut4XMzbvRvoebc7ThaWm.9p9CxCu8CasYf.LyF7rtj7fdmgFMXQO1UBU8ST0
+ vUldVlqRfH5eVToiNb2XACko.o63NNblBbqQyRB_Y4G6uExgMSvyHfjCX78t
+ Wm6Q_CdmuZXaUjgJ0FP4R.uU9k.gDMuxlMZ3Ws7KVbu.RQuPcrkR6jcta9y2
+ RertNgjdr0UfHE6Z7ymmrzms7G7HJhJrPnF2weK9NHrUZbfqCCU7mCEQrJEr
+ f3.O1Ruq0UWRve5_4eKCtpXXXLysJa6aRdS6eox1H1YMUSHLyxcxVacVD3TT
+ xkKmfUV2OOFTUNo0gq55ya8foEZgiS8Ba9I3DMYbYpZ4DEWfyx9seYeToJfY
+ g5D9svH_FK.5BBxuKF4Uyr1c8F3CWyou2PIb1jadgQ1FV_NapvXs9C8S.X_t
+ u9pbLdODnQUDMZSwHWTVKU460O7VtQ.GT.o0rJfy97Od8hrTnASIBa7O1hdB
+ 1n8yPR5JkZhT91LN5ipnlfubkx3uh7ULTQkEMxELs5ZsReG5UAXxdEvohXKG
+ MD2Ry_mXdg6OpFvetrz42NX9sOcSUXdp5OPpfv3.CalL_k9Bl_G4L58v0yOK
+ _HuTTiLlQf1GhT0qU6f3BJrHUbMwQS7nlEL5eZbwW3ETrUDRIdgr8AuJuWd3
+ apZkobUYDGSiRRdNkqUwReRyHzbuh1POppuF_jtSoVsujM9MNLwbCrmgQd_Y
+ xLBkMB.zu2GYiZJlKG5ia51xksBBWngfV3Sz5R.40bdG9M5GZTeSTImKBVvT
+ lZCIuMYq_ZQApqBP6Ttvjblj1.xrV5cuDBLn.4eQ5l5Sfb.Pe9czTV2iOxr7
+ VkWKu6JKbnV9y55FCOiOAQYX6drK8pqT1A5BOS6G45e1_oCWSBYbdS9C9BkO
+ rvYYBqLrDEvy9.qaps9sB2UG6ew8Df9R.EpVLfGOztTVJxPTJh2GpiI7Ft6K
+ NkkXmupLBISs-
+X-YMailISG: .jkTvJ0WLDupyrjmlJNEpszfbzZDSFI2hDO5AZhyuw5EIRSH
+ ULrqBcebDuHytYFRb45Lx3kawakPmqZJfDh52JE_hmxnPRO7eO4arqrCogOG
+ X7ohnhaFRKfA1UXMMtSIu6N7VmkVOvu0viiNm3NmB79wb4azdopuxdsNX91g
+ rrj_Q.VeH89lIluvDtI5Ud0vlpeIQbsembmN2vk2zm0uYV4WTbteF1IEft9C
+ unjf.ppCrEGy2ncTUYqfY6Bj2lpJWE_.Jj77W7bsSexA7ocl.GEU8xI_5xkm
+ wDzOcLoW.Hn7rwc7j.mnGeYADT2r1iYDDWV3.duTIzxHnlsNsnzhDlck7JrL
+ fZVBOmNWAgHugtOaoOkzDIScbxv0icBBWZi_xjnoMw8kBFDLX16W2qbbjxNS
+ Zd5uGVeuK42HyFo_3Uznf.UJyyLn2vh6F.hqtx1CeyAe8fgUjYnmPBGaeYbo
+ PnpY.JS9b_58O87gr9luUZhbKmIs4HJTHhVQGpdPEKM_JSgGuj4ogRzocYgD
+ b2Lwh3kWepWBzTjQJA6GUNqPGyRg22ak.k7Z7PEGN63b3wQshhyrF1hsTGr3
+ X.7X7ZkwZL17tfP3i8f6OHO0lJEXGF49OpeuFdVdkKm1vbm8fZOlJIprTdNf
+ dc4WE7SNeM1zFrjIPcLyg.OuHRPN.qi49YY8lB8hLKb2CLyj921tJW6gwTbj
+ 4_YgaDr8u9ta7SeS36.8iOjgZcMKpCyKv0pF3Pf6xliIKDLk5FR_rhoZEMGg
+ YNMDFV9aXDJXoQbG.Fj.5mJLZZW_l56Za9MW6TQp0u3vckBwaVkFp39mucAp
+ iQkvHTIaTUSg32zppZiGgNEeDEp1p1sDF47HgVPEF24ZinR7Eyeb6EvGi09a
+ PYKOJ_Bi6Xf7YghUrO5GIm7_dqDz.O70gl5NhXwLOEKnI.iol6KwlF9gSf8q
+ dP27hP8XK42TUVHh0KSMXwXAB81oR_OI4kpAkQ6lGjJXfAd8olhm3MOsdRKT
+ bE8R5tLoS8ro3QHBz.YxSy_1eJR2mO5i.OqCwJLrBjbLYD0gCe.xrZTuZncV
+ kE0G9S_Efa5t6kWEZhEjRMqglk486DamzL4D41iLO9ZAolg6TJ_tlNmZj7A9
+ eQVktROFiIHTRC6C7aiFEH_DJk3MraTZ64J9wovcK97WdsIBMVUpiIZoU3UK
+ m_CIFTIRBvKp812b6RHjiM_Vs.k.6wc5rspSW3.bkEcm7iWucdjJZpqo
+Received: from 98.137.64.206 (EHLO sonic303-25.consmr.mail.gq1.yahoo.com)
+ by 10.197.39.234 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 31 Aug 2022 00:24:39 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661905477; bh=liklGbA6YRhNw3I/kJobuZY0mr+yjlI4ytvpI4D9myY=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=YGACVu+A/zeN3tZZ4JvXbM+iFS2873f/dPj03mD8mu4SjmOq5QEGgMOKoJZ5sG4dVij4nNcDpwgm4SuYaiatxxjG0Fh8IzGwQle1k4O7In8hzWd1YYTa2zTM/lM+mOloOeImZ9Qdo3c53VKcGmu/zuo1l2qcCU5t696Kr5GRwmMQPSPHSpNjibT2gQVIISeK4fDoTiG9BD7gul9Gd47gOsc5hEb7aukc9UPKsXGTPVzF3ZyU1QVlGUuDWggKwbVl5/K2YeE9qNQ9YpqDOSNHgPugFXhkNqyM9oDHlNEf6zE5G8bkZR3qPa0DPZeC/uTgnMNqrVVogo0dvc6Ijka7UQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1661905477; bh=M+zwVFZVGWV1Uv2nYLsx1mAl2zsuLsNkKOuar7AlkO3=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=E8A5PoiFSa4BQtdviP+L4SBcGCcwnuaoqzcJOiEd9GKJztvEh2e+P+QkM2J6pwUj1pcdD8wV+UeklZCMsOEAK1/mSu7pT3Ow1gSwz2Q5ghAUdczO1fhysiQOU6vqUBfCTEgG/P9WvnWg57BPCkaSlAtJ0SAUBmaCEkx0cf6yvtE1IonGjRa99FmRHLgtPF9hYYbi1cbmdLBfjfbGxiBMAiLPk5pj/bD0usXiuQwmqtwB51OC46rH/BQw/AsCGiXkx8uujq4zezSkkrqiOvvWenkdEIFY9o5J7j98d91mq3uzp8ASv2VxALczXFtFy6CdAqY/JO1r8gLFaUDAUepQoQ==
+X-YMail-OSG: cIHREysVM1lspUR0m.mb.41zX1nnKLzIy0T3DGIzMvWwsslfWzk29Ho1xu7lxL.
+ WLxFwn6ZpICcOged5E2qqU0y0fPwArMKuWbgRY7C33a4aoMnI7ZvyA4RE.4z4mSruOl1GffXFWWx
+ fTLXE37bEjSiw8ZU.KcHtimyH.UYcoTRma_EBEnhlEWBpf6yoBZQk2WodG84amuQPDs9h_TMwe.p
+ yrTf9QBDOzW4rfHTs2VxED0XprvV6d6zXnvxj0zh_G6WXEyupUs.w27ENfsbha2C5n4Ry_otjmEA
+ QyeyDja3ADdw.J4rk7UtUj3MvwjELcGZ3vWwAlaN3O5Xexc_pGY0i1FR_Y8NiEWLgJ85j8khwKVs
+ kSouPFFUK0jzH2gqYF0QQuC8eLF9GkSnntL8ouKgHrP8drqzwIJIkFEyj5LfplYcq.791lgjrNVZ
+ Xrw0D4KGcJAyu9i43cjGZTeI32esWtsvWkp3UKJxHr3nzl6wreB1ybxetgS2r97qIGe1ceMXw5Js
+ P82XxTRzZoTVmxAbgLTWdUxQybIITQHTDK9KHvVQNrnFLmf_ncQllrGB..1FHSNqlVPXZFgwDGrW
+ 639nGvylQPCv0EZ8peniyQPnoCE5fPMVK8UdIjsKAzI7vl1qXuYd_HbiLhHOGYXyxWlJxmkxu7lO
+ Wf9o9dBg_ZSOEfa2GY4LL3TBxZ88RHpK5lKtgR4eOSA0RgCgsMKS3pDjk5Z6vBrWBidoN77BJ.rz
+ zgYTNNPGIF9td_Ux8v9yIjI_t0lXUJ.ZPCPclRUCyrq8Ust0KLl4Z5340NDhIyUSEDD8t_zTDX2j
+ 6Hpmx._yi98wAkLIQL6oOCwgRVh5NDrALhJB7p6azlteiGgzH_d7jfkJaQUBOrL3wGZ0oTcCS7s8
+ v0Pf9Duf_M4H2d4WUl4w75fEvTlKQty.MHtqHKWT4UZFI4LFMbRlsDwYo7p3ypzH1x5LvEmtsiVS
+ BKiE1lsgh7yx3j14zYiA6EphKGEIB8OJMDSfVH8QXX4f7u.Nz.BzH7ZD4CHNkb5W7hObDbhVKj49
+ x6cxxyQ4oqmpihuvPGB2APowAdG0b09H.6Ju0UWj3wW6fuMqNxa_byK23p_dwONB2Kns2Cyjbbna
+ LPjj8aXGjsg9RYGWqJXuMHcXiwR5ZMH8XmFgzy8cWOi7OtS4Vl5ff8J9L5qv1dplUlEeGhwjviv.
+ FNcqOEwGX_ji_UVrqpHPB5vNAvB9K1XhlXImWHgekBFE.Ep9OEaXzPtNT0zz7o.UROX2r.k366Hh
+ 24inQaQD3hktEGzhVTR6KoNVqebODqEpFIkUCgtaRjuP073lY2Fxt.nxySu1ErfTVi4DfnGWCL50
+ g0Hl2YLwQQoiupE6aELXqjsPHhW9KB0bTudnXWrpbhUZo8mY3EskXY5H4NCF7qgSZbBJYM29_4bE
+ awrk7BAU_rXD9A4uw.EJZZ1RLL145U.xydwUEh6ecLSsYxiY1IFyoRvppUd_Sv2krfIeuZ1vnRQF
+ Woo50kV._hhq94zOGq.Sf6CjV0B2X.9gc17N9KH7y07Aq4e0WulkHJarufIdLHc0v5Gpe8tjmO3b
+ 6MCYwGVFsKct2afo_WRx8m3vQG4kYPBWO73cliM56ZOm62TA0sgCYN81FghMDzuThtqV_f.m8il5
+ mCMQ11f8FUD2q0GreaNd.uUvXg33eQOgr8FiktMyCQsSLsgso9rj4B0IuO7HDsdQqmwP5RLiKkh_
+ kKFdhI12AUbmFiwPyQfOsacEE2xDF49QssLas.XGt68OedRMhJthoQH24dEUPl0xVulZQNroqtBX
+ wCenMU5fNsEvJxEuFbCFkgjrXhNIoTIjBQY8sKo_5OOYK.dj0_rOLg6q16yGeTYADfS0yPZ.bysJ
+ JSjY1GIIRGDXZdRxkwZs49x_z.nUKOEAZLEhzFG0hZ2.Ju_6vLW7jShAXUKa5cabG.mi9WpUQ7Ew
+ uk1pJRjO4gU85FgPPlZ7khhdvtUsVtu1yKcpTb_38mAorjQY6vutepBtOt.shuha4_FVLmRxHc9r
+ Ktl_kAfRF0FZC9.4g_5qMORVLGUIX.2YRrwyW0ER.scL6Chd6v_nfVnL7XeFmk0uxZbVLsTTvlTF
+ 0Gq3aMWNBUArEq388mR.88p95nei388HYYmNIf2vqItMLZstrSL3ub.1uJek1mQjt6QLb7O3HnfE
+ 1VYshlBukfiz7PRaDIkbzmp6HYsl9GDiYLL0MgoZWmvvN4KI4zNkFlma.GIHZjEbD60hxt3casX6
+ Bq0h0jQSk_h6V4Yrt8wbXPYlFVTalFJrFp6UarqrsR4TaSF9H6XICIYy8fMm5aE12p8H.YFDlAB4
+ H.NmgNaHQK3YSchOA3gUbTj.X_lgByr2aKfJNb2VAFCRsGjiZcgYXW1Xsm3LxYbxFyTw6r2JW56X
+ lVGHpJvvc1wfOi.BWRpmyF3V85TsGdGbqLEBsZEj3o5coSc25t4RLT533Z.ORmQ--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.gq1.yahoo.com with HTTP; Wed, 31 Aug 2022 00:24:37 +0000
+Date: Wed, 31 Aug 2022 00:24:33 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "kliao@jjay.cuny.edu" <kliao@jjay.cuny.edu>, 
+	Baris Dincer <baris.dincer@jjay.cuny.edu>, 
+	MILTON MCKENZIE <ms60710444266@yahoo.com>, 
+	"risc@ic.fbi.gov" <risc@ic.fbi.gov>, 
+	"114pctyco@nypd.org" <114pctyco@nypd.org>, 
+	"72pctdvo@nypd.org" <72pctdvo@nypd.org>, 
+	"23pctyco@nypd.org" <23pctyco@nypd.org>, 
+	"23pctdvo@nypd.org" <23pctdvo@nypd.org>, 
+	"helpdesk@listserv.leo.gov" <helpdesk@listserv.leo.gov>, 
+	"inbox@livekelly.com" <inbox@livekelly.com>, 
+	JAREE JONES <jaree.jones@nypd.org>, 
+	"jarett.dilorenzo@nypd.org" <jarett.dilorenzo@nypd.org>, 
+	"lee.henderson@ey.com" <lee.henderson@ey.com>, 
+	FDIC Public Information <publicinfo@fdic.gov>, 
+	FREEDOM OF INFORMATION ACT <foia@eeoc.gov>, 
+	Kpmg Info <info@kpmg.com>, 
+	"edi.civil.rights.division@irs.gov" <edi.civil.rights.division@irs.gov>, 
+	Icighotline <icighotline@dni.gov>
+Cc: "helpdesk@leo.gov" <helpdesk@leo.gov>, 
+	"helpdesk@jjay.cuny.edu" <helpdesk@jjay.cuny.edu>, 
+	RICHARD LEE <richard.lee3@nypd.org>, 
+	"114pctdvo@nypd.org" <114pctdvo@nypd.org>, 
+	"schockl@sec.gov" <schockl@sec.gov>, 
+	MIT Sloan Executive Education <executive_education@mailsvc.sloan.mit.edu>, 
+	"BRO-ExecAssistant-S (BOP)" <bro-execassistant-s@bop.gov>, 
+	"bop-ipp-publicaffairs@bop.gov" <bop-ipp-publicaffairs@bop.gov>, 
+	Bop-rsd-preacoordinator <bop-rsd-preacoordinator@bop.gov>, 
+	"hax-execassistant-s@bop.gov" <hax-execassistant-s@bop.gov>, 
+	"lox-execassistant-s@bop.gov" <lox-execassistant-s@bop.gov>, 
+	"bsy-execassistant@bop.gov" <bsy-execassistant@bop.gov>, 
+	Debra Iles <exed@hks.harvard.edu>, 
+	Exempt Orgs <exempt.orgs@cpa.texas.gov>, 
+	"disaster@leo.gov" <disaster@leo.gov>, 
+	"fbilatenthit@leo.gov" <fbilatenthit@leo.gov>, 
+	"Rights Division, Civil (CRT)" <civilrightsdivision@usdoj.gov>, 
+	LinkedIn <editors-noreply@linkedin.com>, 
+	InvestmentNews Daily Pulse <investmentnews@editorial.investmentnews.com>, 
+	STEVEN 00003govtIdx MCMAN <smcman@fbi.gov>, 
+	Smcgibbon <smcgibbon@acus.gov>
+Message-ID: <543221913.1609841.1661905473651@mail.yahoo.com>
+In-Reply-To: <432065446.1432805.1661878566592@mail.yahoo.com>
+References: <966ec4ada2ea47508abc96a08a0e9091@jjay.cuny.edu> <24a2f0b3f9a14440b73d89a74f0294f5@jjay.cuny.edu> <e4894ab3417044e8870d95295243103c@jjay.cuny.edu> <acd922365ec84a5e9eeedb11d5245734@jjay.cuny.edu> <1167559672.1402839.1661876139710@mail.yahoo.com> <17244681.1407126.1661876507331@mail.yahoo.com> <484354654.1405540.1661876597686@mail.yahoo.com> <471072550.1417258.1661876637292@mail.yahoo.com> <532577018.1416126.1661877653661@mail.yahoo.com> <432065446.1432805.1661878566592@mail.yahoo.com>
+Subject: Re: JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technical
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1609840_583754814.1661905473644"
+X-Mailer: WebService/1.1.20595 YahooMailAndroidMobile
+Content-Length: 28232
+
+------=_Part_1609840_583754814.1661905473644
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Enjoy the rest of the semester, can't guarantee you attendance ;)*
+Plus, I have to be in Vermont before the 5th of September.
+Enjoy ! And this way. You don't have to scare the shit out of the students.=
+. You can tell them it was a test, or whatever you wanr..
+I CAN'T GUARANTEE YOU THE MANDATORY ATTENDANCE,=C2=A0 SO INSTEAD... I HAVE =
+TO GO FULLY ONLINE..
+LAST TIME, I WAS PARTIALLY ONLINE. THINGS GOT COMPLETELY OUT OF CONTROL... =
+SO THIS TIME.. PARTIALLY HYBRID AGAIN, BUT NO MANDATORY ATTENDANCE REQUIRED=
+ . NO CAN DO.
+
+
+Old School: Recruiting the pledges =20
+| =20
+|  =20
+|  =20
+|   |    |
+
+   |
+
+  |
+| =20
+|   | =20
+Old School: Recruiting the pledges
+=20
+
+  |   |
+
+  |
+
+  |
+
+ =20
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Aug 30, 2022 at 12:56 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+=20
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Aug 30, 2022 at 12:40 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+ https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issues/2
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Aug 30, 2022 at 12:23 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+ https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issues/2
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Aug 30, 2022 at 12:23 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+=20
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Aug 30, 2022 at 12:21 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+ Why dont you print that out and let me know what you inderstand.=C2=A0
+
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Aug 30, 2022 at 12:15 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+ Sorry I couldn't stay after class, I had a call with the FBI/DNI.
+Feel free to call them at 1-855'835-5324 if you had any further questions.
+
+https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issues/2
+
+Thank you, those are the directions to Moot Court We provided.
+
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Thu, Aug 25, 2022 at 4:43 PM, Kim Liao<kliao@jjay.cuny.edu> wrote:   <=
+!--#yiv0394452613 P {margin-top:0;margin-bottom:0;}-->Dear Bo,
+
+Actually, it is a hybrid class that meets once a week on Tuesdays from 10:5=
+0-12:05. We=E2=80=99ll be meeting in the New Building Room 1.90.
+
+Looking forward to meeting you!
+
+More soon,
+Kim
+From: Baris Dincer
+Sent: Thursday, August 25, 2022 12:24:53 PM
+To: Kim Liao
+Cc: bo.dincer@yahoo.com
+Subject: Re: JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technical Writi=
+ng in Computer Science,=C2=A0
+Dear Kim,
+
+
+
+
+I thought this was a online only class? Where is class being held?=C2=A0
+
+
+
+
+In any event, I look forward to the meeting with you !
+
+
+
+
+Most Respectfully,
+
+
+
+
+-=C2=A0Bo.
+
+
+From: Kim Liao
+Sent: Wednesday, August 24, 2022 10:56 AM
+To: Baris Dincer
+Cc: bo.dincer@yahoo.com
+Subject: Re: JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technical Writi=
+ng in Computer Science,=C2=A0
+Dear Baris,
+
+
+
+
+Welcome to our Technical Writing course!=C2=A0
+
+
+
+
+Our first day of class is next Tuesday, 8/30, at 10:50 a.m. I'll open up th=
+e course=C2=A0Blackboard page with a digital syllabus available before Tues=
+day (probably either this Friday or first thing Monday morning).
+
+
+
+
+I'll have a paper syllabus available for you in class on Tuesday, and we'll=
+ go over the framework and content of the course.
+
+
+
+
+Looking forward to meeting you!
+
+Best wishes,Kim
+
+
+Kim LiaoCo-Director,=C2=A0Writing Across the Curriculum Program
+Writing LecturerDepartment of English
+John Jay College of Criminal Justice
+
+
+From: Baris Dincer
+Sent: Tuesday, August 23, 2022 4:22:25 PM
+To: Kim Liao
+Cc: bo.dincer@yahoo.com
+Subject: JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technical Writing i=
+n Computer Science,=C2=A0
+When will the course syllabus be available?
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+
+------=_Part_1609840_583754814.1661905473644
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Enjoy the rest of the semester, can't guarantee you attendance ;)*<div id=
+=3D"yMail_cursorElementTracker_1661905297775"><br></div><div id=3D"yMail_cu=
+rsorElementTracker_1661905297899">Plus, I have to be in Vermont before the =
+5th of September.</div><div id=3D"yMail_cursorElementTracker_1661905319544"=
+><br></div><div id=3D"yMail_cursorElementTracker_1661905319731">Enjoy ! And=
+ this way. You don't have to scare the shit out of the students... You can =
+tell them it was a test, or whatever you wanr..</div><div id=3D"yMail_curso=
+rElementTracker_1661905371208"><br></div><div id=3D"yMail_cursorElementTrac=
+ker_1661905371344">I CAN'T GUARANTEE YOU THE MANDATORY ATTENDANCE,&nbsp; SO=
+ INSTEAD... I HAVE TO GO FULLY ONLINE..</div><div id=3D"yMail_cursorElement=
+Tracker_1661905407265"><br></div><div id=3D"yMail_cursorElementTracker_1661=
+905407327">LAST TIME, I WAS PARTIALLY ONLINE. THINGS GOT COMPLETELY OUT OF =
+CONTROL... SO THIS TIME.. PARTIALLY HYBRID AGAIN, BUT NO MANDATORY ATTENDAN=
+CE REQUIRED . NO CAN DO.<br><div id=3D"yMail_cursorElementTracker_166190529=
+0585"><br></div><div id=3D"yMail_cursorElementTracker_1661905290708"><br><a=
+ id=3D"linkextractor__1661905293606" data-yahoo-extracted-link=3D"true" hre=
+f=3D"https://youtu.be/mcSK6MWOfiM" class=3D"lEnhancr_1661905293994">Old Sch=
+ool: Recruiting the pledges</a><div id=3D"lEnhancr_1661905293994" class=3D"=
+yahoo-link-enhancr-card yahoo-link-enhancr-cardSize-medium yahoo-link-enhan=
+cr-cardType-yenhancr yahoo-link-enhancr-cardCategory-  ymail-preserve-class=
+ ymail-preserve-style" style=3D"max-width: 400px; font-family: &quot;Helvet=
+ica Neue&quot;, Helvetica, Arial, sans-serif; position: relative;" contente=
+ditable=3D"false" data-url=3D"https://youtu.be/mcSK6MWOfiM" data-type=3D"LI=
+NK_ENHANCR_ATTACHMENT_TYPE_INLINE" data-category=3D"" data-embed-url=3D"" d=
+ata-size=3D"medium">
+                       <a href=3D"https://youtu.be/mcSK6MWOfiM" style=3D"te=
+xt-decoration:none !important; color: #000 !important;" class=3D"yahoo-enha=
+ncr-cardlink" target=3D"_blank" rel=3D"noreferrer">
+                           <table class=3D"card-wrapper yahoo-ignore-table"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"max-width:400px;=
+">
+                               <tbody><tr>
+                               <td width=3D"400">
+                                   <table class=3D"card yahoo-ignore-table"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"m=
+ax-width:400px;">
+                                       <tbody><tr>
+                                           <td class=3D"card-primary-image-=
+cell" style=3D"background:#000 url('https://s.yimg.com/lo/api/res/1.2/8VoQC=
+goU5ZV7tRd0OPLvPw--~A/Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZXh0cmFjdA--/http=
+s://i.ytimg.com/vi/mcSK6MWOfiM/hqdefault.jpg.cf.jpg') no-repeat center cent=
+er;background-size:cover;height:200px;position:relative;" background=3D"htt=
+ps://s.yimg.com/lo/api/res/1.2/8VoQCgoU5ZV7tRd0OPLvPw--~A/Zmk9ZmlsbDt3PTQwM=
+DtoPTIwMDthcHBpZD1pZXh0cmFjdA--/https://i.ytimg.com/vi/mcSK6MWOfiM/hqdefaul=
+t.jpg.cf.jpg" bgcolor=3D"#000000" valign=3D"top">
+
+                                               <!--[if gte mso 9]><v:rect f=
+ill=3D"true" stroke=3D"false" style=3D"width:400px;height:218px;position:ab=
+solute;top:0;left:0;"><v:fill type=3D"frame" color=3D"#000000" src=3D"https=
+:&#x2F;&#x2F;s.yimg.com&#x2F;lo&#x2F;api&#x2F;res&#x2F;1.2&#x2F;8VoQCgoU5ZV=
+7tRd0OPLvPw--~A&#x2F;Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZXh0cmFjdA--&#x2F;=
+https:&#x2F;&#x2F;i.ytimg.com&#x2F;vi&#x2F;mcSK6MWOfiM&#x2F;hqdefault.jpg.c=
+f.jpg"/></v:rect><![endif]-->
+
+                                               <table class=3D"yahoo-ignore=
+-table" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" valign=3D"top" sty=
+le=3D"width:100%;">
+                                                   <tbody><tr>
+                                                       <td style=3D"backgro=
+und:transparent url('https://s.yimg.com/nq/storm/assets/enhancrV2/12/overla=
+y-tile.png') repeat left top;height:200px;" background=3D"https://s.yimg.co=
+m/nq/storm/assets/enhancrV2/12/overlay-tile.png" bgcolor=3D"transparent" va=
+lign=3D"top">
+
+                                                           <!--[if gte mso =
+9]><v:rect fill=3D"true" stroke=3D"false" style=3D"width:400px;height:218px=
+;position:absolute;top:-18px;left:0;"><v:fill type=3D"pattern" color=3D"#00=
+0000" src=3D"https://s.yimg.com/nq/storm/assets/enhancrV2/12/overlay-tile.p=
+ng"/><v:textbox inset=3D"0,0,20px,0"><![endif]-->
+
+                                                           <table class=3D"=
+yahoo-ignore-table" height=3D"185" style=3D"width:100%;height:185px;min-hei=
+ght:185px;">
+                                                               <tbody><tr>
+                                                                   <td clas=
+s=3D"card-richInfo2" style=3D"text-align:left;text-align:left;padding:15px =
+0 0 15px;vertical-align:top;">
+                                                                   </td>
+                                                                   <td clas=
+s=3D"card-actions" style=3D"text-align:right;padding:15px 15px 0 0;vertical=
+-align:top;">
+                                                                       <div=
+ class=3D"card-share-container"></div>
+                                                                   </td>
+                                                               </tr>
+                                                           </tbody></table>
+
+                                                           <!--[if gte mso =
+9]></v:textbox></v:rect><![endif]-->
+                                                       </td>
+                                                   </tr>
+                                               </tbody></table>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                           <td>
+                                               <table class=3D"card-info ya=
+hoo-ignore-table" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" style=3D"background:#fff;position:relative;z-index:2;width:95%;max=
+-width:380px;border:1px solid #e0e4e9;border-bottom:3px solid ;margin-top:-=
+40px;margin-left:auto;margin-right:auto;">
+                                                   <tbody><tr>
+                                                       <td style=3D"backgro=
+und-color:#ffffff;padding:16px 0 16px 12px;vertical-align:top;">
+                                                       </td>
+
+                                                       <td style=3D"vertica=
+l-align:middle;padding:16px 12px;width:99%;">
+                                                           <h2 class=3D"car=
+d-title" style=3D"font-size: 16px; line-height:19px; margin:0 0 4px 0;font-=
+family:'Helvetica Neue', Helvetica, Arial, sans-serif;">Old School: Recruit=
+ing the pledges</h2>
+                                                           <p class=3D"card=
+-description" style=3D"font-size:11px;line-height:15px;color:#999;"></p>
+                                                       </td>
+
+                                                       <td style=3D"text-al=
+ign:right;padding:16px 12px 16px 0;">
+                                                       </td>
+                                                   </tr>
+                                               </tbody></table>
+                                           </td>
+                                       </tr>
+                                   </tbody></table>
+                               </td>
+                               </tr>
+                           </tbody></table>
+                       </a>
+                   </div></div><div id=3D"yMail_cursorElementTracker_166190=
+5293702"><br></div><div id=3D"yMail_cursorElementTracker_1661905293715"><br=
+><div id=3D"ymail_android_signature"><a id=3D"ymail_android_signature_link"=
+ href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Int=
+ernal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DIn=
+ternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from=
+ Yahoo Mail on Android</a></div> <br> <blockquote style=3D"margin: 0 0 20px=
+ 0;"> <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>O=
+n Tue, Aug 30, 2022 at 12:56 PM, Bo Dincer</div><div>&lt;bo.dincer@yahoo.co=
+m&gt; wrote:</div> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10p=
+x 0 0 0; border-left: 1px solid #6D00F6;"> <br><br><div id=3D"ymail_android=
+_signature"><a id=3D"ymail_android_signature_link" href=3D"https://go.oneli=
+nk.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmai=
+lSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlob=
+al_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on Android</a=
+></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-=
+family:Roboto, sans-serif; color:#6D00F6;"> <div>On Tue, Aug 30, 2022 at 12=
+:40 PM, Bo Dincer</div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</div> </div>=
+ <div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px=
+ solid #6D00F6;"> <a id=3D"linkextractor__1661877647593" data-yahoo-extract=
+ed-link=3D"true" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/INDEX15397=
+4/issues/2">https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issues/2</a=
+><div id=3D"yMail_cursorElementTracker_1661877647676"><br><br><div id=3D"ym=
+ail_android_signature"><a id=3D"ymail_android_signature_link" href=3D"https=
+://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_=
+AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_=
+sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on=
+ Android</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div sty=
+le=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>On Tue, Aug 30,=
+ 2022 at 12:23 PM, Bo Dincer</div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</=
+div> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; borde=
+r-left: 1px solid #6D00F6;"> <a id=3D"linkextractor__1661876626322" data-ya=
+hoo-extracted-link=3D"true" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC=
+/INDEX153974/issues/2">https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/=
+issues/2</a><div id=3D"yMail_cursorElementTracker_1661876626389"><br><br><d=
+iv id=3D"ymail_android_signature"><a id=3D"ymail_android_signature_link" hr=
+ef=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Intern=
+al_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInter=
+nal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Ya=
+hoo Mail on Android</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;=
+"> <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>On T=
+ue, Aug 30, 2022 at 12:23 PM, Bo Dincer</div><div>&lt;bo.dincer@yahoo.com&g=
+t; wrote:</div> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10px 0=
+ 0 0; border-left: 1px solid #6D00F6;"> <br><br><div id=3D"ymail_android_si=
+gnature"><a id=3D"ymail_android_signature_link" href=3D"https://go.onelink.=
+me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSi=
+g__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_=
+YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on Android</a></=
+div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-fam=
+ily:Roboto, sans-serif; color:#6D00F6;"> <div>On Tue, Aug 30, 2022 at 12:21=
+ PM, Bo Dincer</div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</div> </div> <d=
+iv style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px so=
+lid #6D00F6;"> Why dont you print that out and let me know what you inderst=
+and.&nbsp;<div id=3D"yMail_cursorElementTracker_1661876386469"><br></div><d=
+iv id=3D"yMail_cursorElementTracker_1661876386615"><br><br><div id=3D"ymail=
+_android_signature"><a id=3D"ymail_android_signature_link" href=3D"https://=
+go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_And=
+roidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub=
+2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on An=
+droid</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=
+=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>On Tue, Aug 30, 2=
+022 at 12:15 PM, Bo Dincer</div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</di=
+v> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-=
+left: 1px solid #6D00F6;"> Sorry I couldn't stay after class, I had a call =
+with the FBI/DNI.<div id=3D"yMail_cursorElementTracker_1661876078130"><br><=
+/div><div id=3D"yMail_cursorElementTracker_1661876078295">Feel free to call=
+ them at 1-855'835-5324 if you had any further questions.</div><div id=3D"y=
+Mail_cursorElementTracker_1661876102954"><br></div><div id=3D"yMail_cursorE=
+lementTracker_1661876103092"><br><a id=3D"linkextractor__1661876080793" dat=
+a-yahoo-extracted-link=3D"true" href=3D"https://github.com/BSCPGROUPHOLDING=
+SLLC/INDEX153974/issues/2">https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153=
+974/issues/2</a></div><div id=3D"yMail_cursorElementTracker_1661876080856">=
+<br></div><div id=3D"yMail_cursorElementTracker_1661876104119"><br></div><d=
+iv id=3D"yMail_cursorElementTracker_1661876104216">Thank you, those are the=
+ directions to Moot Court We provided.</div><div id=3D"yMail_cursorElementT=
+racker_1661876121726"><br></div><div id=3D"yMail_cursorElementTracker_16618=
+76121898"><br></div><div id=3D"yMail_cursorElementTracker_1661876080952"><b=
+r><div id=3D"ymail_android_signature"><a id=3D"ymail_android_signature_link=
+" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_In=
+ternal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DI=
+nternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Sent fro=
+m Yahoo Mail on Android</a></div> <br> <blockquote style=3D"margin: 0 0 20p=
+x 0;"> <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>=
+On Thu, Aug 25, 2022 at 4:43 PM, Kim Liao</div><div>&lt;kliao@jjay.cuny.edu=
+&gt; wrote:</div> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10px=
+ 0 0 0; border-left: 1px solid #6D00F6;"> <div id=3D"yiv0394452613"><style =
+type=3D"text/css"><!--#yiv0394452613 P {margin-top:0;margin-bottom:0;}--></=
+style><div dir=3D"ltr">
+Dear Bo,<br clear=3D"none">
+<br clear=3D"none">
+Actually, it is a hybrid class that meets once a week on Tuesdays from 10:5=
+0-12:05. We=E2=80=99ll be meeting in the New Building Room 1.90.<br clear=
+=3D"none">
+<br clear=3D"none">
+Looking forward to meeting you!<br clear=3D"none">
+<br clear=3D"none">
+More soon,<br clear=3D"none">
+Kim<br clear=3D"none">
+<hr style=3D"display:inline-block;width:98%;" tabindex=3D"-1">
+<div id=3D"yiv0394452613yqt62021" class=3D"yiv0394452613yqt6624595875 yQTDB=
+ase"><div dir=3D"ltr" id=3D"yiv0394452613divRplyFwdMsg"><font face=3D"Calib=
+ri, sans-serif" style=3D"font-size:11pt;" color=3D"#000000"><b>From:</b> Ba=
+ris Dincer<br clear=3D"none">
+<b>Sent:</b> Thursday, August 25, 2022 12:24:53 PM<br clear=3D"none">
+<b>To:</b> Kim Liao<br clear=3D"none">
+<b>Cc:</b> bo.dincer@yahoo.com<br clear=3D"none">
+<b>Subject:</b> Re: JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technica=
+l Writing in Computer Science,
+</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div dir=3D"ltr" id=3D"yiv0394452613divtagdefaultwrapper" style=3D"font-siz=
+e:12pt;color:#000000;font-family:Calibri, Helvetica, sans-serif;">
+<p>Dear Kim,</p>
+<p><br clear=3D"none">
+</p>
+<p>I thought this was a online only class? Where is class being held?&nbsp;=
+</p>
+<p><br clear=3D"none">
+</p>
+<p>In any event, I look forward to the meeting with you !</p>
+<p><br clear=3D"none">
+</p>
+<p>Most Respectfully,</p>
+<p><br clear=3D"none">
+</p>
+<p>-&nbsp;Bo.</p>
+<br clear=3D"none">
+<br clear=3D"none">
+<div style=3D"color:rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block;width:98%;">
+<div dir=3D"ltr" id=3D"yiv0394452613divRplyFwdMsg"><font face=3D"Calibri, s=
+ans-serif" color=3D"#000000" style=3D"font-size:11pt;"><b>From:</b> Kim Lia=
+o<br clear=3D"none">
+<b>Sent:</b> Wednesday, August 24, 2022 10:56 AM<br clear=3D"none">
+<b>To:</b> Baris Dincer<br clear=3D"none">
+<b>Cc:</b> bo.dincer@yahoo.com<br clear=3D"none">
+<b>Subject:</b> Re: JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technica=
+l Writing in Computer Science,
+</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div dir=3D"ltr" id=3D"yiv0394452613divtagdefaultwrapper" style=3D"font-siz=
+e:12pt;color:#000000;font-family:Calibri, Helvetica, sans-serif;">
+<p><span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif=
+;">Dear Baris,</span></p>
+<p><br clear=3D"none">
+</p>
+<p><span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif=
+;">Welcome to our Technical Writing course!&nbsp;</span></p>
+<p><br clear=3D"none">
+</p>
+<p><span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif=
+;">Our first day of class is next Tuesday, 8/30, at 10:50 a.m. I'll open up=
+ the course&nbsp;</span><span style=3D"font-size:12pt;font-family:Calibri, =
+Helvetica, sans-serif;">Blackboard page with
+ a digital syllabus available before Tuesday (probably either this Friday o=
+r first thing Monday morning).</span></p>
+<p><br clear=3D"none">
+</p>
+<p><span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif=
+;">I'll have a paper syllabus available for you in class on Tuesday, and we=
+'ll go over the framework and content of the course.</span></p>
+<p><br clear=3D"none">
+</p>
+<p><span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif=
+;">Looking forward to meeting you!</span></p>
+<div id=3D"yiv0394452613Signature"><span style=3D"font-size:12pt;font-famil=
+y:Calibri, Helvetica, sans-serif;"></span>
+<div dir=3D"ltr" id=3D"yiv0394452613divtagdefaultwrapper" style=3D"color:rg=
+b(0,0,0);"><span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sa=
+ns-serif;"></span>
+<div style=3D""><span style=3D"font-size:12pt;font-family:Calibri, Helvetic=
+a, sans-serif;"></span>
+<div style=3D""><span style=3D"font-size:12pt;font-family:Calibri, Helvetic=
+a, sans-serif;"></span>
+<div style=3D""><span style=3D"font-size:12pt;font-family:Calibri, Helvetic=
+a, sans-serif;"></span>
+<div style=3D""><span style=3D"font-size:12pt;font-family:Calibri, Helvetic=
+a, sans-serif;"></span>
+<div style=3D""><span style=3D"font-size:12pt;font-family:Calibri, Helvetic=
+a, sans-serif;"></span>
+<div style=3D""><span style=3D"font-size:12pt;font-family:Calibri, Helvetic=
+a, sans-serif;"></span>
+<div style=3D"font-family:Tahoma;font-size:13.3333px;"><span style=3D"font-=
+size:12pt;font-family:Calibri, Helvetica, sans-serif;"></span>
+<div style=3D"font-size:13.3333px;"><br clear=3D"none">
+<span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif;">=
+</span><span style=3D"font-size:12pt;"></span><span style=3D"font-family:Ca=
+libri, Helvetica, sans-serif;font-size:11pt;"></span></div>
+<span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif;">=
+</span><span style=3D"font-size:12pt;"></span><span style=3D"font-family:Ca=
+libri, Helvetica, sans-serif;font-size:11pt;"></span></div>
+<span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif;">=
+</span><span style=3D"font-size:12pt;"></span><span style=3D"font-family:Ca=
+libri, Helvetica, sans-serif;font-size:11pt;font-size:11pt;"></span><span s=
+tyle=3D"font-size:12pt;"></span><span style=3D"font-size:12pt;font-family:C=
+alibri, Helvetica, sans-serif;"></span>
+<div style=3D"font-family:Tahoma;font-size:13.3333px;"><span style=3D"font-=
+family:Calibri, Helvetica, sans-serif;font-size:11pt;"><span style=3D"font-=
+size:12pt;font-family:Calibri, Helvetica, sans-serif;">Best wishes</span><s=
+pan style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif;">,<=
+/span></span></div>
+<span style=3D"font-size:12pt;font-family:Calibri, Helvetica, sans-serif;">=
+</span><span style=3D"font-size:12pt;"></span><span style=3D"font-family:Ca=
+libri, Helvetica, sans-serif;font-size:11pt;font-size:11pt;"></span><span s=
+tyle=3D"font-size:12pt;"></span><span style=3D"font-size:12pt;font-family:C=
+alibri, Helvetica, sans-serif;"></span>
+<div style=3D""><span style=3D"font-family:Calibri, Helvetica, sans-serif;f=
+ont-size:12pt;">Kim</span><br clear=3D"none">
+<span style=3D"font-size:12pt;"></span><span style=3D"font-family:Calibri, =
+Helvetica, sans-serif;font-size:11pt;font-size:11pt;"></span><span style=3D=
+"font-size:12pt;"></span>
+<div style=3D""><br clear=3D"none">
+</div>
+<div style=3D""><br clear=3D"none">
+<span style=3D"font-size:12pt;"></span><span style=3D"font-family:Calibri, =
+Helvetica, sans-serif;font-size:11pt;font-size:11pt;"></span><span style=3D=
+"font-size:12pt;"></span>
+<div style=3D"font-family:Tahoma;font-size:13px;"><span style=3D"font-famil=
+y:Calibri, Helvetica, sans-serif;font-size:12pt;">Kim Liao</span></div>
+<span style=3D"font-size:12pt;"></span>
+<div style=3D"font-family:Tahoma;font-size:13px;"><span style=3D"font-famil=
+y:Calibri, Helvetica, sans-serif;font-size:11pt;"></span><span style=3D"fon=
+t-family:Calibri, Helvetica, sans-serif;font-size:11pt;"><span id=3D"yiv039=
+4452613ms-rterangepaste-start"></span><span style=3D"font-family:Calibri, H=
+elvetica, sans-serif;font-size:12pt;">Co-Director,&nbsp;</span><span style=
+=3D"font-size:12pt;">Writing
+ Across the Curriculum Program</span></span><br clear=3D"none" style=3D"fon=
+t-family:Helvetica, Arial, sans-serif;font-size:13.3333px;">
+<span style=3D"font-size:12pt;"></span></div>
+<div style=3D"font-family:Tahoma;font-size:13px;"><span style=3D"font-famil=
+y:Calibri, Helvetica, sans-serif;font-size:12pt;">Writing Lecturer</span></=
+div>
+<span style=3D"font-size:12pt;"></span>
+<div style=3D""><span style=3D"font-family:Calibri, Helvetica, sans-serif;f=
+ont-size:11pt;"></span><span style=3D"font-size:12pt;"></span>
+<div style=3D"font-family:Tahoma;font-size:13px;"><span style=3D"font-famil=
+y:Calibri, Helvetica, sans-serif;font-size:12pt;">Department of English</sp=
+an><br clear=3D"none">
+<span style=3D"font-size:12pt;"></span></div>
+<span style=3D"font-size:12pt;"></span>
+<div style=3D"font-family:Tahoma;font-size:13px;"><span style=3D"font-famil=
+y:Calibri, Helvetica, sans-serif;font-size:11pt;"></span><span style=3D"fon=
+t-family:Calibri, Helvetica, sans-serif;font-size:12pt;">John Jay College o=
+f Criminal Justice</span><br clear=3D"none" style=3D"font-family:Helvetica,=
+ Arial, sans-serif;font-size:13.3333px;">
+<br clear=3D"none">
+<span style=3D"font-family:Calibri, Helvetica, sans-serif;font-size:11pt;">=
+</span></div>
+<span style=3D"font-family:Calibri, Helvetica, sans-serif;font-size:11pt;fo=
+nt-size:11pt;"></span>
+<div style=3D"font-family:Tahoma;font-size:13px;"><span style=3D"font-famil=
+y:Helvetica, Arial, sans-serif;font-size:13.3333px;"><br clear=3D"none">
+</span></div>
+</div>
+</div>
+<div style=3D"font-family:New;font-size:16px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block;width:98%;">
+<div dir=3D"ltr" id=3D"yiv0394452613divRplyFwdMsg"><font face=3D"Calibri, s=
+ans-serif" color=3D"#000000" style=3D"font-size:11pt;"><b>From:</b> Baris D=
+incer<br clear=3D"none">
+<b>Sent:</b> Tuesday, August 23, 2022 4:22:25 PM<br clear=3D"none">
+<b>To:</b> Kim Liao<br clear=3D"none">
+<b>Cc:</b> bo.dincer@yahoo.com<br clear=3D"none">
+<b>Subject:</b> JJC01_ENG_253_49374_1229_1: 2022 Fall Term (1) Technical Wr=
+iting in Computer Science,
+</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div dir=3D"ltr" id=3D"yiv0394452613divtagdefaultwrapper" style=3D"font-siz=
+e:12pt;color:#000000;font-family:Calibri, Helvetica, sans-serif;">
+<p>When will the course syllabus be available?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div></div> </div> </blockquote></div> </div> </blockquote></div> </div> <=
+/blockquote> </div> </blockquote></div> </div> </blockquote></div> </div> <=
+/blockquote> </div> </blockquote></div></div>
+------=_Part_1609840_583754814.1661905473644--

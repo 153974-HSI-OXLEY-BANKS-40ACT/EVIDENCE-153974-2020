@@ -1,0 +1,154 @@
+From - Sun Aug 28 22:40:50 2022
+X-Account-Key: account1
+X-UIDL: APZckyVnIt4nYre7cQ6xuFCBPLI
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.167
+ by atlas219.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 01:50:41 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.184]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.184 as permitted sender)
+Authentication-Results: atlas219.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 01:50:41 +0000
+X-YMailAVSC: Ko2Cnd83bBsx_DkVqDKXlfrrd1HMmJgjAiTMbMzDVZuc.5q
+ y.deXIO_HVECfmCj7_KCZMm1cNny2L89D8V3aIHKulpVg5H5ZHmn1_NaIlO7
+ .c59gpCbV94sKrsiebKdJZ5JcHTPj5PK76mYdT4KKIh2jnAz2d6dFYtmy7WH
+ iVJzBL7ktKf3HNR9G1_zCmdsJPzSlSW4NyiEDoUxzGy9VRA3lDKs_PaBkExb
+ glwuGBogk44PyWrxf9yUh_B2nD4Zwdq1UlNw7wYHGK_scboQwN1Kel76_2MG
+ whdwtAYQIWvsOMCqi_hpX.e9MNRreVEq9PCPDEff0tr8E2o6ZdOqJH2C82RF
+ P
+X-YMailISG: 3uRk1vMWLDuvcYdtSh9YHeoq1is3K8ssEF5T7DETjHjEXrh2
+ OikCU1qhrTFaGdgVOyoZTfoYHCibQXgLcufNXi9dbO4tW54E5cKQR0gD3TEw
+ CuynsT9Of.CsrSfv5vHsd7vsmdjDp16k0GI8inEf4JBTCmFPAFonZ2BsjdER
+ UI3bHT35A29KBHpzqCmwCn.Y1R_K3xtexGYkPQeh1yQNgdIMmlWm9FL_rnAY
+ fsN5SbEy_lj0_Y2qpnKanmhY0ZtJDN1vqlD6_CG_4ivPJvW4oRG7gV1kFH56
+ 5KSg98ycpaqrXvw59VwA.7uJhb1yIBy1TdsLGd5Jmv8rQ05CTTTts8GM4Vke
+ gbksPmVNwhkXVUditsZ7t7qvkrimlvpljZObBfpigICTCTwGUEZb3ggPq1tv
+ VM1UgepukyPsBUpoalzKLZ439PF7ec3ENS4RR4TtZEOYL7_CVRo9YDPSxVHY
+ JstZ1Ch1GTn_n8lWHFvPLcBI9Dqm7DD7RIsZaCZ5y8hbnHh92ZyUqhnp1CrL
+ xfDZ8SUuWWRUNSYaq.wbWExuXt5rDLoTcsSeX6KWuFNS84xLl11.kTwqviUt
+ ospY6PXijWIoKRlNZX11S7q_jsL1ox1dPT7wheeRMxpQHHMx7Ire49MuSFPq
+ kPbrWH1LUD0XmYQiqmD2KOI3s27jnoAlt3RRYFOHmrm.f1hFb.CiiQT9o2fS
+ PKn5rbeCPdnFrheKsbCjJ43Xp.F.Jjnl2fhdjxrHJBGgAZ2MgR8GNpHeSQi0
+ EPGnpV.JQTZCk3BnJrGdyRjmouhYqSAt5N_7M8YRwjMQVUaR_wmuTPmIC_SX
+ yfByHj1dIJ5Jj1XI3AWRMOhoccqNa5OPQrYcEn0sYv.UBKjk0pPz98prM8Qa
+ 2ug2cVdSEry37kEXEjApEyweh.ZIe0_ssSt7tvQdGmEVt529pQtO8YTOfWWT
+ zwTRIAFFTihkcLffXfo9ycYsuB4xmQFvYc04dDU8sUJM6K1Y.PT26UOK29sf
+ KMvND.PK4MMvq7DRsxwtf5NUwWTSuX01JG4iC_7f27B_uvL2QAYUjGjifm8f
+ rhz_lFGsXz5q0Se5lOu_e_4pPzwOh.lQt38V9q57lpuTflTt13zAJyPHMiqp
+ zjKxorXqfw093V2LyzaL0XhPML8cNPm_3qu7levmhJLzioQIj0Z1h_NXcoNN
+ 1pm8f5suyrPy.5LYVTOA_BxYxTUswulYPhq9u_60fxlDc9l6
+Received: from 17.58.63.184 (EHLO st43p00im-ztbu10073601.me.com)
+ by 10.197.40.167 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 01:50:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1656208241;
+	bh=H6t7k8EOuh+PArm4M6aOjaGhTjQOv/5lT5hHm3B6sXM=;
+	h=Content-Type:From:Mime-Version:Subject:Date:To:Message-Id;
+	b=cgdGK28agFX9rvFjRRuEdTUjNV5RG40oHpaZkEoFd4oGR7Et2G3FTnBHN9lu0Lkky
+	 ffkAZGmqJll5RRUXhL+qCxzRKPJxzkGGHKUtaUkCc9Vosb/zbfnmg002Hn4oia6C+d
+	 j7NdDvbADJV7d1l5bOlzudvq+z0eqRKLGXTiI3SAU6rmQc5E7nvla3JdBIkhaDc6Zy
+	 1AqgzbZrTSaOWo41vNee7RKlPs5jTx8EloPscO3nXERK/rhmFMOa0fGOW/OELB4B65
+	 lPa1bMBbXoMc96mJTrGGcV0kpdwDHy2ez+p7zqGK1nTc/1qPlfl79CwenjiJCaiuzc
+	 0UqeXRi9LtUXQ==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-ztbu10073601.me.com (Postfix) with ESMTPSA id 7C820180586;
+	Sun, 26 Jun 2022 01:50:39 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-B3328840-0917-4C9C-BECB-6E1502C224E8
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: USC 18.225 *** NEW CONSUMER CASE NOTIFICATION *** Case Number:  ref [1-1110909557]
+Date: Sat, 25 Jun 2022 21:50:37 -0400
+References: <b6c68941-217e-47e0-b9b5-295fdd67c924@WPSFD3P9.OPR.STATEFARM.ORG>
+To: "governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>
+Message-Id: <73180112-6CFA-4340-8924-FB45C1CCA288@icloud.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-GUID: E9epGNzuUB5UBHr8ZPbwn6NwK3WTMFN1
+X-Proofpoint-ORIG-GUID: E9epGNzuUB5UBHr8ZPbwn6NwK3WTMFN1
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.883,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-06-21=5F08:2020-02-14=5F02,2022-06-21=5F08,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 mlxlogscore=999 mlxscore=0 adultscore=0
+ phishscore=0 suspectscore=0 clxscore=1015 bulkscore=0 malwarescore=0
+ spamscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2206260006
+Content-Length: 3535
+
+
+--Apple-Mail-B3328840-0917-4C9C-BECB-6E1502C224E8
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: info@statefarm.com
+> Date: June 25, 2022 at 7:34:13 PM EDT
+> To: bdincer66@icloud.com
+> Subject: RE: USC 18.225 *** NEW CONSUMER CASE NOTIFICATION *** Case Number=
+:  ref [1-1110909557]
+> Reply-To: info@statefarm.com
+>=20
+> =EF=BB=BF
+> Thank you for your submission; please consider this message as your confir=
+mation we have received your email. Our service goal is to respond to reques=
+ts as quickly as possible.  However, when message volumes increase, we commi=
+t to responding to emails within five (5) business days.
+>=20
+> If you are a CUSTOMER in need of immediate assistance, please visit our Co=
+ntact Us page or talk to a State Farm representative 24/7 at 800-STATE-FARM (=
+800-782-8332).
+>=20
+> If you are a VENDOR requesting to do business with State Farm, and your se=
+rvices are not needed at this time, you may not receive further contact. If y=
+ou are a vendor in need of immediate assistance, please visit our Business-t=
+o-Business Contact Us page or talk to a B2B Help Desk representative 24/7 at=
+ 855-311-2681.
+
+--Apple-Mail-B3328840-0917-4C9C-BECB-6E1502C224E8
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> info@statefarm.com<br><b>Date:<=
+/b> June 25, 2022 at 7:34:13 PM EDT<br><b>To:</b> bdincer66@icloud.com<br><b=
+>Subject:</b> <b>RE: USC 18.225 *** NEW CONSUMER CASE NOTIFICATION *** Case N=
+umber:&nbsp; ref [1-1110909557]</b><br><b>Reply-To:</b> info@statefarm.com<b=
+r><br></div></blockquote><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF=
+<p><span style=3D"font-size: 12px;"><span style=3D"font-family: arial,helvet=
+ica,sans-serif;">Thank you for your submission; please consider this message=
+ as your confirmation we have received your email. Our service goal is to re=
+spond to requests as quickly as possible.&nbsp; However, when message volume=
+s increase, we commit to responding to emails within five (5) business days.=
+ </span></span></p><p><span style=3D"font-size: 12px;"><span style=3D"font-f=
+amily: arial,helvetica,sans-serif;">If you are a <strong><em>CUSTOMER </em><=
+/strong>in need of immediate assistance, please visit our <a href=3D"https:/=
+/www.statefarm.com/customer-care/contact-us"><span style=3D"color: black;"><=
+span style=3D"color: black;">Contact Us</span></span></a> page or talk to a S=
+tate Farm representative 24/7 at 800-STATE-FARM (800-782-8332).</span></span=
+></p><p><span style=3D"font-size: 12px;"><span style=3D"font-family: arial,h=
+elvetica,sans-serif;">If you are a <strong><em>VENDOR </em></strong>requesti=
+ng to do business with State Farm, and your services are not needed at this t=
+ime, you may not receive further contact. If you are a vendor in need of imm=
+ediate assistance, please visit our Business-to-Business <a href=3D"https://=
+b2b.statefarm.com/b2b/contactus.html"><span style=3D"color: black;"><span st=
+yle=3D"color: black;">Contact Us</span></span></a> page or talk to a B2B Hel=
+p Desk representative 24/7 at 855-311-2681.</span></span></p></div></blockqu=
+ote></body></html>=
+
+--Apple-Mail-B3328840-0917-4C9C-BECB-6E1502C224E8--

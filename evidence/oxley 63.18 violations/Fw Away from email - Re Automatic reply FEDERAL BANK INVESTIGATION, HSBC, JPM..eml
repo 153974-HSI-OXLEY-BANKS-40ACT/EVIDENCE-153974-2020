@@ -1,0 +1,302 @@
+From - Sun Aug 28 22:43:03 2022
+X-Account-Key: account1
+X-UIDL: AJqAIwA1q+GmYscRAQYagP471oU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.106
+ by atlas222.free.mail.bf1.yahoo.com with HTTPS; Thu, 7 Jul 2022 16:59:45 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.82]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.82 as permitted sender)
+Authentication-Results: atlas222.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 7 Jul 2022 16:59:45 +0000
+X-YMailAVSC: mt56LQU3bBtvO0vPuCRXR.rOAvymWkxncN8bODKYXeg9d66
+ LNLgeRS7k5kjfspZXzKKJzX5axS6m00ALgHYa23ltf3CWOLf0lAl7ynqvVOE
+ w8RBW7E7KYFxsmJYed4IRFZV2jPD1ywvkeXGu9z3Oh4mbGmYufO4fOv2lKFE
+ NPSg5n.Ul5gv2mTV7hw8omGz_Vc1nayoHoUAUi5WN6fKPZiU3HgaIwMLpRXi
+ IrIDayFwrHh7QMnN5rCr4Yv4EpxvS28tGxBWDesh1i9k797tkh8hAtx5RjIm
+ RMiQYM.DGyjAzrOhRFnLpugLVfKSjOWe5wj64R3NN7z6jPoR.6fUAhlNzoMH
+ PHCc-
+X-YMailISG: tqnsloUWLDuAwR_XYX3IhocygDbrn0fzbDGrv4B4qxCsohyc
+ 9KF_ZAknCqe93oOQMEhhSehbYKYO9jmq5RcWeIUeq38PIrwF23ORY1hATZ9W
+ 4lGu9YxsIyjGnP8DwZpiWSRlTPdfFFsZZr8VWEs0sxfoxO_nUFUXgSPqTeQz
+ uLQfBFP_OFqPvSFJdcrvkkvqCGzXqviozWBMG7axvlgEhjLRSse327XvMC2t
+ KWluQ4b_BUDOn_fqMIimkTAS_d3CzzVTg8HpgzSxARecY2PmJRCgX4gr0Zqg
+ GvjNFnWt5x1e3pu.EaXNP2NsWImREIRDn3NHgvvqQ2VM8m.9rNDepLzTu.D0
+ z8_6VLOeiiWzQtUAcVPPvqlQ8wFSv7BRD00B8XVpsjI0ubB3OD8lvSganVBN
+ 4CVE78Tpu.XVOBW98GiXrQx5TMoEBh7ZhgZgm_MT99ujaCVJyasMjf4bIuEa
+ 2JeMP_4QgdSfly0RuB1_3Ri778Dsb7UFjUBELGXuEeewL78spKMUKmjvgjiQ
+ hH2KNr9BYJPyiVAq2Dfc5QAyPkcH2AKyLsqkj7KzfieSGnkaZiP237iPN1ER
+ dWTCqZlUydFA7XlucLMILvYcvRIxzXfjl59lBBnrl4_BQEFyeYPftRtGM.1L
+ TYfW1b9JdHffORQ3TqhhkP3OQO6wwNSeFH.8eclPkkN4EeRSuQLzVqR0D2JD
+ wgMqLeEqe29jUny7qIwqUJbhuxt7Zf194hfDb_nznEiTsZcf0YQMhdWOdojJ
+ GMT0r33Y6CGcCfUc8WnvhDjkz_ad8zEGhdMvUqz4Is6xRTE7ph7N3hGCzyRZ
+ jK.XjKbkcavJGWVJFCgp1FQ.E5er7Hu9Oe3.VGyNBwtCJOqH1QaQOVRcMu9M
+ d7RDCdlJAy9zf9CwOzpns7TZGTJawO1IzSzM1RyPC_7b6OmLJ4xeAIUblJLS
+ 9tgY7DHl1th4WwBp2bY.pBZW7z7R6kuV8jNUGQg0UeiYlLAe7bitPHi_To9o
+ YJps.4TiC7ajAValkJGr26Ehqen9jdAqu2CwS6wBw2f3Gv0o_a8guyjuAyPv
+ _x_TyMkubbgaKFOsN7KSpSE2PcOxVoUlTNxdnlKHp70KX5bpAvP36vVgE1HK
+ U1LzfBRNzJay1Tue33qToAklJlcH_hBMesI64mkO1mzFkvMntJEpEctHQS6b
+ qhG7irJQXiIrRxDijNI-
+Received: from 98.137.66.82 (EHLO sonic321-19.consmr.mail.gq1.yahoo.com)
+ by 10.197.39.106 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 07 Jul 2022 16:59:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657213184; bh=LBCV7242yrogAoXQlzumhqC38Gz/2cKAsNOUyHWqGpo=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=HZJuQFphZ/8lTMXe9EjYQqB+w/H7OPTAKQTI9L3jrP4dRZlq4JwGfBBjAWymeak7t45pTYLZz55BsS6TOGvRgjYNYqBEDs1ox5oFHGdhnOKaIiUPwBmVmbvcj5lhu5VTw6CxMZPpfn/8p3YGbDOjw22z8rWCrtXfac8WHcSutZba2En1O4vowMEVJGe9lzmWjXsrKA1DtL/bWW8pdvx4Hzamm4kvqu50/AWMHNPSLDrwSEQHPyy1u/xiEj2oKwB57GzEgEwR9sZkOmzKwMv/juMo04OJvGK/hqtWxhMZ3ILB5kdkB8zXEEDXT6xkJjknmKxJSFWcjULxShO9ObFFKA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657213184; bh=YDZX28LjEe+YnbRafW4HOwJF6kSpm+MKTjIfRIYR0mD=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=Ttzi2zFRDtzrEGybvBqEopREV0WpW5UjL74a0TxnQoIuEkD2uBKSGN+xbIFm7njptodQZwmPZYuQthCbN6HvfD8bzIg8qKJYi6QJ/IJl3hfu2uoHiRSWyOwDo/MQb8nbt3QpBWnFMq8hKNbY6UQ/O/26tCrqPHJeNNmJMUe942B2/QjgjR/g2yDtL+uGZ5f0CaAOenXZdlRj4cr+9ehwU7jT8kECxmjxpDQEVK3QMt2bP+UalmdGL5C9K+5+DnRhAgMwBqwQxiIgsFxUMHXUEYGvSjyOARxiCXvfMY06LgzBns0fb0Ow3wHhhWsoQi/wPJXnyorFknMT5orkk9oU/A==
+X-YMail-OSG: .KT5OhcVM1mPWfWYk.4tLaT90JfRa1Xoi5VNt6cO8SL8DK_QC9Ug1YXwgtcN7bx
+ wNJa4gw4XJ9ckiaf7UO7qLt_qZwsu5.IbBOTYWsEu1VN7e.7N2TTq8U65ANzH1R3qJ6LlwWQap6w
+ LMqvZg7785_cn1aVPEqwLpii7JB77cp.K2DGv8U6vZ07bby6ymdCIntzt9Fm.Gq5KT_LNxUvf.Af
+ eI.IMKwbYORyDn31oOV5rbuU8LnGaGPg73zYEjK8iGR.zJof89xbgizSNjMDh38sw2wE4N5iKgfH
+ zde4dURXT_2JIj8sG_OZOe3cJujpp4TEp.K30DI3DnDubrgB5vut9RtkAUbCNqs3mRkSOxwQwGeZ
+ POrNk.aVhTMHing5rnjaYlb0rjTp.lCHDocw3LYL68zp56cU0TLF_R8JOYu_5aXw2BrkY9ViylP1
+ NCHJvv34DgfqNEYCwXfa513JdeJnJim6Eajfr224PD0vT7Qo9zVnTUP23zLgZmGHQO3ZLoWkEuEw
+ 9Ima7ZpFWBnGtDRafW5FW3yWN03YqI9YvK7sdwfG5asYR3hleh1lWMXgep06VWvObDbEgOqXHLGd
+ M4S_ae2ErpvFvc409cMmL1eErtE2VXUiexMPz9TOY6myCK4P2yp6CSPuPGnILzbq6Iy8rgGpXIhS
+ ZfjFhnAUt7k.VvBsYoNEJq7rN3HwACCtgBgFi508Ln14AXK1jWX8vOroaxTtCMFgJ0ZHq4KkKLzy
+ CHA9y8WRfHqu0cmmekw.n6UAXQcSFHP1RUY4ZjjR3dUzVRn2hxFE6Metiu_IRirST_v61j1u1rNn
+ HqDHsTqTJQLdi7hpZoQM7LnOUqQLSJyIGr5Nv5MA2t0f1F2f9RuzWmTiTkmNWcE3fEPgaQ_YVWjV
+ EuukXkTcAShKmAOgXNSUcUnO7TidwK7U4Xi34Bi19oDIhZK6aK6Hz3JruRErozXD8QFEw3j0ret5
+ dSgdMDi81mN48bmuIql3mCZfPXvmi9Ynez8zI2pRZr5Z1aOYtFbrdT2rUNKoB2ttbuZZ4Laq9BN1
+ 9LD8EGnJWfPDkFmtZqCRezxzZGMM3jjRtM5Kzs9N9jo9QpAfXwo9M8wKV2Oj4WfjBBKcgyGQsG5.
+ GcBHuJKGJYORv3TySxgzZblHnSDK6ub9mfnHVUAEpW.LcnpzXRPtS67w0MxrKQjKg1avmYndl2Tv
+ wK8UU8ZgDsU8aFXx.p4Q3ULNDdIxZECDluO.Daz1hdrwnYG3RZS28tcVPc65cfWduFxnLubs7AKq
+ fbqNZNIBUHxtkKyvVE6ZPJxikfxb3CT50cZTxI90wduebhHw3fEvqYbUl6jm9j63Pdug23GPnk.5
+ i_xHGctbZ31ngclZ1tNYIURPDd0VD6IPvqosClwZJ0tz0IQz6IaVYe15gBK9qdLBZMbyEsj.iyii
+ qUhLc5ipzK9Bglj95d.e.oeX_gXm2SGrow6Dx7MGmL2m75n9IvZwW.6VF0kjbj2z.T7Mcwa33gNJ
+ IHkXHTsIl4IjWCcYpGHtSFNU.mhok307JPWeRaeaH06IiAyzKcnG4_Ve0En2Eeo2Cqs_NSzNy7JM
+ C1NR8iuELHeyJbf_GYjfDBw8RP_RrT0i650EBYfn.Mawhv73k1Z_UFsxj9n4rU24hJf0KUhhIs19
+ TH8qYqbFl.jIoDiHvgCjN5VfeWTT5j0cGcJN8l2RmqdBJ8pNHIvpxoWZ8.rlZf557bsLF_FkHlBU
+ Q3XzP1cPo5cJGsykoCuHW6X89Aa7fqveTfGXv0lQgkkDbRMBu5vJDaEnLn.cpTA7nxayLOjd9B1Z
+ 0HJ1tRPpmZ90N3VjX6zod8nbv1DIvLnmdAJ_0cB21QmTNeqTz6UfmOt6f6Ozl4u8a4Fd8oyF_Sfp
+ KNlFuSdYDXBL_aoMBW_VAvlIU6LMuG8twx6so7WEYOj57_hJebnLXWq8wnB.OOgxtCi6DvhtyDjM
+ UcpWEgMHEfXA_vdIG3u7uumLZMJsB.VOyqNS25HbUO_flJBNGCBRnJF12gOPqWdNPU3pnUR1hfKG
+ xtB_hrAj.i5b9QZS4SZu85FYlDmUgPybFgecazByK9jKta87Q7glb469aMHN_B6g2Blp1piXx5Vx
+ bVKXTH9BEV3_H3rD7jOD4X.3i.rVYOez8wjzJjHvTM30ZFP4WTOJsq5f.JMeLHLbwD9A5ij7ZPpx
+ PTStjn36sGbYvy4gG1yqiThgUjtQ3.wfdSUft5ZbUL0oa026zeo0DCXNAgWr7ahL6yR7c_xKz_Kk
+ VUZ8m830LE.LY8DonYDts_7VHeHrjZ6n0SJtyzHf6JVfoXIEd19kY9HwGf.bC7C7PR5RAjGZ4oSm
+ oax7fZSmW0lUwjlYcHz6mJvplIISCjL_hQ.H84EsZNIFY6BFJTbrFIcFg9UZOXfQjMUCdygJJpvs
+ Mero4yd0ZLYGTdzG4lHtcTnt6MQ--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic321.consmr.mail.gq1.yahoo.com with HTTP; Thu, 7 Jul 2022 16:59:44 +0000
+Date: Thu, 7 Jul 2022 16:59:37 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <145323280.2552152.1657213178034@mail.yahoo.com>
+In-Reply-To: <CA+cDFQgwU5BaR5f1So_RdJHrRd=u=urUqKug+H8pB+jb7NqXYQ@mail.gmail.com>
+References: <CA+cDFQgwU5BaR5f1So_RdJHrRd=u=urUqKug+H8pB+jb7NqXYQ@mail.gmail.com>
+Subject: Fw: Away from email - Re: Automatic reply: **** FEDERAL BANK
+ INVESTIGATION, HSBC, JPM.
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_2552151_407741996.1657213178034"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 13130
+
+------=_Part_2552151_407741996.1657213178034
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2552150_94358109.1657213177917"
+
+------=_Part_2552150_94358109.1657213177917
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Severine Autesserre" <autesser@barn=
+ard.edu> To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com> Cc:  Sent: Tue, Ju=
+l 5, 2022 at 8:35 PM Subject: Away from email - Re: Automatic reply: **** F=
+EDERAL BANK INVESTIGATION, HSBC, JPM.  Hello, and thank you very much for y=
+our message.=C2=A0
+
+I am traveling with sporadic email access until September 1. Thank you for =
+your patience.
+My new book,=C2=A0The Frontlines of Peace, and my website=C2=A0www.severine=
+autesserre.com=C2=A0have answers to 90% of the questions I usually receive =
+via email. Please feel free to look at them. (My signature includes a 30% d=
+iscount code for "The Frontlines of Peace.")
+If you are a Barnard or Columbia student and have questions about the Barna=
+rd political science department (including questions about the major, class=
+es, available advisors, etc), please reach out to the department administra=
+tor, Madeleine Lloyd-Davies, at=C2=A0mlloydda@barnard.edu. Before you do so=
+, however, please check out the department=C2=A0website (https://polisci.ba=
+rnard.edu/), as it has answers to=C2=A0most of the questions Madeleine and =
+I usually receive via email.=C2=A0
+
+Happy summer break!
+All the best,=C2=A0
+- Severine
+
+--=20
+S=C3=A9verine Autesserre
+Professor & ChairDepartment of Political Science, Barnard College,=C2=A0Col=
+umbia University (New York, USA)
+Website=C2=A0/=C2=A0TwitterGet Your Copy of=C2=A0The Frontlines of Peace, 3=
+0%Off with Promo=C2=A0Code: ASFLYQ6=C2=A0here
+
+ =20
+
+------=_Part_2552150_94358109.1657213177917
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; =
+margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fa=
+mily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message ----=
+-</div> <div><b>From:</b> "Severine Autesserre" &lt;autesser@barnard.edu&gt=
+;</div> <div><b>To:</b> "bo.dincer@yahoo.com" &lt;bo.dincer@yahoo.com&gt;</=
+div> <div style=3D"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Tue, J=
+ul 5, 2022 at 8:35 PM</div> <div><b>Subject:</b> Away from email - Re: Auto=
+matic reply: **** FEDERAL BANK INVESTIGATION, HSBC, JPM.</div> </div>  <div=
+ id=3D"yiv0414988719"><div dir=3D"ltr"><div><font face=3D"verdana, sans-ser=
+if"><span style=3D"color:rgb(0,0,0);">Hello, and thank you very much for yo=
+ur message.&nbsp;</span><br></font></div><div><span style=3D"color:rgb(0,0,=
+0);"><font face=3D"verdana, sans-serif"><br></font></span></div><div><span =
+style=3D"color:rgb(0,0,0);"><font face=3D"verdana, sans-serif">I am traveli=
+ng with sporadic email access until September 1. Thank you for your patienc=
+e.</font></span></div><div><span style=3D"color:rgb(0,0,0);"><font face=3D"=
+verdana, sans-serif"><br></font></span></div><div><div><font face=3D"verdan=
+a, sans-serif"><span style=3D"color:rgb(0,0,0);">My new book,&nbsp;<a rel=
+=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://severin=
+eautesserre.com/sa_book/the-frontlines-of-peace/"><i>The Frontlines of Peac=
+e</i></a>, and my website&nbsp;<a rel=3D"nofollow noopener noreferrer" targ=
+et=3D"_blank" href=3D"http://www.severineautesserre.com/">www.severineautes=
+serre.com</a>&nbsp;</span><span style=3D"color:rgb(0,0,0);">have answers to=
+ 90% of the questions I usually receive via email. Please feel free to look=
+ at them. (My signature includes a 30% discount code for "The Frontlines of=
+ Peace."</span><span style=3D"color:rgb(0,0,0);">)</span></font></div></div=
+><div><span style=3D"color:rgb(0,0,0);"><font face=3D"verdana, sans-serif">=
+<br></font></span></div><div><span style=3D"font-family:verdana, sans-serif=
+;color:rgb(0,0,0);">If you are a Barnard or Columbia student and have quest=
+ions about the Barnard political science department (including questions ab=
+out the major, classes, available advisors, etc), please reach out to the d=
+epartment administrator, M</span><font color=3D"#000000" style=3D"font-fami=
+ly:verdana, sans-serif;">adeleine Lloyd-Davies, at&nbsp;<a rel=3D"nofollow =
+noopener noreferrer" ymailto=3D"mailto:mlloydda@barnard.edu" target=3D"_bla=
+nk" href=3D"mailto:mlloydda@barnard.edu">mlloydda@barnard.edu</a>. Before y=
+ou do so, however, please check out the department</font><span style=3D"fon=
+t-family:verdana, sans-serif;color:rgb(0,0,0);">&nbsp;website (</span><font=
+ color=3D"#000000" style=3D"font-family:verdana, sans-serif;"><a rel=3D"nof=
+ollow noopener noreferrer" target=3D"_blank" href=3D"https://polisci.barnar=
+d.edu/">https://polisci.barnard.edu/</a>)</font><span style=3D"font-family:=
+verdana, sans-serif;color:rgb(0,0,0);">, as it has answers to&nbsp;</span><=
+span style=3D"font-family:verdana, sans-serif;color:rgb(0,0,0);">most of th=
+e questions Madeleine and I usually receive via email.</span><span style=3D=
+"font-family:verdana, sans-serif;color:rgb(0,0,0);">&nbsp;</span><span styl=
+e=3D"color:rgb(0,0,0);"><font face=3D"verdana, sans-serif"><br></font></spa=
+n></div><div><br></div><div><font color=3D"#000000" face=3D"verdana, sans-s=
+erif">Happy summer break!</font></div><div><font face=3D"verdana, sans-seri=
+f"><br></font></div><div><span style=3D"color:rgb(0,0,0);"><font face=3D"ve=
+rdana, sans-serif">All the best,&nbsp;</font></span></div><div><span style=
+=3D"color:rgb(0,0,0);"><font face=3D"verdana, sans-serif"><br></font></span=
+></div><div><span style=3D"color:rgb(0,0,0);"><font face=3D"verdana, sans-s=
+erif">- Severine</font></span></div></div><br><br>-- <br><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div style=3D"font-size:13px;"><div style=
+=3D"font-size:11px;color:rgb(0,0,0);"><div>S=C3=A9verine Autesserre<br>Prof=
+essor &amp; Chair</div><div>Department of Political Science, Barnard Colleg=
+e,&nbsp;Columbia University (New York, USA)<br><a rel=3D"nofollow noopener =
+noreferrer" target=3D"_blank" href=3D"http://www.severineautesserre.com/">W=
+ebsite</a>&nbsp;/&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_b=
+lank" href=3D"https://twitter.com/SeverineAR">Twitter</a></div><div><span s=
+tyle=3D"color:rgb(34,34,34);">Get Your Copy of&nbsp;</span><i style=3D"colo=
+r:rgb(34,34,34);">The Frontlines of Peace</i><span style=3D"color:rgb(34,34=
+,34);">, 30%Off with Promo&nbsp;Code: ASFLYQ6&nbsp;</span><a rel=3D"nofollo=
+w noopener noreferrer" target=3D"_blank" href=3D"https://urldefense.proofpo=
+int.com/v2/url?u=3Dhttps-3A__global.oup.com_academic_product_the-2Dfrontlin=
+es-2Dof-2Dpeace-2D9780197530351-3Fq-3Dseverine-2520autesserre-26lang-3Den-2=
+6cc-3Dus&amp;d=3DDwMF-g&amp;c=3DslrrB7dE8n7gBJbeO0g-IQ&amp;r=3DRhiBerJufiXx=
+3tHVEwWsYQ&amp;m=3DH5Z5ghHhe--KPHXigmy2-IsPGL1Tx40CDgjNw4BWDPM&amp;s=3Dl7ex=
+11fdLom5vOWlwP3leenbZqWEK-mLEX9RdjCZGdw&amp;e=3D">here<span></span><span></=
+span></a><br></div></div><span style=3D"color:rgb(0,0,0);font-size:11px;"><=
+/span></div></div></div></div><br>
+</div> </div> </blockquote>
+------=_Part_2552150_94358109.1657213177917--
+
+------=_Part_2552151_407741996.1657213178034
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Untitled"
+Content-ID: <88b402c0-12ff-431c-a7de-f251cf6a6c33>
+
+PGRpdiBkaXI9Imx0ciI+PGRpdj48Zm9udCBmYWNlPSJ2ZXJkYW5hLCBzYW5zLXNlcmlmIj48c3Bh
+biBzdHlsZT0iY29sb3I6cmdiKDAsMCwwKSI+SGVsbG8sIGFuZCB0aGFuayB5b3UgdmVyeSBtdWNo
+IGZvciB5b3VyIG1lc3NhZ2UuwqA8L3NwYW4+PGJyPjwvZm9udD48L2Rpdj48ZGl2PjxzcGFuIHN0
+eWxlPSJjb2xvcjpyZ2IoMCwwLDApIj48Zm9udCBmYWNlPSJ2ZXJkYW5hLCBzYW5zLXNlcmlmIj48
+YnI+PC9mb250Pjwvc3Bhbj48L2Rpdj48ZGl2PjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwwLDAp
+Ij48Zm9udCBmYWNlPSJ2ZXJkYW5hLCBzYW5zLXNlcmlmIj5JIGFtIHRyYXZlbGluZyB3aXRoIHNw
+b3JhZGljIGVtYWlsIGFjY2VzcyB1bnRpbCBTZXB0ZW1iZXIgMS4gVGhhbmsgeW91IGZvciB5b3Vy
+IHBhdGllbmNlLjwvZm9udD48L3NwYW4+PC9kaXY+PGRpdj48c3BhbiBzdHlsZT0iY29sb3I6cmdi
+KDAsMCwwKSI+PGZvbnQgZmFjZT0idmVyZGFuYSwgc2Fucy1zZXJpZiI+PGJyPjwvZm9udD48L3Nw
+YW4+PC9kaXY+PGRpdj48ZGl2Pjxmb250IGZhY2U9InZlcmRhbmEsIHNhbnMtc2VyaWYiPjxzcGFu
+IHN0eWxlPSJjb2xvcjpyZ2IoMCwwLDApIj5NeSBuZXcgYm9vayzCoDxhIGhyZWY9Imh0dHBzOi8v
+c2V2ZXJpbmVhdXRlc3NlcnJlLmNvbS9zYV9ib29rL3RoZS1mcm9udGxpbmVzLW9mLXBlYWNlLyIg
+dGFyZ2V0PSJfYmxhbmsiPjxpPlRoZSBGcm9udGxpbmVzIG9mIFBlYWNlPC9pPjwvYT4sIGFuZCBt
+eSB3ZWJzaXRlwqA8YSBocmVmPSJodHRwOi8vd3d3LnNldmVyaW5lYXV0ZXNzZXJyZS5jb20vIiB0
+YXJnZXQ9Il9ibGFuayI+d3d3LnNldmVyaW5lYXV0ZXNzZXJyZS5jb208L2E+wqA8L3NwYW4+PHNw
+YW4gc3R5bGU9ImNvbG9yOnJnYigwLDAsMCkiPmhhdmUgYW5zd2VycyB0byA5MCUgb2YgdGhlIHF1
+ZXN0aW9ucyBJIHVzdWFsbHkgcmVjZWl2ZSB2aWEgZW1haWwuIFBsZWFzZSBmZWVsIGZyZWUgdG8g
+bG9vayBhdCB0aGVtLiAoTXkgc2lnbmF0dXJlIGluY2x1ZGVzIGEgMzAlIGRpc2NvdW50IGNvZGUg
+Zm9yICZxdW90O1RoZSBGcm9udGxpbmVzIG9mIFBlYWNlLiZxdW90Ozwvc3Bhbj48c3BhbiBzdHls
+ZT0iY29sb3I6cmdiKDAsMCwwKSI+KTwvc3Bhbj48L2ZvbnQ+PC9kaXY+PC9kaXY+PGRpdj48c3Bh
+biBzdHlsZT0iY29sb3I6cmdiKDAsMCwwKSI+PGZvbnQgZmFjZT0idmVyZGFuYSwgc2Fucy1zZXJp
+ZiI+PGJyPjwvZm9udD48L3NwYW4+PC9kaXY+PGRpdj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6
+dmVyZGFuYSxzYW5zLXNlcmlmO2NvbG9yOnJnYigwLDAsMCkiPklmIHlvdSBhcmUgYSBCYXJuYXJk
+IG9yIENvbHVtYmlhIHN0dWRlbnQgYW5kIGhhdmUgcXVlc3Rpb25zIGFib3V0IHRoZSBCYXJuYXJk
+IHBvbGl0aWNhbCBzY2llbmNlIGRlcGFydG1lbnQgKGluY2x1ZGluZyBxdWVzdGlvbnMgYWJvdXQg
+dGhlIG1ham9yLCBjbGFzc2VzLCBhdmFpbGFibGUgYWR2aXNvcnMsIGV0YyksIHBsZWFzZSByZWFj
+aCBvdXQgdG8gdGhlIGRlcGFydG1lbnQgYWRtaW5pc3RyYXRvciwgTTwvc3Bhbj48Zm9udCBjb2xv
+cj0iIzAwMDAwMCIgc3R5bGU9ImZvbnQtZmFtaWx5OnZlcmRhbmEsc2Fucy1zZXJpZiI+YWRlbGVp
+bmUgTGxveWQtRGF2aWVzLCBhdMKgPGEgaHJlZj0ibWFpbHRvOm1sbG95ZGRhQGJhcm5hcmQuZWR1
+IiB0YXJnZXQ9Il9ibGFuayI+bWxsb3lkZGFAYmFybmFyZC5lZHU8L2E+LiBCZWZvcmUgeW91IGRv
+IHNvLCBob3dldmVyLCBwbGVhc2UgY2hlY2sgb3V0IHRoZSBkZXBhcnRtZW50PC9mb250PjxzcGFu
+IHN0eWxlPSJmb250LWZhbWlseTp2ZXJkYW5hLHNhbnMtc2VyaWY7Y29sb3I6cmdiKDAsMCwwKSI+
+wqB3ZWJzaXRlICg8L3NwYW4+PGZvbnQgY29sb3I9IiMwMDAwMDAiIHN0eWxlPSJmb250LWZhbWls
+eTp2ZXJkYW5hLHNhbnMtc2VyaWYiPjxhIGhyZWY9Imh0dHBzOi8vcG9saXNjaS5iYXJuYXJkLmVk
+dS8iIHRhcmdldD0iX2JsYW5rIj5odHRwczovL3BvbGlzY2kuYmFybmFyZC5lZHUvPC9hPik8L2Zv
+bnQ+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OnZlcmRhbmEsc2Fucy1zZXJpZjtjb2xvcjpyZ2Io
+MCwwLDApIj4sIGFzIGl0IGhhcyBhbnN3ZXJzIHRvwqA8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQt
+ZmFtaWx5OnZlcmRhbmEsc2Fucy1zZXJpZjtjb2xvcjpyZ2IoMCwwLDApIj5tb3N0IG9mIHRoZSBx
+dWVzdGlvbnMgTWFkZWxlaW5lIGFuZCBJIHVzdWFsbHkgcmVjZWl2ZSB2aWEgZW1haWwuPC9zcGFu
+PjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp2ZXJkYW5hLHNhbnMtc2VyaWY7Y29sb3I6cmdiKDAs
+MCwwKSI+wqA8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLDAsMCkiPjxmb250IGZhY2U9
+InZlcmRhbmEsIHNhbnMtc2VyaWYiPjxicj48L2ZvbnQ+PC9zcGFuPjwvZGl2PjxkaXY+PGJyPjwv
+ZGl2PjxkaXY+PGZvbnQgY29sb3I9IiMwMDAwMDAiIGZhY2U9InZlcmRhbmEsIHNhbnMtc2VyaWYi
+PkhhcHB5IHN1bW1lciBicmVhayE8L2ZvbnQ+PC9kaXY+PGRpdj48Zm9udCBmYWNlPSJ2ZXJkYW5h
+LCBzYW5zLXNlcmlmIj48YnI+PC9mb250PjwvZGl2PjxkaXY+PHNwYW4gc3R5bGU9ImNvbG9yOnJn
+YigwLDAsMCkiPjxmb250IGZhY2U9InZlcmRhbmEsIHNhbnMtc2VyaWYiPkFsbCB0aGUgYmVzdCzC
+oDwvZm9udD48L3NwYW4+PC9kaXY+PGRpdj48c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsMCwwKSI+
+PGZvbnQgZmFjZT0idmVyZGFuYSwgc2Fucy1zZXJpZiI+PGJyPjwvZm9udD48L3NwYW4+PC9kaXY+
+PGRpdj48c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsMCwwKSI+PGZvbnQgZmFjZT0idmVyZGFuYSwg
+c2Fucy1zZXJpZiI+LSBTZXZlcmluZTwvZm9udD48L3NwYW4+PC9kaXY+PC9kaXY+PGJyLz48YnIv
+Pi0tIDxici8+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+PGRp
+diBzdHlsZT0iZm9udC1zaXplOjEzcHgiPjxkaXYgZGlyPSJhdXRvIiBzdHlsZT0iZm9udC1mYW1p
+bHk6JnF1b3Q7QXJpYWwgTmFycm93JnF1b3Q7O2ZvbnQtc2l6ZToxMXB4O2NvbG9yOnJnYigwLDAs
+MCkiPjxkaXY+U8OpdmVyaW5lIEF1dGVzc2VycmU8YnI+UHJvZmVzc29yICZhbXA7IENoYWlyPC9k
+aXY+PGRpdj5EZXBhcnRtZW50IG9mIFBvbGl0aWNhbCBTY2llbmNlLCBCYXJuYXJkIENvbGxlZ2Us
+wqBDb2x1bWJpYSBVbml2ZXJzaXR5IChOZXcgWW9yaywgVVNBKTxicj48YSBocmVmPSJodHRwOi8v
+d3d3LnNldmVyaW5lYXV0ZXNzZXJyZS5jb20vIiB0YXJnZXQ9Il9ibGFuayI+V2Vic2l0ZTwvYT7C
+oC/CoDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vU2V2ZXJpbmVBUiIgdGFyZ2V0PSJfYmxh
+bmsiPlR3aXR0ZXI8L2E+PC9kaXY+PGRpdj48c3BhbiBzdHlsZT0iY29sb3I6cmdiKDM0LDM0LDM0
+KSI+R2V0IFlvdXIgQ29weSBvZsKgPC9zcGFuPjxpIHN0eWxlPSJjb2xvcjpyZ2IoMzQsMzQsMzQp
+Ij5UaGUgRnJvbnRsaW5lcyBvZiBQZWFjZTwvaT48c3BhbiBzdHlsZT0iY29sb3I6cmdiKDM0LDM0
+LDM0KSI+LCAzMCVPZmYgd2l0aCBQcm9tb8KgQ29kZTogQVNGTFlRNsKgPC9zcGFuPjxhIGhyZWY9
+Imh0dHBzOi8vdXJsZGVmZW5zZS5wcm9vZnBvaW50LmNvbS92Mi91cmw/dT1odHRwcy0zQV9fZ2xv
+YmFsLm91cC5jb21fYWNhZGVtaWNfcHJvZHVjdF90aGUtMkRmcm9udGxpbmVzLTJEb2YtMkRwZWFj
+ZS0yRDk3ODAxOTc1MzAzNTEtM0ZxLTNEc2V2ZXJpbmUtMjUyMGF1dGVzc2VycmUtMjZsYW5nLTNE
+ZW4tMjZjYy0zRHVzJmFtcDtkPUR3TUYtZyZhbXA7Yz1zbHJyQjdkRThuN2dCSmJlTzBnLUlRJmFt
+cDtyPVJoaUJlckp1ZmlYeDN0SFZFd1dzWVEmYW1wO209SDVaNWdoSGhlLS1LUEhYaWdteTItSXNQ
+R0wxVHg0MENEZ2pOdzRCV0RQTSZhbXA7cz1sN2V4MTFmZExvbTV2T1dsd1AzbGVlbmJacVdFSy1t
+TEVYOVJkakNaR2R3JmFtcDtlPSIgdGFyZ2V0PSJfYmxhbmsiPmhlcmU8c3Bhbj48L3NwYW4+PHNw
+YW4+PC9zcGFuPjwvYT48YnI+PC9kaXY+PC9kaXY+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLDAs
+MCk7Zm9udC1mYW1pbHk6JnF1b3Q7QXJpYWwgTmFycm93JnF1b3Q7O2ZvbnQtc2l6ZToxMXB4Ij48
+L3NwYW4+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PGJyLz4NCg==
+
+------=_Part_2552151_407741996.1657213178034--

@@ -1,0 +1,94 @@
+From - Sun Aug 28 22:42:13 2022
+X-Account-Key: account1
+X-UIDL: AMOvIZ15vqUsYsMgDQP/cOs+35E
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.216
+ by atlas318.free.mail.ne1.yahoo.com with HTTPS; Mon, 4 Jul 2022 17:14:52 +0000
+Return-Path: <boboschickenandpoker@gmail.com>
+X-Originating-Ip: [209.85.160.43]
+Received-SPF: pass (domain of gmail.com designates 209.85.160.43 as permitted sender)
+Authentication-Results: atlas318.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 4 Jul 2022 17:14:53 +0000
+X-YMailISG: KHA21z8WLDsCBSwgjgHP7S.zEobjApN_f3JK6GknnYLbqYcz
+ MMHe5F9x44pVyCtlX2HEcs7vC31OQfZY1QFQjWLbG7PPexeqvDxMACbWD2Tg
+ 6tC8neo_vhbj.hcv28lQtHpPjJnlv4NHVIVLk6PkexPqJOaAlAcVJEZMslqy
+ Y99GqQo50ruSsPiPbU2Jz0GMpZ1BSqa_z38FvhEKpTFYzXNMqSpC1R2M8T7n
+ LUtamYGxbdULOpSaAMIgPjDdjYTXM9Sw9MvH83nVD.SjJ30Fryk8EOZKbv1w
+ XPuk7GzoINVF77phi1tcuApx4xAy8DbPJMQX6rWQGOnHhZ2zxAUXjngHwsUj
+ Enwuy7hZJObuNNPr9Z.zRi5_eZBPJ.1IXS2OYQnFWU4oWtzP.vbz7ejXVv8q
+ nfhenXJmyg9suEcWWGD63VlvWIAh9sC8ZjrMTyqbYyoT01_VpdcONerSbO86
+ HZNbC2tUNv8wno0ygyfwe2B5GOsBpHrp4ELqHI3.vv2uVqCjV.WBbo9ncxp4
+ Ff78rnoU4YC2JIC9VgvBVayl5WJB4RGj.T_PkRQrUnO4G6HG1p.IvL57ZsKY
+ GGogOcHAY_hf4npdIpnovV_eMAr6IHy9Mm0FGfohy6waNbHxX77LVwSF.Wqk
+ GC7wmePT2_nd4eHJiBvREZDW4hYtcwlq5dIvpZcnP9en2W.sYQzD7AfwRw3X
+ MyqVwOfxaaxEoeSs_smElrIBu8DRs4ojiqMOdEwyOsjrfjCFF.pBJo3B6JoZ
+ DTXjyFwJQf0.dhwBgTuliBO2kj3NXLhv8zX7DGKA4_TXpJuBP.6yTzF.vPNK
+ VJUFch3E1n1ESMwiHGKjsjMvyPfXSATS0FC.oofSmqY17vdGptk2eVO63q1D
+ vmznxJ7Ij8m_D.t4Ey95wZ8x5IVWyJKnQPirJtCaBMNv.O50Y5mktGOFbxVN
+ mQZhclAbD6YNgBKArp9GxJW1p5r7aIxltzX30iALkort0mT7j7zuAmtaCOiE
+ jDgFolyaKSBaQhjKod0WiAcuiUTGyEPqDWXAuQ3gbim4JWHorXJnS4k29xlv
+ IOPXFKqp5yU.TnzbZX0dUKazBdFeJb6CTaWpaJzYb0etG.kY0IErLWtC_fvS
+ z.6mmQCj610kDwVjHx.ua26Y2jicwxEy0FSuwt4xzMw.gBL.i99AU4YdIR7m
+ F6wYmrMNxBPoKLlLMeW_tDo.EVc7QvoIuN3Z5SMnwtrxUHejsYtO5pNWEtj5
+ bzE-
+Received: from 209.85.160.43 (EHLO mail-oa1-f43.google.com)
+ by 10.217.136.216 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 04 Jul 2022 17:14:52 +0000
+Received: by mail-oa1-f43.google.com with SMTP id 586e51a60fabf-10bec750eedso6272693fac.8
+        for <ms60710444266@yahoo.com>; Mon, 04 Jul 2022 10:14:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to:cc;
+        bh=RJTD7HVmDtrcCGPR4k6eOjPVZq7zHMkGVbFL8muOkzE=;
+        b=oucfXdj4TmC5Tol3epCRekmZBsoVrlQIoPDkvn/wT1lNYAEp+8KAkZlx3Rm7A4q5Pb
+         uR+slEBYt49M+CUAfdKEbTps5E70h3XNTFb5RkDKOR8+9nRkBth9AOa+aiznzqZ6mDRC
+         0gZUhPXNEJUzjk+DQSbhl6HNzErUXkro75cDHg2u5bgu0NSROMBZCsg9zLzXxlKZdKgP
+         LwDuGOyrgZ0VQ1m2VRWWlYUiFDDg45GXyOr3cbvvEoh5mLqlztFVu2Q5J6nFC8QxLqpf
+         4vdIusyd+Ikzv3YXEVbndwDx1QG3Kx0mNfGzyvW1fNuWt/T1IIgY0dg/IvJlc42Z3Goq
+         j4OA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+        bh=RJTD7HVmDtrcCGPR4k6eOjPVZq7zHMkGVbFL8muOkzE=;
+        b=R1XNF1y73EJ93N1EM4q4XpxXHibSk781RpoxYRtHyDW8yzbICvfIECM3cX9Ci4pY+G
+         BAlGdIKkU2OFIEc37piVDhVUgzhkltuJIWZHcWUO3OvYmsks7A4lDyZq1ZBdttoBu3v1
+         ZQmMo2WU1bsdufu1SbF9OtkfYSOHLsIM4xdOQjz2GgVxOvC1jp0823uHrrUPhFC6omcO
+         revzuadiyb9who2sDPaEPICDY3vD6NR5tssA606Cms57hs04cl6ah2I5myWvTZJXSQ9Y
+         iv6etwh8CYi2jeBZAgy7Him/lyHbwLtxc8eyNuUSe/4JoTd3uGVPxNa6V9wQ4UOxm2YX
+         wB9Q==
+X-Gm-Message-State: AJIora97Zf/7xZxPX+4DaeyyuIPdiDkWccyQfp9Hd6UzeHsOmhPPrciz
+	xfVa6mrddDzj7I0bWZRRCv8aenoVKqrSVNMulHA=
+X-Google-Smtp-Source: AGRyM1sXTuNqykTc3cP8+2fe4+y225iEwhCgldm/NKMOtWkmsfnJ5KfJ56FhQqdt0Qjzr0MTeJoLgzOEfLF5fBhq88c=
+X-Received: by 2002:a05:6870:c890:b0:fe:5223:29f0 with SMTP id
+ er16-20020a056870c89000b000fe522329f0mr18547766oab.6.1656954892553; Mon, 04
+ Jul 2022 10:14:52 -0700 (PDT)
+MIME-Version: 1.0
+From: B B <boboschickenandpoker@gmail.com>
+Date: Mon, 4 Jul 2022 13:14:41 -0400
+Message-ID: <CAHFkkL2CPDNDeaNoCLesZbJma0wpiivYvF1AR=FJjRyHtViJLA@mail.gmail.com>
+Subject: 1! INHAVE THEM THE PAPER S THEY NEED FOR LIFE SENTENCES.
+To: Lee Bollinger <officeofthepresident@columbia.edu>, lcb50@columbia.edu, 
+	"Stephen O'Connell" <sgo2107@adcu.columbia.edu>, ricki.roer@wilsonelser.com, 
+	ashley.humphries@wilsonelser.com
+Cc: "Dean's Discipline - SCCS" <conduct-admin@columbia.edu>
+Content-Type: multipart/alternative; boundary="000000000000c7903305e2fddf49"
+Bcc: ms60710444266@yahoo.com
+Content-Length: 318
+
+--000000000000c7903305e2fddf49
+Content-Type: text/plain; charset="UTF-8"
+
+1! INHAVE THEM THE PAPER S THEY NEED FOR LIFE SENTENCES.
+
+--000000000000c7903305e2fddf49
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">1! INHAVE THEM THE PAPER S THEY NEED FOR LIFE SENTENCES.</div>
+
+--000000000000c7903305e2fddf49--

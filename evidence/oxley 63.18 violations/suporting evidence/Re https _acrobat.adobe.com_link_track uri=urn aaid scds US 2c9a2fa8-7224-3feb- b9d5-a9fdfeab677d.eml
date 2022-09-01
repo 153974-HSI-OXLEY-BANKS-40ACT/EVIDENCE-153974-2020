@@ -1,0 +1,224 @@
+From - Sun Aug 28 22:40:53 2022
+X-Account-Key: account1
+X-UIDL: APaJrAh3rjIoYrjEtgFEOLD9sZo
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.14
+ by atlas206.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 20:42:29 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.162]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.162 as permitted sender)
+Authentication-Results: atlas206.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 20:42:29 +0000
+X-YMailAVSC: S_KnTzs3bBtgWXUk8HjHuQxScmDMsiMUFBYxdxtuzFv.l4g
+ EFkT9UAYARWFvaaX3K7azcvHN3_lvukOgi4X0WmMlXyLuiUKzBE.NLEVcxdy
+ XRpK2e9XFgZyhEqEptt_R9IklSU0EcYz9rTJCGBSC8rlgficMZMd.lWjAbg8
+ Nuqn1x87.eYtVCvv9Ovdw6ymlZn9VQsPY_pG7trv0V1iqcy_AkYUMI_Wks5d
+ oqs28f8vSJaNhZpJH6Kj6LwKXTw.JH_oeTsDIY5mC_fDq.G5PjBE4dSKj2.d
+ 9XiYi.pRl_rzkTtMYN5CXSLmke_r1BjcQ.T04VNlzSJYZz99pKZ3BTEAMc00
+ kB3pk2xLsip2f06RrWedPWzlAskwhs8Yz2A2u0X9cGTEtLXg4zL8Mm_3279Z
+ oQNRQzOLtVXxJL161IGIW3a3uyosgGi810NFqW6Pj93zQVHKRYDjd
+X-YMailISG: ARmTbQ8WLDsr2QtuqnlXViUTzy9thcznazxmLKCylLRW9ijY
+ BP.qXgpZl2lZU4TixEZJA7sbHPYK627PEMt92AMkWfUZtT_rgOMKKn9H_J.Y
+ oP3jAPGAd8yup3d8LDdZcuazJQhBKmd7fgNsq.psCPv8bqOZbUh6CEcG86pY
+ Yk3CAUW9w5fTAcbqbVQiDkeq7YFqdTxrvOr.BBafUyrbAt0pDRby6ynaTSqC
+ 0De8ODlfym4USmPYNRsqg3ZCG3WvztuNhpfmik5c6vGEqjIVSmFlG9YcyO73
+ HzLStCyzewKJfQQJe2jWLbo6HB.jjY58DYf1FWSl4vgqafKB2MX3SNpRqneQ
+ jv5qwrXROOlcLfyiSr6JwNCrs7c6LExzgqzwVVjSsNB6xmqgH9mboUd6wuvg
+ SwelXHhQAc_0igfoUEKa5xONDMYrA2ieiSQefmMM.67GrNjhNGO4qzz4j_mi
+ 37RF8eRGpZ.X7ZoOYRcbV.1IYSDsW7qEqUUBbpKT7NSro9pDS8VXQSDjz6Ki
+ tPhWXyYQ5xWeqXZsr7Sy1bm6Q011PG4e719xzxMt4m4mCRyxAvIyhglktFz5
+ SnXS3rq2yWIhGd1c6z3B4lb1U7kmL24J5wcVL0LQ0zRzke_bAAjRUMEz9tFw
+ 5XeJu2p7s85prek1cGZ0tcNUWHJBRW7fBJuhm0ZfdykHbIyCb_0wpU7JdPmC
+ bigNZJ3eefS_hzCoXo7IGg9aR.HGg92Q2qwh_JneOgL38BrpbXNsgfa9a3dW
+ pQmofL9ItWMAXWdbd6ynp7zw2lAAVEM1noGi_VGdUrIce1zfZ9m7v8vCW12v
+ 1wvigonEwPdMceSVDF5s_JvX6St6hY3DArUVv0.sUE4EHUKE0bV4E7LaY3hE
+ uiI6RStwPfVjClM8AXZyGamCG.L_ELIsDnRlv3vNwtP_oBtYBgrnH5Ihrn_6
+ 19AzKNbynU3emhNjNaoNa8SXkLkviKoKLUuUAPdRDXXPa4m5KdgiKZhNLgId
+ aZlcdsL1Npbk9WGW2MsUw5_tDqZODClqghnqq7RWOYpePWPPeRzbpNtAbQiw
+ Q.kyM3SRXa8U7bVXs.i06YESbwgg9rh.EAL7woS2RYxrv5oUjR.k6R3I24Si
+ 2.mZT.dgvz5JTuL2cfWYSUX31xS3iMTmBEbx9Oa67iygF56Vbzjw0NYM7fyX
+ FHvnEeQ-
+Received: from 98.137.64.162 (EHLO sonic301-36.consmr.mail.gq1.yahoo.com)
+ by 10.217.137.14 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 20:42:29 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656276149; bh=q6Rx2zI7peskC6mCPQRjm2jGdpz8oo//sxm36nlHbTk=; h=Date:From:Reply-To:To:Subject:References:From:Subject:Reply-To; b=l8teK1ub6CKrHBZCAH1HflFo4X1c0F4J/GsJrYyz28lNlNngxoZUI2mRPayMDvcITgMzq47QBkAfbfPNaHpgyuVA/TFdB5DoJFfYBCS0Gfwp8DtEvcTdCiOJKoRE7Bnq6ezMZpHSVvsKezJZ2zv2RtYHw/Pv+X8rurbVxLxJVggea7QzCcKhOSd/UQ0L3t9hO69xneiRmnLEfcmQLAw5spyXUiQjiA40Scw2H+aHDDCS16jyhKN0drRBe8Tua3HnRsSFF2SJKREBWd0L6v/p8+0TUqyYwadYk4JhJq9UT/zmvc9R9eZsgZ8BPjgTW7ZbV0isUwIaFC7AyIA+0vLe+w==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656276149; bh=l+dlr1Zvq0Mq1rXBC5MuyLqH4J47A0Cetxnl0CZaeVo=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=bZC0OnwI3jpra3ZjQCFu8/uCy+4rEef7A5Ea823p4yDCF6spmi7tuOm5oiQWKsjxFOQNPbiUunZm/xy3pb7U+lcAxxhTBAezBgfHRwveZuo3OJ+gMYjg4Nnf8kVvl9Aljm0vrg9ceXKd56+cDmgZ1Qe7kJ3Y/d2wYET5xx1DxsfjJ79cMAW+Tyb9NG1BLSAixZbFd5pYEvBzOAgaKwhdeZurf1OiSa1MDjiL8npa8Hf7FSkRzJpVxSoq7I3Vsq3pafv16yn4cGi3w+IC9kKoCCTDtdRx45qlfuzP4cFp5iWbU6kvSN1q3pmQMNer7bmaXIwzQd2y4gl7lsmTID74Pw==
+X-YMail-OSG: mM8udX8VM1l5Dtu_aoDPQR5fuRwkbflgRimGp6x1sZjzT5yD6rn0GcF_yyo.19X
+ JGB13vmGDWXGE6sosfWa5FHQDqo6Zh2SB.eUw9IpUEZEQxPfdrFnMsROGaXWSzreTcwZ2anlWP9P
+ 0iSnPhORtPwgiSKUfpWU5nP6L7NljoUD7iPzWoQYYdYck.w9z96l8MBcmTFYiqLdvoZgvlnwyU3k
+ pVWAt4xsgZw_IjtGo46uUjruVWV6ARbiGwaq5gOJ_dC9bY1.E8xzLTzv6twzIm951mIzeRdpTQWM
+ X2.Eou70EQceAMklkb_whBbuGtNfTp3vKQQN5oMg8evJRJlJnXUJgatQzPGJjceZC7vk7RkGfWzs
+ ImFih78MTSCyVr0wcA9zdeUmoMWlmfGfYUXZZ9GBobBolbmbae1P1tPwbpIsVVkDV5Oie5TvtF9G
+ K5M9AxJg46aOyKcsL4aBga_E3FO3JMEktgDGAS2fCCPsBIG21Kg_Vk156KwbG9fWRlcSMz88fTos
+ 5d.5ZSFUvp.z2qbZ6uVLMRmFPzwimWbMZ0xJWf97Ljr5dHoXoyOq4N1AP._xIm0c25nYjxP4mAAP
+ VQpyoe8XbsQWwngaq1LbvlAHtcXpwMLKcZhWLX4y.0TztLnex7Tl4PY4QeqTA5dvKp525HauZu3j
+ lSHhO3wLIAwmcfwW.viuH0E.gaBfI5jKCoUn9FI_OvhEB7lCOd48ckP6ATo5zoV2.EC28YWIb4Po
+ cNaKnv4bBpftJNG7h8.lmHL6j92hCsySiZ33xD17m06zkofwSvVpoMR2oQKQuRVRpZz9fFntxC2o
+ WSL5Zi6OP_eCgBgQpZQZg8ytGS4..Ru1mYXqNXY_lyBZSvTQ8HybUaj2ar4arf9l.34Lt0Q7FACl
+ aauwXqUQcus0whvIbKhgvJgRZXVh5vUpf0ujSMHHx2mJj8nktKXy9xIhktTc_JbKSyD52KBGPMSp
+ 9qi9U3PlAxiwnsW94dj0h4GfdRIOoBt4JnVk0uyum87maoRGzJ6GcuzKapIMHt3X3E3s0KBh93pA
+ earo.o4ETNMrNuTEe2T7h3bURL5FLmRF04wgzTc0IFGNa1yEh6n3GcZgbjW3_LneuS85QpqgX9_w
+ JK45ndrlh.pVsZuWnD6pZ0xOt5gf9uXva_HQjpQWPD4.QhJepJET_SLvnd2ACf3gnTw0d05nJbCa
+ emDlkLGw6Zo7p2z9VNwVmYseFqZQb9h0u62rYURN7pVS0W7gKBTe2wYL4hp3pohOzpimKkNvp9Ej
+ ymmD3ujz6UHCa.hXc3Hly48ne1W0Af_wkeTAHpilDwCZjppZiPgy7jo0BXUaMIZRNkTJlSEm.Eo.
+ QRqiAvlOK788pzSI3_pE6bwX4pBezEAQyOQ5G90kZhIgowZvExogfPeP9mWvEK301NSd3fF1ELLD
+ 9a4gYSUhu4nS7np9n.0SLpapOkfRDfeKq50kv0w2b5yibKKVSFnuon_bzBmAVOgzMfKRa72Dwenn
+ 7phwTzp6Xhks1.QT5KDCjqx4qaJlgmBYj.X9Iqka4cXR6aXlVljEnybRc6rwOE1Ux5XN0V5zDhXS
+ JsnnnJx2M8ZB.WJpseRKQvBrdVeo8vKtc37cOnXkyzfGKWV5.n44fLKOmwwu13YYGJkl4_LT6QQL
+ HZEt4hIymLSfiIsgcXFdlZIOBuY6ehhL4FbTegNEGJuxKGii4.mbKp8u5DFmb1owA363LaTSD6OG
+ djd.niEkd6mNu86Oe6aI.JS9V0q8JgOEIKz_96cVriAtfYqIKyiFYNlCYkeQ7Lp4yMtEOBEeYvbk
+ bkav24dpfvsRLr5fs8YqqXZZlPsH3UqVXvL2jauaDs8hGKa3uzA9HCPiQkXuVwInQZyr01R5H4ah
+ sF7uFKT6QuZfIufl9lyf7avH78ina0FLWlPlbiQlcwKqQYhcc4VuZOuLslEcJ85ryBmJXnEqF.Hx
+ aCpLIBi15EFHAhkxIBbZd2E.f.y71HOEimiwOYyySGGXdtTgx3jHe3SU2uk9rO7w6gE.DEvwRFk0
+ 0Mqfsp12vNAlBae7R3C68p8_7Lw4b7XYvzS6mjZDVKBYO7BHEMi8l9RTlR_qXAfOwcgyXlEIaVQK
+ sUidQZGgyqntt.zFfkxPDZysseSmGjGfHDI0OHjd1KirDlFzA.A1yDaLiRnp2gIM38NwKpVYaCBx
+ ppXHb7cOTNz8FuFvFz7RC3fEE_J_l6mVRoqi3tsT.cSDebaenfYVeRoevafulbkwFKazBg0gqD16
+ MFl_Fm74lPTUTwcZ1kCrxMQP_xw.l0VgJeUcmh807BXpoowIdihkF3WGHj5N6Cv0N9WCWMGNINKO
+ tYgN1hIBLq1hKDYder.YwpOMiLVXgm3.uoZrzfP7JqNEXtdJyZNJX1DIt3mpps6GXzbQ8NvksZTu
+ wxEW4vudthfqmxDx0bx6AQ_3ntR2GSMAXx6EgKgWPP91E7HhO8vrRiwH1lE5ik9b.NsKcyJPSPfi
+ EQGwn0Q--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic301.consmr.mail.gq1.yahoo.com with HTTP; Sun, 26 Jun 2022 20:42:29 +0000
+Date: Sun, 26 Jun 2022 20:42:24 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "6462563609@mms.att.net" <6462563609@mms.att.net>, 
+	"james.gorman@morganstanley.com" <james.gorman@morganstanley.com>, 
+	"MSHY15@morganstanley.com" <MSHY15@morganstanley.com>, 
+	"colin.brooks@morganstanley.com" <colin.brooks@morganstanley.com>, 
+	"bcassese19@bloomberg.net" <bcassese19@bloomberg.net>, 
+	"iceglobalnetwork-info@ice.com" <iceglobalnetwork-info@ice.com>, 
+	"gs@gs.com" <gs@gs.com>, "steve.ekert@gs.com" <steve.ekert@gs.com>, 
+	"tmalafronte2@bloomberg.net" <tmalafronte2@bloomberg.net>, 
+	"bbrief@bloomberg.net" <bbrief@bloomberg.net>, 
+	"blawre@bloomberg.net" <blawre@bloomberg.net>, 
+	"chair@sec.gov" <chair@sec.gov>, 
+	"licensing@dos.ny.gov" <licensing@dos.ny.gov>, 
+	"espnfrontrow@espn.com" <espnfrontrow@espn.com>, 
+	"bondstrt007@gmail.com" <bondstrt007@gmail.com>
+Message-ID: <287353031.446987.1656276144550@mail.yahoo.com>
+Subject: Re:
+ https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:2c9a2fa8-7224-3feb-
+ b9d5-a9fdfeab677d
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_446986_1610876179.1656276144549"
+References: <287353031.446987.1656276144550.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 5504
+
+------=_Part_446986_1610876179.1656276144549
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+https://acrobat.adobe.com/link/track?uri=3Durn%3Aaaid%3Ascds%3AUS%3A72b77ad=
+a-c493-30b8-b2fe-f473dcf49de4#pageNum=3D1
+
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Thu, Apr 21, 2022 at 3:24 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+=20
+=C2=A0#BIN-CODES PAR-ID, IN THE DECK.
+
+
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 QUARTERLY & QUARTE=
+RED.
+
+
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 #RUSSIAN-ROULETTE WHEEL ---x0x0
+
+  =20
+   - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/27  =20
+
+  =20
+   - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7  =20
+
+
+
+
+
+=C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0 #GOLIONS
+
+  =20
+   - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+
+=C2=A0=C2=A0=C2=A0
+
+
+#goCARDS
+
+  =20
+   - https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183094=
+90
+
+Sent from Yahoo Mail on Android =20
+
+------=_Part_446986_1610876179.1656276144549
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div id=3D"yiv0940659432"><div><a rel=3D"nofollow noopener noreferrer" shap=
+e=3D"rect" id=3D"yiv0940659432linkextractor__1650570150083" target=3D"_blan=
+k" href=3D"https://acrobat.adobe.com/link/track?uri=3Durn%3Aaaid%3Ascds%3AU=
+S%3A72b77ada-c493-30b8-b2fe-f473dcf49de4#pageNum=3D1">https://acrobat.adobe=
+.com/link/track?uri=3Durn%3Aaaid%3Ascds%3AUS%3A72b77ada-c493-30b8-b2fe-f473=
+dcf49de4#pageNum=3D1</a><div id=3D"yiv0940659432yMail_cursorElementTracker_=
+1650570150105"><br clear=3D"none"></div><div id=3D"yiv0940659432yMail_curso=
+rElementTracker_1650570150370"><br clear=3D"none"><br clear=3D"none"><div i=
+d=3D"yiv0940659432ymail_android_signature"><a rel=3D"nofollow noopener nore=
+ferrer" shape=3D"rect" id=3D"yiv0940659432ymail_android_signature_link" tar=
+get=3D"_blank" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;=
+c=3DGlobal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&am=
+p;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignat=
+ure">Sent from Yahoo Mail on Android</a></div> <br clear=3D"none"> <div id=
+=3D"yiv0940659432yqt68268" class=3D"yiv0940659432yqt4403256727 yQTDBase"><b=
+lockquote style=3D"margin:0 0 20px 0;"> <div style=3D"font-family:Roboto, s=
+ans-serif;color:#6D00F6;"> <div>On Thu, Apr 21, 2022 at 3:24 PM, Bo Dincer<=
+/div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</div> </div> <div style=3D"pad=
+ding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6D00F6;"> <p st=
+yle=3D""><font face=3D"Times New Roman" style=3D""><font color=3D"#ff0000" =
+style=3D"">&nbsp;#BIN-CODES PAR-ID, IN THE DECK.<br clear=3D"none" style=3D=
+""></font></font></p><p style=3D""><font face=3D"Times New Roman" style=3D"=
+"><font color=3D"#ff0000" style=3D"">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp; QUARTERLY &amp; QUARTERED.</font><br clear=3D"none" styl=
+e=3D""></font></p><p style=3D""><font face=3D"Times New Roman" style=3D""><=
+font color=3D"#ff80ff" style=3D"">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; #RU=
+SSIAN-ROULETTE WHEEL ---x0x0</font><br clear=3D"none" style=3D""></font></p=
+><ul style=3D""><li style=3D""><a rel=3D"nofollow noopener noreferrer" shap=
+e=3D"rect" target=3D"_blank" href=3D"https://github.com/BSCPGROUPHOLDINGSLL=
+C/ELSER-AND-DICKER/pull/27" style=3D"" class=3D"yiv0940659432moz-txt-link-f=
+reetext">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/27</=
+a><br clear=3D"none" style=3D""></li></ul><ul style=3D""><li style=3D""><a =
+rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" href=
+=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7" style=
+=3D"" class=3D"yiv0940659432moz-txt-link-freetext">https://github.com/BSCPG=
+ROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7</a><br clear=3D"none" style=3D""></=
+li></ul><p style=3D""><b style=3D""><br clear=3D"none" style=3D""></b></p><=
+p style=3D""><b style=3D"">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; #GOLIONS</b><br=
+ clear=3D"none" style=3D""></p><ul style=3D""><li style=3D""><a rel=3D"nofo=
+llow noopener noreferrer" shape=3D"rect" target=3D"_blank" href=3D"https://=
+github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER" style=3D"" class=3D"yiv09=
+40659432moz-txt-link-freetext">https://github.com/BSCPGROUPHOLDINGSLLC/ELSE=
+R-AND-DICKER</a></li></ul><p style=3D"">&nbsp;&nbsp;&nbsp;<br clear=3D"none=
+" style=3D""></p><p style=3D"">#go<font color=3D"#ff0000" style=3D"">CARDS<=
+/font><br clear=3D"none" style=3D""></p><ul style=3D""><li style=3D""><a re=
+l=3D"nofollow noopener noreferrer" shape=3D"rect" id=3D"yiv0940659432yMail_=
+cursorElementTracker_1650569015344" target=3D"_blank" href=3D"https://githu=
+b.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490" style=3D"" cla=
+ss=3D"yiv0940659432moz-txt-link-freetext">https://github.com/users/BSCPGROU=
+PHOLDINGSLLC/projects/1#column-18309490</a></li></ul><br clear=3D"none"><di=
+v id=3D"yiv0940659432ymail_android_signature"><a rel=3D"nofollow noopener n=
+oreferrer" shape=3D"rect" id=3D"yiv0940659432ymail_android_signature_link" =
+target=3D"_blank" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&a=
+mp;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym=
+&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSig=
+nature">Sent from Yahoo Mail on Android</a></div> </div> </blockquote></div=
+></div></div></div>
+------=_Part_446986_1610876179.1656276144549--

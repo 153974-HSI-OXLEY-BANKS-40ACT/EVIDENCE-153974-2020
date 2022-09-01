@@ -1,0 +1,349 @@
+From - Sun Aug 28 22:41:33 2022
+X-Account-Key: account1
+X-UIDL: AJHHVhI6GRxcYr7EJg7BWKzAFrs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.201
+ by atlas108.free.mail.bf1.yahoo.com with HTTPS; Fri, 1 Jul 2022 09:53:42 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.84]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.84 as permitted sender)
+Authentication-Results: atlas108.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 09:53:42 +0000
+X-YMailAVSC: hWmazCs3bBuWtaawx0Qf8VXLNzk_Wx5JtYvZcmEMbjePAk8
+ GLgG2ikLxi177PnzjrbH17TgsQ6AQQfL1Xyd1mzZmYVrHQ6Iq_5YjgIb4Cao
+ .V9TGLLnASwelJPd38oBAcLiY6JD_NvJfranNQx4NO1Rn4_RZ39kriSF7rkt
+ k5Q8tJ2JpvoE2qtxabR88GIq9aUmBzOvu0SlSaO0UPRXGgG1AGJNZWZeB0wm
+ tB7RRYtxrVI0zRGszS_yA38FeiWO8nUYZIuFOSqnkSOOMnFuHr2UIx5ZkUH8
+ 9yBAPEVocHJpyFbWqHrBLbn0gbTVZzlsJDrQgN.FIJYUvBg7Wdz2Sr0RbXSr
+ u427oeVdn8GJRQ4qtguR4x3okm88.SQxE2i8u2lBHS_SfId3wC2fsM4iup.U
+ zTQbg9tObD82h0EvHRTedCLAUKEOQzgHPz6gqeBVRhYp7L8sxmg--
+X-YMailISG: V.JpQAcWLDs_lhmugIjJy0mULfPV97.vnHAk6kn5WGcGvsLE
+ KgYIpfp96sWNGZbRe9EyIPb3EKePcxlRZF0MATdh7eh9e7BUuSc8yGjt_wFr
+ kfCv_iHfbhvLNYMnsPSvzlaFzgzDSSyL7CRdvJYzpy6GRcjV_PMrrNdWk4oE
+ BR0peRPncXvO5LhHuwrSSoNzmTStbUn5o0aWMxfOcmQG061RXp65Ydqjq4mN
+ R3sUFPrmt1Jnjo81Z2tBYUOVVChecyRSgF86Fz8jtdfZOT06BfHDHKdLQVJa
+ KOBT.n2PLAF1QLxpRYUrPBp4DdS4p4uUT7meGpVCWDIdyhfwgL1LkXRrsftV
+ DEyhYmWR249CrT6pBaIoptxcjexVfUG3WPOu7q9ez7JK3kwrbY.EfErFWgVK
+ S.kIV3mKepQvLSNPVXABW9IVnsq8c5fA9_.BI5rBrbCP_Tnd.QFU1H8bE0k0
+ 7JtV72qM3aIuoNllflZvDVpFJ2HlXlgl6a9hNe8oLExFdkawNZTY.ne39yml
+ 7I5tSLGeKsLOWCw9_ynFZ.HR.fDc9bMfBUVFCUuBwVlRIi4J1NSDVuhaqLbZ
+ 5kqH_.jn.Q.JcEZM7m9QfV.0FFgshY92Nv1kgTuP.7uq96woFP8UidRxZRcM
+ AbT.TQJ8tmzroy3tK1FUz6IBXNNds0L.pYA65RtpSvhuhIJeRvIYR27.Nu80
+ oGzdBwWOs3ooEC_v18LkHf7DB3iOUraceNWa.3pZZb64PVJV3Ou.7u8t8hQr
+ xVJB9Yn3i118cVj0gXhqD1zVxKYsULF_jh0NxoLrCWf9zzdeI_YE0CYb6z9D
+ TZNytprkAMAIuLEEJr.g2fdzSi0e9uT4TVxVnfRH5HEM45VnVy9IWNiCBYnV
+ 4MZtfupfkTK9iuvzgDnxYG7n7Y4LZDekGhJCnEzBe.vmWVL4ZOG3ujLJOoca
+ 8FGA05TZUEZmRjyM0732cQ_D7Mz7x2fzcoOexEUvNZqblmOXKvxLKwwW46ii
+ hKwCn12yktZeuAH2vZWEnL_pGYDsgV0SSV0AQNG1o3XVtHaOgkG7qGADZWyZ
+ B9hG2._.B.kHU_LjYNFQLQlYn6PEmYXnMSCBFY8Eor7HI0VQh0qguJpqoW3g
+ rQ.w3OmIF2uueGf_AoXhgeW3wVf_XxCQR81nDdPPuU9rmgmZESUBdxg8Z86z
+ CXiR
+Received: from 98.137.69.84 (EHLO sonic314-21.consmr.mail.gq1.yahoo.com)
+ by 10.197.39.201 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 01 Jul 2022 09:53:42 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656669221; bh=Q7uUGRzV1HA0pLnyATY4cbDRM+75tlyfcc+x9x01CkM=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=qqOaR6dmucYmaVEFU0cYITVjiQ6pEpU0Ql6ngS3HTa/rp3fWENRfRJoBrmVSLtBJYlkjqdJpy+2Ac7vaspMdMjQCL8o6nT+uAHJHfqrPvRBWIMfaSXSU6b7SZCnRK7EL5oekWGt9NJwM/OeYY3I+jomYPhVyvEV0Ega22iYobnlZn5AnKMyheYojTRazp23FJ92m45P1n9iGIcNWXTeE3CwZ7W6bVs2Znzqg9/9NgCcg0JsJyKoNNwzoVK91AD5kVUs9i7IsqND/EWeRWN7M39rGNeF+pbsp87+xI7NN4K0VBqVlqjQ2yqxN4ymV9gNoJ7bmCp8kkVn2qARuMsL7VA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656669221; bh=9hj3JO4woLaZJVKHz+OkyPUoPvDgO03EoOf8jd4KcCB=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=Ge8cXU/pQwsKCfOW/ov9MIrocVARaE4JynnD6WuQxxYcx0AaaurEHpTBIMBqnJgl1tSt+1LKXnO3wKTqoJZLVk4ERQzp7jWmWYfK2wj4Ob0jajerHgTyQy7NmbntmN4gHDU+cxmeRSI5mKNu+3zajjoLkdJPtaCtMieprSitMQlmtw6VLoaDtjctqt4GA4X9C/dwmUo8Uc8bMawuOey1zHAmgnqKwbaV/vx8Uqs8N78wjAUFqSDgnTI3uqY3aeoexCIglcm585lHjcnDP0MUqLTP6Sfp5k21eDKv8gQeUCm1v92jn1efuzByAByXi8wcytO5szIgQYxLNqubNuGIOw==
+X-YMail-OSG: Dm.MNIUVM1mPTIDqIrTsQdD_Z9.8GEQlhkzZjOSSBy0bf2UAZ7A0v4tlwA_toH_
+ JTzw7bIfU_FTfC8CLPVPzQySpNtf.XWLp8VMcGUK1JrqeLUN69cHEnyahTZSfu_YPBx073Fx.Wdw
+ rnoimGF6ltWxkcbKjyJDOCNgPw0M4yvszcOLia75S5KovT.IKnq0ZTWjsHtKYY2WxYHiGvWWJXX4
+ A78Q8zaqkEkPG_5jzAn9vZcFQrpJw8xF76cmYKKOBdKxvN2OXt7ozGrCX64SWKs10Y8Ut35zR3Dw
+ 3gkR6DBfgsNbALG6GJ3T3p6170aQ_MCDK03wDvgpB8SvJtwBcDJ_w3AuvNGWzFD8G9U5_MPlurX5
+ .6sYO8Nps4FOT096pbq0bThCKvP7mvvfjTMGpAhNnWubnawIJkPyimqepAyLU0pcUaR0qjxutFAo
+ tMZoHJMt1EXQ1uGbSpgzUTbVIpJXrPQoZa9LhmUJ2c2t_vHq5IpIyrpoQ7f5RWq3jWLzfgtVnj4t
+ QqNuCiZ.7fdwbh3EB5FEaKpidGOIE2zeLFwzJLW71yepLPO1HacoSqIVXGaDEr6gQvxu6zDAipd.
+ 8WPej_If5oGHTvgVoRrvqscrHHkbpQBk2TWBmq8ZVzrIq_Ek13zNXNzyI49WWmiyMuh1oA5yrd2J
+ b.EGm_iS_gmz0NpSMNx60K3m73IJIXt00YiG.rNHtFdzqPuqRqruFLuYvQ4lERSMRjrHeqJZs._2
+ UlewaZidTx4mhHk_kxTsKh0eyS9TltzlmLklrMYAtt.EWOa6ZdjsvFC3BBC8RczmD61hm0tIYuJv
+ bqnLxjCwUscH6SFk9mN0F7Poganh1lNJxeQbyXSyhA6D0paC3TMrqck2itS3_T2ztp8eSVnR4ri2
+ sN2EylLYlsv6WKeATnypEKMK1czcIOTiE33I1MJvaMQaJE_09dyhWeXj3QXgrm9bKAZ4RquFTWGd
+ HLFeDQ6oLgmX0W0Zl_2eznULYHEZw25IT_B5ewvDUaXSNQ2OZRFzgcwhDjlHEYfYwbsN0eYTgWLh
+ Y7ESyzpfEIKqtY_zGn2CxVaNWrUTy1IYE7u8YFnEOAoqJiEsJy_1V8gTUAZ7f_aabHI4HKwPcmrE
+ 0qIYuimeEJp7u8TNw5MAsFarx.ejEXHSVmnoqCiiYHzaewFRiKAM66W0agKZEVWRUm4lSKvb148y
+ Ty5JwxLYuHFgYUdwTNCHPff8ENET895HT7Jx.sqj7_Xvjgl1NAbQ08bRoaOqwfC1HBJ7trQRUS0p
+ yMF8WHEroEQlWte_tkym18U12.IZcxN9.uRjEnaMCfn3SrrORBrjrAjUtSHzjZ4Nkt8v23vlql9e
+ WoLS94bL8exH5eTHBgIBLyLD.Qe0m_w4NCe.hBSvAd_5KzqvN0grGX5TI4X5sgcK26ZI1YFVSX0Q
+ ux0c6M8DgAuD5HH30FNoHM08JpBHCMiZzlg3b9SzGwvd5iHtNr2TncUu33r9_BfndMyT5.NhKDAx
+ 8XSKC39ZQBYLa0kZg64Vna9MWlIdcxUHlPQZIWC6OnBL5j47omAD31TNYS7qMEYFY9nC0zwbXfGk
+ c7vix93aW.enoSGYBzCIMGml7fzqkXCgJK9H2TA7nRkUC1x3jY_dq5Q6clKFJzdWjBmwWgC04_Jy
+ tNIiyYFKvKjKzzp36q4L4K40XljnStNRdD1LsnA_6nUEvdSu.91zEeLnqIJGToYmnsAEhNDMsEKE
+ ME5Vnzy9icQx3BvYGDhSOAwskbBo_cUw84y4t2UNcYX2cVSCJBw4XZ32PyEPLC5PSvc2LXik594e
+ tkkGlvoBoXJfTxboK759XrvirA_P6L9eowWnEC48ORiR_2vzl1ebZisbPYt4D8s7cOTNrMbBp_v5
+ u23hmWPno9dlQWYIlamZj6v2co9DL_7eDrirYDtqTJfffqxslGLGjb77ljJQ2FiFBgO0ZoK6Jpz4
+ xBlYXTv0AFAj3n72xqQTrCqiXXEH0SzjrTLNPifVifu2gXRDp6mpteHmWt3D_ddS4hqgK04Dwu7U
+ hF7seDJQhDfj9WEi3v5QOhd_q_k8HjBr2Ef4WBWmow_X1C8JRXtSZFNpVzEl9HnUH9TpGEi1BKvq
+ DM4TxMvT6nnqcbWHrs1Lt17ex8h9fj9hzXcJXeDEYQeN2EWQ3dJxwjFs99Wby8o40Ay7JJCwEYCa
+ rX3tHtQ.tl7ylaQIlyigxx49ycG3JS36v_NOLBagS9Tvtq4T2_UNU_ac1cbPPQMsz.8UlpVdjUcq
+ PHw.ITIYagqpCva5DhCkMMDJLwns3uM1lVqUKMjD4YB9dpFfts0IVxJjWnFgqvqqyvEnv42.vsqT
+ ipUWWXp5o2oY4F8wEv99BVX0MfwILnLsEs8P.cpb8NnUaNSq0uHQBPlBhh9o99SQYt1bsyQnPZMp
+ 21yM63ocIRAD8coeNj_99pBv9BOaOVWPWpwxxJ47yuf2J7izbMXhzAmeao6BTjLk-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.gq1.yahoo.com with HTTP; Fri, 1 Jul 2022 09:53:41 +0000
+Date: Fri, 1 Jul 2022 09:53:39 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bdincer66@icloud.com" <bdincer66@icloud.com>, 
+	Baris Dincer <baris.dincer@jjay.cuny.edu>, 
+	"cweiss@ingramllp.com" <cweiss@ingramllp.com>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	"LZUCKER@mskyline.com" <LZUCKER@mskyline.com>, 
+	Governor Hochul <governor.hochul@exec.nyc.com>, 
+	FDIC Public Information <publicinfo@fdic.gov>, 
+	=?UTF-8?Q?Steve_O=E2=80=99Connell?= <Sgo2107@columbia.edu>, 
+	"governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>, 
+	"JPMCinvestorrelations@jpmchase.com" <JPMCinvestorrelations@jpmchase.com>, 
+	"1pctyco@nypd.org" <1pctyco@nypd.org>, 
+	Help Nyscef <helpcenter@nycourts.gov>, 
+	Lindsay Panzica <mrc@nysba.org>, 
+	"cweiss@ingramllp.com" <cweiss@ingramllp.com>, 
+	"endowmentadmin@columbia.edu" <endowmentadmin@columbia.edu>, 
+	James Comey <jbc2167@columbia.edu>, 
+	FDIC Public Information <publicinfo@fdic.gov>, 
+	ELECTRONIC FILE <efoia@fdic.gov>, 
+	"EFile@nycourts.gov" <EFile@nycourts.gov>, 
+	MSKYLINE BROKER <leftbank@mskylinerentals.com>, 
+	"ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	"stringer@comptroller.nyc.gov" <stringer@comptroller.nyc.gov>, 
+	"nyscef@nycourts.com" <nyscef@nycourts.com>, 
+	Nyscef <nyscef@nycourts.gov>, 
+	"Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>, 
+	OIG Hotline <oighotline@fdicoig.gov>, 
+	OIGHotline <oighotline@frb.gov>, 
+	"oigspecialops@tdcj.texas.gov" <oigspecialops@tdcj.texas.gov>, 
+	"liaison2@atf.gov" <liaison2@atf.gov>
+Cc: QUEUED <askcuit@columbia.edu>, "askhr@sc.com" <askhr@sc.com>, 
+	UNITED ARTISTS MUSIC <INVESTORRELATIONS@umusic.com>, 
+	UNIVERSAL EDITORIAL <INVESTMENTNEWS@editorial.investmentnews.com>, 
+	"MSHY1 [ DEC 18 - 2021]" <mshy1@bloomberg.net>, 
+	Treasury Inspector General for Tax Administration <tigta@service.govdelivery.com>, 
+	"cdfifund@service.govdelivery.com" <cdfifund@service.govdelivery.com>, 
+	The Bureau of Engraving and Printing <usbep@service.govdelivery.com>, 
+	"engineering@spglobal.com" <engineering@spglobal.com>, 
+	"jbc2167@columbia.edu" <jbc2167@columbia.edu>, 
+	Dante Miller <dm3412@columbia.edu>, 
+	Amber Griffiths <ag2943@columbia.edu>, 
+	"Paul S. Blaer" <pblaer@cs.columbia.edu>, 
+	CUIT Communications <cuit-communications@columbia.edu>, 
+	BTIG <asksipc@sipc.org>, 
+	"askus@golfchannel.com" <askus@golfchannel.com>, 
+	Golf Channel <news@golfchannel.com>
+Message-ID: <1864745221.637471.1656669219224@mail.yahoo.com>
+In-Reply-To: <CC0582AA-E201-47ED-9ABA-F286922EBFA9@icloud.com>
+References: <E1o6xaN-000PCH-76@hostess.faxzero.com> <CC0582AA-E201-47ED-9ABA-F286922EBFA9@icloud.com>
+Subject: =?UTF-8?Q?Kings_County_400842=00_2020_-_CLEARED_251295_thru_251334/2021?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_637470_1552870034.1656669219222"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 11886
+
+------=_Part_637470_1552870034.1656669219222
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Next..=C2=A0 Claim Value: $600,000.00 GONE
+Next---
+Kings County 400842 2020 - CLEARED 251295 thru 251334/2021
+Next------=C2=A0ill post you at 9am tomorrow about what cases I informed yo=
+ur adversaries about today, after I eat brunch and check to see if you sett=
+led your debt to me.=C2=A0 =C2=A0=C2=A0Very expensive ego yesterday, I know=
+ how to handle money like the elser finance ex-perps in California, and dic=
+ker the State Farm but=C2=A0 maybe you threw=C2=A0 in a few broker dealers =
+like State Farm VP Management Corp as well.....=C2=A0 =C2=A0 =C2=A0pancakes=
+-- , until its CLEARED, that risk is clandestine.=C2=A0=C2=A0 =C2=A0 =C2=A0=
+ Not anonymous, clandestine. They owe me about 20 favors give or take --- h=
+aven't had to change my name like CIK 93715 --- its Federal kids especially=
+ when you vaporize 852,029,489.38 in a day.
+Ticker: STFGX
+
+P.S.=C2=A0 =C2=A0 =C2=A0I'll let you know when I feel its appropriate, and =
+whether or not that good faith refund holds true for a meager 31,135.00 as =
+purported in their notarized dockets to state farm life insurance.=C2=A0 =
+=C2=A0=C2=A0
+/S/ BO DINCER.
+
+
+Cases already notified, in good candor.=C2=A0=C2=A0
+251295/2021 thru 251334/2021
+Hon. Milton A. Tingling,New York County Clerk and Clerk of the Supreme Cour=
+t
+And another Felony, known by the representatives of Sullivan Properties LP,=
+ notwithstanding Shari Laskowitz.
+As stated,
+>>=C2=A0 Claim Value: $600,000.00=C2=A0 =C2=A0 =C2=A0 Block 2679, Lot 43.=
+=C2=A0 =C2=A0 =C2=A0 840-46 Lorimer Street=C2=A0 =C2=A0 =C2=A0 Zucker Enter=
+prises LLC.
+While dealing with their business in Brooklyn, New York.=E2=80=94 Kept me p=
+re-occupied without cause to take care of their other business without my o=
+pinion or any reveal as to what they really do for a living.
+For example:
+>> Hon. Nancy T. Sunshine, Kings County Clerk and Clerk of the Supreme Cour=
+t
+<https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DHD6/wXv=
+lOxflJUlQyXqedQ=3D=3D>
+=C2=A0 =C2=A0 case number: 400842/2020=C2=A0 =C2=A0 Filed: 09/23/2020=C2=A0=
+ =C2=A0*** KINGS COUNTY ***
+Zucker Enterprises LLC
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 - v. -
+THE TAX COMMISSION OF THE CITY OF NEW YORK, ANDTHE COMMISSIONER OF FINANCE =
+OF THE CITY OF NEW YORK
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=C2=A0XXXXXXXXXXXXXXXXXXXXXXXXX=
+XXXXXXXXXXXXXXXXXXX=C2=A0Next.
+
+=20
+=20
+  On Thu, Jun 30, 2022 at 1:46 PM, Bo Dincer<bdincer66@icloud.com> wrote:  =
+=20
+Your fax to Kings County 400842/2020 has succeeded.
+/BD. Ask them what I sent over there Shari=E2=80=A6
+
+Begin forwarded message:
+
+
+From: "FaxZero.com" <support@faxzero.com>
+Date: June 30, 2022 at 1:04:14 PM EDT
+To: "50074. NYSCEF 153974/2020" <bdincer66@icloud.com>
+Subject: Your fax to Kings County 400842/2020 has succeeded
+
+
+
+=EF=BB=BF
+Dear 50074. NYSCEF 153974/2020,
+
+Your fax to Kings County 400842/2020 at 2124019146 has been sent successful=
+ly!
+Successful delivery of your fax was confirmed at 1:04 PM Eastern Daylight T=
+ime on June 30th, 2022
+Your fax included 1 page of coversheet with your text.
+
+Be sure to follow up with the recipient to make sure that the fax is legibl=
+e and is delivered to the right person in the office.
+To view or print the status of your fax, click here.=C2=A0
+
+ =20
+
+------=_Part_637470_1552870034.1656669219222
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Next..&nbsp; Claim Value: $600,000.00 GONE<div id=3D"yMail_cursorElementTra=
+cker_1656668863110"><br></div><div id=3D"yMail_cursorElementTracker_1656668=
+863802">Next---<br><div id=3D"yMail_cursorElementTracker_1656668820511">Kin=
+gs County 400842 2020 - CLEARED 251295 thru 251334/2021</div><div id=3D"yMa=
+il_cursorElementTracker_1656668820554"><br></div><div id=3D"yMail_cursorEle=
+mentTracker_1656668869286">Next------</div><div id=3D"yMail_cursorElementTr=
+acker_1656668866810">&nbsp;ill post you at 9am tomorrow about what cases I =
+informed your adversaries about today, after I eat brunch and check to see =
+if you settled your debt to me.<div id=3D"yMail_cursorElementTracker_165666=
+7723066">&nbsp; &nbsp;&nbsp;</div><div id=3D"yMail_cursorElementTracker_165=
+6667723392">Very expensive ego yesterday, I know how to handle money like t=
+he elser finance ex-perps in California, and dicker the State Farm but&nbsp=
+; maybe you threw&nbsp; in a few broker dealers like State Farm VP Manageme=
+nt Corp as well.....</div><div id=3D"yMail_cursorElementTracker_16566677680=
+61">&nbsp; &nbsp; &nbsp;</div><div id=3D"yMail_cursorElementTracker_1656668=
+968192">pancakes-- , until its CLEARED, that risk is clandestine.&nbsp;</di=
+v><div id=3D"yMail_cursorElementTracker_1656668977100">&nbsp; &nbsp; &nbsp;=
+ Not anonymous, clandestine. They owe me about 20 favors give or take --- h=
+aven't had to change my name like CIK 93715 --- its Federal kids especially=
+ when you vaporize 852,029,489.38 in a day.</div><div id=3D"yMail_cursorEle=
+mentTracker_1656669050278"><br></div><div id=3D"yMail_cursorElementTracker_=
+1656669050438">Ticker: STFGX</div><div id=3D"yMail_cursorElementTracker_165=
+6669057736"><br></div><div id=3D"yMail_cursorElementTracker_1656669057866">=
+<br></div><div id=3D"yMail_cursorElementTracker_1656669058200">P.S.</div><d=
+iv id=3D"yMail_cursorElementTracker_1656667875477">&nbsp; &nbsp; &nbsp;</di=
+v><div id=3D"yMail_cursorElementTracker_1656667878289">I'll let you know wh=
+en I feel its appropriate, and whether or not that good faith refund holds =
+true for a meager 31,135.00 as purported in their notarized dockets to stat=
+e farm life insurance.</div><div id=3D"yMail_cursorElementTracker_165666786=
+3309">&nbsp; &nbsp;&nbsp;<br><div id=3D"ymail_android_signature">/S/ BO DIN=
+CER.</div><div id=3D"yMail_cursorElementTracker_1656667972635"><br></div><d=
+iv id=3D"yMail_cursorElementTracker_1656669153532"><br></div><div id=3D"yMa=
+il_cursorElementTracker_1656669119565"><br></div><div id=3D"yMail_cursorEle=
+mentTracker_1656669119672">Cases already notified, in good candor.</div><di=
+v id=3D"yMail_cursorElementTracker_1656669139129">&nbsp;&nbsp;</div><div id=
+=3D"yMail_cursorElementTracker_1656669141326"><br></div><div id=3D"yMail_cu=
+rsorElementTracker_1656668798188">251295/2021 thru 251334/2021</div><div id=
+=3D"yMail_cursorElementTracker_1656669144351"><br></div><div id=3D"yMail_cu=
+rsorElementTracker_1656669143780">Hon. Milton A. Tingling,</div><div id=3D"=
+yMail_cursorElementTracker_1656667972810">New York County Clerk and Clerk o=
+f the Supreme Court</div><div id=3D"yMail_cursorElementTracker_165666797281=
+0"><br></div><div id=3D"yMail_cursorElementTracker_1656667972810">And anoth=
+er Felony, known by the representatives of Sullivan Properties LP, notwiths=
+tanding Shari Laskowitz.</div><div id=3D"yMail_cursorElementTracker_1656667=
+972810"><br></div><div id=3D"yMail_cursorElementTracker_1656667972810">As s=
+tated,</div><div id=3D"yMail_cursorElementTracker_1656667972810"><br></div>=
+<div id=3D"yMail_cursorElementTracker_1656668851461">&gt;&gt;&nbsp; Claim V=
+alue: $600,000.00</div><div id=3D"yMail_cursorElementTracker_1656667972810"=
+>&nbsp; &nbsp; &nbsp; Block 2679, Lot 43.</div><div id=3D"yMail_cursorEleme=
+ntTracker_1656667972810">&nbsp; &nbsp; &nbsp; 840-46 Lorimer Street</div><d=
+iv id=3D"yMail_cursorElementTracker_1656667972810">&nbsp; &nbsp; &nbsp; Zuc=
+ker Enterprises LLC.</div><div id=3D"yMail_cursorElementTracker_16566679728=
+10"><br></div><div id=3D"yMail_cursorElementTracker_1656667972810">While de=
+aling with their business in Brooklyn, New York.</div><div id=3D"yMail_curs=
+orElementTracker_1656667972810">=E2=80=94 Kept me pre-occupied without caus=
+e to take care of their other business without my opinion or any reveal as =
+to what they really do for a living.</div><div id=3D"yMail_cursorElementTra=
+cker_1656667972810"><br></div><div id=3D"yMail_cursorElementTracker_1656667=
+972810">For example:</div><div id=3D"yMail_cursorElementTracker_16566679728=
+10"><br></div><div id=3D"yMail_cursorElementTracker_1656667972810">&gt;&gt;=
+ Hon. Nancy T. Sunshine, Kings County Clerk and Clerk of the Supreme Court<=
+/div><div id=3D"yMail_cursorElementTracker_1656667972810"><br></div><div id=
+=3D"yMail_cursorElementTracker_1656667972810">&lt;https://iapps.courts.stat=
+e.ny.us/nyscef/ConfirmationNotice?docId=3DHD6/wXvlOxflJUlQyXqedQ=3D=3D&gt;<=
+/div><div id=3D"yMail_cursorElementTracker_1656667972810"><br></div><div id=
+=3D"yMail_cursorElementTracker_1656667972810">&nbsp; &nbsp; case number:   =
+       400842/2020</div><div id=3D"yMail_cursorElementTracker_1656667972810=
+">&nbsp; &nbsp; Filed:                        09/23/2020</div><div id=3D"yM=
+ail_cursorElementTracker_1656667972810">&nbsp; &nbsp;</div><div id=3D"yMail=
+_cursorElementTracker_1656667972810">*** KINGS COUNTY ***</div><div id=3D"y=
+Mail_cursorElementTracker_1656667972810"><br></div><div id=3D"yMail_cursorE=
+lementTracker_1656667972810">Zucker Enterprises LLC</div><div id=3D"yMail_c=
+ursorElementTracker_1656667972810"><br></div><div id=3D"yMail_cursorElement=
+Tracker_1656667972810">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - v. -</di=
+v><div id=3D"yMail_cursorElementTracker_1656667972810"><br></div><div id=3D=
+"yMail_cursorElementTracker_1656667972810">THE TAX COMMISSION OF THE CITY O=
+F NEW YORK, AND</div><div id=3D"yMail_cursorElementTracker_1656667983907">T=
+HE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK</div><div id=3D"yMail_cu=
+rsorElementTracker_1656667984920"><br></div><div id=3D"yMail_cursorElementT=
+racker_1656667985061">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&nbsp;</d=
+iv><div id=3D"yMail_cursorElementTracker_1656667991745">XXXXXXXXXXXXXXXXXXX=
+XXXXXXXXXXXXXXXXXXXXXXXXX&nbsp;</div><div id=3D"yMail_cursorElementTracker_=
+1656667995996">Next.</div><div id=3D"yMail_cursorElementTracker_16566679990=
+20"><br></div><div id=3D"yMail_cursorElementTracker_1656667972810"><br></di=
+v> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-famil=
+y:Roboto, sans-serif; color:#6D00F6;"> <div id=3D"yMail_cursorElementTracke=
+r_1656667973612">On Thu, Jun 30, 2022 at 1:46 PM, Bo Dincer</div><div>&lt;b=
+dincer66@icloud.com&gt; wrote:</div> </div> <div style=3D"padding: 10px 0 0=
+ 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div id=3D"yiv=
+1717167827"><div><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr=
+"><b>Your fax to Kings County 400842/2020 has succeeded.</b></div></blockqu=
+ote><div dir=3D"ltr">/BD. Ask them what I sent over there Shari=E2=80=A6<di=
+v><br></div></div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></di=
+v><blockquote type=3D"cite"><div dir=3D"ltr"><b>From:</b> "FaxZero.com" &lt=
+;support@faxzero.com&gt;<br><b>Date:</b> June 30, 2022 at 1:04:14 PM EDT<br=
+><b>To:</b> "50074. NYSCEF 153974/2020" &lt;bdincer66@icloud.com&gt;<br><b>=
+Subject:</b> <b>Your fax to Kings County 400842/2020 has succeeded</b><br><=
+br></div></blockquote><blockquote type=3D"cite"><div dir=3D"ltr" id=3D"yMai=
+l_cursorElementTracker_1656668829421">=EF=BB=BF<br>
+Dear 50074. NYSCEF 153974/2020,<br>
+<br>
+Your fax to Kings County 400842/2020 at 2124019146 has been sent successful=
+ly!<br>
+Successful delivery of your fax was confirmed at 1:04 PM Eastern Daylight T=
+ime on June 30th, 2022<br>
+Your fax included  1 page of coversheet with your text.<br>
+<br>
+Be sure to follow up with the recipient to make sure that the fax is legibl=
+e and is delivered to the right person in the office.<br>
+<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://f=
+axzero.com/status/31341122/8e59115e4897e2033f093461ab8b548c23b1ebb2">To vie=
+w or print the status of your fax, click here</a>.&nbsp;<br>
+
+</div></blockquote></div></div></div> </div> </blockquote></div></div></div=
+>
+------=_Part_637470_1552870034.1656669219222--

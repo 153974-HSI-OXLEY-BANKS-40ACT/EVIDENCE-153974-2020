@@ -1,0 +1,92 @@
+From - Sun Aug 28 22:45:11 2022
+X-Account-Key: account1
+X-UIDL: AFtLcX04CVcOYssw8A3yUFkAbxY
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.108
+ by atlas224.free.mail.ne1.yahoo.com with HTTPS; Sun, 10 Jul 2022 20:05:04 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.169]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.169 as permitted sender)
+Authentication-Results: atlas224.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 20:05:04 +0000
+X-YMailISG: tiOejW4WLDtW2VxWHkhFps.3z52mSw4AuYYM3keqLLX1gfir
+ h9UqphdlNp1QEhe5Vf0OgJ2GbxZmZZj2fDcamr1idbhIzuilsQAXJ9LNHobV
+ d6AiF5RdXhfyJZ0V9Od71kr9J7SD_Wv05KdTPMywfHZ_lUTNzBch25vbhuBT
+ R9l3tPf7eO.JQSZvvLllkfWqvsWRm7LLSW.ZW6J2_TqOMWkf2VJyBelR32Js
+ r_eyIoPqm6aB5wyze4qO2oUQBiqAFbQaJg1ZYP0QkiuBYu6LmVWmYn4IncUf
+ zfmE9rFyBj59PdVDG9voYq5L95sLcgTwELRdXQugwPX4lY9XSRj0HcGv3IqI
+ Rwyd5lkyjsgZmfPHyoZbbvOYC_RjPx_zXcRI.7a6vIwydYbzB348z8kZejZ_
+ _dEBh27gfRw2IzNPHEfD7Hezexv9GpwalLW5goB4ahR.21tfHWaQ4UWodfcQ
+ DC0p7jmTrK8Pn3tDKhVlecPFOngddKoTmzc_.0iAFcJjz.Qf.kdDwyrK2pfd
+ TXbi.NQvlP1hKwrwA2YCNQ2rRZBchH__6iyua9yG1.fA23cnmXmnk7bTMCgi
+ kgzCmF5T33Dp8nHdYUAao6iQl2CXo3r4GYV8QzBofVetyAXYCVMCTPAJgEBP
+ IrSdJULv3gujfDa7cAEtIlvZjgLbg4E95c5M9_CdMm7NMsTH9LemJV4.Webz
+ o42PFIHUT6isql_9wLQI60hyRlWj0trcybBZF9Tbk.XWUcezlnbnSbMR9t_6
+ OrEqNetaQSJOaG65jxSlur99Vbe3WE6L.piO8NPiBZMbLps7U.TWWrPEegvo
+ .HQqhIEH4gmbGeKtpAWzcGlUfew3b46jz2Qd2v5Y0D5BuR3891G9FjhlKuXU
+ JK4.QvopMlYhsQqNoFblFBshQOEPwwG2.sxGmqYp9bjrr_.4CAVWLunPNXTB
+ jhC3mfQBCfeyB4_Sfk7eDqNs9u1G9pfDvuhBckC80mbRVPzTnQrogE1WcCnW
+ 5nDMqQq59KVfvPZjlXG58rEryoqHi2RhDIqZaPX688VrK_RBul31kgI5sHya
+ clPy_nuGQsQjrErGcwmFypCM9JTUi4grq6VdGMMoTcYw9.2_JO4-
+Received: from 209.85.166.169 (EHLO mail-il1-f169.google.com)
+ by 10.217.135.108 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 20:05:04 +0000
+Received: by mail-il1-f169.google.com with SMTP id d4so783114ilc.8
+        for <ms60710444266@yahoo.com>; Sun, 10 Jul 2022 13:05:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=/kpL0sA1nxVEfL2b3gAm2z+CdVdZghbe0KMemrDwJbY=;
+        b=Mv87ZCV2oG5HFTH4oy3+1dlEa/m17VEJePcJRotmrrW4L6aIvsN0YR5kU4BBeEBsqg
+         h15yyh0ShYC4vgxuIp04esTWzAN3mo88GV8ff3l24UGqFEDEjQCmHgNIw2Pq1/pSRNoC
+         Bu4qhMPOqqnCVgDezJT8yTvMjT2cMM+EFICD07G1jr3sCxtcY/eWJ8/NafxsdT5VDCQX
+         zYh+cQN/0tl4XLRRn9N2fbYMlAwrqBXG6gKPVkn/ny9mZsku+we9zqyC9YYa/9T/Gr72
+         FXGUcyVVmgfKcXiI/ZfRzQzlkS0om6z84qvgGZ9kG6R00dIBigXuJwKgL5XV29L1bG0w
+         3YSw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=/kpL0sA1nxVEfL2b3gAm2z+CdVdZghbe0KMemrDwJbY=;
+        b=EURVQy2Oph2NwIDlEZqAOST92/t8lqM9akHK0Ezd494xTLWfYzZO/5CLrPS4uaUpW/
+         BMkxMeyDMKy24YYL+MOnGlvhSzxoOuk4BAMLB/IGt0bPmvR+lthJ7d75sYg/Rpu36FY9
+         Tddx1dqjfnRJafmaxAwa9wGZIKvmUVvcTuu0+kn5jnJUoXZPYV0X3gUcjkcWh8PtpE2M
+         yzfv7hr10z5XdxbqADueCFQQ5UVSN8HfRYETnu7cdgm0ixVOwigUBEA/qR+ZtBFBGIjA
+         5rxT8dWXi2ERPNW97q/OdWZsWw6O9QI67wTu0rjeFaNLj9/LpdiaXqVtb1Tbp1UJR0gr
+         Pwnw==
+X-Gm-Message-State: AJIora9M0QKMyX0K+IiceBU6UfPkj5HYMMNMQcJST80L8dF/WuZw3qrn
+	B1bUf8d+MpHhK6o6XGfHxqU8ZDAEJoNflsyW5Z3lRLgc
+X-Google-Smtp-Source: AGRyM1umUCZnCTZrAsnVmsYncl3IvSlyvDsv9dbE5b4ak8zn0TwqQF5ARk5Qz9GqIE4AFCd4BD4NsbOAQgMGIDB5obo=
+X-Received: by 2002:a92:6a09:0:b0:2db:efeb:6a5f with SMTP id
+ f9-20020a926a09000000b002dbefeb6a5fmr7758123ilc.290.1657483504033; Sun, 10
+ Jul 2022 13:05:04 -0700 (PDT)
+MIME-Version: 1.0
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Sun, 10 Jul 2022 15:05:58 -0400
+Message-ID: <CAOHu488qBuyRH3zgAFa_hxMRw9+LtbHmfv=rTZjXB1U0VVNEbQ@mail.gmail.com>
+Subject: Bureau.
+To: BBO 121 <ms60710444266@yahoo.com>
+Content-Type: multipart/alternative; boundary="0000000000007aa3f005e378f325"
+Content-Length: 725
+
+--0000000000007aa3f005e378f325
+Content-Type: text/plain; charset="UTF-8"
+
+https://m.facebook.com/story.php?story_fbid=pfbid0346jdDK7FhdbV12FGbR3CTuMLrFWj5KRMQWCmFGtd2k7Uhfi3EuFjU1pawE3u2PYal&id=506822379&sfnsn=mo
+
+--0000000000007aa3f005e378f325
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><a href=3D"https://m.facebook.com/story.php?story_fbid=3D=
+pfbid0346jdDK7FhdbV12FGbR3CTuMLrFWj5KRMQWCmFGtd2k7Uhfi3EuFjU1pawE3u2PYal&am=
+p;id=3D506822379&amp;sfnsn=3Dmo">https://m.facebook.com/story.php?story_fbi=
+d=3Dpfbid0346jdDK7FhdbV12FGbR3CTuMLrFWj5KRMQWCmFGtd2k7Uhfi3EuFjU1pawE3u2PYa=
+l&amp;id=3D506822379&amp;sfnsn=3Dmo</a>=C2=A0</div>
+
+--0000000000007aa3f005e378f325--

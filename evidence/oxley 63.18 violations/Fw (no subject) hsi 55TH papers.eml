@@ -1,0 +1,184 @@
+From - Sun Aug 28 22:53:57 2022
+X-Account-Key: account1
+X-UIDL: AJV10SINN4y1Yt4QtQBdwDEu180
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.134.205
+ by atlas116.free.mail.ne1.yahoo.com with HTTPS; Mon, 25 Jul 2022 03:40:36 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.147]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.147 as permitted sender)
+Authentication-Results: atlas116.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 25 Jul 2022 03:40:36 +0000
+X-YMailISG: Tqp1X6oWLDsDqRRKF9ZQFH.ky0GsHGjxyhjb1uViE44NOkSS
+ 1Tp.8aPZuoP3UIrJn9EQMzYsk.xGbC_Y7XyGRbQVy6WhNTbjOvSgrIXFiRzi
+ 9KxBcp4GnCc11IrufL3g59L8k8IEqeLtPDmVIRXk7xjcCdxWMVPSW7tO4aX0
+ 8Y7qfGTyy34Yt2Wtp4kMf_kZZuxZjC5C531394ZidJbgzdyerOWiDJc5Be1t
+ bvfd4Rhvo8dTfGJPQq_w2hsZ3JjXxXJmar_SxP6t54YHwJXh2dR69JJ465PO
+ t7LDt.OLgijXC.C3z3hF8P_Cs_H0bz0LL7YxuMA2Ce8ZONpvpd547RAUlmsu
+ FS6DlHpy5A7Pe3QVr_pAO7KB1Zib2hef6oOGRbLOAHJzvN_23MyeAGVodhrF
+ p3sPk8Mlg6mcg6FomYmngT5rgjihBV.pk6yyN3pHgLf9Zn80crNmqNOKq9.E
+ ldbVYYv3sRRAICvlJjUl2oJqk.cHX7NY4eEgpCQbP9aDJ955S.Yv.lg3wovZ
+ NBkJUxDpKTYNlE5P969Lli3n0XR7ciPW639yGVMt6eiBbkmQi.rwLA8NE_Gi
+ ljFJek1S7BNwbXFy00uPwirxp.SKv4dTxVkErXvsemywjpnnHpRpT1.PTEuD
+ zXh1ypRBft86XVZ67Ff3yaIwYE8NFS72qoe7SY_naSIFViNKGFSzzvjrWhQR
+ kEx2U9t2gIPYwzkIVVl2jxbL3fgvIGHura3n6QHcl1gel9rJ7MalDC5gFGvz
+ _T_1mIhyoA3ERRXEcFS9iq.uX4P10uaRMO6dS0yuSMHdnnzg_kGBq2egB0_A
+ sp0e7HjR4clSV8RZCb8csziQKc2Sc0.Mmo56TrZa3KfeN0KysU6d_A7tlFXb
+ caR7oDDTRcarCtFslL0aOinCwROFcm2FG_KQ3ZA8NLe068lgWQfPK_PP0QD8
+ Qr.dK2R8MOnQy6lyh0aa5KgD.lMuv5zZCkTZoZLNt9JmvlUUsTasdr8s5XgH
+ m.my21XHhRwuFC7jjNPovAZpb0DUQ_NGkHKYwwXmaQuDsnUF3GV3Ye0YEcYZ
+ LLIXuzIq092sfLqjzGqM157pCpGcg3EnjQeuHso1810NEqNwTWrpr5OBV17I
+ kzFS_i683KuFNXjg7LpNwF.oh0Sbo0S7eKtmwPqGTB4RW7DkpsE3fxddhtLY
+ ZZrgnTin
+Received: from 98.137.66.147 (EHLO sonic317-21.consmr.mail.gq1.yahoo.com)
+ by 10.217.134.205 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 25 Jul 2022 03:40:36 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1658720436; bh=ymj6I1zVbi/FmNgXYttY7mFJQ+5HhfsvTu+N/8a5uks=; h=Date:From:Reply-To:To:Subject:References:From:Subject:Reply-To; b=hHbrGwT0/0xNgnm8685IoYUTaivOTJdpjMNIFTxkRzNHjtm1uV8qLbp67IhAwjODvwhhC/zzMGBDnBhYxLxd3k/pe11Lmy6dLs9s4qGuQW4VEpOFd+Jaq3fcvGSf2W9h+VBBDrK/sQhZa3UrEM+f8L85+eE9eNzGBjRPGNeKCJorrNBXyLwUb0TT6nkqWPLacTDb7Tgq9VdotryMoua98f+C85l0vXs9hlGBdsvPVxCxAct8xkoZT7aP1LFwUebMshMohQC5nRE56PhRiiuup4inkDTqcnY1sfW/hc5who79usZZGb77w7OisBiLHkwvI8davQq5h7e6g9NrGjHDvQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1658720436; bh=YP92XYQy+dxsql1mJu7CaoRkph9Q3KrfyQVFgKNCjsf=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=s4J74p2iqaVipOFgVnc/NR4L4dIkOgRyVKKjG15Blp/HfNGitpDqOa8SUq8ZnclsvHS7eXmzADXe9hg37qoZuxz6ahUZTLSLLv6io2uDDL97iz3XpJECTQxkNCGT74vl9TVW57fZXJv05FufJh9rkZJGXAV69UnF6+NRgHQsMyzs2paphEz9EXHATTMWmWfAqGeolI3QTu45dny4LDqzXz0u2k69+ruhZD7uInGM/6wSxcE4hF1gSefjqDgiKvo3Eic4MPkCybWeoP2x1sSji64ExD3Bt0TmKvEgnVMNyjMYe2Gs2XMKgjPUmEONt19ut75tNjdDlIuuo/mA4kmdvw==
+X-YMail-OSG: nFSUd1oVM1kyPq4hsmICfagCUZ6XyqX5aFIF78XdP45RDi70eb8Jix23nubGP8K
+ 9vkaxozfrY_NWyLhnTvDLU4mKf27p4AaVvdro1_9nIYMIb17kl1XVpHoOh6zVjW5sy6KEvWTkfuI
+ 80Z7O2waWQRYSrPyh7NZisCaUJlAI1kgveNYNiflRpz2ti2k1LmRly9afXZn1ycfbPCCupxardzF
+ U_6pcnQ9wyhaKO5jdcwKSnUWZ9_nufl831X.KQJQPYEqr9ACrny1fY7lD0db35Yd1jgjVhXF6ib4
+ nTJa3lkfjWd40v50FVNIKWz2U5dh.Tnxtk1xyfX0KM9pthkH7Bp14VEz4XRspc_EeEH4X.j6Xi14
+ BkrQMpskIoyKKViryjqPRMB7wctg9peK7GrgoP_ANL.N5uljYgY9I2fWgOtJGx9BtqeS_glJC4.h
+ MfglZZCxeOIkStby076yWKxUBXFvtIWtSOiwwg5GJzry6bWO7bw4NAi7OASbml21Jqay0Tep4WlU
+ D9kQu7CnKMAdkIPsYyMgAH3.GH6CI4JbydTmIoMrkuB71ODJJjjrFk5nSFz4sZEmIHYxi_0AK6GM
+ udkeUjgktZcLGKYKMenArB0vHqfGCr2Gj4o1Dw4OWJWqPivnbLJA0m0_5.AqqxUn02dDtkv37KF.
+ 7i2E4gL6iEGGOm9lp9q1hKo8ES.J_IkZFCVdC3bqyPTWl0kx34zHH0FIUl6q3LaWk0EqO23e3QQL
+ 7BcXp_cW8gFL1E7Z7XzEEi689bL2CowsbGpa66QiAqwRvlrwpq1OAKt5MIhaQXpgbDtgy_yAZVjd
+ XFFe0NoarzjGZbBqbqFFkZiRkOFdqqe.KDzjobDnmbfVixmGbTYYz0O.7Lb7EoZnKp6NQlExlQGM
+ Dzyx0Q_zrqcaU8_M_UGAHkEWsvefISkxU1OiC4KNB5517z1yOo5xZxHd3EDQk0QyzURk8BzuU95l
+ VWm_gZPpU6SCz4DSnU7jGDzcwGZHOM2pHsl79DGBsnqcm6cRd1nxdc.vlhNOi2rr1NGqY9SISUIC
+ ieIlhe.L_MZV6R9RKOdmMY2Cjlr5iXXcUrqAU2TdO44u2le5YUbOTSzj9gotCoZrCHxob7qPBYtc
+ IlJ88ppcgYIYY0eaEhD3EciQ575L2pqb9NpLgJYpFeqRCNFnlT.lt6OEV3clB5oMrXbfdBkdVzQy
+ 90GJfVAGkvD2HxcHDPcylz8MumP7SluM1wtUOPUPQ5LNIAZZv.zCBcTeFkMqCUwLixrW21ng6Z50
+ tzjQjltK5d7eoPkpRl34q3H4AjK2uIB9g5NsvghoS520dDu9PtAu4s_SlRJC71iyFZ2i3nFwh.2C
+ FYAKwvOXtPYegJJ9qw0l28LnfDyOdQzXcfamieAcu5ryOcG.pIv74pgiJDdQCVbV04l9CSsTYL.1
+ aYcJMNCtlD1UeUYDAaZH.csga9RCEZkmDGBYBqG9kHN2D9lbQPfJEo0v.OpVWkC2iLFNkrtbS1sO
+ oFrBxdHcsPn6sKG6HCVVRkEBPy27U9opU9ZnnxRljgIURXZ4kUDxAnnN6bDGNyAIZv_l.YzAcMkN
+ 13GUHI83OuapNnHtsksRu3uhIIdpjd7S0n7_yd_Bv.j.s7SQa4s_jGPCi_EDRPwtjOSdqpvoc9.K
+ IYW6NgFGAtGRZWwB8cjdUucXKJUxWOEmIe4xpfz7lK1s7xFriDTH1lYCCMgbOgyITHZHwf64YDOd
+ TaWw8Ot_T.znM2fim5UP0.fy7RTjo6p4ad6.gSg2tl_x90MLWwRbICzQ559qJAwLVKEYxBS579Av
+ 1.bSsMV2UTQ5raWQhqhGVSv7R3i09qp5yVp29AtPZ9Ew.4XwVgFXKxvmHJlCcX2zu6O1wAY7JZYy
+ mTXxmc0FqVqnaBS9F_fNdM_877GfgtNIAF7TVpcGiJxRKWV4yJIzamg1NJ6FoG1rvuUM78Yc1VtI
+ 3c8HCdv3XANdt_ux25ft4joCrlZsRSlGrfOXhdlRPWRFGkpCPjrrlakFG.9kl0EplFIzOoLlu0zV
+ SdZIACUSEqIGXHE3tG_fYbH0FUo_Ab7GexPGVjRItagBqFCohiQ2IugnnT_aLTNhM9L2p9qJ_D_E
+ U6RmmajO6adU7FY0y02LVWfm.Rr7pNmN5LNaSo0WZ8wG23TOSNG19gToulgnCdP1yY.ozF0UYeSh
+ ovGjpWdjXS5Rj7jwtjkaFq.8WFrYilXTphybOQUkHojI0upLxFmtpS7c9j3EdUC0MQ0Uo.k1ozmr
+ 1NBUb_0cFidBj0jpcY3YVKwaNmAysfFHfKmzRBr1HA9avzMsEYCiP9aO55f0L49fxl7AehiLTnUh
+ ej0tYbSfEdm6R4KaiVUDxiM5BKzatvyzpDzS_iJ48nnMPETlqPztbqoP2Ij.lIT4Sri9C628orOH
+ wEjXJnGx_DHkqQiKHM5K6KvjiR1PiTViVPyElHeTepmf83lhTbHDdm4cuvrW_t1s-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.gq1.yahoo.com with HTTP; Mon, 25 Jul 2022 03:40:36 +0000
+Date: Mon, 25 Jul 2022 03:40:33 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "risc@ic.fbi.gov" <risc@ic.fbi.gov>, 
+	"helpdesk@listserv.leo.gov" <helpdesk@listserv.leo.gov>, 
+	"helpdesk@leo.gov" <helpdesk@leo.gov>, 
+	MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <1075485169.1263311.1658720433805@mail.yahoo.com>
+Subject: Fw: (no subject) hsi 55TH papers
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1263310_656813090.1658720433803"
+References: <1075485169.1263311.1658720433805.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20447 YahooMailAndroidMobile
+Content-Length: 4008
+
+------=_Part_1263310_656813090.1658720433803
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Bo Dincer" <bo.dincer@yahoo.com> To=
+: "FNotarnico@aol.com" <FNotarnico@aol.com> Cc:  Sent: Thu, Aug 21, 2014 at=
+ 4:08 PM Subject: Re: (no subject)  Do I mail you a check?
+
+Bo Dincer516 491 4931
+On Aug 21, 2014, at 2:32 PM, FNotarnico@aol.com wrote:
+
+
+
+=C2=A0=C2=A0Frances Notarnicola
+The Padded Wagon
+Tel: 718-585-9445
+Fax: 718-401-9590 =C2=A0
+   From: FNotarnico@aol.com
+To: Edincer54@gmail.com
+Sent: 7/31/2014 3:38:18 P.M. Eastern Daylight Time
+Subj: (no subject)
+ =C2=A0 Could you please forward to correct party or provide me with his em=
+ail =C2=A0 Frances Notarnicola
+The Padded Wagon
+Tel: 718-585-9445
+Fax: 718-401-9590
+
+<BoDincer-StatementofAccount-August2014.pdf>
+ =20
+
+------=_Part_1263310_656813090.1658720433803
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; =
+margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fa=
+mily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message ----=
+-</div> <div><b>From:</b> "Bo Dincer" &lt;bo.dincer@yahoo.com&gt;</div> <di=
+v><b>To:</b> "FNotarnico@aol.com" &lt;FNotarnico@aol.com&gt;</div> <div sty=
+le=3D"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Thu, Aug 21, 2014 a=
+t 4:08 PM</div> <div><b>Subject:</b> Re: (no subject)</div> </div>  <div id=
+=3D"yiv2885417565"><div><div>Do I mail you a check?<br clear=3D"none"><br c=
+lear=3D"none">Bo Dincer<div><div>516 491 4931</div></div></div><div id=3D"y=
+iv2885417565yqt46788" class=3D"yiv2885417565yqt6123422753 yQTDBase"><div><b=
+r clear=3D"none">On Aug 21, 2014, at 2:32 PM, <a rel=3D"nofollow noopener n=
+oreferrer" shape=3D"rect" ymailto=3D"mailto:FNotarnico@aol.com" target=3D"_=
+blank" href=3D"mailto:FNotarnico@aol.com">FNotarnico@aol.com</a> wrote:<br =
+clear=3D"none"><br clear=3D"none"></div><blockquote type=3D"cite"><div>
+
+</div></blockquote></div></div><div id=3D"yiv2885417565yqt50794" class=3D"y=
+iv2885417565yqt6123422753 yQTDBase"><div><font id=3D"yiv2885417565role_docu=
+ment" color=3D"#000000" size=3D"2" face=3D"Arial">
+</font><div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><font size=3D"2" face=3D"Arial" family=3D"SANSSERIF">Frances=20
+Notarnicola<br clear=3D"none">The Padded Wagon<br clear=3D"none">Tel: 718-5=
+85-9445<br clear=3D"none">Fax: 718-401-9590=20
+</font><div>&nbsp;</div>
+<div>
+<blockquote style=3D"PADDING-LEFT:5px;MARGIN-LEFT:5px;BORDER-LEFT:blue 2px =
+solid;">
+  <div style=3D"FONT-SIZE:10pt;FONT-FAMILY:'Arial';">
+  <hr>
+  From: <a rel=3D"nofollow noopener noreferrer" shape=3D"rect" ymailto=3D"m=
+ailto:FNotarnico@aol.com" target=3D"_blank" href=3D"mailto:FNotarnico@aol.c=
+om">FNotarnico@aol.com</a><br clear=3D"none">To: <a rel=3D"nofollow noopene=
+r noreferrer" shape=3D"rect" ymailto=3D"mailto:Edincer54@gmail.com" target=
+=3D"_blank" href=3D"mailto:Edincer54@gmail.com">Edincer54@gmail.com</a><br =
+clear=3D"none">Sent: 7/31/2014 3:38:18=20
+  P.M. Eastern Daylight Time<br clear=3D"none">Subj: (no subject)<br clear=
+=3D"none"></div>
+  <div>&nbsp;</div><font style=3D"BACKGROUND-COLOR:transparent;" color=3D"#=
+000000" size=3D"2" face=3D"Arial"><font color=3D"#000000" size=3D"2" face=
+=3D"Arial">
+  </font></font><div>Could you please forward to correct party or provide m=
+e with his=20
+  email</div>
+  <div>&nbsp;</div>
+  <div><font size=3D"2" face=3D"Arial" family=3D"SANSSERIF">Frances=20
+  Notarnicola<br clear=3D"none">The Padded Wagon<br clear=3D"none">Tel: 718=
+-585-9445<br clear=3D"none">Fax:=20
+  718-401-9590</font></div></blockquote></div></div><blockquote type=3D"cit=
+e"><div>&lt;BoDincer-StatementofAccount-August2014.pdf&gt;</div></blockquot=
+e></div></div></div> </div> </blockquote>
+------=_Part_1263310_656813090.1658720433803--

@@ -1,0 +1,256 @@
+From - Sun Aug 28 22:41:08 2022
+X-Account-Key: account1
+X-UIDL: AGR+ZfsQn4dOYryrfwohwAw8h8w
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.232.219
+ by atlas207.free.mail.gq1.yahoo.com with HTTPS; Wed, 29 Jun 2022 19:43:59 +0000
+Return-Path: <prvs=1723088e7=publicinfo@fdic.gov>
+X-Originating-Ip: [167.176.6.41]
+Received-SPF: pass (domain of fdic.gov designates 167.176.6.41 as permitted sender)
+Authentication-Results: atlas207.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@fdic.gov header.s=ZIXVPM_13c2a3898e7;
+ spf=pass smtp.mailfrom=fdic.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=fdic.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 29 Jun 2022 19:43:59 +0000
+X-YMailAVSC: Nu5I6gM3bBudnmH6pRXID50wV._Iec1Rqc3DUYg.p7mP82h
+ sn_NspsovzlmBK71Etd8_q2BIpP0oCZuc2r6GFc8oIdG7qyGmyBIqyt1TTJe
+ f6K047F5fOvCL2BKyc49giqtdKLteeaLMAHGr26o_3XKyY_2CqQRM_0rqTh5
+ Mn9irvcw7cBNSazV0yalR8CjWY_PpzD3WeXaGUa8b3JvTautto.ftWVOT2m9
+ HqzaiI58AdinQj82EGpy225Gqo93zTpoMCVwZqKnUX.aNB3WvOqMqRZ5pWcA
+ .tr_fthH4A0sGHZaJCCRmMC_z_WIsQ1N0C.AsnLfJykBHO84z9d6eY7e2Q57
+ FtgGoOUx9U0HEhmFJbXZxsC4z34a1isj5Kw630g--
+X-YMailISG: 7by4k3IWLDtJk1avva9cA9xxhDGwMg4kuLjB9MdRP8Wvo8oG
+ 3hY.s3SwVUbhmhwLDqj0BbvYi1C9ycinDSxU3611ed_8k9pL34vpacCk_e3Z
+ Jj.XFdmifVActTrpPXEyhHbeIRpNJOGjYkCAFCUnnt5GktsZ3NfS3zNqBJ31
+ fEzijgP_1s00tni7Ax1P3AakhuMITe0n0Z9w6YNoij0nHzXjNyD3x5rNCSVe
+ f.X_zb5HRq8zT8RUDcFMcE_8xVLfNP2hrEWNchUtrKGdNSxwu0q7682v2SMC
+ Abn9clPfbfV6CpI533VVLIZ8Xj1zv79Q4a6o9HUpSFrf0Uf_x_E6328GCIAg
+ ptjQSuv9IVHKSniOz3RHjoDnkjPJdK1WufO8vp2qOJJJYQa3t3ef9sJKua3B
+ B3X9KpXteDJCuPWpSS8FDimkmOFn2QS4jby0msLcBuu98malOU5_t_6fmq4W
+ .inzh67pvd9y5YW88wwwEQzlL2SI1x1E6klTFo5aU7C3T5733uq3XklMm.9M
+ .50IXu5I5BYsr5mw2.QBIQFM96SqM3SmiVG9ljWmHpjQDT45ozNTCrcZjDfS
+ Ke4_wpnG2kOK.JxZEZC2Fh4Ca0jr6pMFy_fZLeLxDFQSrdGbJN20Xo3iX6by
+ 4g17X5cg_vdy4eEPOgzwWPs5cGMA5w6.eL7d4y2kXL9OtT7_0HEpUNX9iQCZ
+ Nw9CBTTvS1gPET_YXiJRLFksTS_3XJspx7ZUEPvz46QdOM7OD4ylFxmMC6h5
+ P54W8TtZtsJO4SX.tzv8rKz7ZRCf8EHB.v5wn59l5nVZF5m5..K37teq8vJ0
+ 149Uz11Iw2TVZnJoKV4BelOVbzvmpRALh_0maDdoxT4ymQml0lO1zsQZRkH7
+ JwQCewtpx5W5A4ca1Zr0GYeKVCw1VrbbMM3AX5tSoyc4vdgx0CKJTvav83pJ
+ DEAENoyUKFqWq_q66p2T8XXOMs3DZOvn84pr8hPMJxqCok5jPMrCxNnHAQoK
+ skWeobBgbGth5cXnp0_3ZVO3MP4QABrTtpt52l5SjHWtr75wa4lD6W7Fl19D
+ BZyMHTXt_No5q.E4ONZWNfUAIgfyhTBjfN._uqmTx0p6IhIJdpdGINcYf3aW
+ DvZ0I3ZK6shbur05.4Z.DKJkIXvpc864VdK0BBAbchesQXgbm.iu6wwhISWw
+ qaIoQlSxejsj36EzDOmFS8360p987yYVBKP1H_9cpQ--
+Received: from 167.176.6.41 (EHLO zixvpm1.fdic.gov)
+ by 10.253.232.219 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 29 Jun 2022 19:43:59 +0000
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.fdic.gov (Proprietary) with SMTP id 336E82060269
+	for <ms60710444266@yahoo.com>; Wed, 29 Jun 2022 15:43:25 -0400 (EDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=ZIXVPM_13c2a3898e7; d=fdic.gov;
+	h=Date:From:To:Subject;
+	b=RPc679Grm/7jOkbSLSB/bASRVXRqgPjh4XBI+TEg1imPZF+G18cIbh1xiUZndrvo
+	8AXuzqN2dsFvQeMzOtocILRGz82gfeV3rUPXkn5zPAzN0pv0MDMIkeui3v2LjD
+	ZxSo3j3+yia75e7nLaTxrE7hp86Jp+wgoqWOJTHBk24u8=;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fdic.gov;
+	s=ZIXVPM_13c2a3898e7; t=1656531805;
+	bh=WVa6LYXU5o/gWCJz2fPvfMYg4QSSOKWCD3EVWXL+pdM=;
+	h=Date:From:To:Subject;
+	b=GNVbqKDI5hyWRF8T8C9+pJuctQrZbP7s8vfdjrJjXw2PZgUH+av2Qar7wpS5TqsYx
+	 jQutVkicskreefAIoFiOoK3dtEzZ/6aZgAzN6J7XI7lne+jiQGyXAl+5ymM4I/k5Ye
+	 0jCozKDm/dvLgdfLHnFQWKsBZdt4qpA5/ERE8gDQ=
+Received: from VASMXEXT01A-EXT.FDIC.GOV (vasmxext01a-ext.fdic.gov [10.30.1.142])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by zixvpm1.fdic.gov (Proprietary) with ESMTPS id 1C1A12060267
+	for <ms60710444266@yahoo.com>; Wed, 29 Jun 2022 15:43:25 -0400 (EDT)
+Received: from vasdlp20-dmz.fdic.gov (HELO VASMXEXT01C-EXT.FDIC.GOV) ([10.30.1.110])
+  by VASMXEXT01A-DLP.FDIC.GOV with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 29 Jun 2022 19:43:58 +0000
+X-Ironport-Dmarc-Check-Result: validskip
+X-Outbound: true
+X-IronPort-AV: E=Sophos;i="5.92,231,1650931200"; 
+   d="scan'208,217";a="3820984"
+Received: from smtp02-chx.mta.salesforce.com (HELO smtp02-chx-spx.mta.salesforce.com) ([96.43.152.65])
+  by VASMXEXT01C-EXT.FDIC.GOV with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 29 Jun 2022 19:43:58 +0000
+Received: from [10.250.24.204] ([10.250.24.204:45248] helo=na21-app2-18-chx.ops.sfdc.net)
+	by mx3-chx.mta.salesforce.com (envelope-from <publicinfo@fdic.gov>)
+	(ecelerity 4.2.38.62368 r(Core:release/4.2.38.0)) with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384
+	subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:chx;4:gia/CN=na21-app2-18-chx.ops.sfdc.net") 
+	id 59/9C-06862-D7BACB26; Wed, 29 Jun 2022 19:43:57 +0000
+Date: Wed, 29 Jun 2022 19:43:57 +0000 (GMT)
+From: FDIC Public Information <publicinfo@fdic.gov>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>
+Message-ID: <XW9yr000000000000000000000000000000000000000000000RE984Z00v3F-JQkBR5mFVUy0ty69eQ@sfdc.net>
+Subject: *** NEW CONSUMER CASE NOTIFICATION *** Case Number:
+  ref:_00Dt0GzPp._500t0zoSDp:ref
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11105_1225775197.1656531837845"
+X-SFDC-LK: 00Dt0000000GzPp
+X-SFDC-User: 005t00000014jXE
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDCOrgRelay: 00Dt0000000GzPp
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-EmailCategory: workflowActionAlert
+X-SFDC-EntityId: 01Wt0000000L1yZ
+X-SFDC-Interface: internal
+X-SFDC-Restrict: ^(.*)
+X-SFDCRelayAddr: fdic.gov
+X-SFDCRelayPort: 25
+X-SFDCTLS: 2
+X-CFilter-Loop: Reflected
+X-VPM-MSG-ID: 6d32729d-030f-4ed4-b04b-8a9fa351a1c1
+X-VPM-HOST: zixvpm1.fdic.gov
+Cc: 
+X-VPM-GROUP-ID: e75a9ed7-27b7-436f-b15e-eae6bc064226
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+Content-Length: 9263
+
+------=_Part_11105_1225775197.1656531837845
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Thank you for contacting the FDIC.  This automatic response acknowledges receipt of your inquiry on 6/29/2022 3:43 PM.  The reference number assigned to your request is 01417531.  Your request has been routed to one of our analysts who will contact you within three business days.
+
+Below are some online resources that may prove beneficial until we are able to respond to your inquiry.
+
+Frequently Asked Questions for Industry Analysis:
+http://www.fdic.gov/bank/iafaq.html
+
+Are My Deposits Insured?
+http://www.fdic.gov/deposit/deposits/ or
+https://www.fdic.gov/edie/index.html
+
+Frequently Asked Questions for Deposit Insurance:
+http://www.fdic.gov/deposit/difaq.html
+
+When a Bank Fails - Facts for Depositors, Creditors, and Borrowers
+http://www.fdic.gov/consumers/banking/facts/index.html
+
+Obtaining a Lien Release:
+http://www.fdic.gov/consumers/consumer/information/lien/
+
+About the FDIC, The Federal Deposit Insurance Corporation (FDIC)
+https://www.fdic.gov/about/
+
+You may order FDIC Deposit insurance products from our online ordering catalog
+https://catalog.fdic.gov
+
+Sincerely,
+Division of Administration
+Federal Deposit Insurance Corporation
+
+ref:_00Dt0GzPp._500t0zoSDp:ref
+------=_Part_11105_1225775197.1656531837845
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><style>p{margin-top:0px; margin-bottom:0px;}</style><body class=3D"se=
+tupTab"  style=3D" background-color:#FFFFFF; bEditID:b1st1; bLabel:body;"><=
+center ><table cellpadding=3D"0" width=3D"500" cellspacing=3D"0" id=3D"topT=
+able" height=3D"450" ><tr valign=3D"top" ><td  style=3D" background-color:#=
+FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; te=
+xt-align:left;"><img border=3D"0" bEditID=3D"r1sp1" bLabel=3D"headerImage" =
+id=3D"r1sp1" src=3D"https://fdic-oit.my.salesforce.com/servlet/servlet.Imag=
+eServer?id=3D015t0000000QFV9&oid=3D00Dt0000000GzPp" ></img></td></tr><tr va=
+lign=3D"top" ><td  style=3D" background-color:#FFFFFF; bEditID:r2st1; bLabe=
+l:accent1; height:1;"></td></tr><tr valign=3D"top" ><td styleInsert=3D"1" h=
+eight=3D"300"  style=3D" background-color:#FFFFFF; color:#000000; bEditID:r=
+3st1; bLabel:main; font-size:12pt; font-family:arial;"><table border=3D"0" =
+cellpadding=3D"5" width=3D"550" cellspacing=3D"5" height=3D"400" ><tr valig=
+n=3D"top" height=3D"400" ><td tEditID=3D"c1r1" style=3D" background-color:#=
+FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-fam=
+ily:arial;" aEditID=3D"c1r1" locked=3D"0" ><div style=3D"color: rgb(0, 0, 0=
+); font-family: arial; font-size: 12pt;"><font face=3D"Arial, sans-serif" s=
+tyle=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font st=
+yle=3D"color: rgb(0, 0, 0);">Thank you for contacting the FDIC.&nbsp; This =
+automatic response acknowledges receipt of your inquiry on</font><font styl=
+e=3D"">&nbsp;6/29/2022 3:43 PM.&nbsp; The reference number assigned to your=
+ request is&nbsp;</font><span style=3D"color: rgb(0, 0, 0); background-colo=
+r: rgb(255, 255, 255);">01417531</span>.&nbsp; Your request has been routed=
+ to one of our analysts who will contact you within three business days.</f=
+ont></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size:=
+ 12pt;"><font face=3D"Arial, sans-serif">&nbsp;</font></div><div style=3D"c=
+olor: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Ari=
+al, sans-serif">Below are some online resources that may prove beneficial u=
+ntil we are able to respond to your inquiry.</font></div><div style=3D"colo=
+r: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Arial,=
+ sans-serif">&nbsp;</font></div><div style=3D"color: rgb(0, 0, 0); font-fam=
+ily: arial; font-size: 12pt;"><font face=3D"Arial, sans-serif">Frequently A=
+sked Questions for Industry Analysis:&nbsp;</font></div><div style=3D"color=
+: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><a href=3D"http://www=
+.fdic.gov/bank/iafaq.html"><font face=3D"Arial, sans-serif">http://www.fdic=
+.gov/bank/iafaq.html&nbsp;</font></a></div><div style=3D"color: rgb(0, 0, 0=
+); font-family: arial; font-size: 12pt;"><font face=3D"Arial, sans-serif">&=
+nbsp;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; fo=
+nt-size: 12pt;"><font face=3D"Arial, sans-serif">Are My Deposits Insured?&n=
+bsp;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; fon=
+t-size: 12pt;"><font face=3D"Arial, sans-serif"><a href=3D"http://www.fdic.=
+gov/deposit/deposits/">http://www.fdic.gov/deposit/deposits/</a>&nbsp; or&n=
+bsp;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; fon=
+t-size: 12pt;"><a href=3D"https://www.fdic.gov/edie/index.html"><font face=
+=3D"Arial, sans-serif">https://www.fdic.gov/edie/index.html&nbsp;</font></a=
+></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 12=
+pt;"><font face=3D"Arial, sans-serif">&nbsp;</font></div><div style=3D"colo=
+r: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Arial,=
+ sans-serif">Frequently Asked Questions for Deposit Insurance:&nbsp;</font>=
+</div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 12p=
+t;"><font face=3D"Arial, sans-serif"><a href=3D"http://www.fdic.gov/deposit=
+/difaq.html">http://www.fdic.gov/deposit/difaq.html</a>&nbsp;</font></div><=
+div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><fo=
+nt face=3D"Arial, sans-serif">&nbsp;</font></div><div style=3D"color: rgb(0=
+, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Arial, sans-se=
+rif">When a Bank Fails - Facts for Depositors, Creditors, and Borrowers&nbs=
+p;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-=
+size: 12pt;"><font face=3D"Arial, sans-serif"><a href=3D"http://www.fdic.go=
+v/consumers/banking/facts/index.html">http://www.fdic.gov/consumers/banking=
+/facts/index.html</a>&nbsp;</font></div><div style=3D"color: rgb(0, 0, 0); =
+font-family: arial; font-size: 12pt;"><font face=3D"Arial, sans-serif">&nbs=
+p;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-=
+size: 12pt;"><font face=3D"Arial, sans-serif">Obtaining a Lien Release:&nbs=
+p;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-=
+size: 12pt;"><a href=3D"http://www.fdic.gov/consumers/consumer/information/=
+lien/"><font face=3D"Arial, sans-serif">http://www.fdic.gov/consumers/consu=
+mer/information/lien/&nbsp;</font></a></div><div style=3D"color: rgb(0, 0, =
+0); font-family: arial; font-size: 12pt;"><font face=3D"Arial, sans-serif">=
+&nbsp;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; f=
+ont-size: 12pt;"><font face=3D"Arial, sans-serif">About the FDIC, The Feder=
+al Deposit Insurance Corporation (FDIC)&nbsp;</font></div><div style=3D""><=
+font face=3D"Arial, sans-serif"><a href=3D"https://www.fdic.gov/about/">htt=
+ps://www.fdic.gov/about/</a>&nbsp;</font><font face=3D"Arial, sans-serif" s=
+tyle=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</=
+font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size=
+: 12pt;"><font face=3D"Arial, sans-serif"><br></font></div><div style=3D"co=
+lor: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Aria=
+l, sans-serif"><div style=3D"font-family: arial; font-size: 12pt;">You may =
+order FDIC Deposit insurance products from our online ordering catalog&nbsp=
+;</div><div style=3D"font-family: arial; font-size: 12pt;"><a href=3D"https=
+://catalog.fdic.gov">https://catalog.fdic.gov</a></div><div><br></div></fon=
+t></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 1=
+2pt;"><font face=3D"Arial, sans-serif">&nbsp;</font></div><div style=3D"col=
+or: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Arial=
+, sans-serif">Sincerely,&nbsp;&nbsp;</font></div><div style=3D"color: rgb(0=
+, 0, 0); font-family: arial; font-size: 12pt;"><font face=3D"Arial, sans-se=
+rif">&nbsp;</font></div><div style=3D"color: rgb(0, 0, 0); font-family: ari=
+al; font-size: 12pt;"><font face=3D"Arial, sans-serif">Division of Administ=
+ration</font></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; f=
+ont-size: 12pt;"><font face=3D"Arial, sans-serif">Federal Deposit Insurance=
+ Corporation</font></div><div style=3D"color: rgb(0, 0, 0); font-family: ar=
+ial; font-size: 12pt;"><font face=3D"Arial, sans-serif"><br></font></div><d=
+iv style=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><fon=
+t face=3D"Arial, sans-serif" style=3D"">ref:_00Dt0GzPp._500t0zoSDp:ref</fon=
+t></div><div style=3D"color: rgb(0, 0, 0); font-family: arial; font-size: 1=
+2pt;"><br></div></td></tr></table></td></tr><tr valign=3D"top" ><td  style=
+=3D" background-color:#FFFFFF; bEditID:r4st1; bLabel:accent2; height:1;"></=
+td></tr><tr valign=3D"top" ><td  style=3D" background-color:#FFFFFF; bEditI=
+D:r5st1; bLabel:footer; vertical-align:top; height:100; text-align:left;"><=
+/td></tr><tr valign=3D"top" ><td  style=3D" background-color:#FFFFFF; bEdit=
+ID:r6st1; bLabel:accent3; height:1;"></td></tr></table></center></body></ht=
+ml>
+------=_Part_11105_1225775197.1656531837845--
+

@@ -1,0 +1,161 @@
+From - Sun Aug 28 22:40:48 2022
+X-Account-Key: account1
+X-UIDL: AJ90K5FbPpBpYrZuww0vAC30SyU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.140
+ by atlas307.free.mail.bf1.yahoo.com with HTTPS; Sat, 25 Jun 2022 02:11:25 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.147]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.147 as permitted sender)
+Authentication-Results: atlas307.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 25 Jun 2022 02:11:25 +0000
+X-YMailAVSC: WMRabTE3bBsOq1vsQzNRRYiqIaVHcaVTiDFN8CD2cwTLkGW
+ KtZPvlXGNFS_6WCqzHuoodRcNk37ob6QPA67y6G1vYMMErPKeLkSeTjYbKuw
+ oA9SXxCGvHuhNC314BjPKOjP17JQBwgFKIMqq5N9Gk3lYKVOnho_n8mWru5q
+ KEfhrUtEqF7kSR1umc0OrJbz6fdz4aO1LxUT4gBnxvXQ6p9oOqSvPrigBKfG
+ tpVTwHMJEdt0rdMTBPuTYwlDta1HlAX_e4NMU.lK8Q_er6d5xd_gjymS2Yk1
+ sozV5EZrnzpm9pTY_pAe_jbIk2SQDiQlk7v7d.HtSFxDq32jbfOzvtmRQ1Bm
+ yuDOvp8EMkyAzTe__5OWCSmDWupTawA2k.JyGFQv7TuHZN5nXP24Ua_R2fFX
+ bYQwL_gKt6loyyB9jaQqGAuUREoqFFNk3rAya5wajZ1sxOGw8fA--
+X-YMailISG: y3MwAMoWLDulgLVdiofA61Q.uMj1JOdpBI4ZluAMkWs9sE66
+ IzD_npMCEo3K9zwU9b99Mmgwi_IgdvHsfLSVEockb25lXFfasMN1QYlT6_Kc
+ i_imYaOIAhCLQtEW.GXKbdo0V.hJ2EOskluilSZQ11R5BeNirWIy96IfjR00
+ Tw5kichRHvwJit1Mr8EWsfZ7AgbOyiWOO.SfMR9a8zTOns9xoruTxjiqKnbf
+ If0aEzb_ladm9ihJU9js7y7u.tDVUUa_5WtO2W2RMLbBybOb1Y1l_VlNKdj_
+ XkSo5pEvmLNwHcJbhjxcCl2JG1x0d_6uLAdsWVwgJvDkMm2N0PL.zdYRzp8l
+ 49RMWqP9akclyKJZAY68cwGSJse0GFGOn1Brb.x8amQsj1tgCAM2VACPZg0V
+ jry3qtS4f0xTB6IBRWgIrOp1vatu.RKmr7pIQt2l5BLiHJ8nc8IIXiPWpuF6
+ ziYEbfqdz5jZslAZHlv0Twy5oTbcCTIP_MUN3Th7XttkggnLPsSQgYBBzThh
+ pbcVozQn1GXnUSfl1Zlyi9HtUaY7Jdycwnb2Jg154PCTpsNQDyxRLfvA_c30
+ ohY93yGk7EkD8xz5vddWvnjT.DUFfVT3Ngf9kmUphVRflQ.rgfAtGUKGlQcy
+ Frf0TWlCqNbHFaqzl.zbx15_3FYcY5ZAh0h2pDZo1QBPC5OCIUk4wV3FYxiL
+ qSvlMlSnQa4ApnYV5oX7AafFWP8i2d9jSL1AlKqJk.u_.q67BcS4uWkbsPR8
+ 30IeFt4c7HRiEGtRqnRl5kkHkLnTTavSZYG_zEik5xwBL0wivzilR58IMBNm
+ 0Guu1dzErgB6xfXmPAxv.RiheslEAoC3GWpbxZQR.E3UoiCnjyy3FfPLNUcG
+ RjcoZUO6gjUrkDJF8P666kU9XoVj0IlMwy8oOgsUI12XJ602IKGZzmZz.yWW
+ 2OGXG6Wtp5hXDscpjqoohvWTihxvmilQDODZLSZIVgNfw0.Mc7TZyYNP0pgy
+ 00uCTU9op3n2wQlCFPZYNWRjkEL_fhzRfJPLNeVGe9ElM6N4s_2njb4lljXr
+ j9LK_4GkIUWX8X36imKtdSv4.OyaWVjjIMc1Xbm0T7vpU5GixQ8.8vdVsvuX
+ Zf0rNXPtrHuOXHJGT6H33X8E_B2JGtYxQY4nNNKK
+Received: from 98.137.66.147 (EHLO sonic317-21.consmr.mail.gq1.yahoo.com)
+ by 10.197.32.140 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 25 Jun 2022 02:11:25 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656123085; bh=4vO1OGmmbpNYedZErI7NQ/gXestqYiIr8YxbyT0UbZ0=; h=Date:From:Reply-To:To:Cc:Subject:References:From:Subject:Reply-To; b=O9aGmakMzF9SHseStd/kYl7720e5JGt6JVnQIXs1Bxi7D5AarMuVUCDqOWnbwt/35ijb/knI7qblDXe7j7SX8NCwbyEdsXwIsqFypLWDPmP9HsFTd14QtDElolBWlRffbTmjyqT91sVzT6ZffHdUgCTpLh0zjwZQUUKpKg8M7IJG3qAZtx2j+b1BTaNWSFiPhWYEI1pDJus0BH+OATOi11AyfqT0XCI5DALXzV4jj7JAHgmdXQIISJ2y4XTUp/v+FbQZml8eNrd0oqZ31wYpKCNtwK4PQGRq9oGWU0N+VdRsc1PU2Yei1nqHk64CA9fDWQE44hLcR0ZLuX6sVl3NNA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656123085; bh=+T7Q8GrPlyphztKEbIOVQspT8ixPrJ3ZwVbSlNxWFwn=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=IcROmaEpCeANZV5ymUkDyoEE9HBi1xHtrxA1wTUbti1mdgNPA33uUYmOy827CBnK7gVsK42kJWEnmZ6MOg/Qiied03gwq4vxoo69Z3xzvHHgn44HBhzn8nctfV4lI15foDZqhJ4a3vUH+IVanN30RWVQ41J0pbwtgBWyvTPeeqYobqgSaGpNRQzt5NqRGjs6DplCPTMOLcsP8p5wsFApMNkUHhOYLCLy62oSZH6OIkWpclMBhrt/kEBXlT3b+DLaL/OG043iWqiW7BxSXsCi4IQKoKiFW95zSIMxvqt8+iy/hw1tHOEUIlfM04VIK+jA7uBZGOfdQriRIzBbAadJ4A==
+X-YMail-OSG: ZQ.StbEVM1m1ZOz3ZayPRniFdCVKXdJ_Q0QExdmRHiO2YJ0THoldV5S3SGLXNCi
+ jXz24xk4RD55uApTXw.g5pnX8OV2iOYfbsQmRNivQpHkFO1CV0BIRUNh8ikwpfWtE6XYpFys_BJv
+ VygDN93wVmTVs0k40mpJiUqy0ZeLpoW19lVi94lFcjInI8arp49n5bWFajrQNJ69vX2gcwJpi.zE
+ ZMZpF6.1M8CtJGPBKXF_L_9bL4z7kwvY2S7YBRslyEQCINUDqq5qlikxZmDpaTN.8bPzi6baGdsw
+ Ek04IR80s0jP37tjKjGs41TqW5XQDLxLO8SM8mnPPr6qiH2Gx_tgTKWIHYlUf3PmA_p3SKY6__ko
+ OdNdlxoW2jWu_rMx2uenRkmLoZlmV8MN9Q2o1SpWjkaKO6A_zsJBo2OFzuZ9rbEbhgT3DqfRK722
+ _r0040GLfMHWjKsPujY2AVqqSXV3UdsDiLBEInkWmwvpchR_TZw6rADE4e7mrbBahcIgXM924gf3
+ lVicHR.qOZJiU6m9hiVY3ekLw_3HXv_V77cUlYlpVT9EpmRyhsmgOfk_Y4n2o5Ha4CBl06ew0k8Y
+ vgo6u5NNRZRGYi0OzNCLWEJW4iY3H6S6ZBEpE5rE2hETw6h8JMdRWyJxWfVmCWVPZX6D2DOVr_ZR
+ Tl48u4MO3LgWfHLcQKMG7lLe05JxileKSQL.art8s9bvB2UexnqHyTToXMBlpn6irRCtqBB_ika0
+ 4wsV2BvXqFR8Wq_P2RUr3WBkRWirgB173GjeSC14yFkcFaJXUt6P846mTw936Opu_f2ksgucZ1fS
+ fWxVpnn_HBEtVqU5ekTHB5eZgQz6acMAxqiYlaKH35PjmTtJxuxG412FGyqW4zDNvcvO5uHf6MB5
+ sk_peQiEeFfXgqrkNT0kQT41jH5rBS4q1T_0rsC.OBBQH7XXq1g7ZJK8qRzKDNtW0LA06yc5kHnX
+ _QNEiRr2oHJJ77XrMZ2R2Tglrpn5NF4cAfuVXRNaGP2Mkgq3y5ewovqWnNeY_F_Pep3uZFPYDh.Z
+ YHJxUHcASQX98Z00yFNTWViF7MERBsP5uVdatwhaP8otlzeqlgvrAXk4IxIWEHxq48GaRsbEqtLC
+ swLbqnpE_IFYH55AVWycMUPytvujFa2UXoIB51e4HGVjWWsxkgYTBRCG_tiWHsPWvE6LMhr.hAjS
+ NJcadSBh8ZyhHPdAW0AP7U.tsN3v5FREsVpWq8ktOhtY_F._grhfdXcZoEq.lg9Vd8Hx.PjQHRGx
+ 70fQc9m5hcumZQX72RC_ZxpNOfKX90KwGUWjnQuunKlA2CmnCG_aKCKONI609OnH7kuMHnAQuvJG
+ Xh2PhziLh.Ntev9u_nlMyj4DiRhH9S3iJ59iU4iysch.rAXz7p9pXY5UibI6eaOXfHplzo3en5XX
+ 0JaExoLNLbq5zcGmwYkuM3gqP3W5pmFOpUDNtWZ3F58g8mN10ILUrXF7ld6jw3N6.tGCmPV7PcaA
+ aPtDENNIlaLOk1lmRfDGb3CZZLZ6YyvDrZlBFkdlnJw7E49QgZUWc6x4AScr0PvFWf30jGF4gErl
+ 1mRz5mLr5owmRzUEABiJhftiw9OFZHJD4EnN.Qf_PmjbZx_9LnHCZHAPVJlgd9t6e.Dn01Dc25Sv
+ WFUXvZVE5Sfr5KxQrr2pJ_QBfR0Y5y1K1Vjft48bQdK5o2AHw5MwQice5aItH1T5LLSeQBZakEMa
+ IiN0XKtGV9qI3xbPggFq.7.lUNyVsRVm5lnjIaOGMura_Lx7ePQe2EZ3A1aG4gyox5iI2Fikyrry
+ _3IgJJYyIg5qK2u4lqFRUTRVLmGUQ0MHPIu4XpBGSEK1bDV.PdcHMSWA620xrzKh2rzzk9OcBjsC
+ YZCfNoErQ4V8BjCI7S6Flwm0sXiORtSwBHQ8QhPFbhb8mepfqdP4k.Pw7xp236KhGBuRAQDNCrnI
+ vcRvycI2UApIxSqkPYdF5_KFi4.UEPUuq33jjo_FLuwRHdEb3nq9I3kAxSIKY8lK_Na4hbdhzxY7
+ FSfzR0ctQWDm7h6JADj7iZs9LYoqdZMWGrNOEuo8Gj2hkzuXgVdJ8n6nk.F1_0aphn2IICetiKIn
+ joXzLwhpLBbkiPIJXC0EY7OviHhtK_rx6GULvCuAgCGRvK4e6pUXcod_u8r3gli5Hh1Df_TOmzGr
+ zpJSryrY3ObodDLnOvjR4WLnJvlHRGijtSyjKLFhT_Q2sTW5GFpnkk9lF4.qTFysv.1rAF299Y9o
+ fBzKxDqxUX_UBrEnlDAxGK5GOCW2gcMHYsuIutq_6On5.2V7UU3YC4HlXOemqwplHrEsYKiylwH2
+ M8wBR57GA77C842aF63bBQUyWxicXulT1TGn74qiEAjP6FxwdL25xsnraYU7MMNefNWw4bdSRiUA
+ Ra1fjBz.H6ljA18LLQGgtR6yz3faS0K12BZ2zAMBeyZ0-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.gq1.yahoo.com with HTTP; Sat, 25 Jun 2022 02:11:25 +0000
+Date: Sat, 25 Jun 2022 02:10:45 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bd2561@columbia.edu" <bd2561@columbia.edu>, 
+	"atlanta@sec.gov" <atlanta@sec.gov>, 
+	"boston@sec.gov" <boston@sec.gov>, 
+	"CommissionerPeirce@sec.gov" <CommissionerPeirce@sec.gov>, 
+	"CommissionerRoisman@sec.gov" <CommissionerRoisman@sec.gov>, 
+	"denver@sec.gov" <denver@sec.gov>, "dfw@sec.gov" <dfw@sec.gov>, 
+	"IMShareholderProposals@sec.gov" <IMShareholderProposals@sec.gov>, 
+	"miami@sec.gov" <miami@sec.gov>, "news@sec.gov" <news@sec.gov>, 
+	"webmaster@sec.gov" <webmaster@sec.gov>, 
+	"alex.kress@wilsonelser.com" <alex.kress@wilsonelser.com>, 
+	Chair <chair@sec.gov>, 
+	"craig.brinker@wilsonelser.com" <craig.brinker@wilsonelser.com>, 
+	"craig.hunter@wilsonelser.com" <craig.hunter@wilsonelser.com>, 
+	"curt.schlom@wilsonelser.com" <curt.schlom@wilsonelser.com>, 
+	"daniel.flores@wilsonelser.com" <daniel.flores@wilsonelser.com>, 
+	"fellows@abfm.org" <fellows@abfm.org>, 
+	Marlyn Delva <mmt22@columbia.edu>, 
+	"ricki.roer@wilsonelser.com" <ricki.roer@wilsonelser.com>, 
+	"roger.gottilla@wilsonelser.com" <roger.gottilla@wilsonelser.com>, 
+	"sean.wagner@wilsonelser.com" <sean.wagner@wilsonelser.com>, 
+	"thomas.manisero@wilsonelser.com" <thomas.manisero@wilsonelser.com>, 
+	William McKenzie <wmckenzi@nycourts.gov>, 
+	"william.behr@wilsonelser.com" <william.behr@wilsonelser.com>, 
+	=?UTF-8?Q?=E2=80=8Bainfo=40buildings=2Enyc=2Egov?= <ainfo@buildings.nyc.gov>, 
+	=?UTF-8?Q?=E2=80=8BAngela=2EWeis=40cityofchicago=2Eorg?= <Angela.Weis@cityofchicago.org>, 
+	=?UTF-8?Q?=E2=80=8Bbbrief=40bloomberg=2Enet?= <bbrief@bloomberg.net>, 
+	=?UTF-8?Q?=E2=80=8Bblawre=40bloomberg=2Enet?= <blawre@bloomberg.net>, 
+	=?UTF-8?Q?=E2=80=8Bbloombergsupport=40bloomberg=2Enet?= <bloombergsupport@bloomberg.net>, 
+	=?UTF-8?Q?=E2=80=8BDOB-ECBVioAppeals=40buildings=2Enyc=2Egov?= <DOB-ECBVioAppeals@buildings.nyc.gov>, 
+	=?UTF-8?Q?=E2=80=8BDOBMarshal=40buildings=2Enyc=2Egov?= <DOBMarshal@buildings.nyc.gov>, 
+	=?UTF-8?Q?=E2=80=8BEducation=40rebny=2Ecom?= <Education@rebny.com>, 
+	=?UTF-8?Q?=E2=80=8Bfellows=40abfn=2Eorg?= <fellows@abfn.org>, 
+	=?UTF-8?Q?=E2=80=8Biceglobalnetwork-info=40ice=2Ecom?= <iceglobalnetwork-info@ice.com>, 
+	=?UTF-8?Q?=E2=80=8BICEIndices=40ice=2Ecom?= <ICEIndices@ice.com>, 
+	=?UTF-8?Q?=E2=80=8Blicensing=40dos=2Eny=2Egov?= <licensing@dos.ny.gov>, 
+	=?UTF-8?Q?=E2=80=8Bmharvey13=40bloomberg=2Enet?= <mharvey13@bloomberg.net>, 
+	=?UTF-8?Q?=E2=80=8Bmsrbsupport=40msrb=2Eorg?= <msrbsupport@msrb.org>, 
+	=?UTF-8?Q?=E2=80=8Bnewyork=40SEC=2EGOV?= <newyork@sec.gov>, 
+	=?UTF-8?Q?=E2=80=8Bnycdevelopmenthub=40buildings=2Enyc=2Egov?= <nycdevelopmenthub@buildings.nyc.gov>, 
+	=?UTF-8?Q?=E2=80=8BRule-comments=40sec=2Egov?= <Rule-comments@sec.gov>, 
+	=?UTF-8?Q?=E2=80=8BTO-ICENGX=40ice=2Ecom?= <TO-ICENGX@ice.com>
+Cc: Amber E Griffiths <ag2943@columbia.edu>, 
+	Amber Griffiths <ag2943@adcu.columbia.edu>, 
+	BD <bondstrt@protonmail.com>, 
+	Dean's Discipline - SCCS <conduct-admin@columbia.edu>, 
+	"Delva, Marlyn" <mmt22@cumc.columbia.edu>, 
+	"lm3440@columbia.edu" <lm3440@columbia.edu>, 
+	"Sara E. Ede" <see2119@columbia.edu>, 
+	Stephen O'Connell <sgo2107@adcu.columbia.edu>, 
+	Bo Dincer <BD2561@columbia.edu>
+Message-ID: <1259358178.129150.1656123045470@mail.yahoo.com>
+Subject: Re: Fwd: How many units [ 159 ] are in the MEWS compound... NYSCEF
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_129149_1716566554.1656123045469"
+References: <1259358178.129150.1656123045470.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 761
+
+------=_Part_129149_1716566554.1656123045469
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Attachments separate=C2=A0
+
+/S/ BO DINCER=20
+=20
+------=_Part_129149_1716566554.1656123045469
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<div id="yiv3940646124"><div><div id="yiv3940646124"></div></div><div><div>Attachments separate&nbsp;<br clear="none"><br clear="none"><div id="yiv3940646124ymail_android_signature">/S/ BO DINCER</div> <div id="yiv3940646124yqtfd37736" class="yiv3940646124yqt7261972664 yQTDBase"><br clear="none"> <div id="yiv3940646124yqt95696" class="yiv3940646124yqt5631927530 yiv3940646124yQTDBase"></div></div></div></div></div>
+------=_Part_129149_1716566554.1656123045469--

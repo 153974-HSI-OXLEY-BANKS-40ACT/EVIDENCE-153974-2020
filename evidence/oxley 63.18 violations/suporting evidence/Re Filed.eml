@@ -1,0 +1,313 @@
+From - Sun Aug 28 22:39:55 2022
+X-Account-Key: account1
+X-UIDL: AEV6Q58PKR8iYl+vPAJ40M6Ff/M
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.204
+ by atlas214.free.mail.bf1.yahoo.com with HTTPS; Wed, 20 Apr 2022 06:59:07 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.30]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.30 as permitted sender)
+Authentication-Results: atlas214.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 20 Apr 2022 06:59:07 +0000
+X-YMailISG: VBG_TlkWLDtnkJd46BrHhT8TEIGu7DmYVJQYf4I.xVLDgBX_
+ Q_q2FN_WQVhyixS8m5ugMCVFOFGTeNTMph_VYRaO2SD6bSmTsEobkjpq_jU2
+ jqw9PFSsiPejGedeX1y2Juus0hK6goXjjHHBFnzBzCwnekl1c0LtLT_.tLHc
+ Y_ZyTRf4ITNtQOvIEH4cyAgHb8vc.y.H31Vj5lDL_vaTUZJtUUeq9I3miLQn
+ BhVRjEy7oyK.GClplXbyfxb8vc.WwmGQGtuiQ6rjnia2SzE4N3IzMtTh6mEv
+ 0YgwRp4_Nzks9uytbpTPGtCHMbjtjc8lwjOTfbIXlXD7AZb7ATy7k9B0BdRK
+ MO4.E6pSYK.oQN0DIb5MilqI.zap72myhh1k_8lleSBbCah_jaBMcrcB_L0m
+ 7Ym7YHpD2ZvqTc6FUI9ZnkYmXCdvbXYubiMCzK9V_k8.C.OnX2VF5RcQtB0k
+ TgqJdqVNzLwE5bthXvCdiLNzRQEcHs9HGrW0MkJz_Nj2D0XWld8VlcXPprCg
+ L2njNSiFkrkm3iw.XCdEiNlKYZ37D1y_w9CYicnuauZN68.mj1KO2Dg0ArYL
+ 3B.mbtvAdn8W_YopEm1h7LmroDnj8PLC35AcgAQ7FPY_e8O.dvnKSv4lUiuV
+ Nw7VkS3ahjwQldMpyibr3lM6AJVCsHBvvRaYfNnpusz4bVU8Fklc0kXQbqmE
+ RGBoJLZfnLQkH_uqlnpQwFBZathWNQYROwQDGJ5zR5hJ3GOAlynJx3TqWFFC
+ K3dC9wWYpgIO6VfyvA_6QpVnZoLt76G0XqCwNxU6AEDCxk8xXWrIWJm6yqgE
+ XRQ.CHiJpxvwLJRfmXJMRkan7nnYLg7_rL7nUQAF1FZb5b.RBABUaihGVlWJ
+ JbdrEle8e9D8i657GF2BjbyULRgPsQY7CiWtXVnENBMjFJxPZIPCRA999ST.
+ DgWvpV2x6NuPbIGNpOKbJ.k9MOern8b2Gkm19vvNDVWE3hvzC1cQxQeaGvDF
+ CYMlGnkhbXyuGSB87Yu3OotIUFkg8VyB51CylzZkdUHSETaAGE2SMDgbl0lu
+ _2wKfapDevfler6vw0iSMQfASQiz.UNotRyxfnofwp5Ikx.HPbkapobWINqT
+ 3NEdujmw_u3jq1NNQSHe4gbN1c136BzFHDsVQ_EXtoSMhyOI.3rjSXtv_rZ8
+ Nr8Gv5Pm
+Received: from 98.137.64.30 (EHLO sonic307-54.consmr.mail.gq1.yahoo.com)
+ by 10.197.33.204 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 20 Apr 2022 06:59:07 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1650437946; bh=RYv322RshRKRJRUEesEYjfPTfgsaS90BOnSUOg1HJXE=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=GY1YeQ/WAIqaeZOFlbPMsaNcOHOFPF0wk18t8HpsG9LCCOz9zBWuiXenjxZWH6ZY7q8Kg2WvBERReZ5CYRqlx3HwVqnIGIVHr7iuVBIWVo8RkmTMvd2RPDqRxbLPBt95vIqtZLVzVCN+AHDDX1sE0wrDyajJYhgW/GdILFHYqc2Twjnc3CTvefOldUp0dt6bABsNWF8jNeNuegCqybPAKvvrX9cdmCXlfKchkW6thjw6xg+fyze2w9e3WZx9NX45QK4XkXy9+f3/2aSFuF2ZdeNrtbbM7R7HxYNVslgiijyUvz1VdFZZz9Br0FyHah5YhL3aX3/zt94jFSFZ+HNLng==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1650437946; bh=vmOXaWxGI8df7BqXWKDZGDao0Ww22hOouslUPEiyPDQ=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=qPCrjDu0lA2kCK8bcriP0tYqFq7dpIKNlGHfRWTsKwvhHS41iXo8YqcTMh1OAzmfeViQizIrd4Sz7OFH2G80XfIzbGCa+hzjLNoAz17d4GP/2r/Ay+bVd/TuaeNhZY8u+TzUmqhmO40KwfS97gcuTSsX2VkRat3UlKBipEqXLSbvcoJHZEAiUB80lL920mH6WAF3yYYsxiZa+8bayT8NscdV+YJfkrxoBE2hOh9REBfZzxRelUtIBWmFDViyfmgGWwKclm1/C56aM5ckcUkHfL5Q77MsAMFOpDsFuLvZg85laK1z02mHx16XAMQWzGyicg+wlkbPtOKfRohqRzeyaQ==
+X-YMail-OSG: C9eIQtsVM1nlEwOqtsH8VLhQ5aUOscDiRvIKw4PpH85mhuO8UBzN.e.GziUXXru
+ X9oLpDrUexQMAbdQz42r3MAeXQgYCEQTB0EtkDw_cohBXqk8iKZQIKBrxci9nH58utYydo5yIUH3
+ ZKtelSjdpM25xTHcYKbI0GqNDVwt3av1T_kV5QZf3aZuHiSANtaVW.UYrTT8LsZnG4PX9GyBJ4Iy
+ n0L7GJBQouu3SrT2PU.gmDH0gK9GguRHGlonxAOtnXi5qx4vYwiG3qre7KKNiDZNyWHr90gC6vK8
+ RvPw2KElC3yFswHvS0ed.if7MIJSgk.9hw5LZEFvjKMGx0S8GidJz2Uuu4OAzqCvGrfCbl4KSYs5
+ Li74GacQWDqgPbedErqZ84EXRxpdt.u5iGt_j7nZXu4jQ4_g9WcNmqJFa6vNhvfpt2yyQ5iV7LfB
+ dbQwKuZ55YRjsR4N.bfcTE4_f4Vrx_XT0DfZOA.fLz23vdqTwpwY8RkyE0UuSFgeO9SBiN1pM2Um
+ GVMbVoZy3Q0y8qUIp67_iexwymlk1ogadDUIppT8M6jIk4.VWtggnnscSRIDCkB16x3bxU2dUTZe
+ TEIx8swe_l0GhXnFiGlYmK3L1HwSai4kjdm7aZzO2OwCEyV1Eu44eqhpcI_bTeQgOEHSBophmQdB
+ HpMD.sARCbaWNXRminXMGXBml4kttGvpOJ5TWZ3r5QYKsQEs4dAJoPMXdMZQSC0OQJSxGkWJItw.
+ mjzsHKxbPNeQRzGbMctdmQAmhUogQaKTbr2Kcx5O75laiqp6bCPhYwDDg7jHBiUZy.BKQSvoXW5W
+ NIBOgSH.AN0s2PO7xAe_kJfO3HmrYOQWotUiJnHrWVgkL.cSb0WD0.WLaJSrsl4wotzLdMxEXSIE
+ nwyx2cvS3v7HgBIllTtQM7B9P2N7ygA7gmdwfOVSvsxSae0ky4IbA8b7FBH0.nFyHN6O_rs3sOpp
+ 4tQSaeOxAxOlo1G6jHqCqI8H3QpFHLgKUyZsKuznSBTMCxy1Hs5y1zOjrsSKkKxaXLGemCYQ5N5X
+ Eei32onq5fhLmzNNKMBOifoX5yDgFBHHJNZywGvbq1WlMxtDnbJFtJpcfol3VnwgWDI4q3AxQwdX
+ rQmXYD4bzrsSb1h4K8GjEtXpbypaUYEv7OlJFbBLH1u0f_yxfJQ5oBFxSL12vSBv1ldRb4S4iUC1
+ qhXq51ISZSzC6xRHgj3suQZtYS6l.Nc_CglCQZSm.IBKIlgLXYSlNMLFSaV.hxlFNsVAADpRJO.e
+ KD6Xh4o1b2gyGqT7msPBiZe.siTt2GodCPK8n2u25VLJ5HD1BRJr5iqBHTmRZrRtJuy1oNhulsL_
+ YlzMGSQaSII29LOuE.G4UqX0q_1_9tHJU79l..29bQ8q1iD74rKaFU3qT7qQ7cjNRi3bYCTNub9m
+ _IgnFvp2zRA4B7enQ4L0WaVrPU1uItcqvvAMneNwN3IwPPB6.wKdGPiOLv00smjdMqvgq2gftsrV
+ aVxgEf7mFxOZLTM2gCRx9oPa8FSwpbPhhxWreEH7fNVpbjNdPJbwKHBOZdiZCstfDNXFOwq8QkpM
+ Tt6twZn_DfjDR5l9_P_zxyUmTVwZe2MYNTPyTq3UrKbp8MCQzFCgwb6XcoL1Ngt_txkcN8ARKGLJ
+ MAAMItG.hKxgXEFeV4XMSw2HXh32ea0mg4e1EVxMejCBCuQGCB.zSG8chP54ZgLa8q2yVFQY0.ag
+ nkosL_edBH1H9W8onAhuigBfPkET9EXBtR26AtGZD7heYLIZBSWbBNGwnU9HPdsBafq.njEFqep_
+ kPtf_ujDHmnVvPmfcvpSn94IwM7MUIRDb0Ut2C3M8940ktMD.hOo5.cwnZhznRVLh5gy6yyUNtx8
+ jTJgCHOt7jfSlDvfHwdUpVh_sGqZ6gF6FcKLYKKPZ6jGFA8CUZ7nqnU_N.b6cAwUQVfQU9VazFMq
+ VhlYV1mWLmE5FhDZuaaQqsxYKD4DPK2j7UhloST75cWaISuTn.Gw7gwjxp9UMctn2nJBFOGB23wx
+ cNinz9DCX5GdPkQcvzWMlVLchz4Umrrs7M1rcCkLVI2FwsUOR.FdOU7U2iMXqb2V4rsgY2.RqMbN
+ KWRu0YhhbJuAsfHkp0Oiz7_bNNQIwr35jPsM_.z3AEEdq5JXnTBWnwwVnNkESgacOJJR0KYYJMor
+ PTjPIlJqVuTcYR0JRXNryk_fHue7FYovxfoVFQvkKLOVVd1ZA8ykZ5qEb63QaXCqs2pAQwV7qpBb
+ f6mvZmvfLzU9G2pgM4mUsK6nVZ7xS8IJ_DWRhMNYIJypFy9x9_R.CBQYHV5hMKaEcWyjwcDXKoLE
+ p7GFiG0SYpGN6rwoYMEafR3Q5IsmafnSjlMQt67ZR.eeBtug9i2QheEfs_RnbKWuyKBMr1BNbF2k
+ kGpK8MzOCow1OKL47CObSRJ7JeWnlbK70F30-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic307.consmr.mail.gq1.yahoo.com with HTTP; Wed, 20 Apr 2022 06:59:06 +0000
+Date: Wed, 20 Apr 2022 06:59:01 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bdincer66@icloud.com" <bdincer66@icloud.com>, 
+	"hmarsh6@bloomberg.net" <hmarsh6@bloomberg.net>, 
+	"ahallman1@bloomberg.net" <ahallman1@bloomberg.net>, 
+	"asmock1@bloomberg.net" <asmock1@bloomberg.net>, 
+	"avales1@bloomberg.net" <avales1@bloomberg.net>, 
+	"bdr11@bloomberg.net" <bdr11@bloomberg.net>, 
+	"cminter2@bloomberg.net" <cminter2@bloomberg.net>, 
+	"cmoser7@bloomberg.net" <cmoser7@bloomberg.net>, 
+	"ducrest2@bloomberg.net" <ducrest2@bloomberg.net>, 
+	"fcastella3@bloomberg.net" <fcastella3@bloomberg.net>, 
+	"gpoole2011@bloomberg.net" <gpoole2011@bloomberg.net>, 
+	"abari4@bloomberg.net" <abari4@bloomberg.net>, 
+	"hrose17@bloomberg.net" <hrose17@bloomberg.net>, 
+	"jchan161@bloomberg.net" <jchan161@bloomberg.net>, 
+	"jhsui2@bloomberg.net" <jhsui2@bloomberg.net>, 
+	"jwilson578@bloomberg.net" <jwilson578@bloomberg.net>, 
+	"jyoung121@bloomberg.net" <jyoung121@bloomberg.net>, 
+	"kbretz2@bloomberg.net" <kbretz2@bloomberg.net>, 
+	"kgilmore10@bloomberg.net" <kgilmore10@bloomberg.net>, 
+	"khubbard1@bloomberg.net" <khubbard1@bloomberg.net>, 
+	"ksaperstein2@bloomberg.net" <ksaperstein2@bloomberg.net>, 
+	"ksheffield1@bloomberg.net" <ksheffield1@bloomberg.net>, 
+	"lgates16@bloomberg.net" <lgates16@bloomberg.net>, 
+	"mbroughton11@bloomberg.net" <mbroughton11@bloomberg.net>, 
+	"mdunford3@bloomberg.net" <mdunford3@bloomberg.net>, 
+	"mlockridge2@bloomberg.net" <mlockridge2@bloomberg.net>, 
+	"rholt22@bloomberg.net" <rholt22@bloomberg.net>, 
+	"rmiddleton19@bloomberg.net" <rmiddleton19@bloomberg.net>, 
+	"sbarlow28@bloomberg.net" <sbarlow28@bloomberg.net>, 
+	"skim1465@bloomberg.net" <skim1465@bloomberg.net>, 
+	"slawson15@bloomberg.net" <slawson15@bloomberg.net>, 
+	"smarsh16@bloomberg.net" <smarsh16@bloomberg.net>, 
+	"sreid42@bloomberg.net" <sreid42@bloomberg.net>, 
+	"tbaker5@bloomberg.net" <tbaker5@bloomberg.net>, 
+	"tlynch54@bloomberg.net" <tlynch54@bloomberg.net>, 
+	"tsmith241@bloomberg.net" <tsmith241@bloomberg.net>, 
+	"whao15@bloomberg.net" <whao15@bloomberg.net>, 
+	"wruane1@bloomberg.net" <wruane1@bloomberg.net>, 
+	Chair <chair@sec.gov>, Newyork <newyork@sec.gov>, 
+	"tips@insider.com" <tips@insider.com>, 
+	"tips@latimes.com" <tips@latimes.com>, 
+	"colin.brooks@morgan.stanley.com" <colin.brooks@morgan.stanley.com>, 
+	"mwhipple@bloomberg.net" <mwhipple@bloomberg.net>, 
+	"kkarsten@bloomberg.net" <kkarsten@bloomberg.net>, 
+	"lrogalski@bloomberg.net" <lrogalski@bloomberg.net>, 
+	"lrogers@bloomberg.net" <lrogers@bloomberg.net>, 
+	"LZUCKER@mskyline.com" <LZUCKER@mskyline.com>, 
+	"mmayberger@bloomberg.net" <mmayberger@bloomberg.net>, 
+	"ckurak@bloomberg.net" <ckurak@bloomberg.net>, 
+	"cmhigham@bloomberg.net" <cmhigham@bloomberg.net>, 
+	"steve@bloomberg.net" <steve@bloomberg.net>, 
+	"cswartzlande@bloomberg.net" <cswartzlande@bloomberg.net>, 
+	"dianehsiung@bloomberg.net" <dianehsiung@bloomberg.net>, 
+	"tgipson@bloomberg.net" <tgipson@bloomberg.net>, 
+	"ekhoziaeva@bloomberg.net" <ekhoziaeva@bloomberg.net>, 
+	"gpradocorrea@bloomberg.net" <gpradocorrea@bloomberg.net>, 
+	"gshull@bloomberg.net" <gshull@bloomberg.net>, 
+	"help@vogue.com" <help@vogue.com>, 
+	"hncaldwell@bloomberg.net" <hncaldwell@bloomberg.net>, 
+	"tzelgert@bloomberg.net" <tzelgert@bloomberg.net>, 
+	"jhoyer@bloomberg.net" <jhoyer@bloomberg.net>, 
+	"vtrimpe@bloomberg.net" <vtrimpe@bloomberg.net>, 
+	"jmalito@bloomberg.net" <jmalito@bloomberg.net>, 
+	"jsocha@bloomberg.net" <jsocha@bloomberg.net>, 
+	"jtattwood@bloomberg.net" <jtattwood@bloomberg.net>, 
+	"wreinthaler@bloomberg.net" <wreinthaler@bloomberg.net>, 
+	"rrebholz@bloomberg.net" <rrebholz@bloomberg.net>, 
+	"rrenken@bloomberg.net" <rrenken@bloomberg.net>, 
+	"sbrucker@bloomberg.net" <sbrucker@bloomberg.net>, 
+	"sjent@bloomberg.net" <sjent@bloomberg.net>, 
+	"smbyrne@bloomberg.net" <smbyrne@bloomberg.net>, 
+	"beuliss@bloomberg.net" <beuliss@bloomberg.net>, 
+	"bstephan@bloomberg.net" <bstephan@bloomberg.net>, 
+	"btrauner@bloomberg.net" <btrauner@bloomberg.net>, 
+	=?UTF-8?Q?Steve_O=E2=80=99Connell?= <Sgo2107@columbia.edu>, 
+	Joseph Giamboi <joseph.giamboi@brooklaw.edu>, 
+	Paul Regan <legal@mskyline.com>, 
+	DONALD ZUCKER <dzucker@mskyline.com>, 
+	KEVIN ROCK <krock5@bloomberg.net>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, 
+	Joseph Frumin <jefrumin@legal-aid.org>, 
+	LA TIMES NEWSLETTERS <newsletters@latimes.com>, 
+	Lee Bollinger <lcb50@columbia.edu>, 
+	MATT HARVEY <mharvey13@bloomberg.net>, Sec News <news@sec.gov>, 
+	James Comey <jbc2167@columbia.edu>, 
+	BBO 121 <ms60710444266@yahoo.com>, Bo Dincer <bd2561@columbia.edu>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	Bo Dincer <b.dincer@columbia.edu>, 
+	"Ashley V. Humphries" <ashley.humphries@wilsonelser.com>
+Cc: "inbox@kellyandryan.com" <inbox@kellyandryan.com>
+Message-ID: <1824759572.41695.1650437941689@mail.yahoo.com>
+In-Reply-To: <78E49BC8-7EAB-4F5B-AAF6-0DA9C958F42F@icloud.com>
+References: <78E49BC8-7EAB-4F5B-AAF6-0DA9C958F42F@icloud.com>
+Subject: Re: Filed
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_41694_232545739.1650437941688"
+X-Mailer: WebService/1.1.20048 YahooMailAndroidMobile
+Content-Length: 3653
+
+------=_Part_41694_232545739.1650437941688
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sent from Yahoo Mail on Android=20
+=20
+  On Tue, Apr 19, 2022 at 1:19 AM, Bo Dincer<bdincer66@icloud.com> wrote:  =
+=20
+2021 sales reduced by 1/4.=20
+- filed by the State Farm Assurances Funds, TRUST.=20
+
+=E2=80=9CNot Covered=E2=80=9D
+
+
+
+Letter of Credit and Assurance of payment.
+No disclosure of these details either.=20
+
+
+
+C.16 Omission and Fair Dealings.=20
+
+
+
+
+Losses suffered by investors.=20
+
+
+
+C.16. Promoters, and Brokers as Registrants
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 CONFLICT OF INTEREST.=20
+
+
+
+
+ELECTED TO =E2=80=9CDETONATE=E2=80=9D ARBITRARILY AFTER 27 YEARS.=20
+
+
+
+C.16. INCENTIVE PAYMENTS, filed Morgan Stanley.
+
+
+
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 MORGAN STANLEY.
+C.16.=C2=A0 no disclosure to the public investor.
+
+
+
+No legal actions. Omissions aided and abetted by Counselors of Sullivan.=20
+
+
+
+Annexed and filed by Counselors: State Farm =E2=80=98Misled.=20
+
+
+
+
+
+Also FILED: November 13, 2021 >> C.16. Promoters.=20
+
+
+
+
+So who exactly do you trust?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Can=E2=80=99t legally collect and report rent, and assign them or use them =
+as a guarantee in the letter of credit and indemnity above, is back taxed a=
+s far as the eye can see.=20
+
+
+
+
+
+
+
+
+
+
+
+/BD
+
+ =20
+
+------=_Part_41694_232545739.1650437941688
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature"><a id=3D"ymail_android_signatur=
+e_link" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlo=
+bal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_su=
+b1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Se=
+nt from Yahoo Mail on Android</a></div> <br> <blockquote style=3D"margin: 0=
+ 0 20px 0;"> <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;">=
+ <div>On Tue, Apr 19, 2022 at 1:19 AM, Bo Dincer</div><div>&lt;bdincer66@ic=
+loud.com&gt; wrote:</div> </div> <div style=3D"padding: 10px 0 0 20px; marg=
+in: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div dir=3D"ltr"><br></di=
+v><div dir=3D"ltr">2021 sales reduced by 1/4. <br></div><div dir=3D"ltr">- =
+filed by the State Farm Assurances Funds, TRUST. <br></div><div dir=3D"ltr"=
+><br></div><div dir=3D"ltr">=E2=80=9CNot Covered=E2=80=9D<br></div><br><br>=
+<br>Letter of Credit and Assurance of payment.<br>No disclosure of these de=
+tails either. <br><br><br><br>C.16 Omission and Fair Dealings. <br><br><br>=
+<br><br>Losses suffered by investors. <br><br><br><br>C.16. Promoters, and =
+Brokers as Registrants<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+CONFLICT OF INTEREST. <br><br><br><br><br>ELECTED TO =E2=80=9CDETONATE=E2=
+=80=9D ARBITRARILY AFTER 27 YEARS. <br><br><br><br>C.16. INCENTIVE PAYMENTS=
+, filed Morgan Stanley.<br><br><br><br><br>&nbsp; &nbsp; &nbsp; &nbsp;  MOR=
+GAN STANLEY.<br>C.16.&nbsp; no disclosure to the public investor.<br><br><b=
+r><br>No legal actions. Omissions aided and abetted by Counselors of Sulliv=
+an. <br><br><br><br>Annexed and filed by Counselors: State Farm =E2=80=98Mi=
+sled. <br><br><br><br><br><br>Also FILED: November 13, 2021 &gt;&gt; C.16. =
+Promoters. <br><br><br><br><br>So who exactly do you trust?<br><br><br><br>=
+<br><br><br><br><br><br><br><br><br><br><br>Can=E2=80=99t legally collect a=
+nd report rent, and assign them or use them as a guarantee in the letter of=
+ credit and indemnity above, is back taxed as far as the eye can see. <br><=
+br><br><br><br><br><br><br><br><br><br><br>/BD<br><br> </div> </blockquote>
+------=_Part_41694_232545739.1650437941688--

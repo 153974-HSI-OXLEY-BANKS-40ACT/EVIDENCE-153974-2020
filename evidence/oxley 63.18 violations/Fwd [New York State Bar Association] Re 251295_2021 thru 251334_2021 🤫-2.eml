@@ -1,0 +1,378 @@
+From - Sun Aug 28 22:42:14 2022
+X-Account-Key: account1
+X-UIDL: AMA6A1F+NAa7YsQ5Uwr4mCqSeB0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.89
+ by atlas311.free.mail.gq1.yahoo.com with HTTPS; Tue, 5 Jul 2022 13:14:59 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.181]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.181 as permitted sender)
+Authentication-Results: atlas311.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 5 Jul 2022 13:14:59 +0000
+X-YMailAVSC: J9JvV8o3bBu.cqqeYqEh7gJBXBZ072QulkEsMN3o8QXAkvj
+ UPk1AytTWHHrFU2wJngdT05eYv71syzF2hmYfmdcsAF3V3l9ZUEWIrXjr1fj
+ vEenK6dcO_OC.WwVP12AbpehyZxnS4tYij9V6mglJKFaaqhqVj0Hl1o5ukML
+ yHe421v4gQX0KYg5MD3AecxLpVXKQGvNRbLhYxfATcCqd8.aiv_84TabDk.Q
+ AFbiEgsyMDCpRzZiwQVOEhyDiIhgT..xVWr29YcsSSGpIZH2U.dCmScuUeJm
+ M4b1QNGOlsevYXpNxq9pwkIqRb1jyeGwhSorqb0L7mEJdygrtXRPvXxsdKpB
+ tfP4duccKeUiXvNSX.e2DAxU539CQEXUFwncBWt3Z7MsAKUEZe1dvAwpKHM.
+ eQ0BTmD9jxIQbT2WRQglIVzZM8RN4i3pfswnUWUbMt28I778oAFIZ3Ng-
+X-YMailISG: eXunUFYWLDtdGtp2JoOmwxHMiEMJCYLmQaNWVtPi2Sad_TFZ
+ qMtfASCM_BiLHDqtYNcr4R20RAolt5H63Dqnu55X5fg5mBbP5y4zrL6wMvBq
+ lhqVQYleT61PQvf4x.vtG8wW.G9ATU4a59rlkkT1vjyIieFI21Kg.mIPE94Z
+ cJQkvkHoLeZSCHJrqbqnESAZXvy_yG0H2u5B6TBFA5n2hsBqddnyhDh4jyro
+ ODFA4t_ZmSELIx8wDuuh2ZltaKXHowHxkoiINDhWR6NqZR143RUhfETilgXu
+ wxt4TwNhYxsqvy4M78tdF723XNzMFXmucNRUpROYSNmcZJ4syAYa8uzfLKr9
+ pvnJ4.9qQ9NS3s7JM8mpFveVqj3pnghPg98kFLNTEGKlkUN6JyzzIK5JS4c.
+ 9gyxbXa5rckMWET_ykeS5PhJEulGRYaSkNC_AwEOHkBMsmuVWv47bN0Uqfow
+ J6H5jQ2n5ZMIjSMaWZlRx_tDR_ZUF28U6GZr.r42fJQvxtSOnQ1IwMBgBFKr
+ H6MA0HOnUiIK87Bk34DhzF_A.pg_vtnm67bLwqY.LKTP8C_d5cp5N7WXFnht
+ hcPapioI7flFUhPbj1iBSI2QLtBbqchx.EL7_gpeTdi5sxkhsXKANjQ4bEb8
+ fde5mp611pidLU_I4RKsHeyRs2Rsocq2iUBygGMSOMEhE6StNrEkKsBCmZXU
+ 2llz12I.twWvocyoT59tMq329QIJ4By11YQ9idsEgDePBN0RCeAFEL21kUTp
+ xDY_mnFmhs2zRdYHlFx_KWYxxjsCJvft3p70h44vc2sgIPs3tYQMmuHmusne
+ zHJYcrfUW9w94D3C5eafcccRtneqgFXW9RGWkCefaqVN_bjnBza1hEd4jtSI
+ jNnqujwIhCqK8sWNSQJ5w56_aUBl4OTckPgKyVUafXdjuOnJ4xygQFR_gTzZ
+ weEnZAWjIWIdUWK66_C7kQDqE26QZwg3MLsX.A4.6GMeOSOibyXjLoyO2xK8
+ JgFDDqcBQL4R6l5Y1628UY1r0018RW.AQSGZpzlsl2QaROoXkkmhfsGoiX80
+ DYNli5Q5W3triycL5foMq76PvbVvJ9O1YU7vZ6WtUyfzGfxGCzsGXWchqIEC
+ USSMob702H1VRKq6BJe2GnIT16ypdS.7GF8I.MQZ9srlsjTzL7mKy4utwTiO
+ eyoLzMYKMNe9rOevpUiIyQcX8XJeD8C8snwOaAV19rdz
+Received: from 17.58.63.181 (EHLO st43p00im-zteg10073401.me.com)
+ by 10.253.31.89 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 05 Jul 2022 13:14:59 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1657026898;
+	bh=ISRnBPNScMvNhfcXBUmWNSOwgt1d6mxh7UAV3BZZRE8=;
+	h=Content-Type:From:Mime-Version:Subject:Date:To:Message-Id;
+	b=q/cphsrlIwjR+/0TKkOGvy0E0R9tyepU5fCqnoMQfB/Ly54P58lkkY+tN7RRhUXeu
+	 iwZwO8+WjiHKUhP188eLs7HGbCT5qg8Lali0SKl8dxS53rQRuR+itEr+Hy6ZQMqpO3
+	 9EeCJmZUHyD5PYGSNB5tgHPV/bBQ9R9vZbCRMX47GOh4PbHoxbM98/xOsUtPqnQ2RN
+	 GhTFJpyGuhwL3frE3ePBnFDDfIe4ZKj7ZXvYI19zv5XEOgXnPmuKm5fqKeANtrXLN5
+	 5IpSfTzjW6DtSReqms+YdUVK9Abmk8uCStEtDHMeSVU9K7Z8Sb+ydyrW7FM7x1+s8x
+	 MeF/wxc3AUn7A==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10073401.me.com (Postfix) with ESMTPSA id BE3E7A81085;
+	Tue,  5 Jul 2022 13:14:55 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-961CF229-66B6-4C17-BF0F-DA8DB4E08A97
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: =?utf-8?Q?Fwd:_[New_York_State_Bar_Association]_Re:_251295/2021_?=
+ =?utf-8?Q?thru_251334/2021_=F0=9F=A4=AB?=
+Date: Tue, 5 Jul 2022 09:14:54 -0400
+References: <504GVMOR394_62c4379ee64e_3d3ff21cecb9603124c4_sprut@zendesk.com>
+To: edi.civil.rights.division@irs.gov, tigta@service.govdelivery.com,
+ cdfifund@service.govdelivery.com, usbep@service.govdelivery.com,
+ governor.hochul@exec.ny.gov, BBO 121 <ms60710444266@yahoo.com>,
+ BO DINCER <bo.dincer@yahoo.com>,
+ FDIC Public Information <publicinfo@fdic.gov>,
+ JPMCinvestorrelations@jpmchase.com, inbox@livekelly.com
+Message-Id: <E02D6559-91CC-4533-BC2D-9EF2BBF0C66B@icloud.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: l-OwTo894n9KZCzECQZtdjmqbEJbNObG
+X-Proofpoint-GUID: l-OwTo894n9KZCzECQZtdjmqbEJbNObG
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.572,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2020-02-14=5F11:2020-02-14=5F02,2020-02-14=5F11,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 phishscore=0 mlxlogscore=999
+ clxscore=1015 adultscore=0 spamscore=0 mlxscore=0 bulkscore=0
+ malwarescore=0 suspectscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.12.0-2202240000 definitions=main-2207050057
+Content-Length: 16193
+
+
+--Apple-Mail-961CF229-66B6-4C17-BF0F-DA8DB4E08A97
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: "Lindsay Panzica (NYSBA MRC)" <mrc@nysba.org>
+> Date: July 5, 2022 at 9:07:47 AM EDT
+> To: bdincer66@icloud.com
+> Subject: [New York State Bar Association] Re: 251295/2021 thru 251334/2021=
+ =F0=9F=A4=AB
+> Reply-To: NYSBA MRC <mrc@nysba.org>
+>=20
+> =EF=BB=BF
+> ##- Please type your reply above this line -##
+> Your request (36716) has been updated. To add additional comments, reply t=
+o this email.
+>=20
+> =09
+> Lindsay Panzica (New York State Bar Association)
+> Jul 5, 2022, 10:07 ADT
+>=20
+> This request was closed and merged into request #36712 "Re: SC-50-CIV-2021=
+-12.pdf (FILED...".
+>=20
+> =09
+> bdincer66@icloud.com
+> Jul 2, 2022, 15:02 ADT
+>=20
+>=20
+> I=E2=80=99m not telling anyone=E2=80=94
+> I changed my mind, let them litigate wherever they want! It=E2=80=99s a fr=
+ee country!
+>=20
+>         Plus,  they have to stay paranoid =E2=80=94-
+>=20
+> the $600K TAX MOVE l, is=20
+> the NYC DEPARTMENT OF TAXATION=E2=80=A6
+> =E2=80=A6 9/23/2020=E2=80=94
+>=20
+> Hon Nancy Sunshine..  mm hmm. Got it.=20
+> Allllllll spandex.  =20
+>=20
+> That=E2=80=99s the ZUCKERS Enterprises LLC
+>=20
+> =E2=80=94 Another swift move commingled also=E2=80=A6.=20
+> =E2=80=94 HSBC and JP Morgan carrying that interest as well?
+>=20
+> Great job Zucker! Enjoy winning those cases with your atturnies.
+>=20
+>=20
+> Attachment(s)
+> image0.png
+> image1.jpeg
+> image1.jpeg
+> image2.png
+> image0.png
+> image2.jpeg
+> image3.jpeg
+> image4.jpeg
+> 153974_2020_S__309.pdf
+> NYC DEPT OF FINANCE - PUBLIC RECORD.pdf
+> MOV FILES DISTRIBUTED - LVL 7.html
+> image0.jpeg
+> 05-10-2022 - 117 sullivan street Property Assessment [ taxable ].pdf
+> 1.6662-2 Accuracy-related penalty -- UNDISLOSED LOAN AND LEGAL MATTERSS.ht=
+ml
+> document index TCR5.pdf
+> Vacancy-Receipts.pdf
+> deed - 117 FT_1350000324035 - DEED 2.pdf
+> 20MM over 10YRS.pdf
+> FraudInvocation-Receipt.pdf
+> NOTICE TO SECURITIES AND EXCHANGE - NOVEMBER 13TH 2021.png
+> MOV FILES DISTRIBUTED - LVL 8.html
+> NOTICE TO AUDITORS - ELECTRONICALLY DISTRIBUTED..html
+> 1645673230096blob.jpg
+> 1645415397259blob.jpg
+> 2022.02.23 bin code 1077252 ---- 111 rear --- NO CERTIFICATE OF OCCUPANCY.=
+pdf
+> 2022.02.23 bin code 1077252 ---- 111 rear.pdf
+> 2022.02.23 NOTICE +DOB +NYPD +NYFD +FRB.pdf
+> CCF_000031.pdf
+> 2022.02.23 USPS_DEMAND_LETTER_PROOF_OF_DELIVERY_CONFIRM.pdf
+>=20
+> This email is a service from New York State Bar Association. Delivered by Z=
+endesk
+> [504GVM-OR394]
+
+--Apple-Mail-961CF229-66B6-4C17-BF0F-DA8DB4E08A97
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> "Lindsay Panzica (NYSBA MRC)" &=
+lt;mrc@nysba.org&gt;<br><b>Date:</b> July 5, 2022 at 9:07:47 AM EDT<br><b>To=
+:</b> bdincer66@icloud.com<br><b>Subject:</b> <b>[New York State Bar Associa=
+tion] Re: 251295/2021 thru 251334/2021 =F0=9F=A4=AB</b><br><b>Reply-To:</b> N=
+YSBA MRC &lt;mrc@nysba.org&gt;<br><br></div></blockquote><blockquote type=3D=
+"cite"><div dir=3D"ltr">=EF=BB=BF
+
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+ =20
+
+         =20
+       =20
+
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida Gran=
+de',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;">##- Please type your reply above this lin=
+e -##</div>
+    <p dir=3D"ltr">Your request (36716) has been updated. To add additional c=
+omments, reply to this email.<br></p><div style=3D"margin-top: 25px" data-ve=
+rsion=3D"2"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" role=3D"presentation">  <tbody><tr>    <td width=3D"100%" style=3D"pa=
+dding: 15px 0; border-top: 1px dotted #c5c5c5;">      <table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"table-layout:fixed;=
+" role=3D"presentation">        <tbody><tr>                      <td valign=3D=
+"top" style=3D"padding: 0 15px 0 15px; width: 40px;">              <img widt=
+h=3D"40" height=3D"40" alt=3D"" style=3D"height: auto; line-height: 100%; ou=
+tline: none; text-decoration: none; -webkit-border-radius: 5px; -moz-border-=
+radius: 5px; border-radius: 5px;" src=3D"https://secure.gravatar.com/avatar/=
+ec6298320bdcc27312a7876b098a59ad?size=3D40&amp;default=3Dhttps%3A%2F%2Fasset=
+s.zendesk.com%2Fimages%2F2016%2Fdefault-avatar-80.png&amp;r=3Dg" data-unique=
+-identifier=3D"">            </td>                    <td width=3D"100%" sty=
+le=3D"padding: 0; margin: 0;" valign=3D"top">            <p style=3D"font-fa=
+mily:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','O=
+xygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; font=
+-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0;=
+ color:#1b1d1e;" dir=3D"ltr">                                               =
+ <strong>Lindsay Panzica</strong> (New York State Bar Association)          =
+                                </p>            <p style=3D"font-family:'sys=
+tem-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-San=
+s','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; font-size: 13=
+px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0; color=
+:#bbbbbb;" dir=3D"ltr">              Jul 5, 2022, 10:07 ADT            </p> =
+                                   <div class=3D"zd-comment" dir=3D"auto" st=
+yle=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;"><p dir=3D"ltr" st=
+yle=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">This request was c=
+losed and merged into request <a href=3D"https://support.nysba.org/hc/reques=
+ts/36712" target=3D"_blank" rel=3D"ticket">#36712</a> "Re: SC-50-CIV-2021-12=
+.pdf (FILED...".</p><p dir=3D"ltr"></p></div>                               =
+   </td>        </tr>      </tbody></table>    </td>  </tr></tbody></table><=
+p dir=3D"ltr"></p><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" role=3D"presentation">  <tbody><tr>    <td width=3D"100%" style=3D=
+"padding: 15px 0; border-top: 1px dotted #c5c5c5;">      <table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"table-layout:fi=
+xed;" role=3D"presentation">        <tbody><tr>                      <td val=
+ign=3D"top" style=3D"padding: 0 15px 0 15px; width: 40px;">              <im=
+g width=3D"40" height=3D"40" alt=3D"" style=3D"height: auto; line-height: 10=
+0%; outline: none; text-decoration: none; -webkit-border-radius: 5px; -moz-b=
+order-radius: 5px; border-radius: 5px;" src=3D"https://secure.gravatar.com/a=
+vatar/c54f7d8919205c1a235ef141ce034f67?size=3D40&amp;default=3Dhttps%3A%2F%2=
+Fassets.zendesk.com%2Fimages%2F2016%2Fdefault-avatar-80.png&amp;r=3Dg" data-=
+unique-identifier=3D"">            </td>                    <td width=3D"100=
+%" style=3D"padding: 0; margin: 0;" valign=3D"top">            <p style=3D"f=
+ont-family:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Robo=
+to','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'=
+; font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; paddi=
+ng: 0; color:#1b1d1e;" dir=3D"ltr">                              <strong>bdi=
+ncer66@icloud.com</strong>                          </p>            <p style=
+=3D"font-family:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI',=
+'Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-s=
+erif'; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0=
+; padding: 0; color:#bbbbbb;" dir=3D"ltr">              Jul 2, 2022, 15:02 A=
+DT            </p>                                    <div class=3D"zd-comme=
+nt zd-comment-pre-styled" dir=3D"auto"><div><br></div>I=E2=80=99m not tellin=
+g anyone=E2=80=94<div>I changed my mind, let them litigate wherever they wan=
+t! It=E2=80=99s a free country!<br><div><br></div><div>&nbsp; &nbsp; &nbsp; &=
+nbsp; Plus, &nbsp;they have to stay paranoid =E2=80=94-</div><div><br></div>=
+<div>the $600K TAX MOVE l, is&nbsp;</div><div>the NYC DEPARTMENT OF TAXATION=
+=E2=80=A6</div><div>=E2=80=A6 9/23/2020=E2=80=94</div><div><br></div><div>Ho=
+n Nancy Sunshine.. &nbsp;mm hmm. Got it.&nbsp;</div><div>Allllllll spandex. &=
+nbsp;&nbsp;</div><div><br></div><div>That=E2=80=99s the ZUCKERS Enterprises L=
+LC</div><div><br></div><div>=E2=80=94 Another swift move commingled also=E2=80=
+=A6.&nbsp;</div><div>=E2=80=94 HSBC and JP Morgan carrying that interest as w=
+ell?</div><div><br></div><div>Great job Zucker! Enjoy winning those cases wi=
+th your atturnies.</div><div><div><br><div><br></div><div></div></div></div>=
+</div></div><p dir=3D"ltr">                        </p><p style=3D"line-heig=
+ht: 22px; font-family:'system-ui','-apple-system','BlinkMacSystemFont','Sego=
+e UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','=
+sans-serif'; margin-top: 15px; margin-bottom: 15px; font-size: 14px; color:#=
+333333;" dir=3D"ltr">              Attachment(s)<br>                        =
+      <a href=3D"https://support.nysba.org/attachments/token/AYudhpqVy5YzILE=
+CrrdqtYsDy/?name=3Dimage0.png">image0.png</a><br>                           =
+   <a href=3D"https://support.nysba.org/attachments/token/uXmPQ38BhOoS81BORc=
+N189epx/?name=3Dimage1.jpeg">image1.jpeg</a><br>                            =
+  <a href=3D"https://support.nysba.org/attachments/token/M2hlv45SVnHpSrWTNDu=
+NYRmxl/?name=3Dimage1.jpeg">image1.jpeg</a><br>                             =
+ <a href=3D"https://support.nysba.org/attachments/token/mlWG3uUj3n19hbg5MKEX=
+JUFgp/?name=3Dimage2.png">image2.png</a><br>                              <a=
+ href=3D"https://support.nysba.org/attachments/token/mREddukmidsYUmBFy8jnNq4=
+mg/?name=3Dimage0.png">image0.png</a><br>                              <a hr=
+ef=3D"https://support.nysba.org/attachments/token/uwSPB9MeN0sX9yCIpaJ5LMB5q/=
+?name=3Dimage2.jpeg">image2.jpeg</a><br>                              <a hre=
+f=3D"https://support.nysba.org/attachments/token/8rbRQgVwJiGq3SGb6uIEsoGtK/?=
+name=3Dimage3.jpeg">image3.jpeg</a><br>                              <a href=
+=3D"https://support.nysba.org/attachments/token/bRuZFokaqoqfgjc3xm4nD7Kbl/?n=
+ame=3Dimage4.jpeg">image4.jpeg</a><br>                              <a href=3D=
+"https://support.nysba.org/attachments/token/3sei2LBGSgTKiG8Lyeagh7HHa/?name=
+=3D153974_2020_S__309.pdf">153974_2020_S__309.pdf</a><br>                   =
+           <a href=3D"https://support.nysba.org/attachments/token/GjhI7f9tFd=
+LUwGPhqbSx7K8Ad/?name=3DNYC+DEPT+OF+FINANCE+-+PUBLIC+RECORD.pdf">NYC DEPT OF=
+ FINANCE - PUBLIC RECORD.pdf</a><br>                              <a href=3D=
+"https://support.nysba.org/attachments/token/4AgaBSsvgKeucazIELnO8pDwy/?name=
+=3DMOV+FILES+DISTRIBUTED+-+LVL+7.html">MOV FILES DISTRIBUTED - LVL 7.html</a=
+><br>                              <a href=3D"https://support.nysba.org/atta=
+chments/token/MJ5xEG1bkHzqj0rY1zESVUgQb/?name=3Dimage0.jpeg">image0.jpeg</a>=
+<br>                              <a href=3D"https://support.nysba.org/attac=
+hments/token/54cKo6I0bcg6Zm3XZCRKEajWx/?name=3D05-10-2022+-+117+sullivan+str=
+eet+Property+Assessment+%5B+taxable+%5D.pdf">05-10-2022 - 117 sullivan stree=
+t Property Assessment [ taxable ].pdf</a><br>                              <=
+a href=3D"https://support.nysba.org/attachments/token/mzP7EuwSKQe8XpUoBxV9fa=
+HS3/?name=3D1.6662-2+Accuracy-related+penalty+--+UNDISLOSED+LOAN+AND+LEGAL+M=
+ATTERSS.html">1.6662-2 Accuracy-related penalty -- UNDISLOSED LOAN AND LEGAL=
+ MATTERSS.html</a><br>                              <a href=3D"https://suppo=
+rt.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=3Ddocument+in=
+dex+TCR5.pdf">document index TCR5.pdf</a><br>                              <=
+a href=3D"https://support.nysba.org/attachments/token/aTk5HhjOqD2LtxfEflB08d=
+jVk/?name=3DVacancy-Receipts.pdf">Vacancy-Receipts.pdf</a><br>              =
+                <a href=3D"https://support.nysba.org/attachments/token/CngSP=
+BJRgJ0NeFHZEVMZnnyru/?name=3Ddeed+-+117+FT_1350000324035+-+DEED+2.pdf">deed -=
+ 117 FT_1350000324035 - DEED 2.pdf</a><br>                              <a h=
+ref=3D"https://support.nysba.org/attachments/token/8ZFY4EZW6nxemJZIs4tjaiFEP=
+/?name=3D20MM+over+10YRS.pdf">20MM over 10YRS.pdf</a><br>                   =
+           <a href=3D"https://support.nysba.org/attachments/token/unEAUOR5vB=
+sdF9oo30QxFo0sR/?name=3DFraudInvocation-Receipt.pdf">FraudInvocation-Receipt=
+.pdf</a><br>                              <a href=3D"https://support.nysba.o=
+rg/attachments/token/sWoZTvp3jCzQBDpiHj8pRGrhV/?name=3DNOTICE+TO+SECURITIES+=
+AND+EXCHANGE+-+NOVEMBER+13TH+2021.png">NOTICE TO SECURITIES AND EXCHANGE - N=
+OVEMBER 13TH 2021.png</a><br>                              <a href=3D"https:=
+//support.nysba.org/attachments/token/giXwD6OAvfSWDEcZAlsvDynLg/?name=3DMOV+=
+FILES+DISTRIBUTED+-+LVL+8.html">MOV FILES DISTRIBUTED - LVL 8.html</a><br>  =
+                            <a href=3D"https://support.nysba.org/attachments=
+/token/FIcMKoTxCbgd6qF7QbC7WF4CN/?name=3DNOTICE+TO+AUDITORS+-+ELECTRONICALLY=
++DISTRIBUTED..html">NOTICE TO AUDITORS - ELECTRONICALLY DISTRIBUTED..html</a=
+><br>                              <a href=3D"https://support.nysba.org/atta=
+chments/token/8o9gRnWwvw6J4bW5mRgkEiEtq/?name=3D1645673230096blob.jpg">16456=
+73230096blob.jpg</a><br>                              <a href=3D"https://sup=
+port.nysba.org/attachments/token/81HXMlyrUsfkmvsKohd6LQ1M4/?name=3D164541539=
+7259blob.jpg">1645415397259blob.jpg</a><br>                              <a h=
+ref=3D"https://support.nysba.org/attachments/token/wBZHmueglHEgs6R2TEFAAJroV=
+/?name=3D2022.02.23+bin+code+1077252+----+111+rear+---+NO+CERTIFICATE+OF+OCC=
+UPANCY.pdf">2022.02.23 bin code 1077252 ---- 111 rear --- NO CERTIFICATE OF O=
+CCUPANCY.pdf</a><br>                              <a href=3D"https://support=
+.nysba.org/attachments/token/Bgxj6gOmSqLBjdjca7F7GLN56/?name=3D2022.02.23+bi=
+n+code+1077252+----+111+rear.pdf">2022.02.23 bin code 1077252 ---- 111 rear.=
+pdf</a><br>                              <a href=3D"https://support.nysba.or=
+g/attachments/token/qTRPChGTPdXzBaOmCiqCLOZpd/?name=3D2022.02.23+NOTICE+%2BD=
+OB+%2BNYPD+%2BNYFD+%2BFRB.pdf">2022.02.23 NOTICE +DOB +NYPD +NYFD +FRB.pdf</=
+a><br>                              <a href=3D"https://support.nysba.org/att=
+achments/token/byr918DAb8DI3kBkB0lwyxeTH/?name=3DCCF_000031.pdf">CCF_000031.=
+pdf</a><br>                              <a href=3D"https://support.nysba.or=
+g/attachments/token/nq18wovfJMwvK4Wk7KL4nfgqi/?name=3D2022.02.23+USPS_DEMAND=
+_LETTER_PROOF_OF_DELIVERY_CONFIRM.pdf">2022.02.23 USPS_DEMAND_LETTER_PROOF_O=
+F_DELIVERY_CONFIRM.pdf</a><br>                          </p>                =
+                  </td>        </tr>      </tbody></table>    </td>  </tr></=
+tbody></table></div>
+  </div>
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida Gran=
+de',Verdana,Arial,sans-serif; font-size: 12px; color: #aaaaaa;
+    margin: 10px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeeeee;=
+">
+    This email is a service from New York State Bar Association. Delivered b=
+y <a href=3D"https://www.zendesk.com/support/?utm_campaign=3Dtext&amp;utm_co=
+ntent=3DNew+York+State+Bar+Association&amp;utm_medium=3Dpoweredbyzendesk&amp=
+;utm_source=3Demail-notification" style=3D"color:black;" target=3D"_blank">Z=
+endesk</a>
+  </div>
+<span style=3D"color:#FFFFFF" aria-hidden=3D"true">[504GVM-OR394]</span>
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage" style=3D"dis=
+play:none">  <div itemprop=3D"action" itemscope=3D"" itemtype=3D"http://sche=
+ma.org/ViewAction">    <link itemprop=3D"url" href=3D"https://support.nysba.=
+org/hc/requests/36716">    <meta itemprop=3D"name" content=3D"View ticket"> =
+ </div></div>
+</div></blockquote></body></html>=
+
+--Apple-Mail-961CF229-66B6-4C17-BF0F-DA8DB4E08A97--

@@ -1,0 +1,428 @@
+From - Sun Aug 28 22:42:56 2022
+X-Account-Key: account1
+X-UIDL: AM84AE12XapYYsYWRAucqJ6cfS8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.141
+ by atlas311.free.mail.ne1.yahoo.com with HTTPS; Wed, 6 Jul 2022 23:09:56 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.50]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.50 as permitted sender)
+Authentication-Results: atlas311.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 6 Jul 2022 23:09:56 +0000
+X-YMailISG: 2O2f3PcWLDvF_5QQldfTw_CqvNvKr26xU.75XoKX9DI4d.89
+ Ca6SEzf6JYW9jLrTVqvKrzuVZ_v02WFEZ4KBgP8bryNOlUeL_AjfErOIeYy6
+ _V76rO8pzBZ.8tbYj0AsNv.gkMzqJzAxbqrHmz7j1vZAyxzBBbVN0BU6VuHf
+ 1YWXo6PJd5A1wkaxBmKNwa0ioUmYVdbB4kjsp.LSPkaEwi2kJmfuNWPw1Q7q
+ dSi1Pdmw9bZaUK0f85NYyO0Pgo4Vi5Adfi4Fg7XT1VWvP3pJWMDd1k0rKvCG
+ VX0Of7jZRKXW_yN0EYTOAIJFWxGvybS6DdynDM5qCleN.W76G3yG8OiJhp.6
+ 1T2H9xIKSM0xUt1c0yulLs0lrNZLhTQCAOPglVObQuO5WIy_INimgWOsXGWz
+ owGmPhzCJOquk8mDqFXaHNEtRF56tukUFk.f4zIUP9TDSTfpuD4rkK2Z32DC
+ crkJ7mok5xJB.SilGhQgeYd.U7SmzDX8t9bOqdRAI7UTZInTn37GK8z2NZ_X
+ oIQZrJxMrYdiC1gzRNAK0N8BXeQBzfqM6KBjtg3k39fnBdYhu8H0uYIkGx0j
+ EBPbA.2FVn_RTds61Q7a.99gH7BLbLl4IAjfx76efCZzFxmXc8.fdVOfdg1N
+ Lij8XPZkZtjRdzAaIa4.5XKWmhZHLt0GhDgThvvRhTNykxqIHoTLBFi5srWM
+ N9iF8YDacnFiORbM9q4LkKTYfcN71FU9RXdmXtur9RfD.SowpB1KKrrAL8bi
+ hAK9MPJOoYCTmq2IbUtbpSQUkZQ7NIfiJ_Ns24qr8qB.LKN1TegabsjOe6fa
+ hASm8PEyoS61WAi05WJg51tMF2akWRCnoQvmU6BA68ml8dtE3X6OiKXb4rbB
+ 3P9NG3_NeNJMmzCxmM63O6_7J7Or8OP9pypVHtSHRwNKftRN.bKO3PVtu5hG
+ S3tKnRiY_fmpxDRUGuNZursL6jz4S.xx6RuZiwzpYsmo_5YQDj_wTw6R9ahW
+ NJCnc1Zwf4bLWL.NEPfMeqg9LogOZYhk.KgLke6c_q8g3KrAQ0PcIkm.fBfo
+ Rfdzmo.IAZETn.YMZ8fr_mKYKuxCL261nP.VXxA.YXG1sq813tS.ZQHkqYmn
+ HDpC.jqbSMsqjjmCRA5OVxx2jOYwJ6qZO_hmNShdARwUROLNORwFv9.UMFP3
+ KSI5ghXHS8NiG3S1y4WmDphb6LBnJJPewA--
+Received: from 209.85.166.50 (EHLO mail-io1-f50.google.com)
+ by 10.217.150.141 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 06 Jul 2022 23:09:56 +0000
+Received: by mail-io1-f50.google.com with SMTP id l24so15340164ion.13;
+        Wed, 06 Jul 2022 16:09:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=xC6oOvpFshrsTopmcnaPx+ryRHZ/GqFVJp6bVeqzKqQ=;
+        b=bUSPO2yZWpU7qP1mZRv3w/Qqzy9BsjzkfGdIhTM2v5IEv9X0ozpFMMfGObDI8iFrSe
+         Xq54Blx4zNv2vMX3cW8yJRZch3XUwh+V3w8xFZxXTEkzWCQAVTut1QZNahmk+C7/OLld
+         omLudZPWWF4A6RlYXZDEzxj7snUdzXjfCCnVjg2gpe72x03F6Tuu4si/UQzx0jB7wXVM
+         1JJdKBVn6ERWnto+V5NOf+IQSDFEwvP/p1f7GM/fieh25cIxKRIkhIjCkcgpxWay1rkl
+         RNkpdUix7C1GjA0T82e1HLbc7JSWMI5nr3sgj5aTQz45MAz7fM4Uxsq3gWIMSAEToqmE
+         3Kew==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=xC6oOvpFshrsTopmcnaPx+ryRHZ/GqFVJp6bVeqzKqQ=;
+        b=6CBvswVSur45K/WJe9jFW/sh96mODANy3vYqL09I2yPmOuRGp/CWbs4AGFEwJhUGs5
+         qRcCc4MAyyD/IJzSJL0+rzMVTs2Esi6oveXddB9nEiKNhJc1CWeEsgtPA6xJeANlMOLR
+         j6xOXtTBh6odNBo1NQiBAP8z4lOQs7/8CfJRbks7n7HHx7Vq7myb6+BPqjuwy/phCY4I
+         9w5/LDXSuJECRGTnqSTNXO4pBb8eb72YLyNi+kqmb70sO611tXCfw4uSM3DyIfrepAIo
+         LuS0iN3MfquP7x8X5jB1kcIE6pq2LxiPlDbVj9SYHlfzEROgyWfoU0sNANzoJqFDx47k
+         h7rQ==
+X-Gm-Message-State: AJIora8Wm6fSU4LN9jKmAQ0bRzfyfVqB3cIDISLgeD0MhhRNKaHNwYsy
+	wZ2M4rgxIryemWMrmNEMclKcGu8DTIUUrn61I26S2hZwexg=
+X-Google-Smtp-Source: AGRyM1u++kK5rRHWrDdBFi/2YSsTm2ROA+Nj8zzMFuQYxx+UqOHvdu2RVGqriIvGRQbW8b+1lcsXzyHRyyiIq9C7ukU=
+X-Received: by 2002:a05:6602:1644:b0:678:8ba4:8df6 with SMTP id
+ y4-20020a056602164400b006788ba48df6mr9466480iow.138.1657148995863; Wed, 06
+ Jul 2022 16:09:55 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOHu4882VfUFH=KFyDbUPbfnf0eYQY4tQXg90N=01H4wQ9MoTw@mail.gmail.com>
+ <CAOHu48_26=DkggX0r8KsJrbhK-pJh0_pMLJvoSNP_8fPeDecMw@mail.gmail.com>
+ <CAOHu489G1T7KQRfva2XtiREtYKGZ2HbKt_k2UOSkX8o8NA8qjg@mail.gmail.com>
+ <CAOHu489yBy8xwe5A764kGW+ELFqkz=R37DOhXsZ5VfUs=y60KA@mail.gmail.com> <1379668912.160629.1656463300627@mail.yahoo.com>
+In-Reply-To: <1379668912.160629.1656463300627@mail.yahoo.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Wed, 6 Jul 2022 19:09:46 -0400
+Message-ID: <CAOHu489KzS=B_ox3zHMGN6jL+-YPnKhAYWUcD8xeXUryonqmJA@mail.gmail.com>
+Subject: Re: Capacity: 1212-58-58-61710 [ SFITX-SFBDX ]
+To: Bo Dincer <bo.dincer@yahoo.com>, BBO 121 <ms60710444266@yahoo.com>, 
+	"Humphries, Ashley V." <ashley.humphries@wilsonelser.com>, Ricki Roer <ricki.roer@wilsonelser.com>
+Cc: KEVIN ROCK <krock5@bloomberg.net>, Brent Reeder <bdr11@bloomberg.net>, Kpmg Info <info@kpmg.com>, 
+	larissa.vonlockner@pwc.com, kerri.saperstein@morgansley.com, 
+	"Laskowitz, Shari" <slaskowitz@ingramllp.com>, SOHO HOUSE <membership@sohohouse.com>, 
+	gsamonlinerequest@gs.com, jpminvestorrelations@jpmchase.com, 
+	Jpetit <jpetit@mccarter.com>, Thermanson <thermanson@northmarq.com>, 
+	"Sky's The Limit" <concierge@stlnyc.com>, 
+	"MANHATTAN SKYLINE, LLC." <ADMINISTRATOR@mskyline.com>, ADMINISTRATION@mskyline.com, 
+	4audit@bloomberg.net, info@tudor.com, 
+	Federal Reserve Bank of New York <general.info@ny.frb.org>, Premerger <premerger@ftc.gov>, 
+	"MSHY15@MORGANSTANLEY.COM" <MSHY15@morganstanley.com>, 
+	TRACE Data Services <tracedataservices@finra.org>, espnfrontrow@espn.com, 
+	"Bill Cassese (ICE BONDS SECURITIES)" <bcassese19@bloomberg.net>, tmc-corps@bloomberg.net, 
+	Josephine Vella <Josephine.Vella@finra.org>, losangeles@sec.gov, dfw@sec.gov, 
+	LA TIMES NEWSLETTERS <newsletters@latimes.com>, =?UTF-8?B?4oCLbmV3eW9ya0BTRUMuR09W?= <newyork@sec.gov>, 
+	"PRIYA.RAGHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, praghuram2@bloomberg.net, 
+	=?UTF-8?B?4oCLbWhhcnZleTEzQGJsb29tYmVyZy5uZXQ=?= <mharvey13@bloomberg.net>, 
+	lzucker@mskyline.com, slaskowitz@mskyline.com, 
+	Paul Regan <legal@mskyline.com>, legalasst@mskyline.com, 
+	William McKenzie <wmckenzi@nycourts.gov>, "Stephen O'Connell" <sgo2107@columbia.edu>, 
+	"Stephen O'Connell" <sgo2107@adcu.columbia.edu>, adminstration@mskyline.com, 
+	The Bureau of Engraving and Printing <usbep@service.govdelivery.com>, "BD (NYSBA MRC)" <mrc@nysba.org>, 
+	"Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>, 
+	Urvashi Sinha <urvashi.sinha@wilsonelser.com>, 
+	Us Umusic Online Info <info@us.umusic-online.com>, us.client.onboarding@citi.com, 
+	letters@nypost.com, customerservice@nypost.com, CustomerService@seahawks.com, 
+	cuit-communications@columbia.edu, QUEUED <askcuit@columbia.edu>, 
+	DONALD ZUCKER <DZUCKER@mskyline.com>, Lee Bollinger <bollinger@columbia.edu>
+Content-Type: multipart/alternative; boundary="0000000000003d078c05e32b1145"
+Content-Length: 15276
+
+--0000000000003d078c05e32b1145
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+
+
+
+On Tue, Jun 28, 2022, 8:41 PM Bo Dincer <bo.dincer@yahoo.com> wrote:
+
+> #11
+>
+> /S/ BO DINCER
+>
+> On Fri, Jun 10, 2022 at 5:09 PM, BO DINCER
+> <bondstrt007@gmail.com> wrote:
+> can still see the stock prices....
+>
+>  Can shari request the stock prices to also stop reporting or is that als=
+o
+> illegal?
+>
+> Attached 1 File.
+> =E2=80=94 WILSONELSER.COM <http://wilsonelser.com/> =E2=80=94
+>
+>
+>
+> https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b50=
+02248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+>
+>
+>
+> https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b50=
+00d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+>
+> =E2=80=94SHARI-
+>
+>
+> https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b50=
+00d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+>
+>
+> =E2=80=94#GOCARDS
+> Tax receipts.
+>
+> https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1
+>
+>
+>
+> Ping PNG.
+>
+> On Fri, May 13, 2022, 9:22 PM BO DINCER <bondstrt007@gmail.com> wrote:
+>
+>
+>
+>
+>
+> On Fri, May 13, 2022, 9:08 PM BO DINCER <bondstrt007@gmail.com> wrote:
+>
+> Attached 1.
+>
+>
+>
+>
+> https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b50=
+02248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+>
+>
+>
+> https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b50=
+00d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+>
+> =E2=80=94SHARI-
+>
+>
+> https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b50=
+00d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+>
+>
+> =E2=80=94#GOCARDS
+> Tax receipts.
+>
+> https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1
+>
+>
+>
+> Ping PNG.
+>
+> 1212-58-58-61710
+>
+> STFGX
+>
+>
+>
+>
+>
+>
+> Error Icon
+> Address not found
+> Your message wasn't delivered to kerry.saperstein@morganstanley.com
+> because the address couldn't be found, or is unable to receive mail.
+> The response from the remote server was:
+> 550 5.1.1 User Unknown
+>
+>
+>
+>
+> ---------- Forwarded message ----------
+> From: B B <boboschickenandpoker@gmail.com>
+> To: "MSHY15@MORGANSTANLEY.COM" <MSHY15@morganstanley.com>,
+> jamcreations2001@yahoo.com, espnfrontrow@espn.com, letters@nypost.com,
+> IMShareholderProposals@sec.gov, lzucker@mskyline.com,
+> kerry.saperstein@morganstanley.com, ksaperstein2@bloomberg.net, Dow Jones
+> <pronewsletter@dowjones.com>, wsjprosupport@dowjones.com, Josephine Vella
+> <Josephine.Vella@finra.org>, investor@annaly.com, info@statefarm.com,
+> investorrelations@umusic.com, praghuram2@bloomberg.net,
+> james.gorman@morganstanley.com, colin.brooks@morganstanley.com,
+> priya.raghuram@morganstanleys.com, press@vice.com, press@barrons.com
+> Cc: scott@holcombward.com, crcomplaints@treasury.gov, premerger@ftc.gov
+> Bcc:
+> Date: Fri, 13 May 2022 20:53:55 -0400
+> Subject: Whats the 411 ? $852,029,489 +++++++ NO DISCLOSURE?
+> Show quoted text
+>
+>
+> On Fri, May 13, 2022, 7:56 PM <6462563609@mms.att.net> wrote:
+>
+> 58-58
+> https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b50=
+02248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+>
+>
+
+--0000000000003d078c05e32b1145
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><a href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-=
+AND-DICKER/pull/11">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKE=
+R/pull/11</a><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div></div>=
+<br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Tue=
+, Jun 28, 2022, 8:41 PM Bo Dincer &lt;<a href=3D"mailto:bo.dincer@yahoo.com=
+">bo.dincer@yahoo.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+">#11<br><br><div id=3D"m_-4028094166123572062ymail_android_signature">/S/ =
+BO DINCER</div> <br> <blockquote style=3D"margin:0 0 20px 0"> <div style=3D=
+"font-family:Roboto,sans-serif;color:#6d00f6"> <div>On Fri, Jun 10, 2022 at=
+ 5:09 PM, BO DINCER</div><div>&lt;<a href=3D"mailto:bondstrt007@gmail.com" =
+target=3D"_blank" rel=3D"noreferrer">bondstrt007@gmail.com</a>&gt; wrote:</=
+div> </div> <div style=3D"padding:10px 0 0 20px;margin:10px 0 0 0;border-le=
+ft:1px solid #6d00f6"> <div id=3D"m_-4028094166123572062yiv0778341856"><div=
+><div style=3D"color:rgb(68,68,68);font-family:verdana,arial,sans-serif;fon=
+t-size:12px">can still see the stock prices....</div><div style=3D"color:rg=
+b(68,68,68);font-family:verdana,arial,sans-serif;font-size:12px"><br></div>=
+<div style=3D"color:rgb(68,68,68);font-family:verdana,arial,sans-serif;font=
+-size:12px">=C2=A0Can shari request the stock prices to also stop reporting=
+ or is that also illegal?</div><div style=3D"color:rgb(68,68,68);font-famil=
+y:verdana,arial,sans-serif;font-size:12px"><br></div><div style=3D"color:rg=
+b(68,68,68);font-family:verdana,arial,sans-serif;font-size:12px"><div><div>=
+<div>Attached 1 File.</div><div>=E2=80=94=C2=A0<a rel=3D"nofollow noopener =
+noreferrer noreferrer" href=3D"http://wilsonelser.com/" style=3D"text-decor=
+ation-line:none;color:rgb(66,133,244)" target=3D"_blank">WILSONELSER.COM</a=
+>=C2=A0=E2=80=94</div><div><div><br><div><div><div><br></div><div><a rel=3D=
+"nofollow noopener noreferrer noreferrer" href=3D"https://saaze2311prdsra.b=
+lob.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4=
+B2A-89B9-93BD202498A9.jpeg" style=3D"text-decoration-line:none;color:rgb(66=
+,133,244)" target=3D"_blank">https://saaze2311prdsra.blob.core.windows.net/=
+clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9=
+.jpeg</a></div><div><br></div><div><br></div><div><a rel=3D"nofollow noopen=
+er noreferrer noreferrer" href=3D"https://saaze2311prdsra.blob.core.windows=
+.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205=
+617AC.jpeg" style=3D"text-decoration-line:none;color:rgb(66,133,244)" targe=
+t=3D"_blank">https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10=
+d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg</a></div><=
+div><br></div><div>=E2=80=94SHARI-</div><div><br></div><div><a rel=3D"nofol=
+low noopener noreferrer noreferrer" href=3D"https://saaze2311prdsra.blob.co=
+re.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91=
+F6-A5A40317CC63.jpeg" style=3D"text-decoration-line:none;color:rgb(66,133,2=
+44)" target=3D"_blank">https://saaze2311prdsra.blob.core.windows.net/clean/=
+a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg<=
+/a></div><div><br></div><div><br></div><div>=E2=80=94#GOCARDS</div><div>Tax=
+ receipts.</div><div><br></div><div><a rel=3D"nofollow noopener noreferrer =
+noreferrer" href=3D"https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/=
+1" style=3D"text-decoration-line:none;color:rgb(66,133,244)" target=3D"_bla=
+nk">https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1</a></div><div>=
+<br></div><div>=C2=A0 =C2=A0=C2=A0</div><div><br></div><div>Ping PNG.</div>=
+</div></div></div></div></div></div></div></div><br><div><div dir=3D"ltr">O=
+n Fri, May 13, 2022, 9:22 PM BO DINCER &lt;<a rel=3D"nofollow noopener nore=
+ferrer noreferrer" href=3D"mailto:bondstrt007@gmail.com" target=3D"_blank">=
+bondstrt007@gmail.com</a>&gt; wrote:<br></div><blockquote style=3D"margin:0=
+ 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div><div><div><br><=
+/div><div><br></div><br><br><div><div dir=3D"ltr">On Fri, May 13, 2022, 9:0=
+8 PM BO DINCER &lt;<a rel=3D"nofollow noopener noreferrer noreferrer" href=
+=3D"mailto:bondstrt007@gmail.com" target=3D"_blank">bondstrt007@gmail.com</=
+a>&gt; wrote:<br></div><blockquote style=3D"margin:0 0 0 .8ex;border-left:1=
+px #ccc solid;padding-left:1ex"><div><div>Attached 1.</div><div><div><br><b=
+r><div><div><div><br></div><div><a rel=3D"nofollow noopener noreferrer nore=
+ferrer" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89=
+e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg" target=
+=3D"_blank">https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d=
+3ec11a7b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg</a></div><d=
+iv><br></div><div><br></div><div><a rel=3D"nofollow noopener noreferrer nor=
+eferrer" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c=
+6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg" targe=
+t=3D"_blank">https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10=
+d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg</a></div><=
+div><br></div><div>=E2=80=94SHARI-</div><div><br></div><div><a rel=3D"nofol=
+low noopener noreferrer noreferrer" href=3D"https://saaze2311prdsra.blob.co=
+re.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91=
+F6-A5A40317CC63.jpeg" target=3D"_blank">https://saaze2311prdsra.blob.core.w=
+indows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A=
+5A40317CC63.jpeg</a></div><div><br></div><div><br></div><div>=E2=80=94#GOCA=
+RDS</div><div>Tax receipts.</div><div><br></div><div><a rel=3D"nofollow noo=
+pener noreferrer noreferrer" href=3D"https://github.com/users/BSCPGROUPHOLD=
+INGSLLC/projects/1" target=3D"_blank">https://github.com/users/BSCPGROUPHOL=
+DINGSLLC/projects/1</a></div><div><br></div><div>=C2=A0 =C2=A0=C2=A0</div><=
+div><br></div><div>Ping PNG.</div><div><br></div><div>1212-58-58-61710=C2=
+=A0</div><div><br></div><div>STFGX</div><div><br></div><div><br></div><div>=
+<br></div><div><br></div><div><br></div><div><br></div><div>Error Icon</div=
+><div>Address not found</div><div>Your message wasn&#39;t delivered to <a r=
+el=3D"nofollow noopener noreferrer noreferrer" href=3D"mailto:kerry.saperst=
+ein@morganstanley.com" target=3D"_blank">kerry.saperstein@morganstanley.com=
+</a> because the address couldn&#39;t be found, or is unable to receive mai=
+l.</div><div>The response from the remote server was:</div><div>550 5.1.1 U=
+ser Unknown</div><div><br></div><div><br></div><div><br></div><div><br></di=
+v><div>---------- Forwarded message ----------</div><div>From: B B &lt;<a r=
+el=3D"nofollow noopener noreferrer noreferrer" href=3D"mailto:boboschickena=
+ndpoker@gmail.com" target=3D"_blank">boboschickenandpoker@gmail.com</a>&gt;=
+</div><div>To: &quot;<a rel=3D"nofollow noopener noreferrer noreferrer" hre=
+f=3D"mailto:MSHY15@MORGANSTANLEY.COM" target=3D"_blank">MSHY15@MORGANSTANLE=
+Y.COM</a>&quot; &lt;<a rel=3D"nofollow noopener noreferrer noreferrer" href=
+=3D"mailto:MSHY15@morganstanley.com" target=3D"_blank">MSHY15@morganstanley=
+.com</a>&gt;, <a rel=3D"nofollow noopener noreferrer noreferrer" href=3D"ma=
+ilto:jamcreations2001@yahoo.com" target=3D"_blank">jamcreations2001@yahoo.c=
+om</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" href=3D"mailto:e=
+spnfrontrow@espn.com" target=3D"_blank">espnfrontrow@espn.com</a>, <a rel=
+=3D"nofollow noopener noreferrer noreferrer" href=3D"mailto:letters@nypost.=
+com" target=3D"_blank">letters@nypost.com</a>, <a rel=3D"nofollow noopener =
+noreferrer noreferrer" href=3D"mailto:IMShareholderProposals@sec.gov" targe=
+t=3D"_blank">IMShareholderProposals@sec.gov</a>, <a rel=3D"nofollow noopene=
+r noreferrer noreferrer" href=3D"mailto:lzucker@mskyline.com" target=3D"_bl=
+ank">lzucker@mskyline.com</a>, <a rel=3D"nofollow noopener noreferrer noref=
+errer" href=3D"mailto:kerry.saperstein@morganstanley.com" target=3D"_blank"=
+>kerry.saperstein@morganstanley.com</a>, <a rel=3D"nofollow noopener norefe=
+rrer noreferrer" href=3D"mailto:ksaperstein2@bloomberg.net" target=3D"_blan=
+k">ksaperstein2@bloomberg.net</a>, Dow Jones &lt;<a rel=3D"nofollow noopene=
+r noreferrer noreferrer" href=3D"mailto:pronewsletter@dowjones.com" target=
+=3D"_blank">pronewsletter@dowjones.com</a>&gt;, <a rel=3D"nofollow noopener=
+ noreferrer noreferrer" href=3D"mailto:wsjprosupport@dowjones.com" target=
+=3D"_blank">wsjprosupport@dowjones.com</a>, Josephine Vella &lt;<a rel=3D"n=
+ofollow noopener noreferrer noreferrer" href=3D"mailto:Josephine.Vella@finr=
+a.org" target=3D"_blank">Josephine.Vella@finra.org</a>&gt;, <a rel=3D"nofol=
+low noopener noreferrer noreferrer" href=3D"mailto:investor@annaly.com" tar=
+get=3D"_blank">investor@annaly.com</a>, <a rel=3D"nofollow noopener norefer=
+rer noreferrer" href=3D"mailto:info@statefarm.com" target=3D"_blank">info@s=
+tatefarm.com</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" href=
+=3D"mailto:investorrelations@umusic.com" target=3D"_blank">investorrelation=
+s@umusic.com</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" href=
+=3D"mailto:praghuram2@bloomberg.net" target=3D"_blank">praghuram2@bloomberg=
+.net</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" href=3D"mailto=
+:james.gorman@morganstanley.com" target=3D"_blank">james.gorman@morganstanl=
+ey.com</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" href=3D"mail=
+to:colin.brooks@morganstanley.com" target=3D"_blank">colin.brooks@morgansta=
+nley.com</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" href=3D"ma=
+ilto:priya.raghuram@morganstanleys.com" target=3D"_blank">priya.raghuram@mo=
+rganstanleys.com</a>, <a rel=3D"nofollow noopener noreferrer noreferrer" hr=
+ef=3D"mailto:press@vice.com" target=3D"_blank">press@vice.com</a>, <a rel=
+=3D"nofollow noopener noreferrer noreferrer" href=3D"mailto:press@barrons.c=
+om" target=3D"_blank">press@barrons.com</a></div><div>Cc: <a rel=3D"nofollo=
+w noopener noreferrer noreferrer" href=3D"mailto:scott@holcombward.com" tar=
+get=3D"_blank">scott@holcombward.com</a>, <a rel=3D"nofollow noopener noref=
+errer noreferrer" href=3D"mailto:crcomplaints@treasury.gov" target=3D"_blan=
+k">crcomplaints@treasury.gov</a>, <a rel=3D"nofollow noopener noreferrer no=
+referrer" href=3D"mailto:premerger@ftc.gov" target=3D"_blank">premerger@ftc=
+.gov</a></div><div>Bcc:=C2=A0</div><div>Date: Fri, 13 May 2022 20:53:55 -04=
+00</div><div>Subject: Whats the 411 ? $852,029,489 +++++++ NO DISCLOSURE?</=
+div><div>Show quoted text</div><div><br></div></div><br><div><div dir=3D"lt=
+r">On Fri, May 13, 2022, 7:56 PM  &lt;<a rel=3D"nofollow noopener noreferre=
+r noreferrer" href=3D"mailto:6462563609@mms.att.net" target=3D"_blank">6462=
+563609@mms.att.net</a>&gt; wrote:<br></div><blockquote style=3D"margin:0 0 =
+0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+=09
+	=09
+	=09
+=09
+	<div>
+          =20
+           =20
+          =20
+           =20
+                <table><tbody><tr height=3D"15" style=3D"border-top:1px sol=
+id #0f7bbc">
+                    <td>
+                        58-58
+
+
+<a rel=3D"nofollow noopener noreferrer noreferrer" href=3D"https://saaze231=
+1prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE4852=
+6B-6A0E-4B2A-89B9-93BD202498A9.jpeg" target=3D"_blank">https://saaze2311prd=
+sra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6=
+A0E-4B2A-89B9-93BD202498A9.jpeg</a>
+                    </td>
+                </tr>
+           =20
+        =20
+     </tbody></table></div>
+
+
+</blockquote></div></div>
+</div></div></div>
+</blockquote></div></div></div>
+</blockquote></div>
+</div> </div> </blockquote></blockquote></div>
+
+--0000000000003d078c05e32b1145--

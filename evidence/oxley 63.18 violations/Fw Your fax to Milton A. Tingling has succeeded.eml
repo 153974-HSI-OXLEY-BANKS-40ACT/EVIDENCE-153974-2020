@@ -1,0 +1,166 @@
+From - Sun Aug 28 22:40:56 2022
+X-Account-Key: account1
+X-UIDL: AKgdWxM7PViVYrpfggWRyCsMYbs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.41.12
+ by atlas117.free.mail.bf1.yahoo.com with HTTPS; Tue, 28 Jun 2022 01:55:14 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.148]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.148 as permitted sender)
+Authentication-Results: atlas117.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 01:55:14 +0000
+X-YMailAVSC: M8Jpfak3bBtpU.vQ.EJmvlafA48prnx69WeGA9b8w.8D6uS
+ Vcf92Dx_jV71kP30ihKB64U96iDukxPn6OuOXQ9.oxVy3kM1luAEB9ObbgXN
+ qOfnPv9YAyORJIQvKjGJx4tFIRbZGCYZXz486cQJQhLg0b16AQdCaXy2Czp7
+ .PSX0cQUXRmpPqUB8mH3abUctTlkrMZ.jKNs7Yp9cAbCCWZADcDYsQRIhIUe
+ IyBj0MV8QMmp0QW5GYVSL9K19hsDW5CMhIeT6KzC6elDy2cSieofZTKR58Hs
+ t5fvkgIjGh2wmy3I.zTr9gSKoIKOqWKxB_ZH_A2q5OR5sik.QIaMLHMXqt7j
+ swm1EPbDaAVQ4hcKec8rEs.7b7VNPCYVvB4CJ.WJHDalh4XVu7zgA5w--
+X-YMailISG: QdqMkKoWLDuO45H3cJVqJi1.vnVBP90BV0gwNx5FZrmYqfsS
+ nZrrFeaP0hfOat5BtgQ_GFuL9oVf2gr8sk4zwppJITiX_MjNolNlQQ_vQZQ.
+ tQ3kL1_ocwIC8JNvfIkOUm.RaIrs5lF8HHfJsMhKOlot2NxnaZipc9zh4B7a
+ pNO1icPyxM5xdbmdADywOvnVe9Ofkp82LxStfG28RxFZievAikVU2O64yQO1
+ a3_Dok7K5YYWn8yxntLjxLvsSbEyfZAOPWROpFwhujAXmOQrkbg7dWF3saDO
+ nfK8UoNChRssTHaacnW51tcyOfd4hrHQSOFBh06CZWJAgob8Pv30jLoKPf2X
+ rGfIQwRprq5G5WYMaoXqKsTfJ.rHhoNBtdC3oERpgJR41bK2EKsCG.Lg4W0j
+ iStf3AvsxPEblLeQbgXFoiWH1_HhsoNkchIUIJCcp02wLJ76IYXhT6mZ6zYj
+ grG6lLsjcopuk2xK_Du7ND9icgZptdlQ7nP8m12ioWlHljSfHIn0dPNZoGBb
+ 5nAinZ0nqHrAVL1bj80GHBMHSEBgjId8VeYukwPHyBYR9wZL0iw1TADT28j0
+ 8KHXjxhS7I3_ay.Ksj__6UbsznU4o3RZSe_xZQ8KRVdgQft0RuTwpja1uEwR
+ aAMZlECGSmbGnvzCN4LSw17Fh9wCC3Rq4_qvgvB7mW4Oahd04XVc2fSXWj15
+ ahKOvA6iypihSPttU9fH8uWRsUbhXmzukhzfOTe0_PeKVgGGweQeJj7DKxuD
+ cNQ1cZukYtrkrCmig7f0Oc9h1tuMujkntef0GR3juigSrsnxp3vrkKJTtoQM
+ i9IECnJBeRsvxGmH0K6ZccGFviyXmz9IVN4MhDoI.MBlsjvA.WSh2vH8XaxQ
+ NE80AVIlNlcHy8XpNLb1wLXpixsmE7.QHaiAZFZpAM2UdzRUAAJE25Yi4VWb
+ MdsPgjoRQe8MCr.dDwVu_j1P6c98b33rkII_dCbLZCGFBAs2nyDgxRkBNA.W
+ OQezKyzOp84xPCTrhYZYLlFdwS76GylEml3XJcGPhKT681wWDWRMXlAHGQEF
+ OXm6k.JdO4fTVwPVo1pcLDkXmTegZGesWPARH0xJ3yRIvls5MSnd8VyUUbqr
+ h.pIoV7oNTKUFn9hVrLeEpAnHDELvQsg1JD4UUbmfaM5QBCYYh.k0NjM90kv
+ Tzf1veowjr5iGEW0SOT2PqX44p2.
+Received: from 98.137.69.148 (EHLO sonic310-22.consmr.mail.gq1.yahoo.com)
+ by 10.197.41.12 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 01:55:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656381312; bh=GcxkA5Uxaqpt1oSu5VtsdlhceG+P0j/KY0eknh5CE2E=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=a+q1XzYPgsWUE9/a5Utt+7D98DLP5HIzNfUr/aZs3hH/bb7GQChE3PKswC9XG/0tAOV1pSr6RDGFKPEP9DL9b3nNIY1ZQ7H8vA+YkxDZKqM4VLCglKiYNsU88mtU9iHikOwz+HbH9Ad/9o+LIFmVH6P9G26khEKwpeAAMPK1soqxfXOx3ZXfq3ocNIaD+D8QMCRPcoPzl4J2mXxLSo/8/MkhAlWBamliyn2Ryb+mLxoAZb9GrhdEcrobnc/y2JqbxPt6DGOcQk3qrll5djsAwveV/fvnE0jrcMLGBz9wWEcoId9edaEVBoSLWZ74GKvHfcQFwm2JqVUcFmWyrUfQ1Q==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656381313; bh=XERv++iUxYqXYvbvawEr1WUGmwtWn49oHwOkVHyR9ej=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=uAsPC2am6JtlSZdDnk1W23cTFiLOygaY3xOPtOdDsbmTHKR4W26QTwWc0NY4+wlWr4c6Fi962NTfoX5KXsAlXDJfi3O+1viem6SOj/9EXEEiUE5gNHvR7O4KgVlVjWDbH9Goju5Dh0SE7cUXwfu5KeHTT5hIDeE4aScpwslZE3JkkjJeU/IGmXfbwZncCF8GWjnCNzVBC5eS3wvRsKrOXFxMl9RYWNW/wLZKIxC2yaO5kBcxqYQXtaENm60PmZXLI1viKIlh7TlqFUTirjo0nEZyssqMMO78zgyFXKUtOyAs3cyM1wxD1PSWyRMS3NlkVwdO6nju9Lw+LJmyBK/exQ==
+X-YMail-OSG: F7SxTIsVM1mt0xAvc5x6zSmhGvESPvDUSnwerYGMxPJq0HCKWClU1EAeij919Xc
+ 2cCvYVr6HfICihz1dZ9qfeoH__JaWxX.N9F1bY1sRgkXvxEM9QOjwBkPk5eRblWlXZs.XQePDy2f
+ aPZnW8QT5KMRqYlefPGC8wzEnweE6WK2Js14w24AEDbnnaY4UyA6DjaYZkM7DZgMe6GZzFUj971j
+ ha1ZM1S3_cM11SGlSZaCTIBfCbh6QW_KdNgHx0Kjg1w1oaaobTMGmqkdUJ75qL9GXydgaI2V3k9.
+ i8ETASp7fG5s2MGxi_19w9zjS1iZc9M9bmzmyO.rjoDRIb82gCaaewYIMmyBoe1jElZ6RZyh.NUm
+ AADIr0QH0lw9VMbDUjf7dVJKvtkNz2gCVhd9TTA_0Tm.eeS1Ih.B4e62byl05N7mFLo__mU5bG8W
+ nuUSUo3ZjDQU85Dlz1r1XJh3Sz9F5FLmF0ERVvKCs2SP4os0uIivI_0n43fag.z2KO_yK7ApKX4y
+ 5vulA74g6Z4zvwBgsGuJI2bjztgrZI7HZ7jEgdbC_eQaLGEMr6S6ENOJ9lcgJwRsF7c0zzR.nrPV
+ yWHujRzt4uDeADsXCdxfSFvtxSAtdLa2Tbmimc7eT3ha1iLDuNavOAX3vjADENUl.e9469SaOUsn
+ gYe9CyfMN9u3unOcDcWrBtJvjFo.f_enlaf9aE7dSFfB3Hg3DR8PD1HnbShI3JXrPU0FabbOsT.D
+ eda4dKIR7CEuUZ82Zyb.9JPYpv6.29bGEVpDzD4Tj8PB4uI9hEtT8Tx6trJTc0cNEry_V51ieTLO
+ sdSxBU321vFFFJlEERoVk9IsxGnvnuln4aiPD8r15.gtXbB9HTs43I35_nhxOIRXWYSwTjTcg8ls
+ eXwpEgpPPYykPmY4VxPxfjzWdVajUgPmCV2nkGUxjSa.mrCiGAwa9EoSf7lZLbspGPDao3gsX6Ec
+ a4kj3cPeRJh2DXsOwFIBwPQNZgxjOdzLQZkiLRB1134hopJtQPkp0jWiExIePAH.6ut93bzTaBja
+ GYJJuXPv5NY73mb8_4rvviUt1mqTU87vbQdHFFtmWzYeoLerX3PNZbw_.cRQtZ9FG6Qxs4d63Ofy
+ y36xnYFqNnnUVxKxqbH73RMGL.YAZLNEszI8w_60fUxlB3.lK6ABLJL7obHzU4uiNnSYAhzd04DF
+ fJoJtm_ULQsnFBcE_Xv2zIvKfHc0fAykB9KVz.aJiWeHwI.FRRm0JRBpCpob2rOaRjjdLOKdIpYw
+ XuGK6NvCiJ9H7KN4BTr.RvLFV6_bWl9PR0GysdfGFF5qvKNUzJOGQRlSacdkt9SjXcbZgnVqll9E
+ 6PIdAd3XGvkla9Mgn3iQ9.cp0.NNOWUGsToI.TEkSU_MPts9XCrYGromSC3CrGDnfdk4_7Wb5x28
+ gsYO20uPv7dA1qrtayFsD6qAEka1zLHmMQyIaF6hug9RNeP8M1BvRGUMyWT3umUj18TNZQBKtK.P
+ OnVJx6axzFglUEFk0SDdEJmXb0XiYWDyPW9mKMr3pDEuAMcqGBiptRnUQX0SzR3T7eOTySAjf.wi
+ JId42azMHy7dxj85x7.Wspl4Undw2HjXStHRZVHKAVBfmRkXbWrA8kUo879_uYDR1cBHlxF9MKa2
+ Ij6XnTaFKVaVaE0SSPcfQJ658siYZe8UcDg6tyy.H8qYZUhvaw9yxW4Jj576mtefWYpzByQWOaBx
+ R1UDZdWdsuOLw7LsLXBNdJOgqfXjafBm9gA7644kCBAJoRwDmA8LDRZ_WM3ke_zjaeewYZnK49oB
+ KrHnREafG_8BQ4X52iIf2eTKgrC3OWSJScdqs6DhOlD40a1r1eG5mnlqSuM5LejJTHR45WP0ur8Q
+ pynNULsJWkWqDonBugV6Rd3telAU3cyQQZ.I8rfbJM_M.BBAaDZAsnU7ZwAOVePhctbIOE2OKqfD
+ O0MNYE_ol5V1p_0DUeuqjRdhSEAdhnhIXX8sRjezn5z7JmpQINXqd9SJMi5bHmF0aeZyMNkirkvn
+ 0CfgWIRjDn2gDoTf3XkLwZjjC0l9w7CNqjN_tOI7kbE8CronbfYMxD._HYfYok_7fBV3T2GwyBYt
+ B5cZCCOWitvNhbZk1zV6ddKILVQYR3R3.yqpaxl2I0pyEaVLOQ2LLoMsq9S6sOtXnPVk6a4n4n3l
+ uaZik8cgCa9eKc0NLnHNTgZ4vcl88R61nMrt8WSOIsUCJZlxu3vBylR7EyNbyPBBIoniwTU7UB17
+ PzpPbfwPe3HKiBel4DSB7eAUvtuLRArDLUIA4vIODYgy.o0hao1dGnNi8OijUqL7S6.As6tIxvPl
+ TO7Q3ETJKIlza_7CRX9cxCxpx9K4RxHs3nWKLoOiZGs8qWP2aSCh5NMK.aI.p5vkCfPKPDm9XhTa
+ EoZJ9KNPPNC.EKFlioMeaSzHNgzJ.bO.k3L43gQzgDc475O1h_1VvvvnT6aUyfw--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.gq1.yahoo.com with HTTP; Tue, 28 Jun 2022 01:55:12 +0000
+Date: Tue, 28 Jun 2022 01:55:08 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>, 
+	Stephen O'Connell <sgo2107@columbia.edu>
+Cc: CUIT Communications <cuit-communications@columbia.edu>
+Message-ID: <1981558638.195654.1656381308202@mail.yahoo.com>
+In-Reply-To: <E1mxVO1-000KoX-PY@hostess.faxzero.com>
+References: <E1mxVO1-000KoX-PY@hostess.faxzero.com>
+Subject: Fw: Your fax to Milton A. Tingling has succeeded
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_195653_3973160.1656381308201"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 3549
+
+------=_Part_195653_3973160.1656381308201
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Cool?
+
+/S/ BO DINCER 
+ 
+   ----- Forwarded Message ----- From: "FaxZero.com" <support@faxzero.com> To: "BARIS DINCER" <bd2561@columbia.edu> Cc:  Sent: Wed, Dec 15, 2021 at 9:36 AM Subject: Your fax to Milton A. Tingling has succeeded  
+Dear BARIS DINCER,
+
+Your fax to Milton A. Tingling at 2124019146 has been sent successfully!
+Successful delivery of your fax was confirmed at 9:36 AM Eastern Standard Time on December 15th, 2021
+Your fax included 1 page of coversheet with your text and 2 pages of attached documents.
+
+Be sure to follow up with the recipient to make sure that the fax is legible and is delivered to the right person in the office.
+To view or print the status of your fax, click here. You can also send FaxZero a "tip" to support this handy service.
+Thank you,
+FaxZero.com
+
+P.S. Check out https://www.FreePrintable.net: printable business cards,
+certificates, timesheets, calendars, coloring pages, and more.
+
+
+------------------------------------------------------------------------
+ If you want to RECEIVE faxes or send lots of pages
+ each month, try our friends at mFax. Just $10 a month.
+ http://faxzero.com/go/mFax
+------------------------------------------------------------------------
+
+(id#30316981)
+
+  
+
+------=_Part_195653_3973160.1656381308201
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Cool?<br><br><div id="ymail_android_signature">/S/ BO DINCER</div> <br> <blockquote style="margin: 0 0 20px 0;"> <div style="padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style="font-family:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message -----</div> <div><b>From:</b> "FaxZero.com" &lt;support@faxzero.com&gt;</div> <div><b>To:</b> "BARIS DINCER" &lt;bd2561@columbia.edu&gt;</div> <div style="display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Wed, Dec 15, 2021 at 9:36 AM</div> <div><b>Subject:</b> Your fax to Milton A. Tingling has succeeded</div> </div>  <div id="yiv5291523066"><br>
+Dear BARIS DINCER,<br>
+<br>
+Your fax to Milton A. Tingling at 2124019146 has been sent successfully!<br>
+Successful delivery of your fax was confirmed at 9:36 AM Eastern Standard Time on December 15th, 2021<br>
+Your fax included  1 page of coversheet with your text and 2 pages of attached documents.<br>
+<br>
+Be sure to follow up with the recipient to make sure that the fax is legible and is delivered to the right person in the office.<br>
+<a rel="nofollow noopener noreferrer" target="_blank" href="https://faxzero.com/status/30316981/ea144aa1981e04bc4c8bc2489a2e93037b2e711b">To view or print the status of your fax, click here</a>. You can also <a rel="nofollow noopener noreferrer" target="_blank" href="https://faxzero.com/status/30316981/ea144aa1981e04bc4c8bc2489a2e93037b2e711b">send FaxZero a "tip"</a> to support this handy service.<br>
+Thank you,<br>
+FaxZero.com<br>
+<br>
+P.S. Check out https://www.FreePrintable.net: printable business cards,<br>
+certificates, timesheets, calendars, coloring pages, and more.<br>
+<br>
+<br>
+------------------------------------------------------------------------<br>
+   If you want to RECEIVE faxes or send lots of pages<br>
+   each month, try our friends at mFax. Just $10 a month.<br>
+   http://faxzero.com/go/mFax<br>
+------------------------------------------------------------------------<br>
+<br>
+(id#30316981)<br>
+<br>
+
+</div> </div> </blockquote>
+------=_Part_195653_3973160.1656381308201--

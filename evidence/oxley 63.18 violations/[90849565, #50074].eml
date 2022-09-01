@@ -1,0 +1,333 @@
+From - Sun Aug 28 22:50:08 2022
+X-Account-Key: account1
+X-UIDL: AM4GwrUWKEZoYs2o2QUYsM7be4c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.247
+ by atlas125.free.mail.ne1.yahoo.com with HTTPS; Tue, 12 Jul 2022 17:01:12 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.65.205]
+Received-SPF: pass (domain of yahoo.com designates 98.137.65.205 as permitted sender)
+Authentication-Results: atlas125.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 12 Jul 2022 17:01:13 +0000
+X-YMailISG: LR59iO8WLDvsRcc_RtWobQo5BjO_IyXNhOzFM2A51nqHNvcA
+ A1Wc7hb8CVW2hux0dc3qrdvGgdna6EbIuzB.jKasynJYtXU72mA6hMgy5Yd9
+ Pgaf703U6rdYGkXcwMy77CfwVIO.TM9zIAqC4rRFN3id7v2rD27xTvH75gzn
+ BLHxUvFSWV_x9aJ0v_OgXtwQLWiYJoVsqKWOYK1m_fLTmSx_8J0J7SoptHed
+ kbjfDnLOf6X7c8VAPdAQUCzJHMbLxp_UMQv7UXhYJgE4rGFed7_Keo54J6J6
+ lzL7vjvmrARz88udwL1cNHCGSRhFdtxvfWZKbaSvY1iLRiHzbtSyod1I211D
+ jXv4Gi5RoLaPWtxzG_1kdDz75.4OjLSLn6OV.inLHVFsN1WKoQGIkngtUOet
+ Nytj0neDmhTMTrysLC4zThw1zfhIV8yB_BgmxF9KAO3cc2spbucl_W0L2mCT
+ yfeAzNAPG71UR6li6KGSULPGF3dFaQZiSRo96T2XvBdpcaOSYyop0rcbgDZl
+ lcXoW2Cp79VyPwtTxPSITdYWrFsuoZFFPsM85SZNLEKYs9oCsykhc8hVKmxh
+ E0XDqImDeuR338VpckkrPUwqnFv2OpDmClHl5y4T.wriueo0HduxI9S_uDNo
+ FgFOw9d32MARfWZ3uUXVHo8TpVojEbVLUjeHviqK55f5Rz3a57oEbs2tDdZt
+ CDmmSqvFBQWafmxfy4MkC2_HzFn701u9gKy5l9DMin.7Eh6l7u0RuQxADun.
+ QrTFSIuasTkXrcJ0MVxg1BnVVKci4Y1TGYTF5at53NigoX2oL1LApx5UYmKC
+ asC5zwPOgruOnijErkFpxtBVYt5RkSRwtgT4xG9IMvxiMjlo.p8FV.5jo0vg
+ d0_2PBX5bAtKJSI0rHhWVrIP3KdT5MdTav9on7DqQSph.w_qar0tjeN32ljv
+ dRpdEidZdZcsPSnfUw1CsPxyaFZa.Bw2eqpPrIc5kcgmjtFkZDyEH3v8FsxX
+ 7cCmdJfUXJPYt9hKVcJM0L.S7Ep4z4z8k7jz_u4VbO.SPZTj9mvwsWJ3EgRL
+ ut4wm0PoXEBcKO9gr6r5Y02IVYSypk6BPDsR9zIwngl_TtcJWE94QdGsfxzZ
+ KvUTiclD1v7hSgDykVYUMjw8W8fvqytzhnEmqT4mbVRWwVOJFJyuu4KrQJzU
+ 4SNkpA1KbiB93Q--
+Received: from 98.137.65.205 (EHLO sonic311-24.consmr.mail.gq1.yahoo.com)
+ by 10.223.248.247 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 12 Jul 2022 17:01:12 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657645271; bh=KOAhOxQcCAYUrXjQQDdCRaCZc3ShGaSw9MjY7Y4izJk=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=VQsQoNr40a2ZAzzM2ZIWqaEv97LxRXj4oSbRbUIDYMtTZya9GqPbd3rzVHznLMil1T5YhkMPzhqOxh8QsRa68yUGSIujCkZzacXz3P2KJw63bNaUqAUjkuH54WzJo5GpIOi1pBXQqpnQANRVY4cypn4Ynzsfw1VRCdZ7cHFDta+wbSD8Mgi9/xa1DBZXlodcYl9N9mtwbGZamAqNW4p9dv3mlFptYhxuhVrm/0MiCXRMDqZcaySB/MnjvAz5ivfonXQc7/Ged7e7OZ410FE5BenjnnBMlWjV3ZWMGAgaGinOeZjm+tFh4C5OcZ5fyg+ju9ev4loKsQkyXhzkEFk3UQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657645271; bh=63z4+RGIgeY+kPvAeQrP4z7JqWp5EpfyfboDzTBDIcK=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=mAgMBt44BikjaJtBivISv17r3zRi+Tvmehy5qyWsYTLCOqQdl37X/RJ1LP8RrbWVlM5tFBWKsduQjkoqGcBVYRI6mqZ9bkwq4HQcTQkEc0utJOa2idgYsrIl4qm5C0l8ikVQcGVlKCJplQ9jYMF2wmuCV0GfcSigRCEu6/eJMl13wk5CYN2T9UizlNyE1Fia/URvBAI0BW8r+kQNo1HLuW6XnpbW1CB4ry+lgfa8qt9RTGTkzQYA0UU1+fbk0hPHQjogQG5mG3wzixfx3VgF79Ow466kkBCaC3jp6LJgpfysUW1zxYFD5MapT2QjOsEvMPMV3KbWgR9cCUmlEBKiVA==
+X-YMail-OSG: hzcV1Y4VM1kkMZ2LHzt6eIJ0BvPWu.X7tWANtecbGRu3bpp9AtvpjQNmpOitz7r
+ C6cxYY2d0xz0Tr2G7akV1_dB6x2F8cuqNLyyg2GgDXCZ5NzvCXhuqnh_Jq6q4mjKAU2aliWhlXse
+ Jue3ZujxJX_zgmtlhBJHrkomXLS6zBGV9eQFErsi1bFlB4LU5KwYH.VtusVqZGEF99vhRtqGYR_C
+ h89RL2H1LLkjmCs5rgLLPTLEHbJj6n9jZXn4KRUGekdIQgnKs2mux4FKs05zUsk1L2OUVqxlYG9p
+ AG7qnzGEf32GUN75broSLF5m18lo7pjqbOaRNbhEKcW8FCVVJFgw6kQnclsEC0rmsZ6CrV0o8N1F
+ H_UyIuEL.8NkNMP5k2JnP28ct3Aiit_PZDSXWzinz2tq6QswNIQ3V5OEkvQH9Zisi_y1mR9IU2OX
+ 63ODiQUcHZCUqAatVRA5zzLaOMcMJr02sJiojx796qYeBbUiOC7rFtRgl43JU2CcMGqBFcrckAvL
+ 2jP85zO.OJT3ak8m.Hs2rcnzXzKzx.pdbjXN0P9nayJRfVloERR3n_os7oo68rwwVJfsB4BMYlpN
+ Gd2QTbJ87XvLTZEmFPMbCJOlt1EJXDX3slLQ0doxpFS7_0WZlmJLbZDiGucpJEj9dpCUWhdg4fcd
+ SDBnzQGerWBF6ctS_2Crvvi6hfw6iSuigNzMVlNo2ymz9RsXx4KQHlkmTiuoOEPMQjHwQXewwMP.
+ Ydx.MUVIaJ2fZKtCN23tA44uyul1z2Qtfeu4XBRfAXEvX0dmFIWY6YBBbN2EqE0w4foNJbxNOpdX
+ BLVXNdp_iZwDdPkIoDSiGGsB_kMsYRk7UrVb56vc8dbhJS8XxGn3vbo4iieW3XKWKS1_D8cFg.4g
+ yuiOzP_xFDxyBkEfK00cG3unrWqwQ169iYFuYLEwxu..HcI3U6AxVmVIZIlRjMo3X9oEc0YLiuGp
+ .ZboWuc1trNPNLJZzMMrTQ6u_yaZlDU7wtBdoWJP5FFFDkKQJhBcrL1zU9Kg15PTA2tzteRMk.uM
+ TU8_77e6g8JpTkpYEsIznSsoDuz7ov8z6kBCw_SfhfjKsgA2_Aszczhkd4xx0KBnVjFpS1cqGYgX
+ NP0T6v5PqA_kWHaNFT2UMIKnFnGhisk9VbIyLwu9OCrs07u2DEYKxCmWHbcy2epIixiDrHf6fGcF
+ obftpuCjVSa2zaVDpuxf9hhUeW.DOjJ7c3xV92bjMyLnD6QVEipaay8ICRuAYcngsaPiu1yFBJcO
+ YeZ2FOoydohatIUsZ8wYVwqIk5MzKDxjyyZ.K6iucOIQIqirg8dOrwvuJf5pI4AV0Ax1x5l5PKR5
+ k8Kv7BZPVf8ya6zThW3RkHaPZuOHhb.vPok4iOdi5gaeQjp65IgLBnmz5qkBIvTCrn5S9fDxgiN7
+ mB4Xnb3ejP7z9jgPpIKVL82.6F5JlAQycNeEr56x8Pt_SfAbRzZAQzFTRnMb.NKzH7L3gY4oscr4
+ 4JSjpiEKlyYRILN5VUe0J5NZHKhwfMr7jKRAA8prYWnNQuBgSxhF496deW3tzScXl5EKJl3qiG8M
+ qM.ViIsEnrDT2JmBCZib3TkVUPxzLhV2oMY9Kjtaqav6xRmnKPGdbOnwvjabEqLfHlNPz6fKp0Kx
+ IBzXZiPdMgIT.Nf8Zy.ptAY8BFUsrWLyqKhBc_qKCgrbDHituM1JTzuVlGKnS9SXAa1ohESJ2RlR
+ YeK2oTaWuC0fAQ7ux1QyywozGuHWU7.unMe6gZ3ldQr6JREAaajopxBKjSylwvanoCHuMaUF9nM8
+ zbpS_b.6Qe8n6h8XgS60lx4BdK8Du7mbZdLvJOyIno7NlVkMDvo7vducLQFJA4u31nUoqXRhtPfJ
+ _lOKdt2beQwAMo.zJoC_Ndy0gn9.8Wl.CH.cnmCgfto2fnFObnrjeQmoqrCfbwGHWD07igiMiwPH
+ 8i5Zyh8Eya_OV5xyPsaWTVJJmtmK4pu7ZoJ1JbvAInUMGF9w2_HiKdChhPQnVfqx4WASkCSNucSZ
+ _m7CiPQCsuu8xz27ahsJvDXawnM_cIhs2YkiFU9WHaADQmCGqbB5Rx83wvzzIeXyKfHE7lHXYdio
+ zwUAQ2ixJG_WwSC23I_KxG9ItDN0fj7VYwjG9wUNSjt7XBhGaaTJZFS_bJ3Rnlgo4Tk155mxLlij
+ zUWJNrpmu2TC5S8a1.DO9DgGx1KWdrzo71662IJDA5Zx4O59GmysPAEYwsa8eWqnQSYRSNH5O233
+ HGqWKSDnRx2rnUQEYfLAZ_vQ3yCGh9wSzQwMm4YcgEp7ThNeXjfXnjjgVFmUp.vJfHyhRCwVlSWV
+ 6Z9LMGwlU8kqX3CoBo4v_bFcwiIvSLHoEK7RnyFGxTikYgIvx0657iW.5kd1AFp8FuvuG2mtcJLu
+ ALSh2FcNy7JLSkP0E_HYRaLVWXtIjIeJRKCZ6TxPpkTl3MA--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic311.consmr.mail.gq1.yahoo.com with HTTP; Tue, 12 Jul 2022 17:01:11 +0000
+Date: Tue, 12 Jul 2022 17:01:08 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "1pctdvo@nypd.org" <1pctdvo@nypd.org>, 
+	"1pctyco@nypd.org" <1pctyco@nypd.org>, 
+	"atr.international@usdoj.gov" <atr.international@usdoj.gov>, 
+	"newyork.atr@usdoj.gov" <newyork.atr@usdoj.gov>, 
+	"sanfran.atr@usdoj.gov" <sanfran.atr@usdoj.gov>, 
+	"atr.exo@usdoj.gov" <atr.exo@usdoj.gov>, 
+	"cbpinfocenter@cbp.dhs.gov" <cbpinfocenter@cbp.dhs.gov>, 
+	FDIC Public Information <publicinfo@fdic.gov>, 
+	"atr.mep.information@usdoj.gov" <atr.mep.information@usdoj.gov>, 
+	"atr.tfs@usdoj.gov" <atr.tfs@usdoj.gov>, 
+	"chicago.atr@usdoj.gov" <chicago.atr@usdoj.gov>, 
+	"atr.eag@usdoj.gov" <atr.eag@usdoj.gov>, 
+	"atr.tea@usdoj.gov" <atr.tea@usdoj.gov>, 
+	"National.FOIAPortal (OIP)" <national.foiaportal@usdoj.gov>, 
+	"foiaconsultsandref@atf.gov" <foiaconsultsandref@atf.gov>, 
+	Granicus <usdoj@public.govdelivery.com>, 
+	Granicus <usattorneys@public.govdelivery.com>, 
+	Granicus <usttb@public.govdelivery.com>, 
+	Granicus <uspsoig@public.govdelivery.com>, 
+	The Bureau of Engraving and Printing <usbep@service.govdelivery.com>, 
+	Department of Homeland Security <uscis-casestatus@dhs.gov>
+Cc: QUEUED <askcuit@columbia.edu>, "asksipc@sipc.gov" <asksipc@sipc.gov>, 
+	"risc@ic.fbi.gov" <risc@ic.fbi.gov>, 
+	"helpdesk@leo.gov" <helpdesk@leo.gov>, 
+	Jackie Robinson Foundation <connect@jackierobinson.org>, 
+	"foia.blogs.archives@fbi.gov" <foia.blogs.archives@fbi.gov>, 
+	"governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>, 
+	Treasury Inspector General for Tax Administration <tigta@service.govdelivery.com>, 
+	Golf Channel <news@golfchannel.com>, 
+	John Jay College Helpdesk <helpdesk@jjay.cuny.edu>, 
+	"askhr@sc.com" <askhr@sc.com>, 
+	CUIT Communications <cuit-communications@columbia.edu>, 
+	Columbia EMOT Alert <00000121e5ec70a4-dmarc-request@lists.columbia.edu>, 
+	Lena Mei <lm3440@columbia.edu>, 
+	"Derek C. Bowe, Jr. (via Maxient)" <notifications@maxient.com>, 
+	"jpmcinvestorrelations@jpmchase.com" <jpmcinvestorrelations@jpmchase.com>, 
+	"Malia D. Chatman" <malia.d.chatman@chase.com>, 
+	"kevin.kilkenny@chase.com" <kevin.kilkenny@chase.com>, 
+	"kerri.saperstein@morganstanley.com" <kerri.saperstein@morganstanley.com>, 
+	Ksaperstein2 <ksaperstein2@bloomberg.net>, 
+	"MSHY1 [ DEC 18 - 2021]" <mshy1@bloomberg.net>, 
+	"foia@eeoc.gov" <foia@eeoc.gov>, "OMWI@sec.gov" <OMWI@sec.gov>, 
+	"secretarys-office@sec.gov" <secretarys-office@sec.gov>, 
+	"david.moore.ct95@statefarm.com" <david.moore.ct95@statefarm.com>, 
+	"Janna.Underwood@STATEFARM.COM" <Janna.Underwood@STATEFARM.COM>
+Message-ID: <88210765.345118.1657645268763@mail.yahoo.com>
+In-Reply-To: <1792742478.275874.1657438828739@mail.yahoo.com>
+References: <477181087.280331.1657438776240.ref@mail.yahoo.com> <477181087.280331.1657438776240@mail.yahoo.com> <1792742478.275874.1657438828739@mail.yahoo.com>
+Subject: [90849565, #50074]
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_345117_286197140.1657645268761"
+X-Mailer: WebService/1.1.20407 YahooMailAndroidMobile
+Content-Length: 10381
+
+------=_Part_345117_286197140.1657645268761
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+90849565, #50074.=20
+=20
+  On Sun, Jul 10, 2022 at 3:40 AM, Bo Dincer<bo.dincer@yahoo.com> wrote:   =
+File Finder =C2=B7 WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STAT=
+EFARM-SULLIVAN-ZUCKER =20
+| =20
+|  =20
+|  =20
+|   |    |
+
+   |
+
+  |
+| =20
+|   | =20
+File Finder =C2=B7 WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STAT=
+EFARM-SULLIVAN-ZUCKER
+=20
+Config files for my GitHub profile. Contribute to WILSON-ELSER-STATEFARM-SU=
+LLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER development by creatin=
+g an account on GitHub.
+  |   |
+
+  |
+
+  |
+
+ =20
+
+/S/ BO DINCER=20
+=20
+  On Sun, Jul 10, 2022 at 3:39 AM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+=20
+You=E2=80=99ve activated the/file finder/. Start typing to filter the file =
+list.Use=E2=86=91and=E2=86=93to navigate,enterto view files,escto exit.
+=C2=A0 * 111.xps<https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/111.xps>
+
+/S/ BD. =20
+ =20
+
+------=_Part_345117_286197140.1657645268761
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+90849565, #50074.<div id=3D"yMail_cursorElementTracker_1657645116474"> <br>=
+ <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Robot=
+o, sans-serif; color:#6D00F6;"> <div>On Sun, Jul 10, 2022 at 3:40 AM, Bo Di=
+ncer</div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</div> </div> <div style=
+=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D0=
+0F6;"> <a id=3D"linkextractor__1657438800390" data-yahoo-extracted-link=3D"=
+true" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/find/main" class=3D"lEnhancr_1657438801=
+235">File Finder =C2=B7 WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER=
+-STATEFARM-SULLIVAN-ZUCKER</a><div id=3D"lEnhancr_1657438801235" class=3D"y=
+ahoo-link-enhancr-card yahoo-link-enhancr-cardSize-medium yahoo-link-enhanc=
+r-cardType-yenhancr yahoo-link-enhancr-cardCategory-  ymail-preserve-class =
+ymail-preserve-style" style=3D"max-width: 400px; font-family: &quot;Helveti=
+ca Neue&quot;, Helvetica, Arial, sans-serif; position: relative;" contented=
+itable=3D"false" data-url=3D"https://github.com/WILSON-ELSER-STATEFARM-SULL=
+IVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/find/main" data-type=3D"=
+LINK_ENHANCR_ATTACHMENT_TYPE_INLINE" data-category=3D"" data-embed-url=3D""=
+ data-size=3D"medium">
+                       <a href=3D"https://github.com/WILSON-ELSER-STATEFARM=
+-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/find/main" style=3D=
+"text-decoration:none !important; color: #000 !important;" class=3D"yahoo-e=
+nhancr-cardlink" target=3D"_blank" rel=3D"noreferrer">
+                           <table class=3D"card-wrapper yahoo-ignore-table"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"max-width:400px;=
+">
+                               <tbody><tr>
+                               <td width=3D"400">
+                                   <table class=3D"card yahoo-ignore-table"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"m=
+ax-width:400px;">
+                                       <tbody><tr>
+                                           <td class=3D"card-primary-image-=
+cell" style=3D"background:#000 url('https://s.yimg.com/lo/api/res/1.2/m01Oe=
+QCg96P6tul9.o59uw--~A/Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZXh0cmFjdA--/http=
+s://opengraph.githubassets.com/94a3bc1f3747b2d1e1e3d5ab154a73398796fcd6120c=
+440c62eeabfc40ebf8b3/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-ST=
+ATEFARM-SULLIVAN-ZUCKER.cf.jpg') no-repeat center center;background-size:co=
+ver;height:200px;position:relative;" background=3D"https://s.yimg.com/lo/ap=
+i/res/1.2/m01OeQCg96P6tul9.o59uw--~A/Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZX=
+h0cmFjdA--/https://opengraph.githubassets.com/94a3bc1f3747b2d1e1e3d5ab154a7=
+3398796fcd6120c440c62eeabfc40ebf8b3/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER.cf.jpg" bgcolor=3D"#000000" valign=
+=3D"top">
+
+                                               <!--[if gte mso 9]><v:rect f=
+ill=3D"true" stroke=3D"false" style=3D"width:400px;height:218px;position:ab=
+solute;top:0;left:0;"><v:fill type=3D"frame" color=3D"#000000" src=3D"https=
+:&#x2F;&#x2F;s.yimg.com&#x2F;lo&#x2F;api&#x2F;res&#x2F;1.2&#x2F;m01OeQCg96P=
+6tul9.o59uw--~A&#x2F;Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZXh0cmFjdA--&#x2F;=
+https:&#x2F;&#x2F;opengraph.githubassets.com&#x2F;94a3bc1f3747b2d1e1e3d5ab1=
+54a73398796fcd6120c440c62eeabfc40ebf8b3&#x2F;WILSON-ELSER-STATEFARM-SULLIVA=
+N-ZUCKER&#x2F;WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER.cf.jpg"/></v:rect><![e=
+ndif]-->
+
+                                               <table class=3D"yahoo-ignore=
+-table" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" valign=3D"top" sty=
+le=3D"width:100%;">
+                                                   <tbody><tr>
+                                                       <td style=3D"backgro=
+und:transparent url('https://s.yimg.com/nq/storm/assets/enhancrV2/12/overla=
+y-tile.png') repeat left top;height:200px;" background=3D"https://s.yimg.co=
+m/nq/storm/assets/enhancrV2/12/overlay-tile.png" bgcolor=3D"transparent" va=
+lign=3D"top">
+
+                                                           <!--[if gte mso =
+9]><v:rect fill=3D"true" stroke=3D"false" style=3D"width:400px;height:218px=
+;position:absolute;top:-18px;left:0;"><v:fill type=3D"pattern" color=3D"#00=
+0000" src=3D"https://s.yimg.com/nq/storm/assets/enhancrV2/12/overlay-tile.p=
+ng"/><v:textbox inset=3D"0,0,20px,0"><![endif]-->
+
+                                                           <table class=3D"=
+yahoo-ignore-table" height=3D"185" style=3D"width:100%;height:185px;min-hei=
+ght:185px;">
+                                                               <tbody><tr>
+                                                                   <td clas=
+s=3D"card-richInfo2" style=3D"text-align:left;text-align:left;padding:15px =
+0 0 15px;vertical-align:top;">
+                                                                   </td>
+                                                                   <td clas=
+s=3D"card-actions" style=3D"text-align:right;padding:15px 15px 0 0;vertical=
+-align:top;">
+                                                                       <div=
+ class=3D"card-share-container"></div>
+                                                                   </td>
+                                                               </tr>
+                                                           </tbody></table>
+
+                                                           <!--[if gte mso =
+9]></v:textbox></v:rect><![endif]-->
+                                                       </td>
+                                                   </tr>
+                                               </tbody></table>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                           <td>
+                                               <table class=3D"card-info ya=
+hoo-ignore-table" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" style=3D"background:#fff;position:relative;z-index:2;width:95%;max=
+-width:380px;border:1px solid #e0e4e9;border-bottom:3px solid ;margin-top:-=
+40px;margin-left:auto;margin-right:auto;">
+                                                   <tbody><tr>
+                                                       <td style=3D"backgro=
+und-color:#ffffff;padding:16px 0 16px 12px;vertical-align:top;">
+                                                       </td>
+
+                                                       <td style=3D"vertica=
+l-align:middle;padding:16px 12px;width:99%;">
+                                                           <h2 class=3D"car=
+d-title" style=3D"font-size: 16px; line-height:19px; margin:0 0 4px 0;font-=
+family:'Helvetica Neue', Helvetica, Arial, sans-serif;">File Finder =C2=B7 =
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCK=
+ER</h2>
+                                                           <p class=3D"card=
+-description" style=3D"font-size:11px;line-height:15px;color:#999;">Config =
+files for my GitHub profile. Contribute to WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER development by creating an ac=
+count on GitHub.</p>
+                                                       </td>
+
+                                                       <td style=3D"text-al=
+ign:right;padding:16px 12px 16px 0;">
+                                                       </td>
+                                                   </tr>
+                                               </tbody></table>
+                                           </td>
+                                       </tr>
+                                   </tbody></table>
+                               </td>
+                               </tr>
+                           </tbody></table>
+                       </a>
+                   </div><div id=3D"yMail_cursorElementTracker_165743880041=
+6"><br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <bl=
+ockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, s=
+ans-serif; color:#6D00F6;"> <div>On Sun, Jul 10, 2022 at 3:39 AM, Bo Dincer=
+</div><div>&lt;bo.dincer@yahoo.com&gt; wrote:</div> </div> <div style=3D"pa=
+dding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;">=
+ <div><br></div>You=E2=80=99ve activated the/file finder/. Start typing to =
+filter the file list.<div>Use=E2=86=91and=E2=86=93to navigate,enterto view =
+files,escto exit.</div><div><br></div><div id=3D"yMail_cursorElementTracker=
+_1657438722498">&nbsp; * 111.xps</div><div id=3D"yMail_cursorElementTracker=
+_1657438720487">&lt;https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCK=
+ER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/111.xps&gt;</div><div i=
+d=3D"yMail_cursorElementTracker_1657438721086"><br><br><div id=3D"ymail_and=
+roid_signature">/S/ BD.</div></div> </div> </blockquote></div> </div> </blo=
+ckquote></div>
+------=_Part_345117_286197140.1657645268761--

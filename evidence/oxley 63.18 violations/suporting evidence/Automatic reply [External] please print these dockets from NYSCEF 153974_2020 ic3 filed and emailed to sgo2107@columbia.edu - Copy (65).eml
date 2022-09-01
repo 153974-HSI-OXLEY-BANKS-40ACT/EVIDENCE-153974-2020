@@ -1,0 +1,267 @@
+From - Sun Aug 28 22:55:23 2022
+X-Account-Key: account1
+X-UIDL: AH/N/Odk9RtHYuMsLAtScDGQRP8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.247
+ by atlas315.free.mail.ne1.yahoo.com with HTTPS; Fri, 29 Jul 2022 00:39:08 +0000
+Return-Path: <>
+X-Originating-Ip: [52.100.154.210]
+Received-SPF: pass (domain of GCC02-DM3-obe.outbound.protection.outlook.com designates 52.100.154.210 as permitted sender)
+Authentication-Results: atlas315.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@cns.gov header.s=selector2;
+ spf=pass smtp.mailfrom=GCC02-DM3-obe.outbound.protection.outlook.com;
+ dmarc=pass(p=REJECT) header.from=cns.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 29 Jul 2022 00:39:08 +0000
+X-YMailISG: OW.flJgWLDuUWdgx8EkPouV7yhNn4JHdY6onqOq1a0kLU2Y5
+ FAf1j7gjPpJ9Yd.pSH8_e2jBUt.wZhbOrxdr4ECFrxr7iEGSHuASn0bUlizI
+ 1NdfFFSNH8yZICa9HU0.vmgUqk30v4YEvSf.E8jM6Zfo.Smb.WJ5ysVT.ajF
+ X6EhnKBngktmfN.K8pSVCIkLXzzH.ExqCysuf9NthOs1Zb5DqidHaQdlmQrh
+ 1J2JVbZAYkrDvmivsS8o6P_clq6CWkwnjegoxmNRKWI40y5i99HBc7maJ6j9
+ GXuQqKIgSwM_a4qJTOUsPQZashes3rNUCtUpvWPXm37B8Ch7.c.kLTaTWIbD
+ VdscONGkA4c91XOwDrVUaOQQFnJZ9zFPVib7JtzzeiYEH5.gzWRHxHjFPv0l
+ OxhFnVy8oF8za0lcTkLIbIh8sXnXV5t6JwqW.H2XiECvedWwRgAdj3s6OmuM
+ LQVygBORg86mNJXONe._tYUPt.h7IclGvZblLUcpVFFGgUVGdg2GDHRqmJNP
+ aUd6mibcj1QreesoRDuRNruyHZq1Pfz86J80RUYB0QXX7Va4hZXt_ya7OL.b
+ 3YENTU.GmzM4bqGDpkLqVRN5aTKWDG2Htz9i6D2gmgYVyJQygr99RPA_ipwy
+ 4rnnRJRvXgiiHyC2TzyzZvXvQLIE47wx4agm6uW9V4GP6JHPyuE567o1WMv.
+ 64o1WzPd2C49DfbSgKJPLhT0D.tvdFl24AQqmzIKxPb.iIM5vq6kGRJrEnXT
+ VOmSqHGFVxXWMrcqpFFcbxPuxIU5DVjfvcpx8ajQO3w8hOb3TVHX8ObN54yK
+ AxI483YAk54J4YMciKuWHDbCLY2BrZa8nAbtdkTg.fbiipg5ePikIFo29UN_
+ 1UdUmPWGHGagAds0q77_wGmVgSvqfGIXJOIUm0g117k3i7FFKmMTNHY0YmqH
+ QJ7w7k0Hpvhg4bwryjD.fuxKlieLimrSRcVSTMlMh_1z5lXvBZeccnF6ESaF
+ MZNI8I1XoR2FrAFeFBb_R9gdO9bcf6z9xSdZAB.Lih0r8CG0mATc57iOlhRC
+ yhKYz6nxdwQcpnUO3cPRrXe36V8vfst33rB_Q5Naj4yE2.Iwxb2HLRSQIZI7
+ P0Sa6iqA06_BX5LDReBku.ZWrhQ.YQ7dSygDmvP41Wd3a6zASSe5eW0iVHgs
+ v.4C1YqjcsSneyNrgN4iz5EKqMdykNzCk0bUm58mChizgg0aQt5a9nK_NlP4
+ 9VXfP8hmxbGFgKx5xf5UOSj7WJb2YSh1EkaeRbLxVwo.6Ef3lKfSv4JZ.OFZ
+ EFUFgeTA_18i_vCBovyt2GtVH_MYrrsz5DsEyaSlvqiiQ9hZjVc3_ewajKLj
+ .6pkCkesgrUxHODxoH_ApLkkymlRZU7t
+Received: from 52.100.154.210 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.223.248.247 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 29 Jul 2022 00:39:08 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=fa6zYoyVqr6h7SbxalZrPltEOR/tn1Rvqp0XWX3A3KW7cPfslD0bnqUuUmqmG/kp5oElX6cVT4wup5CXlbOPxT536lroYFlkMsS/68gT6McaB7I/52AW0oFf98bW7NLdEHx1iJIDU6oWNVcqicCwATlXFwN1Prrjg0ptQKwcwe8iutzpmsQnY5BZi/nlSUL/4Txhi75u7XfhzcJEPRSKkQ9Pgt8wFgsEwd4if6mZgv+wYZfXh8sFm/leCGh+3OlSc4j+WR/VNIFiiTPf+zwrMuhgucISK7ZPVoccMfYohG3HIeR8tOSZSoP4eA80OzV+a26HKc6f3Wk7Ck3C3lF6ig==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=I6PpzL5+R6VdpYpjSYPuPHXagZa3hN2LPgKRkmSpki0=;
+ b=XCXUumWw9kcaUBXTc7fJ8q/DoaQapbzwnff34LbeirR5QslsUuwT+5IYm/ehGHeNaKA6CPfHLeySGaTHBd/nu/t/ZQe9bdK9NdhQLXDDoSJGIvP3ApZwa3lss+f24+PBlTxaflceV5vPIKYhm/Jl2yn7kvO8sFyUJOiUVot6FViT9ZGlHNmQQE5n8ebvHkKVONV7VeH6DRI/nbCcTyyOMGPaH0mCPtg2R39AM8bNGB5cozU5NeGgDhpI0A5VkRPYDkcE4WuZsFMOo4Xmqr13l2wuSEEI3GuqG8oxJgha6+Rk/t8yLvWb5iTG6Ln6o8useIPvlfW6zP+AV+5bRlh/zQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=pass
+ action=none header.from=cns.gov; dkim=pass header.d=cns.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cns.gov; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=I6PpzL5+R6VdpYpjSYPuPHXagZa3hN2LPgKRkmSpki0=;
+ b=Lc1ndfU/l+6h+U51LcLN2kw1iAKlYV+gbJ1Rlhbk0MHPlyNgY4Ci5npgl2K8V/xvBrdj9+Y6dXmU5CsA/Qe8c52lXRE9DT+/sioVMB64iQAt6lz7SdS/g5LCA/e60U4i4l+x7vBytTxVWjEDDzUllNdsmmu79W3QvZtpphS7NPQ=
+Received: from DM8PR09MB6869.namprd09.prod.outlook.com (2603:10b6:5:2e2::19)
+ by SA0PR09MB6682.namprd09.prod.outlook.com (2603:10b6:806:a8::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5482.11; Fri, 29 Jul
+ 2022 00:39:06 +0000
+Received: from DM8PR09MB6869.namprd09.prod.outlook.com ([::1]) by
+ DM8PR09MB6869.namprd09.prod.outlook.com ([fe80::480:8fb7:5088:851e%5]) with
+ Microsoft SMTP Server id 15.20.5482.011; Fri, 29 Jul 2022 00:39:06 +0000
+From: "Laguarda, Fernando" <FLaguarda@cns.gov>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Subject: Automatic reply: [External] please print these dockets from NYSCEF
+ 153974/2020 ic3 filed and emailed to sgo2107@columbia.edu
+Thread-Topic: [External] please print these dockets from NYSCEF 153974/2020
+ ic3 filed and emailed to sgo2107@columbia.edu
+Thread-Index: AQHYouOZ79J9bRyYUk2dzEanajdf6K2UgXHd
+Date: Fri, 29 Jul 2022 00:39:06 +0000
+Message-ID:
+ <4f112943ab7d4143967e0feb9f4188d0@DM8PR09MB6869.namprd09.prod.outlook.com>
+References: <670469290.2046401.1659054963124.ref@mail.yahoo.com>
+ <670469290.2046401.1659054963124@mail.yahoo.com>
+In-Reply-To: <670469290.2046401.1659054963124@mail.yahoo.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: flaguarda@cns.gov
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <670469290.2046401.1659054963124@mail.yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 0ea10c41-c3a6-4667-0e95-08da70fabea0
+x-ms-traffictypediagnostic: SA0PR09MB6682:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ kKZOKVlcUn2J7e69hZhjMzgeP0EehJ4dFeEcUkRfM3ujT9BSbTuJURYPcsJdMK/KQe7sGigVwYCFrnVid5+Pue405f1yCj9vkWtrmN4V++YE5xM45qRpb4UfMbCWCCjhm3L3kYPJHslugEG5Nqy8SoO83YNXgR0c4avTN+vVuoY7yWZQcjIAU/pICiHf8ow64Quzkqau3pxTTtcqylEItBl+wqB5qHwstkbj4k3+TkyyFmFXB3S6dQaFLaMSDdMPwDkefo0UQjqCsKK2R7h/hTE8p9njosgJwk28GAhicuW0E6SsyUJRxse4/u1g6KRxGeJxUr6MzSawYTlPdRhADw9svAHoNoRHP9XgC+hXpNAOljY/TeZQgJ/s6D3x1hlPGUMBF1/ua84KkP2VfRQDyOk3Qxlp8eJ96tqLv7ie6fvekpV5Gll8BCBGfA2T0G2fkrxhXidf+n0sNxm0Bs/OwsCTaq0XXKRMpjJ/rlMF72rdSKvt5uPW+DD/SUuRk0BJBr9WztzAEE9hgdgrGfMEfbTLl+5LZysNz6Kmb8KEWop+cnODIeWB7uuLvSgkEEY2yvzsh7zehcD6rsuN8lIAqamc4IHfcOIPOZJikb4AY0cMoRHhowbf1XUndTrcMPKc9MzJbMKfW7H34fZtSEy35km3kUX/DwEYmOpPvYjXj87UPlYCJcSJuzO8Hlxw5HYdDGPI28Os6TTQCk7z70dy/ZC0gAEnzSkLWycNAUbBWRfsZxZ7ZyucRdHG+wHQPHsR
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DM8PR09MB6869.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(50650200002)(366004)(166002)(83380400001)(66556008)(66946007)(78352004)(66446008)(64756008)(8676002)(55016003)(6916009)(122000001)(66476007)(2906002)(6506007)(8936002)(498600001)(4744005)(88996005)(24736004)(7696005)(108616005)(9686003)(5660300002)(42882007)(71200400001)(40140700001)(111220200005)(80100003);DIR:OUT;SFP:1501;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ KkgvqjPEGDJGjgNuvoPgdOyw14s5gy7TGVTPpNAp1Q3OVfu1htlxRU2jRSFEBKD/9YOYRdKyhfY4Z03L6NtU3Xwo6EYrZrcMFgYBOJtCuPWn2fj+eVP/2/8xxkFyTLUa7/UdhZq+rE7G4wdf+ocAFF2IfZO2Ivs2Xzvq+PLMkrWzGDvh9cqpul9r4gVc4MV4JiN0Sag1mrlChrB89EvPZ2uS8fakFq3xeCqMWLqStAeXnuJEuHXed4uyn/q4jBhCppyZiVuuVwai8CMp2s1m2m0dvd7BG4PhDKQMe6aC8qq0GW7Ga1UwmnLI7kz9qVmw
+Content-Type: multipart/alternative;
+	boundary="_000_4f112943ab7d4143967e0feb9f4188d0DM8PR09MB6869namprd09pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: cns.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DM8PR09MB6869.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0ea10c41-c3a6-4667-0e95-08da70fabea0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Jul 2022 00:39:06.8173
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: d2f850a7-8dce-4fb3-a79c-6867f9514312
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR09MB6682
+Content-Length: 7471
+
+--_000_4f112943ab7d4143967e0feb9f4188d0DM8PR09MB6869namprd09pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for your message. I am presently out of the office, returning Mon=
+day, August 8th. For urgent OGC matters, please contact Andrea Grill at agr=
+ill@cns.gov. Otherwise, I look forward to returning your message upon my re=
+turn.
+
+Gracias por su mensaje. Actualmente estoy fuera de la oficina, volviendo el=
+ lunes, 8 de agosto. Por asuntos urgentes, favor de escribirle a Andrea Gri=
+ll en agrill@cns.gov. Espero poder responder a su mensaje al regresar.
+
+
+Fernando Laguarda (he, him, his)
+General Counsel and Designated Agency Ethics Official
+Office of General Counsel
+AmeriCorps.gov<https://gcc02.safelinks.protection.outlook.com/?url=3Dhttp%3=
+A%2F%2Famericorps.gov%2F&data=3D05%7C01%7CFLaguarda%40cns.gov%7C8dc64571317=
+b44f0db0d08da496f9118%7Cd2f850a78dce4fb3a79c6867f9514312%7C0%7C0%7C63790304=
+0768904189%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJB=
+TiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DPzVfIQt%2FOMJyvqdGZlhbqZ=
+6Slj%2BEri4BnB6IaJoKwno%3D&reserved=3D0>
+(202) 606-6994 (o) | (202) 967-5691 (m)
+250 E Street SW | Washington, DC 20525
+[Image]<https://gcc02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2=
+Fwww.americorps.gov%2F&data=3D05%7C01%7CFLaguarda%40cns.gov%7C8dc64571317b4=
+4f0db0d08da496f9118%7Cd2f850a78dce4fb3a79c6867f9514312%7C0%7C0%7C6379030407=
+68904189%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTi=
+I6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3DgZuEXJpVzthrA61LnRJ%2B4qRy=
+TEUJSibVRUTV1JONmvQ%3D&reserved=3D0>
+*Please note the our team works flexibly and remotely across time zones
+and I do not expect a response or action outside of your own working hours.
+
+--_000_4f112943ab7d4143967e0feb9f4188d0DM8PR09MB6869namprd09pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none">Thank you for your mes=
+sage. I am presently out of the office, returning Monday, August 8th. For u=
+rgent OGC matters, please contact Andrea Grill at agrill@cns.gov. Otherwise=
+, I look forward to returning your message
+ upon my return. <o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none">Gracias por su mensaje=
+. Actualmente estoy fuera de la oficina, volviendo el lunes, 8 de agosto. P=
+or asuntos urgentes, favor de escribirle a Andrea Grill en agrill@cns.gov. =
+Espero poder responder a su mensaje
+ al regresar. &nbsp; <o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><b><span style=3D"font=
+-size:12.0pt;font-family:&quot;Century Gothic&quot;,sans-serif;color:#1F386=
+4">Fernando Laguarda (he, him, his</span></b><b><span style=3D"font-size:12=
+.5pt;font-family:&quot;Century Gothic&quot;,sans-serif;color:#1F3864">)</sp=
+an></b><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><b><span style=3D"font=
+-family:&quot;Century Gothic&quot;,sans-serif;color:#767171">General Counse=
+l and Designated Agency Ethics Official
+</span></b><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Century Gothic&quot;,sans-serif;color:#767171">=
+Office of General Counsel</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><a href=3D"https://gcc=
+02.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Famericorps.gov%2F&a=
+mp;data=3D05%7C01%7CFLaguarda%40cns.gov%7C8dc64571317b44f0db0d08da496f9118%=
+7Cd2f850a78dce4fb3a79c6867f9514312%7C0%7C0%7C637903040768904189%7CUnknown%7=
+CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn=
+0%3D%7C3000%7C%7C%7C&amp;sdata=3DPzVfIQt%2FOMJyvqdGZlhbqZ6Slj%2BEri4BnB6IaJ=
+oKwno%3D&amp;reserved=3D0"><span style=3D"color:#0563C1">AmeriCorps.gov</sp=
+an></a><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:&quot;Arial Narrow&quot;,sans-serif;color:#767171">(202) 606-6994 (o) =
+| (202) 967-5691 (m)</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:&quot;Arial Narrow&quot;,sans-serif;color:#767171">250 E Street SW | W=
+ashington, DC 20525</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><a href=3D"https://gcc=
+02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.americorps.gov=
+%2F&amp;data=3D05%7C01%7CFLaguarda%40cns.gov%7C8dc64571317b44f0db0d08da496f=
+9118%7Cd2f850a78dce4fb3a79c6867f9514312%7C0%7C0%7C637903040768904189%7CUnkn=
+own%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXV=
+CI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=3DgZuEXJpVzthrA61LnRJ%2B4qRyTEUJSibVRUT=
+V1JONmvQ%3D&amp;reserved=3D0"><span style=3D"color:blue"><img border=3D"0" =
+width=3D"220" height=3D"50" style=3D"width:2.2916in;height:.5208in" id=3D"P=
+icture_x0020_1" src=3D"cid:image001.jpg@01D8A001.F8FAB120" alt=3D"Image"></=
+span></a><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-autospace:none"><=
+i><span style=3D"font-size:10.0pt">*Please note the our team works flexibly=
+ and remotely across time zones
+<br>
+and I do not expect a response or action outside of your own working hours.=
+</span></i><span style=3D"font-size:8.5pt;font-family:&quot;Segoe UI&quot;,=
+sans-serif"><o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_4f112943ab7d4143967e0feb9f4188d0DM8PR09MB6869namprd09pr_--

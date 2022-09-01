@@ -1,0 +1,86 @@
+From - Sun Aug 28 22:45:16 2022
+X-Account-Key: account1
+X-UIDL: AAhvwogib8HAYst8cgrJuBsANao
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.41.12
+ by atlas315.free.mail.bf1.yahoo.com with HTTPS; Mon, 11 Jul 2022 01:27:14 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.57.156.20]
+Received-SPF: pass (domain of icloud.com designates 17.57.156.20 as permitted sender)
+Authentication-Results: atlas315.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 11 Jul 2022 01:27:14 +0000
+X-YMailAVSC: 9FJZnas3bBvmjRX405WfugSweHT6s9ND1HhOh3fgrAAOZEu
+ QCoDurg2aomAsFhBEe1SAX09JntPeLDY.kR8g0s5i3B.aTCg.rih8UvERsQq
+ 5qak9AYZ1LsolZ6_g8wLornTJ72668pWVKUdEWeC0ShLM1X42SJvDm6ipjwb
+ XBPUxetuSzUn6vBtYMWGudnTfnArOS0vYjYYFqVqhwbXHOikAdjXLyob7qHM
+ xrXjpbj7wflMh8NBuCA2hfuzG2Y.WTweycRAm4jEK8LcX.sDV8NoNN.bBnOB
+ k2hMGfoCRV6PQf04ZCu3yh5VtdhELK_.lbabBJ2dWT9aIQBSA6a1F8eCtddA
+ TsTUUci3TjoucaLS2LZEBlzcSMPsCdyJNIjPV4PKPRjXxD6z0E7W.E2B719r
+ q23NSZXJfMRoOVUq8ExpZBypa2D7aucs-
+X-YMailISG: LfhSaNAWLDs1QIM3v.DT0.UiDHMa7T3bLrHaSSpcbefQaVf9
+ RNu2uF0klH.z3y50hjet6od6Vz5m5Io2bHqaQn9rkWy7GtCUo889Gam2.Mu3
+ wSz0Z19Y9OPfmwCt19WEtCqatg.IkLkWCLO8Jxg1oGCqmpE8NG8JOekDycOA
+ lW_DpPLssBHlxN1Jub7Jfr6REn12wnEMj7q1w_BNQSaNpWTL5L2_kRV0mTUl
+ E6MR.PEMHR1WsCrVtnLuCwbHN4ndHOQE.cN1VMitWOH6kc.BVZzNAG3jU0jw
+ XLQKUbir52Y9OT7FnU6U3thzllX.1eK65zFA8uymk5DoXiV87bZ09Dq96.pE
+ TMbYCq1TVPhFAZtfUIQw2nGmJkYPkT.fG9AC8EerqPvNH69YUvKGrLZ_9N91
+ eIsSGw936fvdPsK5yTiCoubFTwC_h1IjHf7d5EChlIXey3UZ722.kNlt_qWG
+ r4ovuyFYWF.sCE0RcGIpIe5ZPfRNF6miQLFqCvwR5fv31wlF8_WBd5WCWzqe
+ Gb5D3jkJCqVoXKe8uA44R2QOfWwvM2OHL4aKL4rJ8rFYVQDYhyxLgv9Rg39.
+ Y80yPeyXUjUBmqaEUJCEmk2aoXgRuR60_akOGqcpsLOEtT8QeRLuxGh08OF3
+ mZxXo9Tv2zdr_uTmFj4FQgGH9f5MRv1mp79WwrRV_1IdZO9GgMDMq4HSXgNE
+ Qb6yIIENU2LWy6z7Y4Awnzz.ywazFL0UEriaCjTNnghPQea7OpGRVSQutl0Q
+ rX9KvMcwKtlOu5jNUwbPE.Dayv3TrDrecU9JixgYdLs_FnwhR1pdBQsikRd9
+ 2d60jG761TYmy840YmiSuFXfwg3hMuA6Gsgy5yiJ015_RCs4YVEpdvWZ9aUi
+ UXDklW2riqREPot3TRYzr59GCKoBVaLQcR5FxEasay16UrtVzRoWxS5tjWwD
+ G2nI6_d6qoR_79AdmGip.mPaNdYc4azBY8wy3T3dKb8ak3i5XFdwNw7lqLS8
+ .c.AaImXvlH9DGJ9BBWmfHHk0lCcUqhVXfQymgrzz2i3f6F1B5WyNYangvrj
+ CNnX1h6xEKf6iClSVuWR6dgIxtaljgRy2asUUELSOSw-
+Received: from 17.57.156.20 (EHLO ci74p00im-qukt09090301.me.com)
+ by 10.197.41.12 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 11 Jul 2022 01:27:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1657502834;
+	bh=dU03ZIiZEQo1cVzp6UtLPMMENghYC1NbQHcCsXbvkhM=;
+	h=Content-Type:From:Mime-Version:Date:Subject:Message-Id:To;
+	b=MPrffA62ePfcRZjRUmM2g2XaiZW8K4rUElIyg6KbNK+BfavCDHVHTkXEG1cuLV7Dh
+	 askJpxDbcz43xFgkgBcW+wm5JUorzquTTbMlatiQLNolsP8/0ZlWu9OW7rF19UEWkK
+	 3fC3poy9Co1Sagzr4uqO77ryROoR9E785IUFhHI313uTWXkApXdzau7OTntZqqDQAP
+	 wwFGVmPsbmWD6UjhAsO5jWx7z8TIohJlYNTVFdewOCv6CVrbX5hEKuLjN1nwD/3g/e
+	 VgO5pIkTfLuk5ok9tSG8r7I06AmmxIJ/7dP5G6c1sr9/4PiThZGl67Q7ehSnxaNdf8
+	 bj+qpnB89IZ4A==
+Received: from smtpclient.apple (ci77p00im-dlb-asmtp-mailmevip.me.com [17.57.156.26])
+	by ci74p00im-qukt09090301.me.com (Postfix) with ESMTPSA id B422E1120219;
+	Mon, 11 Jul 2022 01:27:10 +0000 (UTC)
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Date: Sun, 10 Jul 2022 21:27:09 -0400
+Subject: Interborough Rapid Transit Company - Wikipedia
+Message-Id: <73D816E9-7626-4028-93E2-E4154B759421@icloud.com>
+To: Seahawks Customerservice <customerservice@seahawks.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: v1fc45l8rt-k8Lggy3D7d5DyjHpbkMr6
+X-Proofpoint-GUID: v1fc45l8rt-k8Lggy3D7d5DyjHpbkMr6
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.425,18.0.572,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-11=5F01:2022-01-11=5F01,2020-02-14=5F11,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 phishscore=0 clxscore=1015 adultscore=0
+ bulkscore=0 suspectscore=0 mlxscore=0 mlxlogscore=830 malwarescore=0
+ spamscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2207110004
+Content-Length: 72
+
+https://en.wikipedia.org/wiki/Interborough_Rapid_Transit_Company
+
+
+/BD
+

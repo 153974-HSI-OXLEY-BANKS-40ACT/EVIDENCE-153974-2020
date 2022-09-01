@@ -1,0 +1,175 @@
+From - Sun Aug 28 22:45:12 2022
+X-Account-Key: account1
+X-UIDL: AGn9Xe4btb+eYstWRw5AcNdU16A
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-bf1.omega.yahoo.com with HTTP; Sun, 10 Jul 2022 22:44:23 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.43]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.43 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-bf1.omega.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 22:44:23 +0000
+X-YMailAVSC: f_HdeSE3bBsvPhoK.fcOBCB5oaE9z5ptttBRpqieXbmrIxo
+ BHNEEJG48lv8ff3H1r7_.5z2AeXK4lAcYDRs3vup3cSyny0zocg8DLQaWKiI
+ oNj.WvGfsNHzhxK_HBV4LG1YM2F8hsize8X92BaVBqzXI3K7v7UKWokTfey.
+ fb7os0vBq0JYzlslq6lEbsXHXlEKp5LCj.QeXwoCZEJAa1XApJ_H8zuKk2Yn
+ Q0BUUDmud_ZoFy566PIk5E0Lu413aXI_2jbXRsFtstb8QVFbAFSdtQtul1Z6
+ 2NP9Dy9.1N.UFL6EwyEO9rjb7LRifCaWuJ.e_PyrWecTLWAjsrTcEoWt07yW
+ 0NQUr3MQffIFzrhAtueeK6k75zDemfiW._HW2JEUVG2aqEdG1RXoSIA--
+X-YMailISG: WWP4bbsWLDuVfmsPkUiVuX7CRWhKcw4mZMZVDSeRVaJxofuV
+ kWdQNO9SSJO9VXHBPmLDwZDfEGBR_OUAO24eYkU.DdtiJpm7KMHY2zKz6DlQ
+ iAIjIH9v5ZOy13cOvHwTFdvbCIPZxrUH7qCczQtkPTUkrYFP58UgS2QIec6X
+ 3FBdZ13nH8GxS3SaTJbQeORdy9dlJjrpD4nSA5I.r7USJxNbq7YY03QpQ0oP
+ 53JQUr8nns7iCwSnZz6gku2K6JZbmtak.nQu.cRXM8yOVq_szP9by5RIncaH
+ hxTviLMxlXE2fc7uXlhBeoe84LNWbzItwb6OKKftkDBJxX83E0nN3mpfHV.7
+ .qaIpuH5ZNFQ4iP.88.9xz0pbq0wufLU_z7DBAYDbS850rrVGBWYlvyeesig
+ f9Mk13vA4_FKg8_kqgt8OAYEOaUEMPLEuvhMZ8YcrnfNQb9bJbCzPysVqC3k
+ mY4HkM5nC8roPcir7aMFEkN2Pne7e3wy7ir4Wdh6GpDhjYF4UVPos58ALDRw
+ 6FI_8OnB03Jg9cmSfyvVWVO_2kFac2hfzgz9G6NwqT_U3YQIO5ZKrxumYNKp
+ 5_t55gLLL1RY6X7MkdwyoL6F25HJ1JHQNfgOCmo6TAHGam6IylfVKraK343K
+ 0amUq_MJSAXKvYhFt1u.3O1CN2eC5XTS1iMzEtZV5lWZ9CXi7nBQfRyxN9cj
+ 9UddHyQzYgiWQSnR4IB2vjbKEgocZYdqB0rXU.zBaNJZbMFMfcu16TLxTg3h
+ K_SDn3t8P5jREFEdj2NQ6PpMVzUsKZs4ifZKMahw7nl7nlurtT7JfvPNQCdL
+ adK6hD6SJ.WzDFpJ3UsejYxZbHF2ZNO.9CJS2n7mhvq93ZQye79UrqqC3ESh
+ BEAWJXPzQnKk3l4tdWo7wGXT6stp4r6nZzIkT7IxGv9PiMwZYPrt7nQzsOxs
+ 1xniCduCkbfUfLqTpFK.Xonz0NzK2xBWHTHHZd22StVqnp2x9_Ob3B77AaqE
+ AzYyBpdpZrqaTnRRrdXRAdngDVINhNfwoufBY04za2NJJgjjJKVAbnmhisVt
+ H6Fb14NdjGXJNUbG6xKfqeUEEDdQGW9vVPiJuBLgsj0q6mveJjNUXndzYk5u
+ 3IQoeGGgZyqrZwx7zQIJoHo90WkkpG32k9cEwKOZPkTHo_fzmevjSyfxKY3h
+ 60fwXCI4Fpd6mrkCiZwuUk1zzICBc6C70BhRChE-
+Received: from 209.85.166.43 (EHLO mail-io1-f43.google.com)
+ by 10.197.39.136 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 22:44:23 +0000
+Received: by mail-io1-f43.google.com with SMTP id y2so3497878ior.12;
+        Sun, 10 Jul 2022 15:44:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=EWitFlDC024AY1cXn9shqb9xsLft5/gRPf9rAnlxUCc=;
+        b=gGZheU6wkh3VNtkkgFVBlDol0uXTeR+kmbdhiQeNOY1A0I6JrP6n5ClG4z0gIwAE5a
+         xGWtwsg1CoAmnL0Djbe9Y5/n/a9V/CdQjX6DsCYg6TsAZJRGcEZLzKq+BrURi9MK7zF+
+         7JhMJvHW18OFBEJlnzw7HQBMTCUdPGPwVlIu4mqUMmpob6bGEhEoqC130MvDR0HDAv9v
+         aF4/rPZviX3yTqScO2NUoc+h7eBmSyxBF/9FuUKRCsSXflU5AtpuA55dK2vuuaVFQ0cj
+         AKc8rkhA34IP5zDyDPig8BPLGut0aCz9GCbUGy/h17XFgSTc4GtDlglNXb2inY8SgoZC
+         mNOA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=EWitFlDC024AY1cXn9shqb9xsLft5/gRPf9rAnlxUCc=;
+        b=8Ge4DKfyMLBLlWNYcCZMtRM/5K+H+V6FTKC+Jj8fgZt/8kKU/M8LJqBfAGtaeIrWZo
+         TOUNS9hbBaPx7LfEJwEESLHQwV42/KqVbJS/l781Mg8j8qvNK53o2zsq2jNMcQqgNJun
+         mTUieBE7BAcCB2u3/nI5GMpI0oee/5AXVuQzEY+b/X2U3HtfRmZjUf5teYIIfMoFLLff
+         JkNpKeq1xGlaaWcLtv05uIQVuG0nOi7nZRr/+8RST1nqLjECzXGQDLxgTb/TU0XRekz1
+         UqV3YE49UdXDZ7X3QpbHdXb5kd5aNX/dTs+R7yx4u+aeg8qlq0QFOzfpok93TinH3cI6
+         sQDw==
+X-Gm-Message-State: AJIora81QrS+741wjQe/uQKV3EObtihm9OZju+pdfnyzqWZvYGmngcIz
+	oBMxvugEQTxdR32Q9DjY2DckWbCKtYtRVmcHegE=
+X-Google-Smtp-Source: AGRyM1u1pWi2NGSMNLk8kGbbHiRh47w5UW7qcIxiQRlWrWLF4zNqOPrseFVHbRKgNlF0jWTMCCbIfNGxSVJmkaboxgA=
+X-Received: by 2002:a05:6602:1586:b0:67b:8e55:6aca with SMTP id
+ e6-20020a056602158600b0067b8e556acamr1330047iow.122.1657493063144; Sun, 10
+ Jul 2022 15:44:23 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOHu48_CRZ8+Qkay=oG0D7vOOT1G753iW6WnUND=eAmzsCFMTw@mail.gmail.com>
+In-Reply-To: <CAOHu48_CRZ8+Qkay=oG0D7vOOT1G753iW6WnUND=eAmzsCFMTw@mail.gmail.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Sun, 10 Jul 2022 18:44:12 -0400
+Message-ID: <CAOHu48_x7Fe=1HhytSWxGaUNXfLN6sn7cPc2_u89A4YD2JafGA@mail.gmail.com>
+Subject: Re: I requested that from Miss Schock, then Chair of the SEC
+To: fbi@subscriptions.fbi.gov, ogis@nara.gov, 
+	BBO 121 <ms60710444266@yahoo.com>, Bo Dincer <bdincer66@icloud.com>, 
+	Bo Dincer <BO.DINCER@yahoo.com>, Chair <chair@sec.gov>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, atr.cpa@usdoj.gov, atr.international@usdoj.gov, 
+	atr.eag@usdoj.gov, praghuram2@bloomberg.net, ksaperstein2@bloomberg.net, 
+	kerri.saperstein@morgansley.com, 
+	"PRIYA.RAGHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, mshyld@bloomberg.net, 
+	=?UTF-8?Q?Steve_O=E2=80=99Connell?= <Sgo2107@columbia.edu>, 
+	lzucker@mskyline.com, Paul Regan <legal@mskyline.com>, 
+	"Humphries, Ashley V." <ashley.humphries@wilsonelser.com>, 
+	FDIC Public Information <publicinfo@fdic.gov>, edi.civil.rights.division@irs.gov
+Cc: rebnycounsel@rebny.com, General Law Unit <generallaw.unit@fdny.nyc.gov>, 
+	KATHY HOCHUL <governor.hochul@exec.ny.gov>, foiaconsultsandref@atf.gov, 
+	ELECTRONIC FILE <efoia@fdic.gov>, espnfrontrow@espn.com, 
+	Vogue <vogcustserv@cdsfulfillment.com>, tmprosecutordocs@uspto.gov, 
+	js@gc.columbia.edu, edelivery@morganstanley.com, mshy1@bloomberg.net, 
+	mshy2@bloomberg.net, Bd Dincer <bdincer211@bloomberg.net>, 
+	B Dincer <bdincer1768@bloomberg.net>, bdincer1738@bloomberg.net, 
+	b.dincer@columbia.edu, Bo Dincer <bd2561@columbia.edu>, gsamonlinerequest@gs.com, 
+	JPMCinvestorrelations@jpmchase.com, SOHO HOUSE <membership@sohohouse.com>, 
+	kcco-efile@nycourts.gov, efile@nycourts.gov, Nyscef <nyscef@nycourts.gov>, 
+	letters@nypost.com, noreplypio@supremecourt.gov
+Content-Type: multipart/alternative; boundary="0000000000003f1a8905e37b2d86"
+Content-Length: 3200
+
+--0000000000003f1a8905e37b2d86
+Content-Type: text/plain; charset="UTF-8"
+
+On Sun, Jul 10, 2022, 6:41 PM BO DINCER <bondstrt007@gmail.com> wrote:
+
+>  $150 Billion dollars and posted both firm CRD 8209 and also
+> iceglobalnetwork-info@ice.com contemporaneously.
+>
+> That was months ago, i will also find that
+>  - and her response, notwithstanding my request to have those interested
+> parties arrested as well.
+>
+> Also directly to Ricki Roer of Wilson Elser, then regional manager of
+> their New York offices at 150 East 42nd Street, New York, NY, 10017.
+>
+> Did she share that information with you?
+>
+> Theres a link with the conversations and emails. I forgot what page, but
+> its in one link.
+>
+> Also ask them about those two email addresses that were deleted, or was it
+> three in a day... and then two after dec 22, 2021. Ticker,, STFGX MATERIAL
+> CORPORATE ACTION ACRIS 6MM. OR SOMETHING LIKE THAT.
+>
+> MAYBE ITS IN THE INDEX TCR5 LINK?
+>
+>
+>
+> https://support.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=document+index+TCR5.pdf
+>
+
+--0000000000003f1a8905e37b2d86
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><div><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" =
+class=3D"gmail_attr">On Sun, Jul 10, 2022, 6:41 PM BO DINCER &lt;<a href=3D=
+"mailto:bondstrt007@gmail.com">bondstrt007@gmail.com</a>&gt; wrote:<br></di=
+v><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:=
+1px #ccc solid;padding-left:1ex"><div dir=3D"auto">=C2=A0$150 Billion dolla=
+rs and posted both firm CRD 8209 and also <a href=3D"mailto:iceglobalnetwor=
+k-info@ice.com" rel=3D"noreferrer noreferrer" target=3D"_blank">iceglobalne=
+twork-info@ice.com</a> contemporaneously.<div dir=3D"auto"><br></div><div d=
+ir=3D"auto">That was months ago, i will also find that</div><div dir=3D"aut=
+o">=C2=A0- and her response, notwithstanding my request to have those inter=
+ested parties arrested as well.</div><div dir=3D"auto"><br></div><div dir=
+=3D"auto">Also directly to Ricki Roer of Wilson Elser, then regional manage=
+r of their New York offices at 150 East 42nd Street, New York, NY, 10017.</=
+div><div dir=3D"auto"><br></div><div dir=3D"auto">Did she share that inform=
+ation with you?</div><div dir=3D"auto"><br></div><div dir=3D"auto">Theres a=
+ link with the conversations and emails. I forgot what page, but its in one=
+ link.</div><div dir=3D"auto"><br></div><div dir=3D"auto">Also ask them abo=
+ut those two email addresses that were deleted, or was it three in a day...=
+ and then two after dec 22, 2021. Ticker,, STFGX MATERIAL CORPORATE ACTION =
+ACRIS 6MM. OR SOMETHING LIKE THAT.=C2=A0</div><div dir=3D"auto"><br></div><=
+div dir=3D"auto">MAYBE ITS IN THE INDEX TCR5 LINK?</div><div dir=3D"auto"><=
+br><div dir=3D"auto"><br></div><div dir=3D"auto"><a href=3D"https://support=
+.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=3Ddocument+ind=
+ex+TCR5.pdf" rel=3D"noreferrer noreferrer" target=3D"_blank">https://suppor=
+t.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=3Ddocument+in=
+dex+TCR5.pdf</a><br></div></div></div>
+</blockquote></div></div></div>
+
+--0000000000003f1a8905e37b2d86--

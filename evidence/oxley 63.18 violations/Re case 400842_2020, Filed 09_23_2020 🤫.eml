@@ -1,0 +1,267 @@
+From - Sun Aug 28 22:41:41 2022
+X-Account-Key: account1
+X-UIDL: APmMzNhUHxclYr8F9wbloA4Vw0Q
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.167
+ by atlas209.free.mail.bf1.yahoo.com with HTTPS; Fri, 1 Jul 2022 14:34:31 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.146]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.146 as permitted sender)
+Authentication-Results: atlas209.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 14:34:31 +0000
+X-YMailAVSC: m7Jflyc3bBuG.VAWJZTFAP6WboezXtLoRy1XtF3CVKlsd0V
+ FjJgvpt9Vsa6XrC8GkPISnZdOlaHXdR2_I6h_6z7FZ3YsaATgZf2Il2vJjCc
+ c3eSiQfF3.YibvV2FHZ9dLJcjz00JnDBqwddht8bpluvaLSuflAfFSzc_wdl
+ xGyBWdES2q_i0Hlz7TzEtktafDCL2X0YFgoTe5UWQiFOQMSI5rVdpnkFQFmf
+ bXoZYg9w5PeDwyLMGFrtxdkp4jUsBrUqEQSbKwQvIDq6pndCBN3ZZvMNjhXd
+ zgmKgfNrUDzM1wg1tLsNYwIIqr.fNcikargn7nZfexnsljdkOCqB7I9C.VHx
+ eB4C3OKc3pFugYMd38tKkDYrhR2tcxId2DziuczlJ9tICabdFYSeeyHQuKox
+ iNkDbIPhvePSDyRoRAKdZMwQ2GFNTZE.17SFYFyFPEI1doKahYw--
+X-YMailISG: CBTj4p8WLDt3gtyTDi1v6CQkwWQgKC7xL52LiKjraKLpsbEr
+ YAbAAj8Y.TYElWvTivYYPtgctqgxuBHAWWMamgZSzoxDnOZZDXw9QoqMIBER
+ gABFvCTJJ5oCfWqSbPGPXhmfYhJWwLnN7UJ51CY0KTUFZXqVToj4lnZ7nIeO
+ G8APbpRAIxrkvR9QPjbKGPkfixWnGzcCUGiEalPzphtAHzhsxJMCjN5c0a2c
+ BEsOhDPr9oczW7TenQaRgifKZj0FPAL18tHN7bzMDSyE7F9Q1aUjOZW7moYn
+ kMHil3uQngZJM0qkGoIgbQK0R3G6AkoOFLQAEDF32RGKbakiHywy.w23r9it
+ QFJGiphQCsbgNFkHh.WantsvkZsvJ_QCJRC21TGs_vauJ3SVJMpcsV2FN1U0
+ 3Kh3.1Dk_89cMwBhCpUPsA6QfHwmAhzs4nsqzeQTxHH9W906_xXeS910cbqM
+ iYo_t7GJ9LOgM42q3lH8rfW0Y6uZ0g1KqrmHxbWyzBzzDuTk7CXNfp29P.Df
+ SdXdkHXBAOGyUfevAc0MHGLCs8QOGL3iGbHFl7hKuVezuCucx6ZDTWv_Z7.5
+ fGNKlt4pRqGx82OolvlO40IYucXBdHtShuC9Pr.GQIZIM..NuJWxFL76hRD9
+ iTrSK7Ok9d8KIyPJYa7VC5iZIPj5o_6mxNt0n0cvb6Ck_uBYi_8tYW.h9btb
+ 0AoTqx4n_OZZ18UrHN9n5evJgjThxRsVFdXeEbkn1m5bWjT8lRPs4x08IgzT
+ Oe73ViAQZ6a10BGvqk5ddsB54HEBmU5cW1wEac5ThkDGOF8_qj9ZMjDxZXdt
+ j6_.Uw5x36WIGLmPvpYoAPY5aTQJlJoF38l0C5o9PGdFwPR4Ldu8AQ1DtFxM
+ pMFAd1Orf5YdpSjtsW_53IVZqzjmcixPbdIhKZDquPAtQ_Ls6nj.JHHM5Z7X
+ rOUXPo8yuAnNrXOnAJ7_85vEC976zlKmqxxKLOUOeQGHdk4vUca70a7rALXv
+ BJJseBg9efBwFO7DO.NH846y66QayKBJ7MjA950jXCfqRkdvSGr94SWjRsVW
+ sxQ60ztVBHZqOBOhv4c5STiLDMsN0M84Sc9dz3UafnbQ3Sl4umYW3NX6VQdy
+ TLQxaj1SWp3bGY0DQ1m3Eqr4.6h2.lL.tqxXe1E73Refjr0FXGFmX8NwmWmq
+ BZY-
+Received: from 98.137.66.146 (EHLO sonic317-20.consmr.mail.gq1.yahoo.com)
+ by 10.197.39.167 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 01 Jul 2022 14:34:31 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656686070; bh=ijyHnN0EDVnjTX0GDTeH7gMO2YK/3irQgtZ1N4+gfkQ=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=VaUikuhxthBjszmvdcBCy5n03tO+9yLtXIubLS6aC9fUkCv9b8YYd70nzAnOQChDab06jmHVt+Pcvj4WFCbX4h/xLW42u1F0EDArREZwOJ+u0gkEsgkggg/tfzwkkLtaCdabf8M6Ep7+GVulBhQYzLWZ8Tu9KMytGj+KV30lDI/mq17tdCp3LYDLG+OFgizyxvvkZBMo9zqeLRHD1Qe2OH1Q7MpA1dJowDEGijaElESylcj4FGsu9ihe91KbERB/mBhdSLTBwowqVT/z9Qcmh1gKr553MxyHIZ8PwKE0amHPrddtLPg/ssk0r6AIGMGxvx2RW12tcuyQvFjbEcD7lA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656686070; bh=C7iSHRJa7P7Ba9peMxx62zm9+3OYYBx+nQMEFhAWjD3=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=R/UFO0Uf3egmnZM6DQW58ggdQ+WNniRVYPiGIGGgrqBnYfmtM8HExtZkoafwXWEV9+4OCK+5m4G9dAG5wU4aarcs2jHvarEiI7Yn3nb82ZgWFoC2SDZ0RDwyG844/HzcHzLzAn4yXZogpQrOK60iWrNsFHUIkpAVxwlg9Z1TqPvRdXNXWX9kLLyVz4TbMp4GMrpVrcWwPIfB3GIEr5eRnt/CiVHHjrDS7GrZIdwR/c1JmknyxrTAYMKwrLcX9yFIuNGALX0j2zwVgKVSIE0tjQ8m1yXjTcX86YOm0fovl/hSBpKH/qA/sfV302/KjkFpLbnoCwuFiRxJM4cDiZSgSA==
+X-YMail-OSG: j96ITwEVM1kys6TKnSPJY_LqhGslbRIYstL3114DxAxkAaOPkLcpG9wmUZCmkk.
+ PphWIJTBPDpRWLEtO3bIACyRsAxNvboUm55BjccdOslgtD.vSKiUnhYJZdhKCJmpB.CKzL8iDZk5
+ 7Rxou11inUpHPHOppiuwte.aLfVSIV6u_dLvcwFRwGNNc0I2ydz3tVmwpRCksYbP0J2zK7SuYM8a
+ Ru1M9w5ZacNKX80ORwXRXDbZ5BVxpIVDeuGRrjnLdWRDx0q6ov5LbwmgpqJNA0_IOCBOM_kXa.fG
+ 8.lI_QeBpY8eySiIsLu1lOIfAFHvELa7kxQSGuoy8_5uobdhM6U3Xq.B1GGtALzcnoXyKgl_0uqP
+ get8bl4fN7ZfVsGSjjnsRF80HVVaRKnBNVOSc0TvNeKI6_1S3Pe0maaet0qW1kHYqZDnbgp1j7c.
+ XRlcgMFnaqQqVtMqhX5HvkgT9hrXcOQeij4xApmaJPfDjn8WQHb.sMNjIAtz1bZN3dEx0Cqfb4zg
+ MQTsI1Ux5u1GqwwgvSV8SC6eh3Zf_JcUbsDmI5mFHjv8NHbus4wwrUoNaI3487e_.VGr53ZTyZXR
+ kluVDGDrAMCCxj7ets.kXSXC3Gc3is5qb.t4K9eODYzRAesiDX9LVYcKLOUVZhesHjHRjim2g12N
+ XHSAASAwxpa1003KP9Eenwkj.VyPQ2_ZOdLQUS8H_di70mKSL9i3VpLoNphp6HeDJcP16M.plsuj
+ Mtk4sahMXAlrYviL5kkx3n15tM0aIa2qwqV8X0DnPEtcVprK4l8h9XGD2310yr6C9Tg2TXYjJfdU
+ YMfLOkFndGCSiHpAoeqfm30x_NYitALYT4aMP5ZX1OF11JGO35YT1SwM3h8pNjbL.7EhZNXsIv96
+ 7AIK2cA2xaXa4BuizI_7iJe00Cixj3dKjCYbUyMQE6BqKqnMRd3xGWoVGCuNum.qha7WMGsFntD5
+ 5suvz27nI_OwLsPotNdGcwoca2f8l1H0SWYJ.OIoKbyUdKHoKTAIYWbBgA4LcbkfhND9Sela.bID
+ y2c3s9uLMThzOHPHfhwCEvTX4qPWJDvryLC2J6UXoUd72t0pWbHWTuZ7Iio4s5DWUJ.C7YaHqNGS
+ 6aDiSYEgZ1kwT4XGZ112UY3xk626UFFmMh9zbJm6WteMe8fZL2HM2qfZQI3vEAKWR3vhaNR.k3.I
+ JRMJlyIE2jGVH36_xz1tF8Vdx5nnhGPtukcvhwA.4EqCdHlyfc81.f_hdz2_DTP04.Y2Z3KMEUC5
+ lJ15a4OsfGi24RTDj1aKoIJZf.1Y0u6KpEfVvmHz65BlcYgLdJ3iK9AOkmTbCXC99CZCT76830BY
+ sFBlSR5gLuSRW7lymPCVtSjul2hB5TPkIWKEM591rTmEiRy62B.sWdhG_GGVC72G6x9jfbypjVlr
+ OYQob562GRXD.xascwg6ADdzzoEL6Br488h3L_LKYYMqwkTSNynYkdp4kA2uQRIy4cxWSTHFIimd
+ P15QUzlm0KP2SpaOlQ6kJ50XPnFBjplQQoQrkkvjCOi3I5YL5oZ3K8hTq7TySFRgAeBtbvYG2Rii
+ 1OWDZpBP8d6_Na0mIVVvAbKld778aR5KadBA4nWgD3bLJ2od5kxEHVhv3g_7gDl2Qkr5fZZYd_3A
+ eFnDlNyv1hTd.AJvLb8XRiKA.oPHTog2mW6ZknfFMxLuZBqcdsMUx1JD2SeetWoD2xiPJbCgsgMu
+ qwBbd1kQWp7CsymbwD7w2MfuW6IIGlzKH34fsD_Slm8ApUnjKW8IcAm0Kh6xNgCkKK3dF5Zs6WE8
+ _9LqhuijFRtyMZZTuOudRLy6.M.4ZYrRMfYqeorOOgVXGT6cc08yySIjfP0ny0KxElfItRWClypp
+ 3TCDKMcD1l2Eumt1JUNatZBULcPBv97dE3R4Co2_cTPy4_ydgHNm712Q81WYUVOyeb.fE7VGeLq5
+ Kc8MxIl53ytilgoSVvBwbupEiExF91AYRkkUSRzoSIvMusmAg.f9SlpPdlqnQyFW57g.aVMKBn7c
+ F5qNurl6XUNSo__hVdSn5BNUML4OUHwB5T0n5xWMkqbelzIvkxfDBNuFTbnIlXG18rjiynsLrwju
+ T3s1R38NuavvdjlEBDe3k3isbT75UZS7ZxS3U8GG.JJ00rYMh.lsLsjkBnad2NHTdp52fybOACG4
+ 2H9S.JQ3a6hHOC_jRH32BOSPkhKVy9GlUJRDKtQFTF.toM7VE1txNLyqGpgS1AOlkglfYn6yOphr
+ mr5fcTKo1FTY7TQaPxh5EsmCf2WzlRlgLk2IDMqXLaI8QPAbNv9RtpzNIYGH3VXDGjCQJVK_8N1O
+ Yj03Z337FOBODMp8ZCk4pS2GnskClkVn0fwW4xCnYanQNFppRdPhf5IWMKwU08k9r8qT76OIS1Jl
+ DCc4uOeNL38jF3Um3eXWXK1w_4viC.zBfoI_jIP2pHcrBLfWhjA5AUcCYx.Z1jzmK
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.gq1.yahoo.com with HTTP; Fri, 1 Jul 2022 14:34:30 +0000
+Date: Fri, 1 Jul 2022 14:34:24 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bdincer66@icloud.com" <bdincer66@icloud.com>, 
+	Bo Dincer <bdincer66@icloud.com>, 
+	"governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>, 
+	Governor Hochul <governor.hochul@exec.nyc.com>
+Cc: Lee Bollinger <officeofthepresident@columbia.edu>, 
+	Lee Bollinger <bollinger@columbia.edu>, 
+	James Comey <jbc2167@columbia.edu>, 
+	Avril Haines <ah3774@columbia.edu>
+Message-ID: <1894994077.707739.1656686064785@mail.yahoo.com>
+In-Reply-To: <986A42AC-9A9A-4B8F-9580-6FA18DE9DD17@icloud.com>
+References: <986A42AC-9A9A-4B8F-9580-6FA18DE9DD17@icloud.com>
+Subject: =?UTF-8?Q?Re:_case:__400842/2020,_Filed:_09/23/2020_=F0=9F=A4=AB?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_707738_959906266.1656686064782"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 8127
+
+------=_Part_707738_959906266.1656686064782
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+  On Thu, Jun 30, 2022 at 12:58 PM, Bo Dincer<bdincer66@icloud.com> wrote: =
+  50074. NYSCEF 153974/2020
+>> Docket 312, 313, filed 08/09/2020
+
+case number:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 400842/2020
+=C2=A0 =C2=A0 Filed:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 09/23/2020
+=C2=A0 =C2=A0=20
+*** KINGS COUNTY ***=20
+
+Zucker Enterprises LLC=20
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 - v. -=20
+THE TAX COMMISSION OF THE CITY OF NEW YORK, AND=20
+THE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK
+
+*****=C2=A0 =C2=A0 *****=C2=A0 =C2=A0 *****=C2=A0 =C2=A0 *****
+=C2=A0 =C2=A0=20
+From: Bo Dincer <bdincer66@icloud.com>
+Date: February 20, 2022
+To: <ricki.roer@wilsonelser.com>, <ashley.humphries@wilsonelser.com>, <slas=
+kowitz@ingramllp.com>
+<ricki.roar@wilsonelser.com>
+Subject: Re: *** 29 JUNE 2020 courtyard
+
+Violation of Privacy, 18.215, 18.225, 18.21, 18.4, 18.3, 18.2
+=E2=80=94 list goes on in the other case, NYSCEF 153974/2020, free and clea=
+r to further their business interests??!
+
+=E2=80=94 the ZUCKERS can worry about that after they clear their felonies =
+annexed in the prior case filed on June 5th, 2020.
+until then=E2=80=A6 those WilsonElsers are nothing but runners [until they =
+satisfy their obligations, as written].=20
+
+251295/2021 thru 251334/2021
+=EF=BB=BF
+Hon. Milton A. Tingling,=20
+New York County Clerk and Clerk of the Supreme Court
+
+And another Felony, known by the representatives of Sullivan Properties LP,=
+ notwithstanding Shari Laskowitz.
+
+As stated,=20
+
+>> Claim Value: $600,000.00
+=C2=A0 =C2=A0 =C2=A0 Block 2679, Lot 43.
+=C2=A0 =C2=A0 =C2=A0 840-46 Lorimer Street
+=C2=A0 =C2=A0 =C2=A0 Zucker Enterprises LLC.
+
+While dealing with their business in Brooklyn, New York.=20
+=E2=80=94 Kept me pre-occupied without cause to take care of their other bu=
+siness without my opinion or any reveal as to what they really do for a liv=
+ing.
+
+For example:
+
+>> Hon. Nancy T. Sunshine, Kings County Clerk and Clerk of the Supreme Cour=
+t=20
+
+<https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DHD6/wXv=
+lOxflJUlQyXqedQ=3D=3D>
+
+=C2=A0 =C2=A0 case number:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 400842/2020
+=C2=A0 =C2=A0 Filed:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 09/23/2020
+=C2=A0 =C2=A0=20
+*** KINGS COUNTY ***=20
+
+Zucker Enterprises LLC=20
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 - v. -=20
+
+THE TAX COMMISSION OF THE CITY OF NEW YORK, AND=20
+THE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK
+
+/BD
+
+ =20
+
+------=_Part_707738_959906266.1656686064782
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, sans=
+-serif; color:#6D00F6;"> <div>On Thu, Jun 30, 2022 at 12:58 PM, Bo Dincer</=
+div><div>&lt;bdincer66@icloud.com&gt; wrote:</div> </div> <div style=3D"pad=
+ding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> =
+<div dir=3D"ltr">50074. NYSCEF 153974/2020<br></div><div dir=3D"ltr">&gt;&g=
+t; Docket 312, 313, filed 08/09/2020<br></div><div dir=3D"ltr"><br></div><d=
+iv dir=3D"ltr">case number:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 400842/2020<b=
+r></div><div dir=3D"ltr">&nbsp; &nbsp;  Filed:&nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 09/23/2020<br></div>=
+<div dir=3D"ltr">&nbsp; &nbsp;  <br></div><div dir=3D"ltr">*** KINGS COUNTY=
+ *** <br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">Zucker Enterpris=
+es LLC <br></div><div dir=3D"ltr">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+  - v. - <br></div><div dir=3D"ltr">THE TAX COMMISSION OF THE CITY OF NEW Y=
+ORK, AND <br></div><div dir=3D"ltr">THE COMMISSIONER OF FINANCE OF THE CITY=
+ OF NEW YORK<br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">*****&nbs=
+p; &nbsp;  *****&nbsp; &nbsp;  *****&nbsp; &nbsp;  *****<br></div><div dir=
+=3D"ltr">&nbsp; &nbsp;  <br></div><div dir=3D"ltr">From: Bo Dincer &lt;<a y=
+mailto=3D"mailto:bdincer66@icloud.com" href=3D"mailto:bdincer66@icloud.com"=
+>bdincer66@icloud.com</a>&gt;<br></div><div dir=3D"ltr">Date: February 20, =
+2022<br></div><div dir=3D"ltr">To: &lt;<a ymailto=3D"mailto:ricki.roer@wils=
+onelser.com" href=3D"mailto:ricki.roer@wilsonelser.com">ricki.roer@wilsonel=
+ser.com</a>&gt;, &lt;<a ymailto=3D"mailto:ashley.humphries@wilsonelser.com"=
+ href=3D"mailto:ashley.humphries@wilsonelser.com">ashley.humphries@wilsonel=
+ser.com</a>&gt;, &lt;<a ymailto=3D"mailto:slaskowitz@ingramllp.com" href=3D=
+"mailto:slaskowitz@ingramllp.com">slaskowitz@ingramllp.com</a>&gt;<br></div=
+><div dir=3D"ltr">&lt;<a ymailto=3D"mailto:ricki.roar@wilsonelser.com" href=
+=3D"mailto:ricki.roar@wilsonelser.com">ricki.roar@wilsonelser.com</a>&gt;<b=
+r></div><div dir=3D"ltr">Subject: Re: *** 29 JUNE 2020 courtyard<br></div><=
+div dir=3D"ltr"><br></div><div dir=3D"ltr">Violation of Privacy, 18.215, 18=
+.225, 18.21, 18.4, 18.3, 18.2<br></div><div dir=3D"ltr">=E2=80=94 list goes=
+ on in the other case, NYSCEF 153974/2020, free and clear to further their =
+business interests??!<br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">=
+=E2=80=94 the ZUCKERS can worry about that after they clear their felonies =
+annexed in the prior case filed on June 5th, 2020.<br></div><div dir=3D"ltr=
+">until then=E2=80=A6 those WilsonElsers are nothing but runners [until the=
+y satisfy their obligations, as written]. <br></div><div dir=3D"ltr"><br></=
+div><div dir=3D"ltr">251295/2021 thru 251334/2021<br></div><div dir=3D"ltr"=
+>=EF=BB=BF<br></div><div dir=3D"ltr">Hon. Milton A. Tingling, <br></div><di=
+v dir=3D"ltr">New York County Clerk and Clerk of the Supreme Court<br></div=
+><div dir=3D"ltr"><br></div><div dir=3D"ltr">And another Felony, known by t=
+he representatives of Sullivan Properties LP, notwithstanding Shari Laskowi=
+tz.<br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">As stated, <br></d=
+iv><div dir=3D"ltr"><br></div><div dir=3D"ltr">&gt;&gt; Claim Value: $600,0=
+00.00<br></div><div dir=3D"ltr">&nbsp; &nbsp; &nbsp; Block 2679, Lot 43.<br=
+></div><div dir=3D"ltr">&nbsp; &nbsp; &nbsp; 840-46 Lorimer Street<br></div=
+><div dir=3D"ltr">&nbsp; &nbsp; &nbsp; Zucker Enterprises LLC.<br></div><di=
+v dir=3D"ltr"><br></div><div dir=3D"ltr">While dealing with their business =
+in Brooklyn, New York. <br></div><div dir=3D"ltr">=E2=80=94 Kept me pre-occ=
+upied without cause to take care of their other business without my opinion=
+ or any reveal as to what they really do for a living.<br></div><div dir=3D=
+"ltr"><br></div><div dir=3D"ltr">For example:<br></div><div dir=3D"ltr"><br=
+></div><div dir=3D"ltr">&gt;&gt; Hon. Nancy T. Sunshine, Kings County Clerk=
+ and Clerk of the Supreme Court <br></div><div dir=3D"ltr"><br></div><div d=
+ir=3D"ltr">&lt;<a href=3D"https://iapps.courts.state.ny.us/nyscef/Confirmat=
+ionNotice?docId=3DHD6/wXvlOxflJUlQyXqedQ=3D=3D" target=3D"_blank">https://i=
+apps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DHD6/wXvlOxflJUlQy=
+XqedQ=3D=3D</a>&gt;<br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">&n=
+bsp; &nbsp;  case number:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 400842/2020<br>=
+</div><div dir=3D"ltr">&nbsp; &nbsp;  Filed:&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 09/23/2020<br></div><d=
+iv dir=3D"ltr">&nbsp; &nbsp;  <br></div><div dir=3D"ltr">*** KINGS COUNTY *=
+** <br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">Zucker Enterprises=
+ LLC <br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">&nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp;  - v. - <br></div><div dir=3D"ltr"><br></div><div=
+ dir=3D"ltr">THE TAX COMMISSION OF THE CITY OF NEW YORK, AND <br></div><div=
+ dir=3D"ltr">THE COMMISSIONER OF FINANCE OF THE CITY OF NEW YORK<br></div><=
+div dir=3D"ltr"><br></div><div dir=3D"ltr">/BD<br></div><div dir=3D"ltr"><b=
+r></div> </div> </blockquote>
+------=_Part_707738_959906266.1656686064782--

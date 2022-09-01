@@ -1,0 +1,157 @@
+From - Sun Aug 28 22:40:49 2022
+X-Account-Key: account1
+X-UIDL: AC41ZkAhmC7HYrZ6jA8XSFDxYmk
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.89
+ by atlas106.free.mail.gq1.yahoo.com with HTTPS; Sat, 25 Jun 2022 03:01:32 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.206]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.206 as permitted sender)
+Authentication-Results: atlas106.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 25 Jun 2022 03:01:32 +0000
+X-YMailAVSC: fdrStaQ3bBtaLAsQiReeg7A0jF9RSCvFd0lWnKRe_dZcxUq
+ OPVmGwIWgNj7LrxjCr2Ltsn7Pu.GXa8LIoWNcKeekxfaXDOsP90i91lEVOsx
+ rYDvZldqrHySNyTQ1Gl_OsLZU3nwINZc2Va1kXP_luH8DivtykQeksWlWm0j
+ 18yBcROUAgtj_qefHGFqUQF5oW9jkkuV5eVBgkBaLYowfgMr9lP3etraHHvR
+ dLE.1l8CgomeNERjh7.F4GNH3CqRHYqdL2U_v1TltWMT3BSX4F_yrRGaNJSB
+ _3ZPrRNXE7OZzZcfmBnodDcf8dUoSLtviybBlpdelY3TPzOzE5EtKNBIkwk4
+ 3ZL4OQ8ilG.gDtWSLtpjYKNfkSnFmTx_4FPuZDPU8KoQ72z35yX3oUw--
+X-YMailISG: ZW.zEW8WLDvclhz.2MiaboBTIMk_PMAIB2UYgewWT8lTIT35
+ xcqIjsG1my4IyL0aRPxcPcZZdxmn9yN11CAe4tLpWMsaFW.Lq8DQyx7dFuTC
+ 9jOy3Kq57BBs5tuk5hzYgYArAgurRLB_MAc40khFQPvyyS3AIbMD7lT.ihBb
+ ddoPUgwW67.t0qNjqb8zoGyoJjspdFgaHK9vAWrzJ0zPkELKAGkmSOwe5Ckg
+ Fi8RD6jGTHA_2uWB9D8HdY2zMbG6kBMIAaQ9S5WIFqoBp1XKDrtG9UOi.Lpz
+ ezbtz0rCr7_HZ02SJJcATWAhfSoM7iDmzrNS2hDlA1IOBDgab4BvkLNgEHkc
+ 4qL1fet64S8aBmj7CODze5UneXtZhJhM7pEt8KXl4x9BFFFCNYvmuPREXO3n
+ OklfyisqH2kmaqWXM7a2iG0SxPqDkUXv6xry17MSLhHDTejPkwwV77hq6NtT
+ NWE4XLjU4sXW2XCEY6YoQmj13E7CSPN86v6Wez35b4XsrimpWvVsNrZ7tYWF
+ OCxCTCU4Uy1U5a9naqr.OtlokGJhcD7hV.b73izN1D364EH9cLMzctP8TkCr
+ kDVtdGSYo4BozztKKQgpdyPZUL_zISi_C5jZdXVec9pE.EjRZ3XwMUu1dcaA
+ aS7mybWlTEvgjPQ073N3fAZcWFiOATcXQHCEJN03YC7D2JA9a6mJgxEfx9a0
+ 5zkN4QKky9XxnQNVCjSvlTWf9MER3n0FiFWr60B82oWFFSOgyACROkrje3zs
+ sNDCd4H.2GVqJ0CL2JNDAf2YnCGmyotfua7ebTl9xn8H2yXOdc8e3kBQGOQT
+ gt6ukFFPJWSi3GwKRS0Sp1Jwf1CQko4fw1hQUKIZE5bkXA1Yp3ZjAgsh8ALQ
+ Mg0.k8hkOQRyrGeyTgeJ8rvM8sd8VWaES7cgWtlZ4woCZuqKZZ40K8Lr0o2U
+ Cswu3xcJGOABv4m6HYecoeJSsqaBiSQxZepZ_4oTEEPLy4OwYC8kF73UFt4u
+ zZHyX5ijjMb4RLLi4u5qiqsv_vf3R86BfXYKUQfGGTC5EBNlfSDGZH4O4T1s
+ 0He5OuX0itaCnvxzMN.4vCVMYWeE0tCoCn10cXqtjg.3NhKbQR0f1b8OGMbR
+ pl83xlHEzqHbwYFuOgHKemtzmKmcH1fR803UZSqcKLyc6oR.J8edaKrio1Z9
+ j1oqRtXzmrCQzxMN
+Received: from 98.137.69.206 (EHLO sonic312-25.consmr.mail.gq1.yahoo.com)
+ by 10.253.31.89 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 25 Jun 2022 03:01:32 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656126092; bh=hojf3PdRa6xPqc/bwyZFirHJneg8GlW7DB1IDV277kM=; h=Date:From:Reply-To:To:Subject:References:From:Subject:Reply-To; b=Wg4iLaRYWovtEYuadN6aVcWy6zSxu2mr7c9bgHNyxVuyj3Qz4+hQMcBP/Qh1duxOcxL/5Pb9Eacabp2FdD9cP9/RYUqPs15W7k7BQZL1bsSi05RLfDCXBfrHVz8321mnSyIacgZOk9337fgOQo4kM8je3zmandMWTszLH6ezwvfZ7dPAXvrAfOm1VxGJ0A6mcYfiTFpqAq+R190N7HPwFywdUMtBRFjcmc6aI/yIHa/dFMhw+/RXVq0/PaUH0B1kwMQO3BxTSxbFuR4aLaOezREDOFxLNRGEbhzAfphZ8nbD3Aw6pqfy0Cw5g4PrbuS7v4G6vXM/jPec0fNTNmu1JQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656126092; bh=MoZsN15cij+EGmGlb106Cx5naMALdiEFZzuAGiRywU8=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=jgvZmFClsi5mxGNS91ZEBq/oP8zDA0AY7I32NkD+MqAZUzv+D4LV6X34OcOJESHu4Fx72IhEeaiC6JgQYQlf6mKFBr4DvFzbZAMsGBVpE3oz9E6/s6Cat3wHGUiSFuVMjJ/vJK+jvwE+mYOdysFDENbonYjrbCdt/PY5Q6H+btZWXjsPljOKrq0uEdM8YCbirls0Jyp9w/eejm54iqftFCPKlSWlfe0Z5zksQ1b+/rgNXMwWTKS3878de6iP6RVwCzQjMbIIEj9HZxia+QCt4iB1mgAm01gOSmkfU2IxjjyYWhMdLp+diUKjSfe21DpQPkUWX4EXG2NjeDBjeroOUw==
+X-YMail-OSG: CysxdSMVM1kvRIURbYIM3_8uFwHnzJllt56KvA8OU8nUL5583Vyda5tq4CmEYFB
+ OBbhSQTbFZqBcaF3fdHdse4_9Vsb1rN111eOuZP_.4JlD96ntq6SqHgMnKDVzxVt_IQo4GEkUkYt
+ 8xxQLDm_DHwevcjGn7xkfhf_XBWFa6dWSNyq2hKvjMszNHVDnEDskIaPZQ.D2z_uR0InHTkGmuhL
+ VuD4B8BNo2RPBQB8hMNv5TazQFIqHRnScunvCIAzH25249Fz_7LCDLKKi__gTu8R_M3WPpW8Pkzt
+ 1E0dxeqBcIAik8zqh2yOTKhJuDepMLQmKU8GJwK2ofycBAosXrE18CLjNT_dc_TznWz90UDmXRwv
+ fy1Cb.4864GjLY2hA.c49o2xTvCjvzEg3b68wbZZGD4Zya6G50jEVlaUIJdMLuOHjP0m8Y2x5YSy
+ s1I7.tdtbk35O95ZoJhq6Wx4gGUzkN2AKaBw.iQcZoLk.7iQ56.zG5QO9XT7hnKYW2o6uZ.RGkvS
+ t7mWok3DLEIVTqwAuAlJFKMrhj1QU9G9gWrZCINl2rEPyOi52GdM0a67ch3aQt5Oi3Cmv9CLimld
+ juI8tLPAr3QVNhDGqpelLBjkygCNM0hKNXrzqfROjZXmkSaT.JOIJxbwBGa5qNKGTEyHtt1W8gwx
+ ORtPnjvV67DqvMOiZX80sz7n9J8Yvbe1zA2Ls85YfNpDzHrGff.aV6pIXyO.MhsSQKVS2PFEfIQZ
+ Duo..v.ildK48l9EixHUvyz_hXXm4nrIJ7maglsaZqNGYhJd6jTZNf816LQkJ.Hj.rgn.QRbugUS
+ nzAexendxkOrL.J2JoaMTNfAoil4iqQAA_oSJmcBF8qFlKCgoDKaD1K85wU8zGcUEAOBI_fAAI2q
+ At2osC6SvkQ7Wbc2Wu2moiWyNn7sAjjeLZGSv_OdVsQS8rS6hGeDvPNJXzkWfSyDzGTHCJasVANb
+ IGVqCy27kWM_pAqe4vUBch3BMqqpFImk_mbOi4WuHq3Xli4i1kafo2es9GDcd_RtdXWgVLeF.pBm
+ vHB.XeRS7nlOxBcE.zIYGIVIxgcxEWh3AzqfsIIawRsz7Fsb1W7eGLGtCb791JqqDnvMlk7RqyYN
+ FJHdYxUMpNb4D11E1L_7f8wlZQ4oZJccdiOvK5p3d.UUS3f5oKFhbWdHtxt_RviLxaM5QJBL8Q5q
+ xlhrpdvpn1jKlR43B.Zkb5qcUT3MwVKGYN7BKU7d5onMSn08MNDGBRJ_0DQ26Far0sOVFDATgGNb
+ X3IPHfv3N_jjyrMu_rR2iswVkjkagifNAVgiB36Tc8PFt28YguLdhTZpqEk1hyeCvC8yMsOPwABj
+ X912OC4x2Bmv8VcjKyLMPxZbs5Sh1p8hCAPjRtC9tsEVaqoFWtzNoAr38kUtT1Seshe50DQH3wWW
+ Y7sSZYviPsGJ8Eg6dsmzHmI9MJ2n9np4HH2qTn_Ley1FLBO52y4wF0371KE80UNzObmNr5NMDjyA
+ NcZF5GoqUHxMXagVTOXwokIQsj2z6QscQvCTm.jDrIZ52j40eXObQF9yLN81dzkbkJSTosuCxV6x
+ VcH4L58IcELRyE8DdPG2bdWNLiVjHWznjYpqBW7XAAKYpaemnXMDD22VZsw7LtWafUOVuA5pE1Em
+ ZTEe9J9PMshtl2WSOv4I0Er4TjNVqTJjipTxiPEsb1ufb6KfrYQ_Jvg6wJZF7yDZ3gTOvuz4Axcw
+ kgIaGtkcR2TpNPkXiPk58gHOWe607HoOH1xceQM618zHJX3CVNuiG4d2Hyqvj.1pZenAqYhR89N_
+ VPnV.GcFOw3Lv0qIc7s9mm4bQh2qEYq4N7qf.nYqS4cOERgDcTEqOwL3.GTntWe0r9vYScqrnSOo
+ FfmsN1v0jTaCmyQiwYl72GKu9ahZCnvUeH7YYPRjG4Iqq4WJZs.PUiqt2HcD_Hen4B.cY4z6cHxM
+ wGATJcOW5Q4v7dCCHDZZU9MUhuMwBokTOzwcI39ZcTnvbiDJiyrieEDIVlmDS5frjqvMfGYmRoiq
+ bjeetmhVvdGC9C2A1toh6aSt4nJ.RLYk9elDsEDvbRMS6NQccH2oYCG43g2KuoPoGITHHY6CUGno
+ a2AewWsxR6DOTEgGTc3BfRYwE7FVhkqfEzeXNsnc7.C_6Gt1ohLdqJPpGNbAznkkYCsMOR8IGLDz
+ 3eWCPfoM6YDPxwu3Rt9kWxcwse2ouPZPTDnyi2JZ7F34HPydoptSMtvXOU.jNbB.jO6ofI7t.6Qo
+ fVPGbSOvTye3634l3k0__KTAnVY2qevYwi.LkXzI7EFkiiFgwDutRuv_jvBT3QOH.Vva_SgUVeW7
+ Dr5m1374_aZaxFqsB6DtTLzrBQoeUCXvHsgDAFs7d2YZ0Uslij1GaeJXFIEa8lvTrk1Ex_xjh2Ei
+ ICAXVLs7DBrJTgb8p1dKLrhLpycGor6oTTbvoqAIG
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.gq1.yahoo.com with HTTP; Sat, 25 Jun 2022 03:01:32 +0000
+Date: Sat, 25 Jun 2022 03:01:35 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: Governor Hochul <governor.hochul@exec.ny.gov>, 
+	MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <1310222874.140319.1656126095729@mail.yahoo.com>
+Subject: One question
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_140318_471016624.1656126095728"
+References: <1310222874.140319.1656126095729.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 3787
+
+------=_Part_140318_471016624.1656126095728
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Next time, can you at least promise not to leave matters to an ill-equipped=
+ group to maintain? This was flatlined from Nov 16 - Dec 18th , 2021. But h=
+ey, if i send another email i dont know what will happen.. so if you need a=
+nything further just email me.- I offered to clear this with Mr.Moote for m=
+much cheaper than=C2=A0$ 852,029,489.38 .=C2=A0 =C2=A0 =C2=A0=C2=A0I apolog=
+ize, but any further lip or obstruction from these Zuckers and their counse=
+lors will more likely than not =E2=80=94end terribly.=C2=A0Also make matter=
+s worse, they casually email while making these power moves..=C2=A0 TY.=C2=
+=A0 =C2=A0 =C2=A0
+At least think about a 10-day and call PIMCO or something before you bring =
+this to the same board that I believe misled you as well=C2=A0
+PIMCI is generally neutral in my experience (not a dealership) and you can =
+show this to them with my implied anonymity, but I can't email its going to=
+ cause problems the regulators and their obligation to the public, to be ho=
+nest...=C2=A0 =C2=A0I PROMISE IT IS THE PROPER APPROACH, in my humble opini=
+on=C2=A0[ ten day and calm PIMCO].=C2=A0 =C2=A0=C2=A0
+Most respectfully,=C2=A0 =C2=A0 =C2=A0=C2=A0
+/S/ BO DINCER.
+
+------=_Part_140318_471016624.1656126095728
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Next time, can you at least promise not to leave matters to an ill-equipped=
+ group to maintain? This was flatlined from Nov 16 - Dec 18th , 2021. But h=
+ey, if i send another email i dont know what will happen.. so if you need a=
+nything further just email me.<div id=3D"yMail_cursorElementTracker_1656125=
+672854">- I offered to clear this with Mr.Moote for mmuch cheaper than&nbsp=
+;</div><div id=3D"yMail_cursorElementTracker_1656125696497">$ 852,029,489.3=
+8 .</div><div id=3D"yMail_cursorElementTracker_1656125698292">&nbsp; &nbsp;=
+ &nbsp;&nbsp;</div><div id=3D"yMail_cursorElementTracker_1656125698449">I a=
+pologize, but any further lip or obstruction from these Zuckers and their c=
+ounselors will more likely than not =E2=80=94end terribly.</div><div id=3D"=
+yMail_cursorElementTracker_1656125870044">&nbsp;</div><div id=3D"yMail_curs=
+orElementTracker_1656125899935">Also make matters worse, they casually emai=
+l while making these power moves..&nbsp; TY.</div><div id=3D"yMail_cursorEl=
+ementTracker_1656125799930">&nbsp; &nbsp; &nbsp;</div><div id=3D"yMail_curs=
+orElementTracker_1656125911136"><br></div><div id=3D"yMail_cursorElementTra=
+cker_1656125800349">At least think about a 10-day and call PIMCO or somethi=
+ng before you bring this to the same board that I believe misled you as wel=
+l&nbsp;</div><div id=3D"yMail_cursorElementTracker_1656125966056"><br></div=
+><div id=3D"yMail_cursorElementTracker_1656125966597">PIMCI is generally ne=
+utral in my experience (not a dealership) and you can show this to them wit=
+h my implied anonymity, but I can't email its going to cause problems the r=
+egulators and their obligation to the public, to be honest...</div><div id=
+=3D"yMail_cursorElementTracker_1656125747651">&nbsp; &nbsp;</div><div id=3D=
+"yMail_cursorElementTracker_1656125764538">I PROMISE IT IS THE PROPER APPRO=
+ACH, in my humble opinion&nbsp;</div><div id=3D"yMail_cursorElementTracker_=
+1656126062912">[ ten day and calm PIMCO].</div><div id=3D"yMail_cursorEleme=
+ntTracker_1656125757600">&nbsp; &nbsp;&nbsp;<br>Most respectfully,</div><di=
+v id=3D"yMail_cursorElementTracker_1656125771896">&nbsp; &nbsp; &nbsp;&nbsp=
+;<br><div id=3D"ymail_android_signature">/S/ BO DINCER.</div><div id=3D"yMa=
+il_cursorElementTracker_1656125773538"><br></div></div>
+------=_Part_140318_471016624.1656126095728--

@@ -1,0 +1,159 @@
+From - Sun Aug 28 22:44:40 2022
+X-Account-Key: account1
+X-UIDL: AJUjM0Rx/IMVYsm9AwAjKHERyXo
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.106
+ by atlas122.free.mail.bf1.yahoo.com with HTTPS; Sat, 9 Jul 2022 17:38:10 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.162]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.162 as permitted sender)
+Authentication-Results: atlas122.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 17:38:10 +0000
+X-YMailAVSC: qdUP3fU3bBsdMEHwg4RegnGCPVae_Bsa6WwhEhNs1IC15eu
+ LynYy4pz4jSBFs4WHNd61nB9c2VAKD2Ef7sRZ25JBh7m4jIpLgez4EtBoq_q
+ Vesbv9tmYdUD5ojFd9E0tc6JP3Jij2eSF2Bqs1SBe3C8SAR6G6pT35tJSyxG
+ 1ZqIis8RDNY7wecRURVCJG3hge2aJhD1HfHLXtPZw9PeC24uW08y6r5z2t8l
+ NimX9gGjvGg1IiWnahGZ_81_Ds9nYviOcrLGzxARU.P9qEMxXIsUmHVK6YkY
+ RIegF0BFy4iJ1_MLpfMMKzIHZodPWYhDtiLu71HyeIVsXdvWbEFsGPOpI8EK
+ 1OHOJBz3khHJ5CKrrjC9sldElSKS2ITldZrnCAnADpKYVG4xs7YmeRQZ7_WU
+ -
+X-YMailISG: 1Wf3Y_wWLDtwPPWoNg5hBGQZWtir5FNHVkR.vXr6gGp30y3f
+ Cg1JjCKkOR8CuPWuC_8kKhYHwmu.q2XlZ.zJ6xm9pNPkOKNB5E91g0S2BSwb
+ LgiAj.rR5zRuvJ0t6oRjJ43j4k.bQugpLY2AV6Spgpn0IZCKagT3IIs92k5W
+ RshUnxZxbexql7MP7NrMRrHH5hIQEx.veOig8hHTooOyqDc3CcrjmvaNYF7m
+ wDGn7LkWdc2kAysQzCxp4FGhHuck25C9Nwdji6c3rJ5Lje137E0rQtgTSAHq
+ tqmKPMGMkoD9hQUXWLcrcRq5B0kQvX_0MFhPJHTIB8Z9UF68.iO3enzb1AWM
+ V.G8Ykw2p_VWPDj9SivQl.3_rrZXqvGnyfXSPa9VNMS2w2GOWIJGN6EFlEUl
+ pxQrGLl38HdQb5yFPKEulcmziOXKSY2q2ANTexlAdEGwf72c2phcqk5HfYr.
+ RArlxC0RKQuEw_l1lA.SthN_vZTs09omdqmeIYphmKVFzDFlyANFC1VRBTQB
+ .zB2k1_AVmEsJdWK9wVxdtl2J1l30GpwCRGWJlAKVnR05Cngxmnhk1Q5kKrY
+ Fktp58os_CqIiqm3tKOobsDJajsaSsd2mlhr3ineCxUBS2sAr_9m6LV0sVnz
+ 7kVuOOz3sdRnNnSlKAjU2eXw_JOk_VpKquXF7Is22vpCV1Pd1r4rhej2jxJL
+ g81bBc2eb1BIlf.5iL7honbvY72g8LjdEgYdseNz.IZYTxP0dYeWkPTSee_V
+ lCN6509tXqVOB1KFeNu6uHmoGSg3M2PaJbl4x9sJIuGepfpLXjS0MXASR7th
+ lmFnXxcG81e8cP2zqxbhO5Bp.VWRa0xk8H9HSbsozfeNpN8bRG8gf7qqtD0p
+ 2Y166uj.JR2_gaCGkes1fsDm2O8QfnT3xcDiSJ32AxTPkzdYDtUH.WVa98DB
+ nPj3S_EnZcTQMxyn8_F5_hBbotDuiuqScE0WJ2MfZqRMn21AE9osCBG5r_iX
+ GI5JqhBHG53lvoDjiewA_TplMN8xzmHNT8WBlxvKLSoakyReK2MqePfTAbqM
+ sw.Dm0YyazBYleHICTxenGYugkbwduh2AwEryzfgWySepWwhFmE41Z1sosn_
+ yjEoVI4V.7jJs7FkD2Xx4aeg0EeQJn9dazOvgjBwWZ3ozw--
+Received: from 98.137.64.162 (EHLO sonic301-36.consmr.mail.gq1.yahoo.com)
+ by 10.197.39.106 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 17:38:10 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657388289; bh=fZhmYT8fAHtIcfkVhwdHKWg2WVckoDFD+507OvXu7G8=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=oD/bhp3uJ/vp+jpcTCPdbXt/BiQWXx/SgOBdvvrkDZc2+Ybe0EByJome+8L/ItudO/21vDQsqB7KuGPOxJCXMXfT4FQ4vzSvt7+mVlvDz2xIjWkabKDUuNUhjU/tljqnIW+V5Ll23GGnR0/1IIhqm8m8vVtjEz6U0UAaFrYh0J2f97va3EP1/9LkpyxEo45uJaLWhuDajoVDkIlLhL59BUn42jDlIXqNzXJ0qv4OFLBwxwpF2q5jhoAszn0y+OD9F01wVE7LwRekT79eOaw1vIOmMyBJt7/jfbnPaIZU8yYH2o6V8yuZCVJnTBkSJA3ABRlM2dPwxpUQrZ5tJRY5vw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657388289; bh=RclAtrBzQHjEBkjyg/lMxOwfSr59qRwpgik6KJciwNy=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=a2F6nV+tXR6WiJA0q9DCUXmXNjhRCeJm3aENgWDLfOZYnAQJmXFffQxOVbvlcl78FKOCNgYq79/omhwwZPJwVyNLQgUX4lxTvTEPWrhBdXwQ7O3mBYYtEz+VrZeNfFVTfEmshsHKGd6Di7nVd09CJHzKuHoKTvg3jOO3dFVXxZjPvZHRDL+XnmjW+6ehOCBm/7QRaETEgoH/OS2mkRvHOLVra+Xdt7E3u2OZPkbCCm6H1DK5FYKOEsBBLwjurmBUcVPKqXgn/+QZWc4WrBfuyRf7/WjE/bSEir6uYDKvx2Se0QP/tVUJmxLmU/2WLZAkmmhu++3OBgfiJZktw6+oeA==
+X-YMail-OSG: aoJSLQkVM1lZo2WMp18Q1NUmUbWNVUyxKYe2idRqsqxnnQZYW04Ou4K6UJdn4.I
+ xvo3rePv4sQkgyumANurkL8SojMEegtenmhx5MbN6ygSUw2QdBAIYqm5ln3R4RcZqujUZuRkrP_E
+ C7b3X2EsbE07Ccz._7wAS_NZgAgyVc0v_PESq4YoxsjN.Bzpz1lOPehZO0sUtuKnYM7OPioYuLaf
+ T8G7Tho2hb7kbkJ3GLkkA9wYPJbqUJjBtLM0YHnDQCWD6moL74J0qrhB.eNQbo0bLvwJEQzcC2Hj
+ f25bwnPAk7YgXugJjsHA35W1SpMiwGMF1Fk39cjcZFE_EN3YyI9__zC98pcUBa6fU7.WVRjsVCjE
+ IUGWoP_EN3RQhanZtATSgayDIQCpLjmTJzPeSgjA_PGP2b8nvCDeEzI2H8rXuFLzZJB5Vf0u8qpU
+ XaQCyeOkX7hTcTLD2uXl0hor4N7sJFGQ3SjUpRCcC7Kb9BF0sF7FLMxEy3Ec6j1.m89GpjQQq1qB
+ nJmfIbEFGFHI8.alZOjtU2fCrf9dgzsx_RrYJj3v.YtYSHpt2HSbVYR73HGeauuUq8HoBYFA2GYQ
+ ubkw6DJRiE_Dpwdt4hgqMjNt.BoY8sB9GPSjY1iMEw7.4zcuqquq9N3uzdu67OhBIJ00X05LcW.V
+ OhQLKvtLHxI1K4M5bi9pzh7h92zyLoG1Ix.un6ZP3chs.WUpzeCL8fxsatBUTOS1964qxMkajfrF
+ ixJ9hFYJoVqWRGif3ebdrVghVncFEeTZigBauv5sLBHnGe29jdLOCUEwm7HUDMDe7LfhqW9pzZp6
+ DlqkeV1qgCtuZMFcNEIkQQ6CfEYQB94fLQ.gMQtu3Kd5ypDmr5ekpiVu2CF360AsIa2KWInQPETP
+ ATVa.TkhQ1Xb_K5MJjEQpag3_5FpL38TNSNv2B9S8NqlL6mQmW5kvCJpehFYLiso.nC6ebXJwWtE
+ FQ5KTVTwQdwLiLzu6iwFHrR_jrgcmu0OoxN.gt0Jze1m3ONIDQN6XaF98.8v7dsJFwGdMHbzP7Nq
+ RPgZtCKUrbQokYGEKIT3XSLUGcd5kbriytof2ISacASuzqQFVWXprS1VbsB760VaZyDYKSw1NhPN
+ aswR2ymWxkq80VNXVsmNa4IT58vn.hnw5UEm13g0P2Lr8YFpoPM2uoM2INy6EknRQwE7QUA5nK1n
+ z1Sunt5CAO8SsQ7FtxPlFrVnzxmilLFxaV4vMkZ4XJejz3i_KDkiVrPkP2OiXqxZvoTLLWRBDFT5
+ 7dmvG4pWaOFaXn5JEPnhoBc5sqZM8GIvK51XdqzH2sGypO34qf0LwulhyUcZNcZ0mATKVXmlVAp7
+ IbH6Ct7tf4fD1eLVAIVbKF009hg9BLpCbE3dJQhTLSG84yibfYw_LB_mIHssgMTnpYW5wU_DfKEo
+ pDcFSZ6QtH4Sx_gvdmJgNg0sL7xKqla4bczNZbwH_ca8absQRhGDxbj1MF5lcygGTmDTG6mj5OPY
+ iJaaZRxb1cWiwWZzCJsAKMb2aFstbMAGMPMYYkUtEEFiP0S74LDnGkgfkEcDfYbBDbXGY3Vc0wWr
+ 8qbloXGBwu4BLBjjTDXCYOqMMiWQcJHjtDsiUoTUQakwoqX_t5GBaGPt9m_9MXYErAEpH2N5_4db
+ wKsrobYC65UEzOeZqpS0A9WK9YbVnF5W8lXqr04aU18j_MGgvgKegPvNYqZr15NknUN3OMQCJBIg
+ vmXwfIracpJHH9nCc_bupyHM7idb.Y45r4vUBBE.AMR_XhcwVvgCwZWPN0dvGXQfjMvlWlNd6ogK
+ nKt.n90dA7dz.dTYLkO2ObLii1yViI_N_P9Aqug5J18_m_uh5FLONyi0KqEKm8ViyWPw0wjBiySC
+ rddS7vb_CYwQuE5BjaDddKl5WoaatJ.JH7SPO_47jh_XPYlBDryOokfBJsecLh7KJ4S9go08Uytb
+ 8HiOHfou.guz6lxA706hMjo69RNr5GSgCSJe0XJ3Ftg3VXFiS.LCjUKhdqUU.dQQCPEcxgP9esFZ
+ slIiELFg5fMY0oQkexkppex_z2dwbSs9QkYPIw33lbdVRkHSMIbF5uBhUQOFJPMDKgcWDh28003m
+ ZxrNadnkow_5FZ74sIlcRRRNojx9EfpsYhiPDlyMTwPOuqXwv6lo2nBvaPJ8F.LA5mxgY_Bznq0y
+ IDeWA8rn2alKa1cNBWjVhjp.3OZA7oZtq5BI6641CmpW7_GVT1zGA0vL3_v6uYKAdAr5gCQNtcX2
+ LLwH6OsY_YXflCNEWoUlZADes1Xh_4GNV4taMrzHlDcFVngiOf_UAqHIURSPiIaUbJjsULkdS8Kd
+ EgVKfAFaTuT5AyUiuodyjqxZz6NNVt325XzERdonDfHTSj9OJW67y22rW8x4YllihnxD9.bzRqec
+ V.YqittCUpjOwK3lfGtN1
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic301.consmr.mail.gq1.yahoo.com with HTTP; Sat, 9 Jul 2022 17:38:09 +0000
+Date: Sat, 9 Jul 2022 17:38:07 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	KINGS COUNTY TAX MATTERS <TaxEfiled@law.nyc.gov>, 
+	NYSCEF Resource Center <efile@nycourts.gov>, 
+	"+19173783467@tmomail.net" <+19173783467@tmomail.net>, 
+	"6462563609@mms.att.net" <6462563609@mms.att.net>, 
+	"baris.dincer@jjay.cuny.edu" <baris.dincer@jjay.cuny.edu>, 
+	"+15168841084@tmomail.net" <+15168841084@tmomail.net>, 
+	OGIS <ogis+noreply@nara.gov>, "ogis@nara.gov" <ogis@nara.gov>
+Message-ID: <1804113123.185028.1657388287030@mail.yahoo.com>
+In-Reply-To: <1859009344.172229.1657388219838@mail.yahoo.com>
+References: <4655630a-586e-cb98-18cb-445d681ed8a4@yahoo.com> <04e38d83-4e34-9392-1ccc-4f3b724b0ebb@yahoo.com> <246164323.185156.1657388038596@mail.yahoo.com> <1859009344.172229.1657388219838@mail.yahoo.com>
+Subject: Re: USC 18 TITLE 18- SECTION 1512 - PREVENTING COMMUNICATION
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_185027_918707926.1657388287029"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 2895
+
+------=_Part_185027_918707926.1657388287029
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+hey.. trying to work here I mean, how many times do I have to switch IP add=
+resses?
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER*** i don't have t=
+o hide from the LAW, and that's why I put a few good ones in the BCC, Local=
+ also.*** until they are informed of those charges officially, do a perfect=
+ job - in fact.
+*** three days - no brown bags either - I SINCERELY APPRECIATE THAT ( HONES=
+TLY, UNDER OATH - I DO )
+=C2=A0 =C2=A0 I would even vote for him, all of them , the lunette vermierr=
+e dude also.
+=C2=A0 =C2=A0-------- Forwarded Message --------Subject: Fwd: Fwd: VIOLATIO=
+N OF CIVIL RIGHTS [ VERIFIED ] USC 18 TITLE 18- SECTION 1512 - PREVENTING C=
+OMMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGEDate: Sat, 9 Jul 2022 08:=
+23:24 -0500From: B D2022 <ms60710444266@yahoo.com>CC: +15163667582@tmomail.=
+net, +15163224896@tmomail.net, +15168841083@tmomail.net,, 6462563609@mms.at=
+t.net
+
+
+
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES/commit/=
+9d578169b5b727319e14326fb6ea3de5ae8c21d3
+USC 18 TITLE 18- SECTION 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEME=
+NT OFFICER OR JUDGE
+
+
+------=_Part_185027_918707926.1657388287029
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+hey..  trying to work here I mean, how many times do I have to switch IP ad=
+dresses?<div><br></div><div>https://github.com/WILSON-ELSER-STATEFARM-SULLI=
+VAN-ZUCKER</div><div>*** i don't have to hide from the LAW, and that's why =
+I put a few good ones in the BCC, Local also.</div><div>*** until they are =
+informed of those charges officially, do a perfect job - in fact.</div><div=
+><br></div><div>*** three days - no brown bags either - I SINCERELY APPRECI=
+ATE THAT ( HONESTLY, UNDER OATH - I DO )</div><div><br></div><div>&nbsp; &n=
+bsp; I would even vote for him, all of them , the lunette vermierre dude al=
+so.</div><div><br></div><div>&nbsp; &nbsp;</div><div>-------- Forwarded Mes=
+sage --------</div><div>Subject:=09Fwd: Fwd: VIOLATION OF CIVIL RIGHTS [ VE=
+RIFIED ] USC 18 TITLE 18- SECTION 1512 - PREVENTING COMMUNICATION TO A LAW =
+ENFORCEMENT OFFICER OR JUDGE</div><div>Date:=09Sat, 9 Jul 2022 08:23:24 -05=
+00</div><div>From:=09B D2022 &lt;ms60710444266@yahoo.com&gt;</div><div>CC:=
+=09+15163667582@tmomail.net, +15163224896@tmomail.net, +15168841083@tmomail=
+.net,, 6462563609@mms.att.net</div><div><br></div><div><br></div><div><br><=
+/div><div><br></div><div>https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/RELATIVES/commit/9d578169b5b727319e14326fb6ea3de5ae8c21d3</div><div=
+><br></div><div>USC 18 TITLE 18- SECTION 1512 - PREVENTING COMMUNICATION TO=
+ A LAW ENFORCEMENT OFFICER OR JUDGE</div><div><br></div><div><br></div>
+------=_Part_185027_918707926.1657388287029--

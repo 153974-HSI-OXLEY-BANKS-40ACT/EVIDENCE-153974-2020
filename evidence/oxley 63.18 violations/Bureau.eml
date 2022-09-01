@@ -1,0 +1,130 @@
+From - Sun Aug 28 22:45:11 2022
+X-Account-Key: account1
+X-UIDL: AMVOFfw6hYE8YssoxgPQkK5ejN8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.202
+ by atlas213.free.mail.bf1.yahoo.com with HTTPS; Sun, 10 Jul 2022 19:30:14 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.148]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.148 as permitted sender)
+Authentication-Results: atlas213.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 19:30:14 +0000
+X-YMailAVSC: 29XGdD43bBtF_mXV6tHalPuTSkdUfdgnRun2MWUXyA6zEC8
+ qz1Em4frIHRP_kNO99HY6qumYxEbdTplCKnqCeWJh.Qx11ysWk03eqFQxAn.
+ hb2S.qO2WnBlSdmVGwFPNftzjXd0nw6KezpSMRKDiG7pmtIgszUrN6p7Y53E
+ JYZO__EsTeqQyDa7xR1Z1XJ5uo7vhErYOY1LmYHp9iPW8XuCE2Ra_M1XaJem
+ 1m2iaeIIvyjb2PLVXDu8rkCw_6I8.3nfYQDDdEXC9IBfakWJuaGmo_eEYUaI
+ oFrB2_r.c.j23t.2WRrIbFlJ0Xur55CK3SCMk6iYqGaeljeWNsaR6lxWzOI3
+ .zACXA0rjd1DqdTWHjNPqH.KSVn4UmLzjoRkYGtYkkdl.AXCw7GA3YJzA
+X-YMailISG: x3XqBP4WLDtgWq8BeGUK4UijX5hCp3hntDF5NIOa9A8bwoDe
+ 8JGlfSDqlibGmr1E2e0.KWsOiyz6VNcgTTfl97WusGZTLZDic9yv_2ydX23U
+ L8TdonXusnc6U3gXnxdNHhRkHYGI3f7vgwXb54ueCqFB9cE1xN5avs5Ay_BK
+ VES4YLyJ3cuaCJpSTpiVlC5KQB1bdvF_p7E53ZgkdRuYCJaarANG1Ao6wDNU
+ T90r.udsthLL6NNklyHWku1QjQyYoWuC3badkYF2KnQUOI3e77BBQlQsnwE3
+ P7_LOpFW5bYsbnd1T2f9yRknphvKUEc6cEtGEpZgEGyhq0F.fGE4c9HficeV
+ Sw6hPXRu_FWyFFXWUKJIH.oYscUqCdPCyDYj6vrNWQkzXoraOWE9_P0wJs5G
+ HT__b_guiy05Jc3iOjX8I7prbAjbPoGuzxrUmdz.WLAetRrXwuF.HBCk8Sjh
+ 2GQLEEhNfl3UYbhO6Om8w.g3B2Xba6sc3KHnv11dtfJh0yH3IG83sDz.X4ul
+ pjSl3WonZEv5jjGJzjhE.LElMDbU6loqFtMO9D.KQjz6.k8g2PEHLs0i12W_
+ .Y6KRVirMqaUYdwTqKsj2LGMyRJ2Be1sxmMfDaHTbygrCX4e3ZqXkBgmr5NL
+ 5Gl_Zmh4SMjcfOH4X5CaRekiIO3oK1PedEk.pw3ZMOZO0A0aEbKheHf71P_a
+ aQdytc2M8zv4buoNo3wqyu7pkcYCokSfSBMmflTCDubmMy0BXGrdeBDoulkh
+ qXmyaD1OSdzMJOd.5Q6p6LpGpbtOd7vkZiW9NKpCm9_fSzhU3Zej.W1Mq88g
+ xRrxUyHYe3xs0Xem7W0WmDoK5bjeUf9AN3_C5Wbsz1Vnr2IRWYyAe9D9o6SQ
+ OOBs7V4PcMBuAPG7CKLE3Fu_rnU8yYSjFqQJnmwR6qlIoglimUhuIryRcI8U
+ iEsrh9K6Sj6N6X3yazgtt85d4zKJOl6g14lyAKv3Vw6mSwhsC94lcbEE.CQN
+ qm9c24fxse5v8o0b7cAFDEjXLCyGCS6.pAQu4XCvHDb0S4u0rBz81jCMKHbM
+ ypy57_bdfD3Qqe4Quesy42a98Q1FJ9SbjKK_n1FUxMrO6HK9WsEg5oJvUK1W
+ LiSAnkQd3I6d
+Received: from 98.137.64.148 (EHLO sonic301-22.consmr.mail.gq1.yahoo.com)
+ by 10.197.36.202 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 19:30:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657481412; bh=2sambKoZitdSCFVGJXmT6YD0N2FeF9chUZUngJulYBs=; h=Date:From:Reply-To:To:Cc:Subject:References:From:Subject:Reply-To; b=be/LC4O8Nfmw9TDlwoV4Q+VJeJwpNTkVh3q0YWOAFfTI1GpG+Kuy6khKpOPE1fIBQg98xmoS+Liau+Pq+Zj3sRngMkRc9OT4nMNvDPw0DGAXVhGHkXFrqyXoacex3h92S7ka+3+g5PMHTdYwsXAbg74fR7v12V6jmX0ItRmLWMUSWdCMKhk2XPFVh+v23MGeqNlhW5sLsyVlZechg1W6AYurqgUfeFYRXDwLcxsQR+LR2f0kdk58X3CrZdUP1y+jBQWuxpcXXsXFbFNxcqWhP5lnuqdr2kEux3jdyvdqTtVezaBzXc/Opeijvp1riiwXlQ39d1schZz5wAXDcLlYrA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657481412; bh=rei4JIbfJmuJLHm6VPeM0rQn/MWe0K3miIlEeZS5qYt=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=gpf1QPr1lobyti+PF28syJNfVfONRWNOHO6EFCWKcnm7D6fmpJffM9UEMkCuH6pbush42R80dyoiglHVQ36XuIrZFtaGotuWqdvryzxB1OhSXEHF6Vh0lKYrpQBCt1zmsORgOtgoKSltYj7C42puZ8q1HP10HPuF8HGYdI4Aoq1g+x9oSMZIDHMVw20oaS+LdAf57zytN6E2pPUs3CKRj0BY+9AiDIZvdWZ3NW7m6hbqQoi+s7lhQHiJzfNT5nmZmg3D5OpeUySMT+t5TfHTVEcUBwTyqFLHSP54NFMy442Z4bKkuX4CH52sFtV3aC/hi64UhtyxcjWrrTVEJzQxbA==
+X-YMail-OSG: cJDtQGEVM1k0WURCk3UQ7.4i5S1ka.w9JgvQRu2BDKckLPJO8wu9hTmM5fojVeT
+ 1MkmK2BTt1wQt3Ht1q9Ij_ru5gNMN6PszNRQYjvUlCRuLT7XFzacYRVMvY3sm9TGHj5ueO8D9GFt
+ B3qo_8at4rc3oSpzNbvhXSEtaHSxpJT0M8NYHr9gjNzk1BXbKTxG6_D1dIV2fHRIhkcn0_08pP_4
+ za3.dRvM2ybvtN5dZiZwjwzGklO3JM27g5iJGEz4hq1113Fd98FjsuWHXnoeEFTVmaLKtdUHYv.C
+ YCY_fdSDVKCeX3n2xd68.LufpgyydSuRAKCUJuhQ5UgXExqRptXOEm3IqNOafzT16o19tU8ps8p9
+ Qtpw_DMHnYxfl8VFdR7ItnAQBbJWj6VWbmcD4t5EwnseklGAyRxjPvkUchRJyKYwD1lsYp1zZsUN
+ GA0Glbg0U8XbVED_OvvcRmKlO8wVJZTaxIe8HMt_2WnW5ZFDJcDqxgFMXkhrjmorb0RjRdJ3H5ps
+ mhSUfrYs9NspoaH233plvH_JaqBmFBjbuQvLZSkSRKItS81oCSPGNDZCyXn8v4TuzW9Ekh_BER0T
+ kXGnuUHwHzDaH75GzFSDdqUyzWF9DdTAE.5DcFBxRvgo.3PfLanCOCcGx4Wfzx66INSCWesroLPQ
+ X1CXPhk0jodUcf2m4Xl1NH8._eU1FKSXT0n38ISEIzHF.DaokmEVzzax84UIuWiESrUqZoOQrGLL
+ HfFA_vGejxIn1ylDDl6__52wuwcX1JE1sdsC0iKNMiMaWGXmdz63T_qQAoo_gt_hiZplJcdIuRPZ
+ 3TbqYVfD5ug8rWMTgEgZLDOn1F0BnIF71rqlTc6_xvEx0TMaAZdQsCm19V49_b3YWz5JvR5IhCXB
+ p_hreKmWKOD_gfqBXEkR9MsHk4PUbMfPxPIWW.tH.ijFqtkxdAYuyLAGj6YPbc3jhsz4uRGb10aC
+ zL47_yfQ5R84jkyi6HJ92mnJ8zSUEjYSo1lcaFiYTAT2hSWiiNAREi7p41UnoEY2Q1qhiDDSb25N
+ JjX2QaY4OHJrXZ.fjtxh4fgmzbsfMTPmmi3w5RthJoTHtNRiC.3NuTOk6zqGGUmcggpmNWg3wVth
+ CR5IkLsbNTDebynxCg_vqjuWbS_DCPlzVIhcZksaqJfuMRKhUPWvbJ7KqZ4YkrtwKZFhRPF.MK8Q
+ bNnnaTeXoCWpEnaPZTO85P_PV42mvQk1PL6tr0UcaZ_jJbMDlr2ScRg.FJO3NjC7qZpxkeZKscUC
+ pyBuJTF0zYX2qlqiC699f8M.XQDSelniNIJo5cMuNiwpNY0qSGJqDiTe8tjPuZoS0xb7okpkLc_5
+ bjqmeVwcnhTISVoKbSjz0_hjKgPr361bM_2uFN4ExzVsgG9deU4IOOkHz6Jf01NACGb6K0LSpxLU
+ LKH9RIdte85ncxu8UjcLj8MBStr7uQhU0LkJkC2o9s1dy3njpvKijOzwrsU_4ncWjHjq_CeoeuuW
+ G9VENgN.grpbteO9Q5GN1x6plkGDjuPL7aVYP55vddMVPZRRlennk6ObilY2YOr3mlWCumzbp.DI
+ sWEYdLLtw_AEDlpTr5f6U4Oz3NewOK62mO5ZiWrcpbVPjrWvVvOv.StO8lNacZhftZKcl2Zimm_i
+ K6wCtJDJHLsbvksdke9rZ6sUjOtFOrC7j.BvbvboqM2b1qSBT0BG.VSW5vPLYxLliySwjP7nu9KJ
+ JsRYGyeUjHRl3nxBevg9LjIETNIfYe720n4yIRv6ZjRGAPqhXrr6HktnmkxBgkCDAEQxaJZxO5B.
+ ybbkgJUgMqGp7Ssmja5fbapTcxxWl0TDFDgF.Nz35QCvp_zh4A_0PeIsIVQ2IoS9WXp2QJ1LIebS
+ xRTdXdWmlqSptSKOoH9eWM3d.OtwjjcmibZ9Gu62wPUQdDVJDyMjJFymrjTrBKw01if4pmBXVus2
+ si4YsJVMydc1ZJpMsI1_sfXnmTkiYYjxDJb.s4VyjhZ_thoLbq7XQlnGZt3dLx.lpnG6zm9rYYLq
+ v5nmnGF3vJwOiM4MFgeWDXXBJ95hvHzbIQBwdfMvzlxFgKkUrGiFdDavqkX9f8X3aERB3iNOJXLb
+ NjC9jCpKoVd0DpKYaOhBKIhlOXNQK18t47IcKHU2rhbOfFncSooDHFzmQhsocgyPQwZlUiYzKH.s
+ zGd_H0NkZ_20M0PMkSOcjiJ2LcN0YsHNTUUS17hls9DkWth3PlmijUX04uWtIgtBiwCHXJV9XioF
+ VgqIgglMQarcnJwYGocwI9a_9sAYXnvbd.pZhTX3n4DcbH9xJvGiFmJ68G8SlZsnWIJgEW0IQML2
+ mcunPW5fY_DDduIQl.crWI9y369ny9pyYdEYBriElfccH76hZuuvsJp3hOl7srGkUzfDO_wb.7_P
+ IEZz_JmcbEhQIRK2zpUqsxAlBfUIP_evlPWf4n7zGvQR4r9K426s-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic301.consmr.mail.gq1.yahoo.com with HTTP; Sun, 10 Jul 2022 19:30:12 +0000
+Date: Sun, 10 Jul 2022 19:18:36 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Cc: James Comey <jbc2167@columbia.edu>, 
+	Daniel Richman <dcr2132@columbia.edu>, 
+	Daniel Charles Richman <drichm@law.columbia.edu>
+Message-ID: <1474321060.361581.1657480716825@mail.yahoo.com>
+Subject: Bureau
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_361580_1205217373.1657480716824"
+References: <1474321060.361581.1657480716825.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 1761
+
+------=_Part_361580_1205217373.1657480716824
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+https://m.facebook.com/story.php?story_fbid=3Dpfbid0346jdDK7FhdbV12FGbR3CTu=
+MLrFWj5KRMQWCmFGtd2k7Uhfi3EuFjU1pawE3u2PYal&id=3D506822379&sfnsn=3Dmo
+/S/ BO DINCER.
+Had to do it. BC .=C2=A0 Just in case, if Richman pulled some stunt to get =
+you on a panel. I am so down to post up a Richman or a combine of clows in =
+the stonehearst asylum for questioning..
+But not by me. That's fair.=C2=A0 Hahah
+------=_Part_361580_1205217373.1657480716824
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<pre style=3D"white-space: pre-wrap; font-family: inherit; margin:0;"><a id=
+=3D"linkAnchor_1657480602173" class=3D"linkEnhancr_shared_link" href=3D"htt=
+ps://m.facebook.com/story.php?story_fbid=3Dpfbid0346jdDK7FhdbV12FGbR3CTuMLr=
+FWj5KRMQWCmFGtd2k7Uhfi3EuFjU1pawE3u2PYal&amp;id=3D506822379&amp;sfnsn=3Dmo"=
+ data-yahoo-extracted-link=3D"true">https://m.facebook.com/story.php?story_=
+fbid=3Dpfbid0346jdDK7FhdbV12FGbR3CTuMLrFWj5KRMQWCmFGtd2k7Uhfi3EuFjU1pawE3u2=
+PYal&amp;id=3D506822379&amp;sfnsn=3Dmo</a></pre><br><div id=3D"ymail_androi=
+d_signature">/S/ BO DINCER.</div><div id=3D"yMail_cursorElementTracker_1657=
+480628304"><br></div><div id=3D"yMail_cursorElementTracker_1657480628421">H=
+ad to do it. BC .&nbsp; Just in case, if Richman pulled some stunt to get y=
+ou on a panel. I am so down to post up a Richman or a combine of clows in t=
+he stonehearst asylum for questioning..</div><div id=3D"yMail_cursorElement=
+Tracker_1657480700627"><br></div><div id=3D"yMail_cursorElementTracker_1657=
+480700807">But not by me. That's fair.&nbsp; Hahah</div>
+------=_Part_361580_1205217373.1657480716824--

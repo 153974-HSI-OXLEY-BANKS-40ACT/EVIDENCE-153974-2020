@@ -1,0 +1,103 @@
+From - Sun Aug 28 22:40:49 2022
+X-Account-Key: account1
+X-UIDL: APC8lLtoJ2n1YrZwEgL5uJzSURM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.247
+ by atlas324.free.mail.ne1.yahoo.com with HTTPS; Sat, 25 Jun 2022 02:17:06 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.65.31]
+Received-SPF: pass (domain of yahoo.com designates 98.137.65.31 as permitted sender)
+Authentication-Results: atlas324.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 25 Jun 2022 02:17:06 +0000
+X-YMailISG: UtFtlRoWLDuyQfJ299B65_9pztqXieICFLib0FmYao_a6pMu
+ xu789Xfngjp6afMxtd0OLjdVnc04RAQlASSLPz_.Cs4aMAmK40llqmO7PrWK
+ L30jYJao7649uK1J5G2eZ9JCt3HH6qp9RfjMJ30.ZaPqVG55oOL7TSuA.QYR
+ XEWDdkQuK92YIg66bOB.UmN33A_GB2Y0fSdZOWLvyKwLF38HilgoOhseJXFw
+ pgnxqUoSMERWP_laSEULclfvt1YV4Zr0CVBewepGxhM94x78IHbkhvMdIESr
+ tmDWXOfTCMckl8NOzq9yjfwkvbLANHgSrgkQc_fxGWpk6Ta8vBnMj0aKLyxm
+ qOvR.w4rs2FuKcrS64oRlkWG4G.Ki6OYbScWrcVJWdnbGBmtDLFCezFDD0lf
+ CdlLE9lL.Dtf46DTO.MfPs1SpOmfnYxg3TW6d_xcKU2Asz_Ir2iPqKDKVlJ2
+ 0NJZqPLQcP2y._DYooD2fWZXO8pTlR4QUWNKt8w8R0P8QJxYXT2KSZxPhIw.
+ gCI55r9FU_fkYAHAcO1sVya6.C0OrdENJrRJEf0eJCBjDNn9byZEjpXnVOI8
+ ep8EV5rmB0Jm_QRctybQ9Ttfidjn2h4hiWZrO0vFK47Bf_uB5P0_KknGvDLs
+ sNjcS2eRl_USq0WR_2yXrDO5FSCopbZelXJEZozECHdMzAV0HAa7yLz6sbNQ
+ JmLAc9.yNSc261Fkqm8MPPKY_FoW4GrywlCqBTXntBjkthLrUMClfC3mjLPn
+ qUjMZZsGzlELSYYfUZHLBDXAigZfq555U3VsiVAxTmG3DEA29j3mC_Qgah2J
+ 60TixOXPJeEoPtMujjG3Oxd1x2EIPXaL3drIxZfY_N1sBYzw26DuEt28Icue
+ ozFf3NxXgRBaCF99UfC8BuDiWWw0xNJp0gmYoeQJkjbcGs27La.LLIHPIBm.
+ YlppYd3S1oiv5AuVWF0AYS00fcl9dqqzIb7G4s75vz6pO0H8GYPT0mZMWUU5
+ WGmv3aGnHW.M0YKWw6DgfiF38fmNu.DcaBL0zhFPCmuSVxOcy9SP9pjk6QaU
+ KCgaYt_5fYyn5E1lIh09jGWk2P9nj.Lps4fv9I_DXTXfJ9DYPxhDYD8xQX8-
+Received: from 98.137.65.31 (EHLO sonic315-55.consmr.mail.gq1.yahoo.com)
+ by 10.223.248.247 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 25 Jun 2022 02:17:06 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656123425; bh=w0BOifLtC/M/UolRPA5GMEB1hg8ZsL9vBs9B+WJQSfk=; h=Date:From:Reply-To:To:Subject:References:From:Subject:Reply-To; b=URbUFTvobFFSOu1cQJFQ9NDtwRoL6TESkMFYxIuMQq6t2svhd9xXdlg5U6hLB9kkr4KHGgNDe41ZSwK9qehgL7zTZ0+eH/utlgBexzvAra2bZJeEoJz18Z5QIPkbEqXr3oR/mRGHKTq/GNAhMPcjcSVvdLMCH53KXIVXqfyJDcyZXMraGej2nOdqoLEEMJ0ZIwaV2eSyXkFq/JCc235+nlPA6DeMMowODn+ktfOSGE7ok8J+SPYGFFcqCAB78OoQ+y9yK92RJMB1WEyFc8rSjnIs52DGzm27p6B3iksEf/Co68xntMEpUijonqgWx5l8UaqA9bQy0+m7iIFvP1oJeg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656123425; bh=UOzmUZUhxOG6Yx1kMkQcNuLVzbCXEeqCCToXtdtkSGV=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=uMuAO6zDkUnKW/HAZ9S+bBXPFXf0ATnMw/5mxkm1wHkQhafjUhDgfK1lUdoVzRnMMsnOKUbpvszdpM0CTCf9e36PLzMbpIuWPomRPu3GGryHEqNnN91VLQmcYv33FTfdqInRUUfnI1a9f/wEXkQwlmCUAR1ztwlV/HcqfVCnJBT/KiHVYFlieumhWdWYP3wfBYtkcfwYOxQVRyqkllOvzJ9DZ2Di4pv1oHkNznWBtpQviAccHIASYWbypRIv7zsLfIseLij8SEJIJKOCOZ2MqMtnF6BLB/Hc8LyLaSmR5usDHfXFjAG0eyKeyTMrE3uxwtFWkBBaaYKymoPgkOTUPw==
+X-YMail-OSG: NdIl4.YVM1nLKgfMjGyWF7vSyKc4H20ITVhsqN91tuQXKL7jrA2bu9NsPQul0Ga
+ LDIaknwl2GNqxbxuX6PyE.X8I83Y3_.j.OQGKgpQGPijtjyJGF_w7SSxqwiw5SO803r4tQr9wdX6
+ .8h4JDPF27wBLGgfo_CsMAs2qzOv4BgMzsO3ePtGq4Gi8giYg9XUqyERLa_QTIXxY9Rwo.G6ohu0
+ T3GIg77BlIhQfkEx6niiABcIcsMnHOWLvoB6bje2V6Zpcjg0WaxuY0mUUw1r68U15SSqzN.iU6IG
+ dQydLpMP2UdhS1gxiOmAA7QlR4uM.d.r8c0T60MBHqrXD2cTDaaBMS7AphBuJDUBj_KniNlZA6Gd
+ clpj_i5toSad7CqY3dQJfL4zCgD8Rc9LbBKd4QJNkWAY2raAMH7tjUs2Npo2fQfsxthoHLRTuSi1
+ rwd98vCJ0KmBuqwyvBzJy1Mf767krCG0lTp6KqmIqYInR.H605D3FYNOhHZ09ZgwUR8Mk0ack_kT
+ pmizAURkrvKEeT_KqSxwuuDHsmlR2rpJ8J3PUltMQx9TpBZdqNDvkVCvuWMZsGJE3o5btVYvh_k8
+ wA75onvgIaBFw7pU_Vn1nee452bq3kUuBNpU7Ffi_Vo8_XEpKMmkyq.jtm2Vwdm7Qf7y.VzAc5.E
+ 48Fa0P1WPBjw4fthRYVp6ql7NyadMskOtkzxONfCmBsOYYAuhdIWTw7ofdoLmM1NmCHmGjPEujCP
+ HFcbJiHxuq_6AdNxQqKLYe6qVS0CTWMsSC0XoF1CWf9CN.m9X.WhMoicimVXaEthDM.EbAYbacVv
+ huwtv6vAznbXZQ87kOM3XOe2gtudiuwpji3AjjCHtyqto6W3PVqgLAuVRUXtQe6_XDDj_aepRARY
+ 75_0ZZLWJAado9Soi8Nyy2pFofPZdBIoT8cRAPtz3WTeSFkbbc7tVT_TAn.ds0mTjF56z2cCdHvT
+ RdrM9OYNIQQcF3Yi0jXZ_b1a.ryzR89W8DDzpo.QAFu7P9EI1UY_NfOV2ANGr8XN9RNhnRlo5SPT
+ xOBEgDcf.XP1FF5ZrLHDTBXz3112Lwp5jtRbBtMA01bVwDW5POpVRT6n5I8un9vHKPHyEj2foOQ6
+ 1ZTrNJ6CB8T5KFKC9JxzJmhW2f_PVDy1bYvnATdh3y3xnwN_IpZ49Txjk4dx4.gZaolOLSCQcQBi
+ UXW2Q84yLLJkJ7.AKiBL3NeZz7oPaamQsS6L1thQHDfASGNM8flC.n_vHv2a9C7Z7SBUmXgTKQ4j
+ GCPVJgorheJnZhoGd9MNEzlPdRbtlOYSvF0aIdUXruXIyaC6s23aZkOcQcojODT3lOrSlXsevmcf
+ uasLtgycZATjbzmRfmIBW.P8WXrGr7bT60Aq7zp0kLc7XpGWVY5nFCdmF49MMerVv1HrMOXWFNC0
+ 22Cke3x429u8V8u7UcZd0AXgy9ztPu9TB3N9bhwWCJ7WxB_5hT8EubKwXAVSvq1ey10gffe1lufv
+ _xqS7KwRkMusTpJfafYHSQQdBo_w5AZf07zGjTVmNTjTFWOTO0j02YufUnGKRtPPTzw3lXNoUHcW
+ nzsE3Uij1kfj7HOUbQKsXFAiTj7gQMAkJ_0Un7nRwhQzGy20XbcnXCWIUbEoU1lQJsk80q0uef63
+ Bc6UYGBgYr68rPcej7DpaOBe_9zqvk25i4IxhEzTShwjbfaTI1CaYcTLyQDyO5m5M1h7Rr1jW5s9
+ Rku62pUczAHP0yaAg8StUCTr60_VUixUtJRpyKGdVO08.TSkHBiEraWF1M5H6DMKbD.IuxAm0J5g
+ Sw91Z87SHg3n5wWT7WK90iEwTeiZw9hhqIqnOkzM706fesWQom67BZpGNg6d08hpAarnpnxvkLFA
+ vmCtU69_7_pMxfqrLquyM2WN5l32QoJ05PUFSpqHl19eP0Yzxi.nO_SVLnhG515LO8l_jOwvELBQ
+ gvMTR3Rh2ftTQH5wdcOlClU.LMn195Y1_GNqcdDK60uXpV3xKZe9nxXMk1Cide6tNSUjiMKHkXCO
+ 74eKK26dpn3guJEW3X7or2vlegIznJStHvNkuOl.6AWqoEEOnNuLjj0wUBBu8jklv0.7fZqNVsu2
+ UHphfeqmK09VdKXwvdn.EjC2WrFE_7.81P5QDfby6UWCqMe4HZLmUjWxtq9rhwymvteTXCtGUgQR
+ RkU5ZTdDIhq_L__uqJumPIBihkehCsdKUzpudHkR093Q9cdMfeFQHY0LNfEaRvQlAJD8lti_Ydao
+ ZDjDNbGEcUv5oRQ_PQ5uFvRXbnRPU9PD6E1M9EUXwgPjdsiTwuagBKxsGZdXmSFv48Ac3v2rTz10
+ Pra4lHOvoq0FTKblJwTWPivi.a8d6QT8naavZgWu.VBeszj1iEf_6h2BenEnxkznzBSQRCy4aFUQ
+ RW.bRSgi_z8LM0dh496vW.OWe6WS0yH52Zww5ZKJruxBSkGuCqXamJKE1NF5F5g--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.gq1.yahoo.com with HTTP; Sat, 25 Jun 2022 02:17:05 +0000
+Date: Sat, 25 Jun 2022 02:17:00 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>, 
+	Governor Hochul <governor.hochul@exec.ny.gov>
+Message-ID: <384131625.135162.1656123420678@mail.yahoo.com>
+Subject: Example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_135161_607298499.1656123420677"
+References: <384131625.135162.1656123420678.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 658
+
+------=_Part_135161_607298499.1656123420677
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+https://www.sec.gov/Archives/edgar/data/25743/000138713113000737/ex14_02.htm
+
+
+------=_Part_135161_607298499.1656123420677
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<a id="linkextractor__1656123399908" data-yahoo-extracted-link="true" href="https://www.sec.gov/Archives/edgar/data/25743/000138713113000737/ex14_02.htm">https://www.sec.gov/Archives/edgar/data/25743/000138713113000737/ex14_02.htm</a><br><div id="yMail_cursorElementTracker_1656123399929"><br></div>
+------=_Part_135161_607298499.1656123420677--

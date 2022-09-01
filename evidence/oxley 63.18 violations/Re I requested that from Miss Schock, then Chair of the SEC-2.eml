@@ -1,0 +1,229 @@
+From - Sun Aug 28 22:45:12 2022
+X-Account-Key: account1
+X-UIDL: AJnCroQqN/tIYstl5AL10OTpfLM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.166
+ by atlas224.free.mail.ne1.yahoo.com with HTTPS; Sun, 10 Jul 2022 23:50:59 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.48]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.48 as permitted sender)
+Authentication-Results: atlas224.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 23:50:59 +0000
+X-YMailISG: Uy0BohYWLDvDBU2xTq6oNgQ1P6Hk1vJlAr3bUOJ1vwIBZn8i
+ ppePnbZamwJQXNp7A.T79KJ8i4MuYPtlAxifdfHeFH09R6d.Cflp26N7D9KH
+ SRyAnCP.BYDEXPqch81CN0wmJsiuhYqnUuWxug1n7Hq.y4TQ5hHeiEhF7zWw
+ l0J1O4mXw6nTz_PuxXlVi9Ao8GZDqWgKhVjJxH.JPzFXsic4B0iOfxScwanD
+ tFEbC_xSDsYSXtDHdvPzDDC41uFJ1qTCIRxYoTVCOrB5YkYDuq5bkkXPB4Lu
+ XxTmu_9l60lMFJyzkiTiHJwrAOA08oq2Y8Xz9S.VYreKYJPm5_MFEGN6FT6c
+ 0W7Xu4gVtafpVNeMY1R2TR.ctqgyaFXC20fr3c62KjnikriYfEwVee7w4aL2
+ 9slukJkF5hkkLGmTdeEQO4YXmW.yuiQUEGOppOBjwRl7dYIW16Y9hHR1P1q9
+ apbCU6W8ttmBn7zJCekDXUlPnSPkiWZJNd0LNv.EPl1u4_2Uv7WnN9n3LUEX
+ zLtmDVGuYEwhZ9V9U9rG.QRjWc44ovnfuSEXC9Q3rfXcoOD3_jToaW2ADtxm
+ gyxBVT0me7MGDrKgf8_ySA07oiUvwNmjxXxn5pcmXb.Q11m1MILONKqdk1p.
+ n.tRZEOsHg6sI7BVg1cyzEfpWGpIXm0XzCkJBcVlqHzIUtL3yJwK6ry8Rrxy
+ dZsuOBQCv1NEYatRpDN21mv0tYqkLU8jMQlEFJRvapTEqijQb5oORCKceBjE
+ AWh0yZe4XagVC2_1kVTNjlWRQrPJIcbf2chmNGpTy7ukUv9tBFqTnlto9Abf
+ rjaDq1uSsFU7iTkq0IO_uo5sGvNuTjVv15XPu6bktqlE1it.91m.rw7agFHj
+ MnWx1K8aqqeKKnfNbEskIy2BXSv0ozwMaJX68fOJmozZrgMm_HXUHqAe5YvM
+ TfNkGOa00uMin7F1T_ybMWsgxmvJPDM45_nW4thXgtuzW5RWABL5WFjydIUH
+ xKcLr4uqj6wkWXtIq.HyDz80V54JmCgWjroXaJiqMiqPYASJPNOxDgLf5rnh
+ ugueguQZEQGas9O8cOufw2wglLW1sY_ZtYBMb9zEzXtsGFUJ1l6.gf5cMG1_
+ 6uB_Tbiyw58zbpgg4vU_oamqWcX8Bkgw9b4I.2ErkC63LKyeWsr6lkpRnako
+ s30.uzBXCUUr6vIngOSih2XGvg.dfpMcjPPxwXmx_Ekeog--
+Received: from 209.85.166.48 (EHLO mail-io1-f48.google.com)
+ by 10.217.135.166 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 23:50:59 +0000
+Received: by mail-io1-f48.google.com with SMTP id h200so3583062iof.9;
+        Sun, 10 Jul 2022 16:50:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=Vycus1bTOflJJD+115GavsyZPs4l9bI2g71+TFDs0RA=;
+        b=X2yY+FlYVNGP8yjM67rLwapCTrkOsBblvRMQoTfy0usun2UDGohzOv+8IzcRQD9nui
+         bAs1GZIfqi0GdC+NhQp0qx5oW2eDnPbJcSV0KmPR8JYlFIzo/GRSl60e7eY6siGCY1hz
+         WxRMJQKb7PueK0qjd3hmYmu1VEwtKe5SGG0jtf3wr1NOEvvdWu6Un57o6B5q9QCnsQI6
+         zc2OBYwyQOjubXJcyfWY77VmCaCBdLg8WX0gYUHakt8wDHXubp3RAUl/RHLVlIfvQ5Iy
+         gFMStEAelZXkGHLlfG0BW0piwvrfWbrEk8+0C4IQ6kOWn2DC3Z7HEfrP6aUUZgbngy5K
+         cq9A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=Vycus1bTOflJJD+115GavsyZPs4l9bI2g71+TFDs0RA=;
+        b=2QMEG2pCI7NKWVxfZfTDy7qRqBMjhQYnQhDzCnmEID1lEESigWLaMvrApBpCMl1WbK
+         iIsfg9usnEq9gBCBUiwB9GXb69Jckh/aak/F+HgRGrYw7aC9miYS8ojquxoUGAHNDRaF
+         qiBjHr9tE9/tr0NFYCPOTXguvafxv32MHEWEvv4HAMb7om2RG44twJesFTgd8fQ0dnd5
+         eAlKV8/lkHpHah30uvDHYfd41UGSSg1XYrfJKXOk0Hxd+gg7XHpazjkFovvPLDUKJOjC
+         NHXEWNNyETPCXdu6lglx6NFSKZ9IADN7JyKPPVlJP8u0wBfxeTZli0pupXVpWeMxY2sN
+         YG0w==
+X-Gm-Message-State: AJIora+tRc2wW+nKNHkumoVtnLyYtXWiXX8m/b7DHrrZXKGaG7IgbKpe
+	+ynpMZ7bg1gYI7Dtfsoaq/xU1rCEZxiSAlz6PA8=
+X-Google-Smtp-Source: AGRyM1t5TZPw6yfj78cZzl9B+WjY/vt3cK08Mmh7jh5IvffFvuL4wXdGR/r4GjWLEP4iIUi3yCRGY3xMtZ+LvX88eGQ=
+X-Received: by 2002:a05:6602:1586:b0:67b:8e55:6aca with SMTP id
+ e6-20020a056602158600b0067b8e556acamr1438845iow.122.1657497059310; Sun, 10
+ Jul 2022 16:50:59 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOHu48_CRZ8+Qkay=oG0D7vOOT1G753iW6WnUND=eAmzsCFMTw@mail.gmail.com>
+ <CAOHu48_x7Fe=1HhytSWxGaUNXfLN6sn7cPc2_u89A4YD2JafGA@mail.gmail.com>
+In-Reply-To: <CAOHu48_x7Fe=1HhytSWxGaUNXfLN6sn7cPc2_u89A4YD2JafGA@mail.gmail.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Sun, 10 Jul 2022 19:50:48 -0400
+Message-ID: <CAOHu489J-iddgszk7+okpuiFHZEE-syGacdE=GA3bpbte8SJfA@mail.gmail.com>
+Subject: Re: I requested that from Miss Schock, then Chair of the SEC
+To: fbi@subscriptions.fbi.gov, ogis@nara.gov, 
+	BBO 121 <ms60710444266@yahoo.com>, Bo Dincer <bdincer66@icloud.com>, 
+	Bo Dincer <BO.DINCER@yahoo.com>, Chair <chair@sec.gov>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, atr.cpa@usdoj.gov, atr.international@usdoj.gov, 
+	atr.eag@usdoj.gov, praghuram2@bloomberg.net, ksaperstein2@bloomberg.net, 
+	kerri.saperstein@morgansley.com, 
+	"PRIYA.RAGHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, mshyld@bloomberg.net, 
+	=?UTF-8?Q?Steve_O=E2=80=99Connell?= <Sgo2107@columbia.edu>, 
+	lzucker@mskyline.com, Paul Regan <legal@mskyline.com>, 
+	"Humphries, Ashley V." <ashley.humphries@wilsonelser.com>, 
+	FDIC Public Information <publicinfo@fdic.gov>, edi.civil.rights.division@irs.gov, 
+	Secretarys-Office@sec.gov, David Moore <david.moore.ct95@statefarm.com>, 
+	"CHICAGO@SEC.GOV" <chicago@sec.gov>, espnfrontrow@espn.com.com
+Cc: rebnycounsel@rebny.com, General Law Unit <generallaw.unit@fdny.nyc.gov>, 
+	KATHY HOCHUL <governor.hochul@exec.ny.gov>, foiaconsultsandref@atf.gov, 
+	ELECTRONIC FILE <efoia@fdic.gov>, espnfrontrow@espn.com, 
+	Vogue <vogcustserv@cdsfulfillment.com>, tmprosecutordocs@uspto.gov, 
+	js@gc.columbia.edu, edelivery@morganstanley.com, mshy1@bloomberg.net, 
+	mshy2@bloomberg.net, Bd Dincer <bdincer211@bloomberg.net>, 
+	B Dincer <bdincer1768@bloomberg.net>, bdincer1738@bloomberg.net, 
+	b.dincer@columbia.edu, Bo Dincer <bd2561@columbia.edu>, gsamonlinerequest@gs.com, 
+	JPMCinvestorrelations@jpmchase.com, SOHO HOUSE <membership@sohohouse.com>, 
+	kcco-efile@nycourts.gov, efile@nycourts.gov, Nyscef <nyscef@nycourts.gov>, 
+	letters@nypost.com, noreplypio@supremecourt.gov, Kpmg Info <info@kpmg.com>, 
+	bop-ipp-publicaffairs@bop.gov, BOP-RSD-PREACOORDINATOR@bop.gov, 
+	NYM-PREAComplianceMgr-S@bop.gov, "BD (NYSBA MRC)" <mrc@nysba.org>, 
+	"Laskowitz, Shari" <slaskowitz@ingramllp.com>
+Content-Type: multipart/alternative; boundary="0000000000006fc1f105e37c1be3"
+Content-Length: 6692
+
+--0000000000006fc1f105e37c1be3
+Content-Type: text/plain; charset="UTF-8"
+
+The New York City Board of Transportation
+<https://en.m.wikipedia.org/wiki/New_York_City_Board_of_Transportation> took
+over operation of the powerhouse when it acquired the IRT in 1940.
+
+19:40 timestamped.
+
+https://www.fbi.gov/video-repository/newss-chasing-the-dragon-the-life-of-an-opiate-addict/file_view
+
++ a Manhattan affair?? Whatttttttttt5
+
+On Sun, Jul 10, 2022, 6:44 PM BO DINCER <bondstrt007@gmail.com> wrote:
+
+>
+>
+> On Sun, Jul 10, 2022, 6:41 PM BO DINCER <bondstrt007@gmail.com> wrote:
+>
+>>  $150 Billion dollars and posted both firm CRD 8209 and also
+>> iceglobalnetwork-info@ice.com contemporaneously.
+>>
+>> That was months ago, i will also find that
+>>  - and her response, notwithstanding my request to have those interested
+>> parties arrested as well.
+>>
+>> Also directly to Ricki Roer of Wilson Elser, then regional manager of
+>> their New York offices at 150 East 42nd Street, New York, NY, 10017.
+>>
+>> Did she share that information with you?
+>>
+>> Theres a link with the conversations and emails. I forgot what page, but
+>> its in one link.
+>>
+>> Also ask them about those two email addresses that were deleted, or was
+>> it three in a day... and then two after dec 22, 2021. Ticker,, STFGX
+>> MATERIAL CORPORATE ACTION ACRIS 6MM. OR SOMETHING LIKE THAT.
+>>
+>> MAYBE ITS IN THE INDEX TCR5 LINK?
+>>
+>>
+>>
+>> https://support.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=document+index+TCR5.pdf
+>>
+>
+
+--0000000000006fc1f105e37c1be3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><span style=3D"color:rgb(32,33,34);font-family:-apple-sys=
+tem,blinkmacsystemfont,&quot;segoe ui&quot;,roboto,lato,helvetica,arial,san=
+s-serif;font-size:16px;background-color:rgb(255,255,255)">The=C2=A0</span><=
+a href=3D"https://en.m.wikipedia.org/wiki/New_York_City_Board_of_Transporta=
+tion" style=3D"margin:0px;padding:0px;border:0px;line-height:inherit;font-f=
+amily:-apple-system,blinkmacsystemfont,&quot;segoe ui&quot;,roboto,lato,hel=
+vetica,arial,sans-serif;font-size:16px;vertical-align:baseline;background:n=
+one rgb(255,255,255);color:rgb(51,102,204);text-decoration-line:none" targe=
+t=3D"_blank" rel=3D"noreferrer">New York City Board of Transportation</a><s=
+pan style=3D"color:rgb(32,33,34);font-family:-apple-system,blinkmacsystemfo=
+nt,&quot;segoe ui&quot;,roboto,lato,helvetica,arial,sans-serif;font-size:16=
+px;background-color:rgb(255,255,255)">=C2=A0took over operation of the powe=
+rhouse when it acquired the IRT in 1940.</span><div dir=3D"auto"><font colo=
+r=3D"#202122" face=3D"-apple-system, blinkmacsystemfont, segoe ui, roboto, =
+lato, helvetica, arial, sans-serif"><span style=3D"font-size:16px"><br></sp=
+an></font></div><div dir=3D"auto"><font color=3D"#202122" face=3D"-apple-sy=
+stem, blinkmacsystemfont, segoe ui, roboto, lato, helvetica, arial, sans-se=
+rif"><span style=3D"font-size:16px">19:40 timestamped.<br></span></font><di=
+v dir=3D"auto"><span style=3D"color:rgb(32,33,34);font-family:-apple-system=
+,blinkmacsystemfont,&quot;segoe ui&quot;,roboto,lato,helvetica,arial,sans-s=
+erif;font-size:16px;background-color:rgb(255,255,255)"><br></span></div><di=
+v dir=3D"auto"><span style=3D"color:rgb(32,33,34);font-family:-apple-system=
+,blinkmacsystemfont,&quot;segoe ui&quot;,roboto,lato,helvetica,arial,sans-s=
+erif;font-size:16px;background-color:rgb(255,255,255)"><a href=3D"https://w=
+ww.fbi.gov/video-repository/newss-chasing-the-dragon-the-life-of-an-opiate-=
+addict/file_view">https://www.fbi.gov/video-repository/newss-chasing-the-dr=
+agon-the-life-of-an-opiate-addict/file_view</a></span></div><div dir=3D"aut=
+o"><span style=3D"color:rgb(32,33,34);font-family:-apple-system,blinkmacsys=
+temfont,&quot;segoe ui&quot;,roboto,lato,helvetica,arial,sans-serif;font-si=
+ze:16px;background-color:rgb(255,255,255)"><br></span></div><div dir=3D"aut=
+o"><span style=3D"color:rgb(32,33,34);font-family:-apple-system,blinkmacsys=
+temfont,&quot;segoe ui&quot;,roboto,lato,helvetica,arial,sans-serif;font-si=
+ze:16px;background-color:rgb(255,255,255)">+ a Manhattan affair?? Whatttttt=
+tttt5</span></div></div></div><br><div class=3D"gmail_quote"><div dir=3D"lt=
+r" class=3D"gmail_attr">On Sun, Jul 10, 2022, 6:44 PM BO DINCER &lt;<a href=
+=3D"mailto:bondstrt007@gmail.com" target=3D"_blank" rel=3D"noreferrer">bond=
+strt007@gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><d=
+iv dir=3D"auto"><div><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" cl=
+ass=3D"gmail_attr">On Sun, Jul 10, 2022, 6:41 PM BO DINCER &lt;<a href=3D"m=
+ailto:bondstrt007@gmail.com" rel=3D"noreferrer noreferrer" target=3D"_blank=
+">bondstrt007@gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_=
+quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1=
+ex"><div dir=3D"auto">=C2=A0$150 Billion dollars and posted both firm CRD 8=
+209 and also <a href=3D"mailto:iceglobalnetwork-info@ice.com" rel=3D"norefe=
+rrer noreferrer noreferrer noreferrer" target=3D"_blank">iceglobalnetwork-i=
+nfo@ice.com</a> contemporaneously.<div dir=3D"auto"><br></div><div dir=3D"a=
+uto">That was months ago, i will also find that</div><div dir=3D"auto">=C2=
+=A0- and her response, notwithstanding my request to have those interested =
+parties arrested as well.</div><div dir=3D"auto"><br></div><div dir=3D"auto=
+">Also directly to Ricki Roer of Wilson Elser, then regional manager of the=
+ir New York offices at 150 East 42nd Street, New York, NY, 10017.</div><div=
+ dir=3D"auto"><br></div><div dir=3D"auto">Did she share that information wi=
+th you?</div><div dir=3D"auto"><br></div><div dir=3D"auto">Theres a link wi=
+th the conversations and emails. I forgot what page, but its in one link.</=
+div><div dir=3D"auto"><br></div><div dir=3D"auto">Also ask them about those=
+ two email addresses that were deleted, or was it three in a day... and the=
+n two after dec 22, 2021. Ticker,, STFGX MATERIAL CORPORATE ACTION ACRIS 6M=
+M. OR SOMETHING LIKE THAT.=C2=A0</div><div dir=3D"auto"><br></div><div dir=
+=3D"auto">MAYBE ITS IN THE INDEX TCR5 LINK?</div><div dir=3D"auto"><br><div=
+ dir=3D"auto"><br></div><div dir=3D"auto"><a href=3D"https://support.nysba.=
+org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?name=3Ddocument+index+TCR5=
+.pdf" rel=3D"noreferrer noreferrer noreferrer noreferrer" target=3D"_blank"=
+>https://support.nysba.org/attachments/token/QbsG15WuYgWMsWxvAGkh1glW7/?nam=
+e=3Ddocument+index+TCR5.pdf</a><br></div></div></div>
+</blockquote></div></div></div>
+</blockquote></div>
+
+--0000000000006fc1f105e37c1be3--

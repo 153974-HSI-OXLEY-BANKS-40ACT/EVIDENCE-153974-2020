@@ -1,0 +1,206 @@
+From - Sun Aug 28 22:42:40 2022
+X-Account-Key: account1
+X-UIDL: AB4ZOG8QAVwbYsWz+QjCMBtlCX0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.93
+ by atlas224.free.mail.ne1.yahoo.com with HTTPS; Wed, 6 Jul 2022 16:10:32 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.173]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.173 as permitted sender)
+Authentication-Results: atlas224.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 6 Jul 2022 16:10:33 +0000
+X-YMailAVSC: 4sMHWAQ3bBuWRC092c8m4SZ1PGRO8moIYf95gmnjenHQH18
+ pjVeSnA1YDYeSvXN_NROPEoYBP.SjJYa8ReQ6QlHtrq8M3JQ3jqx.kz0zBmk
+ I6F_BaN6D_Tj6DMJb26pTOETOmxohzVi15R_iw0R.1vjEX8KAI2QGaJ.mrfs
+ vScMaKNIoD2twMIF4BTmHy7hnGvw2kYuNkqN.lV8afwzAxlY9A6q4g5qnOvh
+ UWha6qSoN5nWjvJtATnHscMDDyM02J5FqBC0pH0QkaPPxHdc9QBPJxwQQNzB
+ 5uweKHF8vJ8dCr0nCxkEeoFLXsDQW5HfqM5xG0heXwv2tdbaAj3hph9eJTfD
+ _nVw_KOo64PmfXRHonT6VwQB0nwl_IdmVl_g-
+X-YMailISG: Nj07EnoWLDuyj_HMeisPhFc9RD4xTRID8D8E0DhkbYXBys3_
+ OQ3YHdynUKikcRP04JEEWkRxOUdSTdB0NabzNn9mfItywIL.W1m1LlgLtsBJ
+ 0HGGwNgLkHa8nK9DnwthpdvruX.IkhH7I4D2Dfys1W2i2n7AzFZl8LzGQQFC
+ 3tN6pU92LgKP2UdvlSlWvfbsbiusaeLL9Qi3N0WJxotBMhimjTEdYmHvpJoN
+ D3OqY6i86mjQTR.2jcsHN.lwC8drBzRBFUruixBcfKwNAPkFRzdeAxWbQcVV
+ 5jTJtb6xsTOU5mot3h5UWipqrtOqbSr5seDMKm1DcMZkqB4kKXbONiM0imwX
+ BUzZshmEKOsPeXQ7W1FThQyFtNbw4PRP0IeGAkHoQo8W8xYnOxc_W_vQ1A8c
+ r1JAMSEna6X52DvyBz19fHnwqYnz0uzdeR1XECRxqDfPAHb.aeRHetuceUme
+ CYekbAAoFEJKXmlXvphoLrqw1ON6OEmFo_s5_NLDM.8jDWK5xpj5vFZGFZPw
+ PYUYLzraJJB7Ne1bbpSkomWLLzcXD5zmOq1eNLW5krI.PjslkkLbXB4YBHd8
+ NZSSGZy98LDh1zk4stq1aaTiL2I2HkB.MJbg_5nhSu6_8MHDjIjHdvLjO4Bs
+ WBJWcb9RhG3Y1B03SKI3Y8.CMfFRu2zo56UPbQhBYT_qNyn.BXOyHMjPcmQ0
+ _zCGjusYkl0h50w8YCVjdq8HQkuSi6nCGXwTv4splmldSP3ppX13tki0qCg2
+ UPgjXHyrwwcG6w3ZcMzlnhmMZvdkUZZmCWCFPCVThLINRdajnTGhNzvKANxc
+ aYPAtGhctSTraB0VNx.9ngCAXjmal_jDYzgr9NROrrfBddh8NXK9OVP1hJMD
+ SGKgjkRh_wIIzVtQQXH8kxJMy6zKBY_P2orF246l5RXznlfkvC4qWQzpYih_
+ 37zt3iiloarEspDoWhFH991sYqsPSRRPPvVtVOGki7Dv9YbasoK2z0CWkYXY
+ R_hZ7ZbOsHik9fMoxT5rRThKSFX14pG4D4sVVXvt6P1ZRgW6fEMCrS7_DcOj
+ hFdcn6VPFUJwAG1._BpqEc9o4TdloVaFQ4J648knpgQLYpIjniaLYQfFMnVV
+ _ys7i4zll8sNRaYLD8.bWg8IQJ0msyLaBy_XR0zXRxSbYJGCqgZyukEs5X2f
+ 6fH2zL2uHw3sM5G.JnpSSXbssFCQglUOU2zM
+Received: from 209.85.166.173 (EHLO mail-il1-f173.google.com)
+ by 10.217.136.93 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 06 Jul 2022 16:10:32 +0000
+Received: by mail-il1-f173.google.com with SMTP id b1so3835699ilf.8
+        for <ms60710444266@yahoo.com>; Wed, 06 Jul 2022 09:10:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=yFxeFwMwbcnzseNNV4y+xFgVFPQNtfbe1DJaa+vDYEY=;
+        b=Ftpn5MaLH1WEM/xrmmIW6KuzVXFENsYpZ1BfTd5+vVmGFIe45VNr0hJ4NJ5mpcwCQc
+         tJRpk2qO1Cm/XWbamrprC56p18hxLqIdkey80owaWdFYJMyzeKM8QUkGuXib0qQWW8SN
+         tNW1xL2YXVe4SipYdpBLh7bVqQWpp5ZJslUYmUusP2+AhogEHNta0uNDZx+vlb3uCe1X
+         AHlQ3H5kfdqpoLqHhwKnRVPtScqBVxBKT1xHOC3QDLCE6K8jbJl15UlYVaa/rS6PUTVJ
+         plqJCha8A3NwBVaBSQTDUaFS/REV8aA/HS/k3hLNzHkYp701LIrgUL5YgDvlC2XsMM+n
+         fonQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=yFxeFwMwbcnzseNNV4y+xFgVFPQNtfbe1DJaa+vDYEY=;
+        b=k3b7frFiearqFYhoCn4BhSQX2bOztzR3LMXgH3i0GhtFyJ0F7BPHSsaY+C16lqXp+k
+         TFAmOk97+0J3eFL3pZJ4ccNR63qs4HiHQL2p3cZhROltLCNzvUokf8pUOyxkrtAKUiYx
+         gcaLST+SBsPMLTJFSYz8P1EkjwWbKYDQXAAiGjfsEBdFgmVh7tciBI8VI8G/Sh8RgkKQ
+         mbbNzoKaQn8uirQM9XFD6DaVgeorwX4CCvOnFHx4bhAC+4doX0lp6z1jCO/mTvVnBjXL
+         wQVsSnzJM5hztLyTUhQ6fdDpLSh82vgdNAGJu6ot07Mz/rRM0a+/w6SBok27OrwSiH2o
+         ZV1w==
+X-Gm-Message-State: AJIora81NA/eG7fYnBCpSDlmSJBIMMGHTqipkSN+p+kuM1fwew1JH6k9
+	c7UTR1DKBI+j1CaYH8ZpEDtXC19NauKgkmKmIhPPr+2IJ4k=
+X-Google-Smtp-Source: AGRyM1uhqEuDpWuPByywX1VGYY60NmkigScULLHCftA/aXw5AsWXDiHzx2+t4Z2+XjACQzRif+J6dSWOhkKtXTCZUog=
+X-Received: by 2002:a05:6e02:b41:b0:2dc:35ed:f7a0 with SMTP id
+ f1-20020a056e020b4100b002dc35edf7a0mr1989620ilu.281.1657123832584; Wed, 06
+ Jul 2022 09:10:32 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOHu48_Hje4EHULf7aiVOBFouYMbRhjX50W_KRGA8Fr=dBzbNA@mail.gmail.com>
+ <CAOHu48-HxidLJ8cWX7e-9n8ccojWepdHxujEOXcDen8kAE4HvA@mail.gmail.com> <CAOHu48-UH-BfFq=9eTx+TV_HFvb0_SJ2WqmUWUtfjYDn_Bhs3Q@mail.gmail.com>
+In-Reply-To: <CAOHu48-UH-BfFq=9eTx+TV_HFvb0_SJ2WqmUWUtfjYDn_Bhs3Q@mail.gmail.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Wed, 6 Jul 2022 12:10:23 -0400
+Message-ID: <CAOHu489qKr5+g79hL-7LsgdtGVDR2ivNPhTBZnSNqEv08X5TrQ@mail.gmail.com>
+Subject: Re: Once i flash-- IMPEDED--STFGX -- TIMESTAMPED
+To: daphne.dincer@gmail.com
+Cc: CBPMEDIARELATIONS@cbp.dhs.gov, CBPINFOCENTER@cbp.dhs.gov, 
+	foiaconsultsandref@atf.gov, foiapa@sec.gov, FoiA@sec.gov, 
+	BBO 121 <ms60710444266@yahoo.com>
+Content-Type: multipart/alternative; boundary="00000000000063e0a205e325350f"
+Content-Length: 6362
+
+--00000000000063e0a205e325350f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, Jul 6, 2022, 11:51 AM BO DINCER <bondstrt007@gmail.com> wrote:
+
+>
+> ---------- Forwarded message ---------
+> From: BO DINCER <bondstrt007@gmail.com>
+> Date: Wed, Jul 6, 2022, 11:49 AM
+> Subject: Fwd: Once i flash-- IMPEDED--STFGX -- TIMESTAMPED
+> To: John MENDELL cBP <john.b.mennell@cbp.dhs.gov>, <
+> CBPMEDIARELATIONS@cbp.dhs.gov>, <cbpinfocenter@cbp.dhs.gov>, Steve
+> O=E2=80=99Connell <sgo2107@columbia.edu>, <LZUCKER@mskyline.com>, Laskowi=
+tz,
+> Shari <slaskowitz@ingramllp.com>, Chair <chair@sec.gov>
+>
+>
+> They have those emails??
+>
+> ---------- Forwarded message ---------
+> From: BO DINCER <bondstrt007@gmail.com>
+> Date: Wed, Jul 6, 2022, 11:44 AM
+> Subject: Once i flash-- IMPEDED--
+> To: =E2=80=8BRule-comments@sec.gov <Rule-comments@sec.gov>, BBO 121 <
+> ms60710444266@yahoo.com>, <inbox@livekelly.com>, <
+> stationservices@cbs2ny.com>, JAMES GORMAN [MORGAN STANLEY] <
+> james.gorman@morganstanley.com>, Dean's Discipline - SCCS <
+> conduct-admin@columbia.edu>, Bo Dincer <bdincer66@icloud.com>
+> Cc: <10pctyco@nypd.org>, <10pctdvo@nypd.org>, Chair <chair@sec.gov>, <
+> st3251@columbia.edu>, <wmprivacy@warnermediagroup.com>, <
+> royalty.statements@sonymusic.com>, <governor.hochul@exec.ny.gov>, <
+> foiaconsultsandref@atf.gov>, <foia@eeoc.gov.com>
+>
+>
+> 10.10, 10.10, 10.10. 10.10.
+>
+> ESTE....
+>
+> Internazionale?
+>
+
+--00000000000063e0a205e325350f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">On Wed, Jul 6, 2022, 11:51 AM BO DINCER &lt;<a href=3D"ma=
+ilto:bondstrt007@gmail.com">bondstrt007@gmail.com</a>&gt; wrote:<br></div><=
+blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
+ #ccc solid;padding-left:1ex"><div dir=3D"auto"></div><br><div class=3D"gma=
+il_quote"><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded messag=
+e ---------<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">BO DIN=
+CER</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:bondstrt007@gmail.com=
+" target=3D"_blank" rel=3D"noreferrer">bondstrt007@gmail.com</a>&gt;</span>=
+<br>Date: Wed, Jul 6, 2022, 11:49 AM<br>Subject: Fwd: Once i flash-- IMPEDE=
+D--STFGX -- TIMESTAMPED<br>To: John MENDELL cBP &lt;<a href=3D"mailto:john.=
+b.mennell@cbp.dhs.gov" target=3D"_blank" rel=3D"noreferrer">john.b.mennell@=
+cbp.dhs.gov</a>&gt;,  &lt;<a href=3D"mailto:CBPMEDIARELATIONS@cbp.dhs.gov" =
+target=3D"_blank" rel=3D"noreferrer">CBPMEDIARELATIONS@cbp.dhs.gov</a>&gt;,=
+  &lt;<a href=3D"mailto:cbpinfocenter@cbp.dhs.gov" target=3D"_blank" rel=3D=
+"noreferrer">cbpinfocenter@cbp.dhs.gov</a>&gt;, Steve O=E2=80=99Connell &lt=
+;<a href=3D"mailto:sgo2107@columbia.edu" target=3D"_blank" rel=3D"noreferre=
+r">sgo2107@columbia.edu</a>&gt;,  &lt;<a href=3D"mailto:LZUCKER@mskyline.co=
+m" target=3D"_blank" rel=3D"noreferrer">LZUCKER@mskyline.com</a>&gt;, Lasko=
+witz, Shari &lt;<a href=3D"mailto:slaskowitz@ingramllp.com" target=3D"_blan=
+k" rel=3D"noreferrer">slaskowitz@ingramllp.com</a>&gt;, Chair &lt;<a href=
+=3D"mailto:chair@sec.gov" target=3D"_blank" rel=3D"noreferrer">chair@sec.go=
+v</a>&gt;<br></div><br><br><div dir=3D"auto">They have those emails??</div>=
+<br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">------=
+---- Forwarded message ---------<br>From: <strong class=3D"gmail_sendername=
+" dir=3D"auto">BO DINCER</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:=
+bondstrt007@gmail.com" rel=3D"noreferrer noreferrer" target=3D"_blank">bond=
+strt007@gmail.com</a>&gt;</span><br>Date: Wed, Jul 6, 2022, 11:44 AM<br>Sub=
+ject: Once i flash-- IMPEDED--<br>To: =E2=80=8B<a href=3D"mailto:Rule-comme=
+nts@sec.gov" rel=3D"noreferrer noreferrer" target=3D"_blank">Rule-comments@=
+sec.gov</a> &lt;<a href=3D"mailto:Rule-comments@sec.gov" rel=3D"noreferrer =
+noreferrer" target=3D"_blank">Rule-comments@sec.gov</a>&gt;, BBO 121 &lt;<a=
+ href=3D"mailto:ms60710444266@yahoo.com" rel=3D"noreferrer noreferrer" targ=
+et=3D"_blank">ms60710444266@yahoo.com</a>&gt;,  &lt;<a href=3D"mailto:inbox=
+@livekelly.com" rel=3D"noreferrer noreferrer" target=3D"_blank">inbox@livek=
+elly.com</a>&gt;,  &lt;<a href=3D"mailto:stationservices@cbs2ny.com" rel=3D=
+"noreferrer noreferrer" target=3D"_blank">stationservices@cbs2ny.com</a>&gt=
+;, JAMES GORMAN [MORGAN STANLEY] &lt;<a href=3D"mailto:james.gorman@morgans=
+tanley.com" rel=3D"noreferrer noreferrer" target=3D"_blank">james.gorman@mo=
+rganstanley.com</a>&gt;, Dean&#39;s Discipline - SCCS &lt;<a href=3D"mailto=
+:conduct-admin@columbia.edu" rel=3D"noreferrer noreferrer" target=3D"_blank=
+">conduct-admin@columbia.edu</a>&gt;, Bo Dincer &lt;<a href=3D"mailto:bdinc=
+er66@icloud.com" rel=3D"noreferrer noreferrer" target=3D"_blank">bdincer66@=
+icloud.com</a>&gt;<br>Cc:  &lt;<a href=3D"mailto:10pctyco@nypd.org" rel=3D"=
+noreferrer noreferrer" target=3D"_blank">10pctyco@nypd.org</a>&gt;,  &lt;<a=
+ href=3D"mailto:10pctdvo@nypd.org" rel=3D"noreferrer noreferrer" target=3D"=
+_blank">10pctdvo@nypd.org</a>&gt;, Chair &lt;<a href=3D"mailto:chair@sec.go=
+v" rel=3D"noreferrer noreferrer" target=3D"_blank">chair@sec.gov</a>&gt;,  =
+&lt;<a href=3D"mailto:st3251@columbia.edu" rel=3D"noreferrer noreferrer" ta=
+rget=3D"_blank">st3251@columbia.edu</a>&gt;,  &lt;<a href=3D"mailto:wmpriva=
+cy@warnermediagroup.com" rel=3D"noreferrer noreferrer" target=3D"_blank">wm=
+privacy@warnermediagroup.com</a>&gt;,  &lt;<a href=3D"mailto:royalty.statem=
+ents@sonymusic.com" rel=3D"noreferrer noreferrer" target=3D"_blank">royalty=
+.statements@sonymusic.com</a>&gt;,  &lt;<a href=3D"mailto:governor.hochul@e=
+xec.ny.gov" rel=3D"noreferrer noreferrer" target=3D"_blank">governor.hochul=
+@exec.ny.gov</a>&gt;,  &lt;<a href=3D"mailto:foiaconsultsandref@atf.gov" re=
+l=3D"noreferrer noreferrer" target=3D"_blank">foiaconsultsandref@atf.gov</a=
+>&gt;,  &lt;<a href=3D"mailto:foia@eeoc.gov.com" rel=3D"noreferrer noreferr=
+er" target=3D"_blank">foia@eeoc.gov.com</a>&gt;<br></div><br><br><div dir=
+=3D"auto">10.10, 10.10, 10.10. 10.10.<div dir=3D"auto"><br></div><div dir=
+=3D"auto">ESTE....<br><div dir=3D"auto"><br></div><div dir=3D"auto">Interna=
+zionale?</div></div></div>
+</div>
+</div>
+</blockquote></div>
+
+--00000000000063e0a205e325350f--

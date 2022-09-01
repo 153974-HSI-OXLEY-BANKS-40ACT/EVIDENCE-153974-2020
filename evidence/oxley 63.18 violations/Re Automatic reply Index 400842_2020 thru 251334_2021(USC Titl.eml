@@ -1,0 +1,166 @@
+From - Sun Aug 28 22:41:28 2022
+X-Account-Key: account1
+X-UIDL: AOr6+sVyoylaYr54Zg2/iEly++s
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.75
+ by atlas302.free.mail.ne1.yahoo.com with HTTPS; Fri, 1 Jul 2022 04:30:30 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.82]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.82 as permitted sender)
+Authentication-Results: atlas302.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 04:30:30 +0000
+X-YMailISG: abNhg6UWLDukuBDm0dz75KjoMp0bcWL9gItUIYawHK7.eWZz
+ AujkWgPH2FcSz9y8BDID__aKrCssn5b7HijfRzeuZrHL66889e42cStz4hcF
+ X_PqgaPcVkDseFNHnrgraB6Dn2ZNquWltyTLYUv2ceP2uUGarJwUMch0v6z5
+ B_3Fx3xE8fT3nD4jR4oR0H38NbtGZOuZbvggUMjFUNMW_.ALDsQBrPs1sM_L
+ fQIUKo4gJ2EOD3_7heGrAo20IVfQphDLzR_pFTmFt6vUqs3i1H83THS2S.Zk
+ pFrw7ogDWzKf6VgKTQDnmnO4D2W180BG_Q40WkeE.B5ly3VuPAH0.5dMryGf
+ DiXO5tQ_JuwARznQBfuu83xMNe2QhL6vsjz7xqHbW5GuVP5OD8Q2UjWX5cOl
+ jeJtTVRUVCQu992Hffcj8Rhv3XE7f3M.M_QJK7IhqX4WGoIuP3M973Sxojnr
+ keGZb9ZCgbnA9FBKBYCVpB5O8XqZkMTelRGPDKH2sf3qxXV1XB1KpWddquvC
+ nd2s2T4DMpXdnbi0y_o0kqfsEe8cAHEXpeDxbEdiLnkfZyrBDg5XVYBBMeD3
+ c3Te4cLXh3q5.T3.ff3JqQHDB0bFtFygViCHxUvvU0aiYnqQMD.TdZu1f0y6
+ 0a.cx7K2zyc0zlhoXLtmevTzQ.Jb99iAzWyIE4EVx1cH_8c4jvMdX2yAOxUL
+ uGcal8dtGw_4YYU_8v_NGlfU8riRlulodcldF.2vOP2q7ArJ4r.3KFcGpaGu
+ uM2k31J.PVcnoS16oqkfkRbncgWxsDi7HFmiD19.uNfXkEGqlheyNZgCqEdP
+ lbc14WFlnhZSUUxErLSgjY3a2zgieilzinCYuzBbAtMln0S1e8gQDkeYaAcP
+ XiBPacM0UHaQg.b_9GUUI3XU0Ml3yGCY4MvlPi2pjCCrME99APMXM.xfBWrt
+ jVYRmnceUCCRquFrzRsCPx6oFOj_RlUuZaZwmEpKLyoQAAnBO4lOkVYbCevI
+ FrfATOZMDIj6E1xezTZ9yIKRW3xfWZPXaWMdg48FIxOwopjlA6L8btHrTstc
+ ke_gBND3P8_qjjDgmz42TsY4.d42UsywBVgzIVePGq0zd6waagPAcxqxdwQ8
+ i_vSQBs_rwFbonRTR708G37mpI4Wg2hS2us_m_2pDxJLu6FnXpFPSZkmNDoI
+ qtU-
+Received: from 98.137.64.82 (EHLO sonic305-19.consmr.mail.gq1.yahoo.com)
+ by 10.217.151.75 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 01 Jul 2022 04:30:30 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656649829; bh=kn0lZfeByR6RW1QjC00zQIH88MFvL4+3GqC+pC6vMmQ=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=PM0cBgM3pAoUesSJfgv9iWhGrB8v5dUu5CAekEhP8vg9zJyUCWaxfhhTWWdX3zFuZPliuq1L3k1u65+2485zLys7gSiClrq5QZWvfUWU105vpfukVMOziE5lkXEHO8Q7hyPz++mrKNJkpEubcpphpecLMuXnCexJW9O4iybBqONL07so4coXjthlxNTNIowE3UCl8USl5E94Tb7LaOyUY3NKJr/ywxzj7UCYomyNCzaMFSx54AafZac3Si4HV4r6l38AE4x8NUMTqvQ8n+v2vRMDn3Xd7eNA4fF6ztDPCTVm7wjcJpgg3R6ji0ZLaH+rrCO8XlvtRLcSdGmDYEu2iA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656649829; bh=LNu6y/aUQzDDlYbu+6YTIXkmUudIuD2WHQSo22svt1S=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=bnfIXtcKIMU3I6BeTfyTNpMUFyBuyT8ZW7uhEeDb0ZRhp2S5GgQIKUT8OKrOjd3gTOVnxRaYPaXAEtTuvSn8GzpKYj7hNlnLU+lU8v23jXQzVnr893LP2gzjy/stNY96HG6zY32Xi3mf/RtW0cIGXB4vWNaSy0kZqaOtyWKWxGmQ2PzYPtvf10bjmo9FwlYXcfRUdWbTjwFXuAvAK/IoNlkboekJwcveosR927QXDfSfBC4aa+rka3bnrFNdjVUELzvNfq8Dtk73hqf6XEUTscVdxWeXmZUWrSDh3njncYQMUIQStvug8a9p5Wx7Imvy5fxAz2XKST0BOjLhCDFX6Q==
+X-YMail-OSG: Lqm9i2EVM1l9aj_CsZIlzw29d0GrB8HHc4pjErHP2MfF6He01d4268XRDdcjx8p
+ 0_szRMZeituVOVTL14hHr8Bbr3CVlW0g5x1Px_4zHEAA9pywo3C4L6XKjjrQhDWwXAxsItQ4p7fl
+ 6VfsleJjRP.EjLi_ItbBIAfaLnL_NmwRUD7gu300koLq6ysRiV0gwbY8sdZ3wkHGbjKCr22ajm6C
+ SoX2u6IP4fo6sI2Cdk7A3UONBXZspWzfekETxrfNYVEma3UpYzvTvy9TycW9Sid_hZeAZ3a.JMXC
+ W_axqfzRolbo71In7dalKuYKqezGx53x5eEq1MErdc0OqeS2pYSj8AlFcNf48czzVDSyYK_ie1HZ
+ gwwDTNLadrFYwjxBm0I4QYLM8Rltp6HZ0fmIhDR1ZpKonPx1P46fjzqspcgCBhUIlEimOYThOEu2
+ zfjod9MfDRYrNCJuyOTsmLthIAICz._qUZ4c4r4ZCOQ08SBzJNUtOwm8PKlxPtbTgmaWT45pCJ0E
+ GogwNddIkZSG6edt42B_NZT7wbirDKLPgy_4xzJPLUuW7pFrPkicGuZwK6D9A8SmKWNLJ1J204xn
+ 2lkCNQxp4YG8wNNrPMp9fNkNdaEEXeWVcth.e5_cSMj.h0huACAO5ni0hM7Pg6xKqs6J9UcAkrlX
+ yrSD5LyEt8pSnzmpDaQBZ.O.f02yueqheHvVW7m99OpVtiqRgmolQtKLH6Hc2mhQasBZec3wljtu
+ R_ROqgkRUja5Ot7XQc8W5GelU3N745qo_FBmxPALwYGMRMIwk.rgIrkfUdQDd9wDe2kGnR_FihGz
+ c_ZTQ.2uyKbDkdbmuUkQvO5791nqEJEvNbh62yj9ova8sgZUyRqzYZJNKpJbekIrXWwTj52i8Kfd
+ LK90DRd_w9ODiCDcu7.R5G1KVmKzeL484XLFdXAP3Vj97UeOYiEGlwXY5bsXxyjMyZkMboi_a2Y.
+ xXiIhGXPtFURK6ngNmcpI9PdpkVOBRYWMvEBNGEfPG8x8ebQMhOD0Gb2vfMPFyUweTcAg08rylWR
+ t_N9wPbTKqWC7C76LtYJdk47ABLCXC15pb5KQJ0dFq2mq4qzViRpzyRuY4s8IHW4MP.JIbs7Ipwx
+ BpXHknWroxYZIwFvII9S8bbBnaZXL5uLuwyuIkNogVS_UJeuj3QMQiNo6FPk8vG2vOJsja_5JOX3
+ TS_XwnSqgmCdteyKSP19VSN17j0oHi3nvJfJQWkO.Jg1ujRlIogv7KcLF3O2uvQNm2Om.FXSv60y
+ 9pcYm1ySRJkQm2W6x.arx88tsuNzpUQuvTPXYV8NdJzikvJ66dNu4.VmAIFGPjzRsUJ9sAechbIG
+ Z9vRgV1yRD4O5ieUYHGf_2AN6no77PQKfGaoFWkVZvtJDgA0uAkJRsi2BWUGFaPFN7GO4YPfIXzH
+ em_axB3tyxnwdbiL6Uhgi_6n3GKMddA_eBDv3ZpnT69DecG.KDD1Wvg0I3.DwSGBqzndsmjYc9wG
+ 6nsIAJhH1.r5L44.uQEV9mgkJ0myu5Bm6VqCqIx.1dIr2IPs7wviIsTsIPvYY5nuhkbD6H36AxHb
+ U7PbUuCcb4jjiDl7kj5p8UkiVGYD6_883ganlg1U9TujFsVZsulEUDLNqagIHp_ReEZWHq2sJLfa
+ dXhwi2fwJeQASd0gxJ83PMj82XDpQWjWyLaVn0axqA2HrvRK1UA3eG4HgHlgdxHlLz.r6YOGaWSx
+ 5IJy6.0nRcX5Iiu37HMY2Vgc7AB0S0GbbkcK2yi62.8Uh8BF3XRxVT2SWy7vKBiMnuZxVVEnlfdj
+ HGpHW.7WrzpZvL6PRhzXzMZhfOmEocBricJtc9BGxXiVLxGMgumxIzB5v96ODTkLk3SMHlkNr4hx
+ Tikje2GLZuCKSCtybE.HU3U72X101..QKYbqHGzXtbrpfCS45_3vjihwTQQnHVf8oG.z.54SBJCv
+ jgkP5l1.TuHL9xoAUtqZXEFDsantVWpQLV1BNB.TnYUeZtohIpy3qNvnuhcKbZfS2Neq1H1YQjdp
+ _Pke22lIqLPPPVEAQoDr6YO9vj2FWuktZ4AhscCK.1qPKFomjJu_n81ctilEBmZU2Qi_c_WY_y9H
+ wCii3LFjkIrWzwcq3qkTRqNiJM.b7WRnARJaMDjSKJnn1gI8psdRU1wKHKtpxl1hwcVKotPMcxMo
+ VavtHMGM5S_kWrV5TMBqbHiwu8NB9qouda_eXDQsaCHsg0d9mln9dFnuDEHfKsB7gW23K_MeLZYg
+ i1Ou_20MDDJ3NzHQVY3fsn2MRuRm2xfhI4kEgM3J7rURZ9hax8wsAgxwMWwrnTDskDUDWQ6vAX49
+ I_ipwWfwGy.V3.IwjU9ecLtxAetkkVGWdFNBkW76kgUo95vwV5d9O24UJnAds7Q50JYTa_VhRSTH
+ qgpJIQzlpJl53l.Sa_6hJPvidXtKbOL3IlgXETav__w_iCtkQkXOs3xRA84SQUQ--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic305.consmr.mail.gq1.yahoo.com with HTTP; Fri, 1 Jul 2022 04:30:29 +0000
+Date: Fri, 1 Jul 2022 04:30:24 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "foia@eeoc.gov" <foia@eeoc.gov>, 
+	"foiaconsultsandref@atf.gov" <foiaconsultsandref@atf.gov>, 
+	"foia@eeoc.gov.com" <foia@eeoc.gov.com>, Foiapa <foiapa@sec.gov>, 
+	James Comey <jbc2167@columbia.edu>, 
+	Daniel Richman <dcr2132@columbia.edu>, 
+	DCAO Letters <dcaoletters@sec.gov>
+Cc: "LLC. MANHATTAN SKYLINE" <administrator@mskyline.com>, 
+	MSRB <msrbsupport@msrb.org>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	Governor Hochul <governor.hochul@exec.ny.gov>
+Message-ID: <319944501.589987.1656649824534@mail.yahoo.com>
+In-Reply-To: <ccae7b69750e4dd7aa308c5d7175d898@PH0PR09MB7978.namprd09.prod.outlook.com>
+References: <CAOHu48__qTwCZNhO2Ga+B0mvYJtJEJG3WcKfVaH1pmifQvpy0A@mail.gmail.com> <CAOHu48-nCJDdRsELpyO33kABLHS5Jr3KnjwvEu5-sjWvZY0dhA@mail.gmail.com> <CAOHu48-X-a2O9PBbs8PwY992U7EsBUwk-1G_1=1=hudz=OBvAw@mail.gmail.com> <CAOHu48-Ob7t-Ox4uYUtvD5TrhAHLcimYMdEZ=8E7Sp_YkuDyaA@mail.gmail.com> <1577684267.28505.1656644749837@mail.yahoo.com> <ccae7b69750e4dd7aa308c5d7175d898@PH0PR09MB7978.namprd09.prod.outlook.com>
+Subject: Re: Automatic reply: Index 400842/2020 thru 251334/2021<USC Titl
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_589986_75142883.1656649824533"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 3365
+
+------=_Part_589986_75142883.1656649824533
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+  On Thu, Jun 30, 2022 at 11:09 PM, FREEDOM OF INFORMATION ACT<foia@eeoc.go=
+v> wrote:   This is an automated response to your email received by a Freed=
+om of Information Act (FOIA) field office unit within the Equal Employment =
+Opportunity Commission (EEOC). Please note that FOIA requests submitted to =
+the EEOC through this email box may experience some processing delays. If y=
+ou are submitting a FOIA request, we strongly encourage you to submit your =
+request online, https://eeoc.arkcase.com/foia/portal/login . Submitting you=
+r request online, https://eeoc.arkcase.com/foia/portal/login, ensures your =
+FOIA request is timely received and allows you to monitor the status of you=
+r request. And, it delivers your responsive records online through a secure=
+d account.
+If you are unable to access our online portal, you can submit your request =
+directly to the office=E2=80=99s FOIA email account, which you can find by =
+clicking on the following link: https://www.eeoc.gov//eeoc/foia/contact.cfm=
+. Please do not submit requests by mail, fax, or courier since we do not ha=
+ve access to these delivery methods at this time. EEOC employees are telewo=
+rking full time because of the pandemic.
+
+Sincerely,=20
+Field FOIA Office
+ =20
+
+------=_Part_589986_75142883.1656649824533
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, sans=
+-serif; color:#6D00F6;"> <div>On Thu, Jun 30, 2022 at 11:09 PM, FREEDOM OF =
+INFORMATION ACT</div><div>&lt;foia@eeoc.gov&gt; wrote:</div> </div> <div st=
+yle=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #=
+6D00F6;"> <div id=3D"yiv0900316731"><div>
+This is an automated response to your email received by a Freedom of Inform=
+ation Act (FOIA) field office unit within the Equal Employment Opportunity =
+Commission (EEOC). Please note that FOIA requests submitted to the EEOC thr=
+ough this email box may experience
+ some processing delays. If you are submitting a FOIA request, we strongly =
+encourage you to submit your request online, https://eeoc.arkcase.com/foia/=
+portal/login . Submitting your request online, https://eeoc.arkcase.com/foi=
+a/portal/login, ensures your FOIA
+ request is timely received and allows you to monitor the status of your re=
+quest. And, it delivers your responsive records online through a secured ac=
+count.
+<br clear=3D"none">
+If you are unable to access our online portal, you can submit your request =
+directly to the office=E2=80=99s FOIA email account, which you can find by =
+clicking on the following link: https://www.eeoc.gov//eeoc/foia/contact.cfm=
+. Please do not submit requests by mail,
+ fax, or courier since we do not have access to these delivery methods at t=
+his time. EEOC employees are teleworking full time because of the pandemic.
+<br clear=3D"none">
+<br clear=3D"none">
+Sincerely, <br clear=3D"none">
+Field FOIA Office<div id=3D"yiv0900316731yqtfd53975" class=3D"yiv0900316731=
+yqt3946223968 yQTDBase"><br clear=3D"none">
+</div></div></div> </div> </blockquote>
+------=_Part_589986_75142883.1656649824533--

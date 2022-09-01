@@ -1,0 +1,243 @@
+From - Sun Aug 28 22:43:39 2022
+X-Account-Key: account1
+X-UIDL: AIvjz2F1TozIYsiIYQHUwPs48bo
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.249.94
+ by atlas115.free.mail.ne1.yahoo.com with HTTPS; Fri, 8 Jul 2022 19:41:20 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.30]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.30 as permitted sender)
+Authentication-Results: atlas115.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 8 Jul 2022 19:41:20 +0000
+X-YMailISG: _41B5qUWLDtldFpcPu9kE0TYIMXgA2tYJ_9Pow9NzrfuoUuS
+ XwfbcFiuqc6TJBr2s3.57jgdVWCfcRzDEl1PN4me25px3ZtQSkpkxoJkd_kK
+ GD7GhjfQ2UuJsWwVZSeNukm7gpYb35nqvCYYH6Tr8y6E0MUr._7qfZ8rU2lG
+ RslqSZ11Q66gorkXcXop6cikxIRVJlPh_7OyWLf2Lyd0f.o38WbohiKTktOa
+ KEzNcyDNOMqh9CJ4zqB.ohacaRdT_RJulhXD5m5i6PHZvJUfE6QUa7jJSo.5
+ tdoqkUktNNMepHSTzFuDpDbhMffp9ep2cnJRHmyDlkGauxisWyyEYsaxw6Md
+ crFhdLkcvzTd.q7uZEEn1re7U7dqZcS.A2K9_2SfFklNTAS6eSh9xNDN1WIz
+ n_Iu7o6JgdaeQJHBKZFwEG2S.UYgt0XEsGWYfPLtRbw3uKXJnHsI9gmaWyXs
+ ewlXz.Y.YmqDtjqWoCf6Puz_zV6q8sVb6rYtBRXI5uVaycBrBWf8GgUh7KR1
+ R3ebCptXcntVEkFtS78KDN6NQXhwmZ_nZTqnUz7qL2jUz4996xmEkXhGvZkA
+ fWVGXMsoH6sCzHhOBnkOQYoccZStLHQLKjDjl51bJs5qIsvAE0tBUv4RzzrT
+ hnB8MqBGLde1XhjYXwLK9LhzRZUOH9O8mboGB8vEUGHJs27VaGn8ZWYskTxq
+ wb7zptTZ3NzNzlYezcJ0TiyHbTB_OIyhBTAlIQL_edI645jJWFQKjbH0Vj8N
+ pXNBZJukxc7E3K6bBDE1IPfh28WKqrGElKX3ZW9tZY5vXj0iI6UPCnT8Ehxw
+ 0fwbCF9A1EQizJ8c9MSma7MHCn1qbFoW4CwP5sS2.XTk_RiukT.BtslUN0Lb
+ 248.B7lonVCEkiN7eL1O5nU1gKW4YkXoKi2dRvxanqR5Ob1JjkUdLdSwcAVv
+ OBr_05zZ4Pevd.E8KNCGXscu5Vqu7akeI6UlIpBcnjTAoCGyKp7ayjztzy3C
+ o1S4ND_BCRzgIikGowrZ4D5qW8Oe6EcI55AEOtpXcGBVFml.BQXOgy9ydb1f
+ QMC68MtR9BQ72i88t1hzNMUEbj8AS2SrG0MzgTKoEINQm.RrHRDuGqJDM41t
+ wd5rIAGjj2RAdcwP5MkUAQ0D0NhFSjwIBtxgwrp5s35K6pgUv7KQCxLadZCE
+ Fgo-
+Received: from 98.137.69.30 (EHLO sonic316-54.consmr.mail.gq1.yahoo.com)
+ by 10.223.249.94 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 08 Jul 2022 19:41:20 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657309279; bh=jkrw5vT0nr4RGa3BaHZKffwikyvqmPphQ74aqBHG6rg=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=nj1o5IH7Y4Nm8NiVbNBcxLB23/y3gB0PMgnxThQ5O2yLEgTODXTNZ4Zb9hKxenDKd7pwb6EneyYuBH14wTBl+MJQ7fUx7tqwxVwMD6hLiiiPrGqVkWsyInlMrnXKGZbHwvW2OgAOI6Ti5uIwQ/dXoQmA8CVvpnLetZaEDr0eN/tX1PdwZHyhdCJHDLJOrgxuPlZrUjDwgrKcTbIy+0Piz68KturIweCs5qo7yhjeikg5q7v92YNk4z7F7tMXdC6oZ8VUeK3aC/RFgeApSrmZ7DdwKG8y7+WdCJYeOtVcd+3ct+R2MOo2BWnFJiBXt78eIz4omci5XWJ1slt8W/0ALg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657309279; bh=DO2cWoRQrKss5DimBVkY3p0+/1lllWNm0TDvdKykQN3=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=Gb86R05O0xbMTSQZgaRFn7jNOCkLcD0Ba8ePcFow+NJPIj0WqH/kB0DsoJMjetr5lsrygHZr+vwoHYsoENv8Bg+9J15sk7SxWLVt63hPIk5gtnaCAaEwH/D3227eOb7Rc1KeaVpSeoDyl/3ykXmZJ5BHYjtdKTwUMmfqXniF/XY/q0IYnvMTvdFW5rHvCbCDSRu0daruHEtgX3LPGaG+GFo4AmND7Qy0awtS91+bRT7vGHrzCMkr6F/iTlOcd9dubtb7z8y/WjdfuqrWmzJpUInKAFd/4KuCbcyi72xQqD3nz8tLN4oEtPjKSJDIqwkDXJK7XcJVaAjV5JxyXsdB4w==
+X-YMail-OSG: TXx7CysVM1m4mAc30Pwa6eUgBMwDuTVgou.qbqcsQCwlwj25ydZI0ItE.XDVw7K
+ 4cAWJW4PMfjkngsi3iBT7cN8YPs.xjS6L690C.ZLKUTvEmBppkEHMZS_1M4P34dpJWGhGXa1fjEm
+ LG_ROsUKxW8EnBZsCaDrSaBFcYWPDpt8B9yDkKhjetKkuuRjpaSxzbYtv87nC6sxw6Jwj1qh.Wmf
+ 3pE8kvvTynciLhN4Rhdm_2lh4aVbd5CjbpS9zaFis4dgRflEJhkIb_SN4K4VSmigx5xbjLpxa55F
+ AVbtwo.4Z5GGzn03HpUoYwQ5sD1w81.hMvdXWyC_vdwlj5fRdzFt8GRGctuwSppbi.kJO.sm34Ym
+ vr6tPTbs.punHxYfpW4NrSgFB7.MyyyUQLIHQW0GHmOSbCbjKzyJ6cASWbVzdNLvSQM7zgCbnCcI
+ 50VL7nQ47IzOdzHGNvpvame7PQpSRHDRiZMrXC1Af9_Tu3o5blP_zyBH1V2rJaWXqcjH4iT26njx
+ ugA0E74ugdA2OEOrWU2D13pEM36OpB9VypI8H1Ej1D.0o9m6RJRu2HGwMUj77Udldxwaekql8KeB
+ kCjWiaG2o5vXKpKj0krWFIgv6_lP72MP_UZb7liKQYVbN54L65v2GPCJwKvRNzjbMyrAjx.Pk6Yq
+ hfhzSURwkX9ZLbMtiBg4xCERMW7O80pUh8.twMOXyGUaWv8cfNRCRahr1PRxBSeXUlRxuv.W6OhZ
+ iW4gyJ6XAeWi_jKemTZJ0iP1jVc1_H4BSB9.BO2yGk5LBir5ZFKaO1WrLU.ZGoHkQF.eq3QMVRNH
+ Xq58gd24Cu17zMAvAAwaSggayFGfrVBGwSAxk5pUSVRIoyakdlO4DAON8i_L0h69HpyQM8YzI.Bd
+ fD.mWLA36mQeKaIk1xeW3sdCfjRKGlGcr_SM43YolsxfbSDy_AhcjbvL5xRx.0QvYUkpPEyq57R6
+ 8WUcLJucC_voN9cirwBjuA3Smx0xQ1AFjLYOZQ08bQh30iZVitleEmgVvN_ZiINRLj.0wzDRgUJ4
+ 8D7kcPG_qxxq49q43_53mUpbKQEQX8__dkP3TJrpWbYuz9j7F_dwds5GAX7U9O_1AUiDDAP3g3Hg
+ msUsJagQqQu6Xdx4Y90kFqyCnceWZRzDpzjhe9mpHGNW6kr5LYErnMoW3uJGo2BiPeYYGkhYh7b4
+ VO5ksBVJS0z9qgRP.eFT0I.ON_Ts.QSsx_Fc7mLJ_OBtKdrj_E6dzP89wbZIjQyWlnVqxe27bUi_
+ pYWFixrcF1y3hkQoPHAsIHQW8b045uuadynmEfsVlaBHtWdPTjvA94PygCGQGQWfExTi75ZbJHGF
+ 5Oz.fg2rXJTlb3NbDZlDVrBFoCaxiDNHpOJqNGouUvhBYAuLG0gMmKztBfEEkJhqNVgUksPTS2QM
+ cHejh9.nKjX9fwWRFSHWOFE6v2IEr7_tzfPKiMis9Ot6wKftxLTqPxAsOVDd_60bzQThY5kDsX9F
+ 49rzVOM3MMzGo0vzs6eCF4Ib8OkTdtecYexbteUFkSv.mFZwN2vqEHvIs90nzoss9JBEvI0ijLhR
+ a7WHbmnod5XSosbiCe9MR.PddO4oUJ6.7iZSai6hhMjaL5KiBb7oYrxCxtWTWLPsZr1A.EjCwAjb
+ 1XBCa2IMneLBi323yETIakjuuPCnWmFPhoRM0GnaRB1VenkMi4pq7WW.kaMQsgYZ4NT9vek1ub6q
+ 8yTI2UvKSd3425Q428P0DBr_nkw99nwQcZP8DqDB6Ys2Lk4NsYMdh4dBGCQBgi1JeVNae.ogfuPG
+ DYt6q1nPfilfsEBjRXPTTo7dAQVkhnjKRUQdATo4Nm6qTfIjMi7oZSuTVB0kG1sxHw4oH1VI1vUj
+ VXS_qZV2gkrfZ9so94BAKjHFcnQZzJWeDtE4GqhG3dQmdqGaHkoxVuM4O0MkJAzcCCW88_k604WL
+ 8uAMN7B_COxVtlMayfXOXKgzEa1ZfL2xq2CJqQCIJTuHTbX7AXsqPqmYBOxrtgPPwRRyHmCW7QD9
+ gavTum4XZLXq1hBHQ5PG4SJ1fMuD.zH8gZNF5jXeNybpxPRqjl1EhNF409rwh_XFoUDGiEbpBNBD
+ f4480CMNupeGKrSKUWaocF6Q.8eEzQDx0bqDWe.xtyczG7ok7TnY4n_CG_HCFhhiH_PQ4D8vI_WA
+ 0ufOB5_Mn0kSaQId0rTvo3l8CaN6mHzCvg0XC1L4knGz6OYWRHD6BARviq3S1oxM8eEGFHBIZyVP
+ 0a_sB0.p2cj13r2nMv3Qo2693153c0gAfeH0R7u9xae3b38hfH9q0XanUk6oLfglvFDI8H2hNDZt
+ VhnhnptBElIYcoTUew1Nai5w244EkEELg6ORrzid0A3aE1GRff2PhpEB.vX4NOLzm58W5OQj1.gN
+ regctpIoZEqN5M1Eiy40-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.gq1.yahoo.com with HTTP; Fri, 8 Jul 2022 19:41:19 +0000
+Date: Fri, 8 Jul 2022 19:41:13 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <66076838.36241.1657309273701@mail.yahoo.com>
+In-Reply-To: <f95f1c10b61a49fba555ce722f2a7d08@MN2PR09MB5658.namprd09.prod.outlook.com>
+References: <BYAPR20MB26479C43E2B2C5668A11A07DF9D89@BYAPR20MB2647.namprd20.prod.outlook.com> <BYAPR20MB2647F3B1B7DFE6A7B4DCEFC5F9829@BYAPR20MB2647.namprd20.prod.outlook.com> <BYAPR20MB26479C6F7C26DDEA7BB66536F9829@BYAPR20MB2647.namprd20.prod.outlook.com> <BYAPR20MB2647B018E7B0D3612B1E2B31F9829@BYAPR20MB2647.namprd20.prod.outlook.com> <1189109792.2300404.1657249003241@mail.yahoo.com> <f95f1c10b61a49fba555ce722f2a7d08@MN2PR09MB5658.namprd09.prod.outlook.com>
+Subject: Fw: Automatic reply: also posted in HK, TKY, [50074 EST ++] 77 w
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_36240_153117652.1657309273700"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 7954
+
+------=_Part_36240_153117652.1657309273700
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Terrence.Davis@dc.gov
+Doreen.Deterville@dc.gov
+keena.blackmon@dc.gov
+valerie.butler@dc.gov
+Charles.akinbeyowa@dc.gov
+Syncia.Sabain@dc.gov
+Charles.akinbeyowa@dc.gov
+eric.glover@dc.gov
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Sabain, Syncia (DOC)" <Syncia.Sabai=
+n@dc.gov> To: "Bo Dincer" <bo.dincer@yahoo.com> Cc:  Sent: Thu, Jul 7, 2022=
+ at 10:57 PM Subject: Automatic reply: also posted in HK, TKY, [50074 EST +=
++] 77 w  Hello, Thank you for your message, I am currently out of the offic=
+e and will not have access to email or phone during this time. Below are co=
+ntact information for various staff in Programs and Case Management (PCM) w=
+ho may be able to assist you with any PCM related questions.
+
+For RSAT inquiries please contact Terrence Davis at Terrence.Davis@dc.gov=
+=C2=A0.
+For READY Center inquiries please contact Valerie Butler at valerie.butler@=
+dc.gov or the general READY Center information at 202-790-6790.
+
+For YRA inquiries, please contact Doreen Deterville at 202-790-0678 or Dore=
+en.Deterville@dc.gov.
+
+For Case Management Services inquiries, please contact Mr. Charles Akinbeyo=
+wa at 202-710-8424 or Charles.akinbeyowa@dc.gov
+
+For Inmate Grooming and Haircut Requests: Please fax requests with the name=
+, DCDC # to the Jail at (202) 698-4877, CTF (202) 698-3301. The General Cou=
+nsel's Office does not request grooming on behalf of inmate attorneys for t=
+heir clients.
+
+For Media Inquiries: Please contact Dr. Keena Blackmon, Director of Communi=
+cations at (202) 671-2135or email keena.blackmon@dc.gov
+
+For General Counsel Office Requests: Please contact Mr. Eric Glover, Genera=
+l Counsel at 202-671-2042 or email eric.glover@dc.gov
+
+For Halfway House and Jail/CTF Work Release: Please contact Ms. Renne Alexa=
+nder (202) 671-2815 or email=C2=A0eric.glover@dc.gov
+
+Best, Syncia Sabain
+ =20
+
+------=_Part_36240_153117652.1657309273700
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Terrence.Davis@dc.gov<div id=3D"yMail_cursorElementTracker_1657309163642"><=
+br></div><div id=3D"yMail_cursorElementTracker_1657309163804">Doreen.Deterv=
+ille@dc.gov</div><div id=3D"yMail_cursorElementTracker_1657309182751"><br><=
+/div><div id=3D"yMail_cursorElementTracker_1657309182935">keena.blackmon@dc=
+.gov</div><div id=3D"yMail_cursorElementTracker_1657309195660"><br></div><d=
+iv id=3D"yMail_cursorElementTracker_1657309195807">valerie.butler@dc.gov</d=
+iv><div id=3D"yMail_cursorElementTracker_1657309196924"><br></div><div id=
+=3D"yMail_cursorElementTracker_1657309205601">Charles.akinbeyowa@dc.gov</di=
+v><div id=3D"yMail_cursorElementTracker_1657309213130"><br></div><div id=3D=
+"yMail_cursorElementTracker_1657309213299">Syncia.Sabain@dc.gov</div><div i=
+d=3D"yMail_cursorElementTracker_1657309233685"><br></div><div id=3D"yMail_c=
+ursorElementTracker_1657309233836">Charles.akinbeyowa@dc.gov</div><div id=
+=3D"yMail_cursorElementTracker_1657309243932"><br></div><div id=3D"yMail_cu=
+rsorElementTracker_1657309244115">eric.glover@dc.gov</div><div id=3D"yMail_=
+cursorElementTracker_1657309197090"><br><br><div id=3D"ymail_android_signat=
+ure">/S/ BO DINCER</div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <d=
+iv style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px so=
+lid #6D00F6;"> <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;=
+"> <div>----- Forwarded Message -----</div> <div id=3D"yMail_cursorElementT=
+racker_1657309209420"><b>From:</b> "Sabain, Syncia (DOC)" &lt;Syncia.Sabain=
+@dc.gov&gt;</div> <div><b>To:</b> "Bo Dincer" &lt;bo.dincer@yahoo.com&gt;</=
+div> <div style=3D"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Thu, J=
+ul 7, 2022 at 10:57 PM</div> <div><b>Subject:</b> Automatic reply: also pos=
+ted in HK, TKY, [50074 EST ++] 77 w</div> </div>  <div id=3D"yiv2897779918"=
+><div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div style=3D"font-family:Georgia, serif;font-size:12pt;color:rgb(0,0,0);">=
+<span style=3D"margin:0px;font-size:14px;">Hello, Thank you for your messag=
+e, I am currently out of the office and will not have access to email or ph=
+one during this time. Below are contact
+ information for various staff in Programs and Case Management (PCM) who ma=
+y be able to assist you with any PCM related questions.</span><br clear=3D"=
+none">
+<br clear=3D"none" style=3D"font-size:14px;">
+<div style=3D"margin:0px;font-size:14px;">For RSAT inquiries please contact=
+ <span style=3D"background-color:rgb(255,255,255);display:inline!important;=
+">
+Terrence Davis at Terrence.Davis@dc.gov&nbsp;</span>.</div>
+<div style=3D"margin:0px;font-size:14px;"><br clear=3D"none">
+</div>
+<div style=3D"margin:0px;font-size:14px;" id=3D"yMail_cursorElementTracker_=
+1657309188423">For READY Center inquiries please contact Valerie Butler at =
+valerie.butler@dc.gov or the general READY Center information at 202-790-67=
+90.<br clear=3D"none">
+</div>
+<div style=3D"margin:0px;font-size:14px;"></div>
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;" id=3D"yMail_cursorElementTracker_1657309171210">For YRA inq=
+uiries, please contact Doreen Deterville at 202-790-0678 or Doreen.Detervil=
+le@dc.gov.</span><br clear=3D"none" style=3D"font-size:14px;">
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;" id=3D"yMail_cursorElementTracker_1657309201424">For Case Ma=
+nagement Services inquiries, please contact Mr. Charles Akinbeyowa at 202-7=
+10-8424 or Charles.akinbeyowa@dc.gov</span><br clear=3D"none" style=3D"font=
+-size:14px;">
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;">For Inmate Grooming and Haircut Requests: Please fax reques=
+ts with the name, DCDC # to the Jail at (202) 698-4877, CTF (202) 698-3301.=
+ The General Counsel's Office does
+ not request grooming on behalf of inmate attorneys for their clients.</spa=
+n><br clear=3D"none" style=3D"font-size:14px;">
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;" id=3D"yMail_cursorElementTracker_1657309178044">For Media I=
+nquiries: Please contact Dr. Keena Blackmon, Director of Communications at =
+(202) 671-2135or email keena.blackmon@dc.gov</span><br clear=3D"none" style=
+=3D"font-size:14px;">
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;" id=3D"yMail_cursorElementTracker_1657309240515">For General=
+ Counsel Office Requests: Please contact Mr. Eric Glover, General Counsel a=
+t 202-671-2042 or email eric.glover@dc.gov</span><br clear=3D"none" style=
+=3D"font-size:14px;">
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;" id=3D"yMail_cursorElementTracker_1657309247541">For Halfway=
+ House and Jail/CTF Work Release: Please contact Ms. Renne Alexander (202) =
+671-2815 or email&nbsp;</span><span style=3D"font-size: 14px; background-co=
+lor: rgb(255, 255, 255);" id=3D"yMail_cursorElementTracker_1657309248797">e=
+ric.glover@dc.gov</span><br clear=3D"none" style=3D"font-size:14px;">
+<br clear=3D"none" style=3D"font-size:14px;">
+<span style=3D"font-size:14px;background-color:rgb(255,255,255);display:inl=
+ine!important;">Best, Syncia Sabain</span><div id=3D"yiv2897779918yqtfd8883=
+3" class=3D"yiv2897779918yqt8675855194 yQTDBase"><br clear=3D"none">
+</div></div><div id=3D"yiv2897779918yqtfd65642" class=3D"yiv2897779918yqt86=
+75855194 yQTDBase">
+</div></div></div> </div> </blockquote></div>
+------=_Part_36240_153117652.1657309273700--

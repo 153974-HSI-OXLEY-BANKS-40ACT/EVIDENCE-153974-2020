@@ -1,0 +1,268 @@
+From - Sun Aug 28 22:40:54 2022
+X-Account-Key: account1
+X-UIDL: AH8P2ot+rPpOYroPywoWCPBzNc8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.230.151
+ by atlas307.free.mail.gq1.yahoo.com with HTTPS; Mon, 27 Jun 2022 20:15:07 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.83]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.83 as permitted sender)
+Authentication-Results: atlas307.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 20:15:07 +0000
+X-YMailAVSC: LbgQawM3bBts.KUkean6Nne1It6HEuLmpKEQfuZ7UiUBMwJ
+ PRgDYqEqzVtsibok_zPudZgOtVRD7XJGR0vZOFmPSmxMlYoLgJl_2Re5HYqG
+ 6kyBX7vBblI09Gi9xNAUjT7OcrtkEPIxuQ55t8e1L66PhUq9UlYLm8zOr._S
+ G8_Zn_G7P_JQQnpfn6K4U9jqg0SLs.iiN8dF1n031Gl_koEqDyrn.tbLarSL
+ gjA_Othxnyf9i8_U74Hfr1r9o48q6WysIGOcRbqW0osWUi_Mv0TD87oPw13c
+ IKx.TzF6wT8YUhFivJP1s_R2vbj1hDZsO1.fwc4CqjSd0NLVhom5TApDxfTU
+ c52WcWNLLI93A_bvyDuH89Rf5FKkMkYqJimCqwScMEBc0O.Lg8ByC5vsco9K
+ 50GNEkON1pa4LCUJmTn_hwRtTf1w7jS8-
+X-YMailISG: zlpYpVoWLDsYHGHgI6BpCiQmuS2ROPgeRJs6RWT_oYAAybDF
+ hNEfiaCkTQVgXM7Rk6juhZPyXk72Q0pXOpW0KJubaJFU5vNoY31nVBmT6kZo
+ gerY.I4jk97VP8AvHt_GeXxaQCb.yq9gCvfIbS0UnA8lH1IGrBhnCdGMu9FX
+ DbsjPaOiinTRAOKDq9p3HrX.e_O3tdFR3lb65d_qsJgBhVv1n8WkmJonm.9f
+ Zz1CA17Pwbzmk8J95npOBBEDRWIMnTNE5tYhJsOIbk9ErDItfBxofmwd9LM8
+ .8Z2AQ4KoaJkvWQpKxA5IgSPo8_r_L9sJ_zUs0iyAYuk1dXW7eENg.5y1Zd5
+ EhrpOnm9JjVFwR.4IrA35sx8ie46lT58fV5kc75PNjaMWCg3cVytypEsYddc
+ Afo3kyDaHiduwAKUSnqSZOWaomMExsYlxElSK5S8V7k5Ugozi9H9sm7nCJ.A
+ VqetsOYjPF1snVx8REKl5wa8GU9TwUP6pPZqHDnT.WjMTzCne6T7MpLG824I
+ 3FiXa1Di3Bm2K6VqeCDG6oc5I4SL1QAy3B3i_NupQmfmmhgI_8pLsFn5t24b
+ R0_PGSwJ6ZIrVQX3YsTvzgEojF0myhxWmVEpEhbiAftOUA8Up_1mLkDb91BQ
+ g1IaNj9wc4EFzdF7x.lwJ.axSMVB63HaGyhofXWLWgzCrioM0jZ24U2RnxsK
+ byRQ7N._k3BQCV8jIhWolx_uaa8RBLkr.WvxOYIbTb46L2z8SvUovibrtnLj
+ s.hNwPw.rFG9sCmqFL8FZqIunBxtxtzNEGJ_sd8LkrqDCm3EghwTF0NOP_82
+ twhJiI5bRl9p3CEtAMzWe.fvcCXjcnF.PSyum9xJTkTMzAkJKfjj2t_DI1sO
+ eKTU1V_Jx84QMyQKORbPKNj2FcE8TRtSXySYGX.5E9TqPR_z7EqK.kRDF2Vg
+ LK5KUKy7RV8MGnQitLrwjtjFMlhY6MFJYHsMhO9eiEh5TUnG4i2P4bmoYg6F
+ LwmxWJZA5oKOYjh0TI9h6X1vowp1ifU7EbjKiuCLdj3AfL8QMnwuK38xNCj5
+ 0xwRyXZ9Hxve4KAefhcALy7hKGcWJ3TmwOzmTJZ9_AhPym3VHIxLPwv52AWK
+ 55g5aDPK_hO8aIc4IVi5kQvprbdNFWvCwUGagxQaR2e06BJEIG0pN6y7nNt6
+ FRLHEVWDk3GpdJkxHQCjfJ.H3A--
+Received: from 98.137.69.83 (EHLO sonic314-20.consmr.mail.gq1.yahoo.com)
+ by 10.253.230.151 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 20:15:07 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656360907; bh=qZlqwZYYgAw0vRrY5ih8YKPdeq30oYdzIfi+YjxV/7s=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=G4YdvUhsiO40RF7/JAq4ZAKFzlzuu/V18OAYOer+HH+SG0Dxszs3QfsJwPybO1gbPaEstAgTeEiE8zrPf/Hfv0220Xn6EfuqQuI7E/nC3RHbkqiYg/2tCd4SNX7D1mjyVI1VnAsW+ouYTtuIWgu8xifu74ikP940HuYUJwu1fgW7F979tPUUFuDCcmGKqP7aiynaHA00ML4pdrnuWxAdQgW01y0yyfRWIPtReCpoaqQ8KQcZIJnPpSse/fYQ7uPWs8fL4FWFOqettCniugMmI8lnpYvYgQSb0UZ3e+FyZX4aPmJhrwPXha+Nzt/At31GxsZWCEaBFoCsNj9K3RcMZg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656360907; bh=4WukZAbBoA9rgmreRWWMzEoKSBGSmIQeH1WzF0NsrXZ=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=dM/fmDvbEpLsDzjcVBykzNTYBt6Yh/kUELPPV9/+jVa25HBeIcqWUFWFQu0PvWck5hQxrfUP2ZIuiO5FTp/z9c31zUaiS49K9snbdfGlAq0zuKogv3tB7ku43i9HQMF1BDCnQTtoQSCpSBviI8XHYb244lmmVZMk+DOtJEEqDwoO/zhyCnHuNvM22vMRumMkWrBgeFhMzrqArAfIkM2mJEKPqLV7k8S9a5jAz4kefcVKSqtkIeGJM6ewvb4lNbzYpU0QxfFxsKGvacnHPl92Z910fTK4myjn3yx6rCpYZILVJLD17W/Fc6D9dsflmfE7yt/MhxI5BtfCnZghpjsmgw==
+X-YMail-OSG: rJhGxXQVM1k5xDsULWgJUCfs7S9zk5d9ZmzX8QrXUg1gRZMxvQmqxopwjRD911v
+ TmxsH0rKfb63zrksk9T8n_n3XLqeQ2m1x4cfGW7B1vQOWDuWcws5xrHkvGCt.a29HQlqNB2W3Smp
+ OsvGi66lNdHLWBMr0GA125CJRn4SDwUhKhhiesaCOyu49HOSpYGhc8VMamBMHkkJ6crokiHYMRfM
+ tc.actraPZD99Y637RZdvDVZBShvG.e4_ov89Sil9sBMKHQwE3FLtKNjABVVroqiUUlyIbEsUwP.
+ 6Q.8ItqEUELkeOhf_uq.FZkIhmwYwao8ZENpOVb8_ZJtl8Gy9rGTsBchXaWuOh5kDEcbjYWbpR6V
+ 3D1ABPCkUMiQHA000ru9agMeuU012YS8NG4f4fCYaSGflxv7qBiO6muWwSX2LzpYQtB943LFSk5j
+ sN190ActxLoqEC4vBIEZYMd1oYmhi5wYBD3R5PaL5mj9lRcryuzOE0YPF_FBOi3XXS7cY.DXBxc.
+ cd7Al98b3nn2DybxvCnOHmUa1pIQ.3YixsJVHRgt2jdNpTriXXONz3kklxsvbWwJ0czkhaTy6ni2
+ l9VOHdadJk6b0a80HIl1ymBMJQGcXloqShfNNFEBPMMz4_NLiP09LOeN.vP8jkFh.Wb7JXN6Xufo
+ lvEEQMOk8..IhHqpwCDGr53DMNScXtYLGZ2HU2ValonsBS.qX7rSYzDksXx9JGBkv.zHW9g_xwQL
+ GBs9cq9ykZrX7QP3k1Vi8dTF4PU9sgKi2EmDZe2VWzppFDQiZwRMrpNzgEhPm10xuNbEH6v3nAa4
+ k_3Gtgq64n2gnBGbNlctNVK93RUV0mLoR3LELG_xXaEYStH3fpxJXrhs8eKFbD2uUCyaZaX.TuSU
+ mDNSFcOo5Gd.asbzWb25uKwBBADyP3X6coZeKs5XMzTxq1pVzsRIDYuxp20ufFkjIDWdN68eSmZT
+ S.ZJr8APoIJXeEbUWqZUUkPj2Yf0jn2jcierqJyV67m8L4zWXMKnsao3eWzsIy3G7brc_BHBFFV_
+ VyoQITQ.NTbX2VPYafEX2JE2516lINhthvQfeZmsXcYNerY0BVvb935t6IxR1a4bM_1_jTnH7C1U
+ xMZYjsHUNdTZEAwaaG5rzZO6MAtxpS8iKxrVsqmFx6wI66TGxd4_dJBset.n6LJWg_.5.Uua.AIE
+ oaxupq4DAZuV1tbQTo4UNHkOhHO1KM5vEWpkdRZZsEuEGDJn0DotCUgFzi4C2YlzJMTNxSSulTwp
+ YkBCHmNIh3sbxsMZxHEGGXQpRPSrXZTn.RiJuzckesZPOSgc35FPbih441tziD4u3ilW1p2vHbOy
+ 9BoS6aqSX08zbq7SBlpWkdg0nO84u.M3MwQCzwwFIty304OcXBq.3XJAaqjgCD15wYq8KCPzzoQR
+ Avl_xFRYlGaVnabP2Fk5U4K0ILDOpoz5spwT77173vADJcgzbHAEaXNxiqN.EHZEM64WeS0wnhfc
+ 35EuyORMTmH2__67.C42Terevc.gZwQgC6csccxDTaoPlylOmWk1DUBPvhBzTX5iVOJxtpnXWG3X
+ a3zAl8JlIYHqA32cyF2PTanJIKmVq0upGU4hB_BvBr31rm0qLRW7MKr7nXV0pnuorRK351hm3lJ5
+ GUhlT1eh2U4AUrzH.WVMMYx1aahWvB1iq7MmEvMB2A9GyE9ag.7126IwBY4jmbPKWnWO9ykq3.NL
+ .0ZaMjQJEeU4qeF3ssw_sAqLshTbFYdyVi3KE14KLCQzcnG0p1v8MajkTPxeRXZxSeyrqAq9KYkX
+ fXc3TDJzOxbju_X0XxIZX9TerYxbLF9kWATiO7V4acn16SFqSMnvWH4SKoa4lT6wuLT30nKRMZf9
+ WkcUfyB4UpAIAVsntcMKaDMRkbVZXJiBTC77YJm2Lp0aMqgk2bvxcYaGr6aic0NhiBowvENl0gxL
+ wGyPVFLsZ8Rnz4BiH_.Ya1lsjvb5DjTMIwMZKtILUyKq5ceUFdtEs.B62vQdWOmOgRh6IcN5892x
+ BMmwhWAWXBU0WkSztB69fsVsQKm_FM71OH5dgWta7.TukAa.s52KAWFCvo1DOG9Jh_CJlhJItdIR
+ II7S6E8_OF0_ViEKBpDAsaSJNpIxuEpPweA--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.gq1.yahoo.com with HTTP; Mon, 27 Jun 2022 20:15:07 +0000
+Date: Mon, 27 Jun 2022 20:15:01 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>, 
+	Governor Hochul <governor.hochul@exec.ny.gov>
+Message-ID: <1756791479.15250.1656360901892@mail.yahoo.com>
+In-Reply-To: <61BE828D014A040E00F50001_0_225640@msclnypmsgsv03>
+References: <61BE828D014A040E00F50001_0_225640@msclnypmsgsv03>
+Subject: Fw: Fwd:Fwd:Fwd:Fwd:U.S. Securities and Exchange Commission
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_15249_1095293432.1656360901892"
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 13634
+
+------=_Part_15249_1095293432.1656360901892
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15248_1442846031.1656360901791"
+
+------=_Part_15248_1442846031.1656360901791
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Yyeeassss
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Bd Dincer (COLUMBIA UNIVERSITY)" <b=
+dincer211@bloomberg.net> To:  Cc:  Sent: Sat, Dec 18, 2021 at 10:27 PM Subj=
+ect: Fwd:Fwd:Fwd:Fwd:U.S. Securities and Exchange Commission   <!--#yiv2963=
+706270 .yiv2963706270EmailQuote {margin-left:1pt;padding-left:4pt;border-le=
+ft:#800000 2px solid;}-->=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0 Thank you for your e-mail to the Chair's Office of the U.S. Securiti=
+es and Exchange Commission.=C2=A0 Your comments and concerns are very impor=
+tant to us.=C2=A0 Unfortunately, because of the large volume of e-mail rece=
+ived, the Chair cannot personallyrespond to each message.=C2=A0 We do read =
+and carefully consider the opinions expressed in all of the e-mails that we=
+ receive.=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 If yo=
+u are an investor with a complaint about a securities professional, firm or=
+ a public company, please visit our Complaint Center, at http://www.sec.gov=
+/complaint.shtml,to file a complaint.=C2=A0 Investor information, including=
+ an introduction to the securities markets, how they work, the role of the =
+SEC, investing basics and a variety of tools to aid investors, is available=
+ at www.investor.gov.=C2=A0In addition, if you have a securities-related qu=
+estion, please visit our website at http://www.sec.gov/answers.shtml to fin=
+d fast answers to questions and solutions to common investmentproblems.=C2=
+=A0 If you are a securities professional needing assistance on technical ma=
+tters, please check our website,www.sec.gov, and click on the "information =
+for" pages link located in the bottom center of the home page.=C2=A0 =C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 We deeply appreciate=
+ your taking the time to communicate your thoughts and concerns to the Secu=
+rities and Exchange Commission.=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Sincerely,=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Lori Schock=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Director=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Of=
+fice of Investor Education and Advocacy=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 U.S. Securities and Exchange Commissio=
+n=C2=A0
+
+<<=C2=A0HAPPY=C2=A0HOLIDAYS=C2=A0and=C2=A0Merry=C2=A0xmas=C2=A0>> =20
+
+------=_Part_15248_1442846031.1656360901791
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Yyeeassss<br><br><div id="ymail_android_signature">/S/ BO DINCER</div> <br> <blockquote style="margin: 0 0 20px 0;"> <div style="padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style="font-family:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message -----</div> <div><b>From:</b> "Bd Dincer (COLUMBIA UNIVERSITY)" &lt;bdincer211@bloomberg.net&gt;</div> <div><b>To:</b> </div> <div style="display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Sat, Dec 18, 2021 at 10:27 PM</div> <div><b>Subject:</b> Fwd:Fwd:Fwd:Fwd:U.S. Securities and Exchange Commission</div> </div>  <div id="yiv2963706270">
+
+ 
+ 
+
+<style><!--#yiv2963706270 .yiv2963706270EmailQuote {margin-left:1pt;padding-left:4pt;border-left:#800000 2px solid;}--></style>
+
+<div>
+<font face="Times New Roman" size="4"><span style="font-size:14pt;">
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your e-mail to the Chair's Office of the U.S. Securities and Exchange Commission.&nbsp; Your comments and concerns are very important to us.&nbsp; Unfortunately, because of the large volume of e-mail received, the Chair cannot personally
+respond to each message.&nbsp; We do read and carefully consider the opinions expressed in all of the e-mails that we receive.</div>
+<div>&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you are an investor with a complaint about a securities professional, firm or a public company, please visit our Complaint Center, at <a rel="nofollow noopener noreferrer" target="_blank" href="http://www.sec.gov/complaint.shtml"><font color="blue"><u>http://www.sec.gov/complaint.shtml</u></font></a>,
+to file a complaint.&nbsp; Investor information, including an introduction to the securities markets, how they work, the role of the SEC, investing basics and a variety of tools to aid investors, is available at <a rel="nofollow noopener noreferrer" target="_blank" href="http://www.investor.gov"><font color="blue"><u>www.investor.gov</u></font></a>.&nbsp;
+In addition, if you have a securities-related question, please visit our website at <a rel="nofollow noopener noreferrer" target="_blank" href="http://www.sec.gov/answers.shtml"><font color="blue"><u>http://www.sec.gov/answers.shtml</u></font></a> to find fast answers to questions and solutions to common investment
+problems.&nbsp; If you are a securities professional needing assistance on technical matters, please check our website,
+<a rel="nofollow noopener noreferrer" target="_blank" href="http://www.sec.gov">www.sec.gov</a>, and click on the "information for" pages link located in the bottom center of the home page.&nbsp; </div>
+<div>&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We deeply appreciate your taking the time to communicate your thoughts and concerns to the Securities and Exchange Commission.</div>
+<div>&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sincerely,</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lori Schock</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Director</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Office of Investor Education and Advocacy</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U.S. Securities and Exchange Commission</div>
+<div><font face="Calibri" size="2"><span style="font-size:11pt;">&nbsp;</span></font></div>
+</span></font>
+<div lang="en" style="color:#ff9900;background-color:#000000;"><br><br>&lt;&lt;&nbsp;HAPPY&nbsp;HOLIDAYS&nbsp;and&nbsp;Merry&nbsp;xmas&nbsp;&gt;&gt;</div></div>
+
+</div> </div> </blockquote>
+------=_Part_15248_1442846031.1656360901791--
+
+------=_Part_15249_1095293432.1656360901892
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Untitled"
+Content-ID: <a6e051e5-67bb-49c1-8f8d-26ec35689168>
+
+PGh0bWw+CjxoZWFkPgo8bWV0YSBodHRwLWVxdWl2PSdDb250ZW50LVR5cGUnIGNvbnRlbnQ9InRl
+eHQvaHRtbDsgY2hhcnNldD1VVEYtOCI+CjxtZXRhIG5hbWU9IkdlbmVyYXRvciIgY29udGVudD0i
+TWljcm9zb2Z0IEV4Y2hhbmdlIFNlcnZlciI+CjwhLS0gY29udmVydGVkIGZyb20gcnRmIC0tPgo8
+c3R5bGU+PCEtLSAuRW1haWxRdW90ZSB7IG1hcmdpbi1sZWZ0OiAxcHQ7IHBhZGRpbmctbGVmdDog
+NHB0OyBib3JkZXItbGVmdDogIzgwMDAwMCAycHggc29saWQ7IH0gLS0+PC9zdHlsZT4KPC9oZWFk
+Pgo8Ym9keT4KPGZvbnQgZmFjZT0iVGltZXMgTmV3IFJvbWFuIiBzaXplPSI0Ij48c3BhbiBzdHls
+ZT0iZm9udC1zaXplOjE0cHQ7Ij4KPGRpdj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgVGhhbmsgeW91IGZvciB5b3VyIGUtbWFpbCB0byB0aGUg
+Q2hhaXIncyBPZmZpY2Ugb2YgdGhlIFUuUy4gU2VjdXJpdGllcyBhbmQgRXhjaGFuZ2UgQ29tbWlz
+c2lvbi4mbmJzcDsgWW91ciBjb21tZW50cyBhbmQgY29uY2VybnMgYXJlIHZlcnkgaW1wb3J0YW50
+IHRvIHVzLiZuYnNwOyBVbmZvcnR1bmF0ZWx5LCBiZWNhdXNlIG9mIHRoZSBsYXJnZSB2b2x1bWUg
+b2YgZS1tYWlsIHJlY2VpdmVkLCB0aGUgQ2hhaXIgY2Fubm90IHBlcnNvbmFsbHkKcmVzcG9uZCB0
+byBlYWNoIG1lc3NhZ2UuJm5ic3A7IFdlIGRvIHJlYWQgYW5kIGNhcmVmdWxseSBjb25zaWRlciB0
+aGUgb3BpbmlvbnMgZXhwcmVzc2VkIGluIGFsbCBvZiB0aGUgZS1tYWlscyB0aGF0IHdlIHJlY2Vp
+dmUuPC9kaXY+CjxkaXY+Jm5ic3A7PC9kaXY+CjxkaXY+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IElmIHlvdSBhcmUgYW4gaW52ZXN0b3Igd2l0
+aCBhIGNvbXBsYWludCBhYm91dCBhIHNlY3VyaXRpZXMgcHJvZmVzc2lvbmFsLCBmaXJtIG9yIGEg
+cHVibGljIGNvbXBhbnksIHBsZWFzZSB2aXNpdCBvdXIgQ29tcGxhaW50IENlbnRlciwgYXQgPGEg
+aHJlZj0iaHR0cDovL3d3dy5zZWMuZ292L2NvbXBsYWludC5zaHRtbCI+PGZvbnQgY29sb3I9ImJs
+dWUiPjx1Pmh0dHA6Ly93d3cuc2VjLmdvdi9jb21wbGFpbnQuc2h0bWw8L3U+PC9mb250PjwvYT4s
+CnRvIGZpbGUgYSBjb21wbGFpbnQuJm5ic3A7IEludmVzdG9yIGluZm9ybWF0aW9uLCBpbmNsdWRp
+bmcgYW4gaW50cm9kdWN0aW9uIHRvIHRoZSBzZWN1cml0aWVzIG1hcmtldHMsIGhvdyB0aGV5IHdv
+cmssIHRoZSByb2xlIG9mIHRoZSBTRUMsIGludmVzdGluZyBiYXNpY3MgYW5kIGEgdmFyaWV0eSBv
+ZiB0b29scyB0byBhaWQgaW52ZXN0b3JzLCBpcyBhdmFpbGFibGUgYXQgPGEgaHJlZj0iaHR0cDov
+L3d3dy5pbnZlc3Rvci5nb3YiPjxmb250IGNvbG9yPSJibHVlIj48dT53d3cuaW52ZXN0b3IuZ292
+PC91PjwvZm9udD48L2E+LiZuYnNwOwpJbiBhZGRpdGlvbiwgaWYgeW91IGhhdmUgYSBzZWN1cml0
+aWVzLXJlbGF0ZWQgcXVlc3Rpb24sIHBsZWFzZSB2aXNpdCBvdXIgd2Vic2l0ZSBhdCA8YSBocmVm
+PSJodHRwOi8vd3d3LnNlYy5nb3YvYW5zd2Vycy5zaHRtbCI+PGZvbnQgY29sb3I9ImJsdWUiPjx1
+Pmh0dHA6Ly93d3cuc2VjLmdvdi9hbnN3ZXJzLnNodG1sPC91PjwvZm9udD48L2E+IHRvIGZpbmQg
+ZmFzdCBhbnN3ZXJzIHRvIHF1ZXN0aW9ucyBhbmQgc29sdXRpb25zIHRvIGNvbW1vbiBpbnZlc3Rt
+ZW50CnByb2JsZW1zLiZuYnNwOyBJZiB5b3UgYXJlIGEgc2VjdXJpdGllcyBwcm9mZXNzaW9uYWwg
+bmVlZGluZyBhc3Npc3RhbmNlIG9uIHRlY2huaWNhbCBtYXR0ZXJzLCBwbGVhc2UgY2hlY2sgb3Vy
+IHdlYnNpdGUsCjxhIGhyZWY9Imh0dHA6Ly93d3cuc2VjLmdvdiI+d3d3LnNlYy5nb3Y8L2E+LCBh
+bmQgY2xpY2sgb24gdGhlICZxdW90O2luZm9ybWF0aW9uIGZvciZxdW90OyBwYWdlcyBsaW5rIGxv
+Y2F0ZWQgaW4gdGhlIGJvdHRvbSBjZW50ZXIgb2YgdGhlIGhvbWUgcGFnZS4mbmJzcDsgPC9kaXY+
+CjxkaXY+Jm5ic3A7PC9kaXY+CjxkaXY+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IFdlIGRlZXBseSBhcHByZWNpYXRlIHlvdXIgdGFraW5nIHRo
+ZSB0aW1lIHRvIGNvbW11bmljYXRlIHlvdXIgdGhvdWdodHMgYW5kIGNvbmNlcm5zIHRvIHRoZSBT
+ZWN1cml0aWVzIGFuZCBFeGNoYW5nZSBDb21taXNzaW9uLjwvZGl2Pgo8ZGl2PiZuYnNwOzwvZGl2
+Pgo8ZGl2PiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyBTaW5jZXJlbHksPC9kaXY+CjxkaXY+Jm5ic3A7PC9kaXY+CjxkaXY+Jm5ic3A7PC9kaXY+Cjxk
+aXY+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IExv
+cmkgU2Nob2NrPC9kaXY+CjxkaXY+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7IERpcmVjdG9yPC9kaXY+CjxkaXY+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IE9mZmljZSBvZiBJbnZlc3RvciBFZHVjYXRp
+b24gYW5kIEFkdm9jYWN5PC9kaXY+CjxkaXY+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IFUuUy4gU2VjdXJpdGllcyBhbmQgRXhjaGFuZ2UgQ29tbWlz
+c2lvbjwvZGl2Pgo8ZGl2Pjxmb250IGZhY2U9IkNhbGlicmkiIHNpemU9IjIiPjxzcGFuIHN0eWxl
+PSJmb250LXNpemU6MTFwdDsiPiZuYnNwOzwvc3Bhbj48L2ZvbnQ+PC9kaXY+Cjwvc3Bhbj48L2Zv
+bnQ+CjxkaXYgbGFuZz0nZW4nIHN0eWxlPSdjb2xvcjogI2ZmOTkwMDsgYmFja2dyb3VuZC1jb2xv
+cjogIzAwMDAwMCc+PGJyPjxicj4mbHQ7Jmx0OyZuYnNwO0hBUFBZJm5ic3A7SE9MSURBWVMmbmJz
+cDthbmQmbmJzcDtNZXJyeSZuYnNwO3htYXMmbmJzcDsmZ3Q7Jmd0OzwvZGl2PjwvYm9keT4KPC9o
+dG1sPgo=
+
+------=_Part_15249_1095293432.1656360901892--

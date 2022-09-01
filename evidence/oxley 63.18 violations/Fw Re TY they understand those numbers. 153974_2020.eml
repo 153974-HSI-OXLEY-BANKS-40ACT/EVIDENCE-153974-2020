@@ -1,0 +1,331 @@
+From - Sun Aug 28 22:43:06 2022
+X-Account-Key: account1
+X-UIDL: AB3Gg/tuPALQYsceAgSbsBwm3GI
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.243.13
+ by atlas106.free.mail.bf1.yahoo.com with HTTPS; Thu, 7 Jul 2022 17:55:14 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.82]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.82 as permitted sender)
+Authentication-Results: atlas106.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 7 Jul 2022 17:55:14 +0000
+X-YMailAVSC: I5W7PIA3bBveFG5Kqlm5Ek.KTmFfpyhQyabPyj.BwKjca65
+ kABPUbuMv75oM4E_RznUAwpSFcBhBmkYeUTYffyI07M5.WbEBylISGQRfnBf
+ LFOXpplSXVJbhlUSgT7c6BgPhbVkZXQWs6VZdl2Yehj6UdRsr14IP6FxR_41
+ aR4iFgVBj2ohEwBPXy393yFFogTRSkDK.DNuVk53Cvvu6zpXSd.xXa5hCxOL
+ o02pz06MrKxsJHLYdGXYoMK0OXPQQaj7fwLlcRGvTBpCCI7dfdiRUTOqUW.8
+ DbHYhvX0xiUPUgLEKDk1E_4xU0SlPwbwyeZcPVE6Rd6UNxFUawDM3HuHN23d
+ 01Q.YlPJYF.yHxm4_sJo.hMQ80f.QEe544BH3UURdJQnnNQJSlUugpJ_rTww
+ csWJSKmKxjNsY8XqvRiQj2UcOvDajDpparMfApgui_rMcpRxdk7Q1zgeihmS
+ Ct5z4J0VGhiacw5nCq1v4dWQfn8U-
+X-YMailISG: 2OY3gIoWLDvcrH5xsK8Vw0vzCymGIyiLk8PIbUnem27gEmDz
+ 9bSdqIssIN0KksQyRh8cK37_6lwEZLkIppz2gs61fYvST3uImhNPE5o8MkuE
+ MLp5rjTsm3KN_.EJHpw0DkAh9eAtncBYB_9kcjWWTLU.kZTQ7iCszNAmEtIh
+ BKaWBV0R7bIEVwi_XvrS_6k1TIzF2vHQ48niAj4wG3gDhl.K8RqaEgv7NcXy
+ p3FtAdheISxtFN2Zg.8OmHI64zw4QaZaq58IdniD48_nm2tWMRD28ljTxJ4x
+ B3X4nBcWJaL7XqkLrfCA_ErQrbmOAYXOhGU.xoFx4jcAkafY09fM46p2qD7s
+ 8rnn1mUSWU1tAQxioLqbpycGPLuNarcX_5ggWxz6yILbJWSs97HzoaDlPyMx
+ zJKxaW9uWs3a_ditA_cde5V6_K.uNRzDOoiYRe9SUCbYcgCAo1k1bQKHqNJx
+ 95kq_AIAeuKbgd.1vBWvaxg_plfYbJU8vBAzZQmA81tN08sbVxN7lfgTqXvx
+ PVSuEtEtgQl6xLWV8JV3FrYpVPSmFgY2UiX2ki3PyFyuRw0uwcIobH5xRlxL
+ 5K4v5O1D8YpGpzOevBktmwEXo6j5A0fmvDTTl_27lof97AP22qx1K03PHBTd
+ y0kvk7ZDJnSEMTro_N5sc.icBk8D72eUH3XBcg2ZmDbUzc5IZu2QocqtORrv
+ l5UJF93RaODYn4gepJeMovlyTN3IEab.XLBOjx.mHyHKk28XIv0BGtMHR2Kf
+ aPZ.dhw4A1S8..7AfpnqGmHbfZFdWRzoYUto0AFEPtvGolRFgx8HS.XHmaKU
+ HlnJpsmShu_TqeSWT9UCT60Gms0p_P6GlF_JcDAcLe3sny8aMtlzpabOaBwR
+ NXx37bQWwFfdMlsQbwFBWZtLv.H3aw8eE8qbSaEwGpaBtpEEg4wsQXO3cSLd
+ 1MmO.lwD2HOl2nvHyBBaRRi_OnaadsY9ajdshziE_OaE.AVZaPmFhqCm8wMP
+ MRW7hl.iymVINYFRHgNziHwrqqDDAVA7iUqBuzCh.lBb2S4Qm6_wtXe03zlm
+ nDJLWgQlO8D_.1UVPIbb7HpXUnohvsEHaRO_cNtNSiG4XbiJPTqEFv5wUgTN
+ NItizhbo9aJmHiY5EuEDXhCU7FMCBHw6vvod8GsspLUKFHbrRzv60qYERk9R
+ bRwYnE2.hcI6
+Received: from 98.137.69.82 (EHLO sonic314-19.consmr.mail.gq1.yahoo.com)
+ by 10.196.243.13 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 07 Jul 2022 17:55:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657216513; bh=WTGrSbSVSCkqAmVZjiXqcdQcYfddy14Pd4z6jPzgdkk=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=cWLdAYFgpceufXDcBHJ+AZpE5p/dXTkFKtUryFxadXOyACmiVYIkB1eb8kydUzESF313ysOaEGPvEPReCE7Db8oYtTOzzwo2LpMxBK9OhnQEmq1Cl3OKT8P3l/giiwfo0uiBNMig3r56PFBf+gAbPTNcODGATnuC+2sCrjPgLDR1L5wTWC7/5/R8jd0qpB9oyjyTGKc+OTnhi7mUSku44cwxfiuC69FIZm7VQQs4Z5/7FaKrUMXHqIlOYLKPMal4lpM+506x8j5iXNGaz6FnWc3QC2tqgz4/QyXvpk0tvU/FF0uaN6fSkuMrrhShxBAqhGb3vYAYrXAz9xmeYuWbGw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657216513; bh=9n6JNkc4F7/AmTBGWWiKJ0sQbDgx01OTmV0YEOT1nuH=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=jWr1M7LtDXZTpiE0PINE1c8gQJ5SAYI1Vdw2/2APchZYCeC5Gt9jycEOz3g0fpkMoMPl+926DLAXPxba0x7h0117VdGQtSf631c3+wslakjznVBpBKM3UXDDxNNln/uq/4jN4HtfZK+A6nTfwLURWWVeR8fvVl0AaEG+uGyWMY8nPwhm2PweQ8rjjSIUXxwxy8meqNQZEHdKZuqxXMiGdUYIKvkmxtjDh8jJSTnsUl8UR0Z4EBzMmdl9vVU3iVWVV7KqZp3xnGy8fd1fs+t1oHRFuPtfHi6Cj0HgbkLuZPmeoFRHM5uasC4yLDvqugLB8HOfIBtMSF00HWwMfTwO9g==
+X-YMail-OSG: x.pRFWwVM1mr54W5SdT6kdv0YnOsLI26rgZck8CLO0XaMTmP7Ikx5rrgRyRsMW5
+ VVyS2UAVbLchDIfvpTcROykUn.AB1kuRHpE1X94xUFl0gEaueNPsZQcnwaN5Sgb0FQDOFO7WDgnB
+ kQuryhSHM6Xd1NY78xOuO1qX.Wc2TCKg1uKO3b9seggtDsPHluHSo9zf8zLoQnlPywbC00lJ2uyt
+ dlXewyrB3OHZhRvP79JD4SG.Yr0rlJDK63Fryu4Y1XaJhz58hSD98V.YKdwYo4DUabLv3Jnnuc7T
+ fCaAokvxSPgHGBGlM1DgwbNvXWtdy5.WMF9LQ4m9oEakeMQGnwZluszC3OYY5H4fw7GapvutjKkp
+ iBCzvpIAf4F2qIezspeAyQePq8mbKJpbU88qhYTzX0wVkkug4eEwJ3MuWGEgKw9AYOQvYMErDD9q
+ MTL5NulxftzjtjvTNPhFlR9YG_99KpD.SVY61PCq5a9xR65Hf2Z_C3J_lhfSrwThxUiaz6q0lLkA
+ 1jPhg.h2WFPe4KMT.7M3uYycD7cXO1mNRANighoJcm.FzbKtRFRMyVULkqjxbdP86sX784ge4MgK
+ glkW4C3LlAPXKufgDGJvoGPvqHw36eWzZC3AmyHrCazAOajlFIpj5aSnJ6NSHtNx9_.hPHp5Dbyq
+ o165OprvTK__8MxtBBwfVnkq8IldHaHvvtGkFErZEcFMMvByMBVWso7JfSKuCSWjZxnWhNWwsVhN
+ i8i9uSJu3ZboV3xun6ZV2uq0VTRzuls9kyOTBEjxZUc7KgmQB1qp4r_OWhYqJ8HGXTW_k1kjqwTT
+ 3vueEAJu62yaT3QxnrqzOjWxZkDELgDn6mc4wlFnBQXBdjSFs6XoovsFnlReGRpflIFRhbgInaSY
+ CI30Ej0q9usVIrPxXVUhQYOMixwDcjISUbsLk3f6ROLf.9PxrnPqBaK66Zy8IWyTU_LN4Bz74ddi
+ bwuKLMOXkl4V.pwNHZukEc61OvDtAKuozvcMkTeOEksL0KimugUKmReNOkeTcWBmAhucChKyTIA0
+ EUgifKjfNqypjYC_tRZPq_MztH0vyx0kz0AenjVwMUpPydAGi.XwwAFDbnN7lpgop.WFBoPPRKtM
+ FkGDWNoIs3zkZYwfuaagCqSZ.FRV7xylRKUGXYopITuxjk8BMbrz.9U3tyCTpV5ZQNutktrn4Zdp
+ OCrnV7j33a.kj7IEIqQhYScj5YC7yvjlve4Jfb90Inj3ARtTrmstC7CHy7aeBINdeZPOnGafnSYI
+ 7RhLR53wxHYigKEq8yuwFvaJpwirjKLaK9lpeEKpK8rDljTC_xxd7V.7Y5R0mTy9LsmNc_8WGyuA
+ PobuK8B0cEpk.RFm6ZwaPyLGctxRPB9TzPv6Lg0sOEbqIql1fM0.BI.xPJLWv32i5_uav0YpDoVt
+ ewSbsWwBURsY2gSdua7Va0WZkDicBXvUgGG1u3I5Y5w8qS82lHQKgqJ.nxzby3deRNaisgF_iGVq
+ DwcOULC2JleyeilJKQFcfCap0Dg6wM.hCkT8uzdWpGZU2.Owa6HnmuTL6htDZvdnszklelAKG.TV
+ g3tAUyL.V_2HhKUo4TJZnc7ONzN6goqw92SncuWkDcq1jY8YPVnA7wWuhr3c8IJfCammC_Ai4.ne
+ yZ_AXCow0EWkV_2RF1yZfQ1eXz_B1rtfPMpDMsxdkEEftGTkMltvfHcrwpu6vBBzqQOyZW2DFSYj
+ rJnVrtchvBAW6u5uYvubi7ZkJTJ2aBjplNUdNg7xfxC_2ozoW0HNAqNhAOAjU5m5eJwjUOuplxxc
+ rz.yqyLOz_ThpL_RPpU5sKPi3NiaviI7K1Ijuim6pfnE51cHpJpUYIzbo42pp3OwKhuaxsW2T74d
+ lBZU7ozrAUJ20YkTtSDFolpF1aB4lDpP6M5.ifL3ue4AbATrCvRWTOFSlIcGEKMHA1an2ksZd9h0
+ .EqeacUa.Oy50HT7M8BfTDNWC3M_mkUSIlvmVJRspmRNL_1.K1.1lGa4rJlF1FSj.kt45TSrzfG1
+ 9QLoMlQ2IbbWesbFys6LkW6bUXoSWN5jMHuCsHBIysUvQKuukOaFSkFz6.VxRAimSqs0BFLOeSGg
+ 3ynWyIg3jOdPlTjQd8aYlHg69mSvFPtrqDF75Gh8P4Z00mL5khmXirT7be90pIyyvV8cx.gnNgS.
+ bp6.M26Hn8G6CG9EB28kv9HCHrSgTdi4fKfGOWwsPguedyDW4s35mKEw_WqV7sv.zVZoCT3hM1Jg
+ T7JwBmwlGZNRyh9ulG2XwmipnRl6OIXMYcccb6sZIiDZIwN4ZGaYiKwSSLHTvGdiE5RZGFpYIAKu
+ J6v9erySGaNIUrruvEYFXyIxUs9t._VyR.32WpnPT43oiAciwB7lp1ZP4a446bGS44koCC.u6LIm
+ lkB8KlgMdmofY2xSRhFynGwtc1fUGljjW8TMuqoqHS_c-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.gq1.yahoo.com with HTTP; Thu, 7 Jul 2022 17:55:13 +0000
+Date: Thu, 7 Jul 2022 17:55:09 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, 
+	Stephen O'Connell <sgo2107@columbia.edu>, 
+	Marlyn Delva <mmt22@cumc.columbia.edu>, 
+	Marlyn Delva <mmt22@columbia.edu>, 
+	100maidenlane Info <info@100maidenlane.com>, 
+	"lzucker@mskyline.com" <lzucker@mskyline.com>, 
+	Daniel Richman <dcr2132@columbia.edu>, 
+	Tina Jeffery <tina.jeffery@usdoj.gov>, 
+	"JEFFREY H. QUINONES" <jeffrey.h.quinones@cbp.dhs.gov>, 
+	Jeffrey Sears <js@gc.columbia.edu>, 
+	"tmprosecutordocs@uspto.gov" <tmprosecutordocs@uspto.gov>, 
+	MATT HARVEY <mharvey13@bloomberg.net>, 
+	William McKenzie <wmckenzi@nycourts.gov>, 
+	Corrine Shea <corrine.shea@wilsonelser.com>, 
+	KEVIN ROCK <krock5@bloomberg.net>, 
+	Brent Reeder <bdr11@bloomberg.net>, 
+	"mharvey13@bloomber.net" <mharvey13@bloomber.net>, 
+	David Moore <david.moore.ct95@statefarm.com>, 
+	Amber Griffiths <ag2943@columbia.edu>, 
+	Amber Griffiths <ag2943@adcu.columbia.edu>, 
+	Treasury Inspector General for Tax Administration <tigta@service.govdelivery.com>, 
+	Caroline Dirks <cdirks1@bloomberg.net>, 
+	"cdfifund@service.govdelivery.com" <cdfifund@service.govdelivery.com>, 
+	"cdaggan@doi.nyc.gov" <cdaggan@doi.nyc.gov>, 
+	"LLC. MANHATTAN SKYLINE" <administrator@mskyline.com>, 
+	Skys the Limit Concierge <skysthelimit@theconcierge.info>, 
+	Broker - Sullivan Mews <sullivanmews@mskylinerentals.com>, 
+	"leftbank@mskylinerentals.com" <leftbank@mskylinerentals.com>, 
+	"concierge@stlnyc.com" <concierge@stlnyc.com>, 
+	"Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>, 
+	"lois.ottombrino@wilsonelser.com" <lois.ottombrino@wilsonelser.com>, 
+	"slaskowitz@ingramllp.com" <slaskowitz@ingramllp.com>, 
+	"dcaoletters@sec.gov" <dcaoletters@sec.gov>, 
+	"rule-comments@sec.gov" <rule-comments@sec.gov>
+Cc: "jackson@nysenate.gov" <jackson@nysenate.gov>, 
+	Jackie Robinson Foundation <connect@jackierobinson.org>, 
+	"dcjobs@cochranfirm.com" <dcjobs@cochranfirm.com>, 
+	"Kings County Clerk E. File Group" <kcco-efile@nycourts.gov>, 
+	NYSCEF Resource Center <efile@nycourts.gov>, 
+	ShareHolders Sec <shareholderproposals@sec.gov>
+Message-ID: <47896616.2579458.1657216509357@mail.yahoo.com>
+In-Reply-To: <CAOHu48_QJ+GxQJJL2PHcM1REKtfo8wBYdoWy_5W=YEG-O6T=hA@mail.gmail.com>
+References: <6BDuoa8fKAeK56BctooWEP@txt.att.net> <CAOHu48_QJ+GxQJJL2PHcM1REKtfo8wBYdoWy_5W=YEG-O6T=hA@mail.gmail.com>
+Subject: Fw: Re: TY they understand those numbers. 153974/2020
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2579457_1012127066.1657216509355"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 8538
+
+------=_Part_2579457_1012127066.1657216509355
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+TY . More domains to find see. Gets worse, not easier. More avoidance, will=
+fully and knowingly.
+
+/S/ BO DINCER.=20
+   ----- Forwarded Message ----- From: "BO DINCER" <bondstrt007@gmail.com> =
+To: "6462563609@mms.att.net" <6462563609@mms.att.net> Cc: "bofamarkets@bofa=
+.com" <bofamarkets@bofa.com>, "jpmcinvestorrelations@jpmchase.com" <jpmcinv=
+estorrelations@jpmchase.com>, "Bo Dincer" <bo.dincer@yahoo.com>, "646-256-3=
+609@yahoo.com" <646-256-3609@yahoo.com>, "bscpgroupholdingsllc@gmail.com" <=
+bscpgroupholdingsllc@gmail.com>, "FDIC Public Information" <publicinfo@fdic=
+.gov>, "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>, "BBO 121" <ms6071=
+0444266@yahoo.com>, "info@manhattanbp.nyc.gov" <info@manhattanbp.nyc.gov>, =
+"speakerjohnson@counsil.nyc.gov" <speakerjohnson@counsil.nyc.gov>, "levine@=
+council.nyc.gov" <levine@council.nyc.gov>, "kford@helpusa.org" <kford@helpu=
+sa.org>, "odonned@assembly.state.ny.us" <odonned@assembly.state.ny.us>, "ja=
+ckson@nysenate.gov" <jackson@nysenate.gov>, "jcarter@dss.nyc.gov" <jcarter@=
+dss.nyc.gov>, "irvinlei@dss.nyc.gov" <irvinlei@dss.nyc.gov>, "stringer@comp=
+troller.nyc.gov" <stringer@comptroller.nyc.gov>, "ECUCKER@AOL.COM" <ECUCKER=
+@aol.com> Sent: Wed, Jul 6, 2022 at 5:09 AM Subject: Re: =20
+*FOR STARTERS:*
+
+https://support.nysba.org/attachments/token/uXmPQ38BhOoS81BORcN189epx/?name=
+=3Dimage1.jpeg
+
+clear that out for me
+
+
+-- so that I can get this information to you in a timely fashion ---
+
+
+--TWO BANKS, AND THE POLICY HOLDERS OF: STATE FARM LIFE INSURANCE COMPANY,
+
+
+NOTWITHSTANDING THE INVESTORS OF STATE FARM ALL AT RISK.
+
+
+=C2=A0=C2=A0=C2=A0 - I'LL FAX YOU A LIST AS WELL - ALL OF THEM.
+
+
+=C2=A0=C2=A0=C2=A0
+
+
+-- THE ENTIRE BUILDING WITHOUT EXCEPTION.
+-- IF NEED BE - GO TO THEIR HOMES, THEY BELONG IN PRISON -- ALL BUT ONE.
+
+-- AIDED AND ABETTED TO THIS -- WITHOUT ANY DOUBT.
+*** VIOLATION OF CIVIL RIGHTS, PRIVACY & CONFIRMED USC TITLE 18.225, 18.21,=
+ 18.4, 18.3, 18.2*
+
+BY ALL COUNSELORS OF THE ZUCKER'S ENTERPRISES AS VERIFIED, PER YOUR RECORDS=
+ WHERE APPLICABLE.
+>> OF NOTE, THEY ALSO INFORM THE ZUCKERS BEFORE THE REGULATORS AND MYSELF.
+>> I WILL ADDRESS THOSE INDIVIDUALS IN A SEPARATE EMAIL MESSAGE TO YOU.
+
+
+
+>> JUST LIKE THE CORTEZ SUMMER LEAGUE TEAM, CHECK MY CONNECTION SPEED AND L=
+OCATION AND GET BACK TO ME, IN CASE YOU DISAGREE.
+
+https://a810-bisweb.nyc.gov/bisweb/COsByLocationServlet?requestid=3D3&allbi=
+n=3D1077252
+that unlawful interest that is used as TIER 1 and for overnight inter-bank =
+lending by and between the TREASURY.
+On Tue, Jun 28, 2022, 9:51 AM <6462563609@mms.att.net> wrote:
+
+ =20
+ =20
+
+------=_Part_2579457_1012127066.1657216509355
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+TY . More domains to find see. Gets worse, not easier. More avoidance, will=
+fully and knowingly.<br><br><div id=3D"ymail_android_signature">/S/ BO DINC=
+ER.</div> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding:=
+ 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div =
+style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwar=
+ded Message -----</div> <div><b>From:</b> "BO DINCER" &lt;bondstrt007@gmail=
+.com&gt;</div> <div><b>To:</b> "6462563609@mms.att.net" &lt;6462563609@mms.=
+att.net&gt;</div> <div style=3D"display:inline"><b>Cc:</b> "bofamarkets@bof=
+a.com" &lt;bofamarkets@bofa.com&gt;, "jpmcinvestorrelations@jpmchase.com" &=
+lt;jpmcinvestorrelations@jpmchase.com&gt;, "Bo Dincer" &lt;bo.dincer@yahoo.=
+com&gt;, "646-256-3609@yahoo.com" &lt;646-256-3609@yahoo.com&gt;, "bscpgrou=
+pholdingsllc@gmail.com" &lt;bscpgroupholdingsllc@gmail.com&gt;, "FDIC Publi=
+c Information" &lt;publicinfo@fdic.gov&gt;, "pinkbookswap@yahoo.com" &lt;pi=
+nkbookswap@yahoo.com&gt;, "BBO 121" &lt;ms60710444266@yahoo.com&gt;, "info@=
+manhattanbp.nyc.gov" &lt;info@manhattanbp.nyc.gov&gt;, "speakerjohnson@coun=
+sil.nyc.gov" &lt;speakerjohnson@counsil.nyc.gov&gt;, "levine@council.nyc.go=
+v" &lt;levine@council.nyc.gov&gt;, "kford@helpusa.org" &lt;kford@helpusa.or=
+g&gt;, "odonned@assembly.state.ny.us" &lt;odonned@assembly.state.ny.us&gt;,=
+ "jackson@nysenate.gov" &lt;jackson@nysenate.gov&gt;, "jcarter@dss.nyc.gov"=
+ &lt;jcarter@dss.nyc.gov&gt;, "irvinlei@dss.nyc.gov" &lt;irvinlei@dss.nyc.g=
+ov&gt;, "stringer@comptroller.nyc.gov" &lt;stringer@comptroller.nyc.gov&gt;=
+, "ECUCKER@AOL.COM" &lt;ECUCKER@aol.com&gt;</div> <div><b>Sent:</b> Wed, Ju=
+l 6, 2022 at 5:09 AM</div> <div><b>Subject:</b> Re:</div> </div>  <div id=
+=3D"yiv7609914583"><div><p style=3D"color:rgb(0,0,0);font-size:medium;">*FO=
+R STARTERS:*<br clear=3D"none"><br clear=3D"none"><a rel=3D"nofollow noopen=
+er noreferrer" shape=3D"rect" target=3D"_blank" href=3D"https://support.nys=
+ba.org/attachments/token/uXmPQ38BhOoS81BORcN189epx/?name=3Dimage1.jpeg">htt=
+ps://support.nysba.org/attachments/token/uXmPQ38BhOoS81BORcN189epx/?name=3D=
+image1.jpeg</a><br clear=3D"none"><br clear=3D"none">clear that out for me<=
+br clear=3D"none"></p><p style=3D"color:rgb(0,0,0);font-size:medium;"><b>--=
+ so that I can get this information to you in a timely fashion ---</b><b><b=
+r clear=3D"none"></b></p><p style=3D"color:rgb(0,0,0);font-size:medium;">--=
+TWO BANKS, AND THE POLICY HOLDERS OF: STATE FARM LIFE INSURANCE COMPANY,<br=
+ clear=3D"none"></p><p style=3D"color:rgb(0,0,0);font-size:medium;">NOTWITH=
+STANDING THE INVESTORS OF STATE FARM ALL AT RISK.<br clear=3D"none"></p><p =
+style=3D"color:rgb(0,0,0);font-size:medium;">&nbsp;&nbsp;&nbsp; - I'LL FAX =
+YOU A LIST AS WELL - ALL OF THEM.<br clear=3D"none"></p><p style=3D"color:r=
+gb(0,0,0);font-size:medium;">&nbsp;&nbsp;&nbsp;<br clear=3D"none"></p><p st=
+yle=3D"color:rgb(0,0,0);font-size:medium;"><b>-- THE ENTIRE BUILDING WITHOU=
+T EXCEPTION.</b><br clear=3D"none"><b>-- IF NEED BE - GO TO THEIR HOMES, TH=
+EY BELONG IN PRISON -- ALL BUT ONE.</b></p><p style=3D"color:rgb(0,0,0);fon=
+t-size:medium;">-- AIDED AND ABETTED TO THIS -- WITHOUT ANY DOUBT.<br clear=
+=3D"none"><b>*** VIOLATION OF CIVIL RIGHTS, PRIVACY &amp; CONFIRMED USC TIT=
+LE 18.225, 18.21, 18.4, 18.3, 18.2*</b><br clear=3D"none"><br clear=3D"none=
+"><b>BY ALL COUNSELORS OF THE ZUCKER'S ENTERPRISES AS VERIFIED, PER YOUR RE=
+CORDS WHERE APPLICABLE.</b><br clear=3D"none">&gt;&gt; OF NOTE, THEY ALSO I=
+NFORM THE ZUCKERS BEFORE THE REGULATORS AND MYSELF.<br clear=3D"none">&gt;&=
+gt; I WILL ADDRESS THOSE INDIVIDUALS IN A SEPARATE EMAIL MESSAGE TO YOU.<br=
+ clear=3D"none"><br clear=3D"none"></p><p style=3D"color:rgb(0,0,0);font-si=
+ze:medium;">&gt;&gt; JUST LIKE THE CORTEZ SUMMER LEAGUE TEAM, CHECK MY CONN=
+ECTION SPEED AND LOCATION AND GET BACK TO ME, IN CASE YOU DISAGREE.<br clea=
+r=3D"none"></p><div style=3D"color:rgb(0,0,0);font-size:medium;"><a rel=3D"=
+nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" href=3D"http=
+s://a810-bisweb.nyc.gov/bisweb/COsByLocationServlet?requestid=3D3&amp;allbi=
+n=3D1077252">https://a810-bisweb.nyc.gov/bisweb/COsByLocationServlet?reques=
+tid=3D3&amp;allbin=3D1077252</a></div><div style=3D"color:rgb(0,0,0);font-s=
+ize:medium;"><br clear=3D"none"></div><div style=3D"color:rgb(0,0,0);font-s=
+ize:medium;">that unlawful interest that is used as TIER 1 and for overnigh=
+t inter-bank lending by and between the TREASURY.</div></div><br><div class=
+=3D"yiv7609914583gmail_quote"><div dir=3D"ltr" class=3D"yiv7609914583gmail_=
+attr">On Tue, Jun 28, 2022, 9:51 AM  &lt;<a rel=3D"nofollow noopener norefe=
+rrer" ymailto=3D"mailto:6462563609@mms.att.net" target=3D"_blank" href=3D"m=
+ailto:6462563609@mms.att.net">6462563609@mms.att.net</a>&gt; wrote:<br></di=
+v><blockquote style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex;" class=3D"yiv7609914583gmail_quote">
+=09
+=09=09
+=09=09
+=09
+=09<div>
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+          =20
+           =20
+        =20
+     </div>
+
+
+</blockquote></div>
+</div> </div> </blockquote>
+------=_Part_2579457_1012127066.1657216509355--

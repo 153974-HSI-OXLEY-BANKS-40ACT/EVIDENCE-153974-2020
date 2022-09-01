@@ -1,0 +1,138 @@
+From - Sun Aug 28 22:41:50 2022
+X-Account-Key: account1
+X-UIDL: AONT0HlzRgJ1YsBdvg74CEM2IY4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.201
+ by atlas119.free.mail.bf1.yahoo.com with HTTPS; Sat, 2 Jul 2022 15:01:18 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.176]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.176 as permitted sender)
+Authentication-Results: atlas119.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 2 Jul 2022 15:01:18 +0000
+X-YMailAVSC: YF6f6Pw3bBt56ktx693MfgT90HegKMB1NAm.OSXFHtr88MT
+ S07mz8oA4coJWSpHBD5L5zJbFg6ryDdYCTNREl9PWv_mJ2wbQII5a12BUWxv
+ Mc8yfzVbDDkM9x6TvF4k2Z0mDeSNWRlxuuihJ6Ehaz78mll5OxNPErm2e_g7
+ QN3.hnfPMcWeBU6NK26oxYm7fwVi4_XNd33w9PTyI4_L2c.y_AjyDtvqSEQi
+ lmCPT8x1TXlwfdS.fYvhZ1d_zShB3Xy3zik34c.BsMQbQRSevsiZvmTDVJa0
+ CKf.yXMnWKH5ZDdxZuwx2ZzdAvjRCpoCfnWc5ltWavybZ.F57PK3xADarfB0
+ AfwWyxfP_F9ZV3EGNsZOGLwS9So5cdHsGGWKIL0BFxh.87AI3xauUhw--
+X-YMailISG: 9wj.5JYWLDsO23m.CXpl0GEKaMK_39PAzqrDsbUayx_2IzLZ
+ 2z_I26BZwOchIXP_N64fW1ZjhEF15MBrE8KfJOKvsilpCHqnhf1QNvx4qiyl
+ joHd7Z2ynnKgUq6kO9DFi217Ck4h72sFKeKiB7Thtozox3NxLESeS1wuouPF
+ hPAmeMVs45vWIWO5CIccMXhCaPjXDCCf.mUqHLr4vfBJw3jrMfuTjnL7YWVc
+ Ub3feTxKhPqbRQJ5I.1Z0VOeDmeGnNtT8AxU3oRi1A70dSwMFvNVcSz82NNo
+ .lmyoxbbUfASsVpjk_oaGH2doGmrjIopYOasxBxfN3JY.LHXAxrmVhxRBs2k
+ dC5jF.zN5UF8rNPentnUXSlEReGy1v6osaCUZh8QBdN9qJAowLaaOrG22MEC
+ aNkTi4DSj2j1ms8K5dqE3vjBKWoKUFqsyrYxEAb7f01HijdTHe0k0v3JSuQi
+ JpB2kTXV1R3_f_Hk2bl7fqv97ZFSqN9zIR8nsgwfcpFcXKnJwqbeobDF9HDM
+ bvcI5miRnXNYB6NwFC8yeZye7FPVe6xuolzF7L2lG0JKglE1YKetfpz_K8o_
+ pIZVonXmOnB7i5bNFw_8FXLXBTQJTWrob8hcMxj_3mNKYpFJJqsg.51Ga48E
+ 3xsbHnrPn.Ts0JUZ9B8PjNh30YgmPh9Mee4M6s8WyByzQvPvVpO81Tul_H9a
+ 9UxePK0C5vsSxM4.ZIuSSwtzVx6wJDHGS70cX4EYY58CBVcsYTq9XPXH.6fm
+ T9z4fvPQetHMmy9cBr08i8OAS_vSPlJP1AwuYjF0I2akK7Aa_Ygaxt6jWBTX
+ RbtIkak_GBE279_m39RQ3KbrXZCwECiEgOYkpFGaw0y3zoYqodjPJrWjK7mt
+ ubUhUYQAw6kGoXZBFgWKBHNqT7f8fJEW4jjiHbEVau9i7t011Kr6ny5shXor
+ wc5vI.eQssEYVPeVRbmSk5bBJQZwWOQf3vH7BP9ny5qzzTCcPfGkzA_G3.F8
+ lhCcvV4ByPL8XycmA.WY7xCK8zjmuKzaw4M0KxAywrFJ0IfEgvG4tzsvCN0H
+ pGSYgVTIObW2WBrBXZO5vHmL3OHpp3ysT10wndm.bAAOu19Gdlc2Aguc_QMP
+ 0eacjsAy_Rk7LDQoBNHnIJISneBJwZsqcptok_AMWoEKfoq92B2zCo3DCRFA
+ 9vv9a.YB1sQGsedUSvmLKzofL84Hbx3X
+Received: from 17.58.63.176 (EHLO st43p00im-zteg10063501.me.com)
+ by 10.197.32.201 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 02 Jul 2022 15:01:18 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1656774078;
+	bh=3SPqzjBmwsjcjeh1U1c6s6RVgYq376kgi/8UD6z/LWs=;
+	h=Content-Type:From:Mime-Version:Date:Subject:Message-Id:To;
+	b=bqGYNFjswz7bZmpOXHQTORwPi/gzuOY6rVF/3RloWMBY5xz9QSLxBG2mdz+bNrbcx
+	 s0u5LLAqMGBV/nA/Gpud0/ClYSPXVg9GGvnn9wu1/vvnLG2rkRDlfOHEZEfWzK/74V
+	 6L5MaDdWW4+Z1P+HiXHUnvWBBwp7QC7iKPk3WEQIg6k5uDbRbKI7tHxYWC9F2e0ZCj
+	 7aAmoeERqRKFkk9+lGGDBlDgRzFr9jC23y4SEtsOxszaqZXgkdUd9USjL3kYoP/Nvl
+	 hA6I6gk5T8UugVPfZODsl4JvvkO4twxJkYRJO62+IAWzq3hjMw+OPWfwZJFlb5wQ1R
+	 /PTFLuI/NSmxg==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10063501.me.com (Postfix) with ESMTPSA id 5B7884C1025;
+	Sat,  2 Jul 2022 15:01:16 +0000 (UTC)
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Date: Sat, 2 Jul 2022 11:01:15 -0400
+Subject: =?utf-8?Q?Hey_for_Steve=E2=80=99s_benefit?=
+Message-Id: <0CC2DA79-FD6B-4D73-8F5E-C2DC48648ACD@icloud.com>
+Cc: BRO-ExecAssistant-S@bop.gov, 18PCTDVO@nypd.org, MediaRequests@fdic.gov,
+ JPMCinvestorrelations@jpmchase.com, salam32@bloomberg.net, 23pctdvo@nypd.com,
+ CNK-CCM@bop.gov, CHSCommunications@nychhc.org, sadhikari2@bloomberg.net,
+ "Bloomberg L.P." <bbrief@bloomberg.net>, BBO 121 <ms60710444266@yahoo.com>,
+ Newyork <newyork@sec.gov>, Chair <chair@sec.gov>,
+ Work <cockarens@vouchersrus.org>, QUEUED <askcuit@columbia.edu>,
+ ACSInspectorGeneral@doi.nyc.gov, michael.bersten@au.pwc.com,
+ NYM-PREAComplianceMgr-S@bop.gov, peter.merrill@us.pwc.com,
+ governor.hochul@exec.nyc.com, HREmployeeServices@doc.nyc.gov,
+ OCMgmtGrp@fdic.gov, BOP-RSD-PREACOORDINATOR@bop.gov,
+ CBPINFOCENTER@cbp.dhs.gov, CRA@dfs.ny.gov, Comments@dfs.ny.gov,
+ Constituentservices@doc.nyc.gov, Karol.Sabodocha@nypd.org,
+ Randyc.wilson@usdoj.gov, Victimassistance.fraud@usdoj.gov,
+ amasters@boc.nyc.gov, boc@boc.nyc.gov, bop-ipp-publicaffairs@bop.gov,
+ fed-mmkt-ops@bloomberg.net, gcho@doi.nyc.gov, jheegan@doi.nyc.gov,
+ tips@latimes.com, lzucker@mskyline.com, inbox@livekelly.com,
+ gpradocorrea@bloomberg.net, privacyqueries@blackstone.com,
+ realestateforsale@fdic.gov, careers@fdic.gov, assessments@fdic.gov,
+ supervision@fdic.gov, tips@insider.com, losangeles@sec.gov,
+ tmprosecutordocs@uspto.gov,
+ ANNETTE 00000govtIdx FORD <ANNETTE.R.FORD@usdoj.gov>, asksipc@sipc.org,
+ asbpolicy@fdic.gov, aguilarj@bloomberg.net,
+ HEATHER 00030govtIdx BLEVINS <HBLEVINS@fs.fed.us>,
+ JAGDEEN 00069govtIdx PHANOR <JPHANOR@dycd.nyc.gov>,
+ MICHAEL 00064govtIdx OSVER <mosver@doc.gov>, Regs@fdic.gov,
+ Depositorservices@fdic.gov,
+ SARAH 00068govtIdx BARNHART <SarahB@doc.ks.gov>, Assetmarketing@fdic.gov,
+ FDIC Public Information <publicinfo@fdic.gov>,
+ Paul Regan <legal@mskyline.com>,
+ Shari Laskowitz <slaskowitz@ingramllp.com>,
+ JAMES GORMAN <james.gorman@morganstanley.com>,
+ Josephine Vella <josephine.vella@finra.org>,
+ KEVIN ROCK <krock5@bloomberg.net>,
+ Kerri Saperstein <ksaperstein2@bloomberg.net>, MATT LOWE <mlowe@fdic.gov>,
+ Ricki Roer <ricki.roer@wilsonelser.com>, ELECTRONIC FILE <efoia@fdic.gov>,
+ NYSCEF PROCESS HD <oca_hd_processor@nycourts.gov>,
+ BO DINCER <bo.dincer@yahoo.com>, Baris Dincer <bondstrt@protonmail.com>,
+ Tina Jeffery <tina.jeffery@usdoj.gov>,
+ Brooklyn Tap House <tips@nypost.com>, OIG Hotline <oighotline@fdicoig.gov>,
+ David Moore <david.moore.ct95@statefarm.com>,
+ Doc Webmaster <webmaster@doc.gov>,
+ "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>
+To: QUEUED <askcuit@columbia.edu>, QUEUED <askcuit@columbia.edu>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: vJ9sBqfaUVfhqOP1yIirJfQykg8jCkwF
+X-Proofpoint-GUID: vJ9sBqfaUVfhqOP1yIirJfQykg8jCkwF
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.572,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2020-02-14=5F11:2020-02-14=5F02,2020-02-14=5F11,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 phishscore=0 mlxlogscore=604
+ clxscore=1015 adultscore=0 spamscore=0 mlxscore=0 bulkscore=0
+ malwarescore=0 suspectscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.12.0-2202240000 definitions=main-2207020066
+Content-Length: 565
+
+If there are any instructions from the ZUCKERS or their counselors instructi=
+ng him to commit a felony, forward that to the appropriate department for me=
+.=20
+
+Thank you , they probably told him I was trying to commit fraud or something=
+ G-d only knows their motto is the sky=E2=80=99s the limit lol, they will an=
+nex their felonies in a court of law, so if there=E2=80=99s any email with i=
+nstructions=E2=80=94 I=E2=80=99m sure it was accompanied by a threat or a mi=
+sleading phone call to scare the shit out of him.=20
+
+Just help me out here, please.
+
+/BD
+

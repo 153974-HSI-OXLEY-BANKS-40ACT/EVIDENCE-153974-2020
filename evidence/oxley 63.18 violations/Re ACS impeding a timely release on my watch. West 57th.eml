@@ -1,0 +1,256 @@
+From - Sun Aug 28 22:55:40 2022
+X-Account-Key: account1
+X-UIDL: AHiNtfwAG9N3YuRKlAwN8GR8Pww
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.134.205
+ by atlas209.free.mail.ne1.yahoo.com with HTTPS; Fri, 29 Jul 2022 21:01:08 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.45]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.45 as permitted sender)
+Authentication-Results: atlas209.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 29 Jul 2022 21:01:08 +0000
+X-YMailISG: 7zQnvZcWLDsXN7j0Ri50bnfTDbjg4LO2VoscBH1IJVhkUG1w
+ GAPTbifJlWdu6VhjoOvynf_RtM2jqURp9g3T1.CBkqvHWrR1CJqq1YXFriWj
+ iNVKGEhBOc_p90x3d5DYRDHqprLSbDIgikyNebyOrU3QuXdywmVXdH3W1n4P
+ F6RunY8W6IYP0pl8MZlVrsjG4_LcI7CY.qiZJTc5_rhqWaGm2rLSRfMMRuCU
+ Ov6TtOiWJWX.YmSrOfjAo_kouWtw13tsAKFJQsU8TmoIrBrEr7VLRRaNSrNb
+ uyj6IWDr7vabdNbXLGeXo.vpiwZnGovHRrJjz5bgZ_fD_BYNGffMouAoftey
+ oIx95VKaxKQzbdeRo3mcbkzfkfyw0cjvVBg4Aqr4oDR8FNLEu_.1q7AURCgF
+ fNaquLLGOtN4gmcZFBNO5uch_PkSV49uJuYb38wkt5iQIgj6w3zla7dfMqMz
+ MkUOvMry06zK8ylyr8A5as8dIU.6zoYeiQlbKaMqtkEUwymX6dY1Ygk_oiA5
+ yCRsbSGfhl1mjQ_tL.NL.AXDWhMZHShTFDhgZrGFvABDypvd1U2Qi2HjIG3q
+ OxMX2sg9AvEiNU4w0EnKpSiUiz1GT5bqW3q3rdJ3eJyUGuTQ7GNUgNvZ3GwP
+ 6RMY8E2g8RYd1Q5G1ijgbHVD9v7kfMVcUkhQXRZ9Tc0H0va7MobNmfxQLzIZ
+ ecbfvBnmFHOlNO9vIt95ClRVIdXx_VWWH4sPsANMcVDud65AuVet_xhyinqj
+ 8xC4GRbLWacNd8GUNL8q3p9l.sfdXvOGx6staYLInNEcwNu9Pjx76CW4VLRL
+ Bv2Jf7LYrzrvOD4at_L0AgLOZToNUI2XS53r8MfRZkc0v0sUk2YQ9P.lCb1D
+ mTmDUekASK9_Gw6zH6nppEqiGIRqg7wmC8PLTMSeDRp9aOWjyztUNRu90eNM
+ pzwT_OGbf59pDDqeLKkIaDiL4G.vmSm7BvCw0WmOv_YB_xN7VdcjO8EB7.k7
+ CwvkudXoqD_PiE5bA4MJyTeGHjNg6hTFKyGu3TrwvauhwiG8ZxNMkzg0PdwG
+ O7NGaa3L09J6S_q85folYDxD9DY6RlO1xkomBCJEn1.n0z4srVccXkMkTv6M
+ 4Sy.HKyIK5tH7ahHceoomJRTvBeXqnfcSrChR2usp0z7Ork-
+Received: from 98.137.69.45 (EHLO sonic316-21.consmr.mail.gq1.yahoo.com)
+ by 10.217.134.205 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 29 Jul 2022 21:01:08 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1659128467; bh=FnJBiA+H9EQo3q07RBCVCkulwgDUc4cDYc9Sjv6jyww=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=PU35J1PWX5Uprrj0QI928l/wSh77cQLcLgDoCUmURHp93dnj7GHCqz6XoTdq9KihA8UVVznTpJ9mBlX518crYZNcVQAwDLJSPkUbpPII/LvB2V+qpI5ujSdK/rYpvcoihNG/Hmm8GWog0jPQ3McFqt20REY7vFXZ2rMW7y5Hx1vUe2x7E5FDeiwStyNlDK4bMQIMbV/HiND5JZl2s6BXGVO0MlFS2WABQ4sh+/v55qG6YN1isw/ScicEgzF3F4bx43hEe4sk/Xu+pNFnOIHiXNcgI/j6e76aZcZikyZb8OE9FtjI09T7J/G9+iMahlUP/XO/DcJVdWl1MTstGzfTQw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1659128467; bh=JUunAa+OGc/NudzJIWqIbtyicCzq2eoo4pTyI2AcU3H=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=ke3OhUDQ/kL9Mz40MhbAn+qpXayPnQEPDNv4CHeBIF7kIIcgHhWO50bt7W18XDu/uvhOl6gMRfDM0WGWeRbj8tHYGiMh1Lqutq84yNlwuXDylanmmOVDZfl7Y+dehL3pg0FbIWLL63fFiCMaf6HWP0ymPOXHi5/x71ims4z+oUej30FSC4E/0mqcU4sRmVvddZHx+DXKl/WDCrVcVtH/xStyZq+YQHutp5ZVzV6+U2AyKP33ciCy/8rZ4DVwxoYvgfGB9/RRTLiGhka8f+q0I29trxxAvCkYNJ5L7BLMiOwKJ0KPI7oS/DK9imMIm47iCql/XOOEY2+r6j1KaX5veA==
+X-YMail-OSG: K52LkeEVM1nwHpmAmzaS0hq5ldvaxNpstLfv7obclek6JZEilmtLDXQl.UQdsjP
+ QlPU5XpFF55PJF3hwXchhehTr28KaVuPMAgwEq93W1namHKHlYz7s2T5Tetx8a1h_IhbgAWNprMu
+ pqm74fBHR4xkMeD443xgfvIPdMX_e2SLwd7q.kC_wiHuNYQRqr_XcktnPPEPAkrnnn8peWK9PeNR
+ VLvDYMLAwqaKn_EIvVq0yEh1Tsb3ABrnLLFbbidi8R.79pwXmfAE4FMAMggm9G06587tEU.KVuq6
+ y7kCDhAQR17PaODF80tvdTeMg2p5ewRVsEjzw38nug82U5LiRvwhf2w1UaeNqwHkqfR1K9hTi6sY
+ mVTwTQrrl3CLTaCcdtFpgoymR3Sh6ul0uAeGLHTPZJ7AUtgxZWt5SJYWB7AXkuQdgmp658RwWwNX
+ AOFY0HpWMo4Ne3UJmrhWj7X8Ub7JJkuuQjTmGBH8p0WKdnxqUKjyn.Gh9OWbJzlYwNSCBln1on.V
+ QcnzseUGnMqtvTktflswUsvKbpyYm0Vgdy4mCixy5MnNmc9YYRAPcK3cJlLd1ypZCyoFyNNL7fWW
+ kD3LzkBO02cpHGYHSUP9Fh1bWGLxftche3gbHd.kBszzmWsjrij2XNRgpE1Q.9_EmnZ4.fQPaLGP
+ _S6wEe2bbyWSQBU8lCLBSX2SGGubWFl1dssmt7vumXMV1WSkwkpLKF0f0.l4sTTBwM2feKsfPLwP
+ iMPgpGd6nu3TECTNVu.Si0Yv8pQgrUR2j8T7od_TcySmQIf.PDk6zLwJPWm4BT44UuxBEivvKNmG
+ mT5flfiPwJeX4IlWqZ1M9ra76lrlkVYs80i7LPdWV2EHDLIdHZ.gueCraiz03miX3mVxkbSNXLKM
+ oVk.EGk3sXcez_Da.NDu9JjYtsvORDix6Ll8GF7auGY_1tKfXUiCREYXDTMZjoJe7TcaPZdoeUK7
+ tdqmm9arNgTaW2gQBIqfgThuJLogmdrttIxvynPodeoWnI.BN_vaMhXELFhSxuRnc7ZhmVdYGVfy
+ 3eaEU.4VMsDGLXHHsc_nr1tjf3aIk8GTiDpe8a7pKHpwMygN1Yon2IJqp5z2s4HTDMImfX7DBj7v
+ EnIRpuk0SJrEQDNGvCH0XN9s6999wuC7boBqfTDesdigyFY5abDJkvbh2t0SDUuRE6W3R4jLOuRp
+ y3H8iU49.KFlbMiH88bOK1kGjxd.3f38xGLWys81eQMpSllq1lKgPlQOxScIikeSQL3SEXxgxwN9
+ tQY6.T5haFG_lsqvrKJcDMXviWkSLBJuz2GgGG7VDbaycSOAvr_HBdICDF.pa7vHksTqJAUD3qyG
+ IJ8e2Se.9flJwhvxopZ4k6Cy54cM5NBYyfnbiVyRU.XbkVIjLYoPO3IexMzAu9My0Q_FpKNB4FfQ
+ rexkhLlVc3Ted3BRKS5EH5Gt04nda1l98ZcL9iopYK8ZBI33fUO3YHXNghsLIWLGlIPeF.cWsiIH
+ 5.eML2LSIiWJ5ylxwS.FDizvtlNCBtHWyRzjUpn3zKDnZa9e22fYcreq7zhvjKrWIcEaX_aid_cc
+ bl2yoz9JBkVn0GDqrmA.Rlgp1il9zHevl7hgX3hg0G.P.JWHWRKyw4eJ0PEcNQaB._bDFa9v9vrG
+ PkJ1wYP9JrnCtIM9sXdcAtGcpxeEDJQhN03Lwb2EHOGDh9vMYlOBjQKT_OiZ51BZPQ66OxoNvPnj
+ zRrPoLk411E9nCOAct_dHvr7K6eUt2.kd0SRhjdX56in_IEOrJwhCVBe9hiGxDUsLwVcnU6QgoF_
+ xLItgjnORo5_drcKai5LJ1jvNVk8PV7QCH0mhlfex4VZzpArkTK2q9lIHw2O0ocTD6Tuj7ag9PWx
+ xTXA3p0GNaWCbDC5gugn5.vgOqoU_Id6iqIH9DLqNaNM3lejOjl.g5MbTO8MSY_kFAWCvI4cNqWH
+ xKnbU86UpfEGNdQZBf5SsgIqEqEbcdpmOgfQImd974ePW40h5xDvhRTz5xJySs1tumQUQtv7L_oi
+ 2zCrc28M_AI77xuZrIVB1RFZ_FddqAinMCqHCoyMLSVV9tXjE7XhAQB3bBMs8HioGDb.t9RAfScr
+ INbnf.FVHEq6I0CSfYBnJH_8Ux0MZzs0oubt4T0t4PMSeEy0CHNzSEAa5ytyoHltR4LZ7CNs2yn9
+ rjRJS112xI_B2bbKgL8BLwIbPxB3kC6sngkexL_RZxxtK0ZAlnRa9CeV_tpxl6eyQfD3daaKKbqR
+ 9cRo5bBfb_8pugDl5.Ec1Ceagune.ePKfMFmPmpoLezaXvuJTY4Zm_HDGjly_uT2P2UDd2nBeWPW
+ k3tFdzNOI0qCKBUwdHecK_IuypCa6sBIgXRKlLNMy_.JWk_5Yh.YEXGIPtQw8X_j4M_iqBrrP1om
+ 3T9Nkf960IvgbDHIKoJw_FOO6K0PK.Ei4Yd3e4HMG
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.gq1.yahoo.com with HTTP; Fri, 29 Jul 2022 21:01:07 +0000
+Date: Fri, 29 Jul 2022 21:01:06 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "+19173783467@tmomail.net" <+19173783467@tmomail.net>, 
+	"+18774265637@tmomail.net" <+18774265637@tmomail.net>, 
+	"2013206493@tmomail.net" <2013206493@tmomail.net>, 
+	"+19179683743@tmomail.net" <+19179683743@tmomail.net>, 
+	"5166394522@tmomail.net" <5166394522@tmomail.net>, 
+	"chair@sec.gov" <chair@sec.gov>, 
+	"3159411523@tmomail.net" <3159411523@tmomail.net>, 
+	"support@edstem.org" <support@edstem.org>, 
+	"notifications@maxient.com" <notifications@maxient.com>, 
+	"+12128543062@tmomail.net" <+12128543062@tmomail.net>, 
+	"+12128359270@tmomail.net" <+12128359270@tmomail.net>, 
+	"jpmcinvestorrelations@jpmchase.com" <jpmcinvestorrelations@jpmchase.com>, 
+	"9177671742@tmomail.net" <9177671742@tmomail.net>, 
+	"gsamonlinerequest@gs.com" <gsamonlinerequest@gs.com>, 
+	"2026442560@tmomail.net" <2026442560@tmomail.net>, 
+	"+12128530695@tmomail.net" <+12128530695@tmomail.net>, 
+	"+15164666153@tmomail.net" <+15164666153@tmomail.net>, 
+	"warith.abdul-mateen@td.com" <warith.abdul-mateen@td.com>, 
+	"td.esignnoreplyaccount@td.com" <td.esignnoreplyaccount@td.com>, 
+	"ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	"hsbc@messaging.us.hsbc.com" <hsbc@messaging.us.hsbc.com>
+Message-ID: <356659723.3129458.1659128466248@mail.yahoo.com>
+In-Reply-To: <2076178061.3115560.1659125790528@mail.yahoo.com>
+References: <20220729024359.0EBFDC00004A@mtattn04.msg.t-mobile.com> <2076178061.3115560.1659125790528@mail.yahoo.com>
+Subject: Re: ACS impeding a timely release on my watch. West 57th
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3129457_233417080.1659128466246"
+X-Mailer: WebService/1.1.20447 YahooMailAndroidMobile
+Content-Length: 8365
+
+------=_Part_3129457_233417080.1659128466246
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issues/1#issuecomment-1=
+195401468
+Marked you as an individual under all circumstances where they deem necessa=
+ry. Its a "need to know" which is the whe point of DISCONTINUING THE CONDUC=
+T IN 153974-2020 WITHOUT WARNING.
+THANK YOU.
+/S/ BO DINCER=20
+=20
+  On Fri, Jul 29, 2022 at 4:16 PM, Bo Dincer<bo.dincer@yahoo.com> wrote:   =
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+
+/S/ BO DINCER=20
+=20
+  On Thu, Jul 28, 2022 at 10:44 PM, +19173783467@tmomail.net<+19173783467@t=
+momail.net> wrote:   https://www.ecfr.gov/
+
+<>
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-D=
+ISTRIBUTION-ONLY/find/MSG-MULE1
+
+PAR-ID liability table
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/TDBANK-WEST57THST=
+REET-ZIPCODE-10019/find/main
+
+CFR 1102.3 Other requests and information submissions
+
+#3
+
+https://www.ecfr.gov/current/title-12/chapter-XI/part-1102
+
+Keyword: READ RECEIPT ACS.
+Thank you for understanding.
+https://lnkd.in/gMRuiQsn
+
+FWD to Director Solomon on my behalf as well.
+
+CFR 1102.3 Other requests and information submissions.
+
+The federal financial institutions regulatory agencies and the Resolution T=
+rust Corporation, their respective regulated financial institutions, and ot=
+her persons or institutions with a demonstrable interest in appraiser regul=
+ation, may ask the ASC for a determination under =C2=A7 1102.2(a) of this s=
+ubpart, and may ask that the ASC exercise its discretionary authority to in=
+itiate a temporary waiver proceeding. Such regulated financial institutions=
+ and other persons or institutions do not need to comply with =C2=A7 1102.2=
+(g) of this subpart, but are strongly encouraged to include meaningful sugg=
+estions and recommendations for remedying the situation. A copy of the requ=
+est or informational submission shall be forwarded promptly to the State Ap=
+praiser Regulatory Agency. The ASC shall consider these submissions and req=
+uests in exercising its authority to initiate a temporary waiver procedure.=
+ When the ASC initiates a temporary waiver proceeding, these documents shal=
+l correspond to a received request under =C2=A7 1102.4 of this subpart.
+
+=C2=A7 1102.4 Notice and comment.
+
+The ASC shall publish promptly in the Federal Register a notice respecting:
+
+(a) The received request; or
+
+(b) The ASC order initiating a temporary waiver proceeding. The notice or i=
+nitiation order shall contain a concise general statement of the nature and=
+ basis for the action and shall give interested persons 30 calendar days fr=
+om its publication in which to submit w =20
+ =20
+
+------=_Part_3129457_233417080.1659128466246
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<a id=3D"linkextractor__1659128212407" data-yahoo-extracted-link=3D"true" h=
+ref=3D"https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issues/1#issueco=
+mment-1195401468">https://github.com/BSCPGROUPHOLDINGSLLC/INDEX153974/issue=
+s/1#issuecomment-1195401468</a><div id=3D"yMail_cursorElementTracker_165912=
+8212441"><br></div><div id=3D"yMail_cursorElementTracker_1659128214045">Mar=
+ked you as an individual under all circumstances where they deem necessary.=
+ Its a "need to know" which is the whe point of DISCONTINUING THE CONDUCT I=
+N 153974-2020 WITHOUT WARNING.</div><div id=3D"yMail_cursorElementTracker_1=
+659128268691"><br></div><div id=3D"yMail_cursorElementTracker_1659128268909=
+">THANK YOU.</div><div id=3D"yMail_cursorElementTracker_1659128212885"><br>=
+<div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <blockquote st=
+yle=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, sans-serif; =
+color:#6D00F6;"> <div>On Fri, Jul 29, 2022 at 4:16 PM, Bo Dincer</div><div>=
+&lt;bo.dincer@yahoo.com&gt; wrote:</div> </div> <div style=3D"padding: 10px=
+ 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;" id=3D"yMail=
+_cursorElementTracker_1659128215404"> <a id=3D"linkextractor__1659128215851=
+" data-yahoo-extracted-link=3D"true" href=3D"https://github.com/BSCPGROUPHO=
+LDINGSLLC/ELSER-AND-DICKER/pull/11">https://github.com/BSCPGROUPHOLDINGSLLC=
+/ELSER-AND-DICKER/pull/11</a></div><div style=3D"padding: 10px 0 0 20px; ma=
+rgin: 10px 0 0 0; border-left: 1px solid #6D00F6;" id=3D"yMail_cursorElemen=
+tTracker_1659128215902"><br><br><div id=3D"ymail_android_signature">/S/ BO =
+DINCER</div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"=
+font-family:Roboto, sans-serif; color:#6D00F6;"> <div>On Thu, Jul 28, 2022 =
+at 10:44 PM, +19173783467@tmomail.net</div><div>&lt;+19173783467@tmomail.ne=
+t&gt; wrote:</div> </div> <div style=3D"padding: 10px 0 0 20px; margin: 10p=
+x 0 0 0; border-left: 1px solid #6D00F6;"> <div dir=3D"ltr"><a href=3D"http=
+s://www.ecfr.gov/" target=3D"_blank">https://www.ecfr.gov/</a><br></div><di=
+v dir=3D"ltr"><br></div><div dir=3D"ltr">&lt;&gt;<br></div><div dir=3D"ltr"=
+><a href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDER=
+AL-USE-AND-DISTRIBUTION-ONLY/find/MSG-MULE1" target=3D"_blank">https://gith=
+ub.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/FEDERAL-USE-AND-DISTRIBUTION-=
+ONLY/find/MSG-MULE1</a><br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr=
+">PAR-ID liability table<br></div><div dir=3D"ltr"><a href=3D"https://githu=
+b.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/TDBANK-WEST57THSTREET-ZIPCODE-=
+10019/find/main" target=3D"_blank">https://github.com/WILSON-ELSER-STATEFAR=
+M-SULLIVAN-ZUCKER/TDBANK-WEST57THSTREET-ZIPCODE-10019/find/main</a><br></di=
+v><div dir=3D"ltr"><br></div><div dir=3D"ltr">CFR 1102.3 Other requests and=
+ information submissions<br></div><div dir=3D"ltr"><br></div><div dir=3D"lt=
+r">#3<br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr"><a href=3D"https=
+://www.ecfr.gov/current/title-12/chapter-XI/part-1102" target=3D"_blank">ht=
+tps://www.ecfr.gov/current/title-12/chapter-XI/part-1102</a><br></div><div =
+dir=3D"ltr"><br></div><div dir=3D"ltr">Keyword: READ RECEIPT ACS.<br></div>=
+<div dir=3D"ltr">Thank you for understanding.<br></div><div dir=3D"ltr"><a =
+href=3D"https://lnkd.in/gMRuiQsn" target=3D"_blank">https://lnkd.in/gMRuiQs=
+n</a><br></div><div dir=3D"ltr"><br></div><div dir=3D"ltr">FWD to Director =
+Solomon on my behalf as well.<br></div><div dir=3D"ltr"><br></div><div dir=
+=3D"ltr">CFR 1102.3 Other requests and information submissions.<br></div><d=
+iv dir=3D"ltr"><br></div><div dir=3D"ltr">The federal financial institution=
+s regulatory agencies and the Resolution Trust Corporation, their respectiv=
+e regulated financial institutions, and other persons or institutions with =
+a demonstrable interest in appraiser regulation, may ask the ASC for a dete=
+rmination under =C2=A7 1102.2(a) of this subpart, and may ask that the ASC =
+exercise its discretionary authority to initiate a temporary waiver proceed=
+ing. Such regulated financial institutions and other persons or institution=
+s do not need to comply with =C2=A7 1102.2(g) of this subpart, but are stro=
+ngly encouraged to include meaningful suggestions and recommendations for r=
+emedying the situation. A copy of the request or informational submission s=
+hall be forwarded promptly to the State Appraiser Regulatory Agency. The AS=
+C shall consider these submissions and requests in exercising its authority=
+ to initiate a temporary waiver procedure. When the ASC initiates a tempora=
+ry waiver proceeding, these documents shall correspond to a received reques=
+t under =C2=A7 1102.4 of this subpart.<br></div><div dir=3D"ltr"><br></div>=
+<div dir=3D"ltr">=C2=A7 1102.4 Notice and comment.<br></div><div dir=3D"ltr=
+"><br></div><div dir=3D"ltr">The ASC shall publish promptly in the Federal =
+Register a notice respecting:<br></div><div dir=3D"ltr"><br></div><div dir=
+=3D"ltr">(a) The received request; or<br></div><div dir=3D"ltr"><br></div><=
+div dir=3D"ltr">(b) The ASC order initiating a temporary waiver proceeding.=
+ The notice or initiation order shall contain a concise general statement o=
+f the nature and basis for the action and shall give interested persons 30 =
+calendar days from its publication in which to submit w</div> </div> </bloc=
+kquote> </div> </blockquote></div>
+------=_Part_3129457_233417080.1659128466246--

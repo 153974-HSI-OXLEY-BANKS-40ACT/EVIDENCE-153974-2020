@@ -1,0 +1,270 @@
+From - Sun Aug 28 22:40:42 2022
+X-Account-Key: account1
+X-UIDL: ACbH2rwK6WqlYpbOYQrwyNgMNWA
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.137
+ by atlas310.free.mail.ne1.yahoo.com with HTTPS; Wed, 1 Jun 2022 02:26:41 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.147]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.147 as permitted sender)
+Authentication-Results: atlas310.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 1 Jun 2022 02:26:41 +0000
+X-YMailAVSC: F.xWzDo3bBu5NJUcASSCkn2Cdi1fQVGUzMyrQIvmlFWYUrZ
+ ITd2PD3f4ldjhSesMIay4uLFfYcjP16UtxM5wARHBOzKHh.3GFpKWvUYhvyK
+ vV_9ECDYT7ztx1upGVlczIPgNYabpYIP6gwLxJqppRjdCt8mHeV4jugPk1bP
+ D_r93d.HxIa.Lu14AAbWkMAhL4NfjmJt0bc0dp5MKLbBBSnz.Jc3boCnohm2
+ jODPt1ku88bX3mYI22yvEF.mZ.VbEnHrVkTjULUVeq4QKQaqIHwJAO7hp4R0
+ Ssg6Q1DZqf8TeS0Uzq7gWkMcPd8lI_oF8DiPuDrFRhBwzJtoaU_seuM5SgoG
+ 8cLYhLZfWIPpVSU0GiW79DtDANQ96lC9R2lJqgx3yg.zXzuf_vH4-
+X-YMailISG: XsmxOiQWLDvTZWBsFl8bM6G3FxFQBr9ag.p7hNGVNsdbFrLC
+ s6hk2ukVkYpdhPnrEEiWnN5ducSYz66JdbD2ATwz4Wcpz4t3aI5W6jE6qiDE
+ kox7aiDCNDePWJST9H6qsSQAl8aHXxpzEhOpIA_F1h_tF38aCk_2GnabQ_iK
+ olrS80l.tDL90tJy85vJ1HzclUVBvlN4cE0Mv402lmOoUVahSiGRx_VEU8GH
+ J5o6KKT_SxfqsARUz62O.ke8AADDCtVraSZWiNsJKS1oUSDtY0qUklq9eFcp
+ Q0RsVPTvk5zcF28ZRnsLp7StsOjV96trqRHtHJMFENF3wxnqkjuRpGvlWI9N
+ DmfnlMpFzFQd68nYrLPG.1dqY8LpkP7KFiJgmVTFBCXyPcco02UjDzNq7r1x
+ N0BtSlx1JfqWXodFFm2STuCTad1edGykd5YNInnMBapYY16zJCO6qPpT1l7X
+ BAClB.Bbs_g.Ft3nZVf3SiZEnzqOgqRYTlfD_kzH6A9avbUCKCSz7_KJmiX1
+ Zek0QEc8Ll0jWdqDcaLPMIUf900TwhVxFLA0m5OzEbpOV5UhM1QwdfVd3IPr
+ uhs2fk4vUjwLClNimlPObkPAHRvJxIFdYahhzt9XjiMCX4IKZiK3opWvCu5o
+ R87CBMD2j3vdxRbEUjdYah4UEcVP0p8nNqVWdDbTM86ZW4rGI.laytxCCsJ8
+ IaMgA_GNf_xxMtx3QUUpBW0cBl_x2Lf8t7IlKvBUnC3cTjOE9d6DEHEtKWd0
+ jiTD2gAJFX5lwy49uE3Gj6IkLCwou9tUzPX9TQHvOuYdKtI7NOYCb4JeM9sh
+ 1VegPTrcasVJIb12E6oA6UN8QCqZQM.JA2ElpdhvkQYI40Fzh06_NURfo1Aw
+ RC2K4Fh7rJtMdYeE6tQ9qClFVMxX.ocY3mQZ5yPoIBGBUzq.OH7vDjBV.0ew
+ .WLPr83z5mivKGOH9izmIg4rsYMxZELxh5PPmlbl52ukpNmb1nra6PBHYqLw
+ ylihxOw9C0j9ZagIRFgeP.1mXeGhWwGmHrOhpr.zng77kmH1VWAuzmfP9woW
+ .oMxquIH98LNJiuZE64Z9pbcFd3djagm5oh4W9dgr_ME0kIv659RcX65BM_b
+ NlMrqk5Kqwq52S8Px3txcXCb_BgkuIPvaoBtc2VsEbngiWrLEWtjv954
+Received: from 98.137.66.147 (EHLO sonic317-21.consmr.mail.gq1.yahoo.com)
+ by 10.217.137.137 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 01 Jun 2022 02:26:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1654050400; bh=WEYkKXmLyK/fr/9Ao0pukl3+5prTt8YvNSQZWyRzYeI=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=FmA6UpiFNrK0l2HWU5AXz/xAvR8EbITl7dY/EZrzTEDrN1tJ9grQuUGD5NU/FVqAjox2B/7eLcxOw1hx5fHWocVBiuJc7MwFqlvkW1rikn67G0oLbpmWu9KRL1lnt1McvzBg7myAi+P89MZjUakwb3TY2FwULV7a+mwExuLwLDWuseAIn8UG4OQgcoPKzGvnhWuOB4TQU4dtAc+nvnihjOaigc0NHhwnjefk50+3KrTxrM1yhQHn5NG7fliY6eBB20X079Z9DFiG6w7K9oWu6n3RbSxtbg7Jcv4tSKMi+Dp/ah3ACMUqBBRICD9007WvCawU1afaLIc8MvFZ4q99IQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1654050400; bh=n93csYqYBWDbH8hlp1TfjN1Ui0PbSMPEpjbJuVYPynC=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=VsZijmEOpnhtvCq49hf2WiEAWM4xGPeJipERPuDVI6KWMv3v1d3d2xo2szAc59dLBu0I9CYdTPVNiCxJneXbubfm7dNcYmwzsmlc5iohwBOXjftgyM82gE1g5ckPdDrRVbQ+/UEB3JPxYU9Z4+PYcb3IYgbprD5okYBMURN0nO/RpW0TvBbS9KyfkCqZ/Ofq5IB6k/u/xLqLT1F8H/UwKxKgBByeSvsnTK2WkTGtWZfFKoCTmCYL4c2ri0vHtUPZPNV4v64OsdBACqGesFOpG9sUPP80w6jaiSrJD2Hv1TVdieMPSiImHtRSFpKdpyOL0qEra27hm8bA9Ga2OydBxA==
+X-YMail-OSG: wmXq58MVM1nsChEWsdueh3SDvtMWdxQxgr.8tpoe5846Y0oWOwH.b0wqU.Q10x4
+ NsiwFY162Sl0SrIoq.WTw9pR6Rh6pqgSybsJnSTR6rqdgpZoJmJrBhyQSYNvqmg.wKCccYgvKUNq
+ C7iNUUULl3lPkwqXmdenkTR0iI9yVTvYJFy.J1PhmGGovNuaIRjLitC2ZDfHYKbVENcr9MVObpib
+ gmOxK4hrSC1Px5K7IVCJoJoHO6zraqWTEDrYtUWbfKSalcSBO8pO_7Bs9IPbtxvKqDIPnUUUIB.t
+ k2l9O5upqYMJVOb3O0inkT7EZUhdKgTEFjd9QUkRGEWbOUnEHmSf3PyWV8yOjzlq81kUlAVd5lEw
+ BMxHbpOkwZly9ZTLGMwMrWM6YFWEq8AoDluzn31IkIoz2ZOdXrMqtU5BCXdqDZb_sDnYUGZNIpB2
+ 2VIWBVIIMw9JU5ndJZJdNsXiUSYm3AmqjGInrDZ8KDdItWBSC3R6eEQPG.I02Z.y8STqRo3Rmk4u
+ mpLIa3yzQwzM3yOxhhHPcRCvejOWy2LvjDcr2Gk.cSPa21S0roUFaw6wU7oefB06Yc4NSpxYMLAU
+ S6M3LUs8w51BmgbUB_vYX.tu1pnn2dRY8Ui6_qzd3VVeAbUsy5guTWQxXBFT.Ny24W9wYJXSIdqb
+ mtTkrBh9gzM.RVY6JxN5ipfOejzYIWalpb5bi79Jj4SDH7L1ZnZ58aMrAnaOHatca0fn9MmpbteJ
+ I8q4s9NgWkpkPqoYv.EGigkeGADHvye9xa9ug_q.i.PjxyrHV1Zts2Ut9xCbLUxobJ_9RDgVj0H4
+ PDJ.fPfWNcTrxrnulBKCqs.Bdu_QjsbwFtvY27xQuiv4kw7pcBhFsbZMH3K1yEnX_vYd0RKygWsM
+ igNWxqA2pgq2vJb.KnXLrNZq2j8p7Wr2uQR4WnfHqxTqQgCIcNTmam0FtD_6kXi7U2lOQXX8Hud6
+ bXpfvNLzk514vJaQBHYlSQPBzEox3Qexzr58FgCoenfr3plZzEDHHBtJMYXB9qgXj_ZrIT0Mwkt2
+ L4baKhvTwlftrYGSReAYuDlEfZty4QtAl2ehCKgVqfVmbQZt8Y9PfsRZ4PE9w0ljgxi6qH6oZAjP
+ xnPLmm.UJcrWC.p3vej8.OM0u46uM4eH6PLnz6Yhy1f0nRDYRsIgx8Ogl.sZdTaaG_MaMcH0TPSZ
+ gfuRUW2lCOLMNX.Vm4oP.HDZHehEnct9CL5wcI3.LueHZfWmlBFS.0QffacamBkskm3kwdbkD2y_
+ v_EOl_nDVazb_Syb4vc74sfLsApcxY660wVgHoT0h2.Dcg0Wn0FKFbzQaIDmWZNMT8Nrxpva2SFX
+ M2zS4MYFEWIgoM4b.4XWbeMlqPordsZ4kW7hyRrHIs94vfxOTzsTwgL9Ma_M1IMs4m_UyTVhNwVW
+ Vv01WpiuNrdOuWuhd3giahZ6th_iciB_2_HCRoTDXhCaecpLvYxat0kCDqFvNZcsZVuN4UXNM2wu
+ MSFBXOo_WAghcE1qoq2h2MI_CUHtSs.PhiF50VfXsJc_qHXT5zAOMCzHfQ3fRnRxt8LsBrlU.vmc
+ jcDj5lfZ7bOdd4_JePelASaHcxzCnyKby5qQ9I2pcpBD7XyP6MFeG8jr4.zr9PTdbfNJseX35y23
+ s1ijfqiW7EILJhj2bZg7ZmAIlr7XnS9O48ac_GmOArsKi5I7gANf6hwOdJNN1mBewLaRAqPbJQxA
+ Tl.pd0skytc1..k3W0Z58yFn7DfKzgTFQ5gSobA921tc4nErHYuuKh72YFwS6ZdVHt1REMrw5Ohp
+ pvxRpR860wrNND13oKgxkI8rIV22wf_56PeWxqavJ6TVoWmK3nJNCh2oipD2uDVMl93s6gF0lFLC
+ xdLaUVwDoYZ4T2bxg0dkUfo89r7V_1UBA5ww3W5qNy7wzsVEMU56MjQOPdP_aHYyCRAnpGTbxIGF
+ i3mRPqZn1e.bQZN0SvbRec6qDbm3t0NxkWjRSUTcEmwTcLgxgmnYNzWLlfvePGJMlD3mV1mYhFfL
+ aWZ0mRy.kuVFnRWFJ2OAZJijvYIpmBcfPUyOiU.XUOvNxGWzMIaCeCHspu_NGKT3zOkBjCQtBzqL
+ 6VxsZZS3iTXLoUI3XJm3xX19.bmhDxvCKAHgXUjz8H69ydDR.FLIqjJrvxMNDJiIktDaE3OPOGnn
+ 14zhlaY99gG0u4ml3FGR4.AFCnzss3VUDnILDKSg9qi2h6goofziL1X401nvLp7nouWcYtbqTCo4
+ facpIrLAkuZVeGIaRd4Q_uVel2kqJw6HJBETfic5GAe_qZc4BfKe8ON.Vk.wAokN2RzsYhAAJszY
+ ZKGLgbrcnAYm.p1r6tVSD6LOeVRoIGuLcy7h.mVRcoz6wQbwKP1Q0sfmPx2aUcbhnvCypB65mGzj
+ fq2fUs5sq
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.gq1.yahoo.com with HTTP; Wed, 1 Jun 2022 02:26:40 +0000
+Date: Wed, 1 Jun 2022 02:26:37 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "Vella, Josephine" <Josephine.Vella@finra.org>
+Cc: "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>
+Message-ID: <1009217549.4256926.1654050397220@mail.yahoo.com>
+In-Reply-To: <BN0PR10MB5111771A4B199822EAB8E794E9189@BN0PR10MB5111.namprd10.prod.outlook.com>
+References: <BN0PR10MB5111771A4B199822EAB8E794E9189@BN0PR10MB5111.namprd10.prod.outlook.com>
+Subject: Re: Baris Dincer
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4256925_554288973.1654050397218"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 8055
+
+------=_Part_4256925_554288973.1654050397218
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Good evening Miss Vella,=C2=A0 =C2=A0I just left you a message and I had so=
+me procedural guidance I wanted to review with you. I left you my private n=
+umber, thankfully the social distance is finally over so we can meet in the=
+ board room again.=C2=A0=C2=A0 =C2=A0=C2=A0By the way, I heard there was a =
+recall on that new car you were talking about earlier, you don't have to dr=
+ive that car anymore.=C2=A0 =C2=A0/S/ BO DINCER.
+=20
+  On Wed, Mar 23, 2022 at 4:56 PM, Vella, Josephine<Josephine.Vella@finra.o=
+rg> wrote:    <!--#yiv5972141574 _filtered {} _filtered {} _filtered {} _fi=
+ltered {} _filtered {}#yiv5972141574 #yiv5972141574 p.yiv5972141574MsoNorma=
+l, #yiv5972141574 li.yiv5972141574MsoNormal, #yiv5972141574 div.yiv59721415=
+74MsoNormal {margin:0in;font-size:11.0pt;font-family:"Calibri", sans-serif;=
+}#yiv5972141574 span.yiv5972141574EmailStyle17 {font-family:"Calibri", sans=
+-serif;color:windowtext;}#yiv5972141574 .yiv5972141574MsoChpDefault {font-f=
+amily:"Calibri", sans-serif;} _filtered {}#yiv5972141574 div.yiv5972141574W=
+ordSection1 {}-->
+Dear Mr. Dincer,
+=20
+ =C2=A0
+=20
+FINRA staff is here to help you with procedural guidance and information ab=
+out your case, which was closed since the issuance of your Cautionary Actio=
+n Letter in May 2020.
+=20
+Unfortunately, the nature and large number of emails you have recently sent=
+ to FINRA staff has been harassing and disruptive.=C2=A0Upon a cursory revi=
+ew of those emails, they do not appear to be securities-related or otherwis=
+e related to your case.=C2=A0 There does not appear to be anything=C2=A0 we=
+ can do to help you with the issues raised in your recent emails and theref=
+ore no further action will be taken. Accordingly, we ask that you cease sen=
+ding these emails to us.
+=20
+We remain committed to addressing anycase-related inquiries that you may ha=
+ve, which you can submit to us via email or regular mail.=C2=A0
+=20
+ =C2=A0
+=20
+ =C2=A0
+=20
+Josephine M. Vella
+Principal Counsel
+=20
+Department of Enforcement
+=20
+200 Liberty Street, 11th Floor=C2=A0 l=C2=A0 New York, NY 10281
+=20
+Josephine.Vella@finra.org
+
+
+=20
+ =C2=A0
+ Confidentiality Notice:: Information contained in or attached to this emai=
+l may be non-public, privileged, or confidential. Do not use, save, or copy=
+ any of that information, and do not share it with anyone else, unless you =
+are the intended recipient. The sender has not authorized you to save, copy=
+, use, or share any information provided to you in error. If the sender sen=
+t you this email or any attachment by mistake, please let the sender know b=
+y replying to this email and then deleting it.
+ =20
+
+------=_Part_4256925_554288973.1654050397218
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div id=3D"yMail_cursorElementTracker_1654050206837">Good evening Miss Vell=
+a,</div><div id=3D"yMail_cursorElementTracker_1654050217811">&nbsp; &nbsp;<=
+/div>I just left you a message and I had some procedural guidance I wanted =
+to review with you. I left you my private number, thankfully the social dis=
+tance is finally over so we can meet in the board room again.&nbsp;<div id=
+=3D"yMail_cursorElementTracker_1654050346359">&nbsp; &nbsp;&nbsp;</div><div=
+ id=3D"yMail_cursorElementTracker_1654050346616">By the way, I heard there =
+was a recall on that new car you were talking about earlier, you don't have=
+ to drive that car anymore.<div id=3D"yMail_cursorElementTracker_1654050183=
+600"><div id=3D"yMail_cursorElementTracker_1654050133991">&nbsp; &nbsp;</di=
+v><div id=3D"yMail_cursorElementTracker_1654050134193">/S/ BO DINCER.<br> <=
+blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto,=
+ sans-serif; color:#6D00F6;"> <div>On Wed, Mar 23, 2022 at 4:56 PM, Vella, =
+Josephine</div><div>&lt;Josephine.Vella@finra.org&gt; wrote:</div> </div> <=
+div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px s=
+olid #6D00F6;"> <div id=3D"yiv5972141574">
+
+=20
+=20
+<style><!--
+#yiv5972141574 =20
+ _filtered {}
+ _filtered {}
+ _filtered {}
+ _filtered {}
+ _filtered {}
+#yiv5972141574 =20
+#yiv5972141574 p.yiv5972141574MsoNormal, #yiv5972141574 li.yiv5972141574Mso=
+Normal, #yiv5972141574 div.yiv5972141574MsoNormal
+=09{margin:0in;font-size:11.0pt;font-family:"Calibri", sans-serif;}
+#yiv5972141574 span.yiv5972141574EmailStyle17
+=09{font-family:"Calibri", sans-serif;color:windowtext;}
+#yiv5972141574 .yiv5972141574MsoChpDefault
+=09{font-family:"Calibri", sans-serif;}
+ _filtered {}
+#yiv5972141574 div.yiv5972141574WordSection1
+=09{}
+--></style>
+
+<div>
+<div class=3D"yiv5972141574WordSection1">
+<p class=3D"yiv5972141574MsoNormal">Dear Mr. Dincer,</p>=20
+<p class=3D"yiv5972141574MsoNormal"> &nbsp;</p>=20
+<p style=3D"background:white;" class=3D"yiv5972141574MsoNormal"><span style=
+=3D"color:black;">FINRA staff is here to help you with procedural guidance =
+and information about your case, which was closed since the issuance of you=
+r Cautionary Action Letter in May 2020.
+</span></p>=20
+<p style=3D"background:white;orphans:2;widows:2;text-decoration-style:initi=
+al;text-decoration-color:initial;word-spacing:0px;">
+<span style=3D"color:black;">Unfortunately, the nature and large number of =
+emails you have recently sent to FINRA staff has been harassing and disrupt=
+ive.&nbsp;Upon a cursory review of those emails, they do not appear to be s=
+ecurities-related or otherwise related to
+ your case.&nbsp; There does not appear to be anything&nbsp; we can do to h=
+elp you with the issues raised in your recent emails and therefore no furth=
+er action will be taken. Accordingly, we ask that you cease sending these e=
+mails to us.
+</span></p>=20
+<p style=3D"background:white;"><span style=3D"color:black;">We remain commi=
+tted to addressing any
+<u>case-related inquiries</u> that you may have, which you can submit to us=
+ via email or regular mail.&nbsp;</span><span style=3D"font-family:sans-ser=
+if;"></span></p>=20
+<p class=3D"yiv5972141574MsoNormal"> &nbsp;</p>=20
+<p class=3D"yiv5972141574MsoNormal"> &nbsp;</p>=20
+<p style=3D"background:white;" class=3D"yiv5972141574MsoNormal"><b><span st=
+yle=3D"font-size:10.0pt;font-family:Sans sans-serif;color:#44546A;">Josephi=
+ne M. Vella</span></b><span style=3D"font-size:9.0pt;font-family:sans-serif=
+;color:#44546A;">
+<br>
+Principal Counsel</span></p>=20
+<p style=3D"background:white;" class=3D"yiv5972141574MsoNormal"><span style=
+=3D"font-size:9.0pt;font-family:sans-serif;color:#44546A;">Department of En=
+forcement</span></p>=20
+<p style=3D"background:white;" class=3D"yiv5972141574MsoNormal"><span style=
+=3D"font-size:9.0pt;font-family:sans-serif;color:#44546A;">200 Liberty Stre=
+et, 11<sup>th</sup> Floor&nbsp; l&nbsp; New York, NY 10281
+</span><span style=3D"color:#1F497D;"></span></p>=20
+<p style=3D"margin-bottom:12.0pt;background:white;" class=3D"yiv5972141574M=
+soNormal">
+<span style=3D"font-size:9.0pt;font-family:sans-serif;color:black;"><a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:Josephine.Vella@finra.o=
+rg" target=3D"_blank" href=3D"mailto:Josephine.Vella@finra.org"><span style=
+=3D"color:blue;">Josephine.Vella@finra.org</span></a></span><span style=3D"=
+font-size:9.0pt;font-family:sans-serif;color:#44546A;"><br>
+<br>
+</span></p>=20
+<p class=3D"yiv5972141574MsoNormal"> &nbsp;</p>=20
+</div>
+
+<div>
+Confidentiality Notice:: Information contained in or attached to this email=
+ may be non-public, privileged, or confidential. Do not use, save, or copy =
+any of that information, and do not share it with anyone else, unless you a=
+re the intended recipient. The sender has not authorized you to save, copy,=
+ use, or share any information provided to you in error. If the sender sent=
+ you this email or any attachment by mistake, please let the sender know by=
+ replying to this email and then deleting it.<br>
+</div></div>
+
+</div> </div> </blockquote></div></div></div>
+------=_Part_4256925_554288973.1654050397218--

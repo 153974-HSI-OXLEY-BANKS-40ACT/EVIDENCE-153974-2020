@@ -1,0 +1,307 @@
+From - Sun Aug 28 22:44:01 2022
+X-Account-Key: account1
+X-UIDL: AKudGQdaPyv/YsjKYgewwH0NkjU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.249.98
+ by atlas215.free.mail.ne1.yahoo.com with HTTPS; Sat, 9 Jul 2022 00:22:58 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.206]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.206 as permitted sender)
+Authentication-Results: atlas215.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 00:22:58 +0000
+X-YMailISG: o.HyvxsWLDtHkOeg98jKOSkrubyB6rkyoBkKZPLYHNBcpr7T
+ T0.ddxk1PBfUx16kkh4MIOwmqPcziGbzk6eQF_zbu9lsClagAUWGVaJUqPoP
+ 2KwkseyougMAqdkBzlxCv6ntNI6ejoEkbpWKHkv1t7srN57XChRztj5NqrWa
+ p1wMaku.2PspyGLor3QcYMXtTxMHrzzGm10nFRJVh9MUtChfyeOGR7Z0TG9A
+ LJiIIv0n1KiyqMoBdz9qe_4QZThBYC1E53SqrIojyHShbZf03241NDwQeSxX
+ fFfpyfUJTfJTzuLyJ54jSr16EkRSuuGZk4Wg6QYG0IbOpyl6e382wNibzsIR
+ nO51ix5PLpwazn3MVDyD9iLNW3E3RxRiOCbCaTPEl_OsyUH32CsBk3fm0sVO
+ L8LUtd8m2g2lTxz1ir47gCJUJhhzDBhctfLm2zfxPoLXmxmPGohvIq9K06eH
+ jNf26.hPRQkJUCg1Ll63RNQy9UqzOVPlaERirttfbXinELg9YT5ZJYA_k3bQ
+ Y8ytZUNpzpZI2hbiFHnLHbOEXJb.GZJ0rkEGyNnSKu8dm2bZAxNX6q1LiLn0
+ fIzIVT6sh.RZdNPj4ZZWjmIRySn8DSCQJx3Rmi3cnQJc5CTjZXuJESldbynJ
+ qyxi5keRT3uOwK5G0eSdbnm3OJBaQE.VdXmjZup4BPvkB1bP2n9.Q5krjrft
+ qngUcEHy6_.sYbPnJL2aM22hRWdqNa51h7i0n1Awmf_7yGjegG_YGn9cDyij
+ _Yu8g.bK5GMSyO3RJM_wt62W2ibFhF99BenlqMMOvSUvJWhqprUpU2XxR7VU
+ ayX2bLD.n1YMg1VS9irTcv8AmrLXpv3Nr7gOKlfyzHgbUBeExwxFtoLfBzpG
+ g_MXwIS7KtDwN5V1P6LKXGO5IEwzybBBMH7SOg2uyxI_G6iqgJppEHc9Q2Ot
+ KrKeP9_vI7P.XTpEN_JO2Z1K.gh1or1HoUOUwf0T1bgL8y4pUgMKbCaQFDKA
+ u.0m2TF2zH_QHbjFzQk5utP3kCfAk8ZSEOCt5s9id8kzO6JNvmPTek1bwnlN
+ BHAXk.MAEC2oS6zPGMc3N2TU8EzK1JSKp29nFasQPOXYLWEZsvm2KEmsodfb
+ FTb_cGRu12gbULeoCGhvJeT1rSRBqxmT5XY7C59WUd6tclhsfSgKIE0-
+Received: from 98.137.69.206 (EHLO sonic312-25.consmr.mail.gq1.yahoo.com)
+ by 10.223.249.98 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 00:22:58 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657326177; bh=bnrzBPgJirlf68ReEkeforJw5EawkVLG7GorrWAeh2A=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=ROz4H93KBL5tvIJDKG/Ux3efUXaTltme1dc+kh+yTYqcIbfr59WpQbzmd9hwZcQ8gRR+iLh8ct0/+vgCbYS75bCUViOW2joHogjapkwiC+aoIoVzJ/e/i4yB1eQU+uMatFuJM+35ZJcEwbj3LpNYGLryH6SMpywhnaW1Y1mcCYWWZSWpeMeEwEnI0cU6hP9pHLT2Qz3mL8HeC7L0MXznhCc+y6+jvkcFc+BBbLspRs5YIoE1kMH+M1evzOkqYsYe5G8EYhUrqS4IRCVyFbxeQdWerTVWrbYKHoT7DFy/zMxaQ0okqKpHo9pa3+FqgJM6L2CXedVYDNf6NEDGn/jqFA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657326177; bh=zDY2I9Bx7q3e11FQ9c/vzNVIKonWP70OHx3ZncIrEe/=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=FKNcHTTw1mnANgT5TxksdRd1F66qiojEGRcjbd5yHO1XtNbsv00zKSG2XQE42sDCDyasITrsQm6RvSl+OKIAHeeXo14oub8y4DQuLieGVUWdbMeQfSdv1x+ltIFUJ2GFjKFgWg7rdl0NfLEnA3bzE7tRWkl3Dje5Ailmd/Le0Al6Z8qqriifbKYXpfwPE54k8OFsKDRNMxK+1wxFvbJ1+9UpUZtcEDPK1jv7Q+hVgQSPdHKQE/BCgV0K044MFzTzIpliAViX09GkLKXCuov3AYEA+YYNrrBsS8GRIEXAkin6YkbvL71GKhIjM+9VRObNFzOUWjT7tHn1/w/3H04rOA==
+X-YMail-OSG: ZLk5EaoVM1nFR5LpL4hwMTidExNH_qS4IAskKTKL82T5oBxk06nxcuGhur9n7mT
+ 2q10tKY8YHSL2hz0pbKe06id5zGrqBljhAiwgTh9Sll0aa5joR4sLvM2xY0D50eLl2VYsWfm5u_V
+ Zz3WPpCiztu_4iR8O5jR.xcZ5_ESs3YayYMTrPvL47lfoVHjwLUDRDcuBAsZdWz9xStCntaY_VTs
+ XA5FSl8kh3l38e0DgZ.B1yGW_coEHMTS3l166u642EdKLewCASuy4dVYN2cRZgc.6WgSyfV7Dqg9
+ r_1pGVdUjGOHztT9442YDS2LPkPRV8JRtQju0SDWp5f8vSq8gP7coZ19wJ8x_NXx5LCWfhm2Quuh
+ aa_8IeP2cZSgRoSW7bSzWB_ZSYKCYMXeDruAC2U85ahg_fLQNaGG9u8SbvzWn8ycMx8o9N_1L6r4
+ cmRy.kEZVNpxog7ZU9V9cz57avDaKvrScNn5NRWbkNXp9QgOzH56rUe38qojE0V.WnkSoWwuBxTx
+ RZ2Z6KorzD.tfUUlkZZJlw4xqkGVVXDnBVEH57mvTcH0kc7HmCd7ydOvvgecaS3gWSNiYxZWuYbf
+ 4rjt2t83pSclLL61Q0X_y7PHaWdL4sOTpca1IpMyV65UskeDeMdS_HFi6oI4bjouX3lR541kF8mL
+ 3jBewm7WQSL4Eyv91esEuu5_7h6WuiqVldrPFor9hnZYdlMMWU9AVOwlW4Lgf23oJ7g39L6.0xYZ
+ 9YyoPf0Z83CFOCF5_w9WGcfEimQuNl2hnwawBCcvDS_qaEhVDvBf7DivFH6efNwk1CJfKQD67Xtj
+ JMA0ukBJ2UOL7XwA791yrnWBroDUI8oWdRngtkfHXhwJMNXXCppVTC9vuo3VGTrMkUTF9Jrr3VjK
+ OKWxhpvchP7g8gBB1thFbtzln.i04dgxtqL2bCQHgT.k0Ar.iNpwqi6E2QMxav.LGX3ZwSImSYeZ
+ EwkjodyrBFJxB77D7.s5QwEpxT7RALvtJ.5r0OkfVnUIeG3Jpf6zUHOZylGhadSHYqqoUID5BG_i
+ p2oeFjGWIAuHr08v_rLidptNeFKbgWbn275Z3hLP9fErdN0VLl1vvq1EZcqsX6yQUVkrKv2pq855
+ zvXfjyGBR0qgyZRVYwWaqW6ENf1LWIeREWLEQ_K8a94FoPGLSLdtyWdXXhlEBPKZvx5PPhUPbDmg
+ oLV_xka.Ngw8BPVNSnbtDWxYlb86zqP7S.VVgwbgOrSCVrW8dPJHYr6GMEXZIoUkovK5_9j7U9.n
+ 2nBlZXFS4VzUNi7uBsjsuIp.gqCheyFVwQrBLiRmUzAdANlPFxHRa7ktEL_i0Q799U2UhTsvXKvf
+ NuU75Pq5BAROhk9YfSsznK.McBrzmANW7NtqJt5Ty7GQPje3.lvlaq35Gr2WBx8mlAmuA2zUC5b7
+ nc7w5x6_XqKPmjjrZFsY2YG6vD_e.TadGtE_LbI1Qse8pPn55Yxav.aUXL1URId.PP2T5_LkXniw
+ i8af7WD9JgqDsv3oMePZvc9i8Yp6CvRjX1PaiinDlcBFdqoyuAIexKfwhH6RdcYrqaFPr1aIpjnI
+ AFhZ.lBgqwO47kE8s0CHiburWdNoCXWDZ0uEerjAtq5eMhErRTSaKXEDjgti.kamqsUtWDdPzwwY
+ J_l3SueKBw6A7KPWhDuQpkgHmbKOOyBDVsLHJT7N7FUhlpufZC2eiqOmxYCQWPiFpvWxASNl16gp
+ yrNOR2OqqgwtxCdQjebEuD1Gmls3N0BdfEGvLlcobMeWEBZgoPNkrloFmZmWo2.zsJNEcjw4x3np
+ x36eucAp6lLxD58x5RiNrg0HZ8IP4EXRX4OIKoSzaVb6rEv2qgI73wyEeNpG0e4dhtQVtRh6k93Q
+ 2z7E7uueNDWKZF6JuZxp5YOj.BxLL64Daml4lnrhlJ4ss3EFWrs2Wmmtr2jq2Ssm7kNQZcRRmynV
+ WySAYV5LUdXvG3y4Rjc6ERRoyAUs0RlWIrDSzZDjK92RMVzuvCVKKJ116Xe3HM6.TYJOCPhCy61O
+ M4iWZojFZuet_gEzWT1tbnZyi.h4jOYzgY2VEAbOlQ478imzv92g_qX5jzijYm.fqk3QrULASw2q
+ 40bNe9e4S44LKwy_Ki4eGAQXfViZM3SoNDe_VgyBCTWYngr6Qe0AbtCJ_F.uapgIAM3yryIw8kLY
+ 2UnVjdM9cxlM51YolYoc2kqRGHcYlE6C90g1FiWuCt502pam3zkAVswKIFP5yRL55NNpaNMiA88r
+ 6LnQn9IQQIaXSSzCYcFHZVTmD7aNWcPmqQCZUz2vAtiREwml179LiChlewoL6B5khEv2Lj1bxiZj
+ UVNolOWoeglaWi2aG5Gi3VtRxib3NLIc9uXSbaT1P4rpmGDwbrAvTbYxWaQwQYJcjd.TagWGwbUa
+ 1ON.fV45yRk7yQQ0d0BRrZwfLtrR0HBFQIT4wsA--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.gq1.yahoo.com with HTTP; Sat, 9 Jul 2022 00:22:57 +0000
+Date: Sat, 9 Jul 2022 00:22:54 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	"usdoj@public.govdelivery.com" <usdoj@public.govdelivery.com>, 
+	"irs@service.govdelivery.com" <irs@service.govdelivery.com>, 
+	"usttb@public.govdelivery.com" <usttb@public.govdelivery.com>, 
+	"financialeducation@info.consumerfinance.gov" <financialeducation@info.consumerfinance.gov>, 
+	"DHSOIG@public.govdelivery.com" <DHSOIG@public.govdelivery.com>, 
+	"Office of Inspector General (VETERANS AFFAIRS)" <vaoig@messages.va.gov>, 
+	PENSION BENEFIT GURANTEES <pbgc@subscriptions.pbgc.gov>, 
+	"USPSOIG@public.govdelivery.com" <USPSOIG@public.govdelivery.com>, 
+	"cdfifund@service.govdelivery.com" <cdfifund@service.govdelivery.com>, 
+	"subscribe@subscribe.ftc.gov" <subscribe@subscribe.ftc.gov>, 
+	"vatax@public.govdelivery.com" <vatax@public.govdelivery.com>, 
+	"tigta@service.govdelivery.com" <tigta@service.govdelivery.com>, 
+	Small Business Administration <news@updates.sba.gov>, 
+	DOT INSPECTOR GENERAL <news@updates.oig.dot.gov>, 
+	"Office of the Special Inspector General for the Troubled Asset Relief Program \"(SIGTARP)" <sigtarp@service.govdelivery.com>, 
+	"HUDOIG@info.hudoig.gov" <HUDOIG@info.hudoig.gov>, 
+	Council of the Inspectors General on Integrity and Efficiency <CIGIE@public.govdelivery.com>, 
+	CBPMEDIARELATIONS <CBPMEDIARELATIONS@cbp.dhs.gov>, 
+	"AZCBPPublicAffairs@cbp.dhs.gov" <AZCBPPublicAffairs@cbp.dhs.gov>, 
+	"Constituentservices@doc.nyc.gov" <Constituentservices@doc.nyc.gov>, 
+	"OFCCP-Public@dol.gov" <OFCCP-Public@dol.gov>, 
+	"foia@eeoc.gov" <foia@eeoc.gov>, 
+	"NYCTLservicing@tcmfund.com" <NYCTLservicing@tcmfund.com>, 
+	"matthew.schimmel@cigie.gov" <matthew.schimmel@cigie.gov>, 
+	"laura.nichols@cigie.gov" <laura.nichols@cigie.gov>, 
+	SOCIAL SECURITY ADMINISTRATION <subscriptions@subscriptions.treas.gov>, 
+	"Hon. Nancy T. Sunshine" <kcco-efile@nycourts.gov>, 
+	CUIT Communications <cuit-communications@columbia.edu>, 
+	"CommissionerCrenshaw@sec.gov" <CommissionerCrenshaw@sec.gov>, 
+	"CommissionerLee@sec.gov" <CommissionerLee@sec.gov>, 
+	"usmint-support@usmcatalog.com" <usmint-support@usmcatalog.com>, 
+	"ofac_feedback@treasury.gov" <ofac_feedback@treasury.gov>, 
+	"ServiceECF@law.nyc.gov" <ServiceECF@law.nyc.gov>, 
+	"JPINN@LAW.NYC.GOV" <JPINN@LAW.NYC.GOV>, 
+	"nschaier@law.nyc.gov" <nschaier@law.nyc.gov>, 
+	"hadkins@mtagservices.com" <hadkins@mtagservices.com>, 
+	"GREGORY.L.DAVIS@cbp.dhs.gov" <GREGORY.L.DAVIS@cbp.dhs.gov>, 
+	"esanford@mtagservices.com" <esanford@mtagservices.com>, 
+	"jmeeks@station31partners.com" <jmeeks@station31partners.com>, 
+	"kshadle@tcmfund.com" <kshadle@tcmfund.com>, 
+	"dcarter@mtagservices.com" <dcarter@mtagservices.com>, 
+	"nchini@bainbridge.com" <nchini@bainbridge.com>, 
+	"gmichaud@mtagservices.com" <gmichaud@mtagservices.com>, 
+	"LANDON.R.HUTCHENS@cbp.dhs.gov" <LANDON.R.HUTCHENS@cbp.dhs.gov>, 
+	"TAMMY.T.MELVIN@cbp.dhs.gov" <TAMMY.T.MELVIN@cbp.dhs.gov>, 
+	"usmint-support@pfsweb.com" <usmint-support@pfsweb.com>, 
+	"ANTHONY.BUCCI@cbp.dhs.gov" <Anthony.bucci@cbp.dhs.gov>, 
+	"JOHN.B.MENNELL@cbp.dhs.gov" <JOHN.B.MENNELL@cbp.dhs.gov>, 
+	"Martin.Rowland@parks.nyc.gov" <Martin.Rowland@parks.nyc.gov>, 
+	"dernwein@tcmfund.com" <dernwein@tcmfund.com>, 
+	"asimmons@mtagservices.com" <asimmons@mtagservices.com>, 
+	"cshugg@sylint.com" <cshugg@sylint.com>, 
+	"isabel.zisselsberger@kpmg.com" <isabel.zisselsberger@kpmg.com>, 
+	"ITACKEL@cbp.dhs.gov" <ITACKEL@cbp.dhs.gov>, 
+	"RICHARD.J.PAUZA@CBP.DHS.GOV" <RICHARD.J.PAUZA@CBP.DHS.GOV>, 
+	"JAMES.E.BURNS@cbp.dhs.gov" <JAMES.E.BURNS@cbp.dhs.gov>, 
+	"electronicfilings@ftc.gov" <electronicfilings@ftc.gov>, 
+	"usdoj@public.govdelivery.GOV" <usdoj@public.govdelivery.GOV>, 
+	"irs@service.govdelivery.GOV" <irs@service.govdelivery.GOV>, 
+	"subscription.service@subscriptions.ssa.gov" <subscription.service@subscriptions.ssa.gov>, 
+	"steven.p.bansbach@cbp.dhs.gov" <steven.p.bansbach@cbp.dhs.gov>, 
+	"usattorneys@public.govdelivery.com" <usattorneys@public.govdelivery.com>, 
+	"OJJDP@public.govdelivery.com" <OJJDP@public.govdelivery.com>, 
+	"fundingnews@public.govdelivery.com" <fundingnews@public.govdelivery.com>, 
+	"Civil.Feedback@usdoj.gov" <Civil.Feedback@usdoj.gov>, 
+	"CivilRightsDivision@usdoj.gov" <CivilRightsDivision@usdoj.gov>, 
+	"premerger@usdoj.gov" <premerger@usdoj.gov>, 
+	"Criminal.Division@usdoj.gov" <Criminal.Division@usdoj.gov>, 
+	"privacy@usdoj.gov" <privacy@usdoj.gov>, 
+	"dea@public.govdelivery.com" <dea@public.govdelivery.com>, 
+	"NewYork.ATR@usdoj.gov" <NewYork.ATR@usdoj.gov>, 
+	"ATR.International@usdoj.gov" <ATR.International@usdoj.gov>, 
+	"ATR.TEA@usdoj.gov" <ATR.TEA@usdoj.gov>, 
+	"ATR.MEP.Information@usdoj.gov" <ATR.MEP.Information@usdoj.gov>, 
+	"ATR.EXO@usdoj.gov" <ATR.EXO@usdoj.gov>, 
+	"ATR.EAG@usdoj.gov" <ATR.EAG@usdoj.gov>, 
+	"ATR.CPA@usdoj.gov" <ATR.CPA@usdoj.gov>, 
+	"Chicago.ATR@usdoj.gov" <Chicago.ATR@usdoj.gov>, 
+	"ATR.Appellate@usdoj.gov" <ATR.Appellate@usdoj.gov>, 
+	"antitrust.atr@usdoj.gov" <antitrust.atr@usdoj.gov>, 
+	"jessica.rosenbaum@usdoj.gov" <jessica.rosenbaum@usdoj.gov>, 
+	"mross@stratford.k12.ia.us" <mross@stratford.k12.ia.us>, 
+	"yolanda.choates@cbp.dhs.gov" <yolanda.choates@cbp.dhs.gov>, 
+	"tameka.link@dc.gov" <Tameka.Link@dc.gov>, 
+	"OVC@public.govdelivery.com" <OVC@public.govdelivery.com>, 
+	"latonia.battlewhite@dc.gov" <latonia.battlewhite@dc.gov>, 
+	"syncia.sabain@dc.gov" <syncia.sabain@dc.gov>, 
+	"charles.akinboyewa@dc.gov" <charles.akinboyewa@dc.gov>, 
+	"sandra.thalley@dc.gov" <sandra.thalley@dc.gov>, 
+	"Robert.Greene@dc.gov" <Robert.Greene@dc.gov>, 
+	"USAID-Industry-Liaison@subscribe.usaid.gov" <USAID-Industry-Liaison@subscribe.usaid.gov>, 
+	"donotreply@info.consumerfinance.gov" <donotreply@info.consumerfinance.gov>, 
+	"SanFran.ATR@usdoj.gov" <SanFran.ATR@usdoj.gov>, 
+	"ATR.TFS@usdoj.gov" <ATR.TFS@usdoj.gov>, 
+	"nsd.public@usdoj.gov" <nsd.public@usdoj.gov>, 
+	"AskSMART@usdoj.gov" <AskSMART@usdoj.gov>, 
+	"ocdetf.foia@usdoj.gov" <ocdetf.foia@usdoj.gov>, 
+	"MRUFOIA.Requests@usdoj.gov" <MRUFOIA.Requests@usdoj.gov>, 
+	"ogis@nara.gov" <ogis@nara.gov>, 
+	"National.FOIAPortal@usdoj.gov" <National.FOIAPortal@usdoj.gov>, 
+	"Nicole.Colbert@dc.gov" <Nicole.Colbert@dc.gov>, 
+	"ServiceDesk@doc.nyc.gov" <ServiceDesk@doc.nyc.gov>, 
+	OGIS <OGIS+noreply@nara.gov>, 
+	"asiegel@mtagservices.com" <asiegel@mtagservices.com>, 
+	"Doreen.Deterville@dc.gov" <Doreen.Deterville@dc.gov>, 
+	"Terrence.Davis@dc.gov" <Terrence.Davis@dc.gov>, 
+	"renee.alexander@dc.gov" <renee.alexander@dc.gov>, 
+	"keena.blackmon@dc.gov" <keena.blackmon@dc.gov>, 
+	"valerie.butler@dc.gov" <valerie.butler@dc.gov>, 
+	"Charles.akinbeyowa@dc.gov" <Charles.akinbeyowa@dc.gov>, 
+	"eric.glover@dc.gov" <eric.glover@dc.gov>, 
+	"jstoddard@nyc.rr.com" <jstoddard@nyc.rr.com>
+Cc: 
+	"travelerresolutions@expediagroup.com" <travelerresolutions@expediagroup.com>, 
+	"hidincer@aol.com" <hidincer@aol.com>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	"lzucker@mskyline.com" <lzucker@mskyline.com>, 
+	Paul Regan <legal@mskyline.com>, 
+	"legalasst@mskyline.com" <legalasst@mskyline.com>, 
+	"legal@insider-inc.com" <legal@insider-inc.com>, 
+	Legal Services and Special Contracts Group <lsscg@fdic.gov>
+Message-ID: <183739483.49582.1657326174973@mail.yahoo.com>
+In-Reply-To: <899616b4-a320-506d-9858-3a8f0d05d5bd@yahoo.com>
+References: <899616b4-a320-506d-9858-3a8f0d05d5bd.ref@yahoo.com> <899616b4-a320-506d-9858-3a8f0d05d5bd@yahoo.com>
+Subject: Re: impeding the release of information - THEY HAVE A FILE ON ME
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_49581_1812280597.1657326174971"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 3783
+
+------=_Part_49581_1812280597.1657326174971
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Case Number:01421170
+Institution Name:Individuals
+Status:Open
+Date Submitted:Jul 8, 2022
+Case Number:01421167
+Institution Name:Individuals
+Status:Open
+Date Submitted:Jul 8, 2022
+Case Number:01421166
+Institution Name:Individuals
+Status:Open
+Date Submitted:Jul 8, 2022
+Case Number:01419360
+Institution Name:HSBC Bank USA, National Association
+Status:Closed
+Date Submitted:Jul 5, 2022
+Case Number:01416925
+Institution Name:JPMorgan Chase Bank, National Association
+Status:Closed
+Date Submitted:Jun 28, 2022
+Case Number:01413744
+Institution Name:JPMorgan Chase Bank, Dearborn
+Status:Closed
+Date Submitted:Jun 21, 2022
+Case Number:01410686
+Institution Name:State Farm Bank, F.S.B.
+Status:Closed
+Date Submitted:Jun 11, 2022
+
+/S/ BO DINCER 
+ 
+  On Fri, Jul 8, 2022 at 6:59 PM, B D2022<ms60710444266@yahoo.com> wrote:     
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md
+ 
+
+ 
+ 
+shared you with? I think not.
+ 
+    
+
+------=_Part_49581_1812280597.1657326174971
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Case Number:01421170<div><br></div><div>Institution Name:Individuals</div><=
+div><br></div><div>Status:Open</div><div><br></div><div>Date Submitted:Jul =
+8, 2022</div><div><br></div><div>Case Number:01421167</div><div><br></div><=
+div>Institution Name:Individuals</div><div><br></div><div>Status:Open</div>=
+<div><br></div><div>Date Submitted:Jul 8, 2022</div><div><br></div><div>Cas=
+e Number:01421166</div><div><br></div><div>Institution Name:Individuals</di=
+v><div><br></div><div>Status:Open</div><div><br></div><div>Date Submitted:J=
+ul 8, 2022</div><div><br></div><div>Case Number:01419360</div><div><br></di=
+v><div>Institution Name:HSBC Bank USA, National Association</div><div><br><=
+/div><div>Status:Closed</div><div><br></div><div>Date Submitted:Jul 5, 2022=
+</div><div><br></div><div>Case Number:01416925</div><div><br></div><div>Ins=
+titution Name:JPMorgan Chase Bank, National Association</div><div><br></div=
+><div>Status:Closed</div><div><br></div><div>Date Submitted:Jun 28, 2022</d=
+iv><div><br></div><div>Case Number:01413744</div><div><br></div><div>Instit=
+ution Name:JPMorgan Chase Bank, Dearborn</div><div><br></div><div>Status:Cl=
+osed</div><div><br></div><div>Date Submitted:Jun 21, 2022</div><div><br></d=
+iv><div>Case Number:01410686</div><div><br></div><div>Institution Name:Stat=
+e Farm Bank, F.S.B.</div><div><br></div><div>Status:Closed</div><div><br></=
+div><div id=3D"yMail_cursorElementTracker_1657326133637">Date Submitted:Jun=
+ 11, 2022<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <b=
+r> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Rob=
+oto, sans-serif; color:#6D00F6;"> <div>On Fri, Jul 8, 2022 at 6:59 PM, B D2=
+022</div><div>&lt;ms60710444266@yahoo.com&gt; wrote:</div> </div> <div styl=
+e=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D=
+00F6;"> <div id=3D"yiv1223780394">
+ =20
+
+   =20
+ =20
+  <div>
+    <p><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"ht=
+tps://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEF=
+ARM-SULLIVAN-ZUCKER/blob/main/README.md"><font size=3D"2"><font face=3D"Hel=
+vetica, Arial, sans-serif">https://github.com/WILSON-ELSER-STATEFARM-SULLIV=
+AN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md</font>=
+</font></a></p>
+    <p><br>
+    </p>
+    <p><font size=3D"2"><font face=3D"Helvetica, Arial, sans-serif">shared
+          you with? I think not.</font></font><br>
+    </p>
+  </div>
+ =20
+
+</div> </div> </blockquote></div>
+------=_Part_49581_1812280597.1657326174971--

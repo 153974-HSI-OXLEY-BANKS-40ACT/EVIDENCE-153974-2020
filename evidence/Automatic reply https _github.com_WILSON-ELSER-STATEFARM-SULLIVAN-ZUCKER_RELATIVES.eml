@@ -1,0 +1,169 @@
+From - Sun Aug 28 22:52:20 2022
+X-Account-Key: account1
+X-UIDL: AHwRR2RTc2OdYtdMMQYqIN1AYW8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.136
+ by atlas320.free.mail.ne1.yahoo.com with HTTPS; Wed, 20 Jul 2022 00:28:32 +0000
+Return-Path: <>
+X-Originating-Ip: [52.100.153.234]
+Received-SPF: pass (domain of GCC02-BL0-obe.outbound.protection.outlook.com designates 52.100.153.234 as permitted sender)
+Authentication-Results: atlas320.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@eeoc.gov header.s=selector2;
+ spf=pass smtp.mailfrom=GCC02-BL0-obe.outbound.protection.outlook.com;
+ dmarc=pass(p=REJECT) header.from=eeoc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 20 Jul 2022 00:28:33 +0000
+X-YMailISG: OToLt2gWLDs2tGiVFFLxF3ifzIZNt.e6URaIzLAJSV0kieHj
+ Gki5ssWCpkvys9IYDYr1IDYM6aLMGe4PmcdN0sBpJSy8iek1HBXQaw45ZKiV
+ DNraUcgj_3YQdSXjOHYp5g1m.vW6kj1yHOSWu.J0O84Hvc2jHQlc0xBrSvJv
+ JLJLWEedc_Cbh5OMK1vW3.REEicHfp2E4O1AcrjjiF_qaJ7h2fYSwKigALze
+ _kzruX6uwRWARC0qohSTql7GDEBqkYOoFuf.8nN2ObwQjUfW1dIkRlfWjw9U
+ mB3eASe1CaLJFSHhtSIQRZNhu7_xU4aRbxfJMlNdzwA0g_DR6hm0he3tHUTh
+ 1EYdy.38AOR2iBCT.AcnSuVm.1d07CeWd33z759TvUF99otjLhlI.I_lawqa
+ JqqataWGpHXvV45.hgKfLfmRivRY2jjCrr0WdgAgxJz9_epcGVPR82WEYewc
+ 19ApwaLNxBtyKKeaLashsWH2Rihne2VoE.ktvKR48QM8Ig34tIAPISgC5Tws
+ R0OOyp8kB33SXwgNzRV7ol53UZRwFVEkPO.Bu.PExNAVhhkhipzLhTm7m7cw
+ UW7QEEC94i4gWhjYTvZtmBGjkF3dGg8WTkZA_s3XLFsMPsN2OAByJXcvb4fu
+ Na1F3h9Hrp3B09uxUQBd068zmT6xviesodB.DS3DiKmCfI6ZlqpW8kuQQUqy
+ cz4H5hnkL_moagbu7PYS7oH6d71G77F844c4s2OWNbZwtUVFBOQt_3OsrjVv
+ TTbsSPeaRR7qfaDBEcZi8aS7285GACk6zgzsjWNAWqv6zMSPfwkT5w0L4Stc
+ _MNWxHyjNViFD7IDpJiLKxlKTR29tcwpqow.p8vQ5Yyvuj4V0iHnBWr0nQnq
+ 7d1IonDH1uzu6k5yJCLTwrUbpc57wxj3Cm__5_jhyRCDb2lW35KKNms1yDRm
+ 41c.lO_VjMi1nYYFw4Z2WoQ2aldCb3KlPSUIoAyZbbE2TaLpTNVn6.htU2Rp
+ _9LBKQiiXPVN25QS3XvbVB0DnpFJxe4ckwREh6bQqtTtU5Ij6hrfHC67_XmI
+ cyED4O0cNh8m3Zc0E0xjyQCbHhABMXQNb2VOLIV.7RQPLCrnDhW2RFcxiWge
+ GRYhNVEOarl0Y.Vwj9iUCo2jcAhX6WV9.sPED4VqBWv3ZTUIu.UNjGTtJwAP
+ 4MHuRWUTUCdrrIoRrVek__YzU72wSjDQ3YrZPHj9hQ--
+Received: from 52.100.153.234 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.217.137.136 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 20 Jul 2022 00:28:32 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ocRWIdpMJnrWW68+OiU81C8zuE8wT8znvd8Dt0fwqAR8V7tBuqw3Fsp4rY6x1yUKVjysvqraLlYNpxLfQB1a573WQdMbAw1fENlgJwqKVr2qYi2lJ/SD1hmDAWqyvgYOqlanVnDbU3bygC4+20whobSr5IdSt3a6cuzpl1FX9j+9Owa1L6nS9OF9jtb5D66EFBLbCuEs9qc1IUE3H0If1kc/p6QhrltibNgVrf2ndudotY54a21ajILscLJQ/+MTDk7wE7AXSCQTbzoCYiNkHA2d7Ix7h6Q8B64uey0LOIAD9tEfuoDUPmQlaJJIur9jnegST53841hnDlFohTXAMg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=/LBFUch+5BTQ3wzwqeDyq8/zUhexZdOh8xXWDJoDKsI=;
+ b=e8heTotPJPYSvhWFyz0NpMWGI4pxWipsBjdRQYoBfyiGo7QUmHluPoB7JfYq6nilb4idwAhkY6HDjlblb1JjtR/vgQUM5y1X7f4jCO4FweSxDE8YaSXkgFb5bgEYQxSioq9wD63r4udCj4FPu+y/0GRjyQrGqM/UmWFGjy3y2ilPe/qGk64QZdmiDQKFM97C0P40YCdHH4A3rL/Im4zGp6tswlFOqTbx25/okGE29xk2wDlk20Eyx52AzXA231+XXdp83ypooZyH/WrOgEe3KgPb9b2YHKTWeTCQyJpPmuLhvlIMPa9WLrLxyyjDGvOxLB0nE7998FtpGiNlo9+Q+g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=pass
+ action=none header.from=eeoc.gov; dkim=pass header.d=eeoc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=eeoc.gov; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=/LBFUch+5BTQ3wzwqeDyq8/zUhexZdOh8xXWDJoDKsI=;
+ b=ptaKGSrsTByvyMBPF6e2xyKjLw0mppIekKXWCAgGr2x8wXpgi+xC5+0Lus2vr2HOzcEn96e4n0STn5ymqLD3fTSYvcbwUf39AiJl4TVgtS4JPedqAnvrsWyVclLQ0JASiVkED4c3XjTa+EJGNF0ycHYaisx7Ob9M+ux13G3yDlM=
+Received: from PH0PR09MB7978.namprd09.prod.outlook.com (2603:10b6:510:73::16)
+ by SA1PR09MB7309.namprd09.prod.outlook.com (2603:10b6:806:174::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5438.14; Wed, 20 Jul
+ 2022 00:28:31 +0000
+Received: from PH0PR09MB7978.namprd09.prod.outlook.com ([::1]) by
+ PH0PR09MB7978.namprd09.prod.outlook.com ([fe80::d8c:7f6e:5e16:5271%2]) with
+ Microsoft SMTP Server id 15.20.5438.023; Wed, 20 Jul 2022 00:28:31 +0000
+From: FREEDOM OF INFORMATION ACT <foia@eeoc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Automatic reply:
+ https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES
+Thread-Topic:
+ https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES
+Thread-Index: AQHYm8+ihEe4ROwku0a/gbkhWIvVEq2GZ6fI
+Date: Wed, 20 Jul 2022 00:28:31 +0000
+Message-ID:
+ <e5f7b99b39cc4f1097138a8bb597a1b2@PH0PR09MB7978.namprd09.prod.outlook.com>
+References: <e5c90b94-d6c6-d338-c826-c628cc530b14.ref@yahoo.com>
+ <e5c90b94-d6c6-d338-c826-c628cc530b14@yahoo.com>
+In-Reply-To: <e5c90b94-d6c6-d338-c826-c628cc530b14@yahoo.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: foia@eeoc.gov
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <e5c90b94-d6c6-d338-c826-c628cc530b14@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: f95f4158-ee01-42ae-dd79-08da69e6c5f5
+x-ms-traffictypediagnostic: SA1PR09MB7309:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ lI7+LirFaxdNGv4GrD0pq6/BBQiLp7A85VTYCBJPqZDujq/C+A/xB6zH6Lk/WE9pONNOPHQnIDNt+8/DOPMsQoznsVvw3cvc+hEasTJw3w6HkygdFFPIagKjZW8ILuVAj06UNqCnePuWzJd+ufxYaMGQue4djQd4BuD1/ZJdwTVWMtssQTsO+yESiJa+NuE0yrpDqtwqfplYqcqccHpXx/wlCCnJI9fOyD6EZ4gIas5iH6mi2B3wLqQzxCdBs3l572Xo3iwaXnxS7KwqECDzZCtP8zpWYP3VTOwGJ01voQ9xDkQo2LFTJXEcVhj6D6MwdWlFnc86mTETtr6uZXM7e4FGrxb2vwL7m2ZBRYKYzXGgH5FxT5SVAxDS3lsqW07PcJ8T+UXt0b22BJGJ8fNRiMDsgwF/BVsbe9zxA8iGuUSdD+66fHD6LcI6IFavjKrU0SNyDSpHCnFcbTTygc4bAUdU3kL6J8OaJaNIRTyWAJYrLsdK+vOQfnumAVdd6HYpNoxQJCFyptjAHn1G0y6EVt8Gmnx5fABySxABskZNzolVv0rwH0QTt+MOJXzC6QQD4OkBAwsmSs1JUzVr2GVHsk8ZxCrvTaP7kN2Fpf8tX1l8Xf/S0PHG8AXcK6PVM3pufPPoKZa3pTOF71jWHeqV28Hw4Jt1uHDxMYzVVr96/xnogZEhwfq5hFNhY8g0xwdwkvHfP/wSo9LFTckgLzZjDjttKtIr0O3jgs4dwYspTAVr0kCS90t7Dtzmyo81EpFjJtJnfl9OmsiGwx11WU7Ndg==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:PH0PR09MB7978.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(50650200002)(366004)(42882007)(64756008)(55016003)(498600001)(71200400001)(83380400001)(88996005)(66446008)(8676002)(66556008)(78352004)(108616005)(9686003)(66476007)(6916009)(66946007)(24736004)(7696005)(2906002)(6506007)(8936002)(122000001)(5660300002)(966005)(477624002)(111220200005)(80100003);DIR:OUT;SFP:1501;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ O16rs3FJzAUX8BlovFZCosGWt+F67B11CP607U5LA1CdriMy979KalLSNX5h28mzSVlVAC/WXTq6hLUvOgYidgDtJ+ABAOrwu90e55Fb4tZ/J3D8MrKdnheHrPzEX/jDeiDYJSvubEUWhePpdPWzMQhuiCMMtRGtA1F/0kVoMoz97hAF778rkrGRzwiq65ddTQ1lIcxVwp3DNtyhngbjHghitzmBLMRli+EAcpGmxIEn7zeaamr2fyMQFr5WLIlex5pLYQFzwO2Sxca6oOex2r9c1Sm7tkxJad5VnhKBrbLbKiwnvKNQVp+mUh9NYn4b
+Content-Type: multipart/alternative;
+	boundary="_000_e5f7b99b39cc4f1097138a8bb597a1b2PH0PR09MB7978namprd09pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: eeoc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PH0PR09MB7978.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: f95f4158-ee01-42ae-dd79-08da69e6c5f5
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Jul 2022 00:28:31.0496
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 3ba5b943-4e56-4a2f-9b91-b1f1c37d645b
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA1PR09MB7309
+Content-Length: 2815
+
+--_000_e5f7b99b39cc4f1097138a8bb597a1b2PH0PR09MB7978namprd09pr_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+This is an automated response to your email received by a Freedom of Inform=
+ation Act (FOIA) field office unit within the Equal Employment Opportunity =
+Commission (EEOC). Please note that FOIA requests submitted to the EEOC thr=
+ough this email box may experience some processing delays. If you are submi=
+tting a FOIA request, we strongly encourage you to submit your request onli=
+ne, https://eeoc.arkcase.com/foia/portal/login . Submitting your request on=
+line, https://eeoc.arkcase.com/foia/portal/login, ensures your FOIA request=
+ is timely received and allows you to monitor the status of your request. A=
+nd, it delivers your responsive records online through a secured account.
+If you are unable to access our online portal, you can submit your request =
+directly to the office=92s FOIA email account, which you can find by clicki=
+ng on the following link: https://www.eeoc.gov//eeoc/foia/contact.cfm. Plea=
+se do not submit requests by mail, fax, or courier since we do not have acc=
+ess to these delivery methods at this time. EEOC employees are teleworking =
+full time because of the pandemic.
+
+Sincerely,
+Field FOIA Office
+
+--_000_e5f7b99b39cc4f1097138a8bb597a1b2PH0PR09MB7978namprd09pr_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+This is an automated response to your email received by a Freedom of Inform=
+ation Act (FOIA) field office unit within the Equal Employment Opportunity =
+Commission (EEOC). Please note that FOIA requests submitted to the EEOC thr=
+ough this email box may experience
+ some processing delays. If you are submitting a FOIA request, we strongly =
+encourage you to submit your request online, https://eeoc.arkcase.com/foia/=
+portal/login . Submitting your request online, https://eeoc.arkcase.com/foi=
+a/portal/login, ensures your FOIA
+ request is timely received and allows you to monitor the status of your re=
+quest. And, it delivers your responsive records online through a secured ac=
+count.
+<br>
+If you are unable to access our online portal, you can submit your request =
+directly to the office=92s FOIA email account, which you can find by clicki=
+ng on the following link: https://www.eeoc.gov//eeoc/foia/contact.cfm. Plea=
+se do not submit requests by mail,
+ fax, or courier since we do not have access to these delivery methods at t=
+his time. EEOC employees are teleworking full time because of the pandemic.
+<br>
+<br>
+Sincerely, <br>
+Field FOIA Office<br>
+</body>
+</html>
+
+--_000_e5f7b99b39cc4f1097138a8bb597a1b2PH0PR09MB7978namprd09pr_--
