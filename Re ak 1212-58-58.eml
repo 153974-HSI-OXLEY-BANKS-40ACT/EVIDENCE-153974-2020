@@ -1,0 +1,219 @@
+From - Sun Aug 28 22:45:07 2022
+X-Account-Key: account1
+X-UIDL: AMmop5xLLeLlYsodYwm0YLvvt78
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.141
+ by atlas114.free.mail.ne1.yahoo.com with HTTPS; Sun, 10 Jul 2022 00:29:23 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.169]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.169 as permitted sender)
+Authentication-Results: atlas114.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 00:29:23 +0000
+X-YMailISG: RDaWt9kWLDsCjb.XSXvMRvjF.vmdsd5En5zi2I9X0we..0E6
+ eyDGftnUxUkLjjOXyi5gGM9K8apSBTnVQkRPi7h2A_EaXjGB1oULu17vlKXx
+ Nq2NIzWQ9cdNtPvTPAmUUiyuDP8EN1n8DuEHQ5LgExBTyU177MLABqMoqNY1
+ GOBLSIjXXzWUQt3lbQ_XKatbgJCeQFHzFGWaIB2ctgS_Aus7AOutvZI0W8Rz
+ aJ6VCdRr5Xy8vVc6KPhbPtcei7JfPK0kdy8QZyf9S3TMwHoujBgb.BL.IizT
+ GvEQenfoyJ6hVTA3JMz2Am11sah1TEYa.mByzFuMl9ksn5qljsFDOPrvNiJ_
+ R8aW682eD6PbG6pgSmT5yCAMESCYO0Un.98OprYObBB1eI666gNdrbE9liPO
+ IiGByp02A3OTh7sMBT6QDlym4BwPw4zV.F7MdOudyL1pcqijucddjqsUokYa
+ sugzoGHhUPSXWoe.1HCJ4poE452yfoiq4fyjuvJRwYQo.s.oDNpKDeaZ3KWL
+ GYLYok5zb4u7UVl16wfPyCrTgTC.07VHgb_i.SJQQiV9diPqLUERGA3A7RXU
+ rA4hA4Pxpzjx.umMB7DTHxM9JmZ_kGx_rpzhqFuzksEWgxDgWffjEypioEvs
+ bgqu.dG822sZMYViYsEZUWWY7mDv_D1f4AGIw9gXrbdmH7tG74pZEv.gA614
+ jlB3orLDSTuzx3EwgIq8DovIuU5spB2Y82Zdl7DD_X7Y.9CgEy6gDMV4bNdv
+ 6L8rUOcKAbpxaQrbKAwyHZXcCt._LPXro96aVggMaDp4uMlA_pS6pMg8DF3G
+ udFNfvOdNaJ._XOGwHrhfw_f93gTqg_GgjPCDMQOHeuZEhK76u1Mj2Ifaefr
+ 45GH2olxJGoHAXvVshOIRvpMYPn15rdj42j6l5k5Gap5UMvAx5j6plK0tqSx
+ fGSBa5zHf52DChhwBCeyzRxgdbGsonpCYWpMeaHlUH_ewgPWxEhia2RhLWNf
+ Ao51Aa3bYyGnrCn_07sdaHvylpO6UfmiETMTXAnnO39i7HeKeL5RlbsuyH42
+ zo.RdA38cUJYYRgt4DzZ.CctV5GFqE_is8_gAIyltpzEoGIMHgCothHHtvCA
+ Z4HG_cmtt5JZ0LCP26zzZpAoRl4i.rjkxMJLQindlc5C3Mm09.v9X0YEIvtj
+ 4iCIafwq7mvqyFWyTmTodlZ8kg--
+Received: from 209.85.166.169 (EHLO mail-il1-f169.google.com)
+ by 10.217.150.141 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 00:29:23 +0000
+Received: by mail-il1-f169.google.com with SMTP id u13so1254957iln.6;
+        Sat, 09 Jul 2022 17:29:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=DTjrRzaE9+eKWg0NyaMnRQ1eVvr41UbQusTJzhiubKE=;
+        b=ithRA6fpyeAcFMgkYRKcpVrmbBcCtj4QIMYSbAsp2JX+ms1LQUNrDHUbcPHBjIkBcS
+         OSa8dbTqg/Rncj4Edcl2s061S3KF7IlLO7hxgMVEiewPV6NP7ztMJCuOsBuMPGgJYqP3
+         R5xETlZh+woqSAj71ih2Eu5fcWP8/cb4kuC5m7BqPzlPfajCWTSQtXyKRkxHy+GaPN7m
+         zz/RBBU+C548X5Xuq2FEKrEq6DrjnXb7i2SjKUWPOCcFL3cDwu8zugkfBNwSie31k6mQ
+         I4d/xkC0RpjVtW5KT/G88MaLB64qUA3ZZ/pHXqQl4o+f2AiSVLwmLDvzeSwlFzXYr5h0
+         1SvA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=DTjrRzaE9+eKWg0NyaMnRQ1eVvr41UbQusTJzhiubKE=;
+        b=XN5Cs4rHqkyzn6zb+inhIFm4H8QgmBNgFVVZKT5LR0e7Zz5yQcgl8b0Dde6egyLNMa
+         ufQPYaiW4CWyeCxpMKZNKhuEtNShwjacQaA5QoLAvyqwPnJMlJHQQ5uUcToeAmC4qg8H
+         HHuTHBD+z1EviMym5QrTqWi/22wjNiHRq+m/JF6qBMTW6ceoqpU0g+oCo+AUOeM/sgjM
+         +fDeVU8nZI/UGYRCXgIDZJ60BmiShqpIuvsD10X7WbeB93RqVzXqoOqP2RuSPfERGiKZ
+         WOLzDSOmqm1zzvMPmh8LiQhjgxJBRTcOwDx/dwFJi9tkSI9zDjGGroKNrbmnrEmL/DTf
+         K09Q==
+X-Gm-Message-State: AJIora/3hgZtSoH3xcH21A7q/kgAglZG1ZorUZ15e+pr4ry+/sGV6XJQ
+	iwJ8s0VhoetBe66arYUHKXfCfVgrUHJglVneoSE51Qq1
+X-Google-Smtp-Source: AGRyM1u6D73CL83pd5jnxBK1RILOwy23CCBiENyg8146d8qnsSB630cxilrBpEwQjaEeTj3r8PnmqP+yoxTIC5qoVtM=
+X-Received: by 2002:a92:6a09:0:b0:2db:efeb:6a5f with SMTP id
+ f9-20020a926a09000000b002dbefeb6a5fmr6009804ilc.290.1657412962848; Sat, 09
+ Jul 2022 17:29:22 -0700 (PDT)
+MIME-Version: 1.0
+References: <1127979039.451466.1656275174329.ref@mail.yahoo.com> <1127979039.451466.1656275174329@mail.yahoo.com>
+In-Reply-To: <1127979039.451466.1656275174329@mail.yahoo.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Sat, 9 Jul 2022 20:29:11 -0400
+Message-ID: <CAOHu488VaaziQM-0PNEZ33yxGh33duPLd4uSa6vE02HfsJoX+w@mail.gmail.com>
+Subject: Re: ak 1212-58-58
+To: Bo Dincer <bo.dincer@yahoo.com>
+Cc: 6462563609@mms.att.net, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, 
+	"MSHY15@MORGANSTANLEY.COM" <MSHY15@morganstanley.com>, colin.brooks@morganstanley.com, 
+	"Bill Cassese (ICE BONDS SECURITIES)" <bcassese19@bloomberg.net>, 
+	=?UTF-8?B?4oCLaWNlZ2xvYmFsbmV0d29yay1pbmZvQGljZS5jb20=?= <iceglobalnetwork-info@ice.com>, 
+	gs@gs.com, steve.ekert@gs.com, tmalafronte2@bloomberg.net, 
+	=?UTF-8?B?4oCLYmJyaWVmQGJsb29tYmVyZy5uZXQ=?= <bbrief@bloomberg.net>, 
+	=?UTF-8?B?4oCLYmxhd3JlQGJsb29tYmVyZy5uZXQ=?= <blawre@bloomberg.net>, 
+	Chair <chair@sec.gov>, licensing@dos.ny.gov, espnfrontrow@espn.com, 
+	ms60710444266@yahoo.com, ogis@nara.gov
+Content-Type: multipart/alternative; boundary="000000000000e596ca05e36886f1"
+Content-Length: 5845
+
+--000000000000e596ca05e36886f1
+Content-Type: text/plain; charset="UTF-8"
+
+On Sun, Jun 26, 2022, 4:26 PM Bo Dincer <bo.dincer@yahoo.com> wrote:
+
+>  #BIN-CODES PAR-ID, IN THE DECK.
+>
+>             QUARTERLY & QUARTERED.
+>
+>         #RUSSIAN-ROULETTE WHEEL ---x0x0
+>
+>    - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/27
+>
+>
+>    - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
+>
+>
+> *        #GOLIONS*
+>
+>    - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+>
+>
+>
+> #goCARDS
+>
+>    -
+>    https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490
+>
+>
+> Sent from Yahoo Mail on Android
+> <https://go.onelink.me/107872968?pid=InProduct&c=Global_Internal_YGrowth_AndroidEmailSig__AndroidUsers&af_wl=ym&af_sub1=Internal&af_sub2=Global_YGrowth&af_sub3=EmailSignature>
+>
+> On Wed, Apr 20, 2022 at 1:11 AM, BO DINCER
+> <bondstrt007@gmail.com> wrote:
+> Good am.
+>
+> Just posted these remarks earlier today on the john.
+>
+>
+>
+>
+>
+> On Wed, Apr 20, 2022, 12:28 AM <6462563609@mms.att.net> wrote:
+>
+>
+> https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:17c4202b-c23f-3581-88b7-5951778c0056
+>
+>
+
+--000000000000e596ca05e36886f1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">On Sun, Jun 26, 2022, 4:26 PM Bo Dincer &lt;<a href=3D"ma=
+ilto:bo.dincer@yahoo.com">bo.dincer@yahoo.com</a>&gt; wrote:<br></div><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex"><div id=3D"m_-2284936372305770423yiv3249061098"><=
+div><p><font face=3D"Times New Roman"><font color=3D"#ff0000">=C2=A0#BIN-CO=
+DES PAR-ID, IN THE DECK.<br clear=3D"none"></font></font></p><p><font face=
+=3D"Times New Roman"><font color=3D"#ff0000">=C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 QUARTERLY &amp; QUARTERED.</font><br clear=3D"=
+none"></font></p><p><font face=3D"Times New Roman"><font color=3D"#ff80ff">=
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 #RUSSIAN-ROULETTE WHEEL ---x0x0</font=
+><br clear=3D"none"></font></p><ul><li><a rel=3D"nofollow noopener noreferr=
+er noreferrer" shape=3D"rect" href=3D"https://github.com/BSCPGROUPHOLDINGSL=
+LC/ELSER-AND-DICKER/pull/27" target=3D"_blank">https://github.com/BSCPGROUP=
+HOLDINGSLLC/ELSER-AND-DICKER/pull/27</a><br clear=3D"none"></li></ul><ul><l=
+i><a rel=3D"nofollow noopener noreferrer noreferrer" shape=3D"rect" href=3D=
+"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7" target=3D=
+"_blank">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7</a=
+><br clear=3D"none"></li></ul><p><b><br clear=3D"none"></b></p><p><b>=C2=A0=
+=C2=A0 =C2=A0=C2=A0 =C2=A0 #GOLIONS</b><br clear=3D"none"></p><ul><li><a re=
+l=3D"nofollow noopener noreferrer noreferrer" shape=3D"rect" href=3D"https:=
+//github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER" target=3D"_blank">https=
+://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER</a></li></ul><p>=C2=A0=
+=C2=A0=C2=A0<br clear=3D"none"></p><p>#go<font color=3D"#ff0000">CARDS</fon=
+t><br clear=3D"none"></p><ul><li><a rel=3D"nofollow noopener noreferrer nor=
+eferrer" shape=3D"rect" id=3D"m_-2284936372305770423yiv3249061098yMail_curs=
+orElementTracker_1650569167914" href=3D"https://github.com/users/BSCPGROUPH=
+OLDINGSLLC/projects/1#column-18309490" target=3D"_blank">https://github.com=
+/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490</a></li></ul><br cle=
+ar=3D"none"><div id=3D"m_-2284936372305770423yiv3249061098ymail_android_sig=
+nature"><a rel=3D"nofollow noopener noreferrer noreferrer" shape=3D"rect" i=
+d=3D"m_-2284936372305770423yiv3249061098ymail_android_signature_link" href=
+=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Internal=
+_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInterna=
+l&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature" target=3D"_bla=
+nk">Sent from Yahoo Mail on Android</a></div> <br clear=3D"none"> <div id=
+=3D"m_-2284936372305770423yiv3249061098yqt77724"><blockquote style=3D"margi=
+n:0 0 20px 0"> <div style=3D"font-family:Roboto,sans-serif;color:#6d00f6"> =
+<div>On Wed, Apr 20, 2022 at 1:11 AM, BO DINCER</div><div>&lt;<a href=3D"ma=
+ilto:bondstrt007@gmail.com" target=3D"_blank" rel=3D"noreferrer">bondstrt00=
+7@gmail.com</a>&gt; wrote:</div> </div> <div style=3D"padding:10px 0 0 20px=
+;margin:10px 0 0 0;border-left:1px solid #6d00f6"> <div id=3D"m_-2284936372=
+305770423yiv3249061098"><div><div>Good am.=C2=A0=C2=A0<div><br clear=3D"non=
+e"></div><div>Just posted these remarks earlier today on the john.=C2=A0</d=
+iv><div><div><br clear=3D"none"></div><div><br clear=3D"none"></div><div><b=
+r clear=3D"none"></div></div><br clear=3D"none"><br clear=3D"none"><div><di=
+v dir=3D"ltr">On Wed, Apr 20, 2022, 12:28 AM  &lt;<a rel=3D"nofollow noopen=
+er noreferrer noreferrer" shape=3D"rect" href=3D"mailto:6462563609@mms.att.=
+net" target=3D"_blank">6462563609@mms.att.net</a>&gt; wrote:<br clear=3D"no=
+ne"></div><blockquote style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex">
+=09
+	=09
+	=09
+=09
+	<div>
+          =20
+           =20
+          =20
+           =20
+                <table><tbody><tr height=3D"15" style=3D"border-top:1px sol=
+id #0f7bbc"><td colspan=3D"1" rowspan=3D"1">
+                        <a rel=3D"nofollow noopener noreferrer noreferrer" =
+shape=3D"rect" href=3D"https://acrobat.adobe.com/link/track?uri=3Durn:aaid:=
+scds:US:17c4202b-c23f-3581-88b7-5951778c0056" target=3D"_blank">https://acr=
+obat.adobe.com/link/track?uri=3Durn:aaid:scds:US:17c4202b-c23f-3581-88b7-59=
+51778c0056</a>
+                    </td></tr></tbody></table></div>
+
+
+</blockquote></div></div></div>
+</div> </div> </blockquote></div></div></div></blockquote></div>
+
+--000000000000e596ca05e36886f1--
